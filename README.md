@@ -45,7 +45,7 @@ One-time steps. Both GitHub and Cloudflare are free to sign up for.
 
 2. **Cloudflare account** — Sign up at cloudflare.com. The free tier includes everything you need.
 
-3. **Domain** — Add your domain to Cloudflare by pointing your nameservers to Cloudflare and copying over your DNS records.
+3. **Domain** — Register a domain through Cloudflare Registrar, or transfer an existing domain and point its nameservers to Cloudflare. The domain must be on Cloudflare's DNS for Workers routing to work.
 
 4. **Create a Worker** — In the Cloudflare dashboard go to **Workers & Pages → Create → Worker** and give it a name.
 
@@ -53,7 +53,7 @@ One-time steps. Both GitHub and Cloudflare are free to sign up for.
 
 6. **Add your domain** — In the Worker go to **Settings → Domains & Routes → Add Custom Domain** and enter your domain. Cloudflare handles SSL automatically.
 
-7. **Disable the default URL** *(optional)* — Cloudflare gives your Worker a default URL you probably don't want. Under **Settings → Domains & Routes**, disable it.
+7. **Disable the workers.dev subdomain** — Under **Settings → Domains & Routes**, disable the `*.workers.dev` URL. Also set `workers_dev: false` in `wrangler.jsonc` so deploys don't re-enable it.
 
 8. **Add a security rule** *(optional)* — Ask Claude to set up a WAF rule in Cloudflare to block common bot traffic.
 
@@ -124,4 +124,15 @@ Add a dark/light mode toggle that persists across sessions.
 ```
 ```
 Add a /feed.xml RSS feed for my now entries.
+```
+
+**Maintenance**
+```
+Audit the site for any dead code or unused assets and remove them.
+```
+```
+Review the CSP headers and tighten anything that's too permissive.
+```
+```
+Update llms.txt to reflect the current state of the site.
 ```

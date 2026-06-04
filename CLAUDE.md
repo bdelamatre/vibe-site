@@ -182,17 +182,58 @@ When making changes, check whether any of these files need updating:
   (action: Managed Challenge):
 
   ```
-  (http.request.uri.path contains "wp-")
-  or (http.request.uri.path contains ".php")
-  or (http.request.uri.path contains ".env")
-  or (http.request.uri.path contains "/.git")
-  or (http.request.uri.path contains "xmlrpc")
-  or (http.request.uri.path contains "phpmyadmin")
-  or (http.request.uri.path contains "phpinfo")
-  or (http.request.uri.path contains "/.aws")
-  or (http.request.uri.path contains "/.ssh")
-  or (http.request.uri.path contains "/cgi-bin")
-  or (http.request.uri.path contains "/autodiscover")
+  (lower(http.request.uri.path) contains "wp-")
+  or (lower(http.request.uri.path) contains ".php")
+  or (lower(http.request.uri.path) contains ".env")
+  or (lower(http.request.uri.path) contains "/.git")
+  or (lower(http.request.uri.path) contains "xmlrpc")
+  or (lower(http.request.uri.path) contains "phpmyadmin")
+  or (lower(http.request.uri.path) contains "phpinfo")
+  or (lower(http.request.uri.path) contains "/.aws")
+  or (lower(http.request.uri.path) contains "/.ssh")
+  or (lower(http.request.uri.path) contains "/cgi-bin")
+  or (lower(http.request.uri.path) contains "/autodiscover")
+  or (lower(http.request.uri.path) contains "/.svn")
+  or (lower(http.request.uri.path) contains "/.hg")
+  or (lower(http.request.uri.path) contains "/.vscode")
+  or (lower(http.request.uri.path) contains "/.circleci")
+  or (lower(http.request.uri.path) contains "/etc/")
+  or (lower(http.request.uri.path) contains "/proc/")
+  or (lower(http.request.uri.path) contains "/storage/")
+  or (lower(http.request.uri.path) contains "/config/")
+  or (lower(http.request.uri.path) contains "/secrets")
+  or (lower(http.request.uri.path) contains "/credentials")
+  or (lower(http.request.uri.path) contains "web.config")
+  or (lower(http.request.uri.path) contains "vercel.json")
+  or (lower(http.request.uri.path) contains ".jsp")
+  or (lower(http.request.uri.path) contains "/tmui")
+  or (lower(http.request.uri.path) contains "/actuator")
+  or (lower(http.request.uri.path) contains "/server-status")
+  or (lower(http.request.uri.path) contains "trace.axd")
+  or (lower(http.request.uri.path) contains "/telescope")
+  or (lower(http.request.uri.path) contains "/helm/")
+  or (lower(http.request.uri.path) contains "/vendor/")
+  or (lower(http.request.uri.path) contains "/debug/")
+  or (lower(http.request.uri.path) contains "/backup")
+  or (lower(http.request.uri.path) contains "graphql")
+  or (lower(http.request.uri.path) contains "/api/gql")
+  or (lower(http.request.uri.path) contains "+cscoe+")
+  or (lower(http.request.uri.path) contains "alfacgiapi")
+  or (lower(http.request.uri.path) contains "alfa_data")
+  or (lower(http.request.uri.path) contains "/___proxy")
+  ```
+
+  Optionally add a second rule (also Managed Challenge) targeting known scanner
+  user-agents. Exclude bare `curl`/`python-requests`/`Go-http-client` so your
+  own scripts and monitors aren't challenged:
+
+  ```
+  (lower(http.user_agent) contains "l9scan")
+  or (lower(http.user_agent) contains "leakix")
+  or (lower(http.user_agent) contains "nuclei")
+  or (lower(http.user_agent) contains "sqlmap")
+  or (lower(http.user_agent) contains "nikto")
+  or (lower(http.user_agent) contains "masscan")
   ```
 
   Blocked requests appear in Security Events, not worker invocation logs.
