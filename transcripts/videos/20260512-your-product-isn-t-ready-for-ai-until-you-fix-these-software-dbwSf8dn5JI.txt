@@ -1,0 +1,599 @@
+Your Product Isn’t Ready for AI Until You Fix These Software Mistakes
+=====================================================================
+
+Video ID:  dbwSf8dn5JI
+URL:       https://www.youtube.com/watch?v=dbwSf8dn5JI
+Published: 2026-05-12
+Duration:  00:38:59
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+It's a frustrating truth of the universe, unfortunately. When it comes to a work
+product, you just can't assume that anyone's going to either read your manual, they're
+not going to read even the title of your application, they're not going to literally
+read anything unless they are a captive audience in some way, shape, or form. >> Welcome
+to SaaS That App, building B2B web applications. The podcast where we share real-world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech-enabled business. I am your co-host, >> Aaron Marshbanks. >> And I'm
+Justin Edwards. Each week we bring you the stories, strategies, and insights you need to
+build your SaaS or tech-enabled business smarter, not harder. Let's dive right in. >>
+Hello and welcome back to SaaS That App. Hope everybody's been having a good time this
+spring and enjoying finally some decent weather. With me as always, my good friend and
+partner in crime, Justin
+
+[00:01:03]
+Edwards. How's it going, Justin? >> It's doing pretty well. I got a new shirt for you.
+>> Reach for the stars. Nice. >> [laughter] >> It's like a little nerdy and a little
+fatalistic cuz I've got the meteor here. So >> Well, it's it's somewhat appropriate to
+you because in in Garrett, we do have some some aerospace background that we may we may
+chat a little bit about. >> [laughter] >> I I totally planned that. It was exactly >> I
+figured that you would. And uh speaking of Garrett with a C, today is Garrett Fritz. He
+is partner and CTO at Meta CTO where he helps companies transform their digital products
+through practical mobile and AI solutions. He has spent his career uh in a CTO role a
+lot helping teams make smarter architecture decisions, deliver more with less, and build
+products that are reliable in the real world. He is also known for his nobody reads
+philosophy, which I have questions about, uh but is a rather pragmatic approach to
+building software that explains itself, reduces friction, helps teams avoid the kinds of
+complexity that slow products down in general, uh being a good steward with the client.
+So,
+
+[00:02:05]
+Garrett, welcome to the show. >> Thanks, Aaron. Happy to be here. >> So, something that
+I did not get to ask you in our briefing call, and I actually really wanted to because
+we were in the throes of watching Artemis uh circling the moon or or or heading to the
+moon. I know that you got background and some experience in that uh with with uh
+aerospace aeronautical engineering from Were you very excited, or were you just like,
+"Oh my gosh, I've had enough"? >> Absolutely thrilled. You you never grow out of that,
+and uh uh yeah, as you mentioned, I do have that degree. I didn't I don't use it a heck
+of a lot anymore except to bring it up as early and often as I can. Um but uh I I did
+actually exercise that that degree for uh 5 to 5 years or so after college, built more
+mostly in the aero uh sector. I was uh a a prime contractor for the DoD building
+helicopter simulators and stuff like that. It's a lot of fun. My wife uh who I met at
+MIT is still very much in it. She does uh a lot of satellite work, GPS systems, and so I
+get a little bit of a, you know, contact high uh on a day-to-day basis, but uh
+
+[00:03:09]
+um uh in my actual working life now, it's a lot more uh grounded tech focused. Um so, uh
+it's always nice to see the uh the big events. >> Absolutely, yes. >> lot of admiration
+for anybody who had to do more math than I did for their degree. So, uh I'm not a whole
+lot of degrees require more, but uh yeah, those uh those intense engineering fields are
+are among them. >> A lot of math. A lot of math. >> So, speaking of math and and now in
+software, how did you make uh how did you make that jump? What was that What was that
+progress like going from going from math into tech in general and software? >> Yeah, I
+mean, the the decision was uh was very much, you know, career focused and uh came down
+to uh those practical things of my wife didn't want to live in Colorado. Uh so I left
+that job that I was at in Denver and it was just the first first one that I found in in
+Los Angeles, which happened to be a uh Android developer role for a startup that was
+building social networks for big brands like Major League Baseball, Liverpool FC, stuff
+like that. So,
+
+[00:04:12]
+um uh it was a it was a pretty personal decision to to just jump ship, but like uh can't
+be too upset about that. I mean, it ended up being one of the more uh marketable skills
+going into a software dev uh work at least, you know, it was 15, 20 years ago. >> Yeah,
+sometimes having those really having those really clear bright-line requirements make
+things easier. Like, well, we're not staying in Colorado, so well, okay, it's we've
+eliminated one option. >> [laughter] >> And so, I mean, it it's it's great. I mean, at
+my nature, I mean, um uh I'm I'm an engineer, I'm a problem solver. So, it doesn't
+really matter if we're we're building, you know, simulators or if we're building um uh
+software solutions or for, you know, building a model rocket, it's all it's all the same
+thing. We're we're trying to trying to come up with uh a solution to a problem, trying
+to, you know, engineer something, be creative to whatever extent possible. And and so,
+anything that allows me to do that and in my current space allows me to do that on
+dialed up to 11 and I'm pretty happy and it makes us that way. >> Got you. Pretty cool.
+So, I'm I'm
+
+[00:05:14]
+imagining that uh you know, life in aerospace and uh to to Justice point last myth, but
+uh certainly working for the DOD, there's a pretty high bar, I mean, uh you know, for
+quality and and precision and uh sometimes, well, often that over speed. And it's kind
+of been my experience in software, it's almost the reverse of that, where speed often
+wins over, you know, the degree of quality or perfection that you're looking for. Have
+you found that to be true or was this like just a barely a step over in this direction
+and you just carried everything with you. >> Yeah, it's wild. Um, it's definitely you
+know, that that traditional prototypical triangle of of things. You have the quality,
+speed, and cost and you can pick two, right? Um, for for things that you can optimize.
+Um, definitely as a as a government contractor, uh, you have a lot more of that
+regulation, red tape, you know, certain processes you got to follow. Um, but that also
+comes with the cost associated with that. And um, when we're dealing with, you know,
+fast tech, uh, you
+
+[00:06:18]
+usually especially on the startups don't have so much of that that pricing flexibility.
+And so, um, it's really quality and speed that that gets enhanced. And so, really it's
+just kind of depends on what that that appetite is. And and two different companies,
+even if they're both, you know, tech startups will value those differently. Uh, you have
+one going into or providing financial solutions, there's no question you still need that
+quality and the and that um, that assurance and and capabilities. Whereas, if you're
+just building a dating app, who else cares? Just whip the thing out as fast as possible
+and then get it through. And so, um, uh, for us it's really a matter of like, okay,
+well, how do we get a team in place that could support either one and uh, just kind of
+like set your dials and and kind of operate in that space. But, you know, there's a
+little bit of whiplash sometimes. Like, this worked only fine for these other people.
+Why why are you upset now that we don't necessarily have documentation? Um, um, when you
+told us you don't want to pay for documentation. Um, stuff like that. Uh, whereas that
+sort of thing is
+
+[00:07:21]
+all pre-negotiated and up front when you're dealing with with the government. But, uh,
+it's a little more loosey-goosey with the private contracts. >> Got you. So, you have
+uh, you been CTO or you are acting as CTO uh, still and and across, you know, many years
+now and in many different organizations. I'm I'm just kind of curious, what's your what
+is kind of your approach when you're either stepping into the CTO role or you are
+helping people who need fractional CTO or who need your services, uh, you know, your
+first time dealing with a product, dealing with a team, you know, what what is your
+approach there? >> Uh, you mentioned my my first principle of software development
+already, which is nobody reads. My second principle of software development is the
+previous guy wasn't an idiot. Um, so, which is uh, tends to be a uh, a guiding factor
+when any developer or any sort of um, expert comes into the reins, it's just assuming
+that everything before was wrong and you got to start over. But we try not to do that to
+the greatest extent possible. Like no matter what, if you come to us with with nothing
+or um, there is there we're taking over from from a from another org
+
+[00:08:24]
+or like there is a a previous um, person in place that was the CTO or if this is just a
+brand new idea, there's a lot of thinking, you know, that went into whatever, however
+you got to wherever you were at. And um, my goal at the very beginning when stepping in
+is to understand as much of that as humanly possible, right? Um, take take the time to
+really appreciate the the think work that went into that, what where the where the
+bodies are buried and how they got there in the first place and what decisions put them
+in the ground and and um, and then, you know, after understanding, you know, where
+you've been, I can help you get to where you want to go. And so, um, it's a it's really
+easy to just say, hey, forget all that and just let me build you something brand new,
+but um, the the harder job, but, you know, the more um, the um, probability to succeed
+is to not stumble over the same rocks that that got you to where you're at. So, that's
+my answer for, you know, how I get kind of started is is is a lot of uh, questions and
+not so much suggestions on the beginning is is how I try to keep that focus. >> I
+absolutely love that. I think that uh,
+
+[00:09:26]
+understanding is the the basis of all good recommendations. You have to actually
+understand the situation and what's going on. Do you have an example or a fun story for
+something that was like very peculiar that you later found out was important for for a
+reason? >> Probably. Um uh and uh but uh a lot of those are more uh sad stories before I
+had that principle in place, right? Well, that I didn't get this philosophy of, you
+know, the previous person was a knucklehead just because I had this great idea. It's
+because I occasionally was a more, you know, abrupt and super confident young
+whippersnapper CTO and it was, yeah, I can do this absolutely better in a day. And um
+it's not until you start turning systems off that you realize how the criticality of
+those. And so um there there may have been one or two scenarios in my early 20s where I
+may have deployed a brand new greenfield version of of a platform and heard from some
+angry customers who said, "Hey, what about my ability to upload a CSV?" And I said,
+"Well, why are you uploading
+
+[00:10:28]
+CSVs? The interface is so smooth. Just use that instead." Yeah. Uh no, it doesn't it
+doesn't work with 10,000 different records that are all malformatted and have their own
+fuzzy mapping. So, um yeah. Uh not so much anymore, unfortunately, because because of
+the new philosophy, but uh yeah, that uh that was a lesson learned. >> Yeah, I I like
+approaching that with the last guy wasn't an idiot and even if what's right for the
+business now isn't what was right for the business then, that guy was working with
+different constraints or that guy was working with different requirements and different
+stakeholders. And so, coming in and just assuming that they were incompetent is not
+probably the best place to start uh and especially where you rob yourself of the ability
+to take all of their hard-won learnings and all their hard-won hard-won lessons forward.
+Even if you are going to rewrite, it's like go seek to understand first. So, that's
+that's absolutely fantastic. Real quick, this episode is brought to you by Delta
+systems, which is what Aaron and I do when we're not talking through microphones to you,
+the people of the internet. We've got a really, really great software team here and we'd
+love to work with cool people on cool
+
+[00:11:31]
+projects. So, if that sounds like you and you've got a problem or you're in some kind of
+a jam, go to deltasystems.com, grab a time with us, we can beat up on your problem
+together and if there's a fit there, amazing, we'll help you out. So, deltasystems.com,
+grab an appointment and hey, maybe we can work together. >> That that was kind of the
+birth of your second principle. Talk to me a little bit about the first one, the the
+nobody reads thing. That's very interesting to me. >> Yeah, it's a it's a frustrating
+truth of the universe, unfortunately. And from a from a broad sense, what I mean is, you
+know, of course people read books and and novels and and sci-fi and all that kind of
+stuff, but like when it comes to a work product, you just can't assume that anyone's
+going to either read your manual, they're not going to read even the title of your
+application, they're not going to literally read anything unless they are captive
+audience in some way, shape or form. And even beyond just your users, the the people who
+are working with you and developing your product also, you can't assume that they're
+going to read the specifications or the requirements or
+
+[00:12:34]
+the use cases that you want to handle. And so, how do you get over that? It's you still
+you can't just stop writing, you know, you still need to have kind of that covered the
+base of of what it is we want to build, where we want to go, but what's core is getting
+understanding and buying in some other way. Is it by intuitive interfaces? Is it by a
+conversation with whoever your audience is? Is it some sort of viral video that you
+create just to spit out and say, "This is how you use my product?" There's just needs to
+be some other transparent way to to get across. And that I would say that that's no
+that's never been more true than in this now age of AI slop where text is just very
+cheap to create these days. And I'm sure you're no stranger to this. It is easy to spot
+when something is generated by AI and not only do you not read that, but you don't even
+focus in on the the text. It's just fuzzy and blurred and through, and you just kind of
+scroll all the way to the bottom, and okay, well, there's no information here. And I
+feel
+
+[00:13:37]
+like uh just even uh outside of our space of of software development, I think the the
+layman regular person is also uh becoming numb to that sort of block of text experience,
+right? That's uh we got to find a better and and uh more interesting ways to to, you
+know, solve these problems visually and um and and creatively that that don't make us
+blend into the AI's crowd. And it's now a little bit even worse because not only are
+people not reading, but it's starting to become very easy to detect like AI-generated
+design. And so now every every little uh bit of software that you're seeing out there is
+starting to uh become, I don't know, this amorphous blob of of AI where you've got these
+rounded corners, you got the colored left bar edges, and and all the menus kind of look
+the same, and so standing out of that world is is now uh difficult because well, what do
+you want to do? Do you really want to pay high high cost design to to really be be
+aesthetically pleasing and and uh jump out, or are we going to find some other clever
+way with maybe UX to to to get things across? So, um it's just easy to
+
+[00:14:42]
+get blended in um when you're relying on the what what traditionally you should be able
+to rely on, which is being able to communicate through written specs. That's uh that's
+not that's not the world we live in. >> Does that extend into documentation on code or
+repos or things like that for developers' sake, or is it mainly a customer-focused kind
+of philosophy? >> Uh mostly customer-focused. However, it's interesting when you're
+talking about like a developer kind of space and specs in the sense that nobody reads.
+Yeah, that's uh true for humans, but AI sure as hell does. And so now it's actually okay
+that your specs and your comments and your documentation, when it comes to technical
+documentation, is an ocean of text. In fact, it's almost preferred as long as it's, you
+know, cr- relatively accurate. And so, um, it's it's almost leaning the other way when
+it comes to code documentation and and product specification if you're leveraging these
+AI tools to to get across and, you know, sure you're no stranger to that and neither is
+your audience, but um, that is effective. Now,
+
+[00:15:44]
+it's never going to move the needle with with your end users unless you're starting to
+also be on the very cutting edge of your product, which is starting to market and
+provide your products and services to other agents. Um, so, uh, that is not totally
+unheard of. I mean, AI LLM search optimization is a thing, right? We use it on our site.
+We generate content specifically to get scraped by ChatGPT searches and and things like
+that. In that case, yeah, oceans of text are very much read. Um, but but not the humans
+that you eventually want to capture with it. So, we uh, kind of do a little bit of both.
+We have sort of the hidden mechanisms of of text to get caught as the as the experts in
+the field and get that uh, uh, generative optimization, but then, you know, be flashy
+and and stand out for the for the eyeballs that invariably then follow that lead. >>
+Yeah, we just got back from MicroConf and that was a topic that came up. Obviously, AI
+in general was just ever present, but specifically where it's going, you know,
+directionally speaking and probably in the near term is is that
+
+[00:16:48]
+whole agent-to-agent thing. Um, you know, because everybody in the room is worried that
+they're about to get replaced by a very, very cheap version that somebody throws
+together in a 5-code over a weekend versus just extending what they actually already
+have, which may have decent market share and provide a good service, and treating
+another AI or another agent as another customer um, for their services to be able to to
+continue to leverage it in in interesting ways. So, yeah. >> Yeah, if you're worried the
+internet wasn't dead already, then it's now going to be completely agents. Then you're I
+facing with agents. >> It's interesting. I mean that the the statistics on, you know,
+how quickly the corner is turning even just even just as a search tool. Um, you know,
+how many people are moving away from the traditional search stuff and just exclusively
+using whatever flavor of AI um and and LLM that they're they're tinkering with as the
+search tool. >> Absolutely. And you know, the the that was something that I I was
+reminiscing with my business partner. We're in Vegas last week for the Google Next
+conference. Um same thing. It was just, you know, agents up and down the board. Um but
+we were discussing like from the
+
+[00:17:53]
+big uh coming um to market moment of ChatGPT three, four years ago, right? It was, "Oh
+my god, Google's dead. They're they're never going to survive this, right?" No one's
+ever going to search. But then at the same time, AI uh those AI search results
+absolutely sabotaged us during that trip when we tried to find a vegan restaurant for us
+to make a reservation for. Sure, go to this place. And we even helped us get at the
+number to the reservation. We we called it up. We made we made it. And then the next day
+they called to confirm the reservation. We said, "Oh, by the way, we're vegan." Uh I'm
+not. My my business partner is. Um and they said, "Oh, well, we don't have any vegan
+food and we can't serve you. And oh, by the way, there's a cancellation fee $300 each."
+It's like, "Oh my god, are you serious?" And uh and uh unfortunately, the excuse that we
+gave them of, "Well, it this AI bot said you guys do serve vegan" didn't actually fly
+and they didn't accept that as as a valid excuse. So, um the in in that sense, I think
+uh traditional search on on Google and and uh internet still has a place, especially
+when it comes to like
+
+[00:18:54]
+confidence. I mean, how many times have you searched on Google and you've just had to
+scroll past the Gemini results at the top because you just either knew it was already
+wrong from the get-go, there's no way it would be correct, or when you looked at it,
+yes, this is actually something I know about and this is also incorrect. So, um then so
+all these hacks of how do I remove the AI from the search minus AI or whatever. Um, so
+it I'm sure there is a practical future in the very near future where that becomes more
+reliable, but still they ain't figured that bit out yet. One pain point uh that we
+recently experienced. So, thanks thanks Google. You owe me 400 bucks for a week. >>
+Haven't had uh early be quite so straight quite so quite so badly. Had Claude dump one
+of my development databases recently, but uh 200 bucks a a pop for a voice that doesn't
+have vegan food is that's that sounds awful. >> Well, I mean I'd I'd prefer it not my
+dev database. Although I saw this morning there's a there's another article of a dumping
+a production database for some poor lowly uh developer who's trying to trying to use it.
+You see that all the time. >> That's not going to stop anytime soon.
+
+[00:19:57]
+>> It's not going to stop anytime soon, but and it's not going to slow people down
+honestly. Like as much as um, you know, we get this all the time because half of our
+business is like, you know, the startup type people, the people who've got like some
+idea they've they've played around with Replit or something and the other half is more
+like mid-market enterprise kind of like um, uh context engineering type stuff. But for
+the for the startups, you know, eight out of 10 of them have tried something on Replit,
+right? They've gone on there. They've they've tried to build a proof of concept and and
+they just aren't phased with those worries of hey, you know, this if you connect this to
+your Stripe account, you may end up getting a lot of billing or did you do you know what
+the cost of hitting the Google Places API is? And if you just try to scrape for all of
+Southern California, you're going to get a $10,000 bill. Doesn't bother them, right?
+Because it's like it's it's hard for them to kind of internalize what the what the risks
+are about API key leakage and and utilization and no one really has a concept of of
+software cost. So, I think the the warnings aren't slowing people down so much, but when
+it comes to like trying out these tools and like pretending to be moonlighting as a
+software developer, what I think will slow people down is the cost of these tokens.
+You're seeing
+
+[00:21:01]
+more and more of these these platforms dropping these kind of flat rate sort of like
+$100 for, you know, all you can eat uh tokens. And like just yesterday uh Copilot is
+switching to um usage-based um tokens. And it's cuz they're all just losing money hand
+over fist, right? And so, the gravy train of just like token up the everything and every
+model that becomes even more token greedy um to get things through is just going to be
+now a a bigger barrier. So, um over the last couple years it's been um the the promised
+land for for all these folks of just, "Yeah, just whip it out and and and uh get your
+proof of concept down and it's going to become pretty close to now, those proof of
+concept from it cost you $10,000. It cost you $50,000. And maybe you want to talk to
+somebody you can use those tokens a little more efficiently and actually get you a
+product that isn't a big throwaway at at the beginning. So, um it'll be very interesting
+to see the cost uh models as as they progress because you can definitely spend those
+tokens fast. And that's not even misutilizing the APIs that those underlyingly uh go
+across, right? So, um yeah, dollars start dollars will make big big impact in this
+
+[00:22:03]
+market, I think, over the next uh six months even. >> Yeah, and I think that they saw
+that coming quick enough. I mean, there's there's a notion now, of course, with, you
+know, token maxing and uh you know, for every hire that you make, you also need to hire
+an equivalent amount of tokens for that person. And yeah, they I think they saw that
+early enough uh that they're able to make that adjustment and I mean, good on them for
+doing it, but holy smokes. I'm just reading some of those numbers uh on on I I'm I don't
+I don't even know how you can use that many I mean, if I was trying, I don't know if I
+could do that. >> Yeah, and like just to give you a sense of like what uh our
+environment we have we do have, you know, a lot of developers and they're all uh
+leveraging these tools, but like and I'm not, you know, the the implementation engineer
+on any of these projects, but I've got two computers here, four monitors, and everyone
+has two cloud sessions on it, right? And I'm still comfortably in the max plan uh of
+Cloud. I mean, I get some some overutilization, but I'm not uh powering a bit. But then
+what ends up happening and this very uh dangerous is it's very easy to connect your your
+API uh
+
+[00:23:07]
+key, which is tied to your token utilization, which most people have uncapped, to other
+third-party integrations. And so, um just like it's you just hit the big approve key,
+right? Yes, yes, yes, approve. It's like agreeing to terms of service and privacy
+policies, right? Um once you get that first hit of getting some benefit, um then you're
+just out there and all all of a sudden you're connected, your um your cloud key to your
+GitHub repo, and now it's checking and doing pull request reviews on all of your third
+parties that you've pulled in. Oh now you've just spent $10,000. For completely useless
+stuff, right? That's not product development, that's just like completely uh tangential
+to the work you're trying to do. It's just Technically, you asked them to do it. Uh so,
+fun fun stuff and you can really uh run up a bill. And I don't think they're super
+cooperative with refunds on on those. I have not I've not yet heard anyone who's able to
+like call that back. >> There's an actionable take away for anybody listening. Put a cap
+Put a cap on your token utilization. You can always raise it. They they will make it
+easy for you to raise it if you need to, but just put
+
+[00:24:09]
+one in place cuz you might get surprised You might get surprised and it might be ugly.
+So, with all your with your customers and the people you're advising and working with in
+terms of bringing AI into product or having uh AI flight product features that are AI,
+not AI as a coding tool or as a marketing tool. Like, what are you What are you seeing
+that's working or what are people doing that's kind of interesting? >> The big thing
+that we're uh driving it to and we're we're finding uh quite a bit of appetite for is
+the um kind of governed utilization of agents. Um so, this is more for like the mid-
+market enterprise type type customers, the folks that are uh already pretty cautious
+about uh their data, the uh exposure of that. Um they they have uh compliances like ISO,
+SOC 2, HIPAA in some scenarios that they just you know, it's non-negotiable. They can't
+just hook up a robot to all their data and just say, "Go to town, right? Um but uh the
+uh the uh the whole utilization of and concept of of having these agents and and LLMs
+accessing is to enable sort of loosey-goosey development and product implementations,
+right? So, the real
+
+[00:25:11]
+question is, well, how do we enable our especially non-technical staff to be able to
+leverage, you know, this agentic AI uh across our systems without like sacrificing our
+compliance and uh our our our um our customer faith and and our data security layers and
+cuz they do have those enterprise layers of security on. So, um uh that was one of the
+the I mean, that was the topic of conversation at at Google Next conference last week
+was as you would expect rebranded their Vertex AI system into Gemini Enterprise and it
+was all about uh how you can leverage those uh uh enter- enterprise-level securities,
+role-based access, IAM-type policies into your agentic workflows. And uh and that's been
+uh what we've been hearing from from the market for for a while is like how how do we
+turn that uh kind of corner and not be just running off of our dev team's laptops and
+and getting those kind of ad hoc reports, but how do we enable our entire organization
+and still have that confidence that that we're not we're not overspending, we're not uh
+developing stuff that just sits in POC limbo, but we're actually
+
+[00:26:13]
+developing uh you know, production-ready agents that can be used across our internal
+workforce um that uh to enable them to do their jobs, but then also potentially monetize
+and and uh expose those their agents to their to their public as well. So, um yeah, it's
+uh governed agent access and uh almost making it uh somewhat deterministic in its
+deployment and utilization, which is kind of sort of counterintuitive, but um it is
+putting guardrails around agents, which is I think going to be uh the bread and butter
+of companies like us uh moves us away from having to say, "Oh, yeah, we're not just
+Replits or ChatGPT, right?" Which the price point is just a fight to the bottom. This is
+now how do you deliver, you know, enterprise value for for those those customers that
+can that can afford to pay for it, can value it, and and really benefit from that sort
+of lover of security when it comes to energetic workflow. >> Would you say that you're
+still kind of in the in the space of someone comes to you, a founder, a CTO, a startup
+or whatever, and they have grand notions and they they
+
+[00:27:18]
+AI AI I want to want to put this in and you actually then have the conversation with
+them and discover AI is not the solution that they need or is not the output that they
+need versus oh yeah, you're absolutely right, it needs to do all of these things. Are
+you still having those types of conversations? >> Yeah, first of all, I'm not sure
+there's been any startup in the last 6 months that doesn't claim to be an AI company. >>
+All right. Good gravy. >> Every single one. Some of them are fancy if statements and
+some of them should still say be say if statements for for years and years and years,
+but yes, there is there's no one who comes to the door right now that doesn't ask for
+AI. Um and it's up to us to kind of determine where that fit is. And a lot of I'd say
+like half the time it's just wildly inappropriate or like the AI component that they're
+asking for is what we would call like in phase seven, phase eight, something like that
+because you know, ultimately it's just not everybody wants a chatbot and your users
+probably don't want a chatbot when then a lot of times if they end up to developing that
+sort of AI component it's like, why don't your users just use
+
+[00:28:20]
+ChatGPT to get what they're trying to accomplish, right? And so what we're seeing and
+what we're trying to drive people towards is more of the the niche kind of
+implementation of what they're actually trying to accomplish instead. So you know, get
+to the root of that problem and then solve. So the the answer is yes, we do we do we
+still do quite a bit of that. Our market positioning is obviously evolving and moving
+around, but I'd say about 50% of our revenue is still like app products in some way,
+shape, or form is it uh apps, SaaS products, stuff like that, where we're solving a
+specific problem for a specific uh user base. And um and half of those are very AI-
+enabled, like they have their own agents, they're all deployed. Um the the they um are
+not like chatbot necessarily, but like you're getting uh recommendations and and uh
+streamlined workflows and using uh LLMs and and those function calls and tools and MCPs
+and things. Um but the other half, you know, still traditional apps. Uh they're just
+like very, very specific to the problem they're trying to solve. They have a customer
+base already ready to utilize those, and they're just happy that the company has dot AI
+in the domain.
+
+[00:29:23]
+>> Have you run across any that that are you know, you get the requests, you kind of
+validate the request, okay, yes, I think this probably would be uh a good opportunity to
+inject some form of of AI into your services or systems or whatever, but it's been more
+challenging or or more engineering-heavy maybe than the founder was thinking? Like they
+came in the door with, "Oh, no, I just want to do this." And you have the conversation,
+it turns out to be, like you said, seven phases deep worth of effort. >> Yeah, and uh
+when it comes to like generating and benefiting from uh a lot of these uh concepts with
+with the AI, I mean, the first thing that anyone's telling you is, "Oh, we'll just train
+it and it'll get better over time." It's like, "Okay, great, but you're not over time
+yet. You're on on day one." So, you have no like user data yet, and uh and so, yeah, we
+can leverage uh AI to to consume your your data tables and your user patterns and all
+that, but honestly, just look at it yourself. Like there's not that many rows. Um and
+you're going to get um you're going to get a lot more specific inferences just by
+talking to your users and and getting
+
+[00:30:27]
+that that information. And so, um where we're seeing that it's worth the squeeze on on
+day one to really implement uh these agents and access into your data systems are for
+larger companies with lots of users and lots of data, right? Um where it where you can't
+just look at it and uh pull it via CSV into a spreadsheet and just create a chart,
+right? Um, the where you've got, you know, hundreds of millions, billions of records and
+across different geospatial areas and things that, you know, you're not just
+specifically asking a question that you could just do with a SQL import. It's more of,
+you know, are there anomaly detections that we should be aware of or or fraud happening
+on our system where where it makes a lot of lot of sense. Whereas, um, a lot of these
+startups are saying, "Oh, yeah, we'll just use AI to figure out, you know, where our
+most valuable users are, um, what's the lifetime value of ones that click this button?"
+Well, you know, that's a SQL statement. That's not that's not AI. And so, do you really
+want to pay us, you know, 2 weeks of effort to put in this really like um, flexible
+piece of software in place for you to query your
+
+[00:31:31]
+data or do you just want to ask GPT to write one SQL statement for you? Um, and a lot of
+product teams, small product teams are kind of falling over that crutch of, "Is this
+really AI first that I should be doing this?" because that's what the pressure downward
+pressure they're getting from the CEO, from the board, right? How are we how are we
+being faster? All that kind of stuff. And the they're just blind guesses. Well, maybe I
+I did this part of my job last week myself. Maybe this I should spend the time doing it
+in AI. And sometimes that's the that's okay, but really, um, you know, there's there's
+better uses usages of your time to to get things moved across that way. So, it's
+certainly contextually relevant for where where the crutch is coming from, but you know,
+more often than not, it's they're probably barking up the wrong tree on on some of those
+scenarios of this must be an AI job. >> So, on the on the internal side, I'm curious,
+um, how it is that you handle your team, right? Your team specifically, but also I guess
+in general development teams that are building these things out. Uh, you know, not
+necessarily related to AI,
+
+[00:32:34]
+but sure everybody's using the tooling to varying degrees and I I haven't talked to
+anybody in a long time that doesn't do something with AI, but just in a general sense,
+how is it that you govern your your development staff or your development team when
+building out these features or these products as it relates to AI? >> Yeah, that's where
+some opinionation really comes into play and is required. You're you're talking let's
+let's step back 10 years ago before AI, right? You ask 10 different developers to do the
+exact same task, they're going to do it 10 different ways, completely wildly different.
+Now you ask 10 different developers to build something the exact same thing, you're
+going to get 20 different ways because they're all going to do a couple different
+variants with different AI tools and they're always going to try to like show up across
+and do something that's that's kind of fancy. And now without having some sort of
+governance or mechanism in place to sort of enforce or encourage and and guide your own
+team, you're going to be skinning this cat every way, you know, every way possible and
+none of them are kind of following the the the letter of really what, you know, me as or
+us as the leadership was really expecting. So, how
+
+[00:33:37]
+how we're doing it is we've got this just the they're all text files, right? All this AI
+world is just text files and skills and things like that, but they're they're
+opinionated in terms of like if we're going to deploy a cloud-based API, this is, you
+know, the infrastructure we're using. First we need to decide if the customer is
+opinionated on AWS, Azure, Google Cloud, anything like that. If if AWS, then we will
+deploy using these services that AWS has. Oh, by the way, here are the the script files
+that deploy all those. Oh, by the way, this is how we do environment variables across
+that system. And oh, by the way, this is how you do start up a local developer, right?
+So, like if a new developer comes to the system, they just run the one line and they're
+up. And that also is powered by, you know, Claude as as a tool. We also are prescriptive
+about, you know, our developers particularly going to use Claude, these models. We will
+track their utilization and and prompt calls that they all have. And as a backup, we
+have um Codex because just like today cloud was down for 2 hours and your whole business
+can't be out of commission if you don't have a backup there. So we spend a lot of time
+kind of
+
+[00:34:40]
+generating that infrastructure. Now does that mean that our infrastructure of skills and
+opinions for how to develop these systems with AI is the right way to go? It's a way to
+go. It's not not the best. We're not advocating that but it's consistent and that means
+that when our developers and our team and even our product managers are people are
+working in this in the space they can not only bounce from like project to project to
+project and have consistency in knowing that if there's a problem I can look at this
+system if I'm going to look at console log I can go do that. If I need to ask for access
+to a system this is the way that I go ask for it. So it's more important that we're just
+internally consistent versus being ensuring we're not just at a local maximum in terms
+of productivity and importance. We don't need to have 100% optimize everything. We just
+need to be you know consistent is is way more important. There's always going to be a
+flashier tool and we'll evaluate that when it comes through but until then we're relying
+on the Oh my god decades of software experience to know that these systems work well and
+we know that the AI agent can work well with those and and we're kind of
+
+[00:35:43]
+sticking there and that's where our where we continue to push our expertise and where
+we're we're bringing our value add is not so much on the writing of the software. That's
+not so much the the mechanism but our ability to continuously evaluate new providers
+that come out costs efficiencies on their platforms and then providing like product and
+business insights on those deployed systems once they're out there. >> Awesome. Um well
+kind of coming up on time here but Justin I'm going to give you your last question man.
+>> We're going to tweak it slightly but it'll be the same that that it usually is which
+is uh What is one thing we didn't ask you about that would be valuable to valuable to
+our audience or valuable to people who are working in this crazy AI development software
+as a service >> I'd say so anyone who's who's jumping into this I'd say target the the
+folks who are maybe not a developer and not a CTO, but maybe your your CFOs, your COOs,
+or someone who's just a non-technical founder who is like, "Hey, you know what? AI has
+got to be my solution here." My my recommendation is try it out. You know, just just
+just dip your toe a
+
+[00:36:45]
+little bit in, but then don't be afraid to ask for help. There is your if if you're
+really coming in with no background experience in the whole world, you will not catch
+the rest of the pack. There's just the the learning curve is too steep, the tools change
+too often, and it's okay to get a sense of where things are at so you kind of feel the
+lay of the land, but don't be afraid to reach out for for some expert guidance when it
+comes to how to leverage these most effectively. You'll find that consultations are
+pretty cheap and will get you kind of set down the the right path and even help you
+think about new things, but just you know, AI is going to enable you, but it's enabling
+your your competitors and your audience as well. So, don't just think that you can turn
+the keys that everyone else is turning and get that Ferrari to park. So, uh yeah, we're
+we're here to help. >> Take the test drive, but maybe don't back all the way out of the
+driveway. >> [laughter] >> At least put your seat belt on if nothing else. Put your seat
+belt on, you know. >> That's right. Awesome. Uh Garrett, again, thank you so much. We
+have been chatting with Garrett Fritz, partner and CTO at Metactl. CTO.
+
+[00:37:49]
+How can or what is the best way for people to get in touch with you, Garrett? >> Our
+website, metactl.com. Metactl.com is is is got a lot of resources for for you up there,
+a lot of descriptions of how we're we're doing the things we're doing, the some of the
+case studies that we're doing on those agenda workflows and and those those kinds of
+assessments, a lot of resources. So, yeah, metactl.com is the place to be. And you know,
+it was a lot of fun. Thanks for having me here, Justin. >> Absolutely. Just a pleasure
+as always. And we like to say as always do, thank you so much for our listeners and
+subscribers out there. If you like what you're hearing, and do hit that subscribe
+button. Let us know if you you like what you're hearing. You want to see something
+different. You got some ideas. Just throw them our way, and we'll catch everybody next
+time on Sass That App. >> Thanks for cruising along with us on Sass That App. We hope
+you grabbed some insights that were inspiring, actionable, or at least entertaining. If
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

@@ -1,0 +1,820 @@
+ICP Mistakes, Startup Failure, and the Workflow Platform That Changed Everything
+================================================================================
+
+Video ID:  iYpgbqBm9xE
+URL:       https://www.youtube.com/watch?v=iYpgbqBm9xE
+Published: 2025-11-18
+Duration:  00:54:25
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The customers that were our healthiest customers, the customers that brought in the most
+users, built the most processes, [music] retained the longest were the ones that were
+using the product for really high stakes work where there was [music] really a large
+cost in some way to not following the process. Welcome to SAS that app building B2B web
+applications. The podcast where we share real world stories, practical advice, and tech
+insights for those building or thinking about starting a tech- enabled business. I am
+your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. Hello and welcome back to SAS that app with me
+as always across the microphone in his current beachware because it's nicer there than
+it is here, Justin Edwards. How are you doing, my friend? >> Hey, Aaron. Doing pretty
+well. Still uh
+
+[00:01:03]
+still got Airbnb digs behind me, but uh hey, we're we're getting closer every day. >>
+Hey man, that house is going to be spectacular. I cannot wait to see it and I know you
+guys can't wait to get in it. [laughter] Uh joining us today also we welcome Venet
+Patenar. Venet is the co-founder and CEO of process street which is a workflow
+management platform that helps teams transform their recurring operations like
+onboarding and compliance and document control into automated trackable systems and
+workflows. Now VA's journey spans from running remote teams and online ventures of other
+kinds into building one of the most widely used tools for process management which is
+now actually evolving into an AI powered compliance platform. So we're going to get into
+that today. He is passionate about how automation and human creativity can work together
+and his company's recent recognition by AWS highlights just how far that vision has
+come. Venet, welcome to the pod. >> Hey. Hey. Great to be here, Aaron and Justin. >> So
+glad to have you. So I always like to start at the beginning if I can and and ask the
+big, you know, difficult question of the day. How did your personal technical journey
+began? Did did I read somewhere you were the youngest Cisco engineer in Australia at
+
+[00:02:06]
+like age 16? >> Yeah, that's an interesting question. personal technical uh don't get
+asked that much as the CEO. So yeah, I grew up in Australia. My dad was actually a you
+know he was an IT engineer later became a IT trainer. So he used to train um a lot of
+the programs and certification courses for Microsoft and Cisco and a bunch of these big
+um you know technology companies in America. And when I was a kid I was super into
+computers. You know the whole house was full of computers. So, and I was lucky. Heworked
+up our whole house and uh helped me build my first computer and through that I got into
+gaming and back then you'd build your own computer when you wanted to game. I was very
+into Counterstrike. I was like top 50 in Australia in Counterstrike and kind of through
+that I guess love of gaming, it really accelerated my adoption of of computers and
+technology. And so I got really into computers. I started taking over management of our
+
+[00:03:08]
+internal network at home and started becoming tech support for all my friends and family
+and through my dad who helped me with um you know learning all about computers. I also
+got my Cisco certifications when I was 16. And so usually it's like something you would
+do after you graduate with a computer science degree and then you know you go and you
+specialize in a particular technology but because I had access to all the routers and
+switches and back then it's like you know these are tens of thousands of dollars of
+routers that no one would would buy for their home because they're meant for you know
+commercial use. And I kind of was lucky to have access to all of this at home and that
+allowed me to get a lot of experience and develop those skills. And it was really great.
+When I was 16, I got my first job as a systems administrator working for, you know, an
+office in the city. And uh all my friends were still, you know, at school working at
+McDonald's. And yeah, it was it was great experience. And that was kind of my exposure.
+So I started it, networking, kind of technology that way. And then I really didn't go
+fully into computer science as my degree in
+
+[00:04:13]
+university. I actually studied business and finance. But once I had those skills, I was
+now you know building websites and you know modding games and you know very into
+computers and so that was kind of my my technology background. I'm not a I'm not a
+coder. I I don't say that I can code. I can hack code but uh you know I definitely have
+a strong fundamental background in technology >> that mirrors a lot of a lot of folks
+journeys. I think my I was in a similar situation with my dad. He was an electrical
+engineer from very early on. And I remember when he brought home the the Apple 2e uh for
+me to take apart and put back together. It's like, well, this is cool. [laughter] >>
+Yeah. >> Is that like an early iPhone? >> Apple didn't really make their way down. >>
+Yeah. [laughter] >> Apple didn't really make it way down to Australia until a bit later.
+So, we were still very much in the PC world down in Australia while kind of Apple was
+was launching in the US. And it took a while. It was probably like the Macintosh or
+something that really started to get penetration in Australia. >> But I think it was
+like a a 386 or
+
+[00:05:16]
+something was the first computer my my dad bought home. Yeah. >> Nice. >> Yeah. Yeah.
+Similar experience for me too. I wanted to play computer games. Super into gaming, but I
+had no money. And so it's like, well, the part cost the amount of money that I had, so I
+guess I will be figuring out how to install this because I can't pay to have anyone else
+do it. And it just kind of starts the snowball rolling down the hill. And sometime later
+in the future, you end up with a technology company. At least that's what happened to
+me. So [laughter] >> yeah, I wonder, you know, I feel like there's been a bit of a I
+don't know, regression in the hardware side where, you know, the Macs and the phones,
+they're not really customizable, right? You you just get the product and there's nothing
+you can really change. You're not building your computers anymore. Although, I do think
+that's kind of changing now with Vibe Coding where it's making now the software layer a
+lot more accessible than it used to be. Uh I hear lots of stories about nine-year-old
+kids vibe coding their own games and stuff now, which you know is kind of the equivalent
+of you building your own computer to game uh back in the day, >> right? Yeah. Everybody
+gets the
+
+[00:06:18]
+Commodore and then they they get the weekly magazine with the game of the week or
+whatever in it and and programming it in. So, can could you connect the dots between
+your first kind of uh network administrator job that you had in the office in in city
+and then kind of moving into you did some accounting for a while and then ended up
+starting your first like marketing company like what help me come along the journey with
+you there? I basically lost my job as a CIS admin in Sydney because the company went
+bankrupt. And I think one of the things that I'd seen in my my father's career that
+wasn't very attractive was especially when you're working on a um you know he was a
+Cisco engineer and a Microsoft engineer and so you're kind of like working inside this
+technology stack but to be relevant and to kind of keep your job you had to continuously
+reskill in the latest technology. So, you know, Windows NT would come out and then
+Windows, you know, XP would come out and and so you'd have to redo all your
+certifications and it was almost like you're just constantly in school all the time
+where you could go back and do these exams every two or three years. And you see the
+same thing happening today in, you know, AWS and the cloud and stuff like
+
+[00:07:20]
+that with the new technologies. But I wasn't really a big fan of school in general. The
+idea of like having to do exams for the rest of my life was not appealing to me. And I
+also just I don't know like I my dad gave me this book Rich Dad Poor Dad when I was a
+kid when I was 15 and I read that and I think one of the things that I just saw was
+there was just on you know if you're on the business side there's a lot more room to
+grow your career versus what I saw from how my dad's career was in IT which was very
+much like working for a telco or a bank and working on the IT team there which was very
+different to being in techn technology in San Francisco today, right? Where you're like,
+"Oh, what do you mean there's no there's a cap on the upside of technology, you know, if
+you're going to be an engineer or something, that that's not true today." But if you
+were kind of working back then in the back office in the IT team and it's a cost center,
+it it actually wasn't the most glamorous kind of career. So, I decided to study business
+in school instead of IT. I also knew that I already knew a lot about it, but
+
+[00:08:24]
+I didn't know a lot about business. So, it was kind of, you know, bridging that gap. And
+by the time I graduated, I did, you know, I became an accountant during university. That
+was like an undergraduate job that I had. And then my first job out of university was
+actually um I was a recruiter for uh for software developers. So I worked recruiting
+software developers for a lot of the banks and telos in Sydney. It's kind of like a
+sales job with commission, but I got to talk about technology all day and and use what
+I'd learned about technology. So it was a kind of good bridge between my business and
+technology backgrounds. While I was doing that, I started just tinkering with websites.
+So just on the side, just for fun, I launched different websites. They were mostly
+content websites. I think the first one that my first dollar that I ever made on the
+internet was a website called 123 CFD. That was basically probably don't even know what
+CFDs are in America, but it's kind of like options or futures. Um it's a different type
+of financial derivative. And so I made basically a wiki on educating people about this
+particular
+
+[00:09:30]
+financial derivative and just put up AdSense ads and that was kind of the first the
+first money that I made online that gave me exposure to h to not just how to build a
+website but also how to monetize and get traffic to a website which was I think a big
+unlock for me and that was that was my first my first taste. After that, I decided to do
+the very common Australian thing of doing a one-year backpacking walkabout journey
+around the world. If you've ever been to a hostel, you'll see it's full of Australians.
+And so, it's very common for Australia. All your friends do it, and it's quite
+culturally ingrained in in Australia to to want to take a gap year and kind of do a
+backpacking trip. So, I did that. And once I started traveling around, I bought a one-
+way ticket to to Thailand. And I'm like, I don't really know where I'm going to go. But
+I started meeting a lot of people who were working on the internet and they were living
+in, you know, these beautiful places like you are, Justin, in in Porto Viata, like
+working on the internet. I'm like, wait, I want to do
+
+[00:10:33]
+that. Um, and that was kind of my first exposure to people actually living as entre. I
+never really met I'd never really met an entrepreneur before. I mean, I met some people
+who ran the local, you know, that had a plumbing company in my neighborhood or, you
+know, were a builder or a CPA, but I never really understood people who were building
+internet businesses, that wasn't something I was ever exposed to. And once I started
+researching and started really talking to some of these people and understanding, you
+know, how much money they were making, and a lot of the time it wasn't like they were
+making millions of dollars, they were just making, you know, the same that I would make
+in my salary back home, but doing it from a beach in Thailand. And that to me was
+extremely exciting. and appealing. So, I started researching and testing different
+products and ended up launching my first Shopify store while I was traveling around as a
+backpacker. And that was kind of the beginning. And I just, you know, learned everything
+myself, YouTube, just figured out how to build my theme and launch the store. And
+luckily, I'd already had some exposure to marketing some of the websites that I'd built
+before. And yeah, I was off to
+
+[00:11:37]
+the races. you know, I really didn't make much money at the beginning. I made a lot less
+than I was making as a recruiter, but I also needed a lot less because I was living in
+these really affordable places and I was able to commit a lot of time to the business
+because I didn't have a job and that really allowed me to grow and learn quickly and um
+continuously launch different projects and websites to the point where I was making more
+than I was making back home. So, I was like, I'm never going home then. >> Well, I want
+to jump ahead just a little bit to Voto. I don't know too much about that personally.
+So, so tell me a little bit about what the planned mission of Votto was. >> Yeah. So,
+once I'd kind of figured out some of these, you know, bootstrapped internet businesses
+that I' that I'd run and I'd made, you know, first I I I got up to the point where I was
+making the same as my salary in Australia. Then I was making double my salary in
+Australia. Then I was making four times my salary in Australia. I was like, well, this
+is, you know, there's no there's no way I'm ever going to go back and put on a suit and
+turn up in an office at 8:30 in the morning again, right? [laughter] Um, excellent
+decision. That's a fantastic one.
+
+[00:12:39]
+>> And but also I started I had money. I was like, "Oh, wow. I've got, you know, six
+figures in my bank account. Like this has never happened before. Like let's let's do
+something with it. Let's try to take, you know, some bigger swings." And that's kind of,
+you know, that that that ability to to be able to take those bets um allowed me to start
+thinking about ideas and concepts for more ambitious businesses. And this is this is
+really I think one of the most important pieces about being an entrepreneur that people
+don't really understand is that when you make the flip from having a job to being an
+entrepreneur, it doesn't really matter what you do at the beginning. It's just once you
+are in this mode of operating where you you know you're working for yourself, you're
+building systems, you're looking for opportunities, and you actually are able to
+capitalize on those opportunities because you've already got an LLC set up, you've
+already got a team, you've already got some customers, you've already got some revenue.
+the difference between launching like a second product uh in
+
+[00:13:43]
+inside an existing kind of system infrastructure like that versus having to quit your
+job and put everything on the line and then like go and launch a first product to see
+whether or not it's going to work. The the difference in risk from like from launching
+that product for the you know the person who's already got a business to the person who
+doesn't is massive. Right. >> Mhm. And so I think that this the journey of
+entrepreneurship is this like this gift that people don't understand at the beginning
+because at the beginning it's really hard and a lot of the time what you're working on
+at the beginning may not be the thing that actually you know is the thing that you know
+go back to your family and say hey this was the better decision than me sticking with my
+career right it's pro that first thing is probably not going to be that right it's
+probably going to be the second or third or fifth thing that you do that then is the
+thing that okay actually unlocks. But you wouldn't have got to the the fifth thing if
+you didn't first do the first thing. So yeah, I was kind of in that position. I had some
+money in the bank. I had time. I had a team. And I had the ability to now start testing
+different ideas. And I wanted to do something that was much
+
+[00:14:46]
+more impactful. I also wanted to build an asset that I could sell. A lot of the
+businesses that I were that I was writing were more service-based and weren't weren't
+really a defendable asset. They were more just marketing campaigns that kind of grew and
+died based on the the whims of the internet and I always was fascinated by technology
+and so yeah that was kind of my dream was to go and build a Silicon Valley startup right
+so Votto came about pretty um it wasn't really a strategy it was very much like oh this
+would be cool [laughter] idea for a product >> the best ideas come out of that >>
+totally yeah it was it was just it was you know it was more about the phones were coming
+out you know I bought the day the iPhone 3G launched in Australia I bought it right and
+the the the first iPhone didn't come out in Australia it was only the iPhone 2 the 3G
+[snorts] and I'd always been fascin I knew that this like I I dreamt about this device
+before it came out I'm like when is
+
+[00:15:49]
+there going to be a device that I can have like the internet and email in my pocket you
+know I I knew this device was coming and the moment it got launched I was like I have to
+have it And you know from that point I continuously upgraded my phone every version. I
+think this was probably 4 or 4G or whatever it was the 4S maybe was the next one that
+came out. It was around then. And so it kind of was reverse engineering from just using
+the phone and just thinking about what can this unlock, right? What is the potential of
+this device? What can what what are people going to be using this device for in the
+future? and really really thinking about it from like a technology first perspective
+versus a business problem or a consumer problem perspective and you know video became
+very obvious like there's video is going to be one of the most important you know
+features and uses of this device and you know I experienced that you know everyone
+around me was experiencing it so that was that was the kind of the initial spark and
+then we're like okay how can we do video in a way that is you know native to mobile and
+utilizes a lot of
+
+[00:16:54]
+the technology that exists in these devices. And it was, you know, GPS and it was
+wireless and it was mobile editing and it was these kind of social. It was it was these
+kind of like components that you could see were kind of bubbling up in different ways on
+the device, right, through different tools and technology. And like, okay, how can we
+kind of roll that into a video product? And that was the idea of a Toto. What we ended
+up landing on was a collaborative video editor. So, it was like you could have five
+people at a sports game all record videos from their own seats like that that were
+friends and you could create a kind of a combined video between the five people. So, it
+would take their each person's different clip and it would stitch it into kind of like a
+a collaborative video. Um, that was the idea. Ultimately, you know, the company that won
+that race was Tik Tok, but there were lots and lots of video products that were
+attempting different angles on video solutions, Vidi and Vine and um Social Cam and it
+was just a lot a lot
+
+[00:17:57]
+of products that got launched in that window because it was clear that video was going
+to be this huge huge um you know use case on the phone. But back then it was just really
+difficult. Data was extremely expensive. So uploading and downloading videos just ate
+into your data plan. There wasn't unlimited data plans. Um the phone battery was very
+limited. So again uploading and downloading and consuming a lot of video would just kill
+your battery. And then also the the cloud servers were very expensive too. So using AWS
+servers to host and edit and process video was also extremely expensive from like the
+server side. So it was it was just a a money losing product, right? You know, a user
+would use it, you'd open it up in an hour, your battery was dead, it had used $50 of
+your data, plus I'd have to pay like a $50 like bill on the back end to like process
+this video that was, you know, some teenagers at like a party or something. like this is
+this is
+
+[00:18:59]
+literally just setting money on fire at this business. Um but you know again the ones
+who were able to kind of burn that burn through that and survive your YouTubes or your
+Tik Toks or whatever built massive businesses. So the thesis was right but I just didn't
+have the capital and experience to kind of execute on it correctly. >> Yeah. But the
+software pushed that technology. I mean, that's that's of course the argument is is
+things like this, you know, ones that were successful, but also ones that were not
+successful push that envelope in the direction that it needed to go. You know, we need
+better battery life. We need we need uh, you know, tighter streams for uploads and
+downloads. We need better data plans. And so, you know, the argument there, of course,
+is if it weren't for that early software, you know, the hardware would not have have
+pushed forward as quickly as it did. >> Yeah, it's a great point. I really like uh I
+really like that you highlighted kind of the difference there between a uh a wonderful
+brilliant idea and then a wonderful brilliant business idea. Uh and those are not always
+the same thing. So I think that that's interesting. Um I found it really cool that you
+have a public kind of postmortem on Voto that uh you wrote and published. Uh like I
+
+[00:20:03]
+don't know if there's anything there but like what led you to kind of like write that?
+Was that part of like uh having closure and finality for yourself or you just wanted to
+share or how did you kind of come to write that and publish that? Yeah, it was
+definitely me writing to myself about mistakes I didn't want to make again next time.
+And it was yeah, it was me really just thinking, okay, why did this work? You know, what
+worked, what didn't work, and you know, just trying to encode that for myself. And then
+once I done that, I like, I may as may as well just publish this. But I think the most
+important lesson that I found from Votto was the combination of the right team and
+enough runway. So there's it's very common that people believe that they're going to
+when they build something it's going to work, right? People have these ideas and they're
+like, I'm going to build this app and it's going to work. And most of the time where you
+think the working level is where you where you like basically the features that you
+think you need this product to get to product market fit
+
+[00:21:06]
+usually are, especially if you don't have experience doing this before. If you've built
+five companies before, then you already know this, right? If you're doing this for the
+first time, it's like you think, okay, I'm going to build these 10 features, and that's
+going to be what we need to get to product market fit, but it's maybe it's more like 30
+features, but also the first you five of the first 10 you built, you also need to like
+rebuild, right? And so you think that it's going to take 6 months or 9 months or 12
+months, but a lot of the time it's going to take 24 months or 36 months. And it's very
+difficult to know exactly how and you know what it's going to take. and how long it's
+going to take to get to product market fit. If you look at some of these big products
+today, like notion for example, those guys tried to build something, no one used it.
+They had to cut all their runway down to two people, move to Japan, build it for another
+5 years, and then like come back and then and then they finally got it kind of polished
+to a point where it was it had some product market fit. And that's pretty similar to to
+to sorry with with Process Street. With Votto, I built a team that my two
+
+[00:22:11]
+co-founders were senior engineers and executives, you know, you know, business executive
+and an engineering executive from Australia. And they had families and kids in private
+school and a very limited runway. And I was like, okay, I raised this much money. this
+is going to last us 12 months and let's go build this together and get it to this point
+in 12 months. Once we got 9 months in, we're like, "Oh, actually, we're going to need
+another year before we're going to get this product to the point where it's going to get
+product market fit, but we're running out of runway in 3 months and we haven't actually
+built anything that has traction or retention in the in to the point where it would
+justify us raising more money." and my team were kind of handcuffs were handcuffed where
+they were like I can't do another six months without receiving a paycheck. Like I
+literally have a mortgage and children in private school. And so this you know lack of
+flexibility in my team's runway was the main reason
+
+[00:23:16]
+the business died. Because if the team could say, "Oh, we're just going to keep testing
+and iterating for another 2 years even if we don't get a big paycheck." Then we probably
+would have iterated our way to something that worked, right? Maybe it wouldn't have been
+the exact vision but just continuously taking feedback from the market the next phone
+would have launched like you know things would have happened in a way where we probably
+would have been able to unlock something but you need that time and you need a team that
+is that understands that there's this high variability in achieving product market fit
+and that may take 6 months or that may take 3 years and if all you have is 6 months and
+then you have to stop you're massively reducing your odds of success. And so what I
+framed it, I believe I used these words in the in the post, I don't remember, but was I
+want, you know, a a co-founding team that's that's down for the cause where it's not
+about some fixed timeline and some fixed fixed result. It's if we need to go eat ramen
+
+[00:24:20]
+noodles for 3 months to get through this, we're going to do it. we're going to just do
+whatever we need to do, right, to make the to hit product market fit, not we're going to
+have some type of arbitrary boundary around how long it's going to take or how much work
+it's going to be. And I think it's really difficult to build something new without a co-
+founding team that is aligned on that kind of mission. >> Yeah, no doubt. So, I I
+definitely want to get into process street now because that's I think that's obviously
+naturally where where this is leading us. Real quick, this episode is brought to you by
+Delta Systems, which is what Aaron and I do when we're not talking through microphones
+to you, the people of the internet. We've got a really, really great software team here,
+and we love to work with cool people on cool projects. So, if that sounds like you and
+you've got a problem or you're in some kind of a jam, go to deltasystems.com, grab
+[music] the time with us. We can beat up on your problem together, and if there's a fit
+there, amazing. We'll help you out. So, deltasystems.com, grab an appointment, and hey,
+maybe we can work together. So talk us through, you know, getting getting process street
+off the ground.
+
+[00:25:22]
+You know, what was the what was the original problem that you were trying to solve? What
+was the, you know, what was the simplest process you were trying to to automate or get
+to? The way that we funded Voto was both uh was I it was from mostly from the profits
+that I had from my uh marketing business and I was actually still running that in the
+background and I'd kind of been working to put that on autopilot and have that be a more
+of a passive business and I had got it down to maybe I was working 10 hours a week on
+that business and 50 hours a week on on Votto at the time and so you know as I was
+talking to people pitching for money trying to, you know, find partners and investors
+for Voto. They're like, "How are you funding this?" I'm like, "Oh, I've got this other
+business that I built and it's like running on 10 hours a week and, you know, I built
+all these systems." And they're like, "Oh, maybe you should like look at what you did in
+that business to to kind of systemize it and consider turning that into some type of
+product or a startup." And you know that was that was the original win that I had had
+and the the data that I had and I knew a
+
+[00:26:28]
+lot of the problems that I had with the existing tools and technology that I was using
+to try to systemize that business. And so it really was just kind of like okay well I
+took the lessons of Ato I said I want to build something where it has a you know solves
+a clear problem. It has a clear monetization path. it's not going to be uh the unit
+economics of the technology are not going to you know destroy the business and so I took
+a lot of these these learnings and then I went back into my own business and I said what
+would be the thing that would be the most valuable for our business today and it wasn't
+a you know our business was a 20 person remote business so you know it wasn't
+necessarily the best market to go after this was I don't know must have been 2015 or
+something and way before co and people were working remote before Slack. H probably
+should have built Slack. That probably should have been the idea that I had but
+[laughter] um but you know we were basically managing most of our processes in Google
+Sheets and Word and we were you know I
+
+[00:27:32]
+had a team in in India and the Philippines and I would write these SOPs and and
+documents and I would send them to them and then I would come back and I'd look at the
+work the next day and I was like you didn't follow the process. I wrote it down and you
+said that you did it, but then when I checked it like wasn't followed. Why didn't you do
+it? and you know so I was like how can I build some type of accountability system some
+type of way to actually make sure that the process is followed there's proof that it was
+followed uh there's there's you know some type of kind of automated management system in
+place where allows people to kind of check themselves and be accountable themselves and
+[snorts] meant that I didn't have to micromanage a team that was operating in a
+completely different time zone which I used to have to do you at 5:00 in the morning. >>
+Mhm. >> It was really like this is my main problem is my main problem is doing quality
+control on the team at 5:00 in the morning because that's like their time zone. And I
+was like, okay, if I can solve this problem, this would mass, you know, massively
+improve my life as the CEO of this business. So, let's just
+
+[00:28:35]
+build something for me now. And I know that if nobody else wants it, at least I'm going
+to want it and I'm going to have one customer of me. And so yeah, it was really just
+kind of being frustrated with managing operations, specifically remote operations in
+different time zones. And you know, after I was using Google Sheets and and and Word, I
+started researching what all the process tools were available to me. Everything were
+these enterprise clunky, IT dependent, overbuilt products, right? uh Microsoft
+SharePoint, Oracle, SAP, like there wasn't there wasn't a Slackified kind of Slack
+wasn't a product then, but there wasn't like a Google Sheets kind of equivalent version
+of a process management tool where you could just sign up and pay 100 bucks a month as
+an SMB and just self-s serve into. And so that was the original idea for the product.
+We, you know, I come from Australia and so one of the companies that we know a lot about
+or had a lot of exposure to in the startup world in Australia was
+
+[00:29:38]
+Atlassian, which is the kind of biggest Australian software company. They built this
+product called Jira. They're actually one of our investors now, but um >> amazing. >>
+They built this product out of Australia that was this really enterprise amazing
+solution, but was sold, you know, back then you'd call it bottoms up. today you'd call
+it with product like growth but was sold without really a sales team so people were able
+to just come in and sign up for the product and put in their credit card and adopt it
+and so we were like okay can we build like a JR or Google sheets but for processes and
+work on solving this kind of frustration and this problem that we have on operations and
+that was yeah that was the original problem that we identified and um the way that we
+went about trying to solve that problem from a product design and business model
+perspective Ive >> so what what thoughts kind of went into that to differentiate it from
+at the time and and even still I guess today there's a lot of very low-level products
+that I'm going to equate to checklist right there's like the the to-doist and to-do
+lists and things
+
+[00:30:40]
+along those lines and then you know there's like a chasm and then there's the enterprise
+level stuff uh you know so so how did you how did you move into that like middle level
+space and kind of differentiate the product so it was bigger better more useful than a
+checklist tool but not not SAP or the big guns. >> I guess the idea for the product and
+the gap that I saw was that you had your your process documentation. So, you had like
+your how how do you do something, your SOP, and then you have your what to do, which is
+your to-do list or your checklist, right? And the to-do list was fine. I could give
+people tasks on what to do, but then they would come back and there would be errors and
+they'd be incorrect. And I would say, "Well, didn't you check the process?" like, "Oh,
+yeah, I checked the process, but I I I didn't I missed this step or I didn't." And so, I
+was there was this kind of gap between the how to do and the what to do. And so, that
+was the original solution. It's like, well, why don't we why don't we integrate those
+two together and give you a checklist that also explains how to do each step in the
+checklist. So, it's not just a
+
+[00:31:45]
+what to do, but it combines the what and the how. So when you need to go and add this
+person to Salesforce, here are the six fields that you have to make sure that you
+remember when you add them to Salesforce or it's kind of like integrating the training
+in real time. And it's not just, you know, the idea was not just can we make the
+training better, but the idea was can we increase accountability by integrating them
+together. So, if someone goes and checks off the task, but doesn't follow the
+instructions on the task that tell you how you're supposed to do that task, it becomes a
+lot easier to say, well, why didn't you follow those instructions? You checked off that
+you did that. The instructions are right there on how to do it, but you didn't follow
+it. And so, it kind of created this like self-inforcing accountability loop. That was
+the idea. And it it it really it isn't it's more of a psychological mechanism I'd say
+than it is really anything else because once you once you have trained somebody on that
+and you give that feedback and you say look the
+
+[00:32:47]
+instructions are directly there. There is no unless there's something wrong in these
+instructions, right? There is no ex possible excuse for you to not have done this
+because you have literally checked it off saying that you have done this and followed
+the instructions. And so yeah, that that was the idea and that was the the
+differentiator and we basically started with a recurring checklist where you could add
+in content. So you could say here's a video on how to do this task or here's screenshots
+on how to do this task or you know basically you could build a little document that was
+integrated into the task with instructions. Um, yeah, that's how we started. And we we
+built it for ourselves and we put it out in the market uh on one of these beta launch
+sites. And I remember we put it out on like a Friday and I think we went to the we went
+out with some friends and then we we woke up and we suddenly looked at our phone and
+there was just like this just you know thousands of signups coming in and we're like
+holy [ __ ] what just happened and that that was kind of the beginning. Yeah. >> So, uh
+I guess in terms of like your like ideal customers like who who's going to get the most
+benefit out of out
+
+[00:33:51]
+of process street or like is it kind of down market more or are you more towards
+enterprise or tell me a little bit about kind of your your value like your your pitch
+for for someone who's your ideal customer. So at the beginning we built it, we we
+basically just said we are our ideal customer, right? We're going to build this for
+ourselves, which essentially was an SMB services business, right? And we started there.
+We we just listened to customers and built what they asked us to build. And that worked
+pretty well at the beginning. We grew fast. We acquired thousands of customers, not
+paying us much money, but paying us something. and um you know started getting a lot of
+great feedback on how to evolve the product with all of all of that you know data from
+the customers and we didn't even really know you know our category of product or like
+the the the the competitors. We didn't you know we weren't experts in this space. We're
+really just kind of first principles trying to solve our own problem. But having all
+that feedback from the customers and being able to
+
+[00:34:55]
+talk to customers and they're like, "Oh, well actually we want some forms here and we
+want some, you know, we want we want to be able to take this process that we designed in
+a in a workflow in a BPMN diagram and we want to be able to put it into the product and
+make it follow, you know, the branches and the logic and the steps and the approvals and
+um and so we started to take all that feedback and and build it into the product and you
+know without even really realizing it, we had built this you know business process
+management product which is very similar to these enterprise tools but without a lot of
+the baggage that those products have. So a lot there are like standards for process
+management. So there's BPMN is kind of like the most common one. It's business process
+modeling notate business process modeling notation. Um and it's like a language for how
+you write a process. And if you are a six sigma process specialist or you're like a
+Toyota Kazin like quality quality management specialist, you know these systems and most
+of the process management tools took the system and
+
+[00:35:58]
+then designed the product based on this kind of like academic system. Whereas because we
+didn't really know what we were doing, we just said what would be the easiest way for
+you to use this product, Mr. User? Let us build it that way. and we just kind of built
+it bottoms up based on user feedback and usability, not based on some type of like
+academic framework that was designed before. And so this made the product much more
+approachable to people who didn't understand process design, didn't understand IT teams,
+uh you know, IT and technology and we could sell it directly to an HR team or to an
+operations team. And that's where we got a lot of our our traction uh initially. But as
+we built out the functionality and we were able to handle more and more complex
+processes um we started to see that the customers that were our healthiest customers,
+the customers that you know brought in the most users, built the most processes,
+retained the longest were the ones that were using the product for really high stakes
+work where there was really a large cost in
+
+[00:37:02]
+some way to not following the process. They weren't just building processes because it
+helped drive efficiency or it allowed the CEO to work 10 hours a week like I was doing.
+That actually wasn't the main problem that we were solving. The you know the main
+problem we were solving was okay you've you're doing a health care process and there's
+there's some type of you know health and safety risk if this is not done correctly. You
+know we have customers that are like nuclear power plants. We have customers that are,
+you know, in healthcare or manage billions of dollars of money and whe whether the the
+costs of making mistakes are extremely high and whether that's, you know, someone's
+health and safety or whether there's a a regulator who's going to penalize you in some
+way for doing something. Um, those were the companies that were really willing to invest
+in their processes. um really put in the time to build these very complex processes,
+integrate everything, train their team, onboard their team and and maintain those
+processes over time because it is work to kind of build and maintain maintain those
+processes. And um once we saw those were our healthiest
+
+[00:38:07]
+customers, we really leaned into it. We we love the idea of, you know, helping the most
+important organizations on the planet. That's that's part of our vision is how do we how
+do we um enable the the most important organizations and businesses on the planet to
+grow responsibly? You know, I'm a I'm a I'm a capitalist. I really believe in in in you
+know, business and its ability to drive prosperity, but I also believe like there needs
+to be some checks and balances on businesses. Like I don't want my I don't want to get
+in a plane where the pilot hasn't got the correct training and like has you know the the
+plane hasn't done the correct safety checks before takeoff, right? Like it's like I
+believe there should be airlines and they should be private, but I also believe that
+there should be some type of you know regulation to make sure that the planes don't fall
+out of the sky every day, right? And so um you know that that's that's what we've leaned
+into and um really because that's what we saw our customers were using the product for
+most and that's why we've evolved from just being the the process
+
+[00:39:09]
+management platform to a compliance operations platform. >> Yeah. It feels like
+something that almost like a never- ending stream because annually the these especially
+when you're getting into compliance of any kind, you know, they're changing every year.
+uh whether that's just a step here or there or like an entire branch you know as you
+mentioned uh these things are always always growing. So is is this um and and forgive me
+for not knowing this but is there is there within the system a way for uh one
+organization to adopt or utilize a process or workflow that another organization has
+built? Is there is there level of cross talk or is it one of those things where it's you
+get to go in with a clean slate, build exactly what you want and how you need it and and
+then you're off to the races? How does how does that kind of quick start if you will
+work? >> The quick start problem is is an interesting problem that we've done a lot of
+work on. You can all that exists, right? So you can take existing processes from other
+businesses. You can take templates. We have AI generators. We have AI importers. So if
+you already have like a BPM workflow diagram or something, you can just like import that
+in and that will build your workflow.
+
+[00:40:12]
+But most businesses, their processes are part of their IP and their secret source. And
+so they don't want to share that with other people. It is it is it's like, yeah, I'm not
+going to, you know, Tik Tok's not going to share their algorithm with you and you can
+just go, oh, I want to start another Tik Tok. Let me just take your algorithm. Thanks.
+Like one click, right? Like that's they're they're they're not down with that. So, you
+know, really a big part of our business is around security and privacy. And you know
+again we we sell to a lot of the the most regulated uh protective companies and
+industries in the world. Banks uh you know insurance companies governments um you know
+like I said nuclear power plants the sensitivity of their data is is high and their IP
+is a big part of their secret source and so they don't want to share their processes and
+so that's that's a big part of our offering is allowing you to keep your processes in a
+very secure private way. Um but we do try to you know understand best practices and you
+know allow people
+
+[00:41:15]
+to adopt the product as quickly as possible. But it all also every business has its own
+debt, its own culture, its own operating rhythm. And it's almost impossible for you to
+take a template or maybe if you're a really small business, but it's almost impossible
+for you to take a template off the shelf and use it completely in your own business. It
+usually requires kind of injecting some some tribal knowledge of the business into the
+process in some way. Yeah. But [snorts] it works really well if you have it written down
+somewhere. So if you already have a document written down, then it's perfect. Yeah. Then
+we can just suck it in and and build that with AI really easily. >> Just talking a
+little bit about AI. So uh you're you're obviously working your way in. You're utilizing
+AI in various ways within the system. Now you're pushing into that space. And so uh in a
+in a general sense and and we've had several people on to talk about AI specifically,
+but I'm always very curious is when you're entering into this AI space, whether it's
+just, you know, purely I am doing this in AI or AI is becoming a part of our workflow,
+you know, kind of a co-pilot or a utility that we leverage, you know, do you have like a
+a specific plan or goal in mind
+
+[00:42:20]
+or is it better to just approach it from the perspective of there are AI tools and I
+want to I want to figure out a way to utilize them. In other words, is it one way or the
+other? We use AI in both ways. Both kind of giving you the building blocks as well as
+putting our own opinion on it in different ways. But the evolution of process read is we
+started with this process management tool which again you could think of as like a
+consumerized version of Microsoft SharePoint or SAP Sedavio. You can build any type of
+operational process really targeted the ops team. So like HR, operations, finance, um
+legal compliance and you can build workflows that not just it's you know not just help
+you understand how to do something but really orchestrate the process. So, hey, a new
+employee started. Hey, this is your manager now you've got to do this and it now you've
+got to do that and we need to automate some documents and we need to send them a
+training video and all this kind of these the this orchestration of the process can
+almost be built into like a little app but we do it in a very governance you know in in
+a way that allows enterprises or
+
+[00:43:25]
+these you know sensitive industries to control and govern the processes and have
+visibility over them. So let's just say you have an employee onboarding process. The way
+that you onboard an employee depending on your industry, maybe you're in healthcare or
+you're in capital markets, you know, if you're managing other people's money, there are
+certain things you can and can't do and a new employee needs to be trained on those. And
+so if you are going to adjust the employee onboarding, if the HR team is going to adjust
+the employee onboarding process, a lot of the time in a regulated industry, you want
+compliance or somebody up the chain to have oversight like, hey, I want to change the
+onboarding process to do this so that I do this with a new employee, but I want to make
+sure that I'm not breaking compliance when I do so, right? And what we've allowed what
+we've built is we've basically built their system that the operations teams can go off
+and build and adjust and manage their processes and almost do it like a software
+engineer would build technology. Um but with this layer of governance and oversight
+which means that if they want to make changes or there are sensitive processes you can
+say the compliance team needs to check
+
+[00:44:28]
+this before it gets pushed or the the security officer the chief security officer needs
+to review this or approve it before this goes live. And we have all these kind of like
+continuous improvement features that are built into the product that allow you to kind
+of iterate your operations again like you might if you were building products. So you
+the the HR team can can suggest a change and then they can test the change and they can
+test it before they push it out live and then they can submit it and then the compliance
+team can like also test it and then the compliance team can then approve the change and
+and like push the PR live and then you can decide okay I've got like six people who are
+currently onboarding right now. Um but I don't want them to see the changes to the
+process. I only want like the next person that we on board to see these changes. So I
+can control whether I'm like pushing my updates in real time or like kind of waiting for
+the next process to run. So you have all these like continuous improvement and testing
+and like ways that make it so that you can kind of in real time manage and iterate on
+your processes without breaking things that are running without accidentally breaching
+compliance in
+
+[00:45:30]
+some way but still giving the operations teams control so that there aren't bottlenecks.
+like you don't need compliance to go and build every single like operational process
+that's going on in the business. The functional experts can do it with compliance
+oversight. So that's the core process management tool. But as we've understood that um
+you know compliance is this really important component to processes like the reason that
+a lot of these teams even want a process tool in the first place is because compliance
+has told them to do something in a certain way. Compliance has told HR, hey you have to
+onboard and train people in this way. if you don't, we're going to lose our license as a
+broker, right? So now HR is like kind of scared, right? They're like, hey, look, I want
+to make sure that I onboard these employees in the right way, but and give them the best
+experience, but I also want to make sure that I'm not breaching compliance. And so to do
+that, I need to have a more structured system to make I can't just kind of do this on a
+whim every time we get a new employee, which you might be able to do in a marketing
+agency or something cuz the there isn't that level of risk. And so as we've understood
+that the processes that most of our customers
+
+[00:46:34]
+are building have some type of compliance connection right up the chain somewhere like
+okay how can we build more um functionality and and and and products to take on more of
+that compliance burden for the organization. And so what we've done is we've actually
+evolved the product from just being this process management tool to a compliance
+operations platform. What that actually means in practice is that we've launched two
+other products. So we've launched a product called Docs which is our document management
+system. And so something similar to like Google Docs but with all these compliance
+functionality um kind of features built into them. So when you need to have a certain
+type of compliance certification. So say you're a public company and you have to be
+Sarbain Oxley compliant or you're a a capital markets you know you're you're a venture
+fund or a hedge fund and you need to be a registered investment adviser or you're a
+startup and you need to be stock 2 compliant or you're a healthcare company healthcare
+service provider you need to be HIPPA compliant right these are all different like
+compliance requirements in different industries all those different require uh
+compliance requirements require you to have some
+
+[00:47:36]
+type of audited playbook or audited set of documentation and process processes that get
+ordered every year. So you might need to have like a disaster recovery plan or you might
+need to have a security policy and these these need to be kept recent and updated. So
+every year they need to be like someone needs to go in and say is this still up to date
+and they need to sign yeah this is still up to date. Um they need to be acknowledged. So
+when a new employee comes in or every year um everyone in the team has to say I read
+this I acknowledge I read it. I signed it. um there needs to be all these version
+control and approval control systems. So if you if you do want to make a change to the
+security policy, it has to get escalated to the chief security officer to make that
+change. So there's all these kind of governance and control mechanisms that um you need
+in a compliant ready document management system that you you don't get in just a
+standard, you know, Microsoft Word or whatever. So that's what Docs is. It's not it's
+not like the most uh you know, groundbreaking product. It's there are plenty of document
+management systems
+
+[00:48:39]
+products out there that that have the same functionality. The real difference is that
+it's part of our platform and I'll talk about that a second. >> And then the the the
+third product is our AI compliance agent which is Kora. And if you think about what a
+compliance team does most of the time a compliant like the main function of a compliance
+team is to watch the external changing regulations and standards. So uh oh Trump is
+signing executive orders all over the place. uh tariffs, we need to consider that or um
+ISO is launching a new standard and or the the new AI ISO just came out for example like
+the ISO you know 40,000 which is like the AI governance standard and so or like there's
+new regulations coming out so the compliance team is constantly watching all the new
+regulations that are changing in in the external world and then they're coming in and
+they're making sure that all the operations of the business are following those
+regulations and that their business isn't exposed to some type of risk. somewhere,
+right? And so what we what we've done with Kora is we've tried to build a co-pilot for
+the compliance
+
+[00:49:41]
+teams that basically help with a lot of that work. So it's constantly scanning, you
+know, changing regulations, all the executive orders, the standards that are being
+updated, regional regulations like, oh, the EU just banned this chemical from food right
+now, like you need to consider that in your, you know, new product line. And then it's
+coming in and it's scanning the internal operations. I was scanning, you know, your
+processes, your workflows, your tasks, your documentation, and it's flagging, hey, is
+this, you know, there was a regulatory change over here. You should come down and, you
+know, take a look at this document or this this workflow. And where it gets really fancy
+is we can kind of connect everything down the chain, right? So maybe you've got a
+security uh ISO standard that's that's changed and you've got a security policy document
+that says okay um when you terminate an employee you need to remove their access within
+48 hours and that's like an ISO standard or a sock 2 standard um and that's dictated by
+the actual you know framework by the certification but if they change that
+
+[00:50:43]
+and say oh actually now it's going to be 24 hours instead of 48 hours let's say we can
+come in we scan the security policy and say, "Hey, we notice your security policy is out
+of date. It says 48 hours, not 24 hours." But then down the chain, we can say, "Okay, we
+know that this employee termination workflow is connected to the security policy." And
+it has an SLA on the workflow that says when someone's terminated, their key card needs
+to get removed within 48 hours. And we have like an SLA with escalation. So after 12
+hours, it'll escalate to 18 hours, it'll escalate to 24 hours. So like, you know, that
+has to get done within that time. um it can come in and scan like the workflow and say,
+"Hey, I see you've got an SLA here that's set to 48 hours." Your upstream regulation and
+policy has changed. So, you should come down here and adjust like your SLA on this
+employee termination workflow to keep it compliant the upstream changes. So by having
+everything on the same platform, it allows you to kind of integrate the the waterfall
+effect of your external regulations to your policies to your actual operational
+execution and
+
+[00:51:47]
+processes. >> That's amazing. Uh Jesse, we're kind of coming up on time. Anything else
+for you? Yeah, I kind of probably just one closing question here is like what uh if you
+could pick like one or one or two things, one or two nuggets to share with folks who are
+uh somewhere ahead of you or before you on their entrepreneurial journey. Um what's
+something you've learned with with your career and with all the experience that you've
+had that you would you would pass on? Something you wish that you'd known when you were
+younger? I think the big thing like if I was to, you know, start another company right
+now, I would have a clearer strategy than than just like build it for myself and kind of
+iterate my way there. So, I'd pick a much clearer ICP. It's a lot easier for us to sell
+process sheets today saying that we're a compliance operations platform than it was
+saying that we can build any process for any business. And so having a clearer strategy
+around like you know what problem you're going to solve, who you're going to target, you
+know, what part of the market you're going to target makes life a lot easier for a lot
+of reasons. And I would avoid having a kind of horizontal strategy that doesn't
+
+[00:52:54]
+have a clear ICP. >> Absolute gold. I think that [laughter] yeah, it's it having that
+really crisp ICP makes marketing easier and finding people easier, networking easier.
+Then people see that you're solving a problem for them specifically, so they're more
+excited about what you're doing and uh yeah, that's uh I think that's a big nugget. >>
+Vene, this has been uh just really super educational. Thank you so much for for sharing
+your time and your insights and your talents. >> No, this has been so much fun. >> Yeah.
+Uh I actually have a probably a dozen more questions, so we might have to have you back
+on the pod. [laughter] >> Anytime. Yeah, it's been really fun. Appreciate it, guys. >>
+Excellent. Well, we've been talking to Venetarf, co-founder and CEO of Process Street,
+among other things. Uh, Venet, where and how can people reach you? >> Yeah, you can find
+our website at process.st on the shirt. Uh, or you can find me on LinkedIn just under my
+name, Venet Patanka. >> Very good. And special thanks as always to our listeners. If you
+like what you're hearing, have ideas for the show, or just want to tell us what's on
+your mind, hit that like button, throw a review our way, or subscribe if you are so
+inclined. and we will see you all next time on SAS that app. Thanks
+
+[00:53:57]
+everybody. Thanks for cruising along with us on SAS that app. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. If you enjoyed the
+show, don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

@@ -1,0 +1,719 @@
+You're Shipping Constantly - So Why Aren't You Growing? With Daniel Layfield
+============================================================================
+
+Video ID:  MwNGX09X5AQ
+URL:       https://www.youtube.com/watch?v=MwNGX09X5AQ
+Published: 2026-03-24
+Duration:  00:45:26
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+A commonly problem that I see is so called this the two to $15 million a year business
+where like you have an acquisition system, you have product market fit, you have users
+that come back and stay there. And then they try to increase MRR [music] by just
+building more product features. And it's like they don't know they have to work on a
+monetization system itself. And it's kind of like the third stage of the rocket. Welcome
+to SAS That App. Building B2B web applications, the podcast where we share real-world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech-enabled business. I'm your co-host, Aaron Marshbanks. And I'm Justin
+Edwards. Each week we bring you the stories, strategies, and insights you need to build
+your SAS or tech-enabled business smarter, not harder. Let's dive right in. Hello and
+welcome back to SAS That App. Coming to you from the very cold and
+
+[00:01:03]
+rainy Midwest here, but not so much in the South where my other two friends are from
+today. Justin, as always, brings the Mexico noise. What's up, man? Hey, isn't it crazy
+that it's always Tuesday morning, no matter when we record this? >> [laughter] >> Don't
+tell anybody. Always Tuesday morning. You can pretend that it's anytime that you like as
+long as the time that you like is Tuesday morning. That's that is correct. >> [laughter]
+>> Hopefully we'll keep on that trend. Uh today we are excited to welcome to the show
+Daniel Layfield. Uh Dan is a director of product management at Diligent currently and is
+a seasoned product leader who's helped scale major platforms and products. He has led
+product teams. Uh he has dealt with growth, with scaling, with monetization challenges
+from uh building business-to-business offerings that scaled uh AR fivefold at
+Codecademy, and designing relevance and personalization systems at Uber. Um and now he
+is uh driving board-focused products at Diligent. So across his work he focuses on
+connecting product strategy, pricing, and experimentation to create measurable value for
+customers, all of which we're
+
+[00:02:07]
+going to get into today. Dan, welcome to the show. What's up, guys? Thanks for having
+me. Appreciate you being here. So uh always the kickoff question, how did you get here?
+>> [laughter] >> You've been through a lot of different ways and paths that that would
+have led you to the point that you're at. Tell us about it. >> Yeah, I'd say my career
+took kind of like a a winding path of beginnings. So you know, I left college, I moved
+to New York. Uh as most people who don't really know what they want to do with their
+lives, I worked in consulting. I did consulting for kind of 5 years, then I worked at JP
+Morgan for 2 years. And then this is kind of like the start of the tech boom hitting New
+York City. So maybe this is 2010 or 11 or something like that. Uh and I just can't help
+but notice that like the products moving outside of finance are moving way faster than
+they are in finance. Remember us like needing a server for some reason and like someone
+mailed it to us and it took like 6 months to get like a new server plugged in and like
+AWS is already there. So I like the distinct feeling that like we're going behind the
+curve. Uh so I moved into tech, I tried to start up myself, that didn't work, and then I
+got just kind of super fortunate in that I
+
+[00:03:09]
+joined a company called Codecademy in kind of probably 2016. Uh so kind of like
+mid-2010s learn-to-code wave where learn to code was kind of the equivalent of AI right
+now. And that kind of started my career in tech and product management. Awesome. So what
+what drew you to the project manage or product management aspect rather than than
+programming or development? >> I think I just kind of got tapped on the shoulder or we'd
+be told I would be good at it. So I joined Codecademy at kind of 20 people and I just
+joined as like kind of generally useful guy. So I technically worked in operations, but
+I did partnerships, I optimized how some departments work. Um I was the chief of staff
+to CEO for a little bit. I was kind of just like looking for how to be useful, which in
+a 20-person startup there's like a need for that. There's just like a ton of loose ends
+that need to be tied up. But I kind of uh in maybe doing that for a year, you realize
+like no one no one hires generally useful guy. If you're going to work in the tech
+world, you have to kind of like pick the domain that people understand. Uh and I got
+super fortunate that a guy called Yu-kai Lin, who's also my current boss at Diligent,
+kind of tapped me on
+
+[00:04:11]
+the shoulder and said like, "You know, I think you'd be a good product manager." And I
+was like, "What's a product manager?" And he's like, "Basically you just kind of like
+follow me and shadow me and you'll you'll pick it up." And that's kind of how I I
+eventually ended in product management. It's funny cuz it's kind of like it's now uh
+kind of like hot sought sought-after career, I guess. Uh but this is probably like 2017,
+maybe where I still like I'd heard the term before, but I'd no idea what product
+management was. So what what is uh like what is your crisp definition of product
+management or what is the I frequently like equate it to being kind of a general
+contractor for software. Where it's like your job to take kind of like high-level
+requirements and make them work. I think what separates kind of growth-style product
+management is you also want the projects you run to be ROI positive. Like you can't sink
+a hundred grand of development into features that don't produce a hundred thousand
+dollars of value. Yeah, that's uh >> [laughter] >> it's a good good ROI calculation good
+what you call Yeah, that that should be more common than it is, but it is for some
+reason. Yes, I've always
+
+[00:05:12]
+we're allowed to talk to big companies and big company folks who just don't have ROI or
+like a return on this anywhere on their timeline. Like it would be really cool, but like
+how is that going to Okay, we live in different worlds, you and me. >> [laughter] >>
+Yeah, it's like I think it was the advantage of like how I started at Uber. I don't know
+if I would think like that, but starting at Codecademy, which was very like doing great
+on the traffic and user acquisition side of it, not as good at the monetization side
+when I joined. Where like you had to think in those ROI terms cuz like cash, you know,
+we were fortunate to raise money from really good investors, so we had a pretty good
+cushion, but still like we're not uh the company's future was not predetermined by any
+stretch of the imagination. Like we had to build the business side. And to do that, you
+need to ship profitable features. So talk a little bit about pricing strategy just in a
+general sense as as kind of a part of what you do with with the product management. Um
+obviously there's a lot of different ways that that SAS goes about it, you know, and and
+and they seem to come kind of ebb and flow or or come in these waves, you know, usage-
+based or subscription-based or licensing fees. To just talk a little bit about about
+pricing strategy in general and then and
+
+[00:06:15]
+then kind of your likes out of that pile. Yeah, I'd say the the easiest way of thinking
+about pricing is it's almost like the like epic creator conversion rate between like
+what the user receives from the product from a value perspective and what they're
+willing to pay. So almost everybody sets their price like at the beginning when the
+product launches and then is kind of too afraid to touch something that's working for
+multiple years. Some of the I'd say the biggest maybe the top five leap forwards we had
+in product Codecademy, probably two of them were pricing related. And that kind of
+worked one because, you know, we're riding a really good wave at the time where we have
+a big acquisition motion that's mostly organic that's already set up. But also because
+we did invest in the product a lot. So the product was much much better than when it
+initially launched. And by improving the product and then raising prices, you capture
+more of that value. And in the subscription model, which takes a while to get moving but
+is super powerful once the compounding catches up, it's really really powerful. Do you
+have a preference between the two or is it is it really just kind of where you are in
+the maturity of your of your
+
+[00:07:18]
+company or the product? >> I think your pricing and kind of packaging model has to fit
+the use case of your business. So I always joke with uh our friends in the product
+management world that like some of the the hardest churn rate to diagnose is like 30 to
+40% cuz either like you are missing best practices or you're running fundamentally the
+wrong business model. And it's it's really tough to say from the outside. So if you
+churn 30 to 40% of users every month, a user stays around two to three months, which is
+like you might as well be an e-commerce product at that point and just collect more of
+the cash up front. So like usage-based pricing is another one where like it works really
+well if users understand the usage and your interests are aligned from the usage that
+you're driving. It doesn't work very well if like the value produced is obscure, if you
+can't produce it confidently cuz like every model has pros and cons. It sounds like
+you're talking about AI tokens in the realm of >> Yeah, I don't know what you're like >>
+[laughter] >> hard to understand and not reproducible. Yeah, exactly. Like um you know,
+I think usage-based pricing, I love the
+
+[00:08:20]
+incentive alignment if it works, but you also have to be really good at activation, you
+have to be really good at retention. Like you have to be able to reliably take cold
+traffic and turn it into the outcomes for usage-based pricing to work. If not, you
+usually going to see activation drop-offs and you'll have worse churn than you would
+have subscriptions. So some big companies like like knowing what they're paying for
+stuff. So usage-based works also if the usage is relatively frequent. I've never met
+like a CFO who wants completely variable cost from their vendor. Right. Yeah, none. Not
+like it was a reliable cost. Yeah, when I think of like usage-based pricing that works
+and makes perfect sense, I think of like Amazon, which is like, yeah, you get these
+resources, the server, you turn it on. Yeah, your users understand that. Yeah, I mean it
+makes perfect sense. And in a sense, like it's a it's a cost they arbitrage to their
+users. Right. But then those of us who are now doing AI enabled or AI integrated
+services as part of our SAS, which is a subscription model, and then trying to tack on
+tokens or something, it's it's very hard to communicate that to users and I I don't
+know. Do you have a
+
+[00:09:22]
+do you have tips or or a way to navigate that? Yeah, I think the one of my favorite
+concepts in product management is what I call like the complexity tax. So like you can
+introduce complexity into a system, it's just a tax you have to pay forever. And you
+constantly feel it in all parts of the business. So the more like confusing you make a
+sales motion, the lower conversion you're going to see. It works better if you have
+skilled sales people who can help handhold people through it. But it's much much harder
+if you have to you're relying on people to self-convert through like a self-service
+sign-up flow. Typically like it's it's tough to find the right balance of like how
+complicated to make the initial purchase journey to capture more value. We're just
+getting more people in the door so they see the value and they retain longer. It's one
+of those like it's it's hard to speak definitively on either side of that from maybe 15
+years of battle scars. Like I always lean towards more simplicity cuz it's always more
+complicated than you think. Yeah, I have a strong I share a strong bias towards
+simplicity myself and yeah, I I say there's like a terrible math you
+
+[00:10:25]
+have to do as a product manager where like you know a lot of stuff is broken. But you
+only have a certain amount of engineering hours per quarter to throw against stuff.
+Which means like you should try to avoid creating new edge cases that you'll have to pay
+down in the future. Unless you have a really really good reason. Mhm. Yeah, it seems
+like the market too is very muddy just in a general sense of the the different types of
+products and that can be used that are usage-based or subscription-based or license-
+based in order to actually bring a product today to market. Where it on the other side
+of that, it's actually got easier to bring a product to market because you have a lot of
+tooling, you have a lot of help, uh you know, whether that's AI or or the ability to
+spin up things very quickly with a small team. So, it seems like the decisions that have
+to go into how in the heck we're going to price this thing have to happen so much
+earlier because of all the variability and the different things that are going into the
+creation of the product itself. I always wonder partially is usage-based pricing just a
+way for companies to feel more comfortable charging more? In which case they maybe
+should have just charged higher flat fee
+
+[00:11:28]
+subscriptions. Like there's a there's a similar movement in the consulting world of
+charging like value-based outcomes like a percentage of wins. But it's also probably
+because everybody under prices themselves. That maybe you should just charge more to
+begin with and not come up with a more complicated formula. Yeah, no, I I like that and
+and I think if you you're saving somebody money or gaining somebody money that they
+wouldn't have otherwise saved or gained, it's really easy to just try to capture part of
+that and explain that to them like I'm going to save you $10,000 a month on your AWS
+bill and I want you to split it with me for a year. It's very very easy to say yes to
+that. But but it's it's a lot harder when you're providing a software that doesn't maybe
+necessarily have the same kind of it's obvious to tell how much you saved or how much
+you earned. Yeah, agreed. I think another thing with usage-based pricing too is like
+it's in usage-based models like there's always an incentive for one competitor to go
+flat fee. And if you can make the economics of flat fee work, they always have a huge
+advantage cuz people want sustainable cost. So, usage-based works if everybody's usage-
+based. But if someone
+
+[00:12:31]
+provided like, you know, flat fee cloud hosting if that was possible, they would take a
+big market share. Yeah, and several have tried, you know, I mean AWS being the prime
+example, but but so many have, you know, where you can effectively do what I guess used
+to be like a colo of a server. You know, you you get like this base flat cost and as
+long as you don't exceed that, that's how much you pay every month. But as soon as you
+exceed it, it just flips into a usage-based situation. So, then you got your base cost
+and then you got the variable cost on top of that. And month to month, you don't know
+what that's going to be because you don't get to find out till the end of the month. So,
+at the top of the month, here's your bill. At the bottom of the month, it's like, oh,
+also, here's your bill. Yep. Which from like the the company's perspective, we love. You
+know, the potential for account expansion. But from the user's perspective, do not love.
+Yeah, you can't plan for that. Yeah. It's hard to budget for it. Real quick, this
+episode is brought to you by Delta Systems, which is what Aaron and I do when we're not
+talking through microphones to you, the people of the internet. We've got a really
+really great software team here and we love to work with cool people on cool projects.
+So, that sounds like you when you've got a problem or you're in some
+
+[00:13:33]
+kind of a jam, go to deltasystems.com, grab a time [music] with us. We can beat up on
+your problem together and if there's a fit there, amazing, we'll help you out. So,
+deltasystems.com, grab an appointment and hey, maybe we can work together. And then you
+mentioned there were two big pricing uh changes or at least two big pricing changes that
+you rolled out at at Codecademy. Was that something you did like canary testing or any
+>> testing on or did you just launch them or can you speak a little bit to strategies
+for rolling out pricing changes? So, I'd say probably the the I mean maybe not the
+single biggest win, but one of the most effective changes we made at Codecademy. It's
+it's very like bespoke to the consumer subscription model. >> [snorts] >> Um but we
+changed the ratio of monthly to annual prices based around our LTV numbers. So, this is
+something that kind of every mature subscription business eventually figures out. So,
+there's kind of two buckets of user subscriptions in the consumer world. There's kind of
+like the happens for on average less than 12 months and happens for on average more than
+12 months. So, more than 12 months is like financing products, car leases, utilities,
+
+[00:14:35]
+uh mortgages. Like these are problems users have that never go away. And you can build
+these giant consumer companies based on like 10-year plus LTV cycles. Most of the
+consumer products though are sub 12 months. So, like fitness, dating, dieting, habits,
+edtech. Where these are like behaviors consumers come in and out of. And Codecademy and
+edtech is definitely one of those. So, most edtech companies won't have uh a retention
+cycle for more than 12 months on average. Users want to like learn the thing and then go
+away and do it and not pay for a subscription until they want to come back and learn.
+So, Codecademy figured out that if we price our annual plans as like one or two months
+more than the monthly retention cycle, you can like sweep a bunch of cash forward, lock
+people in for 12 months, and it has a massive impact on both upfront cash, LTV, uh your
+churn gets a lot more stable, your payment processing gets easier. And the the flip side
+of this trick is like if you look at any mature consumer subscription business like Calm
+or Headspace or Noom and you take the ratio of their monthly to annual plan prices,
+
+[00:15:39]
+you can kind of guess their retention numbers. Cuz everybody big eventually figures this
+one out. So, if you look at this has been a while since I looked at their pricing pages,
+but like Headspace's ratio is something like four to one. So, on average, people are
+meditating on Headspace for probably like four to five months and they try to price
+their annual plans to capture more of those people for 12 months upfront. Cuz meditation
+is like what you either going to like it or not like it. And if you like it, you may not
+necessarily need an app to do it. So, you need like very wide top of funnel to collect
+them and then to monetize them super quick. So, the with the numbers in that example
+like were to be like $10 a month or $40 for the year? Something like that. Yeah,
+exactly. >> Okay. Interesting. Okay. I never thought of that before. That's really
+interesting. Yeah, it's in I'd say the shorter life cycle consumer products, a metric
+that most companies should track that they don't is their plan mix. So, like you want as
+many people as possible in the longer term plans. Cuz it makes the business more stable,
+it makes the MRR more stable, you collect more cash upfront, you have less dunning
+payment problems. And it also makes users psychologically
+
+[00:16:41]
+commit to the product more. So, they're like more willing to go through activation
+bumps. Uh and this pricing trick, it's definitely something we AB tested. We set up an
+AB test where you I think the North Star KPI was something like revenue per allocated
+user. So, if you cut the traffic in half, you want to take the dollars you generate and
+divide it by the users on each side of it. And you run the test around that. And do you
+find that the AB testing is a is a good control? Is it a good way to to do that on the
+regular or is it just very context-specific? I have a mixed relationship with AB
+testing. I've seen both scenarios where companies don't test things that they should and
+then something breaks and they don't figure it out for months. And also companies move
+way too slow by AB testing everything. Mhm. So, I think like I would use AB testing as
+not a last resort, but like there's very specific scenarios where you want to control
+risk or measure with really really fine granularity. Or you have a assuming you have
+tons of traffic, you have a lot of different teams touching the same components at the
+same time. And you still want to know that you're like generally on the right path.
+
+[00:17:45]
+So, at Uber, we AB tested like literally everything like database updates. But also we
+have 40,000 MAU, 40 million MAU or something like that. So, as you can measure down to
+like really really fine scenarios. AB testing is great if you deploy it properly, but
+like it you have false positives, it makes things take longer, the tests are hard to set
+up. You need to be good at data science, etc. So, what are some what are some of the
+examples there on the false positives or the or the the poor side of of executing AB
+incorrectly? So, I think if you run things to a confidence interval of 95% which I'd say
+is the standard practice in AB testing and you do enough testing volume, it means you
+get a false positive one out of every 20 times. So, like if you run a few hundred tests
+a year, you have a meaningful amount of false positives. Which means you end up having
+to rerun tests over and over. I'd also say from a product velocity perspective like
+maybe it adds 20% to the engineering cost. You have to set up feature flags, you have to
+build multiple versions, you have to connect it to the AB testing system. Uh then you
+probably have to run the test, you know, traffic depending for
+
+[00:18:47]
+two to six weeks. Then it probably takes a data scientist like a week to come up with a
+conclusion and double-check data. So, you go from a project taking maybe, let's call it
+three weeks to end-to-end to a project taking two to three months. And like you still
+have a room for error. So, I think the most important thing in product development is
+velocity. So, it's like can you move really really quickly with accuracy? AB testing is
+like really good in certain scenarios. Price testing is one of them in my opinion. But
+in a lot of scenarios for routine product changes, it just slows things down. So, what's
+the alternative there? So, there's a couple ways. Like I think if you're implementing
+things that are relatively well-known best practices, you probably should just do them.
+If you're if you're looking at parts of your product that you have relatively stable
+metrics. Like if your activation rate just averages to be seven percent pretty much
+every month, you can make changes in that flow and just look at the data longitudinally
+and see if you see jumps or dips. You want to be like directionally correct with a lot
+of product changes versus hyper precise with one or two.
+
+[00:19:53]
+Unless you're touching like big amounts of money. So, just a a step or two back then, we
+were talking about just like the different I'm going to call them tiers, you know, the
+different tiering or or or uh price packages uh that you have within a product.
+Obviously, the goal is longer term or uh or higher end, you know, the good better best
+scenario, right? How how do you how do you drive people toward that toward that best? Is
+it just simply uh alignment of the pieces of each of those that someone may use or is
+the goal actually, no matter what, to get them to the best? Yeah, it's a good question.
+I think there's a couple ways of thinking about it. Like if you're using a usage-based
+system, usage-based systems are my favorite from like a multi-level product structure
+cuz it gives you kind of like a an understood currency to move people up the tiers. So,
+like newsletter platforms charge you percent, like uh the analytics platforms charge you
+per events. Whether like setting aside the the pros and cons of usage-based itself for a
+second, that's at least like a good mechanism to upgrade and downgrade
+
+[00:20:56]
+people and it makes the the tier someone's going to select relatively straightforward.
+If the other way of doing it is probably more around like personas or ICPs and trying to
+set those up in a way that like as a company grows and evolves, you naturally move up
+the tiers. Uh that can work, but those upgrade cycles are much much harder. Like in a
+perfect world, you could build the feature sets that, you know, 100-person,
+1,000-person, and 10,000-person company needs in each tiers, but getting like the
+upgrade motion right is really really challenging. So then, how do you advise a company
+uh let's let's say that they're early early to mid life cycle uh on on their MVP, they
+you know, done some market testing, they're they're they've got a few clients that are
+on it or you know, we'll call it inside of 100 or whatever, uh you know, a small number,
+but something meaningful to them. You know, how do you how do you guide them or how do
+you coach somebody like that to to properly set up the pricing, whether it's a single
+price, whether it's usage-based, uh subscription-based, or tiered in some way, or maybe
+some kind
+
+[00:22:00]
+of a blend? Uh you you'd mentioned toward the top of the call, obviously, it's it's a
+little more dependent on what it is that your software does and who your target
+demographic and audience is, but in a general sense, um there seem to be just some some
+pillars or some things that are consistent across. So, how do you how do you coach
+people? How do you help them make that decision when it's a CTO who hasn't done much in
+the way of business? Yeah, good question. I think if you think of like maybe taking a
+step back, there's kind of like three big systems you need in a company to make a
+product work. You have kind of some sort of acquisition motion which is like funnels you
+customers. You have the product itself which produces value that users see and
+understand, and then you have a monetization system that captures it. MVPs is probably
+more important to get the first two right than it is to get the monetization system
+right. The best signal of like a product that's ready to scale is you have, you know,
+the classic term was uh product market fit, but really it's like stable retention
+curves. So, you have you define like a North Star metric that is a good proxy for some
+overlap of user value and business value. And when users come in, do you see the
+retention when
+
+[00:23:04]
+that product like stabilizes at some point? If your retention curves that move all the
+way to zero, you can't stack a user base at all. So, I think the easy mistake, and it's
+not a bad method necessarily, is to like measure based off payment retention. So,
+everyone who comes in who keeps paying you. But a better way of doing that is defining
+like what is the core action of the product and can you get stable usage retention? So,
+for Instagram, it's probably like logging in and viewing a certain number of pieces of
+content. For Slack, it's messages. For Gmail, it's probably messages. For Uber Eats, it
+was orders. Like are you activating and bringing people in and do they see enough value
+to stay value to keep coming back and stay around? Until you have that, like charge
+something. But it's not worth like over-tweaking the monetization system until you know
+you're producing value. So, you're are you a proponent then of just just build a great
+product product and and focus on making something that people love and use and then the
+money will follow? I would say the money can follow, but you have to make the money
+follow. The
+
+[00:24:05]
+money doesn't just like naturally show up. So, I'd say uh a common problem that I see is
+So, call this the two to 15 million dollar a year business where like you have an
+acquisition system, you have product market fit, you have users that come back and stay
+there, and then they try to increase MRR by just building more product features. And
+it's like they don't know they have to work on the monetization system itself. And it's
+kind of like the third stage of the rocket. So, you have people coming, they like it
+enough, and now like are you building the right monetization system? And by that, I mean
+uh pricing, tiers, trial motions, activation, onboarding, payment processing, churn
+mitigation steps. To like raise your ARPU or your average revenue per user up to be high
+enough that your MRR will grow. There's like a really helpful framework in the the SaaS
+world, which is your gross ceiling. So, you take the number of new users that come in
+every month and divide it by your month-over-month churn number. You have like the
+ceiling of subscribers that you can ever hit
+
+[00:25:07]
+with those numbers before inputs and outputs equal each other. So, if you have like
+1,000 users coming in a month and you have like a 25% monthly churn rate, never do
+public math, so I'll pull up a calculator. So, you have 1,000 divided by 0.25, which is
+4,000. So, like you you can chart where you are on these growth curves and see like
+where will you keep growing from just a momentum perspective. Until you hit that ceiling
+and you have to either improve acquisition or hopefully end improve churn. And if you
+basically multiply that by your monthly price, you get this ceiling for revenue. I love
+taking taking metrics like that and just kind of plugging it back and be like, "Oh,
+here's a plateau that you're about to hit." And then you can be proactive you can be
+proactive about it and be like, "Well, that's a problem." And so, for 3,000 users, we're
+going to max out at four, we got work to do. Yeah, exactly. And it's like it's easy to
+almost like misinterpret the signals your business gives you as you're working on it.
+So, like you can get acquisition and churn relatively dialed in. And then if you're
+early on that growth curve, you can do meaningless work for two years
+
+[00:26:10]
+and still see growth. But it's really just the momentum of your numbers carrying you up
+that curve. But it's very easy to like misattribute your growth to the things you are
+currently doing. Unless you're super diligent about measuring the output of your work,
+which like very few companies are. That's also it's tough. When things are going well,
+it's tough to take that kind of like magnifying glass to yourself and say like, "Of all
+the stuff we do, what matters?" Yeah, especially like our our audience are nerds who
+like to build features, and building features is is what work is, right? And it's yeah,
+not always the main thing to be focusing on. Yeah, it's it's a very easy trap for
+product managers especially to fall into because like you all the incentives within the
+company is for you to fill your road map with stuff to do and then show that you're
+doing a lot of stuff. And it's almost like the exact opposite of what is meaningful for
+the business. So, like every company I've ever worked at, the teams that looked the best
+have 12 things going on in parallel. And it's like it in a sense, you don't want things
+going on in parallel. You want stuff shipping and going out the door and producing
+results. So, it's like if you could do this
+
+[00:27:11]
+anyway, you would do as few things possible as fronts and get the winners out the door
+as fast as possible and then measure and make sure you're right. But like very few
+product cultures are like diligent enough to do good numbers reviews and make sure that
+like you're actually learning what moves the business. Would you say that that's
+something that is more likely to happen earlier on in a startup or or a product life
+cycle or or something that happens later? I'd say it's typically later. So, most of the
+companies I've seen, they get started by founders and if they're going to survive, the
+founder has relatively good intuition on what the users need and what the product needs.
+But at some point like either the founder's intuition starts to run dry and or they need
+to spend more time growing the business itself. And like the founder has to be less
+involved in product management. So, you move from kind of like a founder's instincts
+motion to more of like a professional product management motion. And professional
+product management is definitely slower. Like if you have a founder who's on a hot
+streak and like instinctively knows what to build, you ship stuff really quickly because
+they just tell you literally what to do. You have to do any research. And if that
+
+[00:28:14]
+stuff keeps working, like keep doing that. You'll never grow as fast as that. But at
+some point, it's like that stops working and you need to move over to like research,
+metrics, good hypothesis, and more like deliberate testing and shipping. Do you support
+uh looking at uh lost lost deals? If you get information from from deals that you've
+lost and failed to close um maybe cuz you're missing a key feature or something? Or is
+that is that separate? I'd say it's an input. Um I don't think it's something you should
+necessarily um drive 100% of product management over. Same thing in the consumer world,
+like the cancellation data you get should be an input into your decision-making, but
+like very rarely should you trust it literally. Too too many reasons for that, I would
+think. Yeah, it's um I mean, partially, they could be the wrong user fit. Users are I
+mean, it's at their lowest commitment point to the product. So, if they fill in
+anything, I mean, the number one objections are almost always price and time. And as
+those are almost always be your number one objections, if people fill in anything like
+it's you're lucky if it's productive, you're lucky if it's not
+
+[00:29:15]
+threatening. Like you get a variety of data back from those. So, like it's good to know
+and like factor that in your decision-making, but I've never in a cancellation flow seen
+like uh one fist or feature listed that when we build it, massively matters. In my uh
+experience, and and I've talked about this in other other shows as well, and it's a huge
+pet peeve of mine, for me, it typically seems to happen when a product or or a a utility
+or whatever it happens to be um either tries to outgrow its usefulness or become
+everything within a particular space. So, it doesn't stay in its lane. Uh you know, you
+keep adding features. I mean, that's fun for you, but I don't need any of that. You were
+really, really good at this set of features and this trajectory, and now you're trying
+to absorb some ancillary market or some additional people because they said this would
+be even better if you did this, and you're letting them drive it, and it just becomes
+really bloated. Uh you we used to see it with the browser wars all the time. You know,
+there was always a frontrunner, and it was always the one that was the smallest,
+tightest, simplest, most nimble. And then over time it would just become the biggest,
+
+[00:30:17]
+bloatist piece of software ever, and you'd have to go find something else. Yeah, 100%. I
+had this uh stupid car smart coffee mug on my desk. And one of the first uh cloud code
+projects I did was just rebuild their app without 90% of their features. Like, I want to
+push a button. I want the coffee mug to heat up. I want to know its temperature. That's
+literally all I want to know. I don't need a leaderboard. I don't need reporting. I
+don't need sharing features. I'm not posting this to Twitter. Like, just do the main
+thing. >> [laughter] >> I love that. That That feels like a That feels like a market,
+like in a general sense. Like, let's let's uh deconstruct what exists in the market to
+make it good again. >> [laughter] >> Exactly. Just like let's strip away everything that
+isn't necessary, which for a smart heating coffee cup is just turn on. >> [laughter] >>
+My wife has one of those, so I understand completely. Uh the uh Yeah, I mean, the the
+inch-ification of products over time is probably probably its own topic uh and I'm sure
+you're sure your tendency is just like I I need this app to do 5% of
+
+[00:31:20]
+what it does. Could it please do less? And uh if you're I mean, how do you how do you
+get that feedback, or how do you embody that when you're a product owner, and your job
+is to control it? It's one of the hardest things to know in product management is like
+how much headroom is left here in this space. So, like we, you know, we just rebuilt
+feature XYZ. Should we take like three more iterations, four more iterations, 10 more
+iterations? It's really, really tough uh to know like the especially with MVPs. Also
+like the the amount of effort you put into the beginning of projects. I think the maybe
+the best thing is like with the AI coming to software development, like the cost of
+these features is dropping. So, you can get them out the door quicker to higher quality
+level and get better signal. But like almost no company I've ever seen like unships
+features. Unless they're like really, really, really deliberate. Yeah, the good ones
+seem to seem to if they realize it, fork it. I and and those are ones I'm interested in
+because
+
+[00:32:23]
+they've they've made that realization, and they understand their their demographics, and
+you know, where potentially they actually may even have another market that they can
+just break this off onto. So, those I like. I'm very interested in those. Yeah, exactly.
+And it's like having been in a lot of these companies, it's I don't know. You have a
+limited amount of engineering hours per week, quarter, sprint, whatever. And it's like
+it's very tough to not use those things something things you think you're going to move
+the metrics. So, it's like best case scenario is you're paying down technical debt. And
+you're paying down the technical debt that will like clear the road for where you're
+trying to go. But it's very, very tough, and like it takes a very mature organization to
+just do routine maintenance on things that aren't used widely and or kill them. I would
+love to chat with the team uh the team behind Harvest. And if you're familiar with
+Harvest, the time tracking tool, but I've been a daily user for more than a decade. I
+think they've probably probably added two features, maybe three, all small uh in that
+time. I mean, the product looks exactly the same. It does exactly the same things. All
+the slight little things I would
+
+[00:33:25]
+have liked to have had improved and changed are still not fixed or not those
+improvements never happened, but they also never added stuff or broke stuff. And I would
+love to get to know their story cuz it's I think it's the only example of a product I've
+seen that has not done anything in 10 years. But I'm very appreciative that it doesn't
+because it's awesome. >> Yes. >> [laughter] >> I wonder how big the team is. Yeah, I
+don't know. I They're a company I come back to over and over again that just I really
+admire what, you know, the software which is really great. It's consistent. And yeah,
+it's been the same. And not having to accommodate some new user interface overhaul every
+6 months because they they have bored bored front-end engineers or yeah. [laughter] Yep.
+Yeah, I think part of it too is a factor. Again, this is probably changing now, but
+probably from like the mid-2010s through the start of COVID, engineers were so hard to
+hire that everybody who could overstaffed on and then have a team sitting around who
+needs stuff to do. Mhm. Yep. And I think a lot of it too was people got hired just so
+that other people wouldn't be able to hire them even if they didn't necessarily have a
+job for a job for that person.
+
+[00:34:28]
+Yeah, it's uh that that does change. We're now seeing floods and floods of people who
+have very strong kind of resume pedigrees that will do do things like fail our our
+initial technical screener, stuff like that, which is kind of strange. So, you you
+brought it up, so and and it's very hot, so we got to talk about AI. So, where do you
+see I guess the simple question, where do you see this this taking product management in
+the next, you know, two to three years? Uh everything being not everything, a big chunk
+of things becoming AI generated. Um you can do, you know, it's the it's the whole do
+more with less idea. Uh you know, whether or not there's there's a lot of truth in that,
+I'm I'm open to discussion on. But um you know, where where do you see that fitting into
+a product life cycle and and product management in a general sense? Yeah, I'd say it's
+still really early. I think the things that seem to be clear so far is like you need way
+less humans writing code. Like the trivial sides of coding seem to
+
+[00:35:31]
+be more or less solved. That's harder in larger, older, more convoluted code bases, but
+like very, very easy to do small little projects now, and that will probably just keep
+expanding. Uh what happens to product management is also like really unclear. Like,
+there's a line of thinking that product managers are going to be much more product
+builders. So, uh it diligent like I can spin up my own MVPs in fresh code bases. And
+like my favorite thing about that is that probably saved me hundreds of hours of
+meetings and document writing, where I can now just go do the thing myself versus like
+not need to like meet and convince other people to do it. So, that's largely the skill
+set of product management in the last 15 years. I think the main thing that matters in
+product is velocity. So, like I think there's a temptation to shrink a lot of companies.
+So, even though one person could do the work of 100 engineers, you would still rather
+have 100 people doing the work of 100 engineers cuz velocity is relative to your
+competitors. So, you still want to move like net the fastest against everybody. Uh the
+biggest change will
+
+[00:36:34]
+come to product is like so much of product management relies on the fact that you need
+specialists. And you kind of like write a document, and you shepherd this idea from like
+design reviews to finalize designs to architecture reviews to getting a high-res MVP
+built to testing to QA, maybe to an experiment. And so much of your life is like coming
+up with something in your head and just like pouring it into other people's heads in a
+sequence to get the thing out the door. And the bigger company you're at, more of the
+skill set for like the mid-tier product managers is just navigating the company. Mhm.
+Know all of the little like levers to pull internally to get something out the door.
+Something like that will change a lot as like PMs are more empowered internally. What's
+like really not clear is like who has the skill set to do this well and like how many
+people there are. So, I remember like the learn-to-code wave of the the 2010s cuz I was
+a code academy, and there was this concept that like we're going to take everybody learn
+to code. And like turns out it's not really true. Like, most people don't want to learn
+to code. And still you need like a relatively high IQ and specialized skills and tons of
+practice
+
+[00:37:37]
+Mhm. to like employ this skill at a professional level. So, all the boot camps started
+with the whole like take a coffee barista and train them for a month and place them at
+Google. But like that's largely not true. You're taking McKinsey consultants and just
+prepping them for enough interview skills to get them through a technical screen. And
+then once they're at Google, they still need 2 years to be effective. So, it's unclear
+what's going to happen on the coding side. Is like is something everyone can do, or is
+it also like a specialized skill set we don't really understand yet? Like, what's the
+background of someone who's excellent at this? Yeah, it was a similar notion in the in
+the late '90s, early 2000s. You know, everybody everybody had the the founder, the
+entrepreneur, the the idea person, right? Yep. And and there was a pretty significant
+and usable pile of of people that could actually implement it and develop it. But you
+wouldn't necessarily put one of them in a room with, you know, a customer or a client,
+you know, for the for the quote-unquote people skill aspect. And so, the unicorn of
+those days was the person who knew, understood, and could possibly do the
+
+[00:38:39]
+development work, but also could uh you know, explain and bring bring customers in, do
+the marketing, the sales aspect, and and marry those two things up. And I I think you're
+right. I think I think the direction now that product management is kind of taking it
+it's absorbing some of those development skills into uh the the people who now form the
+ideas and who are creating the road maps and who are pushing the thing forward because
+like you said, you can do that now. And I don't have to have all this development staff
+to realize my idea. Yeah, agreed. Like I always like I was saying before, I equate
+product management almost like general contracting for software. But it's almost like if
+four general contractors, AI is like if labor materials became borderline free and 100
+times faster. But even then, like I don't know if I could build a very good house cuz
+I've no idea how houses are built. Like just cuz I could wave my hand and move things
+around, doesn't mean I would come up with a house that's like sellable or worth living
+in. I don't know how to do it. Like, I don't know plumbing codes. I don't know how
+structures work. Like uh you would still want a professional just to do it and move
+faster. Yes. Or at the
+
+[00:39:42]
+very least review what you've done and tell you where it's wrong. You know, be be able
+to fix it. And so, you know, the onus becomes uh on senior developers, team leads, uh
+you know, the folks that that have that are kind of been through it and understand it.
+And I I I'm worried that uh we're going to see fewer of those types of people become
+themselves because we're removing the path almost entirely by filling it in with AI. So,
+the jump from a a junior to a senior developer used to be a a pretty straight line and a
+reasonable path. You know, you said, "Practice, practice, practice. Work on it. Work on
+a team. Become a team lead. Become a senior developer, etc., etc." Well, now a person
+who doesn't even know how to code can build a product and they there's there's no path
+for them without that educational component and experience. And nobody wants that right
+now because everybody's hot on do more with less. Integrate AI. I want to have fewer
+people or I want to stay small and very nimble. Um and it's a challenge that I see
+coming. Yeah. So, one thing that I'm kind of optimistic about and maybe this won't vet
+out or or play out this way,
+
+[00:40:44]
+but I I'm very kind of perturbed and concerned that we have a lot of senior engineers
+who don't have any fundamental understanding of what's happening when you turn on a
+computer and go to a website. And like maybe that's not important things to know, but
+like I I interview a lot of people who are far in their careers and they just don't have
+that fundamentals. And I think that people who have those fundamentals now are so much
+better using AI and better at working with AI to solve problems that uh it's almost like
+those it's kind of like a return to basics, a return to fundamentals. And that may be
+that may be the thing that we do is we don't teach those folks how to write code. We
+teach those folks what happens when you turn on a computer, what an HTTP request is, and
+then they can work with an AI to solve those other problems because they have a a
+fundamental understanding of what's happening. Uh maybe that won't maybe that won't vet
+out, but I have been very impressed with most tasks that I have given to AI, and that's
+kind of regardless of the stack or where on the spectrum it is, or that's programming
+something or answering an architecture debate. Um it's good at that stuff. I just don't
+think it can do the entire thing by itself at this point. Well, any last question for
+me, uh and then I'll I'll kick it to Justin if he might have
+
+[00:41:47]
+anything. Uh piece of advice, best piece of piece of advice that you've got for uh for
+not just product managers, but just businesses in general, uh you know, who are who are
+seeking to bring to market uh their product. What pitfall, what problem, what thing to
+watch for, what best practice? Pick a pick a thing. What would you share with them? Set
+and review your metrics. Ideally daily, but at least weekly. So, if you think of the the
+the big three buckets I talked of of kind of like how you acquire users, the value they
+get, and the monetization system. Like your acquisition channel kind of determines the
+number of new leads coming in, but you should at least look at it. On the user value
+side, North Star metrics are probably the most helpful. I have a post on my blog. You
+can probably Google North Star metrics. But ideally, you want to see that number move up
+into the right. And on the monetization side, something like ARPU, conversion, MRR. Of
+like of that value, what do you produce to money? Big part of product is like your
+intuition on the size and impact of ideas has to get better the longer you do it. And
+it's
+
+[00:42:50]
+really like the more you look at your metrics, the better you're going to be able to
+make snap decisions on like rough impact of features. And then you don't want to look at
+that kind of like a monthly because ideally, you're shipping faster than that. And it's
+really like the daily cadence that like builds your like almost like an intuitive
+understanding of how the business works. Kirby. Justin. Last word? Last word for me is
+always my favorite question. What's uh what's something that we should have asked you
+about that we didn't? That's a good question. Like I think um I probably have the
+deepest knowledge in just consumer subscription products. I think one there's just fewer
+uh consumer subscription products out there than there are B2B products. Uh but I'd say
+like the the big buckets of things that I've seen work in subscription is really like a
+good trial motion, good pricing structure, good onboarding, optimizing your Stripe
+account correctly so that you win the retries when payments fail, and then your
+cancellation flow. Like almost no one nails those out of the box. But there's best
+practices if you look at the New York Times or any big B2C company.
+
+[00:43:53]
+Just kind of like copy the best practices. I've almost always seen like conversion move
+up 15%, churn drop 20% just by doing those correctly. Love it. That's beautiful. Where
+uh where can we send folks to connect with you? Oh, yeah. So, I I write on a blog called
+Subscription Index. So, it's subscription like the word subscription, index like a stock
+index. Uh I write basically everything I know on there. You know, we were super
+fortunate at Codecademy where we saw revenue go from like 10 to 50 million ARR, and then
+it sold a couple years ago. And I'm just trying to get people not to make all the same
+giant mistakes we made in like bumbling around in the dark trying to figure out how to
+make this thing grow. So, I I write down everything I see work there. Beautiful. We'll
+definitely uh link that up below and send folks your direction. Thanks so much for uh
+for coming on. This has been a really really fun conversation. Yeah, awesome. Thanks,
+guys. Thanks for having me. Yeah, thanks, Dan. So, we've been uh talking to Dan
+Leyfield, director of product management at Diligent. You know where to find him, and
+you know where to find us. If you like it, hit the subscribe button. Uh send us some
+notes. Send us some comments. Justin's already fielding emails and uh answering your
+questions. So, keep
+
+[00:44:54]
+those coming, too. And we'll see you all next time on SaaS That App. Thanks for cruising
+along with us on SaaS That App. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

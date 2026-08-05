@@ -1,0 +1,545 @@
+Will AI Replace Software Engineers—or Just Redefine Them?
+=========================================================
+
+Video ID:  rRx9VjiQV4M
+URL:       https://www.youtube.com/watch?v=rRx9VjiQV4M
+Published: 2025-07-22
+Duration:  00:37:04
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+It's a space race to to AGI. And so this administration definitely wants the US to be
+first to AGI. And that's why they've decided to like really not do hardly any regulation
+at all. Regulation only works if everyone is doing it right. If the US through this
+deregulation creates something that can destroy all of humanity and like the EU has
+played it safe, the EU is not going to be spared. Welcome to SAS that app building B2B
+web applications. The podcast where we share real world stories, practical advice, and
+tech insights for those building or thinking about starting a tech- enabled business. I
+am your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. Hello and welcome to SAS that app. Today we
+welcome Karen Aketta. Karen is an AI strategist and leader driving AI
+
+[00:01:03]
+adoption for engineering at Baby List, the trusted platform for billions of growing
+families. With a background spanning software engineering, strategic operations, digital
+storytelling, Karina is passionate about how technology shapes our connections and the
+ways we work. She's been at the forefront of digital transformation for over a decade.
+from early online communities to hackathons, corporate innovation, and fast-paced
+startups. And through her writings and talks, and her blog, Karin explores the big
+questions at the intersections of memory, meaning, and agency. Whether she's coaching,
+budding technologists, designing human and digital systems, or reflecting on the past,
+her focus is always on amplifying the human experience through technology, which is what
+we're going to get into with her today. Karem, welcome to the pod. >> It's great to be
+here. So Karen, just just kind of right out of the gate, your career has obviously
+evolved from uh being consultant to leading AI initiatives at Baby List and and other
+places, other things. So how did your passion for human connection and technology first
+start and and how was it that that led you to your current role in AI adoption? >> Yeah,
+you know, I I I am a digital
+
+[00:02:06]
+native and I think I'm a millennial as well, but I think I had the unique experience in
+that my father was a technologist. me. He's a doctor by trade, but he loved computers.
+And so, you know, even though I was born in the late ' 80s, like I had a computer
+basically as far back as I can remember. And he got on the internet as soon as that was
+available. And so, I, you know, had these experiences of using the internet. I think
+Greek mythology was my obsession when I was very young and I the library was not enough.
+And so I think I I've had all these experiences from a very early age where technology
+was such an enabler for me for for how I learned. And I think as I started to get older,
+it a lot of that was brought into kind of the careers um and roles that I chose to to
+take. It was about teaching people how to use technology. I think very early on in
+consulting, I was teaching people how to blog. And you know, ever since then, it it kind
+of evolved from that to social media. I did kind of go, you know, I think too far into
+the online pendulum at one point.
+
+[00:03:10]
+And that's why I kind of swung back to events, but it was still very much centered
+around the technology was the reason for actually bringing people together um and and
+being in these events. You know, everything from sort of meetups to hackathons. I also
+like contacted for like really big conferences like Google IO and the lean startup
+conference. And you know, you meet people who I think are so energized about that about
+technology and about, you know, how it can amplify the human experience. And I think
+when when that role ended, it was sort of like, well, do I actually want to learn how to
+like build these things? Um, and so that led me into sort of my I guess like current
+path, which was software engineering to staff engineer and then now as like an
+engineering manager at Baby List. >> Fantastic. Yeah, I think we have a lot in common in
+our history. In a in a former life, I I too was the uh family and friends go-to IT
+person uh as I think so many of us uh are as we get our as we get our feet underneath
+us. And then uh also did a lot of training myself, you know, in in uh corporate
+
+[00:04:14]
+America in the business world for people coming in the door with no understanding at all
+of what a spreadsheet is or what software I might use to manipulate it and then how do I
+manipulate it when I get there. So yeah, I think I think a lot of us fall into those
+categories and it just kind of leads us either away from it because we're so sick and
+tired of it or or toward it because we want to do it better, right? We all want to we
+all want to see that that technology grow. And now now you're like very steeped in in
+the land of AI which is of course uh everywhere it seems. It's it's obviously a hot
+button, a hot topic. Uh it's a big thing. Everybody wants to either learn about it or
+get involved with it. uh or there are of course still the bucket of people that are very
+fearful of it and we want to run in the opposite direction as fast as we can so that you
+know Terminator doesn't get us or whatever. So um kind of getting into the land of AI as
+as you have uh become this this strategist you know as much as anything else and and
+you've led these AI adoption initiatives both with uh you know the company that you're
+in now Baby List but also in your coaching uh dealing with teams dealing with upand
+
+[00:05:15]
+cominging developers training new new folks what do you see as like the big challenges
+uh that are facing those teams people who maybe are not as comfortable or familiar with
+this kind of technology and how they might incorporate it either in their learning or
+their their training or their business. >> Yeah, I I think it is the the learning aspect
+of it. You have to remember that a lot of the people, you know, they're at, you know,
+the middle, sometimes even the high point of their careers. They're very good at what
+they do or at least they thought they did, right? And now you're basically asking them
+to go back to a beginner's mindset, learn something that they've never actually needed
+to be successful in their role, and then telling them actually no, this is now essential
+um to your role and that you will need this in the future to be successful. And I think
+it's it's it's hard for a lot of people. Some people have never had to do that. I mean,
+I am a career a serial career switcher, so I've done this so many times. I think I've
+gotten so comfortable with not knowing things and starting over and
+
+[00:06:18]
+being in that beginner's mindset again that it's I I think it's it's a comfortable
+uncomfortableness if you can ever get to such a place. But I think for a lot of people
+it's really confronting and and it is a mindset shift of being, you know, being I think
+more tolerant to be like, "Yeah, I'm going to take the time to learn this and I'm
+probably going to suck a lot at the beginning, but I'm going to like get over that and
+then once I do, it's going to be such a huge unlock for me." How do you address the
+people who are a little further a further away or or very much resistant or or skeptical
+uh you know in regards to AI even if they have a learning mindset? Uh you know it just
+you hit a wall it seems like sometimes when you're when you're like okay we really need
+to utilize AI as a tool as an integration as a portion of your business. You know how do
+you how do you deal with people who really push back hard and and really kind of are
+resisting this right now? Yeah, I mean I think it's like you actually just have to meet
+them at like a very human level. Um I think there are different reasons why people are
+pessimistic or resistant.
+
+[00:07:24]
+In fact, I was um recently at a webinar, I think it was Thursday strategy. It's this
+boutique consulting firm. They did a whole study around the population around pessimists
+and and optimists. And I think pessimists are actually like a third of the population.
+Um it's a very huge number. I mean it's not like in this minority and you actually see
+very different like usage and adoption patterns right based on this idea of if you
+identify as an optimist or a pessimist and I think a lot of them are concerned about the
+impact that it will have on society. I know like right the the energy costs right to run
+these these large language models is also a a concern for a lot of people and and I
+think like you don't you don't actually I think allow people to get past those barriers
+without like really talking about like some of those ethical concerns or you know
+sometimes it's actually even as simple as like I'm so busy at my job I don't have time
+to learn this right I'm just going to do the tried intrude method of of how I
+
+[00:08:28]
+know to get this thing done. Um, and so it really is on honestly sometimes just also
+just dealing with their skepticism around overwhelm. Uh, and so you really actually have
+to gauge which one it is, right? Because an ethical skepticism is very different from
+like one of like overwhelm and just like not enough time. Um, and you do have to you
+have to know the person well enough to be able to say like, you know, which one is it?
+So I'm not I wouldn't consider myself an AI skeptic and I think everyone in our firm
+uses AI every day. I don't think that's an exaggeration both with code completion tools
+uh debugging with large language models, image generation. We use it a lot for a lot of
+things. So I don't paint myself as a skeptic. I see some people who are experts in the
+space saying things that are very very bold predictions that seem very out of touch with
+what I see AI AI doing. I guess do you have like a take on that or or what it would you
+would be your reaction to be kind of saying that where there seems to be a bit of a
+disconnect between where AI is and what people are saying about where it it is and where
+it's going >> in terms of like what it's capable of. Like do you think that the experts
+are
+
+[00:09:30]
+overstating what it's capable or understating? >> Dramatically overstating is would be
+would be my take. Um for example, we're not going to have software engineers within the
+span of several years. I've that I've heard that said since the mid 2010s, five years
+away from not ever having software engineers anymore. U and it still seems to be five
+years away. But anyway, I'm not trying to uh to disagree. I just I'm genuinely curious.
+You do have a lot more experience directly with AI and what's going on with it than I
+do. I mean I'm not an expert in the sense that like I not I don't work on the models
+directly and I think right the people who are training the next right version of open AI
+or claude anthropic right have a much different vantage point because they literally are
+seeing the future of what consumers will be using right in the coming months and and
+they have a preview in that sense. I think what I will say is that right like AI is
+transforming not just products but people and processes and so I do think that the role
+of software engineer will look dramatically different in five years in fact like I'm
+already seeing that today within my company so Devon is
+
+[00:10:35]
+this like a first generation of an AI agent so something completely autonomous that you
+can give it some instructions or a prompt and it can go out and write the code for you
+for a very small task and it's functioning today at what a lot of people consider the
+level of a software engineer intern meaning you have to really break it down and
+sometimes you give it a task and it comes back doing something completely different than
+what you thought you asked it to do I mean that's like right that's with any like junior
+employee it's like oh I obviously was not clear enough in what I wanted right and and
+sometimes it generates a lot of throwaway work but you know I know engineers who are
+working with basically a fleet of five of these, right? And they're not actually even
+actively writing their code anymore. They're just managing these AI agents. And now
+their job is like not that much even about writing code. It's about reviewing code or
+testing code, right? Which is which is, you know, it's still within the function of a
+software engineer, but the time spent is dramatically different.
+
+[00:11:38]
+And and I think right I think we treat roles as sort of like the individuals in them are
+all the same. But I would actually challenge and say that's not true. I think people
+become software engineers for different reasons. Some people actually really like
+writing code like hands on keyboard and they would hate this world right where you're
+just now delegating all of that. some people and and this engineer in particular that I
+I have in mind I think really sees code as a tool to create experiences for users and
+that's what gets this person excited at the end of the day being able to deliver that
+outcome for the user and they're going to take the s shortest path there right so they
+don't actually even care if they're writing code you know there are some some engineers
+who just love debugging and investigating and that's all they really want to do and
+sometimes they go down rabbit holes right >> as Justin waves hand. >> Yeah. And so I I
+look at this and I see like, you know, there's actually an opportunity here to like
+actually specialize in the thing that you most love about your job. And so like, yeah,
+
+[00:12:43]
+when people say like software engineers will be gone, I'm like, I could see that. I
+could actually see us getting so specialized that you now have software engineers who
+manage, you know, fleets of AI agents. You have other engineers who have AI agents that
+all they're doing is debugging and maybe mitigating incidents. And you have others who
+maybe they still want to write code. And so maybe there, you know, there certainly are,
+right? AI is not great in every language. There still are languages that don't actually
+have a lot of, you know, open source repos, things to train on. So maybe they go into
+that. I don't know. Maybe they go into the very obscure languages. I it's it's hard to
+say but I think right it's going to potentially drive actually even more specialization
+within the field. >> So in a general sense would you say then that certainly current
+developers you know people that are in in some tier some level of already doing
+engineering uh as well as those that are coming up that are getting training and things
+like that. Do do you do you see this then as disadvantaging them if they are not
+adopting some level or some degree
+
+[00:13:47]
+of AI or or some variation of it or do you think without it they are still just fine? I
+do think they're at a disadvantage because I think it is a marketplace right where
+employers are, you know, hiring for the talent that they think will be more successful
+and I think the way the industry is going is yeah the expectation is you need AI to be
+successful and I think that is the reality and and I think right there I think
+productivity is still an open question of how much productivity gains we're going to see
+but I think there is a general belief that you will be more productive and produce more
+output. You know, whether or not that leads to the right outcomes, I think is another
+question. But I think the perception is you do. And so I think it it becomes more of I
+think a a self-marketing problem if you're not, you know, working on these tools. And I
+mean it's it is like right like when React became popular it's you know if you weren't
+at least know about it um or open to at least trying it then you know you would
+
+[00:14:52]
+have just ma made it so like it was much harder to find opportunities right for roles
+for yourself and I think there there still for a while will be companies that are
+willing to hire engineers that that don't have any experience or no experience but I
+think those are going to rapidly dry up and I I think my other question is is will those
+companies even be viable and be able to compete right in the long term if they're
+competing against companies that have workforces that are basically right empowered with
+these tools. >> Yeah. I mean you mentioned you mentioned Devon Codeex is out there now.
+I mean there's a lot of these different agents and and you know I guess we're going to
+qualify them as vendors in general. You know it's kind of an explosion right now.
+Everybody wants everybody wants to be a part of it in some way, shape or form. And so
+they're they're spinning up their either very niche version of AI to help it do a very
+specific thing or something that's much more general with a larger language model sort
+of a process. And I I guess my question is from your perspective or or in in your own
+coaching with these organizations, how do you how do you help uh
+
+[00:15:55]
+organizations find which of these AI utilities or tools might best fit what it is that
+they're doing or or might best help their staff to achieve whatever goals your
+organization are trying to meet. I mean, there's so many out there and a lot of them are
+at different different degrees. Yeah, it >> it is a process and I don't think there's
+like one right solution for every organization. I'm not working with a ton of companies.
+Um and and most of this is actually like pretty informal. Um it's not like anyone's
+necessarily paying to do this with me except for my actually my own employer. But I
+think you kind of like have two models. You kind of have the companies that like want to
+do a lot of that thorough upfront research to find the right tool. I'm of the opinion
+that I think it's wasted time because the field is evolving so rapidly, right? If you
+start a two-month procurement process, in two months, you're actually like really
+outdated and you're actually dealing with outdated information already, which is which
+is which is shocking, right? That's not the way software used to work, right? Things are
+not the landscape is not completely shifting in
+
+[00:16:58]
+two months, but it is with AI. And then I think you have some other companies which are
+on the extreme end of the spectrum which is like okay if we're living in this
+environment where right new tools are coming out every day tools are becoming obsolete
+like very quickly let's just open the floodgates to our employees to basically choose
+and work with any tool right that meets our security criteria and our data privacy and
+and you know all of those like you know base requirements and just say like let's
+experiment let's try like let's live in this messy world. um that ends up putting a lot
+of strain on the actual people in the procurement process that are required right their
+workload has suddenly I think I don't know tripled you know five times 10 times I don't
+know but it's a lot more than they've ever had to deal with and so you know there are
+things that you probably have to do to optimize and it's not going to be as thorough
+right as like you previously would have done to onboard a vendor when it was like you
+were dealing with like a handful of these like per month you know now you're dealing
+with
+
+[00:18:00]
+like potentially like half a dozen new requests each week, maybe even more. Um, but I do
+think that those companies will get to a better place sooner for what works with them.
+Uh, because they're experimenting across a lot of different tools and they're seeing,
+right, strengths and weaknesses between tools. And you really only get that by, you
+know, using things right in tandem and and being able to kind of come up with like,
+okay, well, you know, maybe this works here but not here, right? It's really about like
+pressure testing your workflow through all these AI tools. >> Sure. Yeah. When we talked
+a couple of weeks ago, um, you mentioned something that kind of caught my ear. you you
+talked about a a company or a business being AI forward and and so I'm curious what your
+definition of AI forward is and then if you can give like a specific example of of an
+organization or a business who has you know utilize AI adoption and it's solved a
+specific challenge that they were facing. We've been talking a little
+
+[00:19:01]
+bit in generalities but yeah what tell me about AI forward and and a specific instance
+where it helped solve a a business challenge for somebody. Yeah, I think AI forward is
+it starts with like the mindset of the organization. So I think even before AI gets into
+the product, maybe they are experimenting with the product already, but I don't
+necessarily think that's like a a first criteria. It really is about the mindset of the
+organization. Usually I would say it probably comes from leadership. So the CEO or
+someone in the seuite making a statement that that AI adoption within the organization,
+right? So internally the employees is an important thing and and and right creates that
+space for experimentation creates the space to bring on AI tools and giving employees
+access to it. I think more maturity, right? You could tie that to performance reviews.
+You could have an OKR. I think different com companies will tactically figure out how to
+make that meaningful within the organization and be able to drive some accountability.
+And I think for that, so Zapier, I think, is
+
+[00:20:03]
+probably one of the earliest examples. They um I think recently put out a piece kind of
+going through their experience of what that looked like for the organization. And this
+is I think when OpenAI first released its models like it was making news right that it
+was like u like passing the ELSAD and like all these things and and their leadership
+looked at that and it was like oh this is going to be a big thing for us and like
+immediately started I think it was like something like a code red or something within
+the organization to actually like get companies to start using this. And I think flash
+forward today, they do have AI in their product. And I think that their understanding
+and and the maturity to which they're talking about AI is just dramatically different
+from like other companies who are just starting now. You know, they are really thinking
+about like how they actually how you transition users. And I think they're actually
+really adept at this because you know, Zapier historically is a very technical
+
+[00:21:05]
+product, right? you're building these workflows. And so they, you know, have this idea
+of like you go from like a a dumb non AI workflow to then an agentic workflow where
+you're kind of like adding in and sprinkling in AI to then like you can actually move on
+to their full-fledged like agent product, right? So they've already kind of thought
+thought about like these steps in betweens and I don't think they would have gotten
+there purely just thinking about this right within the product technology or right this
+is really about the whole organization thinking about AI together and they're also dog
+fooding their product right so they're actively using their product internally right for
+everything that they that they do and so I think it's like right one of the things about
+using these tools every day right whether you know, you're in marketing or sales, right?
+Or some part of the org that is, you know, not responsible for building the product is
+you start having these conversations internally about like, well, what if what if we did
+this, you know, and so now you have these ideas not just coming
+
+[00:22:08]
+from your product or which, which is, you know, typically the org that would ideulate
+and like figure out how to get these into the actual product that you're selling to
+customers, but you have it coming from across the org. And I think it's that sort of
+like AI forward mentality that will make, you know, these companies competitive in the
+long run because they're actively thinking about, you know, what is the user experience
+like based on their own user experience of using these tools? >> Got you. And then on
+the flip side of that, is there like a common mistake or misstep that you see with with
+businesses or business leaders or even startups when they're trying to in some way work
+with or integrate I AI into their products or workflows? I mean, definitely a company
+who says like don't use AI at all or like won't let you or actually like maybe like
+describes it as like you're cheating. Um, I would I would for sure leave an organization
+if that was like their mentality because I think it would completely torpedo my career
+and that would I think actually like put me as like right someone in the marketplace
+like at a extreme disadvantage. I don't get the sense that
+
+[00:23:11]
+we're seeing a ton of organizations like that. I think you know leaders are trying in
+different capacities. is I would say like maybe if there's just no leadership, right?
+You kind of get this very like disorganized, right, roll out of AI that that is sort of
+like will really only benefit the power users of your organization and you know they'll
+probably get so good at what they do they'll probably it's going somewhere else where
+they can just work with people right who like who their colleagues you know want to do
+this and work with these tools. Well, can you tell just speak a little bit to how Baby
+List is using AI and some of the cool things that you guys are doing in house with uh
+with AI? >> We are definitely experimenting. My um VP of engineering u made the
+statement to our engineering org that he wants u babyless employees especially within
+engineering to be in like the top 1% of AI users in terms of productivity, creativity,
+and focusing on the things that matter. Don't ask us how we're measuring this. I was
+that would be my
+
+[00:24:13]
+question. >> We are still working on that and that is definitely an internal debate but
+it is I think everything that I have already spoken about which is like giving our
+engineers access to different agentic tools. I think in particular uh windsurf has been
+one that a lot of our engineers are using. We started using Devon a couple months ago
+within the organization with like more broadly within Baby List within the organization.
+Every department is also looking at an AI strategy as well in terms of like how it can
+influence um and be impactful in terms of productivity for each of their their
+workflows. And so that definitely has been a very big push um from leadership right down
+into middle management. And like we are looking actively looking about like how do we
+enable employees what are the right tactics um whether it's it's workshops or demo days
+or hackathons you know that's definitely an active discussion within the
+
+[00:25:16]
+organization. Do you have any uh any practical tips for kind of integrating these
+agentic models and and different AI tools that are writing code for the organization
+into code quality standards and into kind of the organizational process to ensure that
+that these tools are producing code that's maintainable and that can be understood and
+isn't introducing vulnerabilities? >> Yeah, I mean that's I think part of what we're
+starting to look at now. It's like okay we can clearly like generate code faster or at
+least some of the people on the team can and now right PR review um pull requests for
+the nontechnical people here is the bottleneck right and so right now we sort of handled
+that by previously you only needed one other engineer to review your code but like if
+now you're putting up the code it's not like the human writing it is no longer like
+right in the loop and so now we have like two humans that are actually reviewing it and
+that's sort of like our gu guard rail. I don't think that's scalable over time. And so I
+think that becomes probably the next problem that we tackle is figuring out, okay, how
+do we maintain code quality or maintainable
+
+[00:26:22]
+scalable code. I do think that a lot of the tools today are really good at like getting
+you from zero to one, right? So they perfect for like a startup if you're just trying
+something and you don't actually have to deal with like large scale and performance,
+right? Because you don't have that many users. But certainly beyond that, I think that's
+where these tools really struggle with today may not be the case a year from now. But
+certainly, right, a lot of these mature companies are not going from zero to one, right?
+They're way beyond one at this point. I would say babyless is beyond one. And so like
+you just have different concerns at that point. And so I I guess maybe to to kind of go
+back to your question, it depends on where you are as a company. I think if you are in
+that zero to one stage, I wouldn't worry. so much about the code quality. I mean, you
+have a lot of startups now that are like AI first where like the engineers are vibe
+coding the entire product and I think that's probably fine until they get to one and
+then they might actually just have to rewrite the entire product from scratch.
+
+[00:27:23]
+>> They can do the expensive task of rewriting the product from scratch after they've
+proved product market fit, after they have revenue. Yeah. I mean, I love that for for
+building the first thing. I think that it's that's awesome. to give to give you an idea
+which which you might play with. Uh I had a I was doing a landing page and had AI I was
+basically vive coding a landing page for something and had an issue with positioning and
+AI gave me a really really bad answer to this kind of arcane CSS problem I was having.
+And so I said hey AI give me three reasons why that answer was terrible and then tell me
+the correct way to do it. And then the AI was able to be like you're right that was a
+really awful thing that I suggested and here's why. So, I love the idea of having the AI
+write the code, having uh maybe one or two different AI models do the first pass on the
+PR to give the actual human who's going to do the review, things to check out or, you
+know, areas of concern or things to dig into more. It's kind of a cool idea. >> We
+haven't tried this yet. So, this is kind of like just an experiment that I thought
+about. It'd be really interesting to like pressure test different models against one
+another. So you could have it like you know one model produces it and you bring like you
+know say it's open AI even though I
+
+[00:28:25]
+think most engineers don't prefer open AI let's just go with open and then you have like
+Claude or like Google Gemini review it maybe you bring in like an open source model like
+Llama and be like you know constructive criticism what's wrong right and if you get like
+multiple models agreeing on the same thing like maybe that's actually what you just need
+you just need to find consensus amongst all the models around like well what are the
+actual things that are right like the developer should focus on because if like you know
+three out of three models say like fix this it probably means you want to maybe fix that
+right but if like there's a lot of disagreement then you're like okay maybe that's a
+more subjective change you know and there's and I think that actually mirrors a lot of
+like right human review like code is subjective right how you write it it is subjective
+and if you get multiple engineers saying like yeah know you need to fix that then it's
+like oh yeah I really do need to fix that but like yeah If you have disagreement then
+you know like okay well that maybe wasn't so clear that that actually that change needed
+to happen. >> Well yes to shift gears dramatically I
+
+[00:29:29]
+want to ethics aside I want to move into like regulation a little bit. So obviously
+there's there's an explosion of AI tools. Everybody's like, you know, we've talked about
+this, you know, this process of of kind of vetting these, whether it's it's for a
+startup or for an individual or someone who is is coming up and and you know, learning a
+particular subset of these to build their career. On the extreme other end of that, my
+concern has always been kind of from the start, the the balance that needs to happen
+with the regulation of these tools and their utility and how people leverage them and
+and uh you know, of course, I don't want to teeter too far into copyright, but that's
+obviously also a big issue. So I guess my question kind of is what's one what is your
+what is your general take on the regulation of these tools and utilities and then two
+how do we balance the regulation with this rapid growth and and the innovation and
+adoption of these AI tools. >> Yeah that's a really interesting question. So full
+disclosure, my husband is German and so we actually often talk about this from the lens
+of like what the US is doing from a regulation
+
+[00:30:33]
+standpoint to what the EU is doing from a regulation standpoint. And I think that they
+are right different models, right? The EU is in fact much more regulated from like even
+like the training data that they can use, right? Where in the US I you mentioned
+copyright. I think it is it is a it is a free-for-all and I think that right with this
+administration has already sort of made a stance that they're not going to regulate. Um
+so like I think right we'll see what happens right in the next presidential election
+things could swing exactly in the opposite direction. I think there's different pros and
+cons right to doing it this way. Certainly, you're probably going to get much more
+innovation upfront, right, without the regulation. And I think that's one of the reasons
+why this administration has decided to do that because they see, you know, China as a
+competitor, right, around AI and they want to like it's right, it's our it's our modern
+day space race essentially. It's a space
+
+[00:31:35]
+race to to AGI. And so and so this administration definitely wants the US to be first to
+AGI and that's why they've decided to like really not do hardly any regulation at all. I
+think the EU is much more concerned around these issues around safety, around security,
+around doing this thoughtfully, right? Not creating like this doomsday scenario, right?
+And I think it's interesting because I sort of feel like regulation only works if
+everyone is doing it, right? But I I'm like is the E because like if the US right
+through this deregulation creates something that can you know knock on wood like destroy
+like all of humanity and like the EU has played it safe like like the EU is not going to
+be spared at the end of the day. And so I I I think at that point I'm sort of wondering
+like what regulation is actually gaining them except right it's making them far less
+competitive and all the talent that actually really wants to like push AI forward like
+accelerate it is moving to the US so it's also like
+
+[00:32:40]
+contributing to brain drain. I think my husband is like an a great example of this. I
+asked him well would you want to like go back to to Europe and like do AI there? He's
+like, "No, why would I? Like, they don't. They're so like backwards looking." I'm like,
+"Okay, well, I didn't say that. He did. He grew up there." So, >> Karen, where are we
+going? What's What's next? What do you see two, three, five years down the road with AI?
+>> Yeah. I feel like I can go in a lot of directions with this. >> I want it to be super
+fun. >> No more software engineers. We got that one covered. >> Yep. I mean, I think it
+it it comes back to this idea that like AI is is transforming like people and processes,
+not just products. And so I I do think that like 3 to 5 years like it it will just
+dramatically transform our world. And I do mean I think both like potentially for the
+good, but also like like maybe also just negative consequences. And I think right like
+outside of AI, we're living in such a turbulent time of change, right? both within this
+country there are dramatic
+
+[00:33:44]
+calls that have been going on for change on so many levels within the wider world right
+things are are changing and I think like if you look through history at like these
+moments of change and like the interaction with technology it's interesting that you
+bring up copyright um copyright is a tech invention of technology and I actually sort of
+predict that like AI will lead to I guess the beginning of the end of copyright in my
+opinion because like copyright only came into being because of the printing press and
+the printing press was this dramatically transformational technology. Like if you really
+look at what the printing press enabled this like mass production, mass of text, right?
+Like you can trace this back to Martin Luther and the Catholic Reformation, right? So
+much of like the American and the French Revolution would not have been possible without
+right without printing the ideas of the people who wanted to topple these governments.
+And so it's like right when you
+
+[00:34:47]
+introduce like change needs to happen in the world with a transformational technology
+you get a lot and I actually think we are in one of those moments right now or at the
+beginning of one of those moments where the technology and what is happening in the
+world are going to collide and they're going to lead to some dramatic social, political,
+potentially like even religious changes that I don't think we've really seen for several
+centuries. >> Uh Karen, this has been super informative and and thank you so much for
+sharing your time and your insights. Uh this is this has been great. Thank you also to
+uh my my partner in crime here, Justin, who is uh in in the South American lands these
+days joining us from afar. So if you don't recognize his background, that's why.
+Friendly neighborhood driver. >> Holaas. Uh we have been talking with uh Karen Aetta, AI
+strategist uh for engineering at Baby List among many other things. Karen, where and how
+can people reach
+
+[00:35:49]
+you if they'd like? >> If you want to follow along an AI strategy, uh LinkedIn is
+probably the best place for that. I also have a blog that's like a little bit more
+philosophical. U also I think delves more into kind of like my personal experience with
+technology. I'm a bit old school in that I still feel like you should have different
+spaces for different parts of yourself in what you offer. I understand that like not
+everyone wants to be bombarded by a strategy. Certainly not my parents um but they are
+actually interested in how I'm thinking about technology. So I try to have different
+spaces for slightly different audiences depending on what you're interested in. >> Well,
+special thanks as always to our listeners as well. If you like what you're hearing, have
+ideas for the show, or just want to tell us what's on your mind, throw a review our way,
+hit subscribe if you are so inclined, and we will see you all next time on SAS that app.
+Thanks for cruising along with us on SAS that app. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to subscribe and leave a review. Until next
+
+[00:36:51]
+time, keep building, keep growing, and keep those apps sassy.

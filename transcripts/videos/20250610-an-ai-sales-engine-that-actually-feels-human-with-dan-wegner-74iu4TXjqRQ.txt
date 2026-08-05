@@ -1,0 +1,423 @@
+An AI Sales Engine That Actually Feels Human with Dan Wegner
+============================================================
+
+Video ID:  74iu4TXjqRQ
+URL:       https://www.youtube.com/watch?v=74iu4TXjqRQ
+Published: 2025-06-10
+Duration:  00:29:39
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Human curiosity is really this key element to pretty much everything in life. If you
+want to be an AI, you better be curious because this stuff is moving so fast and if
+you're not curious, you're going to just be left behind. Welcome to SAS that app,
+building B2B web applications, the podcast where we share real world stories, practical
+advice, and tech insights for those building or thinking about starting a tech- enabled
+business. I am your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we
+bring you the stories, strategies, and insights you need to build your SAS or tech-
+enabled business smarter, not harder. Let's dive right in. Hello again and welcome to
+SAS that app. Across the screen from me as always is Justin Edwards. Uh today my
+language learning partner in crime. Welcome my friend. Hello Vets. There it is. And our
+guest today is Dan Wgner, the
+
+[00:01:02]
+co-founder of AI Sales Prospector and CEO of Traffic Resources International, where he's
+making AI useful for sales teams who are tired of, among other things, wasting time on
+bad leads and busy work and all that goes along with sales. Uh, with a background in
+software architecture, web development, and building tools for giants like Apple and
+IBM, uh, Dan has seen the difference between some shiny tech for show and systems that
+actually drive real results. And that's what we want to get into today. So he is here to
+help us separate some of the signal from noise in the land of AI, especially when it
+comes to building smarter sales processes in your web apps. So Dan, welcome to the pod.
+Thanks Aaron. Good to meet you guys. So uh Dan, I'm just going to kind of jump right in
+with the general stuff. You've you've obviously been involved with uh building,
+developing, supporting, investing in custom software for years and you are now neck deep
+in AI powered sales tools. Is that right? That's right. Yeah. I mean it's hard to avoid,
+right? Yeah. So, what's been the biggest surprise for you in in working with AI in
+general? Something that really changed how you thought about product or process? So,
+what I like most about AI is it helps
+
+[00:02:07]
+people do what they don't do very well much better. So, you know, you're you're an
+expert in one thing or three things. AI lets you be kind of an expert in at least good
+enough in a lot of areas that maybe aren't your strong suit, you know. So that's that's
+been the the sweet spot of AI for me and trying to allow other people to take advantage
+of that. That's that's what my product's about. So So in this particular case, is AI
+like a large language model primarily or are you digging into other things as well?
+Yeah. Yeah. So um you know we're AI because AI helps build AI. I'm always spending time,
+you know, how can I extend the tool even farther to do more? We're talking about text to
+speech and speech to text and all that kind of stuff. We're we're starting to play with
+that a little bit and see how we can integrate it. Um, but mostly it's large language
+models used to do messaging, mostly promotion, th those sorts of
+
+[00:03:12]
+things. So, yeah. So we we've kind of heard before that uh and we've talked about it on
+on other pods that um you know automation seems to work best when it's boring. And so
+you know what what is what is some example you know just just early in working with you
+know small overlooked pieces of in this case the sales process or processes in general
+that should be automating way more than what they are. Yeah. Yeah. So, you know, in the
+old days, you'd you maybe smile and dial and pick up the phone and call, you know, that
+early the the top of funnel stuff, right? So, getting people to, you know, set up a
+meeting and stuff like that. So, what we call business development or sales development
+um those that type of funnel thing is, you know, tedious. And so if you can automate it
+somehow, then you get, you know, then you get to kind of get get that off your plate,
+you know, and that that's really what our tool does. It it's sits on top of LinkedIn.
+And what it does is it it sends out messages. It helps create invitations so
+
+[00:04:17]
+that you can connect with people. And it takes care of that first level of communication
+where it says, "Hey, you know what? I work in your industry. I know what you do. Um, I
+solve problems just like you need solved and and things like this. And you can
+communicate that and we help not only with automation and AI, but we kind of help people
+think about what's that messaging supposed to look like. What's really going to get
+someone to say, "Hey, I'm I'm interested. Uh, maybe let's set up a meeting." And this is
+the the AI sales prospector. Is that right? Yeah. We call it actually it's called
+Workflow Assassin. Workflow assassin. There we go. Yeah. And the AI sales prospector.
+That's the URL that we use. Um, got it. We We wanted name with a little bit of punch.
+So, we Well, I love that, you know. You know, anyhow, little shocking, but hey. No, it's
+it's a provocative name. How do you select target targets for your assassination? is to
+say, are you using um are you using the kind of the LLM and the AI as a a tool to
+identify candidates who
+
+[00:05:20]
+should be receiving messages as well as as the content or how does that work for the the
+assassin? We rely on, you know, people have already got their uh audiences. We rely on
+LinkedIn's tools for filtering audiences. And then once you filter a then tool goes in,
+it looks at the the target person's profile. It grabs their information. You know,
+there's really great stuff in LinkedIn about the person, what they've done. They have an
+about section. And if that's filled out, you've basically said to me, "What's really
+important to you about what you do at work?" And I can come back to you with some AI in
+there and say, "Hey, I really noticed that you excel in this thing." And it's like,
+"Wow, he noticed what I like about work." And so it can it can be a really compelling
+conversation that you're initiating with AI. And so we use large language models. We use
+open AIS, you know, the people who built chat GBT. We use their API and we hook it in
+with some backend, you know, what secret sauce or whatever you want to call it where we
+
+[00:06:25]
+help craft messages that we think are going to be compelling, but we also leave a lot in
+the hands of the of the prospector, the person doing the work, wants to make the
+connection on how they want to communicate. Do they want to be professional, casual, you
+know, straight laced, you know, goofy, you know, whatever they want to do, they have the
+ability to do that within the tool. So, it's pretty cool. So, like basically letting
+them kind of set up their their personas. I mean, you had talked about LinkedIn and
+obviously LinkedIn is kind of like the place where everybody gets flooded with with like
+generic outreach in general. So would you say that that is that is something that's
+unique to you all and and that the approach of that is is this ability to kind of
+personalize this and and also attach to what your target is interested in or Yeah. Yeah.
+So um you know there's a lot of different things that we want to do. You know people are
+used to templated emails and it's gotten over into LinkedIn. It's templated. Our tool
+actually, you can go that route if you're like, I got I got this message nailed down and
+I want it to be the
+
+[00:07:27]
+exact same every way, but just insert their name and their field or whatever. The tool
+can do that. But most of the time, you know, it's like, "Hey, Jim, I noticed you did
+this sort of thing and it's really cool that you like this and you know, just a little
+warm up and it's it's much more human than the templated thing." And we think that
+brings a lot of value to the marketplace. Uh over time, you know, hopefully everyone's
+going to realize that that's that's a good methodology, but for now, we really feel like
+we're ahead of the crowd. So, yeah. Was there was there something in particular that
+kind of birthed that the idea of that approach? I mean, you know, necessity is always
+the mother of invention. So, I'm just kind of curious what what happened to you or or in
+your past or the the issue that you saw that needed to be solved better with with AI? my
+co-founder Rob, he is a sales guy from way back. He does this sort of sales development.
+He's headed up teams and stuff like that. And we've been buddies for about eight years
+and we love talking about business and what's
+
+[00:08:29]
+cool and what's working. And he's like, you know, I've got this methodology and I've
+been using it for a long time on LinkedIn. It's really powerful, but if you could just
+automate it a little bit, whatever, just take some of this off my my plate. And I'm
+like, that sounds amazing. And this was when like chat GBT 2.0 or whatever came out. And
+it's like, this thing might have legs, you know? I mean, it be really useful. And and so
+I thought, I'm going to build that. We're going to build this. I'm going to build it.
+And I think it's going to meet your needs. Actually, we we built something completely
+different the first time around. And uh we realized that um what we need to do is
+emulate exactly what he was doing. So, we actually have a Chrome extension that sits on
+top of LinkedIn and then works with LinkedIn just like a human being would do it if they
+were sitting there. So, that's super cool. I like the the idea of bringing tone and ear
+personality into it. I do a a lot of using LLM to write things for me and I always get
+this very formal business
+
+[00:09:32]
+speak out of them and it's like, guys, it's not my style. So, you need to like, you
+know, this needs to sound like it actually came from me. So, I love the idea that that
+your tool can kind of can do that and can accommodate that. So, you're sending something
+that feels authentic to people, which I think will resonate with people. People know
+when they're receiving a form letter. Exactly. Exactly. So, yeah. Then, you know, I like
+I like going as casual as I can. I don't know why I think that's kind of my nature and
+kind of easygoing. I'm not very formal. I, you know, I don't try to stack up all my
+credentials and I'm hoping that people will want to connect with me because they trust
+me and uh and I think I I want my LLM to talk to people the way I would do and I think
+that's very powerful. No, definitely. You you said something actually that that I want
+to get into a little bit. You you said you had built something the first time around
+that was different than what you had intended or expected or needed to move on from.
+What did you build the first time? Yeah. So, we built something that tried to utilize
+the LinkedIn APIs, which are super limited. They they kind of have that locked down. Um,
+so we built that. We
+
+[00:10:37]
+were just basically just creating posts. Um, now our tool, just FYI, does posts. And one
+of the most powerful things we can do is we can actually push out the posts that you
+created to a select target audience of your connections. So say you have CEOs and you
+decide to create a message that goes specifically to those or you create a post that
+goes specifically to those CEOs. Now you can take that and say, "Hey, you know," and the
+tool will say, "Hey, John, love what you're doing at ABC company. Here's a post I
+thought you might find interesting, you know, I'll check up with you soon or catch up
+with you soon or whatever." And it just sends it out, including that post. So now you're
+able to take content that you created and directly send it to your target audience
+without you know without having to wait for them to come to you and to see your post and
+to wait on the algorithm to boost your post and get in front of your audience. So this
+way you kind of take control of that which again is a really neat feature that we do and
+it's really effective you know if you can target you
+
+[00:11:40]
+create really targeted posts you know um something specific about their industry and
+their role and then take that and and you know push out a message with that post
+embedded in it. It's great. So who who like what kind of organizations or like what are
+who are your like most ideal customers and can you unpack your business model like a
+little bit for us? Yeah. Yeah. So we started out um pretty high-end. We thought, you
+know what, we're going to get in, you know, medium to large sales organizations and
+we're going to, you know, offer them a model that basically says one person use using
+our tool can replace three to four SDRs and look at that savings and, you know, you're
+going to, you know, you're going to do great and and we realize that there's so much
+hesitation and resistance in the marketplace merely because everyone's kind of like AI
+is a big wheel and it's so big we need to be careful and you know we don't want to
+necessarily take a step and you know
+
+[00:12:43]
+I'll play around with chat GPT and things like that and people are really you know they
+and maybe rightfully so they want to really think this through my perspective and you
+can take it with a grain of salt since I've been in the industry is that people need to
+start getting their feet wet and if you make the wrong decision quote unquote wrong. You
+know, if it's a good decision, it's going to propel you forward and then you're going to
+know, well, this worked, but we need this and this and this. The nice thing is, you
+know, if you're my customer and you say, you know, if it could just do this, well, I can
+use all the tools in my resource, then I can add that at add that to the tool. And now
+you've got this tool that does all the things and and what you want to do. But like I
+was saying, we had a very expensive business model up front and uh we did actually pick
+up a large customer and it was it was pretty good, but they had problems introducing and
+integrating to their
+
+[00:13:46]
+workforce. You know, their salespeople were hesitant um and I don't think they wanted to
+like crack down on him and force them into using the tool. And eventually it was like
+Yeah. And then we and what we realized is like let's just make it easy for people to get
+in. We had a very long sales cycle. Now we see people signing up without even talking to
+us. You know, they see the demo, they see our our videos or whatever and they're like,
+"Oh, you know," and so now we're at um if you do a year up front, it's a hundred bucks.
+So, you know, anyone 100 bucks a month and you know, affordable in that right, you know,
+that kind of sweet spot that says, hey, if I can get some real value out of this as a
+business, if I can bring sales in the door or meetings in the door, it's totally worth
+it. And and like we said, you know, it's still the same product. It still replaces three
+to four SDRs, you know, sales development reps and and it's uh can be very powerful for
+them. And now they can do it free and easy. And we're going to get a larger user base.
+And you know, hopefully our goal
+
+[00:14:49]
+is to keep providing great tools. And maybe there's a tool that, in fact, we've added a
+few tools that are kind of in the background. One of them, maybe you've seen them, is
+these uh Hey Jen creates a video. There's also another company called Avatar, but they
+create uh talking head videos using AI based on a script that can be generated by AI. So
+basically you say, you know, create a talking head video about snowfall in Alaska or
+something and you'll get this personality or it could be a twin of you talking and then,
+you know, you can kind of tell if you watch closely that maybe that was done by AI, but
+we've actually added that so people can instantly post content. It's in there. We have a
+video on how to use it, but it's people are gonna, you know, it's like we don't want to
+overwhelm people with, you know, we've got 50 features. And I think that's a real key,
+too, to being successful in in the type of SAS and AI stuff that we do. It's it's just
+do one thing, you know, and do it really well.
+
+[00:15:54]
+don't you know you get these tools and they do 15 things and you know you never know
+maybe there's a great tool in there I never saw it because it never it's kind of buried
+and then and then the person that's creating the tool doesn't know it's a great tool
+because nobody uses it. They can't find it or they've gotten kind of sucked into some
+other aspect of the tool. Just make one tool, you know, be be great at it and that
+that's kind of our goal here. So we do we do post you know we help you create posts we
+help you message content whether that's a post a simple message we do something called
+an alignment message which is kind of a sales term is that you know hey I work with
+people like you I solve these kind of problems maybe that's the kind of problems you're
+having maybe we should talk um those kind of things and uh and then anything else you
+want to send but you can send those messages um and that's really the key thing we also
+help build your audience through invitations. So, um you know, kind of a small thing
+basically
+
+[00:16:56]
+three things, LinkedIn posts, LinkedIn direct messages, and building your audience, you
+know, and it's we think that in about 20 minutes from the time you sign up and we
+already have already kind of walked you through it, in 10 minutes, you can be sending
+out content and creating DMs to your your target audience. So, it's a really the goal is
+to be so simple that anyone can do it. That's I think that's what AI offers and we want
+to deliver on AI. Yeah, that actually was going to be my next question. For for those
+that are struggling to adopt or or having trouble getting their own teams to get
+involved in it, do do you offer any sort of like a training or a servicing component to
+kind of handhold them through the process or give them examples or or is that all pretty
+much, you know, explained through the process of getting the getting the uh components?
+Yeah, we we have we have training videos like everybody and they walk through it, but
+we'll walk any, you know, we'll handhold anyone through it. You know, our goal is to
+make sure that you use the tool in such a way that it's productive. And the cool thing
+is Rob's got, you know, all these years, dozens of years of of sales
+
+[00:18:01]
+expertise, prospecting. He just brings all this knowhow to the table. So as we're
+teaching them about the tech, it's like you know you should talk about this and this is
+your we we have a thing called a solve prompt and once we help you identify that the
+solve prompt is what solution do you provide what transformation do you provide to your
+audience whether it's some tactical thing or psychological you know I make you feel
+comfortable about whatever you know it could be anything but that's the transformation
+you provide and if uh if you get that solve prompt right the tool will do the messaging,
+right? And so we're really, you know, we'll walk you through that. We'll help you think
+about it. We've actually got a tool that'll go out to your website and look at what your
+website says about you and try to create a solve prompt based on that as a good starting
+point. But really, we know that people buy because they're compelled to spend money. You
+know, people don't generally want to just give away their money, but if you can create a
+sense that, wow, this really solves my problem. I'm so glad this person exists
+
+[00:19:05]
+on LinkedIn and now I'm going to get this problem solved. And so we help create that
+with that salt. Taking this back to, you know, where you're at right now with the with
+the sales teams that you are interacting with or or maybe just in general, obviously
+there has been this traditional set of how-tos as it relates to sales, you know, and and
+most sales professionals have, you know, have have been through that that mental process
+or whatever. But now with the advent of AI, with with the ability of of of like LinkedIn
+and other platforms for people to get connected very easily, cutting out some of these
+little boring or nuancy processes, what what kind of skills do you see being better or
+or more necessary for sales teams or or even product teams to be developing now in order
+to stay ahead of this curve instead of just relying on the old style processes? You
+know, your AI is is fixing some of this. So, what do I need to be telling my sales teams
+now, you know, to to do to leverage or build their skills with? Yeah. Yeah, that's a
+that's a great question. Um, you know, what we discovered is in in the sales world, you
+have SDRs or BDRs, so sales
+
+[00:20:10]
+development rep, business development reps, and their job is to kind of pound the
+pavement. you know, they used to be on the phones, now they're in social media and
+stuff. And those uh those people would take that opportunity, you know, they get their
+first job, but their goal is to move up the ranks. No one wants to be, you know, this
+pavement pounder their whole life, maybe, maybe some do, but a lot of them are like,
+"This is the next step is to be a, you know, a rep, you know, or whatever." and uh you
+know work account rep work accounts or or whatever or be a closer or whatever. So they
+want to move up up the hierarchy chain and so they don't stay there very long. Now with
+tools like ours, they're they kind of be start to become irrelevant. And so really the
+you know the kind of skills that are important especially in the sales arena are your
+ability to understand what uh your customer needs. you know what their pitfalls are and
+being able to communicate really clearly
+
+[00:21:14]
+cuz I think my guess is you know there sure there's things that you can sell without a
+person but eventually if it's the least bit complex someone wants to talk to somebody
+and so having that person that can identify you know this really those soft people
+skills are what what we are relying on. So we would take people want to get into sales.
+We would put them in a position where their soft people skills were irrelevant because
+really they were just pounding the pavement sending out as many messages as they could
+or using the CRM or whatever. So they don't they don't even use their soft people skills
+and then eventually they move out of that and then they get to use it. So this kind of
+skips that part and you know you're going to find out pretty quickly if h how are you in
+a Zoom call, what we call a a strategy call. you know, how are you at, you know,
+understanding and listening and responding to what they need and and having this this
+good dialogue and this good back and forth? That's uh, you know, that's a skill that a
+lot of people just don't have and maybe we'll
+
+[00:22:17]
+never get and uh that ability to listen and probably the most important um we're
+discovering this and this is for me this is like philosophical on an AI level. Human
+curiosity is really this key element to pretty much everything in life. You want good
+relationships, you better be curious. If you want to be a good salesperson, you better
+be curious. If you want to be good at your job, you better be curious. If you want to
+be, and this is for us, if you want to be an AI, you better be curious because this
+stuff is moving so fast. And if you're not curious, you're just you're using some old
+technology. in two or three weeks, the technology can change so fast that if you're
+still if you're not curious enough to flip over a rock or to get in, you know, into the
+the latest and greatest and watch the news and all these things. If you don't want to do
+that, you're going to just be left behind. And so curiosity seems to be, you know, that
+one element that'll move
+
+[00:23:20]
+forward whether we have AI, whether we uh whatever we do in whatever area of our life,
+curiosity seems to be kind of the the key human quality that's going to keep us uh
+interesting and engaged and having a fulfilling careers whether we're in sales or any
+other industries. For sure. Well, h how does that curiosity then play into what you're
+doing now? I mean, what's what's the road map looking like? I mean where where are you
+taking this or or is it where it's going? Yeah. No, there's so I mean there's so much uh
+so open AI the chat GPT people they about a month ago they released uh some new models
+in the text to speech and speechto text area and they are putting a lot of what would
+you say a lot of emphasis and a lot of capital into the idea that people aren't going to
+want to type into their chat bots you know and If you have the app on your phone or even
+on your computer, you know, there's that squiggly little button and you can click that
+and you
+
+[00:24:22]
+can just have a nice conversation with the AI and they sound like a person and you know
+and they they say all the right things like, "Oh, I'm sorry you feel that way, you know,
+or whatever." Sound empathetic. um and you have these uh conversations, but uh our goal
+is to get our tool so much so that we can just go to it and say, "Hey, create a post for
+me. Focus on uh something I haven't done in the last few days and maybe about a problem
+that's happening in my industry." Well, it already knows your industry. It already knows
+what you've posted. It already knows all these things and it becomes, you know, really
+smart at at creating these posts without so much of your input and you just you set it
+into your phone or you set it into your other tool. Then the next thing is that post is
+great. Will you send it out to all the CEOs that are in the IT space or something like
+this? And boom, it just goes out. So that ability to use voice. Right now we say it
+takes
+
+[00:25:27]
+about um 9 minutes to create a really high quality post which is really good considering
+I think the average is about an hour if you're doing it manually. We create so many you
+know we can create send out images at about uh 12 seconds a message. Send out messages
+about 12 seconds a message to your target audience. So each person gets a message in
+about 12 seconds. And you know, so we save a lot of time, but how much better it would
+be and how much easier it would be to adopt a tool where I don't barely have to do
+anything. I'm just kind of directing it and it's it's doing the work for me. So that's
+that's where we're going. Um, right now we're we're much more of a you know, we have
+tabs in our tools. So you do this tab, you do this tab, and you do this tab. But we I
+don't think it'll be very long. probably within six months I think you're going to be
+able to do anything through a voice inter interface. You know, basically you you say you
+what you want to do and it would respond, hey, it sounds like you want to do uh a post
+
+[00:26:30]
+about XYZ. Is that correct? Yes. Boom. It creates it. So, those are those are the kind
+of things that we think are very very close, very doable. We're right now we've got a
+bunch of uh tools that we've created to play with uh the voice interactions and uh we're
+just waiting to implement them in in the right way and kind of make some decisions on on
+you know how much change we want to introduce to the tool over what period of time. So
+if we think this is going to be six months, maybe we can create a simple change now and
+then kind of have the the whole enchilada working in in six months or maybe we just wait
+the six months, you know, and those are the kind of decisions we're making. Nice. I feel
+like in this world of AI and then the more that I read about it, I'm waiting for the
+full circle moment. You know, back in the day, it used to be it was great. I want to
+talk to a person because I want that personal touch and then it got to be, well, I I
+know what I want to do. I want to bypass the person. So then we got to input numbers,
+you know, on the phone to to jump through
+
+[00:27:32]
+the hoops of the system. Then it's like, well, that's too much. I I want now to just be
+able to chat with the chatbot and have them do it. And now now the chatbot's going to be
+able to talk back to me without the human interaction. And I feel like at some point in
+time, we're going to come all the way back around to I want to talk to somebody, but it
+won't be somebody. It'll be it'll be another AI. I I read something I think it was just
+a week ago that uh people have started paying attention to when the AIS are talking to
+each other now and how quickly the language starts to change to make it more efficient
+for the two entities that are talking to one another. It's just uh it's fascinating to
+me because that that circle just keeps coming back around. It seems it's amazing. It's a
+great field to be in. I'm I'm no spring chicken, but I think it keeps me mentally nimble
+and and it's pretty exciting. So, Exactly. Well, Dan, thank you so much for your time.
+Uh, it has been a pleasure. Love always getting to talk about AI and cutting edge stuff
+and, uh, also how it relates to what it is that you're doing. So, really appreciate you
+being on the pod. How and where can people reach you? Yeah. So, um, you can find me at
+danwaggner.com. That's wegn.com and my product is a
+
+[00:28:39]
+salesprospector.com. Great tool if you wanted to start doing some sales in a automated
+way. Um, that's how you can find me. Find me on LinkedIn and uh Twitter and all the
+other places too. So we got another SAS that people could use to grow their SAS. So it's
+all exciting. Yeah. Right. That's right. It gets very meta. Yeah. Well, thanks Aar and
+thanks Justin. I really appreciate it. You bet. Super nice to chat with you Dan. Thanks
+for hanging out with us for a little bit here. It was great. Thank you Justin. Always a
+pleasure. And special thanks as always to our listeners. We will see you next time on
+SAS that app. Thanks for cruising along with us on SAS that app. We hope you grabbed
+some insights that were inspiring, actionable, or at least entertaining. If you enjoyed
+the show, don't forget to subscribe and leave a review. Until next time, keep building,
+keep growing, and keep those apps sassy.

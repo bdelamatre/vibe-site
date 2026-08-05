@@ -1,0 +1,603 @@
+The Print Shop That Automated Its Way to Growth
+===============================================
+
+Video ID:  g_y68bzg-ZY
+URL:       https://www.youtube.com/watch?v=g_y68bzg-ZY
+Published: 2025-04-29
+Duration:  00:44:35
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The solution always comes from us seeing a problem that seems unfixable or it's too
+complex for someone to like just quickly fix it. So, let's make that employees job
+easier. Let's build this tool out for them to do that task. Welcome to SAS that app
+building B2B web applications, the podcast where we share real world stories, practical
+advice, and tech insights for those building or thinking about starting a tech enabled
+business. I am your co-host Aaron Marchbanks and I'm Justin Edwards. Each week we bring
+you the stories, strategies, and insights you need to build your SAS or tech enabled
+business smarter, not harder. Let's dive right [Music] in. All right, greetings as
+always to my co-host Justin Edwards, CIO of Delta Systems. Good afternoon, Justin. And
+also joining us today is our guest Reed Lyle, founder and owner of Fast Y, which does uh
+custom screen printing and
+
+[00:01:04]
+embroidery among many other things that he's going to enlighten us about and does that
+on just about everything. And I think actually including uh face masks for co. So Reed,
+thanks for joining us. Not so much anymore, but yes, that was a blip a blip in the pan
+there. So yeah, for sure. We're a flash of the pan type business. So you kind of jump on
+weird stuff that's in the media and weird stuff that's in pop culture and that was
+pretty weird. So we we sort of jumped on that. So I'm glad we're not making masks
+anymore. So So then Reed, what else does Fast Y do if not, you know, CO masks
+exclusively? Yeah. If not CO masks exclusively, I mean, I guess our bread and butter
+really is largely screen printing businessto business. Like that's mainly it. So um so
+we supply a lot of hospitals in town um more formal stuff you know banks and mortgage
+companies uh stuff that's not necessarily you know highly interested highly artwork
+intensive you know but you know that's kind of like the foundation of what we do but
+then we also work with you know individuals and
+
+[00:02:06]
+groups from all walks so um so we have a wide variety of you know stuff that we do but
+yeah for the most part it's screen printing for businesses who are looking to usually
+outfit their staff and sell merchandise to their clients. That ties into a bunch of like
+restaurants, breweries, music acts. I mean, just you name it. I mean, it's just like
+it's all over the map. But that keeps the day quite interesting because, you know, you
+got all sorts of characters that come at me. Uh so you have your your you know, your
+your stuffy characters and you have your real wild ones. So, uh, you never know what,
+you know, what the day is going to hold. So, it keeps it keeps things pretty
+interesting. So, um, and people always want wild stuff. So, it's there's a there's a
+large degree of problem solving. So, how did you end up like getting into screen
+printing and and kind of apparel and owning your own your own gig? Yeah, I guess uh you
+just go through kind of iterations and land on
+
+[00:03:09]
+something really. It wasn't something I set out to necessarily do to begin with. I have
+an advertising background, so I was working in marketing at other places, you know, and
+it always irritated me that I was doing marketing for someone else's thing, you know,
+cuz I was like, well, this is awesome. They're they're going to make a ton of money off
+of this, you know, why don't you this should be mine, you know? So, so I always had that
+in the back of my mind that I kind of wanted to do marketing for something that directly
+was related to me, you know. So, so that was kind of always there. At one point I was
+working for a group of motorcycle dealerships where we were doing um you know
+advertising and marketing for them. And what that turned into was we were doing websites
+for motorcycle dealers, right? So, me and my brother were putting together this system
+where basically it was a system where a dealer could get on there and load their
+inventory uh onto their site and they would have these skins, you know, and they could
+reskin the site on the fly
+
+[00:04:11]
+and all that stuff. So, we started building this out and our our dummy site had a
+merchandise category like for the dealer to supposedly sell t-shirts. So, to like make
+it work, we actually made it work. We made it we made it so it would sell, you know, so
+someone could get on there and literally buy something. And I just made up a a bunch of
+dumb motorcycle themed t-shirts just for an example. So we woke up one morning and there
+were like dozens of sales and we were like, "What the hell? This was just a sample." So
+So then I like frantically figured out how to like fulfill them because I was like,
+"Well, let's just fulfill them, you So like, so I fulfilled them and we started like
+kind of like messing with that. You remember Charlie Sheen's whole fiasco? Yeah, of
+course. Very like melt meltdown and all that crap. Yeah. Yeah. This public meltdown.
+Yeah. Yeah. So uh I don't know if I should even be talking about this really because
+it's probably not exactly legal, but while all this was going on, Charlie Sheen was
+melting
+
+[00:05:14]
+down, right? So all that was going on. So, I bought charlie sheen-shirts.com and we used
+our same like thing we used for the motorcycle dealerships and we put up a bunch of
+these like quotes by him, right? And it just like blew out of the water. I mean I mean
+and like I said it was like a flash of the pan thing. It was like this thing that lasted
+like three weeks, five weeks, something like that. Maybe it was longer than that. I
+don't know. But we capitalized on it. Uh and then it sort of just like taught us this
+lesson. And we were just kind of like, okay, what do we do with these motorcycle
+dealers? This is so complicated. Let's just like pivot and let's let's put up a shirt
+site based on everything we've just learned, you know? So, we did that and then uh I
+started learning about t-shirt production because I knew about marketing. I just didn't
+know anything about t-shirt production really. So, I started getting into that. Um, I
+even worked at a place for a while, uh, a t-shirt place for a while to kind of really
+get in how it worked, you know. Super cool. No, no, seriously, like you you're like
+suddenly
+
+[00:06:17]
+found yourself owning a t-shirt company. Like, I guess I should learn how to print
+t-shirts. So, you got a job doing that. Yeah. I have no interest in t-shirts. Yeah.
+Yeah. So, I mean I mean it's fine. It's f I don't have a disinterest. It's just like but
+like it's weird. I don't wear like printed apparel that I don't It's just a thing, you
+know? I don't know. So, yeah. So, was your brother doing the development on on these
+sites to stand them up and kind of get get a side up real quick? Okay. So, I was doing
+uh I was doing the designs and the concepting kind of and he was doing the execution and
+uh we kind of hit it at a perfect time. This was back when Google Shopping was free to
+the seller. They just wanted to populate it because it was a new thing and they had no
+throttles in place. like it was it was a magic thing like we do this uh I don't know I
+don't know what we call it we call it database design right so you have iheart then you
+have a database of crap you know uh cars butts motorcycles baseball whatever and then
+
+[00:07:22]
+we generate millions of designs based on this database right so we were doing that on
+Google shopping and because there was No throttle, no limit, no payment. It was very
+easy for us to get millions of products online really fast. Now, Google has since
+changed their policy. Really? Oh, yeah. So, we paid we pay deer dearly for that. Now, so
+our business model has changed quite a bit. But there was this like 2year window when
+Google I guess was just trying to populate shopping and and and that's when we were
+doing this and so we had no investment and it was it was pretty wild. So uh now we've
+scaled back that inventory cuz now for some reason you'd got to pay to put stuff on
+these marketplaces. So um so anyway so yeah but there was a window where it was a free-
+for-all wild west thing and uh it was fun. We couldn't keep up. No doubt. Aside from the
+Google
+
+[00:08:25]
+aspect of it, like what what was the primary like like mode of selling, you know, for
+technology wise? You talked about these websites, but I mean was that kind of how it
+worked? I mean, did you have an e-commerce component? Was it all just point of sale?
+Yeah. So, we had we had a website um that Google Shopping would drive them to, right?
+And then uh and then the database was also hosted on our website. So, they would execute
+it there. Or in this case, the user, let's say they searched for I love guitars, right?
+So they would click on the iHeart guitars. Then we would split display 30 other guitars
+designs that were these database designs, right? And uh and we would display that as
+well. So we so the the sellrough rate was pretty good. Like if we could get that click
+and they were on Google shopping, that means they usually had their wallet out. They
+were trying to and you know it's all gift stuff largely. A lot of these people are not
+buying. They're like, it's usually, honestly, we figured out it's a lot of grandparents
+who are buying stuff for their grandchildren and they're and they know nothing about
+them. They know, oh
+
+[00:09:29]
+well, Johnny likes red and he, you know, he likes stamps, so here's a red shirt about
+stamps, so you know, let's buy that. He'll love it, you know. And uh so, so it kind it
+kind of worked, but we were we're also, you know, in marketplaces as well. um Amazon,
+Walmart, eBay, uh a few other little ones. Um and th those marketplaces back around, you
+know, 2010, 2014 were very uh I'll just say not as abusive to they as they are now to
+the sellers. Um, man, it is just it it has like turned into a nickel and dimeing just
+we'll we'll look into these charges on some of these marketplaces and you know when you
+look at the percentage of what is being taken out of each sale. It's just I mean it's
+more than a brick and mortar would end up costing, you know? I mean it's it's
+
+[00:10:33]
+absolutely it's absolute lunacy. Um, and it might work if you were selling products that
+were, you know, 300 bucks or higher with a higher margin, you know, but when you get
+into these these products that are in the $20 range and you're doing them kind of peace
+meal, the numbers are rough, you know, they just don't and it's so competitive, too. And
+you know, we've had situations on these marketplaces where we'll have these fly by night
+companies copy our entire catalog like from Amazon. So, we don't even have any control,
+you know, it's just they're just crawling it pretty much. And then they'll they'll
+they'll undercut us by I mean, don't even matter how much. I mean, just a buck. And, you
+know, they're constantly fighting with that. It's just, you know, it's big mess. But,
+um, but yeah, so we still do all that. we we've just kind of scaled back our emphasis on
+it because it's such a it's just kind of a beast, you know. It's just a it's a beast and
+uh it's definitely there to benefit the marketplace and in many cases you're
+
+[00:11:38]
+competing with the owners of the marketplace. So like they have more data than we do. So
+uh you know so so so uh so that's been a that's been a challenge. Um but yeah those in
+those early early days of our business those were gold mines at this time. Are you are
+you doing most mostly like direct to consumer for like gifts and grandparents or is
+there a businessto business at this point too or did that emerge later? Uh businessto
+business sort of emerged later. Uh and that's primarily what we're doing now. Um and we
+still do all the online retail. We still do the marketplaces. Um but we're so reliant on
+the cooperation of the marketplaces which have turned into these dead AI roadblocks. You
+know um we've had situations on on one of these marketplaces where uh we've been shut
+down over errors like they accidentally just took us down. uh we've had to we've
+
+[00:12:45]
+had to get attorneys involved to communicate with the marketplace, not not to file suit,
+not to do just to communicate. Um and you know, so it's it's one of those things where
+we realize we're like, okay, so yeah, we're in five of these marketplaces, but you know,
+any one of them can flip a switch at any moment and kill us overnight. So like, we can't
+depend on their shelf anymore. like we got to be the shelf. So, and that's where the
+storefront kind of came into play, which you know, honestly, the storefront front is
+more archaic than I would prefer. Like, I would prefer everything to be online. But, you
+know, having the storefront, it lets us break through that kind of clutter, at least on
+a regional level. Um it does provide a a a big level of trust that we wouldn't perhaps
+otherwise get. Um they can come knock on the door and cut my throat.
+
+[00:13:48]
+They don't have to send me an email to cut my throat. So, you know, so uh so that that
+that gives us a stability that allows us to kind of play around with these marketplaces.
+take take everything we can of course and push it as far as we can of course but if they
+can us it's like not the end of the world. Well, it's amazing that you have that that
+relief valve of having a storefront and having that. So like we work with a lot of
+customers who have Android apps and iOS apps and the same problems you're talking about
+where the only way you can get a response from people show their legal department via an
+attorney. You know Google and Apple I'm looking at you putting an app into your store is
+awful. It's terrible for developers. It's terrible for business owners. uh and there's
+no recourse. They can just decide, oh, we've decided your product your your app is no
+good anymore. It's like, well, uh yeah, threatening a lawsuit is about all you've got.
+If they decide for some reason you can't be in their store anymore. So, um it's it's
+cool that it's cool that outside of the mobile space, we still have as business owners
+and developers the ability to to make our own way, so to speak, and we don't have
+
+[00:14:49]
+gatekeepers on everything. Cool. Well, we just wrapped a major a major initiative with
+you, I guess. Would you mind giving kind of an overview of kind of what that project was
+and how kind of the new system and the old system play together and what the why you
+guys made the change? The problem that we needed to to fix was um we sell a pro a
+product that you know has complex quoting aspects to it and we needed to be able to
+solve that you know visually and easily that the customer could digest and we had a
+system in place that was messy. we have all we're APIing into all these different
+suppliers. So there's just all this disconnect. So really the the goal was to
+consolidate everything to one interface that our customers and our employees can both
+use. So one in integrated interface that they can both use to get the same information.
+And cuz basically what we were having is, you know, uh when you have when you're trying
+to connect all
+
+[00:15:53]
+this information from all these different places manually, there's errors constantly. I
+mean, it's just it the pricing errors, inventory errors, just general miscommunication.
+And it's all because, you know, we're humans pretty much. So, so essentially what we did
+is we we took all of those different parts, we brought them in together to an API and
+then we had you guys skin it in the most lovely way possible. So, um so a a customer can
+get in there and get a pretty complex set of information very easily. And um and it's
+the same thing our we're looking at internally. So so everyone is looking at the same
+thing. It's it's organic. It's live. The way things have been the past couple years, you
+know, our inventory prices, our costs change constantly. I mean, like we're seeing costs
+up and down on a monthly basis right now. And uh a lot of it has to do with like cotton
+supply literally and stuff like that. But um
+
+[00:16:58]
+but anyway, like navigating that kind of volatility from a sales standpoint, it's a
+nightmare. So, uh, so tying it all together in one package, uh, to and and to have it
+update automatically and it to be kind of an organic thing like that. Um, it's take I
+tell you what, I've got salespeople that it that were here pre website, right? And then
+I've got sales people that were here post website. and the salespeople that were here
+post website. The training took like three months less than it did for the people who
+were existing, you know, before it. And the people who are who the pre- website people
+who got it, they they've just been like, "This is amazing. I can't why didn't we do this
+before?" And I and I was I kept saying, "I've been trying to do this for years." just
+like, you know, so uh so anyway, so yeah, it's been like a giant relief to get that
+built out and um and you know, it's really improved our efficiency and
+
+[00:18:03]
+more importantly our accuracy really. I mean like so so now we're accurate and efficient
+um and it allows our customers to be accurate and efficient too. So like, so it's it's
+really burning the candle at both ends. And um and we're really treating it more as a
+utility than an actual, you know, it's not just a retail sales tool. It's it's a you
+know, it's a utility. It it it answers a lot of questions for everybody on both sides of
+the transaction. So yeah, I mean, you were talking about the employee training and
+that's just like in a general sense, just dealing with your your own internal processes.
+I mean, a lot of times when we're talking about, you know, SAS or or, you know, online
+systems or things like that, more often than not, people don't necessarily take into
+account savings of time internally that this is going to go through. I mean, most
+everybody is pretty forward thinking. We want to make this a good experience for our end
+users, you know, we want to we want to make it super easy for them, even if it's like an
+enormous headache for us. But they don't say, "Well, how can we
+
+[00:19:04]
+also at the same time not make it into Norway's headache for us?" You know, because that
+I mean that's that's how you keep the other side of the equation happy. And and I think
+that that's super important. And I think, you know, uh my brother Sam has built or built
+with me all of our internal management software. And we'd looked at all these places who
+offer these kind of I don't know onesizefits-all work order systems, you know, and you
+know, we we went down kind of a road with a couple of them and it was just like I mean
+this is close but there was just so much lacking you know and um and you know I put a
+lot of money into into building that system and a lot of time but the thing is is like
+you know we've got like employees right now. I would expect I would have to have three
+or four more employees if we were running on one of those other systems because of how
+much streamlining it does, the automatic
+
+[00:20:08]
+scheduling it does. Um I mean just all these timesaving tools that we built. Um and you
+know once those are built they're built. You know they're Yeah. I mean they require no
+maintenance hardly. you know, so um so when you look at that, it it sort of makes the
+system easier to just handle, you know, because uh everything, you know, and it takes
+the strain too, the strain out of a human doing something awful they don't want to do
+anyway, you know. So, um so yeah, I don't know. It's it's been a it's a good way to grow
+because we're growing in a lean way. We're not growing in a fat way, you know. Um, I
+don't know. So, they're they're we're we're growing without a lot of waste. Yeah. Well,
+you're getting that best fit solution. I mean, that, you know, the customization, like
+you say, the off-the-shelf stuff a lot of times will get you what 70 maybe 80% of the
+way to where you want to go, but but all of the problems exist in that last, you know,
+20 to 30% or whatever. You know, how do you get how do you get over that hump?
+
+[00:21:11]
+And and I know you're talking about like e-commerce systems, you know, having having
+seen and and helped with the the site that's up now. You know, one of the things that I
+I found unique about it even from the outset, you know, for first conversations that we
+were having is that it's not traditional e-commerce in the sense that there's some sort
+of a carting process and at the end you check out and pay. It's like you said, it's it's
+a quoting system. You know, there are a lot there are lots of things about it that feel
+e-commercey, you know, filtering and and searching and picking of colors and things like
+that, but because of the highly customized nature of your business and what you do, you
+can't at the end of it just say, "Yep, that's going to be a cart of $25." because you've
+got artwork and instructions and who knows what it's is it going to be lasered on the
+front of jeans and you know wielding the giant inventory has always been a problem and
+like and now we finally have like compartmentalized it to where you can really get it's
+kind of crazy I like go to my supplier websites now sometimes when I'm looking for other
+stuff that's not on our site and I'm like god this is so irritating to use because I'm
+I'm now used to our system and I'm like god why
+
+[00:22:13]
+don't they just do it like we do you know like it's just I don't know. So, uh it's it's
+it's interesting, but yeah. So, now I'm like spoiled now, I guess. So, so so yes. So, I
+don't know how that's going to that's going to pan out, but yeah, it's uh it is
+interesting. Yeah. Getting it tailor made. And you know every time we build internally
+like a solution you know the solution always comes from us seeing a problem that you
+know seems you know unfixable or it's too complex for someone to like just quickly fix
+it you know and and it's never like we're doing a feature because we want to irritate
+the staff or we want to you know big brother the staff. It's has it that's like the last
+thing on our mind. The the the forefront is like, okay, this employee is really
+frustrated and we see why because they're having to do XYZ manually and it's taking four
+hours for them to do and no one wants to do it. So, let's make that employees job
+
+[00:23:18]
+easier. Let's build this tool out for them to do that task. And look, now they're
+getting it done in 30 minutes and the same end is being met. And now we can we can re we
+can re you know position that employees extra time to do something else that's that's
+valuable too. So uh so yeah. So, I don't know. Like, and when you kind of get into a
+pattern of doing that, man, you just get a welloiled machine that's pretty wild, you
+know? I mean, like I mean, it's it's it's I don't know. Things run here so so much
+smoother than they did five years ago even, you know? Uh that, you know, it's just I
+always look back and I'm like, God, how are we doing that? Like, how are we functioning
+without this, you know? Um so yeah the investment in the tech to to simplify systems and
+it's you know and again it's not just about the money saving it's about making it's
+about making the staff a little happier you know and like and that that probably does
+translate into money saving because
+
+[00:24:22]
+staff hangs around longer because they're not pissed off all day you now some of them
+are pissed off all day but that's their problem so you know did you have anything that
+would look like a like a war story or a close call or like a thing that almost broke
+your business or Oh yeah, I got plenty for those. And then for for bonus points how
+someone else might learn from it or avoid the same mistakes. Yeah, there's a lot of
+internal stuff, you know, it's probably not that interesting, but uh and I guess uh I
+can only legally talk about this so much. So uh so so we'll just we'll just start there.
+So, uh, so we didn't start out as fast Yahi t-shirts. Uh, so a Yahi is an Australian
+Yeti with six toes. Okay. So, we originally started as fast Yeti t-shirts uh back in
+2013. Um, so, uh, there's only so much I can go into this, but I'll just say that, uh, I
+got sued
+
+[00:25:26]
+in the state of Texas by Yeti Coolers, uh, in 2019. Um, I was served with the lawsuit
+uh, while I was putting my unborn son's car seat into the car. uh at the hospital. Uh
+pretty classy. Uh so anyway, so I uh what when originally when we had picked the name,
+we were worried about a company called Yeti Cycles that makes bicycles and they also
+made some clothes. So we were all freaked out about this bicycle company, but we were
+like, well, you know what? We we print t-shirts. It Let's just, you know, I think we're
+we're filing a trademark that's in a different class. It's a different category. Let's
+not communicate with them and do it anyway. So, we did it. And I guess the whole
+
+[00:26:31]
+reason Yeti even came into play, I was obsessed with the Rudolph the Red-Nosed Reindeer
+uh Bumble growing up. Like hardcore obsessed with this Bumble. So, anyway, so like and I
+I guess I still am sort of obsessed with I I don't know. So like I guess I was like
+afraid of it growing up and then I like liked it and then I when he when his teeth came
+out it really freaked me out and like anyway so like uh so I wanted to keep integrating
+that that fear into my daily life. Right. So anyway so I got sued in Texas uh for for
+infringing on Yeti Cooler's rights to Yeti. And anyway, we just we we kind of had a uh a
+battle for at least a year and basically it became apparent to me that they were not
+backing down. Then it became, you know, part of me was like, "Oh, as a matter of
+principle, I'm going to ride this thing through. I'm going to be a cowboy about this."
+Those are expensive words. Oh, yeah. Hell yeah. So, uh, so you know, uh, during that
+
+[00:27:36]
+year, you know, I'm I'm getting my bills from my attorneys and things like that. And,
+uh, and I actually, you know, this was right when my first son was born, right? So, I
+hid this from my wife for months because I just I wanted her to focus on the kid, you
+know? I didn't want her to think, oh, is our is our whole lives about to crumble, you
+know? Yeah. There's no way that came back to bite you, right? There's no way. Well, I
+came clean about it and I and I told her why I I told her why I kept it from her. And I
+think I kept it from her for a good reason and and I guess if it had escalated to a
+point where I thought it was, you know, if I thought it was really serious, I probably
+would have spilled spilled my guts. But, you know, she was suspicious. I was taking
+weird phone calls in the backyard and stuff, you know, which is not something I normally
+do. I'm like I'm like I kept saying like, "Oh yeah, Henry's crying and let me go out in
+the backyard and take this." And you know, I'm like screaming at some attorney. So
+anyway, um so it it basically, you know, after uh after a lot of soulsearching, you
+
+[00:28:40]
+realize, okay, if I change the name, like am I going to lose any clients? No. What what
+am I fighting for here? Really, I'm fighting over air. Like what a firstworld stupid
+this is stupid. So um so I so I just walked away and I I I walked away from it. I
+settled with them. Uh and then uh we changed to Yahi. And what's what kind of is a
+benefit now is if you get on to Google and you search Yeti, right? You get a litany of
+crap forever. So, you get the cooler, you get the bicycle, you get a bunch of other
+companies, you get the actual Yeti and every documentary you can think of about that,
+you know, but if you search Yahi, we're first. I mean, like we're we're it. So, um, and
+we did a variation of the spelling, too, where we dropped the e of the real yowisi to
+just to give it a little more uniqueness and to, you
+
+[00:29:44]
+know, it make the trademark a little stronger, you know, cuz now I'm like, okay, like
+I'm going to do this right this time. Lesson learned, right? Lesson learned. This is
+going to be this is going to be ours. So I think like while it did cause a little it
+definitely caused some stress in a short run and that was like you know that was
+probably 18 months of me freaking out you know and but was good about my sign when I
+changed the sign I only had to change two letters on it which I think made some people
+kind of mad uh on the other side of the lawsuit that I just hadn't changed and it's
+funny when I changed them out like the blue of the letters you could tell which letters
+were new you and which ones were like weatherbeaten. So, uh, so anyway, so, so yeah. So,
+so that was kind of satisfying right there. But, uh, but but in the end, I think it
+benefited us from like a just from a search perspective. And that's like not something I
+ever considered really until it happened or until after it happened. I didn't even
+consider that as like a benefit. And I think now it's going to help us again
+
+[00:30:48]
+just cut through that clutter a little better. um you know it's not a huge thing but you
+know every little bit every little advantage kind of helps sometimes. So um so to not be
+under that you know behemoth anymore is good. Um and uh but yeah I didn't know I didn't
+know what was going to happen. So that was a that was a really touchandgo situation
+there. Well I had no idea that Yeti Coolers did custom apparel printing. I'm not a
+lawyer so I don't want to Yeah. Neither am I. Sorry. Don't feed the not educated enough
+to understand. This must be what the issue is. So yeah. Yeah. Uh everybody can do their
+own research. So you know reasonable minds can differ. They say that's right. That's
+right. But but yeah, that was like the that was the only major thing. And and I guess
+it's always alarming when you're sued by a publicly traded company. So you know, so it's
+just, you know, just just alarming. So you know, so you don't recommend that is is what
+you're saying? I don't recommend that. So I guess I guess uh I guess uh my advice then
+following that
+
+[00:31:52]
+experience is uh when you pick a name like have a solid URL, have a solid trademark
+attorney vet it for you and and kill your children. You know what I mean? I mean like
+kill what is the what is the thing? Uh kill your darlings, not your children. I was I
+was waiting to go quickly. That's the takeaway. kill your kids. No. All right. So, like
+uh Yeah, but uh what kind of podcast is this? I was about to say crime, right? We know
+can Yeah, that's the headline and the clip right there is read li kill your children.
+That's right. But if you fall in love with a name and and there's a legal thing with it,
+just drop it. Walk away. Forget about it. Because in the end of the day, you're fighting
+over air for something no one else cares about. Like except you. Like I mean no one else
+cares about it. So like even though it's cool or whatever, I mean flex.
+
+[00:32:57]
+So are you saying then that you like you wish you would have been like kind of served
+that and been like me always good and just rolled over right away? In hindsight, no.
+because I think I learned a little bit from hanging with it for as long as I did. I
+mean, I know so much about trademarks now, which benefits our business in other areas,
+just the fact that I know I'm not an attorney or anything, but like, you know, some of
+the attorneys I talked to, I might know more than them. So, uh, but but anyway, yeah, I
+don't know. The the experience of going through it had value, you know, even though it
+was like a colossal fail like when you like kind of look at it. Uh and and it was a
+chaotic time, but uh but when I look back, I think as a whole because I did hang with it
+as long as I did, I'm probably a I'm probably make smarter decisions going forward. I
+let less stuff bother me now because because I'm like, "Oh, you screwed up 50 shirts.
+You printed the front and the back." Okay, well, we're
+
+[00:33:59]
+not getting sued by a publicly traded company. Carry on. You know, that's that's the
+mark. Yeah. So, it's like I don't know. It puts everything in perspective having kind of
+a that kind of threat looming. It puts everything else in perspective and I think it
+makes me focus on what really is important versus what is clearly not, you know. Um, so
+uh so yeah, so that that had a lot of value. I'd probably do it the same way. I could do
+it again, you know. Um, but you know, if if I was doing it again and I wanted it just to
+end immediately, I would have rolled over, you know, that first hour. But, uh, you know,
+I don't know. I'm kind of stubborn when it comes to that. It's it's Yeah, the the
+instinct is this like how dare you, you know, how dare you, you know? So, yeah. and and
+you know and you really it's easy to get caught up in the emotional response of it, you
+know, and it's it's weird. I don't know if you ever seen it's like there's nothing to
+hit, you know? They're they're in
+
+[00:35:03]
+another state. There's there's no one you can channel your anger at. You can't even talk
+to them. You can only talk to the person who's on your side, which is an attorney who's
+working for you. So, like it's it's a frustrating thing because all you can you do is
+punch drywall. That's all you can do. And that's not productive. Turns out. Yeah. I
+don't know if you saw uh I think the film was called Founder, but it was all about the
+guy who invented the turn signal. Oh, I was thinking of the founder, the McDonald's guy.
+Yeah. Ray Croc. Yeah. I don't know. I might have the name of the movie wrong. I'm
+historically awful at knowing what the names of movies are or who actors are. Oh, what's
+your movie about them? So, I famously know nothing, but uh this movie the guy basically
+what happens is the guy invents the the turn signal and goes and shows I think it's in
+Detroit. They go and shows it to one of the Detroit places and uh they just rip it off
+and they don't credit it far and they don't pay him anything for his invention and he
+had a I think he had a patent on it or whatever and they basically he goes to war with
+all these car companies for his entire life and it ruins his marriage and all his kids
+and he's just like I invented this one thing this one
+
+[00:36:05]
+time and they stole it and he was absolutely right and he did after at the end of his
+life get his vindication that he invented this and they ripped it off from him but it's
+just like dude you're a brilliant inventor and like you just hung up your entire
+inventing career to go pay lawyers and spend your entire life in this legal fight, like
+go do something else. Awesome. Like, let it go. Al also, these companies have a lot more
+resources to pay lawyers than you do, and sometimes that matters more than who's law
+whose side the laws, huh? Oh, yeah. Yeah. I mean, when you have your when you have in-
+house attorneys, I mean, you know, it's just it's, you know, you're going to win. So,
+you know, um, but yeah, that I get your point. Yeah. Well, the big takeaway for me is I
+did not have sued by a publicly traded company on my entrepreneurial bingo bingo card,
+but I'm going to add it now. Uh because I haven't done that one yet and sounds like a
+hell of a lot of fun. So, it's a learning experience for sure. But, uh but yeah. Yeah.
+Yeah, that is interesting. Yeah, because that guy could have gone on to do all sorts of
+stuff. I think that's kind of what they were trying to say with the movie. At least
+that's what I took away from it. And I probably got the name wrong. I
+
+[00:37:07]
+don't know who was in it because I'm bad at that kind of thing. I bet airbags I bet
+airbags were around when he was doing the blinker. There was another one too about uh
+the wipers with the delays. You know the wiper. Okay, you're right, Erin. That's what it
+was. It wasn't turn signals. It was wipers. Okay. I told you I I will get That's okay. I
+will get none of the story. Get the name right. I don't know who's in it, but I'll tell
+you what the movie meant to me. You got the point right. Yeah. Yeah. Yeah. Yeah. I'm
+sure there's a lot of folks over the uh Yeah. I think the movie I was thinking about was
+the founder which I think is about the McDonald's guy who apparently did he lift it from
+somebody else or somebody else had come up with that system. McDonald's wasn't his to
+begin with now. Now he may have made it better. I I can't I can't remember but uh it's a
+similar thing where you know someone someone goes 90% of the way there and then somebody
+else steps in and you know does the rest. So, so it looks like Flash of Genius was the
+name of the film. So, not The Founder. There was actually also a movie called The
+
+[00:38:10]
+Founder, which was indeed about Ray Croc. And yeah, he he basically went to the
+McDonald's brothers and negotiated the franchising rights and then essentially rested
+the business away from them after he scaled it intensely. Did he do the automation then
+or he he probably did all the automated? I believe that they had the system set up and
+all he did was add scale to it. So, I think that their big invention was to have all
+this like assembly line. Exactly. like you put this many things of ketchup and these two
+pickles and they were turning out food so incredibly fast. But anyway, you know, it's
+weird. I have I have a fascination with McDonald's. I don't eat at McDonald's, but I
+have a fascination with the system of it and I and I've always wanted to like work there
+in the kitchen just to see how it goes. Have you guys Have you Have either of you worked
+fast food growing up? I cannot say that I have. Yeah, I worked at I worked at a Tasty
+Freeze, but I was kind of uh I was a bit young. Yeah. I wasn't like a cook or anything.
+I was doing like busing and stuff. Okay. Yeah. Yeah. It'd be interesting to see those
+systems because I mean, man, it's it's this is remarkable how consistent things are when
+you, you know, only about Yeah. Yeah. Exactly. And one thing I always am
+
+[00:39:13]
+surprised about, I feel like when you go to a Starbucks, I feel like the baristas have
+the same demeanor and like intonations to their speech even. I I don't know if it's just
+cuz I'm going to just Midwest Starbucks or what, but they all seem to have they all seem
+to have this same just sort of pacing and I don't It's very strange. I don't know. I
+just feel like it's the same girl at every Starbucks. And I mean, it can't be though.
+So, you know, I don't know. I'm here to say the ones in Colombia and Panama are a little
+different. Um but not as different. Not not as different as you might think. Colombia
+with an O. Is that what you're talking about? Colombia. Yeah, Columbia. Yeah. Okay.
+Yeah, the South American one. Yeah, I really demeanor. So, yeah. Yeah, you're not
+missing a whole lot. Well, just keep an eye on our time here, guys. Yeah, I know Erin's
+got a hair appointment. Um, am I wrong? Up or down? Up or down? Hey, this this thing
+doesn't like take care of itself. You know what I'm saying? So, uh, Reed, I do want to
+ask you
+
+[00:40:18]
+though, what what is next? What is next for Fast Y? what's what's on the horizon? What
+are the plans? What does what's Yeah. So, I guess um you guys built out kind of our
+foundation of our site. And um I'm gonna eventually start like we're using it actively
+right now, but we're not like pushing it right now. I'm doing an internal expansion
+right now where we're we had to knock down a few walls and we're adding uh some new
+equipment here uh in the next couple months and that'll essentially triple our capacity.
+So, so once that gets here, gets in, gets up and running, I'm pretty much going to start
+kind of pushing the foundation we've got, um, on a statewide level and see if I can keep
+this monster running as much as our capacity will allow. Um, and and right now we're
+kind of push we are exceeding the brink of our current capacity. So, I'm like I'm I'm
+I'm hesitant to like actively advertise right now because it's like,
+
+[00:41:20]
+"Oh, you want an order? Well, guess what? We can't do it." So, you know, um so so that
+doesn't really do me any good right now. So, um but yeah, I mean uh I hope to uh by
+August to have that expansion completed and have those systems in place and then um and
+then yeah, probably probably August and fall we'll start kind of actively pushing and
+try to fill this fill this beast up. And then, you know, if if we could fill that up,
+I'm honestly I'm probably going to sit here for a minute. So, so uh I have no uh I I
+think there's such a thing as being too big, you know? You can you can you can get to a
+point and then it's kind of like why push it further when it's just going to, you know,
+just going to make yourself miserable, you know? So, like I think if we uh if we do
+complete this expansion successfully, uh that'll be plenty of me for me to chew on and
+to do and to fine-tune and all that stuff. And we won't need to, you know, grow much
+anymore. So, or more than I can tolerate at least. So, I
+
+[00:42:25]
+don't know. You seem like the guy who's going to find that plateau and get bored and
+then find the next one. So, well, you know, it is weird. I I was telling one of my guys
+the other day. I was like, "Well, the website's basically done. When we get this when we
+get this these new presses in, what are we going to do? Like, what are we going to do
+all day?" Like, I hope we're not just going to print shirts. That's going to be boring.
+So, you know, so so I don't know. So, maybe I'll open up a tasty freeze or something
+like that. Happy to help you out if you need someone tables. So, I need somebody to
+clean up the tables. I'll be the world's most expensive, least economically productive
+bus boy. Yeah, we're super over time. My last question was, is there anything I should
+have asked you about that uh that I didn't or anything else you would would share with
+someone else doing this crazy business stuff that we do? Well, I don't know. I covered
+all the drama. Drama is the good stuff. All the main all the fun stuff you got. So, I
+could talk about print heads for a long time if you want to talk about print heads, but
+And unfortunately, we're out of time. So, Yeah, there's a lot of really boring
+
+[00:43:31]
+stuff in this business, but I'm sure in your business there's no boring stuff, right?
+Everyday's every day is everything I do is incredibly fascinating. Uh well, thanks for
+helping my project and uh thanks for having me on this. Absolutely, Reed. Thanks for
+taking time to talk fast with us. So yeah, where uh just uh where where can folks
+connect with you if they need to or or uh look you up online? Yeah, just find me at at
+fastyahi.com. There you go. You can get a hold of me there. Awesome. Well, that wraps us
+up for today. Thank you, Justin. And uh special thanks also to Reed. You guys have a
+good one. A pleasure to get a chat with you both. Thanks so much. Absolutely. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

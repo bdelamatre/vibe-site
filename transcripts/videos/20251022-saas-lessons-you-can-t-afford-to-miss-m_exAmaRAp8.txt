@@ -1,0 +1,317 @@
+SaaS Lessons You Can't Afford to Miss
+=====================================
+
+Video ID:  m_exAmaRAp8
+URL:       https://www.youtube.com/watch?v=m_exAmaRAp8
+Published: 2025-10-22
+Duration:  00:22:31
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Welcome to SAS that app building B2B web applications. The podcast where we share real
+world stories, practical advice, and tech insights for those building or thinking about
+starting a tech- enabled business. I am your co-host Aaron Marchbanks and I'm Justin
+Edwards. Each week, we bring you the stories, strategies, and insights you need to build
+your SAS or tech enabled business smarter, not harder. Let's dive right in. [music]
+Hello and welcome back to SAS that app. I am Aaron Marchbanks and I am happy to be
+looking across the screen and seeing the familiar face of one, Mr. Justin Edwards. Hello
+my friend. >> Hey, how's it going? I came back after 40 days and found out I still had a
+job. So that was pretty cool. >> It's amazing. And probably not only one job, but in the
+inbox and Slack channels and phone calls, many jobs. >> Let's just say I'll be working
+more than 40 hours a week for the next few weeks. >> It's the pay for it on the other
+side,
+
+[00:01:02]
+right? >> Yeah. But it's so worth it, man. So worth it coming back rejuvenated and just
+feeling good. >> That's fantastic. Well, I mean, uh, you know, I would say lessons
+learned on on, you know, the being gone for that long. But, uh, strangely enough, I
+think we got something that's appropriate for today. >> Yeah. In keeping with the fact
+that I've been gone for a long time, today we're doing something a little bit different.
+We're doing a look back at some previous guests who've been on. We've picked out some
+particular clips that we think are pretty awesome that we want to highlight and bring to
+you. First off in the hopper, we've got Brett Calhoun. Next in line, we're going to hear
+from Tom Buch. And finally, to close us out, we've got Joe Kowski. So Brett has got a VC
+angle, the VC background coming from Missouri. Uh and he's going to tell us a little bit
+about how he assesses leaders and founders and kind of what his criteria are for making
+a VC investment. So here he is. driving force was that I really enjoyed the investing
+side and supporting lots of entrepreneurs and you know maybe the more stability around
+you have multiple companies doing well and multiple companies doing bad versus just one
+company doing really bad and then
+
+[00:02:05]
+really good. So maybe just more for my mental capacity, but and also my my first entry
+point into this was actually working with a fund while I was in grad school at Missou.
+And so got to support entrepreneurs in Missouri and then had a chance to work with a
+portfolio company there. A great team to learn and work with was called Patient and
+they've been really successful now. And then I helped a friend start an angel investing
+group and um that led to me getting a role with a fund called the legal tech fund and we
+incubated a company there called cap gains and had the opportunity to be the first
+person on that team and then ended up co-founding a lending startup and which was a good
+experience. It's definitely learned a ton about the lending industry and capital markets
+and, you know, early days of, you know, building a company and what can go right, what
+could go wrong. And opportunity came up to to join some some really successful
+entrepreneurs and building in a uh incubator here. And so I stepped into that role and
+through that kind of hustle and trying to figure out what we were doing uh led to uh
+
+[00:03:09]
+raising a venture fund and uh rebrand everything into Redbud VC. I think most people
+would agree that generally speaking people don't correlate Missouri with venture capital
+and that is a narrative that we are working on changing um because there is a ton of
+talent here. There's a lot of great operators. I don't really think like Missouri
+necessarily has a capital problem or that that's not a problem of like why there's not
+as much innovation. I think it's really unlocking that knowledge sharing and the network
+effects that people have here and creating denser ecosystems. >> Yeah. Having having
+been a part of some of those startup weekends even in some of the earlier days and you
+know products of that uh you know for listeners are things like Zapier and Equipment
+Share and and Brad I know you guys have kind of rebranded that now bigger picture. So
+Missouri startup weekend. So tell me a little bit more about uh about that that startup
+weekend process and then you know what are what are some of the big winners you know
+quote unquote winners that have come out of that just in the in the most recent years. I
+mean you you mentioned that too in the in the earlier years Zapier and Equipature which
+are both you know incredible companies multi-billion
+
+[00:04:11]
+dollars now the first year we took it over was so we took it over in 2021 but we did the
+startup weekend in 2022 and that was a company called appreciate it was a Missou student
+he actually ended up dropping out of Missou to start the company and uh we supported him
+in the early days funded a little bit and and helped him find a technical co-founder and
+The next year we ran uh there's a company called Liquid that came out local entrepreneur
+uh Crystal who had sold some hair salons and then she had an idea for building an
+operating stack for hair salon owners who typically aren't great business operators.
+They learned how to do hair and so that company's still going. We supported her early
+on. She got into tech stars and um it's now you know a revenue generating business. And
+then the third year we did it. the second place winner actually started their company
+and it was like the we work for music studios and then uh there that person actually the
+Kylie she interned for me for about 18 months and she's great she's she's about to open
+up her second studio now and then
+
+[00:05:14]
+this year was a company called focus and it was two attorneys that I had met and they
+had a phenomenal idea that a lot of people in their industry were begging them to build
+startup week has been great >> so you spoke a little bit earlier about kind of you
+really it's about the people or about the the talent, the the folks you're putting on
+your team, and you make a lot of decisions about who to work with and what to fund, it
+sounds like, based off of of who the people are. So, what are the kinds of things that
+you look for with a founder or someone you're looking to to work with or fund? Are the
+characteristics? Is it just track record? It sounds like you list a lot of people with
+different levels of experience coming out of the uh the startup weekend. >> Yeah, I
+mean, track record is Yeah, pedigree is a pretty easy data point. I think a lot of the
+folks that we're supporting, we certainly have pedigree in the portfolio, but you know,
+a lot of people haven't quite had that pedigree. You know, maybe they didn't go to an
+Ivy League school or didn't work in big tech or haven't exited the company yet. And so,
+it's a little bit harder to underwrite that background. And so, like I had mentioned
+before, we're looking for resilience early on in
+
+[00:06:18]
+building the company. And then, you know, this isn't every company that we're in, but
+something that is important to us is somebody who has domain experience and has lived
+the problem they're trying to solve. And because of that, they've probably developed
+some unique insight or wedge into the market that unlocks a much bigger opportunity. And
+so that that would be a trend in our portfolio as somebody with that background. And a
+lot of often times, you know, say for example, construction, if you spent, you know, one
+or two decades in that industry, you probably have no idea how to raise venture money or
+have never navigated the whole game of trying to, you know, create FOMO and whatever it
+is that you have to do to raise funding or, you know, hiring your first engineer and
+managing your first product and how to, you know, do customer discovery. like so there
+there is a slight opportunity to to provide some support there and figure out how to how
+to build those companies and then having technical skills on the team is obviously
+important. You know, we're not looking for, you know, someone who is necessarily hiring
+somebody else to build the
+
+[00:07:22]
+product that they're building that they're supposed to be, you know, staying up late at
+night and or waking up early in the morning that they can't sleep to think about that
+they're paranoid and obsessed with. And so we make sure that they have the right skill
+sets on the team, technical skills, being able to articulate super well with hiring uh
+hiring talent, selling to selling to customers or fundraising. So that's a little bit of
+it. I mean, it's and we're like I said, we're play the power law. We're not investing in
+people who aren't doing this unless they're trying to create generational wealth. >> So
+yeah, that was Brett. Uh we're really glad to have him on the show. What we've got
+coming up next uh is a little section from Tom Buch who's uh going to talk a little bit
+about his story with MailCharts. Um kind of the difference between consulting and SAS
+businesses which a lot of us have a lot of different experiences with and are not
+necessarily opposites to one another but but complement each other a lot. So he's going
+to talk a little bit about that and he's going to take also a look at how he covers his
+take on uh productled growth which is going to be very interesting. Here is Tom. What
+was the what was the kind of impetus for for
+
+[00:08:25]
+mail charts? Were you were you had you run into stuff in your career or a problem that
+you were trying to solve or did someone kind of lay this problem at your feet and you
+got to work through a solution? >> It remains a really cool um best described as a
+writer retreat for programmers in New York City. Um it's called the Recurse Center and
+they give programmers of of all levels and all experiences between six and 12 weeks of
+time to explore what's interesting to them. Um, I was involved in that program. Um, at
+it at the time it was called Hacker School. And, uh, at Hacker School, uh, my co-founder
+Carl said we were working on some stuff and we both kind of said, "Wouldn't it be cool
+if there was a Wayback machine for emails?" And um I found some packages that let us
+spin up an SMTP server and start to stuff and then parse out uh I guess SMTP messages
+into JSON. And we said, well, let's sign up for some brands emails and see if we can
+store them. And that was really the the main thing is a wayback
+
+[00:09:30]
+machine for emails. And uh and then from there we received those emails. It kind of
+worked. Um and then we kind of more matured that business or that platform um and said
+will somebody pay for it and then kind of continued that uh let's try and see how it
+works. Being starting our company um kind of within the walls of hacker school one of
+their uh core ethos is never graduate and what they mean by that is always be learning,
+always be tinkering, always be exploring. Um and we carried that with us throughout on
+the technical side of the business and were we were open to hey let's see if this works
+let's let's explore let's let's push the boundaries and um so that was really kind of
+how the business started rolling it feels really slow I mean relative to consulting and
+I don't know how much um of the listeners um may have a contractor or a consulting piece
+of it where you're getting client work there's a big rush as you renew earn new business
+ship a new project um that is hard to compare with some of the slow burn um the former
+CEO of
+
+[00:10:35]
+Constant Contact, Gail, I forget her last name, uh Goodman maybe, had the comment of the
+slow long slow ramp of SAS death. And and we loved that because it was so much slower to
+grow your business at these like small MR numbers, you know, 99 bucks, 150 bucks, 39
+bucks. um and you don't get a real rush from it, so to speak, in a way that um kind of
+chasing that hamster wheel of consulting. You might have a big year, but then you got to
+kind of wind up and do it again. So, I think for many of us that start businesses that
+that resonates and um that can be a compelling force to say, let's see if this worked.
+Wouldn't it be great? Not only would it be great if I could pay you, but it'd be great
+to just kind of change the uh perspective of of how I'm able to pay the bills and, you
+know, save a little bit and go on vacation and stuff just to make sure that definitions
+are lining up. Um, productled growth for us meant that we were able to get users to come
+inbound and then the product itself would convert users to customers. For us, it was a
+premium model where
+
+[00:11:39]
+there was a free tier and then you would get blocked functionally from doing the paid
+the paid feature or the paid part of the application. Um, and so assuming that that
+definition works for PLG, we made a really conscious effort to to be a PLG company. Part
+of it was personal. Um we really believed in the pathway the slower growth pathway of
+PLG. If we have a sales team that is pushing um deals, which is great, revenue is great,
+we may find that we have to manage to make sure what's sold is compatible with what's
+built. So for us, PLG represented an opportunity for us to be really good at product in
+such a way that people could upgrade from it. they could try it indefinitely through the
+premium and really reduce our reliance on needing a lot of support. we started this uh
+chat talking about like how do you hitting those levels of
+
+[00:12:42]
+business growth and for us kind of the early days there was a lot of handholding and
+there was a lot of what I think we would call like selling or customization in the
+contract um and later I would have called an enterprise deal anything that's on paper
+that I have to actually um send an invoice and then deposit a check to me was something
+I learned over time that I didn't want to do. When we would do annual planning, we would
+look at the bigger the bigger contracts, the non kind of MR businesses or the non-self-
+service business. And I think for us, our experience was like, what if we could just
+replace this income with more small ongoing business and like and that happened
+naturally over time. I I think um that experience was a little bit of like, you know,
+there's some little there's some scars and just like I don't want to emotional scars
+like I just don't want to have these conversations anymore. We realized with our kind of
+self-service credit card business that
+
+[00:13:45]
+that was a much stronger uh piece of business and we got to the point where um even some
+of our larger accounts that we were able to just tell them we weren't going to renew.
+Why would we do that? Well, most of our team, Aaron, like the important detail is I said
+I would handle the enterprise stuff. So that means everyone else, a half dozen people is
+only focusing on um our self-service business. And so when we turned down some clients,
+we were able to grow the business in quick time because the team was focused on it and
+there was nothing, no distractions. Even though there was revenue attached to it,
+positive revenue, there was negative distraction. Um, and when we put like, you know,
+our effort towards the things that we wanted to do, the business really improved.
+Awesome. Uh, great views from Tom there. Last up, we have a crowd favorite, uh, Joe
+Kowalsski, who has bootstrapped and built a giant company very early on in his, uh, in
+his SAS career. He has actually quite a long history of working in the field of SAS and
+just a fantastic experience, really
+
+[00:14:48]
+great guy. uh he's going to talk a little bit about some of his mistakes uh learnings
+that he has has made over the years uh kind of how he has built expansion revenue in the
+context of his uh service SAS. So let's hear a little bit from Joe. >> I made two huge
+mistakes I want to make sure I communicate to the people listening here. Uh the first
+one is I wasn't smart enough of a business person at the time to really thoughtfully
+select my vertical market. I got in because I knew what SAS was going to be, right? It
+didn't even have a name at the time. Nobody was doing online business management. Online
+typical, you know, what we see today and take for granted. Nobody was doing that. head.
+And at a family reunion, one of the elders kind of knew a lot about the carpet cleaning
+industry. Now, we just got to talking and I was like, there it is. I could be incognito
+for a couple years, figure out how to make this work,
+
+[00:15:51]
+and then it opened up to all services, not understanding that the better play is always
+a straight vertical approach and really growing that base out. and I chose the wrong
+industry. Sale um my nearest competitor, Service Titan. You may know about them because
+they're like a $4 billion company now. They're preipo and they got started 5 years after
+I did. The difference they selected HVAC first and they weren't didn't have a better
+product. I have a far superior product. We were far leaner. We ran better. We had the
+infrastructure. My customer's average invoice is $250. Their customer's average invoice
+$7500. And so they could charge $1,200 a month for what I was charging her for 45 bucks
+a month. In the total addressable market, there's only 25,000 carpet cleaners [clears
+throat] in the
+
+[00:16:53]
+United States. when I sold in uh two years ago, I had like 40% 35% of the market, you
+know, of the addressable market when you really break it down because only 35% of carpet
+cleaners were on a CRM 20 years later. They were all online at that point, but it only
+gone up 10 bips in flipping 20 years, right? And they couldn't afford anymore. their
+invoices didn't really go up in that 20 years, right? Because it's a fairly inexpensive
+service, right? And it's low tech. It's easy to get into and so lots of pressures to
+keep the cost low and so yeah, bad bad decision. I mean, I sold for 8 figures, so I'm
+out whining. But yeah, I am whining cuz it wasn't 4 billion, which I could have easily
+done if I had just been smart enough at the time to pick the right vertical. The other
+one was pricing, right? I wanted to charge us just a little over cost,
+
+[00:17:58]
+which was stupid considering I didn't get funded, right? I bootstrapped and I really
+neutered myself for growth. I could have used that additional capital as fuel to grow
+and invest literally. The other thing I did was I grandfathered any price change we made
+and we only made three in those 20 years. Two of them everyone was grandfathered who was
+already on the system. So when we did our third price increase a year before I sold, we
+had customers that were still on our 2003 pricing. They saw a 300% increase in their
+monthly. Now, how much did I lose? Right? I was terrified. Always terrified to raise
+prices. Always terrified to raise it too much. Always terrified to lose clients. Nearest
+I can figure cuz we had a really good churn. We lost as near as I can figure 2% from
+that increase over the course of the next 12 months. So, we had
+
+[00:19:02]
+three buckets. Um, and I didn't do user pricing until a year before we sold. One model I
+did have though is we scaled per truck, right? The way that carpet cleaners make their
+money is they send the truck out. And so it didn't matter to me if they were a oneman
+crew or twoman crew, right? As far as like my scaling opportunity. And so we did we did
+that for a while. But I tell you, I mentioned the pivot at year four, which actually got
+us to profitability, which was revenue expansion in a different way. Cuz I realized one
+of the things that made them stay was a good marketing engine within their CRM tool. And
+the number one tool for marketing for carpet cleaners to build repeat business which was
+the bread and butter of this carpet cleaning industry was very sasslike in that way was
+reminders, mailing reminders. And so I was always saying, "Look, click
+
+[00:20:05]
+these buttons and spread out your labels." And and then one day it occurred to me,
+"Yeah, I have their freaking data. I could do the mailing for them." So, I ran down to
+Best Buy and I bought these two inline printers, 100 bucks a piece, and I bought these
+preprinted cards from Office Depot. We put them on the network is cha-ching one and cha-
+ching 2, cuz every time the card come off, I'd go cha-ching because we were making 60%
+margin on those cards. And suddenly our uh monthly sales volume doubled. People were
+signing up because of this additional service in addition to the additional revenue that
+it was bringing us. And so that was a big big turning point for us. >> That's amazing.
+Yeah. You got the captured audience right there already. Or or a new hook in a new Yeah.
+And the data. >> Right. They didn't have to do anything except go approve and then I'd
+print the
+
+[00:21:08]
+cards. We put them in an envelope. I had a team stuffing and stamping them of uh part-
+time college kids and we made a third of our revenue when I sold it through that meal
+program. >> Thanks again to Joe Kowalsski for coming on and sharing his wisdom. He's got
+a really really cool story and just having someone be so candid about the mistakes they
+made and looking at big differences and final valuations based off of little things from
+past ignorance is uh it's just really cool to hear and really cool. he has that kind of
+clarity uh and and uh ability to self inspect. So uh huge thanks to Brett Calhoun, Tom
+Buch, and Joe Kowalsski. All awesome podcast guests. All of their episodes will be
+linked down below if you want to see any of them. Uh so please check them out. Uh the
+full episodes on each one of those is absolutely worth watching and listening to. And uh
+go ahead and bang the subscribe button and send us a message. We'd love to hear from
+you. And uh yeah, thanks for staying along with us on SAS that app. Cheers. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If
+
+[00:22:12]
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

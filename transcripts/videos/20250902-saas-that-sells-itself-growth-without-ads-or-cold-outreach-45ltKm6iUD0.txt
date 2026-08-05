@@ -1,0 +1,609 @@
+SaaS That Sells Itself: Growth Without Ads or Cold Outreach
+===========================================================
+
+Video ID:  45ltKm6iUD0
+URL:       https://www.youtube.com/watch?v=45ltKm6iUD0
+Published: 2025-09-02
+Duration:  00:36:15
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+The next time I build a SAS app, one criteria of what I choose to build is, is there
+some kind of productled growth in the product? And if I can't do that, then I'm less
+likely to do it because then I have to adopt this other ethos of business I don't really
+care about. Welcome to SAS that app building B2B web applications, the podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech enabled business. I am your co-host, Aaron Marchbanks,
+and I'm Justin Edwards. Each week we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. Hello and welcome back to SAS that app. Today we are thrilled to welcome Tom Hunt,
+founder and CEO of fame, a fully remote 71 person team that starts and scales the
+world's most profitable B2B podcasts. Tom's journey includes founding 17 startups,
+investing in more, learning the art of growing businesses through content and community,
+and also happens to be the host of Confessions of a B2B entrepreneur. You'll have to
+check that out. Tom is very passionate about the formula to becoming famous, creating
+
+[00:01:04]
+niche, like insanely good content and getting seen alongside many other famous players.
+So, it's kind of a philosophy that ties into today's topic, which is productled growth
+in SAS. Tom, welcome to the pod. >> Thanks for having me, guys. Very excited. Now, maybe
+I should admit now that I've tried a few times to build a SAS. And you could say failed
+or you could say succeeded and learned loads of things. But we can dig into that in the
+episode. Absolutely. Yeah, I like the second one there. And uh with me as always is my
+partner in crime, who I'm sad to say is not wearing his doughut shirt today. I was very
+excited about that yesterday. Justin Edwards. >> We got to split up the release order of
+these podcasts so I don't always show up wearing the same clothes. Everyone's going to
+realize I only actually own five shirts. But I >> saves brain cycles, man. >> How about
+that? So anyway, happy to be here. >> Good deal. So Tom, completely off topic to get us
+started, but do I have it right that you have a degree in chemistry? A master's degree
+in medicinal chemistry. Yeah, I thought the three years wasn't enough. And I went for
+the fourth and that's when I realized I actually didn't want to do it anymore. It was in
+the fourth year. But
+
+[00:02:08]
+I think the point I remember is in the fourth year, you have to do your own project. And
+I was trying to build a protein that would maybe interact with another protein. And I
+was in the lab on my own for like the fifth day straight mixing liquids around. And I
+was like, "Wow, I really don't give a about this. >> I find that super relatable." You
+>> really? Yeah. And then, well, it gets better because then I was like, "Okay, so what
+do I do?" Had no idea. And so then I spent two years at a company called EY, which is a
+big professional accountancy firm. And then I was like, "Well, also don't like this. So
+maybe I'll go and work for Accenture, another big professional service firm. >> That
+sounds awful. >> And then it was 2 months into that and I was like, well, yeah, I really
+don't give a about this either. And so then this takes us up to well, start 2014. And
+this is where the story gets a bit more interesting, I think, is that I'm like, if I
+can't do chemistry, I can't be employed because I've tried two companies and I didn't
+work well either. What do I do? I was interested in the internet, but then I couldn't
+code. So I was like, I need to try and replace my salary so I can actually like be
+useful in the world. So if you can't code or
+
+[00:03:11]
+you like the internet, then online marketing is probably the the next best thing. So I
+spent 2014 learning online marketing and then ultimately did manage to replace my salary
+with a tiny small Filipino outsourcing company and then managed to leave in 2015 and
+then now it's been a decade of trying and failing to build various software service
+companies. >> Fantastic. I I feel like we're starting to get a a stable. We actually had
+a polymer chemist on a few episodes back. So I'm very interested always in how you
+depart from there and arrive at where you are. >> If memory serves, the polymer chemist
+also had motivational issues with his job and stopped being a polymer chemist. So >>
+yeah, but sometimes I think like maybe I'll go back because I think having business
+skills and marketing skills and chemistry skills is quite a unique combination. So there
+might be a a niche for a chemistry business that's also combined with online marketing
+and maybe a bit of software because I've done some of that. I know you guys are probably
+the experts. >> Yeah, you know who to call if there's a software component. >> Yeah,
+exactly. You guys >> will lean on you for for your Filipino
+
+[00:04:15]
+outsourcing company. How did that come about? Did you go to the Philippines and realize
+how wonderful the people were or was it a different way that you arrived? I'd actually
+been there a bit before and because in both EY and Accenture for whatever reason I was
+involved in projects where we were outsourcing work for other large companies that gave
+credibility when I was cold emailing like random startup founders in London being like
+do you want to use my Filipino team and I'm like I spent 3 years working on big
+outsourcing deal with Accenture. So I think it was just something that I had experience
+with, had credibility in. And then why the Philippines? I think for our work week, he
+hired his VA from the Philippines, Tim Ferris. And so it was more random, I think, than
+strategic. >> One thing that's really great about the Philippines is that all of their
+formal education and schooling is done in English. So they speak their native language
+at home, but everyone there is a native English speaker or at least a very high level
+English speaker because that's how their schooling is done. So it's a great fit for the
+English speaking world to work with folks there. >> Yeah. I also found that like
+extremely I don't know why but very loyal. If you can provide a like regular paycheck, a
+good working environment, the employee
+
+[00:05:20]
+retention is higher than I've seen in other countries. >> Yeah, I think that's true in a
+lot of places that aren't weird, you know, western, educated, rich, and so on. But yeah,
+I love the Philippines. I love Filipino people. So, it's super cool >> and still a
+component of fame if I remember right too, Tom. >> Yeah, exactly. We're fully remote and
+so obviously some roles don't need to be done in the west and so we have about 30 people
+in the Philippines and there was one person who was involved in that first outsourcing
+company that's still involved in fame today and a lot of the team have been brought in
+by that person and so they're like a connection all the way through the the last decade
+of working in the Philippines. Nice. Well, kind of jumping into the topic for the day
+and just for our listeners, can you just break down your take on what it means to have
+productled growth? Yes. There's like almost a very holistic way of looking at business.
+I'll explain first and then I'll explain why I think product growth is so important. If
+you think of a business like a system, I think businesses spend a lot of money on like
+outbound sales or advertising. I feel like that's wasted energy from the
+
+[00:06:26]
+system. like the system is leaking because often there's no upside for anyone from
+interacting people with outbound email or spending loads of money on ads for people that
+don't care about it. And so it's just like leakage of of energy and therefore cash from
+the system. And so what we tried to do at Fame and what I've tried to do whenever I
+build a SAS app is how can I get advertising in quotes in the process of a user using my
+tool. At Fame, we have built our own podcast hosting tool. And so the tool simply takes
+the audio and then distributes that to Apple, Spotify, keeps it updated. And so why
+that's great for the Fame Host, the tool, and for Fame itself is because then for every
+episode, we're able to produce a web page that sits on our domain that can get organic
+traffic. Today, there's a guy called Rob Welling, who we should definitely try and get
+on this show. Two months ago, I had him on my show. We released the episode a week ago.
+today he tweets out a snippet from that episode but also the link to the episode that's
+on our domain and so Rob Bowling 35,000 followers on Twitter his audience
+
+[00:07:28]
+is probably potential good customers for fame and so we're getting exposed just through
+the youth of the tool the final point there is also that when people go on podcasts they
+then also like to put the link to the episode from their press page on their site and so
+last month we get a backlink to our domain again it's an episode page of fame host from
+IBM because one of their guests went on a client show. So, I've essentially shared like
+three ways where just through the use of our tool, we're able to get brand exposure. And
+so, what does that mean? That means we can spend less money doing outbound sales, less
+money running ads to people that don't care, which enables us to bring our prices down
+while still being able to reinvest to make the service better. And then it feeds into
+this holistic loop which I call the fame playbook. But it's the same we can just use the
+same loop for any SAS company is that we get cheap clients because our users are bas
+essentially doing advertising for us. And then that enables us to bring price down to
+deliver a good service lower price which makes clients happier which then increase word
+of mouth but also should increase usage of the tool because they stay for longer which
+then gets more
+
+[00:08:30]
+clients cheaply because they're using our tool. Just kind of thinking through the
+spectrum of the process here. Is there some sort of a threshold or like a volume number
+or a metric where that makes more sense but initially still requires you to rely on
+those more traditional sales models or outbound things or is this something that the
+effort goes into it right away? So it's almost for me like the next time I build a SAS
+app one criteria of what I choose to build is is there some kind of productled growth in
+the product and if I can't do that then I'm less likely to do it because then I have to
+adopt this other ethos of business I don't really care about and so in my mind that
+should be part like obviously if you're building something you guys know more about this
+than me but you want to prioritize the features and so one input to that feature per the
+television backlog is is this going to help us get more customers along with like do
+customers actually want this how hard it is to build etc. So I think obviously when
+you're small it may not bring any customers but I still think like it's part of the
+product we wanted to be there we want to keep improving and iterating that over time so
+we get an impact from it at the soonest possible point.
+
+[00:09:32]
+>> So does that also involve like the premium model you know again just trying to get
+that word of mouth out there to try to build that customer base so that you can really
+leverage it to get these future sales. Yeah, I do feel like this approach is better with
+like maximum users. And so if we're able to give a premium model, then a product like
+growth is much more suited to that. >> Yeah, that makes sense. >> And so this may be
+kind of deviating a little bit from product led growth, but you're obviously working
+very hard to also generate referral based business and business on referrals as well. Is
+that kind of a similar idea where you get more bang for your buck and don't spend a lot
+of time advertising to people who don't care? >> Exactly. Right. Let's say we had a five
+grand ad budget off or I was going to hire a new salesperson. It's going to cost five
+grand per month. I would rather keep prices the same whilst improving the service. Like
+take that five grand and invest it in something that's going to I don't know a promotion
+for the team or a new team member that's going to improve service to then get that value
+back through the referrals. We're basically leaking less financial energy from the
+system. >> Interesting. So what would you say then just continuing that line of thought
+would be pitfalls to this type of an approach or to those who might try to you know
+engineer this like virally? Yeah, I feel like I've definitely signed
+
+[00:10:35]
+up to tools where like maybe in the sign up flow it like immediately does something that
+is public when obviously they'll get my permission but it's just not something that I
+would want to do. So the conversion rate on that is going to be low. When it happens it
+could have negative impacts to the user which is not good to the brand. So the absolute
+best example I think is cowardly because obviously for anyone to book a meeting with you
+you have to send them something. And so I wouldn't try and shoehorn it in but take every
+possible opportunity to get your brand out there through the usage. One thing that I
+think Calendarly do really well is that they know every time the calendarly link is sent
+that's like an opportunity for them to impress. And so the UI and the design on calendar
+links I think is the best out of all the other competitors and it has been for the last
+like 5 10 years. And so I think that's a place if you are going to invest in the product
+obviously you want to make sure the product's amazing but it's an opportunity to impress
+with every usage. >> So both for podcast and the calendar
+
+[00:11:39]
+example these kind of have like this network effect where there's like virality is a
+component inherently in how that spread. Does does product growth really only work in
+that kind of niche or can we draw tendrils of this further into other business models
+that don't necessarily have that kind of viral component? >> One thing we do at Fame
+which isn't part of Fame Host software kind of is but we don't need Fame Host to do it
+and again because we're a content creation agency in the global show notes of every
+episode we say this was created with love by fame and so that's us being able to get
+attention through the content that we're producing for customers. So that's another
+opportunity for I think any service business most of them do like create things that
+customers use. Again it's a bit tricky and you probably have to get permission but
+that's one like way of doing this. It is definitely more suited to the lower cost almost
+B2C like SAS like calendarly like podcast hosting software. I used to do like big
+writeups of how software companies have grown like Clickfunnels. I'm sure you guys are
+aware of that. that had incredible viral growth because their free plan. Any web page
+you created had the ClickFunnels bottom in the bottom
+
+[00:12:40]
+right and that was like premium on steroids with that free offer. What I'd love to do
+actually is like study Salesforce like how are Salesforce possibly getting their brand
+exposed. I don't know maybe in marketing cloud they obviously have like an email
+software to send emails to your list. Presumably they have like this is set by
+Salesforce Marketing Cloud at the bottom of every email. So that's probably an example.
+So I think it it probably there probably is ways for most assets but it's like that BTOC
+like tool that it seems to work the best. >> We are kind of always prided ourselves on
+doing like a very excellent job and going above and beyond with customer support,
+customer service and being really responsive and kind of being hightouch and we get
+referral business because of that a lot and we have a reputation in the different
+communities. We're because of that and for a services company that doesn't have a
+product that is kind of a little bit of our version of product l growth where people are
+reinforcing that interesting idea. >> Exactly. We have a fundamental belief of fame that
+I think is should be true for businesses. to see that you guys are aligned. Retention is
+a foundation of growth. So, let's just try and invest as much as possible in the
+customer experience so that we don't have to work out how to run a cold outbound
+process. >> Yeah. And I I far prefer that to like
+
+[00:13:42]
+the volume based approach. We've worked actually as partners with some other service
+industries and things like that who go very deep, but it's all in one particular
+vertical. That's where their expertise lies. That's what they hire into. That's what it
+is that they do, but they also have a product that they're centering this around. To
+Justin's point, it's a little bit trickier and more challenging to do perhaps as a
+service because until you have an opportunity to present yourself in your services and
+can then direct potential clients to those recommenders or or or people who have had
+good service with us or get it to the web and and be able to kind of propagate that
+through something like a podcast for example, it becomes kind of challenging in the
+industry to do. Yeah. One other idea I remember coming up with is that if in the process
+of using your tool, your customer or your users create something that they would be
+proud of, then actually we're robbing them of a good experience by not allowing them to
+share that. I remember the tool I studied to do this was a SAS tool for mind mapping
+called MindMeister, I believe. And so obviously every user creates their mind maps and
+then they simply added they didn't have it before they added one button that once a map
+was saved they had a make public button
+
+[00:14:46]
+and then that would just publish that my map on their own domain and then it could be
+shared and I think they experience significant growth after that. So if your users are
+creating anything that they could be proud of that they might want to share then let's
+just chuck on the domain and then allow them to share it. >> Gotcha. So you had
+mentioned earlier too and I'm sure it's part of some of the things that you've you've
+already mentioned and without necessarily giving away any secret sauce or things that
+you want to keep. Tell me a little bit more about your fame playbook. You had mentioned
+playbook. What does that look like? >> The playbook is like a longer dock that explains
+like everything. But the point I think is most relevant here is within that doc is
+called the fame flywheel. And this is popularized by Jim Collins who wrote goods great
+probably the best business book of all time. I think he has like one chapter he pulled
+out and actually created his own book and used Amazon as a case study called the
+flywheel effect and the concept here is that essentially whenever you're starting a
+business you're turning this wheel and at the start every time you turn it might take
+like a year to turn it cuz it's really hard because you don't have any previous work but
+then every time you turn it gets a little bit easier and easier and easier and so a
+
+[00:15:48]
+good idea for a business is to understand what what are the steps on that wheel that you
+can impact and then how can you get it to turn faster and faster and then ultimately if
+it's turning fast enough you can step back and it will keep going. So this is what Jeff
+essentially has done at Amazon. And so I have tried to create this but for fame and I'll
+just quickly talk through the flywheel of only five steps. So step one acquire clients
+cheaply because if we're acquiring clients expensively then that's obviously going to
+push us to increase prices which is going to increase the difference between the amount
+we charge and the value we deliver. So I'll talk more about that in a second. Now the
+other point about the flywheel is that in order for a flywheel to actually work each
+step has to be like inevitable based on the next one. So if we acquire clients cheaply
+the the next step we have to do is to hire and train great values aligned people and if
+we do that well then our service the fame service is going to improve. That's the third
+step. If we improve the service because we've got clients and we've acquired them
+cheaply and we've acquired and trained great design people then the next thing that will
+happen from an improved service is we have happy clients. Then if we have happy
+
+[00:16:51]
+clients, that means we're going to get more of four things. So more referrals as we were
+just discussing, more case studies, which helps with the sales process and brings down
+acquisition cost, more word of mouth obviously, which will bring down acquisition cost
+and more virality through the methods that we have discussed today. And then obviously
+the output of that is acquire cloud cheaply and then it goes around again and again. So
+those are the five steps that if we're looking to improve the business that we know that
+we have to try and improve one of those five things. So in terms of like acquiring
+clients cheaply has a subjectivity to it, right? Like and you don't have to share it,
+but like do you have a specific number where like this is a client that was cheap to
+acquire versus expensive to acquire or is your system set up in such a way you don't
+talk to clients that are expensive to acquire? >> Yeah, good question and very relevant
+recently. So I'm happy to share our top four acquisition channels which is roughly 85%
+of all customers. The first two is Google, organic and paid. Third is partnerships and
+then fourth is my LinkedIn and podcast. Now in the partnerships one, this is very
+relevant and topical recently. If we think about the cost of partnerships, it's like the
+cost of running the program which is really just one person like finding partners and
+keeping them engaged. So pretty relatively low. But then
+
+[00:17:54]
+obviously we pay out to partners. We used to pay 100% of the first month of revenue. And
+so this would be between two and $4,000 per customer. And we're shooting for like 2,000
+basically, but we're kind of happy or or we're really just testing that to see if that
+would get us more referrals. And it did. But then what happened is we had one customer
+that came in that maybe wasn't the right customer to accept. only stayed with us for
+like 3 months and we paid the one month. And so really if we ran all the numbers we
+probably didn't make any money on that customer and so that customer was too expensive
+to acquire and so since then we have just reduced the partnership commission to 50% of
+the first month to kind of control that. So we're probably getting a few less referrals
+now but we can be quite confident that they're going to be cheap enough. >> Did you
+consider paying out the referral fee over time as opposed to in one lump sum and why did
+you decide against that? Cuz it looks like you did consider it. Yeah, it was more just
+simplicity, but you're totally right. Like we actually used to have 10% per month, but
+we we're trying to juice it and make a bit more incentive, but yeah, that would like
+eradicate the risk of the low lifetime value. I'll quickly cover how we reduce
+
+[00:18:58]
+cost in the other three growth program. We call them growth programs. My LinkedIn and
+podcast. Obviously, the podcast is cheap to run because we just run that in house and we
+have uh the system. >> You got a couple people there that know how to do podcasts. >>
+Yeah, exactly. We have a couple. And then my LinkedIn, I guess it is cheap for the
+business because just I do 100% of the work. So it could be cheap or expensive depending
+on how you look at it. So like no real significant cost for either of those. We we pay
+for the team to run my show, but that's because we've honed that down over time. Google
+organic, we've already discussed this, right? Like we got the backlink from IBM because
+we have fame host. Now that's strong. Like a backlink to the homepage would be a lot
+better than backlink to this like random episode page, but we're trying to like do the
+structure to still get the value. And so I think we've been quite good at building SEO
+which is like a big part of how we can rank highly and therefore acquire clients
+cheaply. And then finally Google ads our approach for Google ads is only I don't know
+how much you guys know about Google ads but we only bid on like they have intent not
+just for a podcast but for a podcast provider service company agency and we only use
+exact match. So first terms
+
+[00:20:02]
+like B2B podcast agency or podcast production company like very focused on exact match.
+So we're not wasting money on terms like how do I start a podcast. So those are the ways
+that we focus our energy on acquisition channels. Gotcha. So I want to step back for
+just a second because you had mentioned something about a recent client or a client that
+you said was not the right customer to accept and this is something that Justin and I
+can attest to but you know just dealing in the service industry. One, it's sometimes
+challenging to assess whether that customer is right at the outset. And so I'm curious
+how you go about that. And then two, how do you let them know that perhaps this is not
+the best fit for them organizationally so that you can amicably kind of part ways? >> I
+think on the first question there's like quantitive and qualitative, right? There's like
+during the sales process, do you get a good feeling? And I a massive criminal of like
+getting a bad feeling, but because I wanted the revenue or like we didn't have enough
+clients, then I would go for it. And so the only way you learn that is if you guys are
+nodding is like through experience. And so now by like year four or five, I can be like,
+"Okay, we're not we're not going to have this person." So we actually did a great
+analysis a few
+
+[00:21:05]
+months ago of just looking at all of the chunk clients from all time and whether they
+were on persona. And so on persona for us now has changed because of that analysis. We
+essentially saw that any company with less than I think 25 employees typically had a
+lower number month with us by like 20 to 30%. And so now we just changed this criteria
+in order to try and accept the company for slightly bigger. And the main reason for that
+is because smaller companies are typically just higher risk and half of our churn we
+call uncontrollable eg we don't really have an impact on it and company going bust
+basically. So we're hoping that's going to have an impact that change was made recently.
+So that's like a quantitive analysis of historic churn but then there is the qualitative
+like feeling which I would if anybody's listening I would like urge people to go with
+that more than than ignore it. Uh that's a big lesson I've had. >> I give that 100%.
+Final point I didn't answer was how to let them know. This literally happened today
+where there was a customer that was a nightmare and then we agreed to finish on this
+day. We just about finished. And then today they were
+
+[00:22:07]
+like, oh actually we've really been enjoying working with you for the past month. Can we
+continue work together? And actually it was the head of account management was like I
+don't think we should do this. I was like I'll leave it with you. You can decide and you
+can do the communication. So I haven't actually reviewed what she sent but I'm sure it
+was great. But yeah, I don't have a good answer to that. Maybe you guys can share. Yeah,
+we end up in a little bit of a sticky situation because a lot of times we have customers
+that are dependent upon us because we know the software or we have access to things. So
+we have a it's very important for us to be proper stewards of the trust that was put in
+us initially even if the relationship isn't working out and the client's unhappy. So
+even if things are really ugly, we have to cooperate for a period of time because the
+customer needs things that we have and we need to do the right thing by our customers.
+But I typically try to use kind of vague language like this decision has been made and
+it's not working out from our perspective and if people want really solid feedback as to
+why they're an awful client, I usually have a couple emails or things I can refer them
+to. It's like so we don't typically talk to other human beings like this and that's why
+we're not working with you anymore. >> Well, do I'm just going to get the actual email
+that was sent today and we'll see if it was as good as that. >> Oh,
+
+[00:23:11]
+real inside baseball now. >> Yeah. So the the response is basically like the head of
+account management saying to them, I've spoken with the team and we essentially want to
+stick with what we already agreed when we agreed not to work together a couple of months
+back. We're happy to continue supporting you with the work that we're currently doing.
+Sorry if this isn't what you're hoping to hear, but we hope it is clear and aligns with
+what was previously agreed. I don't think it was as good as your one, was it? We all
+have different approaches that we take, too. the you know we've got an outstanding
+project manager who knows the clients better probably than anybody just by virtue of
+being project manager and so we can always bounce things off of him of you know how do
+you think that something like this is going to be taken and then we can tweak and tune
+from there Justin's always awesome with just bringing the facts it's like here's where
+we're at and I have a tendency to be much more touchyfey but we all have our approaches
+and and we've all seen some success with that but at the end of the day it still comes
+back to the assessment of why this was not a good fit and how do we address that as an
+organization and move forward and either not repeat that or if it does show back up
+again addressing it better.
+
+[00:24:14]
+>> We don't have that come up a whole lot though. I'd be curious to know where it pops
+up in your business. But in our business, it's kind of usually two categories. One of
+which is that the customer can't really afford to work with a team at our scale and
+quality and with our business model. And that's not saying anything bad about them. They
+just they need to find a cheaper solution. And that's okay. It's we're not inexpensive
+and that it is what it is. Uh the other typical kind of problem we have with clients is
+like basic human decency stuff like people being really awful to Aaron which makes me
+angry and then I get very protective of my team. And so that's the other reason we've
+cut people loose is just like hey life's too short to work with people who want to treat
+other people like this and we just won't do it. So I guess what are some of the reasons
+other than the unsalvageable clients clients who've turned for fame. We had this rule on
+like strikes because the some cases are like clearly this person is being rude and so
+that would almost be like a maybe one strike and then out. But then there are also
+clients that maybe had this where they're not like directly being rude but they're just
+almost unpleasant to work with. So it isn't just like an ethical thing. I don't think
+it's actually a good business decision to try and get rid of them because for us again
+like we
+
+[00:25:17]
+talked about retention the same applies to us for employee retention. >> Yes. And yes,
+losing a team member can often have a bigger impact than losing a client. And so if the
+team member isn't happy, then we'll try to look to replace them, even bring someone else
+who maybe is better suited to the client before sending the email to essentially get rid
+of them. What we have done recently, which you guys might find interesting, is in the
+sales process, as well as assessing whether we think they're going to be a good
+customer, is trying to understand more about the person we're going to work with if
+we're interfacing with that person in the sales process. because then we can try and
+match them whether it's energetically, interest wise, tonality with the right account
+manager who's going to work with them. And so again, this is a recent change or a recent
+initiative. But I'm hoping then it almost feels more seamless for the client and the
+account manager when they're working together, which would mean we'd have less of these
+people issues. Yeah. You actually have teetered into something that I want to explore
+just a little bit too. So you're talking about growth strategies and product
+development, but you've also gotten into your team internally and your culture and how
+that works. But as an international company, you know, you have international markets
+and there is nuance to that both for your clients but
+
+[00:26:22]
+also for the people who are going to be interacting with them. And I'm just kind of
+curious how you manage not only internally your team and and where to position them and
+how to position them internationally, but also how you educate them or what they bring
+in terms of dealing with the cultural differences or the marketing nuances of where they
+actually are and who they're servicing. >> Yeah. So we made the the vision early on that
+culturally we thought it would would be better for like core parts of the team to be in
+one at least country because there are obviously cultural similarities between people
+within the same country. So we have I think 30% of the team in the UK and 40% of the
+team in the Philippines. And so that's great for us internally, but then with the
+majority of our clients being in the US, then the majority of the dynamics between
+client and account manager or client and team member is US to UK. And so this is
+actually probably a great opportunity for like training is if we could have someone
+internally run it if we had an American person, but I don't think we do. Maybe an
+external person who's American that understands the
+
+[00:27:24]
+culture could just like come and explain to us just more about how American people
+think. That's actually a really good idea. I should uh explore this because it's
+probably something that we could improve on if we haven't done it before. Happy to be
+guinea pigs for that if if you need somebody. So I want to get a little bit now into
+kind of approach. Obviously a lot of what we're talking about here is viral for lack of
+a better way of putting it, but it's very network oriented. You know, the larger your
+net, the more you're going to be able to bring back in. We're spending a lot of time
+talking about content and awareness and things like that and I'm curious if or how those
+tie to business outcomes for the people that you work with. I know that you have a
+diverse set of of businesses that you work with particularly in the podcast space
+because obviously that's that's where we come in. But do you become kind of experts in
+in their spaces or in their field so that you can better engage with them or or how do
+you metric, you know, the business outcomes that you're trying to achieve for your
+clients and then tie those solutions? If we have high employee retention then two things
+happen. First is that the service and podcast knowledge of the team increases. The
+second thing happens is
+
+[00:28:27]
+that there's quite a lot of repeat industries that we get. Most podcasts sit in a
+similar space. And so what that means is that we can often match account managers with a
+client that has a similar topic. For example like this show there's like tech but also a
+bit of marketing etc. And so we can bring on a marketing or a tech. So that's the step
+one. And obviously what we're really doing like if we take an episode the technical
+expertise is in the episode the main value we bring is how do we take the information
+and format it in a way that a good podcast episode and so that actually we don't
+necessarily need for that part a lot of the technical expertise. So that's the first
+step but then the second step is if we do have the industry knowledge we can often
+produce a better episode. So like the foundation is the podcast knowledge. Second is the
+industry specific knowledge. So that's how we like to produce a good podcast in terms of
+how people make money from the podcast. I learned this when I was doing content
+marketing in our decade of online marketing is that it's a long game. And so if in the
+short term we can try and gain some kind of benefit from the content production and then
+that enables us to reinvest to get to the real holy
+
+[00:29:30]
+grail which is your ideal buyers knowing, liking and trusting you before they come to
+buy. So that's the holy grail but it takes a long time especially with podcasting. And
+so then the question is how on the route to building that audience that knows like and
+trusts us can we get some kind of ROI some kind of business benefit and I discovered
+this when I ran the first podcast for I within the decade of trying and failing I worked
+for a B2 SAS company as head of demand generation we started a podcast and the 11th
+guest was the VP of sales it was a sales ops podcast 11th guest was the VP of sales also
+intercom he came on the show randomly got chatting with our CEO and then bought our
+software for the whole of intercom sales team. So that basically at that point paid for
+the podcast like nine times over. So the business now said they'd love the podcast, gave
+us more money to improve production value, increase release frequency, and that enabled
+them to grow the audience, which was the real benefit. And so it's the long way of
+saying short-term how can we get an ROI from the guests, whether that's them becoming
+customers, them becoming partners. So that convinces the finance person or the CEO or
+even the host who like wants to know that their work is
+
+[00:30:34]
+having a business impact to keep investing in the show over 6 months 12 months to build
+audience. >> Gotcha. So now looking outward because you have worked with so many
+different businesses and organizations who are getting into podcast for whatever reason
+you know whether that's marketing or just to enter into the knowledge space or they're
+looking to you know gain some sort of traction or whatever. I suspect that over the
+course of these different businesses and the different podcasts, you've probably seen
+successes and failures of their actual SAS, not so much the podcast, but of the SAS
+itself. So, I'm curious what you see as like the primary markers of those successes or
+failures of the application, less so the podcast. So I'm not sure if this is going to
+answer the question, but I think the most powerful lesson that I've learned from like
+working inside a client's business actually helped them with their podcast was a big
+company called High Radius, massive SAS company based out of India, I think like
+thousand of employees. The podcast was with the CEO. So we'd have quite a lot of
+meetings without the CEO and the meetings were good. All the people were really
+intelligent and like once a month we'd have a meeting with the CEO. And
+
+[00:31:37]
+what I found very impressive and fascinating was that almost any question that was put
+to the CEO, he wouldn't answer, but he'd give the company value that it would relate to
+and push it back to someone else in their team. And so he was just like almost he was
+just like pushing back and then forcing the team to decide based on the company's values
+that they had like four values. So that for me was like, wow, for a company that's so
+big like thousands of people, the CEO at least really like lives by these values. That
+was pretty impressive to me and I'm sure their company is doing very well financially.
+So that's one like positive thing I've seen. It's like basically living to values the
+highest level. Negative wise, it's almost like a marketing almost like a life ethos.
+Like remember we said that the holy grail is to build the audience for people that know,
+like, and trust you. that when they need the service or they need the software, they
+come to you. In order to do that, you have to delay you getting value. And so some
+clients are like, we need to talk about
+
+[00:32:39]
+this client case study we did in this podcast episode that just talks about our product.
+But then like only a very tiny group of people, the people that are basically about to
+buy care about that. And so the the clients where I've seen it not go so well is that
+they haven't understood that actually we have to gain these people's trust over time. We
+have to entertain them or we have to add value. And we do that by not talking about
+product service by talking about things that interest them. So that's one other thing
+that I've seen that is probably correlated with a SAS dying or or growing. >> I love
+hearing you say that. I'm uh banging that drum all the time with our podcast and our
+internal discussions which is like hey this is not a thinly veiled advertisement for our
+services. This is you know real content we want to put out there. We want to have real
+discussions with real people. So love that. >> Exactly. Right. And not only longer term
+it's going to be better for the business but it actually like feels good. you know, you
+like you created the content or after someone comes to you on LinkedIn and say, "I
+enjoyed the episode." It's like it's like a good feeling. It's like a good thing for the
+world. >> Yeah. We feel like we do a number of things right and in the space that we're
+in and we have a lot of experience. I mean, cumulatively, it's it's, you know, decades
+of experience and it just felt
+
+[00:33:42]
+like it's a good time. Let's put some knowledge out there and and just kind of get in
+the space. >> We had a guest show up on a recent episode and make a comment about how we
+hate JavaScript, which is not completely inaccurate, but it's also like I didn't even
+realize I had put that out there, but like someone knew of something about me before.
+that like shows that people are thinking about you when like you don't even know who
+they are. You do obviously when they became a guest. So that's like we're on the road to
+getting people to know, like, and trust us. >> I have one question. We sometimes have
+folks show up with an app idea or they think it'd be cool to do a software. And
+sometimes they show up with money and not really much of an idea or certainly not like a
+cogent top to bottom plan for how they're going to execute this rough idea of a
+business. I imagine you guys probably also see that a lot where someone has the idea
+like it'd be cool to have a podcast and they come in the front door and need a lot of
+guidance on like what would you talk about and what would a format be. So do you have in
+your playbook like a way to kind of coach people through that or how does that process
+develop with with your team and someone engages with you? >> Yes, throughout the launch
+process we have the what we call the podcast positioning process which is actually like
+a very high leverage success lever for the rest of the show. Like if we get
+
+[00:34:45]
+the name and like the brand identity and the ethos of the show right, then everything
+else is easier. And so even if someone has an idea, we like to filter it through this
+methodology because our job is just going to be so much easier if we get that right. And
+then yet often I would say the majority of hosts are open for coaching or at least they
+say they are and they they take the coaching. I don't know if they they do anything
+about it, but we'll see about this Aaron tomorrow. >> Yeah, present company excluded.
+But uh >> so I would say that there's probably two things people need help with. It's
+it's the positioning and we like to do that for all of them. And then we also offer
+coaching and it's also almost always accepted but whether it's is acted upon is another
+question. Well Tom it has been an absolute pleasure and thank you so much for sharing
+your time and your talents and your insights. We have been talking with Tom Hunt founder
+and CEO of Fame. Tom where and how can people reach you? >> Yeah I thought you mentioned
+podcast Confessions of a B2B entrepreneur and then LinkedIn Tom Hunt and also feel free
+to just email me to Tomfame.io if you have any podcast related questions. >> Fantastic.
+and Justin, as always, fun time, my friend. Special thanks as always to our listeners as
+well. If you
+
+[00:35:47]
+like what you're hearing, have ideas for the show, or just want to tell us what's on
+your mind, throw a review our way, hit subscribe if you are so inclined, and we will see
+you all next time on SAS that app. Thanks for cruising along with us on SAS that app. We
+hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

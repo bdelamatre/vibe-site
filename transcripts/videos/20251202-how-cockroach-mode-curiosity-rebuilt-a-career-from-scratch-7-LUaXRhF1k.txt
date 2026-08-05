@@ -1,0 +1,888 @@
+How Cockroach Mode + Curiosity Rebuilt a Career from Scratch
+============================================================
+
+Video ID:  7-LUaXRhF1k
+URL:       https://www.youtube.com/watch?v=7-LUaXRhF1k
+Published: 2025-12-02
+Duration:  00:54:54
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+You're the average [music] of the five people that you spend the most time with. All
+right, this is a fundamental truth. [music] Now, we have five people that we spend time
+with, but we don't look at it through the lens of talent stacking, and we don't look at
+it ordinarily [music] through the lens of what do we want to do with the next chapter.
+These five people can be rotated over time. You don't have to tell them. You don't have
+to break up with them. I'm just saying whenever you want to get closer to someone else,
+you've decided that your identity is going to change. You're going to need to change
+your structure of where you're getting information from to move yourself to a different
+place. >> Welcome to SAS that app. Building B2B web applications, the podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech enabled business. I am your co-host, Aaron Marchbanks,
+and I'm Justin Edwards. Each week we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. Hey everyone, welcome back to SAS that app. It's Justin here. Today we've got a real
+treat for you. Our guest is a pretty big
+
+[00:01:03]
+celebrity in a very niche, very dedicated space, and I'm genuinely honored to have him
+on the show. Unfortunately, my co-pilot Aaron is out on adventure this week and
+hopefully I can keep this thing from going the ditch while he is out. Our guest today is
+Jonathan Mendanza. He's the co-founder of Choose Fi, a show that has millions of
+downloads, hundreds of local groups around the globe and has changed the way an entire
+generation thinks about money, freedom, and lifestyle design. Jonathan has lived through
+multiple pivots starting in pharmacy, Choose FI, Talent Stacker, and now he's a self-
+taught developer who's built a platform used by thousands and thousands of people.
+Jonathan, welcome to the pod. >> Hey Justin, thanks for having me. Excited to be here.
+>> Yeah. Well, to start off, can you let people know a little bit about your journey
+maybe starting in pharmacy into Choose FI and just give a little bit of your background?
+>> Yeah. Okay. So I was classically trained as a pharmacist. For all intents and
+purposes, what that means is that I spent four years of undergrad. Then you got four
+years of pharmacy school and then you come out and finally you're able to do the thing
+that you've been training for and you also have $160,000 of debt. You know, just a
+little rounding error. So if after about a week or two you realize that this job is
+
+[00:02:07]
+terrible, then you're faced with a series of regrets about the last eight years and also
+the next eight years that it's going to take to pay off this student loan to get back to
+broke. There's something to be said for being broke and not 160k in debt. Anyways, all
+that being said, I'm an unlikely person to be able to speak to financial independence.
+And I hope for those of you out there that are maybe have this idea of where you want to
+be in the future, that's encouraging because today is the first day of the rest of your
+life, right? I'm going to fill this show with a lot of platitudes, but these are
+platitudes that speak to my soul and I think they're actionable. And I want to just walk
+you through my story and incorporate them and how like there's many ideas that I've
+tried and tested over time, but there's some big ideas that have stayed with me. And so
+really what got me here, the first step was if I want options and I think most of us can
+identify with the idea of wanting options, I have got to get this debt out of my life.
+It is very difficult to pivot with debt hanging over your head
+
+[00:03:10]
+because you have an obligation to pay off that debt. And that is basically what the
+system at least here in the United States creates for us. By the time that you have
+experience and you now are in a place where you actually know what you want, you don't
+have options because your options are all tied to a debt burden that you signed up for
+unwittingly, unknowingly, you know, etc. Woe is me. That's fine. But the reality is
+today's the first day of the rest of your life. And really the point that I would want
+to communicate time, not money, time is your most precious resource. Okay, that is the
+underpinnings of financial independence is this rep prioritization or recognizing yolo.
+Sure. Sure. But time is your most precious resource. So in light of that, we can argue
+and quibble about the second most precious. And really the key here is not that it's
+precious, but that it's nonrenewable, right? Precious, nonrenewable resources, your
+time. You've got a finite amount. I don't care what crazy tactics a
+
+[00:04:13]
+billionaire is using to live forever. He's got a finite amount of time or she. In this
+context, how should you use another precious resource that is potentially renewable,
+your energy? I would suggest with this vin diagram of benefits in mind that we use the
+time that we have and the energy that we have to create a system to free up more of our
+future time and rejuvenate ourselves in the process. Vicky Robin became famous or
+infamous for the phrase, "Are you making a living or are you making a dying?" All right,
+on the traditional career-based system, your entire validation came from, "Am I moving
+up this corporate ladder?" But if at the same time you're getting more depressed, you're
+getting more weighed down, if it's not lighting you up, you can pivot at any point in
+time, right? I mean, maybe not the next day, but you can start making moves to free up
+more of your time. I think we're speaking to a developer community here. You know that
+there are smarter systems. You know that
+
+[00:05:17]
+throughout your day there's a pattern of things and you understand and appreciate
+intuitively that the more you recognize the pattern, the more you can automate the
+pattern and you can reclaim your time. I think that there's a beautiful analog between
+programmers and hackers and the financial independence community just because
+programmers are optimizers that spend all day trying to be a little bit cleaner, a
+little bit better, and that just kind of if you apply that to your lifestyle and your
+your money and your time, it's the same basic behavior. You're just using this
+optimizing and iterating approach over and over. I think it's an interesting insight. >>
+I think you're right. Yeah, I think you've nailed something and I think it was even the
+trend that we noticed. Financial independence. You've maybe talked about it on your show
+up to SW. Maybe people have some idea, but I know it's been a big part of your life.
+you've achieved it in your own way. Financial independence is the idea that you no
+longer need to work for money. Now, this is a huge distinction between the idea that you
+don't work or that you never work. It's just that money no longer has to be your primary
+motivator. And I think, wow, you know how freeing it is to work 40 or 60 hours a week
+
+[00:06:20]
+because you want to instead of because you have to. How does that change what you put
+your energy into? All right. How does that change? You know, you no longer have to do
+the thing that drives the ROI that drives the R. Unless you've made a personal decision
+that that's the place that you want to live and it lights you up. You've discovered your
+board game and your board game is now this puzzle and you're solving it and the current
+metric or KPI that you're focused on is ROI. Conversely, and I'm kind of working through
+my this is how I think through life. I think the other thing is people say, you know,
+people that want to be interested in personal finance or people that want, you know,
+they have to be frugal by nature. They have to be budgeters. They have to be No, I would
+not call myself a frugal person by nature. I would prefer to spend money versus not
+spend money. But I do think about the cost. You know, I graduated high school and I
+wanted the truck. They didn't have the Cybert trucks at the time, but the door still
+stayed on, so they had that going for them. So, [laughter] so anyways, wanted the truck,
+but I even
+
+[00:07:24]
+then, and I missed it with the student loan debt, so you get some things right. We don't
+get everything right, but even then, I didn't want to spend the next 5 years of my life
+just trying to get the truck paid off, right? You're back in a loop when stuff absorbs
+all of your economic output. You've lost the forest for the trees because you're not
+renewing your time. So people that aren't frugal but still think through a somewhat
+midterm to long-term mindset says the stuff's going to be waiting for me later. They can
+do the stuff later. But when it's a rounding error, when it doesn't affect my timeline
+to get back my most precious non-renewable resource, my time. So obviously frugal people
+have an advantage because it comes naturally. But those of us that like and prefer to
+spend money but are motivated by understanding that your most precious non-renewable
+resource is your time. People that are choosing not to spend their money are have an
+inherent advantage of reclaiming your most precious resource, your most precious asset.
+They have more time. Well, we can practice something called delayed
+
+[00:08:27]
+gratification. I'll see you later, you know. And now I do have my 2-year-old new to me
+premium truck at the age of 40. But it didn't cost me anything in terms of my net worth.
+It didn't cost me anything in terms of my payment plan. It didn't cost me anything
+because I waited until I'd saw my financial picture. >> Yeah. I love that quote from I
+think it's the Millionaire Next Door. It may have been the redo of that book, but one of
+those two Dr. Stanley books basically says the difference between wealthy people and
+unwealthly people is people who are ironers only buy expensive things in anticipation of
+becoming rich. And wealthy people buy expensive things after they're rich. >> Yeah. If
+you want to be rich, you need to look rich. I don't know if that's exactly how it works.
+>> No, not so much. So, take me back to You have $160,000 in student loan debt. Are you
+gutting it out in pharmacy then or? >> Yeah. Yeah. So, I'm gutting it out in pharmacy.
+This isn't even the boring middle. I wish I was at the boring middle. This is the get
+back to broke stage. All right. And this is paying for mistakes. So, if you've got heavy
+debt, you're going to have to come up with a plan. There's no one way, right? But you
+
+[00:09:30]
+need to just be honest with yourself. Map it out on paper and organize your debts by
+interest rate and figure out all right is my plan. Grind it out and pay off the minimum
+over the years, right? I have some sort of forgiveness plan. Whatever. There's no dogma
+about the path here. But you do have to make a choice or else the choice is made for you
+and you won't like the outcome. With it all the debt mapped out together, you say, "All
+right, what's the plan here? Is it aggressively pay it off and then start the next
+chapter?" For me it was for me it was my own version of extreme frugality whatever that
+means to individuals but my own version of cutting cost. I was newly married no kids at
+this particular point in time. By the way as your life gets more complex it gets harder
+to do. So these moments of austerity chosen austerity in our lives are admittedly much
+easier when there's less other people that are affected by them. I remember this funny
+story of me going gang busters on the frugality for a month there and checking like the
+electricity on the outlets. I think I saw a Money Mustache article where he had talked
+about runaway
+
+[00:10:32]
+electricity or something like that. So I remember at one time trying to get the vampire
+electricity. All the outlets are off. Where's the electricity going? Wait, the
+refrigerator's on. What else is that? My wife, I was just like dripping sweat. I'm
+dripping sweat. She's like, I'm going to divorce you. Like like we are not in a good
+place. You need to move on from this. I moved on. You know, you got to pick your
+battles. >> I don't know. I think your wife is right there because you can't shrink your
+way into greatness. And at some point, like you get your electric bill down to zero. You
+don't That doesn't fix everything. You know, fix everything. >> Cool. You optimize the
+hell out of that, but you >> Yeah, we can switch back and forth. You know, it's 8020,
+right? It's parados. So, you need to figure out what the big levers are that you have
+control over, right? And start on those first. It's not that you can't do the other
+stuff, but if there's an elephant in the room, you we probably want to focus on that
+first. But I do like the idea of just stepping on the scale, right? Let's get all the
+I'm not talking about a budget here, but let's get all the expenses mapped out and see
+what our life costs and where our money flow goes. You can pretty quickly identify if
+this is an expenses problem or an income problem. All right? And both of those have
+
+[00:11:35]
+different directions. Now, we could do a financial independence tactical thing, but I
+suspect for your audience, the greater benefit here would be just saying identifying
+that and moving on to some of these other principles that we're going to go to. But
+needless to say, I paid down the debt over a relatively short period of time, about 4
+years. >> 160 grand in 4 years, >> I think. So, yeah. I mean, if you think about that, I
+had my life at the time, this is 2012, expenses. Had my life as a newlywed couple down
+to about 40k, something like that. Got a starter house. It wasn't super expensive. I do
+feel for those that are purchasing a house in 2025 with the interest rates and the
+increased prices. But this is just the numbers that we had in Virginia about 40 45K and
+we were making maybe between two incomes no kids right maybe 160 at the time let's
+somewhere in that range you could see how after tax you were able to put away about 40
+or 50k a year and we were just doing the match on the employer side very little
+additional else get it ground out now at the same time what's amazing about
+entrepreneurship and in particular we're talking to a developer community is you guys
+realize how little it costs to do
+
+[00:12:38]
+what we are doing. All right. So the next ethos, the next thing that I want to what I
+want to talk about here is talent stacking. All right, this was coined I believe by
+Scott Adams. It was just a quick line in a book that he dropped. I don't think you spend
+a ton of time building it out, but it was this idea that to talent stack is this idea
+that yes, it's great to be the best in the world at anything, but you really don't have
+to be. If you're just like in the top 20% of a variety of things, you can start making
+connections that other people just simply aren't making. All right, I don't know how far
+you went with that, but I made that my personal identity. I can learn anything. Now, for
+contrast, think about this. I just spent eight years in pharmacy school and I was fixing
+printers and filling in for technicians when they didn't show up and calling insurance
+companies to sort prior authorizations on medications. This was a pretty meaningless
+existence compared to the 8 years of school that I had just come out, right? I was
+working in retail pharmacy. Not fun. You don't
+
+[00:13:42]
+see any happy pharmacist out there. They don't exist or at least they don't exist on the
+retail side. They know. I'm not blowing their cover. They know. try to find someone that
+looks happy inside of a pharmacy and then give them a drug test. Now, outside of retail,
+all hands are off. There's a lot of really cool other opportunities out there, but
+retail has just been gutted down to nothing. All right. So, I have nothing to show after
+walking away from pharmacy, nothing to show for that education. So, in terms of did that
+add to my talent stack, nothing. All right. Yeah. You want to know what the dosing is
+and the maximum dosing is on Tylenol and over a couple products and you want to know
+what over- the-counter product to get. Okay, sure. >> Yeah. Well, look, you have to be
+smart to do that. So, you put in your brain reps. >> Sure. But for our purposes in the
+talent stacking, let's just be hyperbolic, right? Nothing. All right. Let's stay in the
+hyperbolic lane. So, with that in mind, nothing to show for. And I'm a little bit
+actually I am. I'm angry about it because again, time is your most precious resource.
+Now, this should be encouraging to someone that
+
+[00:14:44]
+identifies with that and like I spent all this time in undergrad and then I spent all
+this time in this first four years and I got nothing. Maybe you did. Like if you want to
+go back the other way, you could probably make a list of things that happened,
+connections that were made, experience that was gained, how it allowed you to get your
+current job. I used it to build my backstory for what we're talking about now. So, have
+I gotten mileage out of? Absolutely. I could redeem all of these, right? It could be the
+fuel that fires you into the next thing. But when we're talking about talent stacking in
+this context, we're talking about incremental building of skills that allow you to see
+things that other people aren't seeing. And the great thing is I tend to agree with this
+statement. There is nothing new under the sun. But at the same time, when you start
+making connections that other people are making, you start looking around at patterns.
+You start to see a solution to a problem over here that in some way has been solved by
+another entity in another space over here, but it hasn't been applied here. and you say,
+"I wonder what it would look like to be able to do that." And that's kind of the idea is
+when I start getting into something, money doesn't have to be the ROI because money can
+be a long-term
+
+[00:15:48]
+thing, right? Because again, it's not this rushing urgency. I'm not trying to figure out
+how to pay more. So, it allows me to spend time creatively looking at a smaller idea and
+a solution with this, yeah, kind of feeling over my shoulder of all right, well, how
+might that be useful later? I have this. If you're developers, you can kind of
+appreciate this. Maybe you have this little repo over here where you put this little
+project together and you're not sure how you're going to use it yet, but you're kind of
+glad you have it. And the next time you're over here, you're starting on a new project.
+I wonder if I could bring that in. I wonder if it's kind of the same idea, right? You're
+starting to make connections that other people aren't making. You're starting to bring
+your creativity. You're starting to look around and this is the next thing and this was
+now I'm doing this show. We're talking about this concept of financial independence and
+I'm serving this community highlighting again who wants to listen to my story. the guy
+that's like climbing his way out of debt and all of us have limiting beliefs about how
+we can't do xyz and Justin you're kind of experiencing this now except you have
+accomplished a lot with yours but at the same degree why not find the people that have
+and talk to them and this is my next how many have I said here time is your most
+
+[00:16:50]
+precious non-renewable resource we said that and then we talked about getting renewable
+energy the one and we talked about talent stacking these are truly these are my life
+philosophies now that I live by here's the next one and again I cannot claim credit for
+the origin of any of these. It just doesn't matter. This is my personal philosophy over
+time. Not competing with Confucious, but here we go. The next one is you're the average
+of the five people that you spend the most time with. All right, this is a fundamental
+truth. Now, we have five people that we spend time with, but we don't look at it through
+the lens of talent stacking, and we don't look at it ordinarily through the lens of what
+do we want to do with the next chapter. These five people can be rotated over time. You
+don't have to tell them. You don't have to break up with them. I'm just saying whenever
+you want to get closer to someone else, you've decided that your identity is going to
+change. Whether or not we're talking about fitness, whether or not we're talking about
+development, whether or not we're talking about whatever, you're going to need to change
+your structure of where you're getting information from to move yourself to a different
+place. Because fundamentally, if you don't have it now, it already
+
+[00:17:52]
+tells you that your current sphere of influence is never going to be able to feed that
+to you. Also, when you pick a new five, they by the way, the new five don't have to know
+that you've picked them. You can do it by listening to a podcast, right? That's a common
+thing is podcasting can speak to your soul and associate you and help you find your
+tribes in different areas that can then help you get closer and closer to speaking the
+lexicon to understand. So, like for instance, everybody in this community when I start
+talking about how we want to be dry and we want to be SRP and we need to think about
+object-oriented programming. All right, if I go say that to a fitness community, it
+means nothing. Maybe mostly if I say it to you. Yeah. Yep. Any project. Yep. Absolutely.
+Got stakes. Do you understand that's because you're part is? And yes, it's also because
+you've now done it and you understand the why. You understand without needing to be
+explained. But when you're entering into a community, you don't know that until you
+enter into the community. You have to enter into your community. So, you have to pick
+your communities of care. And you can always be rotating. What served you in 2020 and
+2021 won't necessarily be the thing that serves you
+
+[00:18:54]
+in 2026. We've just the world's changed for developers. It has fundamentally changed
+with AI. Absolutely. Nothing can be taken for granted. You know, and I realize maybe
+someone's listening this 5 years from now, three years from what? Who knows? Who knows
+what it actually means for us? But but right now, we've seen this massive pivot from
+junior engineers and syntax and clean typing and words per minute, ability to go find
+answers on Slack to now senior engineers that are very curious and are able to iterate
+quickly and quickly quickly. If you were skating by, not having questions, just doing
+things that you were told, you are going to be fundamentally undervalued and trickled
+out of the system, right? The curious and those that are making connections that others
+aren't making or who are going to survive and thrive and create multiples for themselves
+over the next decade. Absolutely. >> Preach. Absolutely. Yeah. I think that's one of the
+reasons I'm not worried about AI or worried about losing my job to AI is because like I
+will be at the forefront of this. Like this is my career. I do this all day every day
+like
+
+[00:19:56]
+>> and it's amazing. I mean through this lens you are limited now for the first time you
+are limited by your curiosity. You don't have questions. You're sitting there in a
+single day without a question. You have the entire lexicon of humanity's knowledge at
+your fingertips limited by 2,000 tokens. Right? [laughter] You don't have 14 hours of
+questions a day. Are you insane? >> You're either insane or the most boring person on
+earth. >> Right? So this is a chance like why don't I have questions? Why aren't there
+things that I want to know? Think about talent stack. Think about how now you have a
+question. By the way, if you have a question, your first question is not the question.
+You got to start there. You want to do it, but you need to realize that just because you
+know nothing about it, you need to have your first question should be broad enough to
+give you not the specific thing you think is going to be the answer and you're
+preloading it, but you need to create that first question in a way that gives you a
+breadth of ways that people attack. As a developer, you understand and appreciate
+there's no way to do any one thing. There might arguably be a best thing after a ton of
+iterations and
+
+[00:20:59]
+a ton of time, but it's so contextual that it's almost meaningless. There are probably
+multiple very competitive best ways to do something. Reddit and Facebook and Twitter all
+use different ways to achieve global dominance, right? Like there's not a one thing
+that's happening here. So with that in mind, if you go in with a question where you've
+already decided the outcome and you're trying to get yes for an answer, you're going to
+get it to your great detriment. >> Yes, absolutely. I really want to highlight that. And
+then I think as we learn to use these tools better, asking for the answer to a question,
+especially when it's something you don't know a whole lot about right now, is actually
+wrong. You should ask for a framework for how do I learn this or what are the things
+that I need to know in order to be in the top 10% of people who are doing whatever this
+is. >> And what you just described is talent stacking, right? What are the
+characteristics that put someone in the top 10%? What is the framework? How do I stay
+dry? How do I say? How do I do? And yeah, I understand that to some degree you guys know
+we just pivoted in how to create prompts, right? That's not actually the point. It's not
+the point. The point is a framework for life and success over the coming decades that is
+
+[00:22:04]
+going to reward the curious and is going to exile those with no questions. All right.
+Every day you get a chance to make yourself more practical, more useful. And you do that
+by pushing your own personal limits. And if you're forced to do it under the constraint
+of how do I pay my mortgage, how do I pay my whatever, you're going to be able to take
+less risk, right? You're it's going to force you into a more defensive posture if you
+can free up your time where not everything needs to be a slam dunk. Not everything needs
+to chase ROI. Look at all the people that chased ROI through SEO and are eating it right
+now. Just eating it, right? Like if you're just chasing RAI, you're forced to look at
+what are the best practices based on history over the last five years. And almost by
+precedent, by the time that you get it sorted and worked out, it's irrelevant. You need
+to be making connections that other people are making. >> And AI is moving faster than
+SEO is. And especially like right now, I don't know if it'll stay at this velocity
+forever. Probably not. But if you did a full analysis of AI tools and what they were
+capable of 6 months ago, you should throw that away and start again because it's just
+everything is so dramatically
+
+[00:23:08]
+different. And even now, we've already kind of done this mindset switch where it's like,
+is this before or after Chat GPT? And I had this with Daniel a couple days ago. He's a
+frequent guest on the show. And it's like, why was this so hard? And it's like, we
+didn't have an LLM when we were solving that problem. Like, oh yeah, there was a whole
+time like most of my life before we could just do this. And it's absolutely incredible.
+Anyway, sorry I interrupted you. >> No, that's good. It's useful. I monologue. I
+apologize, but I'm enthusiastic about the topic. So, that's why I said yes. I don't
+haven't done a lot of these interviews recently. I've been actually doing a lot of
+development and it's been pretty timeconuming but it takes a lot of time and it takes a
+lot of energy but it's a pretty cool feeling when on Friday or Saturday you're looking
+forward to Monday cuz you can get back in cuz that problem that's been needling at you
+when you had downtime inspiration struck. I played a lot of Tetris as a kid. A very
+specific one. I had Tetris Attack on the Super Nintendo. I don't think they folded it
+into the Switch 2 games Mario Party. I was trying to briefly look and see if it was
+there. I haven't seen it. Tetris Attack. Super
+
+[00:24:10]
+Nintendo. Greatest game ever made. I was incredible at it. I was gifted. I was a
+prodigy. I was set apart. There was no academy for it. Otherwise, maybe I would have
+done that instead. However, you know how you can start to see the pattern, right? You
+can start to anticipate what's going to happen. And it's not that you always have the
+perfect moves, but you have a set of moves set aside that are your go-tos and they're
+familiar and they're there and they're ready for you. That is what putting yourself in a
+position to be ready to problem solve looks like. That is what understanding this common
+language, understanding I think probably a lot of people get very fixated. What language
+are you using? What you're think you know the best language for you is the one that
+allows you to get the job done, right? Get the job done. I can tell you what I enjoy
+using and that's fine as an anecdote, but it's virtually irrelevant to you unless you're
+just doing this as an independent developer doing what you want. By and large, if you're
+working for a company, it's what is the company you want to use? What does the employer
+want to use? What is a consultancy firm using? But even that, Justin will tell you after
+having talked to me, [snorts] if you appreciate the principles and you're a curious
+person,
+
+[00:25:15]
+Justin knows if he needed to, he could pick up a new language in a month. And because of
+the nature of the way that LLMs are changing things, the curious are rewarded. The
+curious are the word. Senior engineers, it's very good for them to have an overarching
+appreciation of what the language can and can't do, but they don't need to know about
+the latest syntax. They have an appreciation for security. They have an appreciation for
+object orientation. They have an appreciation for the goals, and they can mirror and
+match what the tool set should be able to do reasonably and what their team can do and
+what the client wants. And you put it all together. You streamline the flow. >> We use
+this when we're interviewing, right? So it's just like does this person know what a
+closure is? Can this person grock like and understand what a closure is and how it
+works? If you can do that, I don't care what language it's in. You have to be able to
+understand control flow. You have to be I mean it's just a few things but they're >> So
+what you're speaking about is experience, right? So I want to this is my biggest
+complaint with the system right now. I escaped the traditional system and I found my own
+way. But the United States in particular is guilty in my mind of burying millions of
+kids
+
+[00:26:20]
+every single year in $100,000 of student loan debt. And they're graduating and they have
+no experience and frankly they have no skills and they also have had no practice
+interviewing. And so they get to the interview and they find out that they're in just
+the same shape as the high school GED graduate. maybe even worse because the high
+school's GED graduate was forced to have four years of some sort of experience. There is
+zero chance that your Phoenix University diploma or your degree in some random thing is
+going to give you an edge on if what we need like think about this. We're in a space
+where jobs are contracting. Every employer is now looking at patterns and is looking at
+what can we streamline and actually we're going to see it go the other way as well
+because small businesses have been given a massive lift a massive advantage with what's
+happening. It used to be that what we were talking about could only be achieved by mega
+corporations with unlimited funding that could bring on unlimited developers to do all
+these things. And what has just
+
+[00:27:23]
+happened is things have tightened and now suddenly these little startups are able to
+play at the same levels of the big dogs based on their ability to bring other things to
+play. So what does that mean? Well, it means they're excited and they're going to scale
+because you have to have a curious person to drive what's possible for a company. But in
+the meantime, all the jobs have to change. What was in middle management, what was in
+junior coding, what was here, it's shrinking as we realize we need to be positioned to
+be over here. V2.1 of this company, we have to be aggressive. We have opportunities
+we've never had. We have a shrinking window. We need killers that can go out here and
+put us on a new frontier cuz this ability, there's going to be a purge and there's going
+to be people on the other side, companies on the other side that have never had such
+visibility before. They're playing at the level with the unicorns. They're playing at
+the level and just no other world would that have been possible. So they're looking for
+a very specific type of person and it doesn't have to do with
+
+[00:28:24]
+Harvard. It doesn't have to do with Oxford. Doesn't have to do with Stanford. It doesn't
+have to do with Liberty. Doesn't have to do with Virginia Tech. It doesn't have to do
+with your alma mada. It has to do with your ability to be curious to communicate that
+curiosity and that killer motivation to get it done and go learn something that you
+don't know. They know you do not know the thing when you're getting your first job or
+your second job, but just like in this conversation, you can see my energy for realizing
+where this is headed and was possible. You know, just like, well, do you know React
+Native? Yep. No idea. Well, would you hire me? Yeah, probably. I could probably get a
+job at a company that just works with React Native just through this conversation. Why?
+Because it's not a facade. It's not fake. It's clear that you have an understanding,
+that you have experience, that you've already self-taught yourself something new, that
+you're seeing connections that aren't the people aren't making, and you can go get it.
+>> It's absolutely true. And one of the things I love too about the whole concept of the
+talent stack and this goes back to like learning theory and stuff, but everything that
+you learn, everything that you know is built off of something else and it all comes back
+to the physical world. But as you learn programming concepts, as you learn
+
+[00:29:27]
+technology and you see things, your surface area upon which you can glom on additional
+things just grows and grows and you keep getting more and more surface area >> and then
+you got to maintain the surface area. >> That's a separate issue. But as you start
+picking these things up, you learn them faster and it actually you move really quick and
+then you pick up a new language, you're like, "Oh, they do this this way." And when I
+pick up something that I'm not working with a lot, that's usually what I say on a daily
+basis like, "Oh, they're doing it this way or they've made this decision." And it's kind
+of like a contextualized thing >> when you can go look at what someone else has done and
+you kind of real, ooh, that's a cute cool connect. I hadn't thought about that, right?
+You can go look at any space and actually all I see now, and this comes to the next
+thing. This is the way that I think now, right? We're working through these things. This
+is my current thing that I'm running. Justin, knowing like I know you've been aware of
+some of the work that I've done over the last year, so you'll probably be able to see
+this and identify this pattern, but this big thing that I just say out loud all the time
+to myself and I just think through it. I journal about it. I don't journal the way my
+mom wanted me to. It's all forward looking, right? It's all like, ooh, but here's the
+phrase. Wouldn't it be cool if, right? My thing that I'm building right now in this next
+phase is I'm building
+
+[00:30:29]
+an ecosystem, right? I have an idea. I have a conversation that I want to foster. I have
+a community that I want to foster. I want to see something come to life. I'm building an
+ecosystem. And what lights me up is the idea that my ecosystem can take, wouldn't it be
+cool if based on this specific community, what this specific community wants, and turn
+that into a reality. >> Real quick, this episode is brought to you by Delta Systems,
+which is what Aaron and I do when we're not talking through microphones to you, the
+people of the internet. We've got a really, really great software team here and we love
+to work with cool people on cool projects. So, if that sounds like you and you've got a
+problem or you're in some kind of a jam, go to deltasystems.com, grab a time with us. We
+can beat up on your problem together and if there's a fit there, amazing. We'll help you
+out. So, deltasystems.com, grab an appointment and hey, maybe we can work together.
+Yeah. And so for anyone who isn't familiar with Jonathan and Brett and Choose Fi, they
+have a huge monstrous community full of people who are interested in financial
+independence, who are on the path, who are doing
+
+[00:31:31]
+lifestyle design, who are getting a little bit better each day. And this is his project
+he's working on now. He stepped back and he built this entire platform ecosystem, which
+is like a it's basically a social media platform. I mean, it's a social media platform
+of tools. It does a ton of stuff. So you step back, you taught yourself everything about
+programming and then launched a product into a community of thousands of people. the
+number of lessons that are available for people who will pay attention to them just in
+that whole act. So, a you're a nontechnical co-founder. Like, you don't have to be.
+Talent stack, you can pick the stuff up. There wasn't anything that I'm sure you looked
+in the market to see if there was a piece of technology that would do what you wanted
+and you got buckas. >> I didn't want to find the technology to do what I want. I wanted
+to do what I wanted, right? I want to do what I want. Here's the great thing. When
+you're on the path to financial independence, forget being there. Just put yourself in
+this M. You realize that due to high income, due to relatively low cost, due to a huge
+bonus you got, you're in a position where you could go 2 years without earning your
+income and you'd be just fine. Financial independence is not binary. It's not, oh,
+people that are five can do whatever they want and the
+
+[00:32:34]
+rest of us, we got to wait 15. There is a mathematical equation to figure out based on
+how much your life cost and how much your expenses are when you're going to hit
+financial and events. You're never going to have to work again for money. But long
+before you get there, you have space. You have margin. Right? If you have a year, 2
+years, the question is, could you walk away from whatever thing is taking your soul and
+is just crushing it every single day you show up? And could you take this new energy and
+could you lean into this idea and could you learn enough skills, get enough experience
+to either just do your own thing? Sure. And I understand that's scary, right? Conversely
+though, do enough things, fail a bunch privately. Like we know like anything that we
+have done that has worked is built on many many hours of failure. When something works
+the first time, it's almost scary. Like [clears throat] I don't know what just happened.
+This is >> what did I miss? >> This is very unusual. I should be very nervous. I'm going
+to pay for this later. All right. Well, let's ship it.
+
+[00:33:36]
+Anyways, so like fail a bunch. Understand it just as an exercise. Have an idea. Wouldn't
+it be cool if recognize the realistic version of that and just build it? Your language
+of choice. Just build it. Create confirmation for yourself that, oh, I can learn
+something new. Here's how I did it. Do you understand that single story is probably all
+you really need to get the next job? And not only that, but not just the next job, but
+basically your dream job. You're like, here's where I was. I was doing this. It didn't
+push me. I know where the future's headed. I can see the obvious. I was a widget on a
+widget line. It wasn't pushing my creativity. I realized I need to be on the forefront
+of this. I needed to upskill. I needed to transfer my skills. I wanted to be here. And
+I'm in my 30s and I'm like, you know what? All right. I've done the responsible thing.
+I've done the fiscally to respond. I've got some savings. Let me take the next two years
+and just self-educate. And I poured myself into podcasts like this. I learned ideas. I
+got inspiration. And I built it. And here's my repo of projects that I built. Here's the
+problems that
+
+[00:34:38]
+I've seen with. and here's what I would do next time. And I'm looking for a company that
+I can take this energy and put it into to help you guys get results and win in the
+process. I'm looking for something that lights me up. The new grads don't do this. They
+have no appreciation for this. They have no context for this. And employers don't hear
+this because everybody is nervous about what happens in the absence of the paycheck. >>
+And having a foundation, especially if you're have an entrepreneurial bent, which most
+of our listeners, you wouldn't be listening if you didn't have some kind of interest in
+it, let you swing for the fences, let you take a risk. You just talked about you
+couldn't have done any of this stuff if you were under 160 grand in debt and your first
+step was to pay that stuff off. Not sure if that was a limiting belief or not, but >>
+maybe a limiting belief possibly, but there's a continue. So there's no absolutes in
+anything, right? There is your personal belief which may or may hopefully it's right for
+you. That's the real thing. If you get the outcome, the question is in retrospect, does
+it matter? No, not really. I'm very happy with the choice that I made at the time that I
+made it. But there's the right path for you. And so, yeah, if you have the
+entrepreneurial bent, I mean, let me just put this in perspective. So, one of my things
+was, what am I paying for? What am I paying monthly for? Because
+
+[00:35:42]
+I've never really inspected how hard this would be to replace or to do myself. Whether
+it's podcast dynamic ad insertion, whether it's automatic podcast conscription, whether
+it's show outline generation, whether it's building a social media platform, whether
+it's hosting my own courses, whe you know, I had the luxury to some degree, and this is
+the wrong word to put it, but I had the luxury of with Choose FI and not being a coder,
+not having the ability to look at this stuff, I had the ability to see it the other way
+where you paid for everything. No idea how it worked, plenty of complaints, plenty of
+grievances when it was wrong, right? But you just paid because you needed it. The cool
+thing is through this lens, and again I agree with you, there's a clear point in time.
+It's not post clawed. It's not post GPT, right? PostGBT, everything should be inspected.
+Everything should be inspected. And I think the next thing we're coming to, I really
+wanted to coin this one myself, but you know how life is. You didn't actually say
+anything. Someone else always said it first. I was really hoping it was me, but I know
+it wasn't. Cockroach mode. I went ahead. I wanted to get I love it so much that I wanted
+to find out. It was actually Paul Graham, 2007. He wrote an essay called why start a
+startup in a bad economy.
+
+[00:36:46]
+Never read the article but I felt like for you know transparency I should tell you where
+it was. But the cockroach mode it appeals to my soul as well. And it's this idea that
+you know if you are a SAS founder especially if you're a solo crew building it from
+scratch. If you've got your expenses under control your actual costs are as close to
+zero as you could reasonably imagine. You can be cockroach mode. You get the luxury of
+spending your time to saying, "Wouldn't it be cool if finding the community that you're
+trying to serve and serving them with radical transparency and enthusiasm?" And we're
+moving now kind of into how I do development. And Justice has seen this. I fail very
+publicly. I ship live. I don't do a lot of testing. I let everybody know up front. I'm
+doing a lot of stuff in beta. And this is my talent stack happening in front of people.
+And yes, sometimes there's server errors. And Justin, I love your comments on that, but
+let me just contrast this. Here's the way it used to work and way it does work vast
+majority. And this is your advantage if you're in cockroach mode. Like I'm invincible in
+this context, right? Like in this context, my costs are as close to zero as possible. I
+get to fail
+
+[00:37:50]
+publicly and I get to fail forward always, right? I mean, there's tactics here. You
+know, you want to do zero deployment and, you know, continuous integration, development.
+There's a I'll roll it back. My bad. I'll roll it back. My bad. But here we go. But with
+the think about this, the way it used to work is some marketing team, funded team had a
+big idea. They put a pretty rapper on something. Then they go sell it to VC and they get
+a bunch of debt and then they hire a bunch of very expensive developers to help them
+build their thing. And in parallel to that, they also spend an insane amount of money
+trying to find an audience, right? And then they run out of money in two years because
+the bet failed and then it's all bust and they do the next one. All right? This is the
+tried andrue path. I don't know about tried and true, but this is the path that it has
+always been. In contrast, play this out. My the way that I've done is actually the way
+that Justin's kind of doing it right now in its own way. It's what I believe is the
+path, the single best path. It's an audience first business model. All right? Find the
+audience first. Find what the audience needs. Build that business. It's bulletproof.
+Your
+
+[00:38:53]
+audience that's finding your brand, finding your idea, they're already telling you what
+it is that they want. They are literally already telling you the problem when you know
+Justin when someone's say Justin I was really thinking you can have this person on here
+I'm having this issue like how would you tackle the you are daily getting interfaced
+with the actual demands of the actual audience. You don't need to go do market research.
+It's coming to you. Build that build that for them. Especially if it was already on your
+mind. Maybe it was down here but you heard it three or four times. Now it's up here. Now
+you're at level 10. Now you're excited about it. When you get that's I'm excited about
+the idea. They're excited about that idea. Why isn't someone doing this? Oh, wouldn't it
+be cool if boom, that's your vin diagram of benefits? That's talent stacking. That's
+cockroach mode. That's audience first. That's clearly your path. >> That's absolutely
+fantastic. And just to highlight for folks, like you dropped thousands of people into a
+piece of software that you wrote. You don't have a formal background doing this or
+experience doing this. This is your thing. And then you had thousands of people tell you
+everything that you did wrong and everything that the software needed to do that it
+didn't do yet. >> Love it. You ever watch the Pixar movie
+
+[00:39:56]
+with the Invincible, the little superhero family and whatnot, and they throw the main
+guy, the dad, they throw him, the bad guy, this is a poor example. This is gonna make me
+look bad, but I'll just go with it. I just remember it though. The bad guy gets thrown
+in front of this machine robot thing and he beats him. Beats the robot bad. Well, it
+turns out that was like version five of the robot. It turns out the next version was
+called Kronos version 10 and it was the one that was supposed to be. But the thing is,
+you can always make it better. If you are going in cockroach mode, someone telling you
+that something's wrong. When you get done with the list of things that are wrong, you're
+never at the finish line, but you're winning. That's now not wrong. Of course, I totally
+understand. Why can't you just stay fixed? I fixed you. Why can't you just stay fix?
+Yeah, I've been there. I got you. >> That's not how software works. >> You see my point,
+right? Regression notwithstanding. you solve enough problems and you solve it the right
+way with the principles that we talked about because you're not just doing it you're
+saying all right well I keep coming having to come back to this how do I build a system
+to test this how do I build a system to log this how do I build and what you're doing is
+you're
+
+[00:40:58]
+starting to look for more of the nuance right your first one was just you didn't know
+the nuance you didn't know the you didn't understand the question enough you didn't
+appreciate how many contingencies intuitive isn't free it's not something that's just
+handed to you at your first attempt it's earned over time by answering problems, taking
+a look at your solution and how it didn't match the problem and then iterating over
+that. So, I'm building this tax calculator right now that helps you map out your path to
+financial independence. And this is a perfect example. In our community, we talk about
+financial independence, right? Financial independence. Here's your financial
+independence number. Okay, cool. How do you do it? Very easy. Super easy. Just take your
+expenses, right? Whatever your expenses are over the course of a year, and multiply that
+times 25. Alternatively, you could take your monthly expenses, multiply it times 12,
+multiply that times 25. That is a financial independence number. So you could anticipate
+that if you had this amount of assets invested earning a decent return, you would
+basically have enough money to last you for the rest of your life for, you know, 30, 30,
+40 years, something in lot line, and it's
+
+[00:42:00]
+based on work called the trendy study. Now, here is the problem with that number and
+we're going to we're working through this like we work through with anything. Sounds
+good. I can do that calculator. I could spin that up in 5 minutes. Yeah, a lot of people
+have. No big deal. All right, your expenses aren't static. They're not static. And your
+income, right, which is what you would use to decide how much you're going to invest in
+various ways. Your income isn't your income because there's taxes involved. Oh, and
+wait, your taxes are affected by your contributions and your tax deductions and
+everything else. So, your expenses change. Oh, and by the way, you're also going to be
+earning future income like a pension, social security, etc. >> But not until I'm 65. Oh,
+but wait, but I'm actually retiring in the military and I got retired early, so I need
+to be able to do at 30. But you understand how like because you're interested in a
+problem, you're exposed to the problem and you drop this simple calculator and someone's
+like, "Yeah, but what if I have a pension?" Oh, that's good though. I should do that.
+All right, but what if I got my pension at 20? Okay, but what if I'm in Canada, the
+United States, and I don't have access to 40. Okay, but what if I'm in the United States
+and I
+
+[00:43:02]
+have access to a 401k and a 457 and they don't share the limits? Well, now welcome to my
+personal health. I love it and I spend my time solving that and I don't need it to
+return an ROI at a particular point in time. But if I build the best thing that serves
+this community the best way, it presents me with a lot of options, a lot of options at
+any point that I choose to do that. This is how you can have the biggest win by not
+worrying about the win and focusing on fundamentals, talent stacking, building your
+personal skill set. If it all goes to crap and it all fails, I'm employed tomorrow if I
+want to be. But the problem is you get addicted to solving problems, right? If you can
+put yourself in that place and you realize, I have like six or seven new ideas that I
+never even were a how do I do this? What is a vector, you know, a vector database? What
+the heck is that? like why don't I know how do I it's going to take you some time to
+learn it but you're one question away
+
+[00:44:04]
+from a bad question and you're maybe 14 hours away from a pretty good understanding of
+the problem not able to execute on it and so if you can pull it off if you can get the
+space you're like I kind of want to stay in the self-led place it's yeah I could go get
+a job and I could get a job that lines up but if I really could I just want to keep
+learning what I want to learn ROI be damned because I have a lot of really small
+inconsequential questions to answer to help me get to a place that's massively
+important. I need to build my own framework. No college is going to be able to give this
+to you. No course is going to be because you are making connections that other people
+aren't making. Now, I have gotten lots of help from online courses over periods of time
+with little pieces of the puzzle. That's far more useful than how to learn to code. >>
+That's a terrible question. >> How do I learn to code? All right. Well, maybe this week
+I'll start on HTML 3 days later. Got it. Done. Next week, CSS. Yeah. Okay, cool. All
+right, JavaScript. I'll do JavaScript next
+
+[00:45:06]
+week. That's kind of where I'm at at the moment. >> No, that's absolutely incredible. I
+love that that you have all these people who are telling you what features you need, and
+you've you built the audience first. And so now your product market fit, you're not
+exactly working on ROI, but you basically have thousands of people who are working with
+you to help you find product market fit for the platform that you're building. Even if
+it's not monetized, it's the same thing. >> That was out of necessity. It wasn't like I
+didn't go like get someone else's opinion. I just realized I don't have the bandwidth as
+a single shop to be able to create unit tests for every little thing that I'm shipping.
+So, one of the biggest things that I found useful and this is now kind of brass tax for
+me. So, we have to about 20,000 users on the site. I have about I I do some rudimentary
+analytics, but you know, routinely 40 to 50 people on the site at a time. You know, just
+running it pretty sporadically. I think that'll go up once I push out an app for this as
+well. But it's used. People are getting on daily. And the cool thing is when no one's
+using it, like even when no one's using it, you can fail very big with very little
+consequences. So your
+
+[00:46:08]
+biggest problem is like no one's on the site. Okay. No, enjoy it. Enjoy it. Like go big.
+Go make those changes big. Like see how it works on production. Do that. And then
+someone is on the site and you ruin their day because XYZ. Yeah. Okay. We probably
+better get a little bit more cautious with how we're doing this. that sort of thing. Let
+me tell you just how far we've come. I remember seeing someone that put a red box in
+email, like just a red box around some sort of call to action email, and I was like,
+"How do you do that? That's so cool. [laughter] Oh, I got to learn how to do that."
+That's level one right now. I remember I was on WordPress for a long time. >> I hope you
+like table based layouts, my friend. You can't do layouts in email. That's long before
+you were in the game. That's how we used to build websites, my friend. They're back in
+the 90s. That's how it was done. You you created an invisible table when you put the
+whole damn website in this invisible table. So, sorry. Anyway, >> the good old days,
+right? No, I don't want that much. Anyways, the next version of this was I remember
+being fighting WordPress for a long time. This how you did it. You know, you want to
+start a website, you obviously do WordPress. Now, it's Squarespace or Wix or whatever,
+but it's but again, the whole idea, the selling point was don't learn to code, just do
+it. And I use
+
+[00:47:11]
+that to my benefit. like I was able to build my website on WordPress, but something very
+frustrating like I would like a drop down that's smooth and isn't based on a request for
+like all of its time. Maybe now maybe it can be soft. This is how far away I was. And
+then the next version of that was they had something called page builder. So you could
+do a WordPress plugin like Elementor and you could stuff all the HTML and the CSS in the
+database. I had no idea that's what's actually happening. I recognize now how horrible
+that is. But at the time it was like, oo, I can have an idea and it can be pretty and I
+can look at it. My next thing was cuz I realized, you know, I got to move this thing
+along was all right, how can I fix WordPress? It's unfixable, people. But that was my qu
+this is what I'm telling you be very careful about your first question. Your first
+question be how can I fix WordPress? A better question would be why is WordPress so bad?
+Then maybe that would be better and then like what are the alternatives? So anyways,
+coming full circle on this. Stubbornness keeps you in your lane longer than it needs to
+
+[00:48:14]
+be. If you're fighting convention out of stubbornness, you're choosing a very hard lane
+for yourself. It doesn't mean you should never try something new. But it does mean you
+should look around at best practices and retool, right? Like retool when needed. Don't
+stay over here fighting convention like trying to be a Windows developer for instance.
+God help you. I was with you for a long time. That's insane. I I have spent months of my
+life trying to get a simple single thing to work using virtual box or whatever else.
+Like go buy a Mac. Just do it. Just go by what? Well, I don't like the mousees on the
+right click. I don't even know what that means. >> You could also just run Linux and you
+don't have to buy an overpriced computer. But anyway, >> but again, does Linux require a
+little bit more? Like there's a little bit more tooling involved, right? you can do it
+Linux or whatever, but Windows like did they go out of their way to switch up the line
+codes like back slashfor slash whatever else like you always have to translate
+everything when you're working
+
+[00:49:16]
+over there. If you're working in a bash terminal, yeah, if you're working in Linux,
+you're working in Mac, you're going to be in good shape. You do not want to spend your
+life trying to fix something that the world's best software developers have not solved.
+That is not your call. That is not your hill to die on. And there's a million small
+versions of that. So, first thing, go look around and see what the best practices are
+for how people are getting started in something. Second, start with a starter pack on
+something, right? It don't name it the actual project that you want to name yet. This is
+not going to work. It's not going to be good. It's not going to be your friend. It's
+going to suck. You're going to burn it. You're going to start over with a new repo after
+you've gotten all your failures out of some of your one. And you're going to know, "All
+right, now I'm ready." And guess what? I'm on like version 30, right? Like most of Adam
+scrapped. I have so many files of repos that didn't work that I've gone through. But
+what's really cool and the reason I haven't deleted them is maybe there was something
+over there. Right on the next one, I brought in the files that I needed, the clean ones,
+the ones I was more confident in, and I kind of started fresh. Don't be afraid to let it
+go. But don't delete it. Don't delete it. Let it
+
+[00:50:20]
+go. Start fresh. Bring over the fresh pieces of information. The next one, this is the
+problem that I had with WordPress. If I need functionality, I should just look for a
+plugin to solve it for me. You will regret that. Choose your plugins very judiciously,
+very cautiously. Go as small as possible and make it make the case before you do it.
+Half the time, if it's something small, you're going to be able to write a directive.
+You're going to be able to do something to recreate that functionality, and it's going
+to be inhouse. when you are using these large frameworks. In my project, there's
+probably three frameworks that all have to play nice together or else my life is ruined.
+All right? All these plugins that are hooked onto them are using random subversions of
+those. The more tiny little plugins I have doing XYZ, the more odds are when one of the
+big frameworks changes, I either am saddled and stuck with the old one or I need to like
+gut it and move on. And so you find this shrinking effect because it's not worth it
+trying to do PRs for a deprecated non-maintained plugin that
+
+[00:51:22]
+was do something that you didn't have the energy to tackle a few years ago. Think that
+through. So these are kind of the things that I've come in and yeah I'm with you. I said
+Mac because for me it was Windows. I was on Windows and part of the reason I was on
+Windows is because I was I was doing front-end stuff. Windows is very useful for front-
+end stuff. I was doing a lot of Adobe. I was doing a lot of just you know a couple
+podcast adding things like that. It's very useful for front-end stuff. As soon as you
+need to get to code, you're wondering what they were smoking back in the 1980s. Like,
+was it just out of spite? Probably. Probably. You don't know what happened. So, with
+that in mind, Max or Linux? Yeah, absolutely. >> I was just giving you a hard time, Max.
+A reasonable choice. >> But yeah, I'm assuming you're on Linux, right? >> Yeah, but I'm
+not a fan. So, that's okay. To be fair, like if you have to run the Adobe Creative
+Suite, the parts of it are not a web property yet. Like, >> oh, that was it. I forgot. I
+was trying to remember. I couldn't I was I had Mac. I had Linux brought up and I was
+going to go to that, but I wasn't going to be able to run Adobe on it. That was actually
+put me over the top on Mac. So that's context, right? Context is everything. >> You
+heard it here first. Adobe is an ignorant backwards company. Adobe is not supporting
+Linux. But anyway, yeah, Max, a reasonable choice. I just got to Joshy
+
+[00:52:24]
+cuz it's really just here. >> I'll take it. [laughter] I uh don't have a closing thought
+here, but I'll leave you with these. Just remember this. Here you go. This is I wrote
+these down. I got notards. Why do they have like a letter on the back? Because I didn't
+have any actual note cards in my house, and so I had to go steal it from my daughter who
+was learning her letters downstairs. So that's on [laughter] me. I'll get back to her
+afterwards. Here we go. Time is your most precious non-renewable resource. The
+aggregation of marginal gains, we didn't really get to that, but the whole idea is don't
+think because you didn't get to the your idea of the finish line, you haven't made
+progress, right? If you can identify at the end of the day something you know now or
+have a better understanding of that you didn't have this morning and then carry that
+into the next day and every day you can say that, say it out loud, say it as a mantra to
+yourself, whatever. Imagine where you'll be 365 days from now. Cockroach mode. You guys
+got that one. I'm pretty sure about that. And talent stacking. There might have been one
+that I dropped, but again, my note cards were spread out and I didn't get it. But those
+are the ones. Whips. Wouldn't it be cool if Look at the next Don't look at the next
+year, next two years with fear. Look at it with excitement and
+
+[00:53:27]
+opportunity. And through the lens of what we talked about in this conversation, if you
+could say, "Yeah, I heard this. I locked on to it and I took action based on it." And
+that's a big thing. Take action, right? And that is not a platitude. This 30 minute,
+40-minute thing that we just did. Oh gosh, an hour. Okay, sorry guys. This 58 minute
+thing that we just did, it serves you absolutely zero if you just smile and non say, "Oh
+yeah, that was a good idea." But it changes your life if you take action on a few of
+those principles and start moving forward. >> I can't think of a better way to put an
+end to the bordless run of everything we covered. I think it's beautiful. Jonathan,
+thank you so much for coming on. Where can people connect with you, with your community,
+with your podcast? >> Yeah, so the podcast is called Choose Fi, Choose Financial
+Independence. since I was the co-host on it for probably three or four years. I'm still
+part of the show and I'm actually creating the development side now. I do the
+development for it and I created local.chwfi.com. So choosei.com is the main website and
+we're at my playground. My ecosystem is local.fi.com. >> Beautiful. Thanks so much my
+friend. Thanks for cruising along with us today.
+
+[00:54:29]
+Hopefully you guys will like and subscribe and we'll be here next week for the next
+episode. Thanks. Thanks for cruising along with us on SAS that app. We hope you grabbed
+some insights that were inspiring, actionable, or at least entertaining. If you enjoyed
+the show, don't forget to subscribe and leave a review. Until next time, keep building,
+keep growing, and keep those apps sassy.

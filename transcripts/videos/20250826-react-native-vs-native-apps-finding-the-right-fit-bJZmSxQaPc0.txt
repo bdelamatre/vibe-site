@@ -1,0 +1,668 @@
+React Native vs. Native Apps: Finding the Right Fit
+===================================================
+
+Video ID:  bJZmSxQaPc0
+URL:       https://www.youtube.com/watch?v=bJZmSxQaPc0
+Published: 2025-08-26
+Duration:  00:41:57
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Switching to Ruby on Rails was very difficult cuz you know, looking at that there's so
+much that just the Ruby on Rails magic that happens under the hood and I would go, "What
+do you mean it does does this and that? Where are the intermediary steps?" Once you've
+dealt with problems like that a lot, it can be really uncomfortable to go into a place
+where there's a lot of magic in the middle and you don't necessarily trust the magic
+anymore. Welcome to SAS. app, building B2B web applications. The podcast where we share
+real-world stories, practical advice, and tech insights for those building or thinking
+about starting a tech-enabled business. I'm your co-host, Aaron Marshbanks. And I'm
+Justin Edwards. Each week we bring you the stories, strategies, and insights you need to
+build your SAS or tech-enabled business smarter, not harder. Let's dive right in. Hello
+everyone and welcome to SAS. app. Thanks to the miracle of release schedules while
+you're hearing this,
+
+[00:01:01]
+hopefully I will be somewhere in Thailand on a beach. On the show today, we are going to
+be talking about native applications, specifically in Android and Android iOS versus a
+cross-compiling tool like React Native. To talk about that, I have brought on our
+favorite one of our favorite employees here from Delta Systems who came to us via an
+acquisition as an Android developer, which identified immediately as a problem since we
+don't do Android work really. He was incredibly incredibly quick and talented to get
+reskilled into React Native and also to Ruby on Rails. We identified him immediately as
+someone who was just doing a great job and would be great to kind of step up a little
+bit further. He's now doing a team leader role here, so he's uh came to us via an
+acquisition and has just been really really awesome to work with. This is Kevin. Welcome
+to the pod, my friend. Yeah, thanks for having me on, Justin. Happy to be here.
+Absolutely. And I'm joined, as always, by uh my slightly more bearded than usual, but
+equally equally bow-tied friend, uh Aaron Marshbanks. How's it going, buddy? Going well,
+thanks, Justin. Cool. Well, just to kind of level set a little bit, Kevin, would you
+
+[00:02:03]
+mind giving us like just a really quick dry definition of what the difference is between
+doing a native app versus doing something cross-compiling like React Native? Yeah, sure.
+Uh so, when you're working with a native app, especially on Android, you're generally
+going to be building directly for the Android API. So, what that's going to look like
+for you as a developer is you're going to be downloading and installing Android Studio.
+You're going to be coding in either Kotlin or Java. And when you actually compile and
+run, you're running directly on an Android device. So, for actually running, you have a
+couple different options there, but at the end of the day, no matter what, you need an
+Android device or an Android emulator to actually run. You can't kind of obfuscate that
+part away. Um when you're doing development in a React Native environment, you're not
+actually developing specifically for Android. You don't need Android Studio explicitly
+in order to develop on that platform. You can use really whatever IDE you prefer, and
+you're going to be building that out in either JavaScript or TypeScript, usually for
+React Native. Um and you're going to be compiling it for Android or iOS. So, you're
+
+[00:03:06]
+platform-agnostic to a pretty strong degree in comparison to native Android where when
+you build something for native Android, it's built for native Android. You're not
+putting that on iOS. That's just not going to be a thing you can do. Yeah, that that
+makes sense. And so, one of the reasons I wanted to highlight this episode or bring this
+forward is at some point like our customers, other people who are developing apps and
+SASes and products are going to have to come up to a decision point of do we go to two
+native apps for iOS and Android or do we do kind of a cross-compiling situation? I think
+there are some places and perks for each of those, but I guess what's your take on like
+what would generally be things that pushes you towards recommending that someone
+actually go through writing iOS and Android native apps? So, nowadays I I kind of feel
+like there isn't as strong a reason to do native as there was in the past. One of the
+bigger impacts or reasons you might choose to do so would be if you're reliant on some
+tools like uh Bluetooth or sockets, stuff like that can be easier to deal with on
+Android or on iOS respectively but natively, sorry. Just because when you're in that
+infrastructure, you don't
+
+[00:04:10]
+need extra tools to go ahead and do things there. It's all built into the platform, so
+it's simpler to deal with in that respect. Um the other thing that can really come into
+play is performance. React Native JavaScript, it's inherently single-threaded. There are
+there are a few different threads for managing the tasks, but you're not going to be
+able to get as high level of performance out of React Native, um at least not in the
+simplest form of it. There are actually interesting options I was reading about uh
+recently. Um Shopify apparently has been doing things with uh native modules that they
+build out as a library that they can then use in their React Native projects instead.
+So, they can get better performance out of React Native system by using native where
+they can, using React Native where they can, and kind of unify their UI view even if
+they have some different different software lying under the hood for performance
+purposes. But I think that really comes down to being the biggest thing is uh
+performance.
+
+[00:05:13]
+And for a lot of apps, I don't think that's necessarily extremely prevalent. Especially
+if you have like a a simple front end to your website or something along those lines,
+the performance issue just is not going to be very prevalent at all. But if you're doing
+like like a video game with like 3D graphics and that kind of thing, that might be
+harder to do in the context of React Native unless you do something kind of clever with
+like having your own native modules. To my understanding, at that point you're probably
+building entirely within whatever your game's toolkit is. So, if you were doing
+something in Unity, you'd be looking at using Unity there. I'm not entirely sure how
+that ends up working out, though. Yeah, agree. Me either. I'm super ignorant about
+native apps. I've I've only worked on a handful, so uh it's good good to hear to to
+educate me. It occurs to me that we kind of do an analogous thing in Ruby land with um
+uh machine code like either Rust or C. So, when you're like doing a bundle install,
+you'll see compiling compiling native extensions uh behind the scenes and that's
+basically the same thing where we're saying we're not going to do this in Ruby. We're
+going to have some other kind of background usually to get close to the machine or for
+performance
+
+[00:06:15]
+reasons like Active Record for example. So, it seems like a similar kind of thing where
+yeah, we're using Ruby primarily and then we're kind of hooking into some some lower-
+level code. Uh it sounds like React Native is doing that or Shopify is doing something
+similar with React Native. Mhm. Yeah, and that's the case with a lot of modules or a lot
+of a lot of plugins and things like that, too, will be closer down to the actual
+hardware rather than uh still being in JavaScript. Used to be that there was a there was
+a concern or you you always had to worry about playing within the walled gardens, uh you
+especially on the iOS side, but Android to a certain extent has kind of stepped up to
+that, too. I mean, is that How big of a consideration is that anymore? I mean, to to get
+into those uh arenas versus just simply going with something that's more agnostic? I
+don't think it's going to be easier if you go with um a native application for actually
+getting it published on the stores. Um I think in a lot of ways, especially with Google
+lately, it can almost be harder to deal with some of the API level changes they have
+rather than if you like separate yourself a level away from that. So, if Google is
+constantly trying to move, like you said, towards more of a walled
+
+[00:07:18]
+garden ecosystem. They they started out with a lot of features. They were the, you know,
+wild west in air quotes, as you might put it, for uh for app storefronts. So, everybody
+wanted to go there first. Yeah, yeah, and it was really convenient for a long time, but
+now as they kind of, you know, put bolts on and say, "Hey, you can't do this quite the
+same way you were before anymore." It can get really really troublesome to continue like
+dragging along apps and updating them and having the functionality still work the same
+way as you move up and towards that. And it can be very frustrating to deal with. So, I
+think there's probably value in having React Native or a framework like Expo or
+something between you and and the Google API levels like that just to kind of uh shield
+you a little bit from the pain that they can inflict. Well, like you say, you got to
+manage the multiple code bases if you're just purely native. Uh I'm curious, is there a
+situation you've come across or or a time when you might recommend using both, doing
+both? Like having native applications and then and then separately or in tandem with
+having something that's that's React Native
+
+[00:08:19]
+based. Is there a situation where that would come into play? Um like having two full
+apps like separately published? Yeah. I can't think of an instance where I'd been in
+that situation. I feel like that would probably be a fair situation where you maybe look
+at either cuz cuz at point you're looking at maintaining three separate apps, right?
+You're looking at maintaining an iOS app, an Android app, and React Native app. And in
+that case, it may be worth either dropping one of them, that probably the React Native
+app in that case, or looking at if you can integrate the other two back into the React
+Native app and just have one. Cuz I think having three over having two or having one is
+probably the least advantageous situation to be in in terms of cost and how much time
+people have to spend on it. Sure. I just didn't know if there was like a a compelling
+reason for somebody that might be coming into, you know, a legacy type situation where
+they have two applications, but they're also wanting to to, you know, do I need to just
+check this, completely rebuild in React Native, do I need to maintain what I already
+have, and then build in React Native and ultimately replace the two?
+
+[00:09:21]
+Are the performance, you know, bits for me having the native applications compelling
+enough to keep them around? You know, that sort of thing. I'm just thinking maybe legacy
+situations where, you know, a a client may be interested in for whatever reason keeping
+all of those around. I can't I couldn't think of one off the top of my head, either. Uh
+that's why I'm asking. Yeah, I I guess I could see one in that specific situation where
+you're looking at building something new out is you have these two legacy native apps
+already, and you're building features into a newer cross-platform one. There's probably
+a justification for leaving the other two around for some time so that users who don't
+want to move over or are missing features that they want in the React Native app have a
+place to like live as a home. But you don't want to maintain that forever, that status
+quo. If you do, then you end up having to maintain all three forever. At some point,
+like users never like change, right? That's why whenever I see someone come across and
+like, "Hey, I want this new UI. It's really fancy. It looks really different." I'm like,
+"I I don't know if that's a good idea." Like maybe we should make a little gradual
+changes if we want to do that
+
+[00:10:24]
+rather than like rug and you know, pull the lever. Like it's not necessarily the best
+idea. It's become extremely extremely obvious you have never worked for Atlassian. They
+are our rug our rug pull UI rug pull extraordinaires over yonder. I know. I don't know
+why Jira changes the way it looks. I swear every other week and sometimes more than
+others. And it continues to bury the really useful stuff deeper and deeper into the
+settings. Fairly this is just a podcast where we beat up on JavaScript and we beat up on
+the on Atlassian and Jira. It's been the It feels like a theme. It really does. Yeah,
+it's kind of like you're in between a rock and a hard place cuz Jira's definitely the
+one you probably want to use out of all the options, but they they They just got to
+leave it alone, man. We were so friendly when we started this whole thing out and now
+it's like it's been enough time. They're like the gloves are coming off and we're just
+being angry at and being angry at the service providers we rely on. Who's the Who's the
+whipping boy today? I don't know. It's uh No, Jira is hands-down the worst workflow
+management tool except for every other one that I've used. Anyway,
+
+[00:11:26]
+sorry. Just uh wanted to to venture into uh a little a little smack of Jira for for
+doing the UI rug pull. What you were saying there was really interesting. I had never
+considered it this in a mobile context. So like a lot of times for web apps if we're
+replacing a legacy system that has users and it's going to stay online, we'll stand up a
+second website or a second web application and then over time we'll just gradually start
+turning on the new version of it and turning off the old version of it and then kind of
+we're keeping them linked up. But the cool thing about that is in the web world we
+control everything, so we could just do whatever we want. In uh app world you would have
+to actually have a user install two different apps, both the legacy one and the new one.
+And then it seems like linking between those could be dubious as well. Have you Have you
+even seen that before, Kevin? That seems really strange to me. So, I haven't seen that,
+but now that I think about it, there probably is a way to do this kind of just Well,
+probably not super well. You probably still want a separate app rolled out. But within
+uh at least within Google Play, you can choose to like do gradual rollouts of a new
+version of an app. So, it could theoretically be done where you have the new version,
+you upload
+
+[00:12:29]
+that as your new bundle, and you like set it to like 5% user roll off, then 6, 7, 8, and
+kind of slowly roll through like that. So, that's one option, but Yeah, I don't know. I
+didn't really thought about that. That could work. That could work. I mean, so
+fundamentally it would require a user to install both the new and old version of the app
+and then routing between the two could be hard, but I I hadn't even thought about doing
+that kind of piecewise uh approach where we just got to segment one chunk at a time over
+to the new app and then shutting it down in the old one uh in in a mobile context. It
+would be challenging to manage, I would think too though. You know, you'd definitely
+have to keep track of what the interconnected bits are and and what you've what you've
+extracted already and yeah. It It It would get to be a little bit of a project
+management nightmare. Sorry, this is now us noodling on a problem that we don't have,
+but I think it's interesting. So, what if uh what if you had your old native mobile app
+and then you had a React Native, you publish to the a website to an S3 bucket or
+something, your React Native for web and then you replace that view in the old app with
+a web view. So, you release the new version of the old app, but that old app would be a
+web view of the new React
+
+[00:13:33]
+Native for web S3 hosted React Native app. And then once you replace enough of that with
+their the React Native for web web view, your your existing legacy app would basically
+become a series of web views for to the new React Native for web thing. You see what I'm
+saying? Yeah, yeah. So, that's kind of what I was getting at before. I think I don't
+know if I've ever tried this. I definitely haven't actually now that I think about it,
+but I I think theoretically as long as you have the app signing keys and you own those
+and you have the app ID and everything, you could just build the new React Native app
+with the same signing keys, with the same identifier, and then push that up as your like
+update to the app on Google Play. And then from there you could kind of do a similar
+thing where like you have your new update there and you slowly roll the number of users
+that have it. So, you don't actually change your app. No one has to reinstall anything
+and like slowly the old one just disappears. Yeah, that that makes sense too for a kind
+of a a cutover of one entire old app for one entire new one. I was trying to think of
+
+[00:14:36]
+a way to like remove one feature at a time from the old app. Uh I'd have to do some
+research before I pitch it to a client, but it might actually work. I'd I'd be curious
+to I'd be curious to have that problem show up so I could try to solve it. Yeah, that's
+that's kind of like uh you you got to wonder if the juice is worth the squeeze there too
+though. Yeah, it would have to be an enterprise level something. You're utilizing it for
+a lot of different departments or areas or or utility that you could somewhat segregate
+pretty easily, I would think. So, we did a very similar thing with uh a HIPAA compliant
+app for uh healthcare data. And it was one of those things where like, "Yeah, this the
+security can never go down we and this can never be compromised." So, we actually stood
+up like a transition API. Anyway, we basically did one of these gradual step-by-step
+replacements on uh on that app, but we actually put that customer in React Native uh
+from the get-go. But if they had had an existing legacy app, we probably would have had
+to do something different, but anyway, I I digress cuz it's technically challenging and
+probably not that relevant. Uh but but fun. You know, it's good to go down the rabbit
+hole every once in a while. So, we talked about kind of the the case for native apps and
+when that probably makes sense. What we didn't It
+
+[00:15:39]
+sound like that's probably at this point in time kind of the exception rather than the
+rule if you're depending what your app is, but unless you have one of a few very like
+specific reasons to go into a native app, you should probably default to a cross-
+compiling thing and and React Native is the most widely supported one right now. I know
+NativeScript is around and people I think people are using this. I would love I I as my
+personal taste I prefer Angular over React a lot, so I'd love to have uh the Angular
+version of cross-compiling become more popular, but Yeah, I'm trying to think of what
+else there is. I know we have one project that's using Next.js and then I know Flutter
+exists. I've never used it personally, but it's it's there. Yeah, I keep almost getting
+us a Flutter project cuz I really want to learn it. Yeah, and just there's the dot net
+uh the dot dot net kids dot net kids have theirs, which is Xamarin um which we did one
+project in a long time ago. So, there are a couple of different options out there, but
+kind of without weighing the the difference of frameworks to use, like what are the what
+are the benefits? Cuz it sounds like primarily we want to end up probably in a cross-
+compiling app. So, like why is that? What What is What's the good that is sending us
+that
+
+[00:16:41]
+direction? Yeah, the one thing that really jumps out at me is um you really don't have
+to deal with having two full separate apps and at least from what I've seen, especially
+with having two apps, is a lot of times um they don't get equally maintained. So, if you
+have a client and that client uses an iPhone and everyone around them uses an iPhone and
+they want an app on Android and iOS, well, when they're thinking about updates, they're
+thinking very iOS-centric. They're thinking, "Hey, we need this, we need this, we need
+this." So, as they want the updates done, Android kind of lives off in like this silly
+lives off on their own little island, right? And iOS kind of marches forward and Android
+goes, "Hey, what's going on? I'm still over here. Like I'm doing the API target updates,
+but not much else." So, once you have a cross-compiled app, that problem kind of goes by
+the wayside. You don't have to worry about it as much, which is a big plus. Um one of
+the other big plusses there that kind of ties into that is you're going to have one
+common UI. There's an argument with native that you get a UI that looks a lot more like
+the platform, but
+
+[00:17:44]
+I don't really necessarily think that's entirely always true. Because you kind of end up
+in the same situation where the client uses one device, so they want the app to look
+like it would on their device. So, you end up with an app on Android that looks like an
+iOS app. And at least with React Native you're going to have one rather than two
+instances of trying to do this and it might be easier to say, "Hey, let's try and making
+something that looks more common." rather than trying to say, "Hey, this doesn't look
+Android. Hey, this doesn't look iOS." It might be easier to kind of uh move towards that
+goal. But yeah, I would say generally unless you have a need to go with a native app, it
+probably makes more sense to go React Native or something that's cross-compiling and the
+reasons for that I don't think are usually super prevalent. Yeah, it seems like it would
+give a lot more flexibility and and ability to be creative for UI UX design team uh
+folks when you're when you're not tied down necessarily to particular you know, design
+components or elements or iconography or things like that for a
+
+[00:18:47]
+particular thing. You can you can be a lot more creative, I would think, in those spaces
+and and be more common. The other thing that plays into that too is uh how the actual UI
+gets built uh on a native app versus on React. Like React Native you have a very DOM-
+like structure. So, someone who's used to doing, you know, CSS or UI design, they're
+going to be much more capable of easily stepping in and making UI tweaks there than say
+Android with Views or Jetpack Compose. And if you're if you're working with an older
+Android app, it's probably going to be View. And it's not the easiest thing to make View
+do what you want it to, to to put it lightly. It's not the worst thing to design with,
+but you can end up in really weird situations like word wrapping or how you want the
+different layouts to nest with each other. And it's probably going to be a lot harder to
+have your UI designer come into that and, you know, change that around a bit than it
+would be for them to look at something that has a DOM structure that better resembles
+what you'd see on a web app.
+
+[00:19:50]
+So, yeah, with the separate code bases I imagine also comes having separate team members
+who know different languages and have different skill sets. Is there much overlap
+between I mean, Objective-C and Kotlin don't seem like they have a lot to do with one
+another. As someone who hasn't really worked with either of them. That's fair. I you
+know, to be honest, I haven't really done much iOS development at all. The most I've
+done is like installed Xcode on on a MacBook to try and compile something to see like,
+"Hey, what does this look like or what is this doing or why does this work one way and
+mine doesn't work quite the same?" Kind of is a pretty different world or different I
+mean, it really is. There's no real way to do like native iOS development easily if you
+don't have a Mac if you don't have an iPhone. So. Yeah, it's kind of the typical Apple
+vendor lock-in thing where it's like, yeah, you're I mean, I think for a while we were
+using a service where we were literally paying it's a service called Mac in Cloud. If
+you want to sponsor us, you're welcome to. But yeah, we we we lit we literally paid like
+an hourly fee to use a Mac somebody else's Mac that we VPN into for things like, we need
+to We've already done all the build, the
+
+[00:20:53]
+entire thing exists, but we can't actually send the build to the App Store without
+owning a Mac computer. So, we would rent a spot on theirs and we would send a zip file
+up and then run the program that had to be used to upload a zip file essentially cuz
+Apple makes strange architecture decisions. But so yeah, that that that tracks. Um The
+the bigger negative just being there like if you actually are going to go native and you
+don't have one person who's an expert at both Android and iOS, which is probably
+somewhat of a rare person, then you're going to end up with two two teams at least If
+you don't end up with two teams, you will be have you have two skill sets you have to
+hire for potentially if you have turnover or something. Uh How about kind of falling out
+of sync with things that can be done on the web? Does React Native solve that problem? I
+don't necessarily think that there's going to be a big difference in that solution
+between using something that's native versus something that's React Native for an app.
+If you just mean like keeping things up to date with how the website works. I don't
+think there'd be a huge difference there other than like you said having more team
+members to handle how the updates are done cuz it's a lot easier for someone who does
+web dev to slip into developing on React Native
+
+[00:21:57]
+than it is to go and start doing things in Android or iOS natively. Uh there's a really
+big skill set difference or like just knowledge difference really between doing that
+native development versus doing React Native, which is a lot easier cuz if you're
+familiar with JavaScript, you're already somewhat familiar with how it would go on React
+Native. If you're familiar with DOM, you're going to be familiar with how that would
+work. There's differences in libraries and things, right? Like you're looking at Axios
+for HTTP requests, but things like that are going to be easier to pick up than trying to
+pick up a whole new ecosystem. Yeah, that's actually right where I wanted to to go at
+some point, too, is just talking about the team structure itself. I mean, it's it's
+obvious that you would need an Android person, an iOS person, a web person, you know,
+whatever it is that you're trying to do. As a as a startup, that's an important
+question, you know, because at what point do you know, we've asked others at what point
+do we want to talk about hiring or having our own dev staff? And what does that look
+like? What does that team look like? You know, it seem like you know, getting something
+that can stand up very quickly, that can be platform agnostic, and has a I'm going to
+say easier to hire for or
+
+[00:23:00]
+perhaps more versatile hiring base as something that's not native would seem to be the
+direction to go, especially for a startup. Do you I mean, does that does that jive with
+kind of what you've seen? Yeah, I think that makes sense. As long as like I said, you're
+not in a situation where you need something really specific to the platform. Like you're
+really desperately need a a high level of performance that you're not going to get
+otherwise, but yeah, I I I would agree. And one of the other risks you can run into,
+especially when you have two people doing app design and development on separate
+platforms, is you can end up with two entirely different structures to the same
+solution, and you can have one that works significantly better than the other, and you
+you kind of get stuck. And one becomes a money hole, the other works fine, and you ask,
+"Well, what what happened here? Why did no one talk with each other as we were going
+through and designing these?" And like as a startup, a small company having one half of
+the app become a money hole and the other work fine, maybe your balance sheet can do
+that, but you don't want anything to become that. That's an excellent point, dude. One
+situation didn't really end up working working
+
+[00:24:04]
+out. We didn't get to take the project all the way to to the end, unfortunately, but we
+had a customer with a React app for web only, and they wanted to do a mobile app. So, we
+what we did is we took them from a React app, which is very out of date, updated it
+completely, and then put it made made a move from React over to React Native, which was
+not painless, but it was a relatively straightforward thing to do. Then what we did is
+we served out React Native for web using the same code base that that all of us had for
+their front end. Then when it came time to make mobile apps out of it, like yes, we had
+to do all the mobile app work to to make things look correct, and and it's not like you
+moved into React Native, you move a a web React web app into React Native, and suddenly
+you have a mobile app. It doesn't work that way. But what it did mean is that our web UI
+for users, our Android UI, and our iOS UI all use the exact same code base. And so, we
+basically paid one series of web developers who could figure out how to do React Native
+and do do submissions and these kinds of things. And you had one one monolithic code
+base. So, you
+
+[00:25:06]
+didn't have issues where like iOS users are able to do this, but Android users are not,
+which you can't do that on the web. Very strangely, we've really only seen that once,
+and I think a much more common model for us is that we have a Ruby on Rails API with an
+admin interface that's written just in plain old Rails. And then we have a mobile app
+for users, which we use React Native to to compile between Android and iOS, but for this
+particular user who had a web app that was in React for users and then also wanted to
+move into the mobile space, I thought it was was a really elegant solution. I wish we
+had had a had the opportunity to get all the way to the to the finish line on it. So,
+Kevin, I want to talk a minute about you specifically, but but also in general,
+reskilling. You know, you you kind of came in at least our company as I'm sure that
+others have in in other organizations as well as an Android developer, and you know,
+made the made the move over to React Native. You still do some Android support,
+obviously, but I'm I'm curious how that process worked for you, how that felt for you.
+Was it a big step? Would you say that, you know, having Android in the bank made it
+easier to get to React Native? You know, were there comparatives? That sort of thing.
+What what kind of advice might you give
+
+[00:26:09]
+for someone who's moving in a similar direction, which it sounds like the industry as a
+whole is? It's kind of a hard question to answer, honestly, just because there's so many
+different ways that people like to learn different skill sets. I think that moving to
+React Native from Android or iOS is probably more difficult than moving to it from a web
+dev side of things. And the course I took was like before I worked Android, I did C++ C
+assembly embedded development, and then I did Android, and then I did a bit of Ruby on
+Rails there, and then it became the Ruby on Rails with the React. So, I kind of had like
+that intermediary step of kind of, you know, wetting my toes into working with the web
+development system, you know, I started to learn JavaScript, things like that that are
+really important for learning React Native. And I think that kind of helped me out
+personally. But if you're trying to learn it from the get-go, I think it can be really
+helpful if you have a team available to you. That's really helpful. You know, here at
+Delta like everyone is super good at helping each
+
+[00:27:11]
+other out, and that really benefited me a lot going into React Native and Ruby on Rails
+for that matter. Um because, you know, going into Android or learning that, it was kind
+of me by myself figuring things out. So, if you have people you can lean on at all, like
+don't hesitate to do that. Sometimes you can feel really silly asking a question, but
+more times than not, it's better to simply just ask away, I think. As long as you've
+done like the the modicum of research where you can ask an intelligent question that
+doesn't end you up with an XY problem or something strange like that. But I would
+definitely say if you have a community you can lean on to ask questions and learn more
+quickly and effectively like that, it's going to be a million times over useful. So,
+with like regard to kind of developing your overall like developer skill set, I have
+kind of a bias, but like for me, working with someone who does who's done embedded
+systems or systems programming is like working with a classically trained musician. It's
+the patience and the fundamentals that kind of are inherent with doing that kind of
+work. It's just
+
+[00:28:14]
+you have this this very kind of deep understanding and background, and it to me is kind
+of like foundational and and in my limited experience, but I see a lot of people who
+have those kinds of backgrounds be more successful in picking up new things and kind of
+reskilling. To me, it kind of comes down to like like fundamentals and foundations. So,
+I guess is that if you have any ability to comment on your own experience, do you think
+having those kinds of like embedded and systems experiences in the background kind of
+like set you up for this or is it just kind of a a snowball of skills you just keep
+rolling and it gets easier to aggregate as the as the diameter gets bigger? I think it
+can help, especially for like getting a baseline understanding of like how you want to
+develop things. Because when you have fewer tools available to you, like when you're
+working with C or C++, like sure, C++ you can you can pull in libraries, but is that
+always the right solution? It's not necessarily a good idea even. So, there's a lot that
+you're kind of building in a bespoke manner. So, you have to gain some level of
+understanding of a lot of different concepts. And as you move forward, I think that that
+can really help you design things that are simpler or design things that are less
+reliant on the
+
+[00:29:16]
+ecosystem as a whole. That said, there is the other half of that. Um switching to Ruby
+on Rails was very difficult. Looking at that, there's so much that just the Ruby on
+Rails magic that happens under the hood, and I would go, "What do you mean? It just does
+this and that?" Like "Where are the intermediary steps? Like I'm trying to figure out
+why this isn't working, and I'm going from A to C. Where is step B?" And all the little
+things that go along with that. And I think um getting over that or getting used to that
+being a reality with like the higher-level frameworks can be a real struggle sometimes,
+especially like having done some things in the past like where you have like million-
+line code bases and there's something going wrong in an intermediary layer in like just
+the weirdest way and you're looking at this huge state machine that was auto-generated
+and nobody has the code that generated it. So, all the function names are like X_18936
+and you look at it and you go, "Oh god." So, you have to like get out your pad of paper
+and like step through it. So, once
+
+[00:30:19]
+you're like dealt with problems like that a lot, it can be really uncomfortable to go
+into a place where there's a lot of magic in the middle and you don't necessarily trust
+the magic anymore. So, I think that that's probably true of really any platform you go
+to whether it's React Native, Android, or Ruby on Rails. There's just a little bit of
+discomfort there initially getting over that hump. Oh yeah, we hear we hear it from the
+PHP team too on the Laravel stuff. You know, any any time that you're stepping up to
+those those frameworks where there is where there's there is some degree of black box
+and it just stuff goes in and poof, awesome things come out or, you know, junk in junk
+out. You know, that's that's a that's always fun. Yeah, those abstractions are
+incredibly powerful and they they make our lives great, but when something goes wrong in
+one of those layers of abstraction, it takes a lot of talent and a lot of patience to to
+get to the bottom of that and to resolve it. I think in Rails we see this most
+frequently with Devise because Devise is a very commonly used thing and we always seem
+to need to customize or change or tweak something about how it works and I'm not quite
+at the level of saying Devise is its own
+
+[00:31:22]
+skill set, but the configuring and debugging and working with Devise flows and stuff is
+is a little arcane and it definitely takes some talent to pick up. So, I think that's
+that's actually great intuition I hadn't considered before is like yeah systems
+background you you're doing everything by hand. You know exactly how control flow is
+passing for every single line of code and uh yeah, there's a lot of other people who
+done work to help us in some of these higher-level languages and and and large web
+frameworks. This also makes me think of too Kevin. I I know that recently we've been
+working on a project that was a native application. It's Android and iOS, but there was
+a reliance on a particular third-party library that no longer got you know, updated or
+or is no longer you know, available to the community. It occurs to me that in the past I
+have also seen that on on other platforms too. I mean very things that are very plug-in
+based even like WordPress. You know, somebody no longer is supporting the plug-in that
+runs 80% of your site. You know, I'm I'm curious to get your take on how much easier it
+is to combat that sort of a situation
+
+[00:32:25]
+when you're dealing with the native application versus dealing with a somewhat similar
+situation. Perhaps it's another library or we'll call them plug-in for you know, the
+web-based or browser-based. Specifically browser do you mean like or like in a native
+application context or like just in the browser or Yeah, well, I mean again just kind of
+going back to the top line of you know, is something like that easier to deal with
+ordinarily when you're Android iOS or is it easier to deal with when you're React Native
+or or some other front end? I think things like that can potentially be easier to deal
+with a native. You have So, because you're closer to the actual hardware or the actual
+operating system and all the things that are packaged with it, if you lose a package
+that lets you interface with that or you lose a plug-in that lets you interface with
+that, you can kind of be stranded otherwise if there's nothing like equivalent
+available. Um versus having given you still have to write out a lot of custom code,
+something bespoke to do the job, but it may be easier to get the
+
+[00:33:28]
+job done. Say you need a video encoding library that may or may not have stopped
+existing. A hypothetical library that stopped existing. If you're on React Native and
+that video encoding library went away, you may be in pretty hot water for how you want
+to deal with that situation. You might end up having to look at building out a native
+module to go and do that work versus Android or iOS where you have a number of different
+options where you can side step into. It may be more annoying. It may be more work to
+get done, but it could be potentially easier to go ahead and do that work. Well, it
+sounds like we're removing one layer of abstraction. So, instead of relying on a React
+Native thing which relies on an Android thing which now long no longer exists, you just
+have you don't have to find the the new Android thing and the new React Native thing.
+You can just solve the problem in Android. Yeah, we've run into that sometimes on the on
+just the base web stuff too, you know, depending on what your framework happens to be.
+We have had in the past where a plug-in has just dried up or or
+
+[00:34:31]
+no longer gotten support and you have to literally write the custom code for it to mimic
+at least the most important bits of functionality while you're either shopping for
+something different or considering a rewrite at that point depending on how heavy of a
+lift the thing is supposed to do. Yeah, then you end up in the situation of like do we
+just want to fork it and try maintain it ourselves which goes having done some stuff in
+the open-source ecosystem before that kind of goes both ways. Uh because once you once
+you start doing that, you become the support team and being that support team is um not
+very fun. To say the least. Yeah, the amount of aggression and entitlement people have
+have brought to me over using something that I maintain for free and publish as an IC is
+uh almost kind of surprising. It's like also you're welcome guys. I'm sorry there's a
+bug in the free thing that I gave you. There's nothing that sucks the motivation drive
+faster than that. Just see a GitHub issue. This thing is useless. It's trash. Why did
+you even bother? It's like yeah, well, hey, I'm really sorry. I didn't realize the
+
+[00:35:33]
+internet was running low on space for me to publish things. I do I do apologize for the
+room that I'm taking up here on the web. Let me point you at some similar things that
+are slightly different that maybe you'll like better. So, Kev, one one thing we haven't
+really touched on and I'm I'm kind of interested in too because this is this is fun work
+for me cuz I love to break stuff. I'm really really good at breaking things. But how do
+you how do these two worlds look in terms of like the testing and and debugging
+processes? Uh You know, is that do do you have a personal preference and and if not,
+what is what are the what are the approaches look like there? If I want to be fully
+honest, I don't think I have ever inherited or worked on an Android native project where
+there has been a test suite set up. Wait a second. Let me find my shock face. Yeah, it
+just has not existed. Debugging I think can look pretty similar. There are some decent
+debug tools available on the Android platform, but at the end of the day you've always
+got the old handy print to console as as a backup option. Tried and true really. It
+works in every ecosystem. Yep, I'm a I'm a puts debugger myself and I work with I work
+with these cool programmers
+
+[00:36:36]
+and they're like, "What are you doing grandpa?" And I'm like, "Well, solving solving the
+problem that you asked for help with. So, we're going to we're going to lean on my
+wisdom and how I know how to work." It's really funny too cuz you go far enough back and
+you're like hooking up the physical debugger to the hardware to debug it. You know,
+you're looking at the registers and you're like, "Well, this isn't working, right?" And
+then you move a little bit more forward and it's like, "Oh, well, now we're just putting
+to console." And you fork it again and you wanting to use a debugger again. It's like,
+"Oh hey, look at this. We've come all the all the way around." Yeah, then the next phase
+of that is my LLM didn't solve the problem without me understanding what it was. So, I
+can't vibe code my way to victory. Oh no. Clients are already sending in the the AI-
+generated stuff. It's like, "Here, I I wrote this function for you." It's like, "Well,
+you didn't, but thanks. That's adorable." I'll go ahead and just kind of blend that
+snippet in with the 15 years that I've been doing this professionally and see if I can
+get to a solution. Yeah, I can't wait until like you get given a huge like a 100,000
+line project and you look at it and you go, "What is this? How did how did this get
+made? What
+
+[00:37:38]
+what is this software? Why is this here?" And then you ask and they'd like, "Oh yeah, I
+asked ChatGPT to output it." And you're like, "Oh no." I'm here to tell you I'm here to
+tell you Kevin I've seen more than one project in my career that was not written by AI
+where that was exactly what I did and what I said and I was like, "Yeah, we we can't we
+can't actually use this." Uh We had a project I'll not say the name of it, but there was
+an acronym for the project that ended with A and we ended up creating the same version
+and then the acronym ended with B. But the B didn't actually go with the acronym with
+the tool was actually called. It was just funny to us that we took like say the last
+time it was like called the big the big fancy assessment, the BFA. We wrote the BFB and
+they're like, "What does the B stand for?" We're like, "Well, it's the letter after A."
+So, it's the big fancy assessment B. Probably coming into the end of our time here. I
+want to put a little bit of a bow on kind of native versus React Native and and when
+when we choose to use native which seems rarely and then the benefits of React Native.
+So, it sounds like native if you have to get really close to the machine.
+
+[00:38:41]
+If you are needing to integrate with some hardware, performance is a huge thing for your
+app. If you have a strong preference for the user interface or the kind of user
+experience of the app ecosystem, anything else on that list of strong reasons to look
+into native? I think one other compelling reason is kind of we touched on it earlier,
+what your staffing situation looks like. If you have a really strong Android developer
+and a really strong iOS developer, you might just be better off having two separate
+native apps still in terms of cost, time, and effort than trying to get them to you
+know, play nicely with React Native and work on something like that together. There's
+probably a pretty strong compelling argument there. It does make sense. Uh Yeah, kind of
+an emerging theme on this this show is that yeah, the the tech doesn't really matter all
+that much if you have a great team and a consultant you love or or you know, someone
+who's really competent and really good and you can you can still write great software
+that does everything it needs to in COBOL if you have to. So, um I don't think you
+should necessarily optimize for that, but so on on the React Native side then uh for
+benefits, uh one code base is huge. You can line
+
+[00:39:44]
+up your experiences. You don't have future drift between the two. Um you're kind of
+getting out of the way for API changes. You got a team of people maintaining open source
+libraries who make sure that you're kind of up to date with all the compliance API Apple
+Google stuff. Potentially, you don't have to hire for more skill sets, and the skill
+sets are likely to cross-talk with your web team if you already have one. Uh UI UX
+design freedom is probably a plus for the React Native side. And alignment between
+platforms as well. Yeah, or at least an easier I'm having more people step in to look at
+and poke at the UI. Android side, there's newer ways of building the UI than views. You
+can use Jetpack Compose now, but a lot of old projects are still just going to be views,
+and nobody is really going to step in and try and poke at that cuz it's just terrible to
+do. Yeah, I would say even with some of those uh performance and how close you need to
+be to the metal questions, if you're looking at writing a native module or something
+like that, you can probably get around a lot of that just like that. So, I I would say
+really unless you have a really strong performance reason or you have a team that wants
+a native app, I would say probably it makes more sense to go with something that will
+
+[00:40:45]
+cross-compile to either. All right, beautiful. Anything else you want to add in summary,
+Aaron? Nope. Nope. I think we think we wrapped it up nicely. Uh I would say there's
+obvious answer, but the nice thing is that it's always a conversation, right? We We are
+consultants first and foremost, and the idea here is to help get the client to the
+solution that they need, not the other way around. So, It depends is always the right
+answer. And once we have once we I'll give you the 80% probably right for you answer,
+but there's always that 20% of it depends. So, Beautiful. Well, if uh you are interested
+in uh working with Kevin, working with me, working with Aaron, you can find us all at
+deltasystems.com. That'll do it for the for this week. Thanks for joining us, and uh
+thanks for checking in to sass.that.app. Aaron, Kevin, it's been a slice, gentlemen.
+Thank you. Thanks as always. Have a good one, guys. Thanks for cruising along with us on
+sass.that.app. We hope you grabbed some insights that were inspiring, actionable, or at
+least entertaining. If you enjoyed the show, don't forget to subscribe and leave a
+review. Until next time, keep building, keep growing, and keep those apps sassy.

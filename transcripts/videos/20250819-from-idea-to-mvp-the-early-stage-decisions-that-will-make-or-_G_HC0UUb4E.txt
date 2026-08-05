@@ -1,0 +1,598 @@
+From Idea to MVP: The Early-Stage Decisions That Will Make or Break Your Startup
+================================================================================
+
+Video ID:  _G_HC0UUb4E
+URL:       https://www.youtube.com/watch?v=_G_HC0UUb4E
+Published: 2025-08-19
+Duration:  00:40:27
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+[Music] Most founders would say, "I would love to start a company in 5 years from now,
+10 million in revenue, 4 million in profit. I'm getting paid a nice salary. Everybody's
+getting paid. Everybody's happy." That's the American dream. But for a VC, that's a
+failure. Welcome to SAS that app building B2B web applications. The podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host Aaron Marchbanks and
+I'm Justin Edwards. Each week, we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. [Music] Hello and welcome to SAS that app. Just across the screen from me as always
+is my co-pilot Justin Edwards, who I understand managed to squeeze in a 10K training run
+yesterday. Congrats and hey, Justin. >> Hey. Yeah, it's a a big achievement for a fatty
+like me. So, go me.
+
+[00:01:04]
+>> That's amazing. And our guest today is Evan Chubin, who among many other things is
+the founder of Results.now, Inc., a fractional seauite operator for startups since
+before fractional was a buzzword. He is also the co-founder and COO of Half a Hire, a
+startup that helps lean teams scale faster and founder of Candlelight Partners where he
+backs the startups he believes in with his time, brain power, and business chops. He has
+helped launch and lead over 25 plus startups including ventures in esports and AI and
+web applications. and today he's here to uh give us a little peak behind the curtain of
+how smart operators build software that actually solves problems. Evan, welcome to the
+pod. >> Thank you, Erin. Thank you, Justin. It's great to be here today. >> Fantastic.
+So, just diving right in, Evan, you have been obviously a a founder, a co-founder, an
+investor many times over in uh building and supporting startups. You've seen a lot of
+evolution in the space. So I guess my first question is what is something about how we
+build or approach software and SAS businesses today that makes you think
+
+[00:02:07]
+this is better now? >> You know one thing that's better now is the tools are better
+right? So when it comes to apps even in terms of just you know Figma being a clickable
+kind of MVP that isn't really fully functional but allows you to test things allows you
+to beta allows you to show potential customers. What I say to young founders all the
+time is, you know, build an MVP, bootstrap it as quickly as you possibly can because
+you're going to get some things wrong. You're going to make some assumptions, you're
+going to get some things wrong, and then on top of that, get it out there and have real
+beta testers that give you real feedback. So certainly, there have been a lot of
+developments in the app building world that allow you to to do that better and quicker
+and cheaper and faster. And so those are the two most important things. Get to MVP as
+fast as possible. test it out, get it out there, and have beta folks, beta testers, use
+it. Because I think a lot of founders fall in love with their idea of what they think is
+a sharkbite problem, you know, something that's monumental. They might be right, they
+might be wrong. They're almost never 100% right. And so the the faster you can get that
+MVP, the faster you can
+
+[00:03:11]
+get beta testers using it, you can learn what's missing, what people are hungry for,
+desperate to pay for, and use, and that's the most important thing. So, how do you
+advise someone who's kind of at that phase? Like maybe they've gone through Figma and
+got a clickable prototype up and running. They're now putting it in front of people. Do
+you recommend like structured user interviews or just like plop it in someone's hand at
+a restaurant or what do you advise people to do? >> Yeah. So, I think the step before
+that clickable prototype, the step before the Figma is customer discovery until you're
+blue in the face, right? So, I think it's important to do and I call it blue sky
+customer discovery. You go in with open-ended questions. What do you hate about taxis?
+Right, this is Uber, you know, customer discovery before they built the app. What do you
+hate about the taxi service? What do you hate about going to doctor's offices? What do
+you hate about preparing your taxes? And of course, there's some subtler ways to ask
+that question. But that's really what it comes down to is is you've got an idea that you
+think there's this, you know, burning need for. And you might be right, you might be
+wrong. But what you
+
+[00:04:14]
+want to do is let people sort of go off and talk about what they hate, what really is
+problematic in the space. What do you hate about esports training? You know, what's
+missing? What's the gap? What would you pay for? And and let those conversations go and
+do a lot of them because the first five are not necessarily representative of the next
+95. I'm a big fan of the IORE program. That's an NSF program that's nationwide and their
+focus is 100 customer discovery interviews a week at the national level. It it is a
+grind. It is a gauntlet, but it forces you to understand that, you know, doing 10
+customer discovery interviews does not get you what you need because you're just not
+sure if those if those 10 are answering the right questions. And it's never the
+customer's fault. They're trying to help you. Most people like to be people pleasers and
+everybody loves a good startup story. So, they want to brainstorm in blue sky, you know,
+but if you lead them with questions, hey, I've been thinking about building an app that
+does X. Oh, yeah, that sounds great. You
+
+[00:05:17]
+know, no one's going to say, well, that's stupid. Or, no, I wouldn't use that. Or, well,
+I'd use that, but I'd never ever pay for it. So, taking just that step back from the MVP
+first is to really do that customer discovery till you're blue in the face and make sure
+you're on to something as best you can. Then build the MVP, then get it out there
+because there's still going to be features and functionality that are home runs and that
+are total strikeouts and not important to anybody. >> Sure. So going through this and
+and gathering this discovery phase as we'll call it these customer pain points, ideas
+for for improvement in a particular space or how do you take then that step and and get
+that translated into actual product decisions when you're going to build this
+application? So you know you gone through the discovery process, you got all this this
+reasonable amount of data and pain points and wish list items. Then how do you take that
+and turn that into something to be built? Now >> that's the magic question, right? The
+million-dollar question. That's really the tough part after you've listened to the crowd
+and heard what they've had to say. All right, how are we going to build it and that's
+where you need one
+
+[00:06:22]
+subject matter experts and two technical experts to say well this is how it's done. It's
+easy to look back on something you know like Uber and say oh yeah that's how they built
+it. And I don't know anything by the way about Uber. I don't know the founders nothing
+like that. I'm just use it as a a great example of a disruptive technology that, you
+know, that came out that maybe I certainly wouldn't have thought was necessarily going
+to work for a variety of reasons. I would have poked a million holes in it, but
+ultimately they built something and and got it to work. So, Aaron, apologies for dodging
+that question. I am not the one to help with that part of the process. Right? That's
+when the technologist comes in, you know, and say, "Well, look, this is what we've heard
+and and this is what the problem is. We need an app so people can get a ride now, map it
+up. So, how is that going to work?" I think that's really the tough part. And that's
+where you've got to have a developer you can trust. You've got to have someone who can
+think about these things from the 100,000 foot level and translate that into the the
+ground level. So, I don't I don't have any silver bullets or big
+
+[00:07:26]
+words of wisdom on that. I just try to in these situations understand enough of the data
+and understand who I can trust to make decisions on how the functionality comes
+together. >> Sure. So taking it then to that person, you know, these subject matter
+experts or or development team or or what have you. Let's assume that the founder, the
+creator, the idea generator has what they need and they're now ready to go forth and
+make this MVP. How would they go about vetting or or selecting a development team or or
+a subject matter expert to get it to the next step assuming that they don't have one in
+their pocket? >> Also a great question and also one of the toughest parts of the
+process. I think I probably share the experience of many founders and startup executives
+when I say that I've had bad experiences with a lot of technology developers and app
+developers out there for a variety of different reasons. I think this is where you have
+got to do as much homework as you possibly can. You want a company that has been around
+at least for 5 years if not more. You want them
+
+[00:08:31]
+to do up to have done a high volume of projects and ideally you can call people that are
+not on the list of people that they tell you to call, right? References that are not on
+their list of references. Not that things don't go wrong sometimes and nobody's perfect,
+but you want to hear an honest opinion from from someone hopefully who is happy, a
+couple of people that are happy, but it's about, you know, doing your homework. You
+don't want someone who's just getting started and super hungry, but you want someone
+who's a little bit hungry. So, look at options that are not necessarily, you know, in
+those big metro areas. The other thing I'll say is I don't have any problems outsourcing
+offshore. you know, half a hire is offshore uh fractional support for administrative
+workers. It's not at all about technology, but you know, I've seen that work extremely
+well. There's absolutely no border that magically causes someone to be good at coding or
+not good at coding. You know, there's some of each. But what I do believe is you need a
+native Englishspeaking
+
+[00:09:36]
+project manager. someone ideally at the app development company who is truly native
+speaker and again no disrespect to other countries but things get do get lost in the
+translation and so I don't mind if the coding's being done somewhere else at a lower
+rate but people that are overseeing that project have have got to be able to understand
+what's needed and and there's got to be that common language they've got to I think have
+grown up here >> yeah I think communication issues are the primary issue with going
+offshore I mean there are other challenges that come up with that. But if you are
+launching into a project where the person who's doing the implementation arm of your
+project, especially if they're doing 100% of the implementation arm of your project is
+not someone you can communicate with extremely directly and extremely effectively.
+That's really bad news. So I I appreciate you for calling that out. It lines up exactly
+with my experience as well. So kind of going back a little bit to getting MVP, kind of
+selecting a team or all that. I've seen a lot of people talking about trying to make
+sales and close deals before they even have a product where they're getting people to
+put down money for the idea of something. Is that something you you recommend? Do you
+have
+
+[00:10:38]
+a reaction to that? >> I'm not in in favor of that. I know that you know certainly any
+small business and especially startups cash is always going to be tight and it's great
+to have revenue at the right time but I do believe first of all nowadays that a lot of
+people don't plan on paying for apps and are not motivated and what you need is a lot of
+users that's the key is it okay to start charging when you have a functional app yes and
+I've done it that way but it will slow your growth and I think that's a mistake I made
+in the past is you know insisting that once we had a good product really sort of second
+round beyond really second MVP that we started charging for it and there were reasons
+for that at the time but in hindsight the startup failed and one of the reasons it
+failed was we couldn't get enough traction enough users especially if you are relying on
+investment funding when you get to that point right you've got the MVP and even if you
+bootstrap that you know you're going to need a round at some point, you
+
+[00:11:41]
+have to have users that traction, that pathway to revenue is much more important than
+revenue at that point. Again, I know it's a balancing act. Every company needs money,
+but the idea of having people pay for something before it actually exists, you're
+setting yourself up for all sorts of challenges with those customers. There are other
+challenges if you let people have stuff for free when it first exists, that first MVP.
+And you have to be, you know, very tough on that agreement, if you will, that implicit
+agreement with beta users that, you know, look, this is not going to be free forever. We
+want your feedback. We need your feedback. It's free right now. And you, it may be that
+you, you know, it's always free and there's a premium model or, you know, sponsorship.
+There are all sorts of ways to skin that cap. long answer to the short question is
+before there's a functional product, no, I am not in favor of getting people to pay for
+it. So, I know that, you know, just looking back in in your past and where you've been,
+what you've done, there's a lot that goes into obviously operations,
+
+[00:12:45]
+having proper ops, and I think that's kind of what we're moving into here, but is there
+a time then when waiting too long to build in proper ops has cost the startup momentum
+or or even its survival? you had talked about, you know, a lot of them fail and and
+things like that, but how much of that is is because of ops at the right or wrong time?
+>> Yeah, that's a tough one. You know, most startups fail, right? Anywhere from 90% up,
+depending on how you track it. Everyone agrees with that, right? One in 20 is the best
+you can hope for. And it's probably a lot worse than that if you really go back to sort
+of when people, you know, just sort of get the idea off the ground and start spending
+time on it. So that idea of you know when you build in those right structures when you
+say ops right whether that means a salesperson a marketing team you know people that are
+full-time W2s versus 1099s how you build that team all of that has to be done extremely
+extremely carefully because money is tough right that that's money is tight it's always
+going to be tight I think that the first step is got to be the
+
+[00:13:51]
+customer discovery right and I know we're going backwards The next step is build that
+MVP and beta testers, right? And then you feel like, okay, I'm on to something. This is
+a product that some percentage of people cannot do without. They're going to pay for.
+Great. Then you start to look for revenue. You look for paying customers. And at that
+point, ironically, when you start to not need it as much, that's when the investors come
+in. Because when you're revenue positive and maybe on the verge of profit positive,
+they're like, "Great." that now, you know, obviously this has been derisked and we're
+ready to write checks. But the good news is if that you can get there if you ca if you
+can get to revenue positive and maybe even profit positive and then you can decide if
+you're going to take a round or if you're going to fund the growth of the company
+through the profits and at that point then you start making decisions in terms of what
+must I have right now just like a minimally viable product needs to
+
+[00:14:54]
+be only the features that must be in this version in order to get people to use it and
+get you to that next stage, whatever that stage is, right? Them paying or them using it
+and giving feedback, thousands of them using it. The same thing is true if you look at
+sort of the staff and the overall budget of a startup, it should be looked at through
+the lens of an MVP, right? So the you know first it's one person and then maybe it's two
+part-time people that are supporting that one founder and all of that has to be what you
+must have to get to that next level. Wouldn't it be nice to have a PR firm? Wouldn't it
+be nice to have a full-time salesperson? No. That's not the type of decision you can
+make as a startup founder. It's got to be what you must have. Have startups failed
+because they didn't invest enough right spend enough money on operations on people on
+marketing? Absolutely. But it's hard to say if that's why they failed because so many
+startups fail no
+
+[00:15:58]
+matter what. You know what you can say at the macro level at the top is most startups
+fail because they run out of money. They don't find paying customers. They run out of
+investments. They can't get another round. and that's why they fail. And so if they fail
+because they run out of money, then you've just got to be very very careful with that
+money at every stage. And yes, sometimes you're too conservative and that means you
+don't grow and you don't get to that next step. But I think it's more about nice to
+have, right? No foosball tables, no offices, no PR firms until it's critical, until I
+must have it. And there are startups that need PR firms earlier than others for a
+variety of reasons. So again, it's up to that founder to say, "This is what I must have
+right now, and therefore, I've got to spend money on it right now." So what are the
+signals for that? You've got early adoption or you have adoption of some kind. You know,
+it's moving the MVP along in the life cycle and you know, you're trying to make some of
+those determinations, but you obviously still have to figure out if I if I even have a
+
+[00:17:02]
+product and is it solving the right problem. What are the other signals then to keep an
+eye on especially for those that are new to this or that are starting things up? You
+know, what do they need to look for in that 10ish% that may be successful or the 90%
+that fail? What are those signals to keep an eye for? >> Yeah, I think that customer
+churn is very very important in this. I think a lot of founders focus on we got to get
+new customers and new customers and we but well what's happening? Are the customers
+staying? Are they active in the app? So that's sort of a second thing, right? is are
+they leaving or are they just going silent and or using the app once a month for
+example? Both of those are failure points. So, okay, why is that happening? That's
+something that you have to spend money and time on to figure out why is that happening?
+It's not just about getting new users. And a lot of times founders like, oh, you know,
+got a thousand downloads, right? And so that means we're killing it. Well, no, they've
+got to use the app and then they've got to keep using the app because no matter what, if
+your churn is horrendous, super high, or if you're,
+
+[00:18:05]
+you know, monthly average users, your your, you know, engagement rate of existing
+customers is really low, then you're on the path to failure no matter what. It's always
+about sort of getting the startup to that next phase. What is that next phase? proof of
+traction, proof of revenue, a pathway to revenue, a pathway to profits. And you've got
+to always pivot. That could be 30 days, it could be even more frequently than that. You
+got to sit down and and reassess what's going on. Because the one thing that I know for
+sure is that the initial ideas that I have had right when I started companies or joined
+companies, joined startups, those initial ideas, that initial business model has never
+ever been perfectly correct three years later. Not even close. Maybe once it was it was
+close to perfectly correct. And that was just dumb luck, right? It's the exception that
+proves the rule >> or it was a very simple predictable business model.
+
+[00:19:06]
+>> Yeah, exactly. which can be the best, right? And this is something if you don't mind
+a soap box for a couple of minutes. One of the things that I've talked to a couple of
+people about recently that I feel very strongly about is a great pathway for a startup
+is if you go into a business and you actually learn the business and become a
+practitioner. So our most successful startup and the one again that I got the business
+model right right away I had been director of marketing for two of the largest trade
+shows in the country and I identified a shark bite problem and then we built a better
+mousetrap. There were mousetraps out there. They were not performing well. We built a
+better mousetrap and then I went out and sold it and the strength was because I had been
+a director of marketing. I was the prototypical customer for this product. I knew a lot
+of people and I talked the talk even for people I didn't know for two years. And this is
+not me bragging. I I think I'm a decent salesperson but not great. For two years if I
+got an a live demo 30 minutes or an hour I closed 50% 50%.
+
+[00:20:13]
+>> Wow. Magic. >> For two whole years and that's what did it. And the model there again
+is one that I don't want to say it's trivial but it's relatively easy to replicate. It's
+relatively straightforward which is to say go into industry become an executive in a
+certain area whether it's marketing director sales director ops director something like
+that where you understand what the problems are and what the pain points are identify
+that the current mousetraps are not performing well then you can build it and then you
+can sell it because you talk the talk you speak their language and there all sorts of
+other little things like pricing right pricing is always a guessing game but if you're
+there as a practitioner first you know what those relative budgets are. I knew what a
+relatively large trade show. I knew what the marketing budget was going to be like and I
+knew that this was painful and I knew exactly you know who to go to and and what to say.
+The product worked that made it, you know, an easy sell. I think that's an area, you
+know, founders sort of dream up this is a great product.
+
+[00:21:16]
+here's a real need but instead become a practitioner become a you know a customer first
+and also all of those solutions following that model is B2B which I think is just all
+things being equal much easier than B TOC B TOC is always a knife fight and B2B again
+problems it's not perfect and most startups fail but all things being equal it's easier
+I love your angle on on becoming an expert in whatever it is that you're trying to solve
+the problem for and we see that a lot as a consultancy. You know, we we always have to
+become basically experts in whatever the subject matter is in order to properly help
+clients, you know, overcome a hurdle or or get to the actual problem to be solved and
+then to solve it. But doing so in their terms and and on their ground, I think that's
+incredibly important. Going back to that original question about sort of you've
+identified the problem and then how do you know how to build the solution? I knew how to
+build the solution because I had lived it. I not, you know, not just thought about the
+problem or talked about the I lived the problem. So I knew all of the components. I knew
+how to,
+
+[00:22:19]
+you know, I could whiteboard it. I could say this is what we have to build. And then my
+my wife built it. I was super lucky and that, you know, allowed us to bootstrap it. And
+that helped obviously as well. >> Well, it goes to show as well that when you have a
+fantastic product, marketing and sales are a lot easier. And focusing on product will
+help out dramatically or can help out dramatically if you're having sluggish sales or
+issues with marketing. If you make your product easier to understand andor better, makes
+a lot easier on finding sales, finding customers. >> So Evan, would you say then that
+technical founders, those that aren't necessarily expert in what it is that they're
+trying to solve, often overestimate the adoption and and usage phase and then
+underestimate the hurdles or the problem being solved? Is that a fair statement? >>
+Yeah, I think we all do. I think anyone who's in the startup industry one way or another
+is a dreamer. I I've only had sort of that one big idea and that was really out of
+necessity. I just saw I was a practitioner, but I'm still a dreamer. I think we all are.
+I think that's a critical piece of being a founder is to, you know, think you can change
+something. You can build
+
+[00:23:21]
+something new that's going to change something. But what goes along with that is, I
+think, exactly what you said, just being overly optimistic about how easy it's going to
+be. And that's every stage of the process. You know, I talked to a young founder the
+other day saying, you know, these two guys for meal got $3.1 million to build this app
+and it's only half of what we're planning to do, so we should easily be able to get
+money. And I'm like, yeah, that's not the right logic. Most startups don't get money.
+You saw one that did get money. I get it that you feel like they're not doing what
+you're doing, but first of all, there's plenty of information that you don't have about
+why they got that money. Nobody writes those types of checks without doing due
+diligence. So, there's something else there. So I I think in most cases founders
+underestimate how difficult it's going to be especially firsttime founders and then the
+best founders are subject matter experts and dreamers because that's where the best
+ideas come from and you have to have an idea that this is you have to identify this is a
+problem and I think I can fix it in this
+
+[00:24:24]
+way then you know you do everything else we've talked about with the customer discovery
+but those founders that are subject matter experts and dreamers and start a company are
+likely not to be very good business people. They probably are not experienced business
+people. They probably never run anything. Maybe not even a department with multiple
+people, not even P&L for, you know, a project line or a product line or anything like
+that. And so that's the the second challenge is that you want them to be dreamers. You
+want them to be subject matter experts because that's where the idea comes from. But
+then somewhere along the line they have to surround themselves with people that can
+actually execute and run the business. >> Yeah. Being being an entrepreneur and starting
+a new company is inherently a contrarian act. And it's also inherently a statement of of
+arrogance or maybe confidence if you want to use a better word. But you're basically
+saying that everyone in the marketplace has either not had this idea or has had and has
+been unable to execute on it. And you for some reason are going to be capable and you're
+going to step up and earn
+
+[00:25:26]
+that market share. So I think that a very healthy dose of optimism is a requirement for
+founders. So I think that's spot on. You said something kind of earlier on in our chat
+about when the investment shows up a lot of times that's in the same moment where you
+don't really necessarily need it anymore. So if there's someone who's either
+bootstrapped or or has been floundered around trying to find product market fit and
+who's either got there on their own or maybe with some other people's money stepped into
+it and kind of stepped into that stage and now they're kind of at that decision point of
+what does going through a round look like? What does taking on investment look like is
+how do you coach people or what do you impart to folks who are kind of standing at that
+decision point in terms of both do you decide to do it or not and then who do you bring
+in first? >> Yeah, that's a great question and also obviously yet another really
+difficult situation the founders have to navigate. It's great news that they've gotten
+there, right? They've gotten to the point where people are interested in writing checks
+and they've gotten to the stage where it's compelling. They've they've got a path to
+revenue or maybe revenue, maybe profits. And at that point it's like, well, do we take
+money? Do we not take money? How do we do that? I do think things have gotten a little
+bit easier for founders than it it used
+
+[00:26:29]
+to be, but at the same time, there are so many founders out there. There's so many
+people chasing money that it's really really difficult. So, I think that first of all,
+you have to do a friends and family route. And the reason is because they're just
+willing to take a flyer on you. They're willing to invest and they're willing to sort of
+bypass most of the due diligence. And I I don't say that in a um sarcastic way or like
+that the founders are trying to take their their family's money, but ultimately the
+biggest challenge with fundraising with angels and VCs is how long it takes. Even if
+they are interested and they're interested for a while and then at some point, and I've
+been in this position, I've written checks, not recently. you know, you're looking for
+something, you're excited, and you are ready to write the check, and you keep doing the
+due diligence until you're not ready, until you see something. That's a big enough red
+flag for you to flip the switch because deal flow is probably never ever going to be an
+issue from this point forward, right? It's definitely not an issue now. It's so easy to
+find tons and tons of really
+
+[00:27:34]
+great startups to invest in. So how do you know if you need I think the original
+question was the decision of whether to take the money or not that again is about sort
+of getting to that next step right what do we need okay we've got a th000 users 100 of
+them have actually bought premium and so we feel like if we get 10,000 users a thousand
+of them will get premium and we're home free what do we need to get to 10,000 users do
+we need a million dollar in marketing do we need $250,000 in marketing do we need a
+full-time salesperson whatever those the answers are as best you can tell. Then that
+defines the amount of money you need to get to that next step. I hate it that there are
+startups that live from round to round because it's dangerous and that's why a lot of
+them fail because they run out of money. That's happened to me. Great first round, 700
+grand, mostly friends and family, a few angels and one VC. 700,000 gave us two years of
+runway. We did everything we were we were supposed to do, but we just didn't get enough
+customers, not enough
+
+[00:28:37]
+compelling traction to get that next round. I knew we needed it. I knew we were I I did
+everything I could to make that runway as long as possible, two full years to spend that
+700, but at the end of the day, there including, you know, the VC and the angels that
+were in the first round, they begged off cuz we hadn't done enough to get them to write
+another check and that was the end of it. So I hate the fact that there are startups
+that have to live from round to round, but it's a fact of life. So if that's the model
+you have to follow, make sure that when it comes time for that next round that you've
+done everything, you've got the compelling information, you've got the traction, the
+KPIs that you need. Ideally, you'd put off taking money for as long as possible. You
+take as little money as possible, and you stay away from VCs for as long as possible.
+Not because they're evil or nasty people that are trying to steal your business. Some
+small percentage are. I don't think most VCs are, but they have a very different model.
+I think you guys probably know this, but but I'll say it out loud. VCs
+
+[00:29:40]
+believe that one in 20 are going to be a home run. Then they're going to place 20 bets
+and they're going to push each and every one of those startups to be a home run. Now,
+they've self- selected startups that they think are going to be a home run, but they are
+not satisfied with a double. A double is failure for them because it's not going to get
+them the return they need. They know it's only one out of 20. It must be a home run,
+arguably a grand slam home run. And so, when you take that VC money, you have to know
+that they're going to push you to be a grand slam home run. Most founders would say, "I
+would love to start a company in 5 years from now, 10 million in revenue, 4 million in
+profit. I'm getting paid a nice salary. Everybody's getting paid. Everybody's happy."
+That's the American dream. But for a VC, that's a failure. It's not a criticism of the
+VCs. That's the way the model has to work. The whole startup ecosystem is reliant on
+them. They have to play the game that way, >> right? And everybody going into that
+
+[00:30:42]
+situation has to be at least on the on the application side has to be aware that that's
+that's the likelihood that's the possibility, right? And just like you say, position
+yourself against whatever metrics you have to set yourself up to be able to scale into
+that next round. And as you have pointed out, even if you do everything right, there's
+still a very good chance that that next round is not coming or that the next level of
+number of users is not coming. I guess where I'm going with that question is, is there a
+point at which the dreamer has to kind of set the dream down? If it's not painfully
+obvious, you know, I'm out of money or I'm out of users, you know, at what point do
+founders really need to start considering, you know, this is this is as far as I'm going
+to get and it's time for me to move on to something else. Yeah. I don't remember who
+said it, but it's a a fairly famous serial entrepreneur who's, you know, who hit it big
+time with one of their startups and they said, "It's not that that I'm that much better
+or that that much smarter, but I just failed fast." You want to fail fast, right? You
+want to take four years or two years and, you know, walk away rather than limping along
+for 10
+
+[00:31:45]
+years. And so, yes, you have to coldly look in the mirror and, you know, obviously you
+run out of money. That's when the decision is taken out of your hands. But even before
+that, you have to look at it and say, is this worth another year of my life? Whether I'm
+being paid at market rate or, you know, for most founders, it's probably below market
+rate, even if they're funded. You know, that's the the opportunity cost. They invest
+that time and effort, and it's it's hard. It's hard to say it is just it's not working.
+But if you're going to fail, it's better to fail after four years than 10 every single
+time. But that's then so you've just got to keep evaluating it. And it's hard. It's
+hard, especially when it's your idea. When it's your idea, you love it. I've been fairly
+lucky to see success quickly and also see failure, you know, within 4 years, 4 and 1/2
+years sometimes rather
+
+[00:32:48]
+than 10. And that's what you got to do because we've all got limited, you know, time on
+this earth and limited bets that we can place. If you want to be a serial entrepreneur,
+if you want to keep doing it and be a founder for your life, then you you've got to
+place as many bets as possible. And that means walking away from the bad ones as soon as
+you're sure or confident that it's very likely that it's just not worth your time
+anymore. >> Sure. Would you say that there is a particular decision or a decision-making
+process that you have consistently seen coming back to bite founders like say 6 months
+in a year in you know something that they did or didn't do that is now the blocker for
+going forward is there is there anything along those lines that you see so a couple of
+areas I think one that's fairly obvious right is you get 700 grand in funding and you
+you get an office and foosball tables and, you know, go on staff retreats to uh
+Porttoarta or something like that. And uh I hear it's a great place.
+
+[00:33:51]
+>> You know, you've got to always watch every penny. Every single penny. I don't care if
+it's t-shirts or foosball tables or, you know, any of those things. You want to take
+care of people. You want to celebrate a little, but you've got to extend that runway.
+You've got to do everything you can to extend that runway because the idea that the next
+round is coming is, you know, maybe, maybe not. And the fact that you got one round and
+people loved you, you know, as I've seen personally, doesn't mean they're going to write
+a check again unless you've proven yourself. The the first check, sure, they want to
+write the second check. They want you to succeed, but they're not going to write a
+second check if you're not meeting the milestones that they expect you to. So that's the
+first thing is you get that, you know, you have a round and you're like, "Oh, this is
+going to last forever. I can live from round to round forever and so I'm not going to
+watch I'm really not going to watch this money so carefully." That's the first problem.
+The second problem with founders that I've seen is this idea that you can do everything,
+that you're you're good at
+
+[00:34:54]
+everything. And and nobody's good at everything. God knows I'm not good at everything.
+There are plenty of things that I can't do. You got to surround yourself with people
+that can do the things that you can't do. And even if you're pretty good at everything,
+you still can't do everything. At some point, you've got to be able to delegate. You've
+got to be able to let go of some of that control. And and this is, I think, related to
+that is founders that must make every single decision, right? They've got a COO, they've
+got a director of marketing, and yet they've still got to make every single decision.
+That's a mistake. You trust those people. You have to focus on where you can add value
+to the company. It doesn't mean you're not part of the conversations most of the time.
+But as the company grows and as the team grows, you have to be willing to let go of
+things. Everyone in the seauite has to do that as the company grows with with people
+below them. Especially the founders, they've got to be willing to let go of stuff. The
+worst CEOs that
+
+[00:35:58]
+I've seen, both startups and other companies, are the ones that feel like everyone in
+this building, everyone on this team, I can do their job better. Maybe so most of the
+time, maybe even so 90% of the time if you're smart enough, but it doesn't matter
+because you can't do all of those jobs. And you have to let people you have to hire
+grown-ups and for the most part stay out of their way. They do something wrong, tell
+them, you explain it, you figure out a path forward, but you've got to hire people that
+are that are going to work for you and get things done for you. Other mistakes that that
+founders have made, not enough customer discovery. I have fallen prey to this and I kick
+myself every time I do it. But you think that you're on to something. you know, our f
+super successful uh little startup in the trade show industry. We had 70 trade shows as
+customers. I had the opportunity to buy some software in a related area, a different
+product for the trade show industry. I didn't do enough customer discovery. I thought I
+
+[00:37:00]
+could sell it to my 70 customers and others cuz I thought it was super cool. It was
+super cool. It wasn't enough. And there were a variety of reasons why the first product
+was successful. Fundamentally, it was a shark bite problem that people were willing to
+spend money on. The second one was not a shark bite problem. It was a nice to have and I
+thought it was super cool and I kided myself and stole kicked myself for you know we
+bought the software and I couldn't sell I couldn't sell it to 70 existing happy
+customers. I couldn't sell it because it was not the same. So not enough customer
+discovery at every single level. You know the founders that are convinced they're in
+love with their product. They're sure they've got the right solution, the right features
+and benefits. And then the last thing I I'll say on this question is no truly holding
+true to an MVP. You know this idea that this first version of this product and certainly
+in apps this I think is a big problem is saddling it with features that are not
+necessary at this point. You cannot build the perfect app the first time around and you
+shouldn't
+
+[00:38:03]
+should build the cheapest you know minimally viable product. Everybody talks about it
+but nobody really pays attention when they're the ones building it. They want to build
+the best product right away with all these features and it's never ever gonna going to
+work out for a variety of reasons, right? More expensive, takes too much time and you
+may be wrong about those features. You build something, you know, quick and dirty and
+test it and then the next version is also the next MVP. One or two additional features
+that customers are screaming for. You're letting the great get in the way of the very
+good. With the case of MVPs, you know, you're letting the great get in the way of good
+enough. That first product should be good enough to test it and get some users and learn
+what's truly necessary and then build the next MVP and the next MVP after that. >> Yeah.
+If you don't have product market fit yet, uh, don't worry. Be crappy. Be crappy. Be
+crappy and get in front of people. They'll tell you what they think.
+
+[00:39:04]
+>> Yes. Yes. For sure. >> Until you have product market fit, you are drowning. >>
+Absolutely, Evan. It has been an absolute pleasure. Want to say thanks as always to my
+co-pilot Justin and Evan. Again, special thanks to you. How can people reach you and
+where can they reach you? The best way probably to reach me is through LinkedIn. It's
+Evan Schubin, just like it it sounds or e van su i. My profile is up and send me a
+message there. I'm very responsive and that's the uh easiest way and also allows you to
+see sort of a little bit of what I've done. The LinkedIn profile is not comprehensive,
+but it's a pretty good snapshot. Always happy to talk to other founders and help in any
+way that that I can. So, I do hope that people will reach out to me. >> Thank you for
+being so generous with your time. We really really appreciate you uh coming on. >> Thank
+you, Justin. Thank you, Erin. It was a great fun and a great pleasure. You bet. And a
+special thanks as always to our listeners. And we will see you all next time on SAS that
+app. Thanks for cruising along with us on SAS that app. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. If
+
+[00:40:07]
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

@@ -1,0 +1,775 @@
+Why Most SaaS Companies Fail to Scale in the AI Era
+===================================================
+
+Video ID:  vU4QbL3aNTY
+URL:       https://www.youtube.com/watch?v=vU4QbL3aNTY
+Published: 2026-04-28
+Duration:  00:54:10
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Do not make your business identity your personal identity. You know, this business is
+very important and it is your passion, but also it's not you the human being. There's
+more to you than just this business [music] as big as it feels right now and as all
+consuming as it feels right now. >> Welcome to SaaS That App, building B2B web
+applications, the podcast where we share real-world stories, practical advice, and tech
+insights for those building or thinking about starting a tech-enabled business. I am
+your co-host, Aaron Marshbanks. >> And I'm Justin Edwards. Each week we bring you the
+stories, strategies, and insights you need to build your SaaS or tech-enabled business
+smarter, not harder. Let's dive right in. >> Hello all and welcome back to SaaS That
+App. With me as always in his awesome new polo from our trip to MicroConf is my partner
+in crime here, Justin. How's
+
+[00:01:03]
+it going, man? >> Hey, doing pretty well. We continue the trend of you commenting on my
+shirt at the start of every episode. >> It's awesome. I I love it because I never know
+what to expect, but I do dig the the the the Delta shout-out. >> This is my first actual
+Delta piece of garb despite several years of being a a Delta guy, so I should go to more
+conferences more often. >> Right. Yeah, we can we can use that as the leverage. I need
+some I need some Delta swag. It's time for a conference. >> [laughter] >> Uh also today
+we are joined by Jeff McQueen who is a four-time with over two decades in the trenches
+of building, scaling, and exiting SaaS companies. Uh probably best known as the co-
+founder and long-time CEO of Xero, which grew into a leading platform for professional
+service teams, and now he is building and working on uh Work Sites AI, which is an AI
+native platform uh focused primarily on continuous performance intelligence for modern
+leaders. Jeff's journey spans kind of the full arc, solo agency, scaling SaaS,
+successful exits, and he's seen firsthand what building companies is all about, how it
+is rarely clean, often messy, and we're going to get into all that stuff today. Jeff,
+welcome to
+
+[00:02:06]
+the pod. >> Welcome. Thank you. Great to be here, Aaron and Justin. >> So, uh I got to
+ask you my most challenging question, but but you have a really interesting one. You
+have got to tell me how you made the journey from milk boy and barista to to like CEO
+and founder of of SaaS businesses? >> Yeah, yeah. Well, like a lot of folks, um early
+years were, you know, sort of school-based stuff, right? Who's going to hire a school
+kid? Uh turns out there are people. Uh it's generally cash in hand, and uh it's
+generally really freaking hard work. And um and so, yeah, it was the the early years uh
+back when I was growing up in Australia, it was still a thing to have a truck come
+around, uh more like a little van, frankly, and uh they would bring milk and drop it off
+to your house. Usually, uh started off in the afternoons, and then it moved to the
+morning shift, so I would set the alarm for 3:00 a.m. as a teenager. Do not recommend it
+uh as as a joyful thing, but as a character-building thing, it was great. Especially in
+Australia, where you run down dark and passageways beside people's homes to drop milk at
+
+[00:03:10]
+their front door. And uh if you know a thing or two about Aussie animals, you'll know
+that spiders are no joke. And so, when you're the one finding those spider webs at 3:00
+something in the morning with, I don't know, probably 6 kilos in each hand, 20 pounds in
+each hand of of milk. Um that's not to be uh not to be underestimated as a character-
+building experience, but no, I I did I did, you know, sort of a bunch of IT and
+computer, and and then it pivoted into software stuff uh through university, and I
+decided I wanted to to really be much more entrepreneurial. And so, I actually dropped
+out of university and started my first business, which was a uh what you would think of
+as a software-forward digital agency in the uh early 2000s and built that up and learned
+a lot of lessons the hard way and then pivoted that into creating software for those
+kinds of people primarily with Accelo, which is really an operating system for
+professional service firms. >> Fantastic. Yes, and I'll I will I have been to Australia.
+My wife has been many times as part of as part of her work and one of the reasons that I
+I always gave
+
+[00:04:14]
+for not not going with her more often was because it seems that everything in Australia
+wants to kill you whether you can or not. And uh I am definitely afraid of spiders. And
+so I get Of course my feeds are always just chock-a-block full of Look, here's a spider
+like eating a small rodent. It's like, "Yeah, no. No, I'm done." >> Yeah, no. It's uh
+I'm actually flying back there tomorrow uh evening for uh first time in a while. And I'm
+doing a talk at a at a probably the leading SaaS and and software um conference for
+startups there. And uh looking forward to that. And part of my talk is is exactly that
+point, Aaron. Like, you know, when you're uh when you're in a barren or difficult
+environment, turns out there's a lot of pressure to perform or you your genes don't make
+it. And so yeah, Australia's got something like seven of the 10 most venomous snakes. Uh
+and it's just because, you know what? If you've only got one chance at dinner in your
+life, you're not going to miss you're not going to miss. So uh yeah, it's an interesting
+uh evolutionary pressure that's to be sure. >> No doubt. So talk to me a little bit
+about how you uh kind of made this jump
+
+[00:05:18]
+from early on being in in services to something that was more product-based or or
+product-oriented. >> Yeah, it's a great question. Um I think everybody who runs a
+service business dreams of running a product business. >> Mhm. >> And everybody who's
+running an early-stage product business dreams of services revenue because it's real
+revenue. >> Mhm. >> Uh it's just the nature of these things, you know? >> Yes, that's
+100% true. >> Yeah, I think the the challenge for a lot of a lot of us who cut our teeth
+in services is when that building up a set of competencies and if you're in technology
+you can actually start to put into code and libraries and workflows and playbooks your
+IP that you develop by delivering services and and it feels it feels like it's just
+right there, you know, just in front of you is truly the opportunity to product ties
+this thing you've been doing as a service for a while. And uh and and I did that but I
+would not recommend it to most folks because
+
+[00:06:21]
+it turns out that you end up trading off at least two sometimes four orders of
+magnitude. And what I mean by that is think about the moon buggy, you know, when they
+when they built that in the '60s I think they they made three of them and I think in
+inflation adjusted terms they were worth like three and a million bucks each or
+something like that like a lot of money cuz you know, they all had to be electric motors
+and and that wasn't a thing and all the sort of stuff, right? It's a very expensive to
+build three units but it made sense because that was a classic services play like you
+need a thing that's you know, there is no market for this thing. And uh of course they
+didn't have ABS, they didn't have airbags, they didn't have power windows or any windows
+and so you know, you sort of like think about what that that vehicle had for that price
+point and and to me that is the archetype or the pointiest end of services and so you
+get great revenue but low volume. And then on the flip side think about someone like you
+know, Kia. They they sell cars at volume and they're relatively low low price when you
+think about what you get because they come with ABS and you know, all of those things
+that I that I said the moon
+
+[00:07:25]
+buggy doesn't have. And those cars go for four orders of magnitude less money. So you've
+got to make up a lot of volume to offset the fact that your your having to lower your
+prices because the customer's expectations go up massively like one, two, maybe three
+orders of magnitude expectations of what the product can do when it's a product as
+opposed to a service. And conversely, their willingness to pay goes down one to maybe
+three orders of magnitude. So, that offset is not for the faint of heart. And and and
+that was that was my experience of of doing it. Um got lucky, worked really hard, had
+started some great insights into the customer. That's one thing service people have.
+You're in the trenches, you're with the customer, you're you're feeling their pain, and
+you're solving their problem, and you're getting that incredibly tight feedback loop.
+So, you've got real assets and and opportunities from that insight that are really
+really valuable. But converting that into a product is is still really not for the faint
+of heart.
+
+[00:08:28]
+>> Did you use partners and contacts you had from your service business to help you with
+product design and testing and vetting and all that? Did you have uh people you were
+able to bring with you, or was it mostly just your your hard-won experience? >> Yeah,
+it's a great question. So, uh a little bit of yes and a little bit of no. Um it was it
+was primarily like the core team from my services business that had the true kind of
+software and and UX um kind of DNA, if you know what I mean. And and so those folks uh
+became my co-founders in the in the product software company. Uh but it wasn't so much a
+case of like partners or resources or services cuz one of the things when in my case
+built a successful services business, won business of the year awards, had customers
+from small operations uh up to Department of Prime Minister and Cabinet back in
+Australia. Uh that was great, generated revenue, and effectively I took those retained
+earnings and plowed them into the software company um because it is it's very expensive
+to
+
+[00:09:30]
+create a product um based company uh realistically. And uh because of those order of
+magnitude factors, the customer's not willing to pay as much and their expectations were
+a lot higher. So, uh yeah, we did a bit of that, but it wasn't really a case of doing a
+whole lot of kind of like, you know, engaging folks external cuz we just didn't didn't
+have the cash to survive doing that kind of thing. >> Yeah, and of the Dakota movie that
+there, which is the service companies are extremely easy to start. Extremely easy to
+start, extremely hard to scale. And product companies are hard and expensive to start
+and then very easy to scale once you once you get that product market fit. Uh so, were
+you a bootstrapped founder then? You just took your your recent earnings from company
+one and plowed it into company two? Like they did the investment based off of services.
+I love that. That's so cool. >> But then, you know, there's also a limit. Like SaaS is
+one of these things where the recurring revenue is great, but that's because you're
+looking at it as a forward-looking DCF over a 5-year time period. Um but in month one
+and month two, you've still got to put food on the table. So, it's it's really hard.
+Like in some respects, I'm a bit jealous of, you know, friends of mine like Mike
+
+[00:10:32]
+and Scott from Atlassian because their journey started out with kind of like buying
+licensed software for a particular version. So, they were, you know, earning two and a
+half to five grand to throw for each company that put early versions of Jira in. Um so,
+they got that cash up front. And nowadays, customers are unwilling to do cash up front.
+And until recently, the market has rewarded recurring revenue way more than cash up
+front. So, but it doesn't solve for the problem that bootstrapping that kind of a
+business is incredibly hard because if you've got a customer lifetime value like we had
+a customer lifetime value that was approaching six figures, uh but you know, that
+customer lifetime is was multiple multiple multiple years. And so, you've got to front-
+load your investment in people and marketing and capability development to have that
+product to where you can start to earn the MRR. Um but it's uh it's it's a very slow
+drip in the beginning. So, yeah. Not for the faint of heart. We ended up raising um
+initially bootstrapped for 3 years, uh then raised uh 2 mil of venture, which at the
+time was you know, I'd I'd
+
+[00:11:37]
+refer to it as like a seed round. Nowadays, 2 mil isn't even a seed round. I think they
+call that a like an angel or a super seed or a pre-seed or something. It's funny how
+that times change in 2014 to 2026. >> Friends and family depending on your pedigree. >>
+Yeah, yeah, yeah. [laughter] And then and then we raised more a bit more institutional
+to scale. But yeah, the the first survival phase was absolutely grinding it out, hand-
+to-hand combat, and taking returned earnings and and plowing it into the software
+company. >> Real quick, this episode is brought to you by Delta Systems, which is what
+Aaron and I do when we're not talking through microphones to you, the people of the
+internet. We've got a really, really great software team here and we'd love to work with
+cool people on cool projects. So, that sounds like you when you've got a problem or
+you're in some kind of a jam, go to deltasystems.com, grab a time with us. We can beat
+up on your problem together and if there's a fit there, amazing, we'll help you out. So,
+deltasystems.com, grab an appointment, and hey, maybe we can work together. >> So, you
+mentioned several times that it would you know, it's not for the faint of heart or
+something that's very challenging. I'm curious what what made
+
+[00:12:40]
+you take the leap then? I mean, had you had you gotten an exit that you were really
+happy with and were just looking for something else to do and wanted to do that or was
+that actually the goal was to get out of this and into that? >> Yeah, I wish it was a
+former, but no, there was no exit. There was no money. Like, we were just still just
+dirt poor, man. Just dirt poor. Like, win a contract, try to deliver it profitably, take
+the results, you know, it's that classic play. Yeah, no, that So, the reason for doing
+it, I think, you know, there was a a couple of reasons. We're all driven by emotion. So,
+my emotional reason was to see if I could do it. Realistically, and it wasn't like the
+big angry chip on my shoulder. It wasn't like, you know, someone said I couldn't and
+screw you, I'm going to do it anyway. It was it was more of in in 2006, so quite a few
+years, like 5 years before I I ended up moving to the States with Xello when it was
+still called Affinity Live. It had a different name. It was earlier and and in a free
+beta period. Um
+
+[00:13:42]
+5 years before that, I was in Silicon Valley with a company I co-founded with a friend
+that was a very short side quest. Um and we basically built a Dropbox before Dropbox.
+It's the only thing I've done that was B2C. Um it didn't last long. It was really short,
+exciting, had some traction, got some recognition. And it was in the early days of that
+Web 2.0 boom and we got uh written up really favorably by Mike Arrington from TechCrunch
+at the end of '05. And we then got lit up by venture capitalists all up and down Sand
+Hill Road, who at the time were using TechCrunch as a source of deal flow cuz this is
+still in the early days of blogging. I found myself in Silicon Valley in January of '06.
+I basically couch surfed at Mike Arrington's house and and hung out in the valley um up
+and down, you know, Palo Alto, [clears throat] Sand Hill Road, Menlo Park, all of those
+places for about 3 months on and off. And and then eventually I was like, "Actually, you
+know,
+
+[00:14:44]
+uh I need to I need to get back to my my sort of agency business that was in some ways
+bootstrapping what we were doing with uh with the storage product." Uh and that that
+business didn't work out. Like it was one of those ones where it was close, but you
+know, if you're catching a wave and you know you've missed you've missed your wave, um
+you know, swimming harder to try and catch the wave that's gone by is is just going to
+leave you tired and not catching that wave. And so uh I I went back to Oz and spent the
+next 5 years, but I couldn't kind of unlearn what I'd learned. That being in the middle
+of Silicon Valley and connected to that scene and and having, you know, sort of the the
+conversations and the challenges, I realized as someone from the far side of the world
+that wouldn't have I would have considered, you know, performing and succeeding in
+Silicon Valley to be, you know, 10 to 100 times outside of my my competency. Uh instead,
+I was like, "Actually, this is doable. It's really hard. And there's no guarantee of
+success in anything in life, but this particularly is going to be, you know,
+
+[00:15:47]
+long odds, but it's not out of reach. It's not ridiculous." And so, I sort of
+emotionally resolved to go back when I had something worth going back for, which is what
+let part of the emotion that led to to doing something that's not for the faint of
+heart, creating a software company out of a services business starting point. Um but I
+think the other part also emotional, was I I frankly was a bit pissed off. And the
+reason I say that is I'd spent, I don't know, call it seven-ish years building this
+professional services business. And a lot of people I knew ran professional services
+businesses. And I had had a number of commercial near-death experiences. And I talked
+to, you know, other people in the same same roughly line of work. Maybe they were an
+MSP, maybe they were an architect, maybe they were an accountant, probably less
+accountants, but you know what I mean, like people who are doing different types of pro
+serve. And they they agree. They're like, "Yeah, this sucks. It's feast and famine." And
+you have a project go sideways and you don't realize it's going
+
+[00:16:50]
+sideways soon enough to to try and get it back on track. So, then you're desperately
+trying to deliver this thing with the minimum amount of of damage to the business and
+the relationship and the reputation. And just I was I got pissed off that the big end of
+town could go and buy things like ERP software that could give you visibility, you know,
+when you order something on online and you can track it with UPS and you can see which
+truck scanned it, and when that happened. And meanwhile, inside my own business as a pro
+surfer, I couldn't tell you what happened the day before unless I stopped what I was
+doing and went and had a bunch of meetings and investigations. I was like, "This this
+this is pissing me off. Like, this feels like it should be solved, but but the big in
+the town didn't care about SMBs. They were just like, 'Deal with it. Build your own
+nonsense with Access or FileMaker Pro or stitch it together from six or seven different
+SAS tools that don't talk to each other. Good luck, mate. I hope you don't fall through
+that manhole that we've left over there.'" So, so I just I I I don't know. I was I I
+
+[00:17:52]
+was a bit I was a bit, you know, sort of as I said, a bit pissed off. And so, those two
+emotions of proving I could because I I felt like it was plau- a plau- plausible, and
+then wanting to solve a problem for people that I genuinely cared about, people who were
+accidental business owners. They were great at doing what they did, but didn't really
+kind of know from a starting point how to run a great company. They were learning by
+trial and error, which is very expensive when you put your house on the line. And when
+you got a whole team who look to you and say, "It's going to be all right, isn't it?"
+You have to like believe that it is, even though you don't know what the heck you're
+doing. Um those people I was like, "Let's give them visibility. Let's give them sort of
+a fighting chance here because these are our neighbors. These are the These are the
+people that, you know, our kids go to school with. That's their parents. That's our
+cousins or our aunties or our uncles. Like, this is normal Main Street. And this is also
+where all the job growth comes from, where the innovation comes from. It doesn't come
+from the Fortune 500. They're not really worried about
+
+[00:18:55]
+disruption. Or maybe they are sometimes, but they're not really trying to make, you
+know, operations better. They're just trying to make sure they don't get fired if you're
+an individual kind of worker bee inside those big companies. So, so anyway, that was my
+my passion. And so, those two factors uh combined to make the irrational still a
+decision to make even though it still is and was completely irrational. >> I love that.
+You're probably the first person who's actually listed being pissed off as one of the
+reasons for switching, but I so appreciate that. >> [laughter] >> You got to be
+motivated cuz it's super irrational. It's it's got to it's got to be deep-seated. >> I
+know Justin does. I know I know Justin appreciates that perspective, too. >> No, I think
+I think a lot of people are pissed off and most people are mince words and aren't quite
+as forthright about about that cuz it's also one of my my stories is I I have a company
+that we started cuz we were pissed off and that's so glad that we're not the only ones
+and literally all honest enough to say it. So Yeah, I my ears kind of perked up when you
+were talking about having a team full of
+
+[00:19:58]
+people who are looking at you as the leader and the risk-taker. You're sitting there
+being like, oh, yeah, I don't have this all figured out where you guys are actually
+along for the ride. You're just not aware of the situation that you're in. Um I guess do
+you have any wisdom or anything that came from that like you have to have the confidence
+to lead people or how how much how far back do you pull the curtain to let people know
+kind of what's going on? >> Yeah, it's a great great question. Trying to think about
+specifics. I think the general sense is to be a successful entrepreneur, I think you
+need to have enough genuine and justified confidence, not false, but genuine confidence
+that that you can work out the best way to navigate whatever situation comes your way.
+And it's that capacity to do that that matters a lot more than having all the answers.
+And I think that's what you need to share and show with your team. I don't think you lie
+to them,
+
+[00:21:02]
+but I also don't think you tell them you're quietly yourself and you haven't had a good
+night of sleep in a month. Um cuz that that doesn't help, right? Like imagine you're a
+captain of a of a ship at sea and everyone's getting a bit hungry and you you're like I
+think we might have a problem. Uh if we're not lost, we're not far from lost and I've
+got to try and you know, sort of we've we've been becalmed or if it's the old sailing
+days, you know, and and it's going to be a struggle to to get there, but you know,
+there's there's importance in in your crew believing they can rely on each other and
+rely on you to work out a path through a difficult situation cuz once hope is lost, you
+got nothing. And any of us in business when we're dealing with challenges, I think it's
+worth thinking about folks who've come before us. I love the story of Shackleton from
+his incredible attempt to cross Antarctica and they got into trouble and got stuck in
+ice before he even got to Antarctica.
+
+[00:22:05]
+And he managed to save every single member of that crew by them coming together and
+working together and they managed to get from Antarctica >> [snorts] >> o- over to the
+tip of South America via uh I think it's uh Georgia, one of the islands in the deep deep
+south, um kind of South Ocean there. And uh you know, they did some crazy stuff like
+sailed effectively a raft that they fashioned for something like a thousand nautical
+miles. So, I mean, the odds are long but if you got hope and it's not unreasonable cuz
+you've got genuine confidence of the in the competence and the character of the people
+that you're working with and being led by, then then it's not unreasonable to to to have
+to have that hope. >> Once you get everybody kind of rolling in the same direction, uh
+we'll we'll stay with the uh the ship analogy, I guess, or the the analogy there. What
+are we doing? >> [laughter] >> Um talk Talk a little bit then about, you know, you you
+got in traction, you you've you got the team, you're you're putting things together and
+it's kind of taking shape and it's forming up. So,
+
+[00:23:07]
+talk to me a little bit about the scaling process. I mean, specifically with Accelo, but
+just in a in a general sense, team, product, features, dealing with customers. I mean,
+all of those things I'm assuming have to grow and change over time. I would see it a lot
+of different ways. So, talk to me about that scaling process once you once you kind of
+made made ground. >> So, in that case, we didn't go kind of hyper growth or hyper
+scaling. We were, I think, we're doing a bit over 100% a year growth and and then that
+pulled down to like 70s and and, you know, sort of as you scale, law of big numbers
+kicks in. Um So, in our experience, in my experience, it was having an eye to the future
+and a plan, but also recognizing that, you know, there's some quote about um you know,
+we make plans and and God laughs. Um so, being, I think, pretty pretty realistic that a
+lot of entrepreneurial journeys uh feeling your way through a darkened room and
+
+[00:24:09]
+and not getting too caught up or wound up uh about the fact that you made plans what you
+were going to do six quarters from now cuz you had to put in a spreadsheet for investors
+and they're not planning out panning out the way that you anticipated. Um because
+reality is it's almost certainly never going to turn out the way you anticipated.
+Hopefully, it's that rare case where you you really catch fire and it's fantastic and
+things are growing faster and you're dealing with that hyper growth, but uh it's not
+often the case that that happens and even in those cases, those moments of hyper growth,
+stress and drama are often uh transitory and then you've got to do some some repair work
+and and try and get the the, you know, things in order. So, I think, generally speaking,
+it's about thinking a quarter or two ahead, executing a month or two ahead, and being
+very honest about where you actually are every day and week. Uh cuz the the times where
+I think I
+
+[00:25:13]
+made the biggest mistakes is where I was overconfidently projecting the current pattern
+of success of a channel, for example, of lead generation or a conversion rate of a sales
+process, and thinking, "Great. We can just do 10x more of that, and we'll get the 10x
+outcome." And And it's very rare for that to be the case. You know, for most
+entrepreneurs, they'll they'll recognize that if you tell uh the team internally that
+you're going to 10x something, and you've told investors because you've raised capital
+you're going to 10x something, that becomes uh a big flashing light to everybody within,
+you know, sort of any any line of sight that there's some money to be made here by
+getting you to spend it as you entrepreneur. So, your sales leadership will say, "Well,
+in that case, we need to hire these people. We need to hire that." And they've built
+themselves an empire of 20-something people before you you could blink.
+
+[00:26:14]
+And did And did stupid things like said, "Oh, yeah, you know, we need to be able to hit
+an extra 5 mil of top line, and each AE can carry a quota of 750, and realistically we
+think that there's going to be some that don't don't hit quota. So, so let's try and
+pull that back to six. And so, therefore, we're going to go out and hire X number of AEs
+to be able to hit our quota." And I've never seen a business where hiring AEs leads to
+revenue. You think sales people means revenue? No, no, no. It's just a piece of the
+revenue puzzle. Admittedly, the most overpaid piece, but it's just a piece. You've got
+to have the demand there, and you've got to have the conversion rate. You've got to have
+the retention. Like, it's a whole thing. This is a system. And so, when you say, "Oh,
+I'm going to scale this thing, and I've got the capital to scale this thing." Every
+recruiter says, "Oh, here we go." Every leader I think goes, "Oh, here's an opportunity
+to have a bigger empire that I can put on my resume and convince them I should have a
+title up lift, and
+
+[00:27:18]
+you know, you see the story time and time again. Um so, I think being very honest
+ruthless ruthless about the reality and correcting for mistakes as opposed to the old
+Austin Powers line of just, "Well, we'll just close the the roller door here." And it's
+of course, you know, just assume everything went according to plan. Um is is never the
+way to play it. >> So, I want to I want to shift just a hair further down the road then
+and and talk a little bit about about exit because we've had a few we've had a a few
+people on the show where, you know, um earlier on in the process, exit kind of becomes
+the goal. But, more often than not I find that it's somebody who feels passionately
+about the idea, the solution that they're trying to put out there to their clients. They
+don't necessarily have that as an aim, but an opportunity presents itself and it begins
+to become a reality. And then that whole process kind of takes over. I mean, it's got
+it's got legs and and you know, there there's so much that goes into it. So, talk to me
+a a little bit about, you know, what what was your vision? Was that a goal or did it
+just did it just happen to to be an opportunity? And then
+
+[00:28:21]
+how did you approach that? >> Great question. So, I think the first thing to say is if
+you're raising capital, you are committing to an exit. It's that simple. And a lot of
+people don't realize that. The a kind of venture capital media kind of industry that's
+Silicon Valley centric has I think done a great job of convincing earlier entrepreneurs
+in their journey to say that the goal is to raise capital. You know, if I can raise
+capital then I'm minted, I'm successful, I'm ordained, it's going to be great. And and
+to be sure, if the thing holding you back from scaling and realizing your dreams is
+capital, then raising capital is a very important part of your journey and a a critical
+gate to get through successfully. But, once you get to the other side of that, you've
+actually got to execute. And so, once you raise capital, you're committed to an exit and
+even if you don't know it, because you were so focused on the fact that I just need
+capital to make my dreams come
+
+[00:29:23]
+true for product X in market Y. Uh but once you do it once you've done it, you've done
+it and you're you're now that's it, you're on an exit train. And and the exit pathways,
+if you succeed, are you know, you can you can list them on a hand and you probably don't
+you probably can list them on Homer Simpson's hand. Like there's not that many fingers
+required to count them out. It's basically some form of of M&A exit. There is IPO and on
+fewer occasions, but I know a few of them, they actually defer the exit by buying out
+early shareholders because they've been able to to generate good earnings where they can
+effectively buy back to the shares of the earlier folks who wanted to have their exit um
+and needed to have their exit for their own reasons. So, that's kind of the landscape.
+>> There's also a big sore swollen thumb hanging off the side of that, which is failure.
+>> I think of exit as as a as a as the success exit. Uh everyone can everyone can fail
+at every point, including before raising capital and after and everything in between. Um
+so yes.
+
+[00:30:26]
+So yeah, failure is is by far your most high probability outcome. Um so, so I think in
+my case, uh raising capital, I knew an exit was was what I needed to do, what the
+business needed to do, what my investors needed to do and And personally what I needed
+to do. Um you know, when you when you start a company, pour your plow every dollar from
+the first business you make into starting your next business. Um you know, there's
+there's the opposite of portfolio theory. Incredibly concentrated personal balance sheet
+that at some point you want to realize and crystallize. It's very natural and normal and
+sensible to do. So um so yeah, I think then it then it becomes, you know, what's the
+right stage for an exit? What's the right acquirer, if it's an acquisition? Um is that
+acquirer a financial acquirer? As up until recently been a a very healthy I don't know
+if healthy's the right word. A very active world of of private equity type investors who
+buy companies and stitch them together with other companies and then sell them down the
+line to the next guy until eventually somebody buys them and takes them public. Uh or
+takes them public, I
+
+[00:31:29]
+should say. So So yeah, I mean that's that's a pretty common path. Um acquisition by a
+big dog who needs you strategically is a path. And of course, IPO is a path. So So you
+just, you know, it's going to vary depending on the nature of the the business and where
+you're at. Uh and I saw a a great a great piece just the other day is like a lot of
+companies and in this case the advice was all companies with I guess the tiniest set of
+exceptions have a 12-month period where they are at their hottest and their most
+valuable. And after that, it's actually diminishing returns. Which also comes with more
+of the cost from a time value of money, not to mention the time and trips around the sun
+of the life of the entrepreneurs and the leaders um around diminishing returns. So of
+course, time in the market's pretty pretty hard, otherwise they wouldn't do it. But it's
+it is um I think also worth being really clear-eyed about. Um when I'm advising
+entrepreneurs, I think I've
+
+[00:32:32]
+mentored, advised, and invested in over 200 now. Um depending on how you measure it. One
+of the common things that I've been saying to folks is, do not make your business
+identity your personal identity. Like, you know, this business is very important and it
+is your passion and for this phase of your life, your life's work. And I'm not
+discouraging you from having that level of drive, focus, and commitment. But also, it's
+not you the human being. There's more to you than just this than this business as big as
+it feels right now and as all-consuming as it feels right now. Um, and I say that partly
+for their own sanity cuz most of the time these things fail and you don't want to, you
+know, sort of you want to maintain a growth mindset and not the fixed mindset. And the
+fixed mindset says, well, I this business is me and it failed so therefore I failed. Um,
+or I'm a failure. That's not true. Um, and also because you want to be able to imagine a
+time where you do exit the business as a thriving going concern and move on with your
+next professional and personal chapter.
+
+[00:33:34]
+>> We're just back from MicroConf in Portland. We saw an amazing amazing amazing
+presentation by someone there who's talking about kind of getting getting exit ready and
+all that. And he talked about folks he's worked with where they just wanted to get to
+the next revenue number cuz it moved them into a different multiple and all that. But as
+they were pushing and waiting to get to that next revenue number, their growth tapered
+off. And it's like, well, you you actually missed the right window to sell your company
+because you're not growing as fast as you were and that was the biggest driver of your
+valuation, not this revenue this revenue number you wanted to >> increase. >> And and
+also, just, you know, macro sentiment you can't control. Like, when interest rates went
+up in 2022, the oxygen left the room. And you could have had you could have printed a
+number that was twice as good on revenue and twice as good on some form of capital
+efficiency and you would get offered half as much as a price than you did 6 months
+earlier just because of, you know, the fact that the people doing these sorts of deals
+needed to plug a number into this spreadsheet for an IRR hurdle rate because all of a
+sudden now you can make
+
+[00:34:37]
+5% risk free and before you can make 0% risk free. Turns out that makes a real
+difference to how much people are prepared to spend on something. >> You were you had
+the services company and you kind of pivoted into into product. Were you continually
+involved in both while that was going on or did you have kind of a clean break? >> I
+held on to the services role longer than I should have and was trying to run the
+services company from the states, which is very unwise. So, I would highly recommend not
+doing that. And with this kind of exit mentality and framework, if you are planning to
+do a transition from services to product I would I would recommend that you don't try
+and put your feet in two canoes at the same time. You tend to get wet. And and so, I
+would suggest that folks don't do what I did and instead once they've got enough
+validation from an MVP point of view that the product team has potential and they're
+they're emotionally motivated to it, whether it's they want to prove it to themselves or
+you know, they're pissed off or they're
+
+[00:35:39]
+they're excited and can't sleep cuz they're just excited about this side of things. Uh
+that's okay. But, I think then they should frankly spend a quarter or two getting their
+services business ready to sell and sell it. Because that way you you're not going to
+find yourself with a foot in two canoes. And the reality is when you're an entrepreneur
+and you put in place managers for a services business sometimes it can work out well but
+most of the time it doesn't because there is that entrepreneurial X factor and once you
+withdraw your focus and once you withdraw that entrepreneurial X factor that you bring
+or your co-founders bring and focus on the new thing then that business is very unlikely
+to do as well, no matter you know, what you've got or who you've got in place as as
+managers. I think the one exception is maybe if the services business is a true
+partnership and your partner is willing and able to truly
+
+[00:36:41]
+keep running the thing, but you have to have spent a lot of time with them as partners
+and they have to be you know, really willing to to take over all of that entrepreneurial
+effort um in your absence because you can't build a product business like without being
+110% focused on that product business. The odds are just too long. It's too hard. It's
+too expensive. There's too many too many traps. >> Sorry, I was just going to say I
+think that's I think you just said a lot with that. That's uh I think really really
+sound advice and uh talking to people on this podcast also mimics my personal story
+which is that I I wouldn't have been able to start company two without the exit from
+company one. And like we'll see what hap- for me it's company two's number two, so we'll
+see we'll see how company two goes, but having some money in the bank, some chips off
+the table with your earlier point, it really does uh free you up both uh in terms of
+ability to take on risk, but also in your freedom from distraction um to focus on the
+the next thing. >> The focus is your operational kryptonite. Having the the financial
+cushion to take bigger risks or at very least feel like
+
+[00:37:44]
+you're you're not one mistake away from from destitution is is another part too, but
+even I I feel like that that it's the focus piece is is 10 times more important because
+frankly no matter how many chips you took off the table, the the new thing is still
+pretty darn high risk. >> What brought you into this and and Work sites AI in particular
+and this idea of you know, continuous intelligence, performance based on that and and
+away from like traditional reporting which is something that's near and dear to me cuz I
+spend a whole lot of time doing reporting. >> Yeah, no, I I I I love it. Um you know,
+dashboards are always my friend. Unfortunately, they were a uh a little a little bit of
+a deceptive uh lover, um but you know, we'll get to that. So, yeah, look, backstory is
+sold sold Axelo um, too young to retire and also too high energy to to think that that
+was a good move for for mental health or for my my family's benefit either. And so, um,
+so this is now, you know, a bit over a year ago, AI is is obviously everywhere
+
+[00:38:48]
+all at once, um, and and I was wanting to separate out with my own degree of confidence
+what the truth versus fiction was in terms of what AI could really do. And and I I've
+got you sort of an engineering background, partly self-taught cuz I dropped out of uni
+before I finished getting my my degree in telecommunications engineering, but still,
+like, I love nerding out. And and so, I just jumped in to the AI stuff, but I didn't
+want to just build hello world applications or end up five coding another Tetris clone
+on lovable. That that that didn't feel useful, right? And I felt that the best way to do
+this would be to build a real product that I wish the world that existed in the world
+based on my own experience of running Axelo. And so, I set out to to build a product
+that helped leaders to have better visibility of what was going on in terms of the work
+and activities of their their team members. Uh, but without being spyware, because when
+I was
+
+[00:39:52]
+running uh, my last company, we had situations where some remote folks were pretending
+to work from home, fake work from home. And and that was causing some issues around
+culture and and it's really actually quite a corrosive spiral because when your A
+players see that your C players aren't performing and or even trying and when they see
+that they're not immediately being fired or having consequences, then it can be really
+culturally corrosive because you end up with your A players that decided, well, why am I
+working so hard? Or why do I care? Or, you know, like, is the joke on me? And so, you
+can end up with this really bad spiral. And so, I I created a product that was just a It
+was actually kind of impressive. But, I realized, even though using AI to build it was
+fantastic and exciting, and truly like how fast you can build now is was mind-blowing.
+>> [gasps] >> I also realized that that product was was kind of fighting the last war.
+You
+
+[00:40:57]
+know, like, anyone who really cared about this would have gone out and bought some of
+that crappy spyware that I refused to buy for moral and and kind of values-based
+reasons. But, if you're in enough pain, and you're looking for a painkiller not a
+vitamin, you know what? You'll you'll you'll buy something that maybe you don't like.
+Uh, and so, I realized what I what I'd been building was cool and satisfied my desire to
+really see what AI could do, but it wasn't going to find product market fit. At least
+not in a world that I wanted to focus on. I didn't want to get into that kind of spying
+on people naughty nastiness. Um, and so, I I sort of reflected over January, okay, which
+way do I want to go here? Cuz I, you know, I don't I don't feel like this idea is is
+it's a nice thing to solve a problem, but it doesn't feel like a great business. Or at
+least not one I want to drive. And it was about the same time Open Core was going
+bonkers. And I realized that one of the big problems that a lot of us running companies
+have
+
+[00:42:03]
+with AI is the the models are incredible, but they are the classic garbage in garbage
+out situation. And putting good context into the models is way more important than
+writing a great prompt. Everyone was talking about prompt engineering. I'm like, well,
+that's great, but what if you actually give them grounded information about your
+business or the challenge you're trying to solve? Your prompt might be terribly short
+and even have typos, but you're going to get a better outcome. And so I realized that
+there was this need to have AI serve the business as a as like a as a thing, not just a
+user in a professional role feeding the AI bits of context, but actually having the
+business as a whole and its context and memory and understanding of what's happening in
+the business day-to-day. The qualitative stuff, not just the quantitative of our
+dashboards and and your reports of of love
+
+[00:43:07]
+uh and experience, Aaron, but but that kind of qualitative stuff. I was like, actually,
+what Open Claw has done for individuals, putting to one side the security stuff and the
+kind of going rogue and deleting your inbox kind of a bit too aggressively type stuff,
+but the core of of that mentality of Claw's, which is always running, they have memory
+that they build upon, they have souls, which is very highfalutin, but basically
+describing kind of a really important input context, and then being able to message
+them, or the thing I thought that was the coolest about Open Claw was it would message
+you when it saw something cuz it was always running in the background. I was like, this
+is a thing that should be available for running a company and for leaders of a company,
+not just as an individual personal system to tell tell who their meetings are with that
+day. That's more like a party trick, frankly. But, actually something that is running
+
+[00:44:12]
+constantly that is almost like uh a team of McKinsey intelligence kind of advisors, but
+for less than the cost of a single intern who can read everything that's going on in the
+company through public Slack channels and calendars and Google Drive activities or
+Microsoft 365 Teams meetings. And it can read all of that and understand it and then
+create memory from it. So, then agents can run across that and tell leaders, "Hey, you
+got something that you didn't know about that you might want to pay attention to." And
+so, that's what I built with Worksuite's AI. So, I think of it as sort of the open claw
+that you use as a person, but instead it's built for the company using company-wide
+visibility that doesn't require everybody to get on board and do all of the setup. None
+of that friction. You turn it on, three clicks, and then it starts to ingest. It'll pull
+in the last 30 days of information, so you actually have value like from day one.
+
+[00:45:15]
+And nobody has to change a single thing about what they're doing. Because in my last
+company, Xola, our big challenge there was we could make the business way more
+productive and profitable and successful and take away a lot of those near-death
+experiences, but it did require everybody to get on board and everybody to change their
+work patterns. And frankly, I didn't want to do that again. That was really hard. And
+so, this time the work the Worksuite's AI product connects to your cloud systems and
+ingests them automatically and gives you the value from day one without having to change
+any behaviors at all. And heck, if you connect it to Slack, it'll just tell you when it
+sees things, and you don't even have to learn another user interface if you don't want
+to. So, that's the idea. It's It's giving that full AI experience that we got as
+individuals if we were brave enough to install open claw. And it made it available to
+the whole business. And particularly to the leaders who frankly can only see what's in
+front of
+
+[00:46:18]
+them. And yet there's another I don't know if they can see 40°. There's another 320°
+that they are blind to. And AI can can solve for that because it doesn't need to sleep.
+And with a million context window today and it's only going to get better. It can It can
+read and frankly make sense of everything that's going on in a company and then it still
+goes down into memory so you can ask questions about it later. >> That's amazing. I have
+I have like a million more questions now because that's super fascinating. And things
+that we're getting into ourselves just in an eye on on the client side work on the on
+the services side in addition to you know internal rollouts of certain things. So yeah,
+it's just it's incredible. Um and I I am with you. I I love the notion of uh you know,
+this automated digital assistant and uh you know, that you can you can get minutes back
+in your day and and maybe sometimes hours back. But the the the real bang for your buck
+is days
+
+[00:47:20]
+months, insights, you know, that level of thing and and being able to see across those
+boundaries is is so cool and I see a lot of juice there. >> So I'm keeping an eye on
+time. Sadly, we're we're kind of added but I'm going to I'm going to give Jess another
+last question here. Last question here is usually the same almost always the same which
+is what did we miss? What was one thing we should have asked you about that we didn't?
+>> I think given the the title of this this podcast and the the SASpocalypse kind of
+narrative that's out there and and and whatever. I I I think now is the best time in
+history to be building software. And I think and I wrote a blog post about it just the
+other day. If you guys want to link to it in the show notes out of curiosity, but but I
+think it really is the best time. And I think commercially it is in some respects the
+most challenging because of competitive forces and the fact that, you know, there's the
+barrier to entry went down, which means there's
+
+[00:48:23]
+more entrants and act actors like actors and the audience still only has the attention
+they had before and the gatekeepers of the duopoly of Google and Meta are are still
+charging obscene rents to get to them. So, it's it's like, you know, it's still hard.
+It's not the that kind of golden age, but I think the ability to move fast and focus on
+the user and focus on solving real problems is is outweighs those negatives. Um I mean,
+with Workstead's AI over the course of a month we're able to go from conceptual
+prototype to everything I just described and more working live. I mean, it's it's just
+incredible how fast you can iterate and solve for real problems for real people and I
+love that. I do think there are unfortunately a bunch of folks who are going to have
+some really hard times and they're the focus of the SaaS apocalypse. There are companies
+that have raised capital with valuations expecting a 10 times forward ARR multiple of
+their
+
+[00:49:28]
+valuation and those have come back to threes. Now, should they be at threes? I don't
+know. I'm I'm not the crystal ball finance guy, but I do know that if they've set up
+their cap table that way and their employee share option plans that way and their
+investor expectations that way, those that world is is that's going to hurt. And a lot
+of the market will make it. Additionally, um the investment people who would buy the
+companies at 10 times ARR and stitch together and as you said Justin reach another
+revenue where they get, you know, multiple expansion, that's that's not looking healthy
+either for quite a while. Like it feels like that playbook maybe not done forever, but
+certainly certainly the ratios that people used to work out are gone. And um and so the
+the buyers from an exit point of view uh are hurting a lot as well. And but one thing I
+don't think is going to happen is I don't think we're going to see people building their
+own software at much greater ratios of of you know,
+
+[00:50:33]
+percentage of people building software versus not than we saw before AI. Um I I the
+analogy I think of is gardening. I love having a nice garden. And I have zero interest
+in gardening. And I think a lot of us who love tech, we unfortunately assume everyone
+likes to build software, everyone loves to tinker, the same way that people who love
+gardening assume that everyone loves gardening as well cuz they do. Why wouldn't you?
+And all they need is knowledge and some land and they'll be happy gardeners, too. And I
+can tell you I've got some knowledge and I've got land and I still have zero interest in
+gardening and I never will. And it's just a preference. This is how I'm built, right?
+And I think software is the same. So a lot of us in kind of love to tinker and build
+with software think that well now everyone can, everyone's going to. And I I don't I
+don't buy that for a minute. The cost of maintaining this stuff, the cost of like sure,
+the joy of live coding something into existence that didn't exist before is is
+intoxicating,
+
+[00:51:36]
+but the hangover of maintaining it is going to re is going to bring reality back into
+play. So I actually think the SASpocalypse, the things everyone's going to DIY is
+completely wrong. But I think the the the SAS-pocalypse of a lot more competition coming
+in from people who really can and want to do things and are frankly going to go out and
+destroy a bunch of these private equity-owned dinosaurs. It's going to be nasty. >>
+[snorts] >> Because a [clears throat] lot of them were built on the basis of we'll pay X
+or buy three of them in the market, we'll force them together even though they don't
+integrate, then we'll triple the price cuz the customers won't have anywhere to go,
+we'll eliminate support, we'll eliminate R&D, and we'll effectively treat this like
+Stockholm Syndrome that all these guys love the abuse and they'll never leave. And sure,
+that was realistic if it cost you five or ten million dollars to get a product to a
+beta. But now it costs you, I don't know, $50,000 in tokens if you know what you're
+doing. And that that change, I think is what's the real
+
+[00:52:40]
+justified part of SAS-pocalypse, but I don't think it's the companies are going to roll
+their own. >> All right. That's going to mean that people have to have better, more
+humanitarian, more uh moral business models and it means that there's more competition
+and it means that people are going to write better software and crappy software is not
+going to stand anymore. Cuz they're all good things for the consumer, these are all good
+things for people who are entering the space and right now we're at peak uncertainty.
+The things are more uncertain now than they've been forever because no one knows what
+they're doing right now. Uh it's a crazy time and uh man, Aaron, why did we ask a damn
+question? We should have just let Jeff talk for the entire podcast. That was amazing,
+man. Thank you. >> Glad you liked it. >> Oh, so good. >> Happy to help, guys. And uh
+hopefully it's helpful for your audience, too. >> Absolutely. I There's There's so much
+in here. There's so many takeaways and and we'd love to have you back on at some point
+if you're game. >> Yeah, sure thing. >> Everybody, we've been talking with Jeff McQueen,
+uh currently founder and CEO of Ascendia. Jeff, thank you again so much for for your
+time and your talents and your insights. >> You're most welcome. Take care. >> All
+right. Thanks, all. If you like what you're hearing, hit that subscribe button. Come
+back and see us. Send us some comments and we'll catch you next time on Sass That App.
+
+[00:53:43]
+>> Thanks for cruising along with us on Sass That App. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

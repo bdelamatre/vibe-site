@@ -1,0 +1,689 @@
+Lights, Camera… SaaS? The App That’s Transforming Film Sets
+===========================================================
+
+Video ID:  RN17I7wNKcE
+URL:       https://www.youtube.com/watch?v=RN17I7wNKcE
+Published: 2025-07-15
+Duration:  00:46:53
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Bob pitched this to me. He said, "Why isn't there, you know, an app out there that lets
+people know on a set if their camera is rolling and it's a messaging system and there's
+a button?" And I said, "Bob, that's the dumbest idea I've ever heard in my life. Can we
+please move on to talking about something else?" And I felt bad about that interaction.
+And I thought about it some more. I knew all the steps to building a digital product. I
+looked at the kernel of what Bob's idea was and it's status updates, right? It's a very
+basic premise of status updates. Oftentimes, the most simple solution is the best
+solution. Welcome to SAS that app building B2B web applications, the podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech enabled business. I am your co-host Aaron Marchbanks. And
+I'm Justin Edwards. Each week, we bring you the stories, strategies, and
+
+[00:01:02]
+insights you need to build your SAS or tech enabled business smarter, not harder. Let's
+dive right in. We're back from the road and back in the office. I'm joined by my co-
+host, Aaron Marchspin, who recently rebranded that baby face and as always is much more
+likable than I am. My friend, is there any state in the Middle West that you haven't
+driven through in the last 30 days? >> Uh, I don't believe that there is. Maybe
+Nebraska. >> You've been putting down some mileage in your car there >> big time. >>
+Well, I'm super excited today because we've got uh two guests who I've had the pleasure
+of building, frankly, a really cool product with over the the last year or so. We got
+Ryan Sans and Bob Shambo. Uh Ryan brings a mix of marketing chops and a past life which
+touched the film industry and Bob on the other hand is our resident expert on all things
+film and onset life. Ryan, Bob, thanks for being here and welcome to the pod. >> Yeah,
+thanks for having us. >> Cool. To start us off, could you give like folks the quick
+pitch on what Rolling is and like what problem it solves?
+
+[00:02:04]
+>> Rolling is a all-in-one information sharing app for use in the film industry. Uh
+those kind of designed around the idea that uh two of the most common questions that can
+come up on set is are we filming right now and what scene are we currently working on?
+Uh film sets are big. They're spread out and communication is great. People have radios.
+People are very professional, but sometimes slip things slip through the cracks.
+Sometimes there's only x amount of radios to be handed around on set. And I kind of
+started putting uh rolling together in my head as a way to kind of resolve these issues.
+And then thanks to Ryan, we kind of kept adding features and ideas. And uh yeah, then
+again, thanks to Ryan, we found our third partner, Stu, who uh took all of our crazy
+ideas and actually made something very nice that actually looks good. And uh and then
+yes, thanks to Justin and everyone at El, we uh we actually now have a real thing. And
+>> so I'll jump in here just a little bit because I know that I was being egged on by
+Bob's eyes. He was going, "Get in here, you maniac." to fill in a little bit more
+context.
+
+[00:03:07]
+Uh, yes. So, I I my first career was in feature film production in Baton Rouge,
+Louisiana. So, that's where I I grew up for a number of years and I worked between Baton
+Rouge and New Orleans. Um, I started out as an unpaid intern. I had answered a
+Craigslist ad h Craigslist back in its day. Oh, back at back in its heyday. And I'm
+talking about this is like 2009. This is like 2009. So, it was, you know, Reddit was not
+super adopted at this point. Dig was still out there and Craigslist was still a pretty
+strong social media app for for better or for worse. I mean, Casual Encounters was
+driving so much traffic to Craigslist. Anyway, so that's how I got into the film
+industry was I came across >> through through casual encounters >> through casual
+encounters and it routed me all the way back to an apartment and I I rented that
+apartment for a number of years for $150 to live on a couch. But I digress. Uh no, but
+it truly was an actual Craigslist ad that I was able to weasel my way through the uh
+very
+
+[00:04:11]
+nent um talent pool in Louisiana. So, I was able to weasel my way up through production
+ranks uh to the point of being an assistant production coordinator. I learned very
+quickly that working below the line was not necessarily the I was not cut out for it. It
+is a tough life. It is a very tough um you know a lot of times working in the industry
+the industry at large there are a lot of analogies to the military right in terms of
+chain of command and there's a very good reason for that because you truly are in the
+trenches with people it is a slog day in and day out working on films is not glamorous
+it is one of the toughest most demanding least rewarding industries I've ever had the
+pleasure of working in. And so I decided after about 4 years or so that you know what,
+this probably isn't the uh the ideal situation for me. So I I moved to Chicago, which is
+where I live currently for a number of years.
+
+[00:05:13]
+Produced uh as a creative producer uh video content for the web back in the 201s. That
+didn't pay the bills. However, working in tech consulting did. uh and I found that there
+was a a very logical sort of transference of skills from working in the film industry to
+working in technology especially from uh you know a full stack uh blue sky view in terms
+of designing and developing technology obviously uh you know Delta is very well-versed
+in this uh and we'll get to what turned us on about you guys a little bit uh here in
+just a minute but I will put a in that uh and circle back to Bob. Uh because while this
+was happening, while I'm living in Chicago, possibly, you know, uh becoming
+disillusioned with, you know, shooting comedy sketches for Funny or Die as, you know,
+those waning years, Bob and I kept up every week playing video games together, whether
+or not we were playing I mean, right now, where are we playing
+
+[00:06:15]
+the most right now? I mean, after this call, we're probably going to be playing Space
+Marine 2, but we've, you know, Diablo I is a is a huge one. I have definitely uh Diablo
+I is great. I've definitely pushed him into Warframe is a big one, but back in 2021 in
+uh January of 2021, we're playing a lot of War Zone, if you're familiar with the the
+Modern Warfare and Call of Duty uh sort of offstripe. So, I'll hand it back to Bob to
+sort of catch us back up to this conversation. >> All right. Uh so, yeah, I've been kind
+of kicking around the app in my head for a little while. I had first thought of it while
+working on a set. It was uh one of those days where we were on location. We were very
+spread out. Uh it was actually the show NCIS New Orleans is what I was working on at the
+time. I was I was just a day player. Uh but um yeah, we had a very spread out day. Uh
+there was kind of an unfortunate radio mishap. I uh kind of missed the I didn't know if
+I missed the queue and we had moved on to the next scene or if uh or if uh it just
+hadn't happened yet.
+
+[00:07:19]
+And uh then I was like, "Ah, there's got to be a better way." And I kind of started
+imagining this app. And uh originally it was nothing more than a little checklist with
+numbers, not even scene descriptions, just like scene 42 check, scene 43x. And of
+course, a little button that would call rolling. And uh I uh yeah, we were, as Ryan was
+saying, we were playing War Zone and I uh kind of just pitched it like, "Hey, you know,
+a little while ago, I was thinking about this and been kind of kicking around my head
+for a while." And uh uh Ryan, what did you uh first think when I pitched you the app? >>
+I I thought it was terrible. I thought it was a terrible >> I I find it interesting that
+that that the conversation came up because you were playing War Zone. What kind of
+trigger must that have been? Oh, it's a lot of loading screens and uh I think that's
+more than anything. >> But you know what's wild is Bob, I actually have burned into my
+brain exactly what was happening when you pitched this to me. We were dropping in over
+uh and if anybody remembers uh Verdansk, there was a prison sort of module area, a
+featured area. We were
+
+[00:08:23]
+dropping into that area because I do flash back to this point in time all the time. I
+think it's one of those things where where were you when you know uh where were you when
+you knew that 911 was happening? I was a freshman in high school. You know where were
+you when you found out that the 911 of your career was possibly happening. Well, it was
+when I was playing it's when I was playing War Zone with my cousin and he pitched me
+this idea. Now, to be fair to me, Bob pitched this to me. He said, "Why isn't there, you
+know, an app out there that lets people know on a set if their camera is rolling and
+it's a messaging system and there's a button?" And I said, "Bob, that's the dumbest idea
+I've ever heard in my life. Can we please move on to talking about something else?" And
+I felt bad about that interaction. And I thought about it some more because I had been
+working in tech consulting at this point in time for a number of years. um you know full
+stack and and full journey right from user experience
+
+[00:09:29]
+iteration and strategy user testing I knew all the steps right I knew all the steps to
+building a digital product and it very again going back to working in film there is this
+huge analog over these two and I've talked to Bob about it a good bit uh and I'll say it
+here again bear with me because sometimes I'm a little bit rusty with this analogy but
+in the world of creating a uh movie we begin with the development stage. So the
+development stage is typically when a script is being created uh when the spark is being
+sparked when we are getting you know those initial uh bits of creativity sparked put
+together you create an entire package uh that is then sold to you know whether or not
+it's a studio or a a production company that will be able to develop it out further and
+to be able to move into pre-production. So we have this development phase in film where
+in the digital space we call that discovery right in terms of figuring out what is it
+that we're
+
+[00:10:33]
+actually creating here right then and if we go back to the film sort of analogy we move
+into pre-production pre-production is when we are doing the structuring putting together
+of you know all of the nuts and bolts of the film back when I worked in the production
+office I was an assistant production coordinator And a lot of those nuts and bolts are
+communication uh putting together all the different department heads, putting together
+all these different bits of logistics that are very endemic and very esoteric to this
+particular industry. It is one of those situations where there aren't a lot of tools out
+there that are really available off the shelf for the types of problems that these
+individuals and these teams tend to run into. So in your product life cycle like I said
+you have your discovery uh and then you move into uh well be design. So again going back
+to the film side of things you have development moving into pre-production. On the
+digital side you have uh you know discovery moving into design in terms of figuring out
+what that actual
+
+[00:11:36]
+foundational structure is going to look like. You know all the way from you know your
+ethnographic sort of you know studies and deep dives into you know what does that
+actually mean? what issues are we solving? You know, who are our users? What are those
+user stories? I'm sure that you guys talk about this all the time in terms of figuring
+out that, you know, product market fit and understanding who it is that you're solving
+an issue for. Are you even solving a problem in the first place? And I think that that
+really comes down to the biggest core of something. Are you solving a problem that
+exists in real life or are you sort of hallucinating what you would like to be an ideal
+problem for your manufactured solution? Right? Uh I think a lot of times at least from
+working in tech consulting and seeing other projects come across my you know desk I
+think a lot of startups look in that sort of direction. it is sort of this reverse uh
+engineering of you know what is this sort of fantasy issue that I'm trying to solve and
+then how do I create the solution that is created on a false
+
+[00:12:42]
+premise oftent times right people spend a long time uh at the blackboard or in their in
+their basement stewing on the perfect app and they don't spend any time talking to the
+people who they're going to be their potential customers who might actually use the app
+and very often I meet aspiring founders who can't answer the question, why would anyone
+care about this thing? >> And I think that's the biggest thing. Why would anybody care
+about this? You know, nobody outside of any sort of user testing that Bob and I have
+been doing, just loosely connected to any individuals. Nobody knows us. They don't have
+a, you know, a vested interest in terms of, you know, does this work for my friends? And
+that's how we've been trying to create an unbiased sort of testing environment as well.
+But going back to I won't labor I won't belleager this too much but in terms of rounding
+out that that sort of product cycle uh on the other end. So let's say on the film cycle
+uh we move into actual production which is when we're actually shooting the dang thing.
+We move into post-production which is editing the dang thing. The counterparts in the
+reverse, the mirror on that on the
+
+[00:13:44]
+digital process uh or the digital product side would be moving from design moving into
+development which is often sometimes also called production. Uh and then from there
+moving into deployment and then DevOps right and then looking at iterating and
+reiterating uh and then on the film side that's sequels baby that's all that is you know
+uh so there is as you can see you know a a fairly and again some of this may be a sort
+of a loose mapping but at the end of the day we're creating products right we're
+creating products that we're sending out into the world interactions and the variety of
+interactions therein fidelity of those interactions may be different but at the the end
+of the day, it's still something. It's still something that you're sending out into the
+world. So, when Bob came to me with this idea, again, I had that knee-jerk reaction, but
+then after really taking a review on looking at all the other, like I said, sort of
+false premises of a lot of startups, I looked at the kernel of what Bob's idea was, and
+it's status updates, right? It's a very basic premise of
+
+[00:14:48]
+status updates. It's one of those weird things where we talk about a million-dollar
+idea, and we're not there yet, but I think we're getting there pretty close. When you
+talk about a million-dollar idea, I think the conceit that's buried there oftent times
+is this is an idea that anybody could have had. You could have had, I could have had,
+anybody could have had, any real dummy could have had, but they didn't. and you didn't
+because we're focused on so many other things that oftentimes the most simple solution
+is the best solution. So that truly has been the kernel the sort of nucleus in terms of
+what the company that we've built out and continue to build out uh tries to imbue if you
+will. Give me just like a really tight like if I'm working on a film set and that film
+set is using rolling like how do I interact with it or what what does it do for me? >>
+Have your app. You open it up. You're immediately got brought to a homepage that has the
+show name the day out of the day. So you'll see like oh today is
+
+[00:15:51]
+uh May 28th. We're on shooting day uh four of 20. Uh we're currently on scene 24. It's
+all right there. Uh if you've seen the app itself, uh we have uh what we what uh is kind
+of unofficially officially called the weapon wheel. Kind of going back to Ryan and I
+being gamers, but uh the weapon wheel itself, if it's uh black and the banner's not
+moving, you know, we're not filming. So again, with the original, you know, kind of
+conceit of the app with one glance be able to answer what scene are we on and are we
+filming right now. Just a quick glance at the home screen can always answer that. also
+providing some other important information. We have a little uh drop-own menu or flipup
+menu right on the homepage that shows the entire uh checklist for the whole day and uh
+then you have all your other modules dedicated button to the day's call sheet and sides
+which uh for folks who aren't in the film industry sides are this parts of the script
+that are being
+
+[00:16:53]
+filmed that day. So, if you're filming scene 42 and 43, they'll basically just be pages
+with those specific scenes. Consumes a lot of paper and if they're ever misprinted, you
+now have to like reprint them all. And people do use digital and people do get emailed
+them a lot. So, I mean, there are still digital solutions, but rolling makes it even
+easier because now everybody gets the sides. If sizes or call sheets have to be updated,
+the new uh soon as the updated things are uploaded, everybody has it. Uh there's also a
+dedicated locations button. And uh it was one of those fun things where yeah, looking
+back when uh it was nothing more than scenes and calling rules and cuts, I can kind of
+see why Ryan dismissed the idea so quickly. But it was kind of one of those things.
+Yeah, in my own head, I kind of went back and forth for quite a while if this app was
+worth pursuing. But uh I got some positive feedback. I had some early doodles and some
+wireframes and and the early my earliest testing was just kind of going up to my co-
+workers on set and just be like, "Hey, I've got this thing in my head
+
+[00:17:55]
+that I can't stop thinking about." Uh then I would explain the app to them and uh got a
+lot of positive feedback in the beginning. It was >> Well, I I'll pick up there because
+I think that dovetales pretty nicely into the sort of DIY approach that we had before we
+even came to interact with Justin or or company and things. Uh so so Bob came fully
+loaded to me with this package of doodles and you know handdrawn paper prototypes that
+he came to me with and you know we spent I'd say probably you know a full weekend
+auditing them. Um I was giving some input in terms of best practices that I'd seen you
+know in terms of products that I'd helped uh to work on and and and launch and we put
+together a second iteration. I think if we go back to our actual wireframes and they are
+actually included in our uh about us section or as we call it our our story because this
+is our story. Our friend Stu is a worldclass UI designer. He has worked on just
+nationwide campaigns for Marvel's
+
+[00:19:01]
+tie-in with McDonald's campaigns for launching T-Mobile products. I mean you're talking,
+you know, T 100, you know, fang sort of companies. I had no idea that a buddy of mine
+had this talent. We just never talked about it. We just were those kind of friends that
+I guess you just don't talk about work and you just enjoy each other's company, which is
+wild. You know, what is this? Who are these people? And so when we actually did when I
+and the only reason that I knew that he was a designer was when I had, you know, after a
+couple of briefings, I had opened up about this project that I was working on with my
+cousin and he said, "Well, you know, here's my portfolio. check it out if you're
+interested. And we were very interested. Absolutely. >> Yeah. And you guys were strange
+for me, too, because you were one of the few customers who's ever showed up with a fully
+designed ready to go. >> That is due in large part to Stu Kisau. Absolutely. He's he's
+top-notch. Uh I would I would absolutely be a reference for him to anyone expect that
+except that his work speaks far more volumes
+
+[00:20:04]
+than whatever I could be able to produce for him. And we don't want to lose him. We
+don't want to lose the bandwidth of the resource, you know what I mean? So, if you see
+Stew in public, back off, will you back off? >> I'm sure because of of your background
+in the industry and and and his experience as well, but you guys had really um thought
+through a lot of the flows uh in a lot more detail than than an average customer for
+Delta does, you had really kind of considered flows that most people don't don't start
+thinking. Most people put up a kind of a happy path of designs and you guys had really
+kind of dug into some of the edge cases and stuff, which is which is kind of cool and
+very different for us. appreciate that for sure and again that sort of circles back to
+you know Bob has been our in-houseme right because Bob still works in the industry Bob
+is constantly on set so from those very low fidelity paper prototypes he was like you
+said able to get user validation at a very low level a very low fidelity buyin right
+before we were investing any time or any money right Bob knew and was able to
+communicate to us that you know there is something here so once We were able to
+
+[00:21:07]
+fold Stu into the crew. We were able to go we were able to move pretty quickly from
+those wireframes into a much more polished UI mockup state. So Stu created page states
+of of every instance uh that would be you know that we could dream of in terms of
+different user uh use cases and things like that. Uh and then Bob continued, and this is
+over the course of about three years or so, to bring these everinccreasing levels of
+fidelity of prototype to actual sets. Uh whether or not it was a commercial or a movie.
+And I'm just going to brag for Bob here. You know, he was obnoxious. He bugged people
+and he did the actual work. He did the work that a lot of people just don't want to do.
+It's the work that scares a lot of people away. But if you know your stock and trade
+like Bob does and Bob is a person who's in and out and the reason that he has remained
+in this industry for so long where many other people will wash out is because he is
+reliable and he knows what needs to be
+
+[00:22:09]
+done and to be able to take that consistency and to be able to apply it to a digital
+construct is huge. You know whether or not he knew it from the beginning it paid itself
+off in dividends absolutely down the line. So being able to take those low-fidelity
+paper prototypes, being able to take the the the best user interactions and functions
+and features from that and we moved into a Figma clickable prototype. >> So So just to
+make sure I understand, you guys spent years then with different levels of fidelity of
+prototypes, going to film sets and putting them in front of people and seeing what they
+thought and seeing what they said. >> That is correct. Yeah, I'm I'm glad you grabbed
+that, Justin, because that's that's a really really important important point for the
+listeners because, you know, we we don't often hear about all of the the grunt work that
+goes into that that first chunk. People are just like, "Oh, I had an idea and so then I
+just built this thing." It's like, "No, no, no, no. They're >> people are terrified of
+first contact with their customer." And you guys did it, you guys did it the right way,
+which is get get this thing in front of people immediately. >> I credit Bob. I credit
+Bob. Absolutely. Absolutely. I was very fortunate that I
+
+[00:23:11]
+was in a good environment. Uh, and uh, yeah. No, there's a I got a couple crew people
+who I've worked with for years who has seen rolling in in pretty much all of its stages
+from the beginning from literally me showing a wireframe I made on my laptop to seeing
+the Figma prototype to act to being actual testers as part of our first uh, test group.
+So, um, and yeah, know got a few people who are very excited about it and uh, yeah, big
+advocates for the app. So just unfortunate that they're not the people who make the
+money making decisions. Well, they are some like soon. >> You guys should just stop
+making the mistake of not being friends with a bunch of studio execs. >> Yeah, I know.
+And we've been working on that and figuring out a way to hone that. We've been doing
+exercises. Uh we've been lifting weights. Uh we've been doing wind sprints. I don't know
+if any of those is really getting us closer to the Hollywood elite, but it might be. So,
+what's what's kind of the mission of of getting this in in hands? So, you know, you
+you've gone through these iterations, you got it in front of
+
+[00:24:12]
+people, you're you're working your way up through this, but I want to I we'll come back
+to the middle in a minute, but I want to jump to the end for just a second. So, uh and
+Bob, this may be more for you, but you're talking about, you know, on set, everybody
+needs to kind of be in sync more or less, right? Or or they need to be able to have
+access to the same information at the same time when or as they need it. So, I'm
+assuming that this means the ideal scenario is some person or some small group of people
+are in control of this and everybody else that's on set from, you know, executive
+producer all the way down to, you know, uh, whomever else, you know, Grips or or makeup
+artist or things like everybody needs to have this on set for it to really play or is it
+just like some key people and then it just becomes, you know, we we pass this
+information along sort of a thing? Well, the idea has always been everybody in the crew
+downloads the app and joins the project. It might be a little hard to get it adopted at
+the beginning. So, you know, we understand there might be a couple people, but um in
+order for the app to truly work, you would definitely need uh you know, your department
+heads to all be on board and and you know,
+
+[00:25:16]
+most of your general crew probably in the early stages. There might be a thing where
+individual day players or uh some people might not be brought on for one of for one
+reason or the other. But I mean, uh, rolling was always kind of built with the idea that
+everybody gets on so everybody can be on page. Get the caterers on there so they know,
+uh, if things get pushed so they know if lunch is on time. Put it on the give it to the
+construction workers so they always know when rolls and cuts are called so they know if
+they can safely work or not. Give it to Transpose so they know if they can move their
+trucks. Again, from uh personal experience on some sets, yeah, like I said earlier,
+there's only so uh so many radios to hand out. Radios are expensive. Yeah, they rent
+these big packages and you give a lot, but you only have so many. So, sometimes things
+slip through the cracks and some people are just don't get radios. So, we had a set
+where the wardrobe assistants uh did not have radios and they would always go to their
+truck. So, they would be stuck at their truck, you know, literally half a mile away from
+everything. So, anytime like a scene changed or things got cut,
+
+[00:26:19]
+they would not be notified. And uh it was kind of an issue where they would sometimes
+just not be out of touch. And uh it was kind of one of the things we're like, "All
+right, well, if they have this out now, they could be like, oh, this scene has been cut.
+We now can know or we now know we don't need to get stuff ready for that. We know when
+things are rolling on. We uh if we genuinely need to reach out to somebody, we can look
+at our phones and be like, "Oh, we're rolling right now. let's not make a bunch of noise
+and go out and try to contact people because we might actually ruin the shot. >> So, in
+terms of like the decision-making part of the process, a production company, a film
+crew, whatever, whatever it is that's being shot, you all would have to be kind of part
+of this at least pre-production decision of we're going to use rolling for this
+production. So, everybody's everybody's got to be on it. So, that's a great point, Erin.
+Uh and just to tag on real quick to to what what Bob was saying, one of the uh large
+ethos ethoses uh ethos ideas around the way that we design is that we design for a a
+large window of people, right? We are designing for your below the line crew member,
+your your every man, your
+
+[00:27:22]
+every person, right? Uh and then we design out from there. And we have to also
+understand that there is a large range of tech competencies within that group as well.
+You know, because as you mentioned, you know, we have tons of different, you know, you
+mentioned, you know, costumes all the way to, you know, drivers and teamsters, folks who
+might not necessarily interact with, you know, their their phone to technology in the
+ways that others do, right? However, we are trying to design and we have designed this
+in a way that we think and we have seen so far that it is socialized in such a way that
+even if you don't have your entire team currently on the app itself, it sells itself
+just via proximity. Uh it's one of these products that has sold itself via osmosis in
+terms of you know we've been talking about you know different sort of slogans and
+things. Uh, check the gate uh is often a terminology that's that's used in film that
+means, you know, to make sure that the the the window gate clear of debris and things
+that you can move on to the next uh
+
+[00:28:25]
+scene. We've thought, you know, check rolling, right? We want to be able to be that
+resource, that on the-fly resource for your individual so that the person on your team
+and your crew that is not using the app, well, they're just one step slower than
+everybody else. Right? If young Ryan Sans on day one as a PA had this tool, he would not
+have been fired so many times as a PA. >> Yeah. Know the other thing that's really
+beautiful about it is like, okay, let's say that you have, you know, 80% of adoption.
+Information moves really quickly. And so if you have 80% of your agents out in the in
+the space who have the up-to-date information and know what's going on, they can fill in
+anyone who's not on the app. So you don't need 100% adoption to have 100% impact or
+effect. >> Absolutely. And we also know that look there is always going to be this old
+guard of folks that are about tradition and that's how Hollywood is steeped deeply in
+tradition. We are never going to convert a lot of folks away from that pulpy stuff baby.
+They like to have paper. They like to have this tactile experience and we get we get
+that. We totally understand that. We're not trying to completely displace that
+experience right. We are trying to
+
+[00:29:29]
+augment this and you know like Bob had mentioned in the first part of this build a
+better mousetrap. There's got to be a better way, right? Because there are so many
+instances in just any sort of paper distribution for the injection of human error,
+right? Uh human error and there's just waste, just tons of waste. Also the speed. You
+know, you talk about, you know, uh, you know, digital information. It's much quicker for
+a a user uh on the production office end, excuse me, a production secretary or whomever
+to upload a brand new set of SC set of sides, whether that's a the blue version or a
+pink version rather than a PA having to print out multiple versions and iterations and
+color code them and collate them and make sure they didn't screw them up and resize them
+for the pocketsized one. It's a whole mess. make sure hopefully they don't get late on
+the way to set because every minute counts and you're losing sunlight, right? Versus,
+oh, hey, we just uploaded this new PDF to the app that most
+
+[00:30:32]
+responsible crew members on the set are using. It's that easy. It's that simple of a
+conceit. Yeah, the speed of light is pretty quick. And I think most people don't have
+any idea that these different colored sheets of paper is how things operate on set. It
+seems like silly to say out loud, but that's that is like the standard, right? Is there
+different different colored pieces of paper that you pass around. >> Just I I remember
+as an assistant production coordinator, a large part of my job was keeping stock of
+making sure that our our stock and supplies closet didn't ever run out of both legal and
+uh regular, you know, 8 1/2 by 11 in of every single color of the the film spectrum.
+It's a nightmare. Sorry, Bob. I cut you off. >> Oh, no. You're fine. I didn't I was just
+going to add like a there's a lot of interesting things in the film industry that yeah
+if they haven't worked in it seems very odd but yeah all the multicolored paper is very
+interesting. It's uh for those who don't know it's just kind of like an order system. So
+the you know so the the first attempt is white if for something for something's
+
+[00:31:36]
+wrong with that call sheet the next one's blue and as a whole funny order that they go
+through and uh and then it doubles doubles back on itself as well which is that's when
+you know you're in trouble. That's when you know that a particular week oh when you're
+on when you're on when you see double golden rod coming through you go ah somebody [ __
+] up somebody's getting fired. Somebody's getting replaced. You hope it's not you, but I
+have been that one. And again, if this app had been around, I really truly think I would
+have had a longer stay in the industry. No, I kid. I left when I decided to leave. >>
+You just haven't decided to. You just happened to decide to leave right after you were
+fired. >> It's Yeah, exactly. Exactly. You can't fire me. I quit. And that's been pretty
+much the story of my life, Justin. You know, that's a different podcast, I'm sure, but
+we could talk about this some other time. >> Yeah. We love to have you back and we can
+exchange getting fired stories cuz I got a couple of them myself. So yeah. Well, you
+know, when you're disagreeable and grumpy, it it happens to us. So >> Oh, I'm the
+opposite of that. I'm a little bit too much of a fun fun boy, if you know what I mean.
+
+[00:32:39]
+>> We can exchange notes so that we can uh have better reasons for getting fired. >>
+There's a balance, I'm sure, there. Yeah. >> Well, you can you can get fired from your
+next gig for being grumpy and I can get fired for having too much fun. So, it'll be
+good. >> I'll try. I'll do my best. Well, can you speak to a little bit about how how
+you ended up with with Delta and how kind of the process went for your perspective in
+terms of going from from these really nice uh kind of wireframes and prototype to to the
+app that is in the store that you can use? >> Uh certainly uh O'Brien did a lot of the
+leg work on this. He uh found several companies and uh we kind of looked through their
+Yeah. studied them a little. Uh had interviews with all of them and uh yeah, it was kind
+of one of those things where uh we had a lot of good candidates, but you guys really
+were just kind of the clear winners. Uh there was a couple other companies that also,
+you know, they seemed very great and they seemed like they would do a perfectly good
+job, but uh they wanted pretty much twice of what ourh budget was. And uh it was kind of
+just immediately like, "Yeah, you guys really do seem nice, but uh these guys also
+
+[00:33:42]
+seem nice and they can just about money though. It wasn't just I mean, look, money
+played a large part of it." And I will not even pretend that it didn't. But it was not
+just >> We're not on the budget end of the software development spectrum. So someone
+came in, if someone came in at double our price, it's probably you opted to go with us
+instead. >> Oh, buddy. Uh double you was probably just the next tier. I mean, we're
+talking Bob, we had I think at the top tier something that was quadruple the rates that
+you charged us. You know, it was ludicrous. And in fact, and I'm not going to name any
+names, but I and I forwarded this this voicemail to Bob. I received a drunk voicemail
+from uh and they didn't say who they were, but I could tell what their the angle was.
+Hey, we did so much for you putting together this presentation. like why why did it cost
+back? Why why you call back? It was we did a lot of work and it was the saddest. It was
+the saddest. It was just it really bummed me out. I had to
+
+[00:34:45]
+share with Bob. I had to share how much it bummed me out with Bob. But I can definitely
+say to any any business leader, thought leader, and all the way down to any sort of rung
+of the totem pole, that is not how you interact with any prospect or client in any way.
+It made me it made my skin crawl. It was wild. But but more so I think that it really
+was you know you have to understand that the partner that you are beginning an
+engagement with you are going to be working with for years. >> You know >> you hope.
+Yeah. You hope so for sure. You know unless something unless something happens. So you
+really need to be able to find those people that you can one obviously understands your
+mission and the product and what you're trying to create. And I know some of the time,
+you know, our particular industry again can be very esoteric and there was sort of a
+learning curve in in some things, but Justin and Nolan absolutely rose to the occasion.
+And I can tell, you know, did their own sort of film
+
+[00:35:48]
+study, you know, in terms of what are the mechanics, you know, of of this sort of thing
+and it really did show. Um, so you really have to, you know, really measure the content
+of the character of the individuals. you know, are these people that you can stand to
+see every single week for updates, right? And a lot of times you have to expect that a
+lot of times not every single call is going to go great. You know, not every call is
+going to be an easy call, right? A lot of times this is uh solutioning calls, you know,
+uh especially when you're working within, you know, a fairly, you know, rigid semi,
+we'll say semi- rigid, you know, budget for us. I mean, I I knew again coming from the
+industry what I thought was a fair package out the door, right? Uh and and we worked on
+that and we came to, you know, an an agreement and we kept to that. >> Yeah, we came in
+really pretty much on the nose. It was pretty close. I think we we did have some sp we
+did have some scope expansion, but it was stuff that we agreed to ahead of time and kind
+of included afterwards. >> For sure. And you know, I I I think
+
+[00:36:50]
+again, you know, to the credit of your team, you guys went above and beyond. You know,
+there was a lot of just thoughtfulness that was put into the the directive for the for
+the implementation and the development that a lot of things a lot of gaps that we just
+didn't even think about. You know, a lot of quality of life, some QS uh that really did
+just create just that extra touch, right? And you know, it all goes back to solving real
+world problems but just in a digital space, right? And one of the biggest uh again going
+back to this mission and this ethos of you know the application itself is we wanted to
+make sure that we were not just one more thing that an already very busy crew member has
+to deal with. >> That was going to be one of my questions is does yeah at what point
+does it become just one more thing or does it replace a number of one more things thus
+thus reducing the need. >> So and you know what that's that's a question that we're
+still trying to hone the answer into. You know what I mean? And I think that I think
+that that is what's great about a SAS product, right, is that it is evolutionary is that
+you
+
+[00:37:53]
+are able to leverage that, you know, iteriveness, you know, or at least, you know, that
+is a function and a benefit of of the system is to be able to constantly roll out those
+updates, you know, based off of, you know, user feedback and and all of that sort of
+stuff. So, we're still finding out what that answer is. >> Well, just to highlight a
+couple amazing things you guys did, right? I think uh having that prototype that you
+went to actual users up front and kept working on and working on that's a very
+inexpensive way to get feedback and end up building something that people actually want
+uh you talked to multiple uh multiple dev groups and looked at a different variety of
+people at a different variety of price points. So you made the clear correct decision to
+work with us >> and we do not regret it for anybody who is listening. We do not regret
+it. I I just I just But I have so many customers who don't who don't interview multiple
+dev shops or who who who or who or or who view it as a as a you know a price to the
+bottom where like oh yeah I found this team that uh and they don't like I can't really
+understand them when they talk but we were able to get a software product done for $25
+and I'm not saying that that's always wrong but you know
+
+[00:38:56]
+you got to figure out where you where you land with that. >> That's a great that's a
+great point though too uh is that you definitely don't want to go with your bargain
+basement. You get what you pay for right? you know, you get out what you you put in. And
+again, it comes back to who do you want to deal with over the course of 18 months, 2
+years, 10 years, right? Whose face, whose mug do you want to, you know, either see or
+just detest having to see, you know, and it comes down to trust. You know, a lot of this
+is trust. a lot of this and you know I I've said this from you know my end of it you
+know being in Justin's shoes is that you know this is a melding of minds right just as
+much as we are an expert in our space we expect and know that you are an expert in your
+space and if we can come to a confluence of solutions and ideas then all the better and
+you know all the better for the user >> I think that's uh I think that's fantastic and
+I'm I hope a lot of people listen to this and like especially
+
+[00:39:59]
+someone that's trying to launch a project and take lessons from the things you guys did,
+right? Because uh showing up with designs, knowing what you wanted, having tested this
+with people, vetting multiple folks. It's, you know, it's also like you get a better
+price when because you told us we're talking to three or four different people like
+yeah, you you got a better price than if I'm the only person someone's talking to. Like
+there's competition, right? So it's it's you guys did everything right in terms of
+engaging with us. So it's fantastic and and I love that. >> Yeah. So Bob and Ryan, I
+guess one of the questions that I was going to ask there um as as Bob was talking a
+little bit about it because I actually honestly hadn't really given it that much
+thought, but you know having people that are a little restricted to tech or from
+technology, so can't have their phones out. Obviously, you know, in in this day and age,
+especially with Blockbuster Films and things like that, nobody wants to see a phone out
+because you may be videoing something or live streaming something. So I I know I may be
+looking like way way into the future but is there is there a permutation of this where
+rolling is not just an application but also a hardware device with the application
+within it. I mean you know thinking way back in the day I mean that's that's what Steve
+Jobs did that his whole idea with with software was you also need to build the hardware
+
+[00:41:01]
+because then you get to control it. >> So that is very interesting because I'd say
+probably I don't know two years ago Bob we were looking into the rugged hardware space
+as well. We eventually decided again based off of interactions that we had with
+individuals and you know folks that we worked with in the industry that that market has
+been so cornered in terms of rugged Wi-Fi which would be the category that we would
+typically probably slide ourselves into that it didn't make sense for us because then
+you really get into you know your your pricing model completely changes uh based off of
+partnerships with with data partners right and that just gets too complicated and Bob
+and I are not Super smart guys, guys. All right, you got us up against the wall. Okay,
+is that what you want to know? We're frauds. Okay, we're frauds. >> Well, the the
+initial problem you mentioned with the not having enough radios to go around, that's the
+same problem you're going to encounter if you have your own hardware thing that people
+have to buy, whereas everybody's got a phone in their pocket in this day and age. >> And
+we and we also know, you know, Erin, going to your point, you know, we're not a solution
+for everybody, right? You
+
+[00:42:05]
+know, and and we have run into this several times, right? >> I'm glad to hear you say
+that actually that Yeah. Not not every solution to the problem is for everyone and
+that's yeah that's something that's important >> and you shouldn't try to you shouldn't
+try to make yourself that right I mean there is that axium we hear it all the time
+especially in video games right a video game for everyone is a video game for no one
+right uh and the the exact same axiom applies uh here as well and we know that you know
+we have to take it we take it on the chin absolutely but you know I will say Bob and I
+just had a very recent conversation with a prospect who told us very quickly up front he
+was a director around our age who told us, "Look guys, this is not a product for me. I
+don't allow phones on set, you know, but I love the design and I'm also working with
+this other company who I think you guys could have a great co-branding or a possible
+relationship. Who knows where it goes?" He made the intro right there. We've begun
+having meetings with this other company. We won't talk about who they are, but they are
+absolutely up and coming and and and filling different gaps, right? So, I think that,
+you know, it's it's a couple
+
+[00:43:08]
+of different things is, you know, not being afraid to get your hands dirty with those
+first customers or who your user base is going to be and also not not shrinking away
+from who your possible competition may be because those may be your your greatest
+collaborators, too. >> One more for me, uh, then I'll kick it back over to Justin. But
+again, I I continue. I love I love coming coming in alongside great ideas because it it
+just starts kind of this the the the wheels spinning. But I have a very very tiny film
+background as a performer. But I have I have a lot of history in theater and I have been
+wondering this this whole time is there is there a space for an application like this or
+perhaps this application given a mutation or two turning into something for the theater?
+>> Man, that is so wild because I was a theater major. Uh no big deal. It took me seven
+years to graduate from a state school in the South for sure. You know, that's a great
+question. I don't know if if we I don't know. We've never thought about it, Bob. Unless
+you, Bob, have you thought about, you know, more live
+
+[00:44:10]
+performance sort of things? >> I've thought about this and other things a little bit.
+Um, this is something I've uh experimented with on some of the small commercials we've
+worked on. Uh, with some uh clever wording of uh the scene checklist page, it's actually
+pretty easy to turn it into a schedule. You just you set a C number like you just kind
+of use the C number as checklist. 1 2 3 4 and then in the description write out 9:00 am
+this 10 10:00 a.m. this 12 uh p.m. curtain call. And then yeah, same thing. The admin
+can just check stuff throughout the day and people can kind of look and be like, "Hey,
+we're it's now 12:30 and uh we're still on the 11:30 item. Why have we not moved on?"
+And so yes, actually with some clever wording, the checklist can easily be turned into a
+whole daily schedule and definitely you use for theater, any live events. Uh actually
+was just uh speaking to a photographer I met who was very interested in using it for a
+photography shoot cuz he's jumping around to a bunch of different locations. >> The only
+thing that I would give push back about is that, you know, if we were
+
+[00:45:13]
+to move into the theater space, then we would have to work with stage managers, and
+those are some of the most unsufferable individuals that I have ever met. I I totally
+kid. Stage managers do not come for me. Those are probably some of the most hardest
+working people in the entire world. Absolutely. Uh but no, I mean you you bring up you
+bring up a great question. You know can can uh a tool that is used for you know one
+industry that is you know has a lot of similarities to the next are they you know
+appropriate tools right now? No. I would say right now no. Can that change in the
+future? Absolutely. For sure. You know, I just don't know what offering what value we
+could bring to the the live stage just yet. But, you know, give us enough time and
+mushrooms. I'm sure that we could figure it out. >> It'll be uh it'll be the question
+you answer after you tap out your first niche. Right. >> That's it. That's it for sure.
+>> All right, guys. Well, I think that kind of brings us to a conclusion. It's a little
+bit late in the evening and I'm I'm getting tired. So, show quality is about to start
+decreasing. So, I think it's time to clip it here. But, uh Bob
+
+[00:46:16]
+Shambo, Ryan Sans, thanks so much for coming on. Aaron, >> pleasure. >> Gentlemen, thank
+you all for talking that >> and thank you all for talking that SAS with us. Appreciate
+it. >> Thanks for cruising along with us on SAS that app. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. >> If you enjoyed
+the show, don't forget to subscribe and leave a review. Until next time, keep building,
+keep growing, and keep those apps sassy.

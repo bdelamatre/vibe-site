@@ -1,0 +1,122 @@
+Thanksgiving Special: What Really Fuels Entrepreneurs
+=====================================================
+
+Video ID:  A7BAEgCPHtE
+URL:       https://www.youtube.com/watch?v=A7BAEgCPHtE
+Published: 2025-11-25
+Duration:  00:08:14
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Hey everybody, Justin here. This week's a little bit different. We are uh we're out this
+week. It's Thanksgiving in [music] the US and instead of uh chatting SAS, Erin and I,
+the rest of the team are spending some time with family and friends and all the other
+people that keep us sane enough to run these crazy businesses and write all this crazy
+software. Today's episode is just a little different. We're going to do some highlight
+reels from people we've had on. Specifically focused in on [music] family and the
+support systems behind entrepreneurship. the spouses who put up with late nights, the
+kids who don't care what your MR is, and friends who listen to you complain about
+problems you created for yourself and all the first world problems that uh that you
+built for yourself after having a little bit of success. Building a company can be
+intense and lonely. Sometimes it's crazy [music] and there's a lot of people around us
+who put up with it and support us through it. So, it's kind of with all of that in mind
+that we have uh some episodes, some clips here about kind of the laps and the hard times
+and the family behind the entrepreneurial [music] journey and behind creating SAS apps.
+We are uh back next week with another awesome episode for you. But for this week, enjoy
+some stuff that we've done earlier this year
+
+[00:01:02]
+and uh we'll see you next week. Thanks. Welcome to SAS that app building B2B web
+applications. The podcast where we share real world stories, practical advice, and tech
+insights for those building or thinking about starting a tech- enabled business. I am
+your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. what kind of sparked your journey into the
+world of SAS and what keeps you passionate about it and helping people in that space
+today? >> You know, I think in terms of passion, one of the things that these
+particularly a bootstrap SAS business provides is the ability to focus on I think on the
+personal side of things that matter to you in life. And um that doesn't mean that it's
+easy or always smooth sailing, but um when you combine
+
+[00:02:05]
+technical skills, marketing knowhow, um whether that's with a co-founder or the founder
+themselves is able to slowly build a business, we're also able to really nurture other
+parts of our lives. And time and time again, I've kind of gravitated towards that way of
+operating. It doesn't it's not necessarily the best way, but um it's a way that uh
+certainly for me has been fulfilling to be able to spend time with people that I care
+about as well as do stuff um that's been really interesting, intriguing, um
+intellectually stimulating. Rob starts every conference I've been at with a picture of
+his family. And I think as a full circle, you guys asked kind of why did we start, why
+did I start this? It wasn't lip service to that photo that Rob does. It was the other
+way around. It was quite literally I wanted to start a company that allowed me to see
+friends and family and embrace that part of my life. >> Being a founder, most of it is
+managing your own psychology. That's what I found. Like I as I was building Drip and we
+were, you know, adding 10K of MR every month. It was this incredible
+
+[00:03:07]
+build rocket ship business. I was like, "This is amazing." I was so stressed and so
+anxious and just I went into work every day thinking, "Oh my god, what is going to
+happen today? And is this business going to implode?" because it just everything felt
+like it was going wrong on the inside, but from the outside, people are like, "This is a
+great business." So, it's managing your psychology and having either a mastermind group
+or well, I'd say a mastermind group plus probably a therapist. I'm in it because it
+allows me to be healthy. I'm not trying to I'm not broken inside and need to be
+repaired. You know, there's no I have no stigma around this word, but uh mastermind
+therapist, potentially a a coach if you can afford it, uh who's doing more businessy
+stuff with you. So, you have a place to vent and to level set. And so, you're not in
+your own head all the time. Cuz that's the that's my problem is I stayed in my own head
+too much and didn't talk to smart people who could be like, "Hey, wake up. This is
+really fun and this should be fun and you're actually having the success you've always
+wanted. Why are you so unhappy?" You know, and I see a lot of folks doing that. It was
+the la it was a lot of that. It was really the latter
+
+[00:04:11]
+where so my wife Dr. Sher Walling is she was a clinical psychologist. She has a PhD in
+psychology and she is now effectively a coach for high functioning CEOs, executives and
+founders. And half of her practice, half of her, you know, uh, case load is, so to
+speak, is for clientele is probably better word is, um, folks who are thinking about
+exiting in the process of an exit or have exited and are like trying to recover from it
+because it's like a little bit of PTSD. Um, and so she came to me and said, I'm telling
+a lot of these people the same thing over and over. You know, I'm saying the same
+things. I feel like I'm going to write something. >> My life has been unusual journey,
+right? My story opens at 23. Um, grinding on aluminum parts for minimum wage with a new
+wife and new baby on the way and no college education. That's kind of how my story
+opens. And just through intellectual curiosity
+
+[00:05:16]
+and fortitude and just desire to learn, it's always way harder. You spoke of work life
+balance. I don't think the people who work for others, who talk about work life balance
+would think that I had it right now. I have six kids, an amazing wife, we homeschool.
+She has never had to work in our marriage. So, I have some privileges there like I would
+fully acknowledge. And I never missed a kid's birthday, right? That was that was
+important to me. But I worked lots of weekends. I worked through the night lots of
+nights. I sacrificed extracurricular activities for my kids because I couldn't afford
+them. Because I wasn't taking a big enough salary compared to what my salary was like
+when I was working for other people. Doing this as sacrifice. Sacrificing yourself, your
+time, your emotions. So, you better have a great partner, a
+
+[00:06:19]
+life partner if you're married. This disrupts marriages way too often. And if you really
+want to win, a 40-hour work week ain't going to cut it. You've got to be thinking about
+this when you're cutting the lawn before you go to bed at night. When you wake up,
+you're grabbing on the phone looking for engagement from potential leads. Like it's a
+deep engagement and committed thing. >> Yeah. But the end of the tunnel, you know,
+there's potentially an eight figure exit. So, you know, you got that to look forward to.
+Bazillion%. I wouldn't change anything. Now, here's the thing. I'm built that way,
+right? I'm built to do those nights and weekends and be sustained. I'm not draining
+energy when I'm working on a model. I'm getting energy, right? And so, that's big. I'd
+like to think I didn't really make any mistakes with the family. My wife and I are still
+happily married. We're loving life at this stage in our life. And you know, my my
+children seem to be happy and well
+
+[00:07:22]
+adjusted. But that's a conscious effort, right? What I sacrificed was my leisure. I
+didn't sacrifice my family. I didn't sacrifice my work. I sacrificed the video games,
+the football games, the going out to, you know, sports events, the golf, all that crap I
+didn't ever care about anyway. And so for me, it wasn't a hardship. Thanks for cruising
+along with us on SAS that app. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

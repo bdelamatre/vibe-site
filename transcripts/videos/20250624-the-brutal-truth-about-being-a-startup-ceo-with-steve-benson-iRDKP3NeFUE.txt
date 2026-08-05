@@ -1,0 +1,532 @@
+The Brutal Truth About Being a Startup CEO with Steve Benson
+============================================================
+
+Video ID:  iRDKP3NeFUE
+URL:       https://www.youtube.com/watch?v=iRDKP3NeFUE
+Published: 2025-06-24
+Duration:  00:36:52
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+I think it's really hard today to be a startup software company and grow an engineering
+and a product team in America, particularly the expensive parts of America. Welcome to
+SAS that app building B2B web applications, the podcast where we share real world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech- enabled business. I am your co-host, Aaron Marchbanks, and I'm Justin
+Edwards. Each week we bring you the stories, strategies, and insights you need to build
+your SAS or tech enabled business smarter, not harder. Let's dive right in. [Music]
+Hello and welcome to SAS that app. My resident co-host Justin Edwards is out today on
+another adventure, but I am excited to be joined by our guest today, Steve Benson. Steve
+is the founder and CEO of Badger Maps, the platform that helps outside sales reps ditch
+the admin chaos, optimize their routes, and get back some 20% of your time to actually
+sell. Sounds awesome. Before founding
+
+[00:01:03]
+Badger, Steve led regional sales at Google and worked with other giants in the industry.
+So, he has seen firsthand what slows down a sales team and what happens when you can
+remove that friction. Uh he's also the host of Outside Sales Talk, runs multiple other
+ventures, including Badger Sales University and Grid Squid, which we'll get into today,
+and has spent over a decade building software that's not just smart, but useful. So,
+Steve, welcome to the pod. Thanks for having me, Eric. I'm uh super glad to be here.
+Good deal. Well, uh we'll we'll do the hardest question of them all right off the bat.
+uh just to lay some groundwork for our conversation and for our listeners, can you give
+us a little bit of the broad strokes of kind of your professional career specifically in
+the sales space since that's what we're here to talk about? Yeah, for sure. So, uh I
+started at IBM in sales, went to their sales school. I was that was after my MBA and uh
+from there I went to a company that got autonomy that got bought by HP and then from
+there I went to Google. I was at Google for four years or so and then um I was working
+on their mapping team
+
+[00:02:06]
+also working with some of the other enterprise things like Gmail and docs and this is
+all on the on the go to market sales type side uh doing some some marketing stuff as
+well mostly sales though and uh and then I cut it on my own and started uh Badger Maps
+in 2012 and I've been growing Badger ever since. Um, now we're uh Badger's got 92
+employees and uh and we've got a couple products at this point and uh I'm still, you
+know, running the company at this point. So, uh it's a bootstrapped uh SAS business.
+That's the quick overview on me. Safe to say you've been involved in sales in some way,
+shape, or form for like pretty much your entire professional career. Yeah. Well, it
+makes a lot of sense then that your ventures into the world of technology have been
+geared towards sales and the sales process and sales people. So, just kind of curious,
+so at what point or points kind of along the way of your journey did you start to
+identify, you know, some of the more pervasive
+
+[00:03:07]
+problems or or issues related to sales, sales processes, sales people, and then attack
+that with technology. Well, I I wish that I were a uh a creative genius here, but um I
+was in I was working in a sales capacity uh managing Google Maps API sales into the
+Western US and uh I was so keenly aware of sales problems and keenly aware of the Google
+Maps API and and what it was capable of. And this was when, you know, mobile devices
+were just kind of taking off, right? Android was getting its legs under it. The iPhone
+had been around for a few years, but wasn't quite strong enough to run the first version
+of our app that we ended up building. We it could only run on the iPad. But I guess I
+don't I don't qualify as a creative genius because I was deeply involved in the things
+that I ended up building a solution for. So I understood the sales problems, I
+understood the solutions, I understood mobile. Uh so it's kind of more of a right place,
+right time thing than uh than a skating to where the buck's going
+
+[00:04:10]
+thing. Yeah. Can you give us an example or two of of like some specific some specific
+issues or or problems that you wanted to address or that you wanted to attack? Yeah, so
+the the the biggest thing that we were interested in was the experience of salespeople
+going out into the field and how we could help them leverage their mobile device, this
+this supercomput they were going to be walking around with in their pocket, right? And
+it was it was clear where phones were going at that point. There were posters on the
+walls everywhere at Google. What are we going to what happens when when phones and the
+internet are a hundred times faster. Um you know so it was it was very clear that like
+you know this times were changing. This is I think 2010 2011 and uh salespeople are some
+of the most mobile users in the world and so I wanted to solve mobile problems that
+sales people were facing and it was pretty clear that mapping was was a part of that
+bringing maps to their connecting connecting maps to their CRM
+
+[00:05:13]
+showing them the data that's in their CRM in a mapping environment and then doing that
+all on their phone. It was pretty clear that that was going to be really useful to a lot
+of salespeople who at the time were running around juggling, you know, a a paper
+calendar, a paper map, a rolodex. Maybe they had a CRM, but maybe they maybe they
+didn't. Maybe they just had a rolodex with a bunch of cards in it. The Map Quest days.
+Print Print it out. Yeah. And then you could print out like how to get from one point to
+another with Map Quest. Exactly. building one app on their phone that could do all those
+things and and uh kind of synthesized all those things was it was it was pretty clear to
+me at the time that that was going to be a pretty exciting solution for people and and
+also making CRM a lot cooler for that group of mobile salespeople. Sure. And and since
+what you said at the outset that the whole mission was get this technology or get this
+solution mobile friendly, you know, these these are these are users that you know not
+necessarily sitting at their desk making
+
+[00:06:15]
+cold calls. These are these are ones that are actually going out into the field to visit
+people. So would it be fair to say that you're you're a pretty firm believer in that
+like the user interface and the user experience matters a lot since this people are
+looking at this on their phones and their and their tablets? Yeah. Yeah. And then the
+initial version was just all in the browser. And actually at the time it was unclear,
+you know, Google was saying at the time, oh, we think browser is the future and mobile
+apps are silly and this is all going to go away. These these native these native app
+these native apps are silly, but it but it was unclear at the time which direction that
+was going to go. And so our first version was, you know, we just optimized it for the
+mobile on like in the browser. So you could use it in your computer, you could use it on
+your phone. Um but then you know pretty quickly it became apparent that um just for a
+speed and um usability perspective we were going to need native apps. As I was kind of
+going through and reviewing the the application itself I mean there's there's some
+really cool user interface features that I personally appreciate as a not salesperson
+that I thought were
+
+[00:07:18]
+very interesting like the lasso tool. I thought that was very slick to be able to kind
+of select your these are the points uh that I want to hit today and then from that that
+lassoed loop of of data points it it you know it pulls that. So all that to ask you know
+are these that that feature in particular but just features in general are those things
+that you are birthing from analysis or desire or are people you know are your users
+saying it would be really great if and that's what you're building. What's what's kind
+of your process for for these features? It depends. I think some some ideas come from,
+you know, just our own ideas. Sometimes, you know, people can't describe a thing that
+they've never heard of or seen. Some users are kind of more visionary and really
+understand their problem and are using your product and like, "Hey, I would love it if
+it would do this." Early on, I really spent a ton of time talking with customers, way
+more than one would guess, right? So my my job really early on and I don't I I don't I
+didn't code the application.
+
+[00:08:22]
+My my technical co-founder did, but early on my whole job was talking with customers,
+getting their feedback, understanding their problems. Um and and that guides what we
+should do next, right? That guides what we should create next. that guides and and you
+end up with a long list of features, but it's you want customers, especially towards the
+beginning, you want them to pull you in the direction of of what to do based on, well, I
+would buy this if it could do this. And and sometimes if it's a big company and it's a
+big feature, we would get them in contract being like, okay, we will build this for you
+for a, you know, $0 consulting contract, but we will we will build this for you. And
+that's when you start paying for a year for this product. And these are the acceptance
+criteria. And and that was a useful that was a a way of kind of making sure it was worth
+our while and and that someone was actually going to put their money where their mouth
+was. And it's like, well, and and that's not as hard of a conversation as one might
+guess, right? It's it's just, you know, you guys are
+
+[00:09:25]
+describing exactly what we think a lot of people are going to want. we'd love to build
+it for you. If you guys agree and sign that you'll buy this, you won't pay pay. You can
+use the tool until this until that feature that you feel is so important is built. You
+don't have to pay for it. Um and then once it's built and completed, then only then do
+you start paying, you can deploy it now. You can deploy it at that time, whatever you
+want. But until it's deployed to the spec that you described that we can put in the
+contract, we're not going to start charging you. and and that's a a great way to know
+that you're building the next big hard thing that people are actually going to value
+because and and you know they value it because they're going to pay for it. Oh, for
+sure. I mean that that does make I would think a lot easier to get a feature off the
+whiteboard and and like actually rolling because you've got you know somebody that's
+dedicated behind it. Have you ever taken the route of building a feature per
+organization like specifically for them or is it always a yes, we hear you, we think
+this would be a great feature. It's going to be for
+
+[00:10:27]
+everyone every time or or are there instances where it's going to be for specific
+specific companies or organizations? Well, we'll we've solved problems for specific
+organizations and and generally it's reusable, right? A lot of the stuff that you do is
+reusable, but you know, we we want to avoid doing too much too much custom for someone
+unless it's a deal breaker. Like people, you know, the the list of things that people
+want is a mile long, but it doesn't. Often it's like they're like, "Oh, I wish I did
+this, too." But it's like, "Yeah, but are you going to buy it the way it is?" Because it
+seems to solve your problem, right? Seems to solve 98% of the problem. Do you? And so
+there are those cases. One thing that I've done there if someone is going to get a lot
+of value but they really do feel like they need a thing but I'm not in as big of a hurry
+to build the thing because I don't think it's as important is I'll say okay well if you
+start buying it now we promise to do it do this thing by this date and this date could
+be a year out year and a half out but we you know
+
+[00:11:30]
+we this is on the road map but I don't just want to give you a blank promise that we're
+going to do something someday you don't you can stop paying if we're not done in 12
+months from now. You stop paying, keep using, but so we're kind of, you know, we are
+we're kind of putting our money where our mouth is that we're going to be done by then.
+And people people appreciate that, but it's but there's no there's not a gun to anyone's
+head, you know, if they get it for free for for three months because something else was
+way more important, then that's how it is. But but it also it shows them that you got
+skin in the game and that you actually mean that you're going to get the thing and
+you're not just selling vaporware. Staying relevant, staying valuable, staying sticky as
+it were, uh you know, in that in that space. So, um I want to I want to turn attention a
+little bit more now to the like the team aspect of this and and you know, general sales,
+marketing, product life cycle, that sort of a thing. you know, I I noted early on, I
+mean, you you've led Badger now for well over a decade, you know, and even before that,
+you you had some tentacles into into some of that sort of thing. And
+
+[00:12:33]
+it's not it's not often that we find founders sticking around for that long. Uh, you
+know, a lot of times founders are entrepreneurs. They they want to move on to their next
+idea or, you know, hand that off to someone else. So, what what would you say having
+been in this now for over a decade has been the hardest thing to evolve over time and
+stay relevant? Is it the product? Is it the team? Is it the market? I I think the
+product has to just keep evolving and becoming better and solving more and more problems
+for more and more people. I think the that that's what's driven growth and there, you
+know, the competitors were were non-existent or very weak early on and and there's more
+competition now in the space. I think it's become easier and easier to build basic
+versions of software. So, you know, if someone is selling something for a fifth of your
+price and it's a fifth of the value, you know, some people are still going to want that
+because that was the fifth of the value that they wanted. So, there's a bunch of small
+apps floating around doing small pieces of what we do. But I I wouldn't, you know, I
+think the the key to staying there there's an advantage to being
+
+[00:13:37]
+early and and as long as you keep staying relevant and keep creating value and keep
+investing in the software product because any anyone that is entered the market later
+and there there's one company in particular that entered the market later, you know,
+five years after than us and stuff, they they've been around still now for eight years,
+but they're still it's kind of like you're always still those five years behind and
+maybe you're even slipping further because we have a whole bunch of engineers and it's
+always harder to grow in someone's shadow because you either have to char if if they're
+a huge company that you're you're recreating the software then there is room at the
+bottom if it's a huge expense like it's one thing for Zoho to to rebuild Salesforce
+there was you know there's a lot of room at the bottom that Salesforce you know
+Salesforce is highly you know it's a an expensive product it's a top tier product It's
+it's you know they're they're there by nature there's room at the bottom. There's room
+for someone to be like I'm going to build a cheaper less functional version of of
+Salesforce and so that you can kind of they can
+
+[00:14:40]
+creep into that space. It's harder with a small company. And I think that's that was
+that's an important lesson from my little market is it's really hard to copy someone if
+they're a small company. Like you want to copy Microsoft something that they do but
+aren't quite filling all the markets and you want to like go after that specific market
+with a specific value proposition. But we've had several companies over the years um
+just imitate our software and and I and I'm always like, "Why why are you copying me?
+I'm not that big." Like there's like I'm there there's not a Yeah. There there's not
+there's not like a the 10% that I leave behind is is that's not what you want. You don't
+want to do that. So you're going to have to do something slightly different than we're
+doing or else you're going to be it's because you you they either you have to go for the
+we are cheaper and do less. It's hard to just be like, "Oh, we're just as good." And
+charge the same because, you know, you started five years later and obviously don't have
+the resources that someone who's been, you know, has a bunch of customers. Like we it's
+like we
+
+[00:15:43]
+get a VC round every year like but we don't. It's just revenue and so so we we we've
+always been bootstrapped but like you know it's it's a VC round every every single year
+but we get to spend it and you know so it's hard to join into that. It's hard to copy a
+piece of software and then um and be successful and compete not just on building the
+software but also on the marketing side, the fulfillment side like the servicing of the
+customers. It's that's just as important as building the software is this is selling it
+and just as important as this is making your customers successful with it, just as
+important is marketing it. All these things are there's so many pieces to this and so
+it's really hard to compete with an established player unless unless you have some kind
+of competitive advantage like you know they're really big and expensive and you can be
+cheaper or they've neglected this vertical you know like what you know Viva being so
+successful well they're they're a niche CRM but it's a big important niche so and and
+and that has
+
+[00:16:48]
+special needs they they you know pharma that FIVA serves has very special needs around,
+you know, reg they're very highly regulated. They need to enforce policies on their
+reps. They're hardly you're hardly allowed to sell drugs, right? It's it's very hard.
+There's so many rules. So, it it's it made sense that they had a vertical CRM that was
+just as expensive as Salesforce or more expensive. to leave. Um, that's a way to niche
+something off and carve something off. And it makes sense that Zoho did what they did.
+But I think if you if you are going after a market, it has to be a if you're going after
+a sliver of a market that someone else is already doing, it's got to be a a really big
+market. That's it should be a big company that you're that you're taking a sliver from,
+not a that they they have to have neglected that sliver basically. You've talked several
+times now kind of about different elements of your team, sales, marketing, certainly
+engineering as it relates to, you know, technology and I I think just our pre-call
+conversation and and you know, knowing
+
+[00:17:52]
+what I what I can read about you, it it seems like we kind of agree that uh there is a
+lot of importance on the team that you have, the team that you build uh you know, in in
+the industry in general, but I think just in business in general. So, what what are your
+thoughts about building that team? a really great team in the hiring environment that we
+have today. The people you have on board early are the most important, right? Like the
+the people that you if you're bootstrapped the first five years, right? You're probably
+not going to be that big. If you're if you're ventureback, you're going to grow faster
+obviously and be able to hire faster. The capital up front to make those hires, but you
+have to be very careful about those early hires. There's there's really that's very
+challenging to make sure you a mistake there is is life and death for the business
+later. I think, you know, it's I think it's really hard today to be a startup software
+company or and for the last 10 years, I think it's been really hard to be a a startup
+software company and grow an engineering and a product team in America,
+
+[00:18:57]
+particularly the expensive parts of America. The the big tech monopolies have just
+soaked up all the all the engineers. And so so it's so it's hard. It's just it's a hard
+place to do it. And and so that's the bad news. The good news is math works the same
+everywhere in the world. And turns out there's talented humans all over the face of the
+planet. We're spread out all over the place and and everyone's brain works the same. So
+you can go to, you know, Nigeria or Eastern Europe or or Asia or, you know, South Asia.
+There's there's talented humans all over the place. and uh and and and so I think
+America is a tough place to grow a team really well, but there's there's a lot of places
+you can go and uh and and and find really talented people that can build great software.
+Do you look for people who are, let's say, sharing your vision or have uh you know, some
+sort of a buy in in some way, shape or form to what it is that they're building or
+working on versus someone to fill a seat? I mean, do you do you have a preferred
+company?
+
+[00:20:00]
+Ideally, yeah, I mean, ideally, you you need someone who's a you look for people that
+are a cultural fit with your organization. And I think in those those early hires,
+especially, you need someone who's who's a good fit for a startup in general and, you
+know, a jack of many trades and can deal with ambiguity and look failure in the eye and
+or potential failure in the eye. the there's a very real probability that any any of
+these brilliant ideas don't work out at all. Right? It's and you got to have people that
+are able to go the distance. I think it takes years to to build something and get it off
+the ground even if it's a great idea, particularly if it's bootstrapped. But um you
+know, I think uh yes, so you want you want to look for cultural fits and and you know it
+and and probably later on it's I think cultural th that that that all that work you get
+up front is reinforcing as time goes on. Yeah, for sure. I mean, it seems to be kind of
+
+[00:21:02]
+universal that the best ideas are great, but also having experience and expertise in
+that same space matters. You know, I I do not have a sales and marketing background, so
+it would seem kind of silly for me to try to engineer something for sales and marketing
+people as an idea of my own because I don't have expertise in that vertical or that
+space. Yeah, it really helps if the business side has expertise in the painpoint of the
+customer. I think that was always uh made this all a lot easier for us that I had been a
+salesperson. I had worked in this space. I understood the problem relatively deeply.
+It's a lot harder if you don't. I mean, I'm not saying it's impossible like, you know,
+but it'd be hard for me to turn around and run an insurance startup tomorrow, right?
+Because I don't know anything about insurance, right? So, I think it's also hard to pick
+pick a great idea in a space that you don't know a ton about. I agree entirely with
+that. So, kind of spinning off of Badger Maps in particular, and I think uh for
+
+[00:22:05]
+organizations that have been successful, you know, they have grown their their startup
+into something that's 5 10 15 years down the road. It's very mature. It it has a lot to
+it. you know, you you presumably reach a threshold where you just simply decide, you
+know, this is our lane and we're staying in it or there is some sufficient push behind
+some aspect or maybe multiple aspects of what it is that you've built that can be spun
+off into something else. you know, you've you've launched the Badger Sales University.
+You've launched Grid Squid, which I know is is a very cool thing I want to talk about,
+but how do you know when when an idea has reached the point of now spinning off another
+idea versus keeping it in like the core platform? You know, when should it be its own
+thing and when should it kind of stay put? Good point. Right. I mean, I'd say in
+general, you want to be focused unless things kind of pop up that are obviously spin
+outs or ideas that obviously are so adjacent that it makes sense that you would pursue
+them. And adjacent can mean the technology is reusable in a that you the technology
+
+[00:23:09]
+you built is reusable in another way like I sell to field salespeople and field service
+people. But if the problem that I was solving also service um trucks really well, like
+trucks that are moving around, then that would be logical for me to extend into that. I
+if or if I could add on a new feature set that my existing group of people that I'm
+selling to field salespeople sometimes I think it would almost start off as like a a
+feature idea that you're like that's such a good feature idea but it really should be
+sold separately because you don't necessar you don't necessarily need those two things
+coupled together. You could want just one or just the other. and and and we did purchase
+a company of of of that nature that we well we but there it's well we run them as two
+separate companies so they're they're not they're not totally um they're they're just
+two different companies really but we we bought it but it's to serve the same market and
+it's uh it's and and and then we've also done it the other way where
+
+[00:24:14]
+we built a piece of technology that made sense to spin out but it was a and and that
+needed to be spun out and not kept under the same umbrella because it was for a
+different buyer. So, you know, Badger Maps is four field sales teams that want mapping
+and routing on their mobile device. We built a connector into all these CRM systems
+because we we had to. So we over time we we had to we had to build we we started out
+building just oneoff connectors into a couple of the CRM but a big you know we needed to
+surface CRM data on a map. So we had to be able to connect to a CRM to do that and we
+needed to be able to push data to that CRM as people used our app on the on their mobile
+device and we if there were updates coming from the to the CRM we needed that to push to
+the mobile device. We need to basically have the data and and and connect to it in real
+time. we started using APIs to just connect directly to this those CRM that became
+really hard to maintain and and
+
+[00:25:18]
+challenging for us because there's a lot of CRM and it's just you know we we actually
+stopped even after two it was just it was clear that we shouldn't be maintaining this it
+was very brittle and challenging and then we bought a commercial product that was that
+was uh a broader connector product uh that connected lots of stuff to lots of stuff And
+over time, we used that for years, probably six years or so, but it it caused a lot of
+problems because it wasn't specialized, wasn't exactly what we wanted. We didn't, you
+know, we we we really needed to just have our applications be syncing with these CRM and
+just by nature because they, you know, connected to more things than just that. It was
+there was more complexity and it was you know caused a lot of problems basically and so
+there was a lot of pain around maintaining our customers when we that we needed to
+deploying our customers etc and we lost a certain amount of control I think just the
+overhead of being a you know a connector that was pretty broad
+
+[00:26:23]
+even though it's a it's a leader in the space and is an excellent product just it lack
+of being specific caused a lot of issues and so eventually um we we went on the market,
+we were like we went on the market to find a tool to replace that that was going to
+solve some of these problems and it just didn't exist. And so the you know and so we
+kind of treed water on that for a year and then you know the the people that deploy our
+software and maintain our software and deal with the customers who are using the
+integrations they they all complained enough they were like well I guess we could build
+this thing and I didn't want to do it. I thought it was I was like how has no one built
+this? there wasn't one because it's not a good enough market, right? It's it's a small
+market to connect, you know, small software companies to to CRM. It's just not like if
+you went to a VC with that business idea, they'd be like, "How big is the TAM on this?
+It's not it's not that big." So, they how many how many ISVs are you? And you're like,
+"Oh, 7,000." They're like, "That's not that." Maybe your whole world of people you can
+sell to a product that isn't that expensive is 7,000. That's bad. But we
+
+[00:27:26]
+we needed to build it for us. And so we built it for us and so it didn't exist. So we
+built it basically but there was a reason why it didn't exist and then after it was
+built and we were using it and it was once we had it up and running basically we're like
+okay we should spin this out and make it available to other companies like us. And so
+that's a time when I think it is, you know, we're a little small to be spinning out
+companies like we're we're making eight million bucks a year um in top line ARR. Is that
+big enough to be spinning out other companies? No, I don't I don't think if that was a I
+think you probably want to wait until you're at least like 20 million to do that. But
+because we had a product that we basically were our hand was forced on building and and
+it was hardened. I mean it was like yeah it's running and works and it was really when
+we when we deployed it to our the new version of our product and it was so easy and
+clean and we're like we can deploy this to anything like it was so
+
+[00:28:29]
+we were like okay well now we're running it twice so it basically has two customers our
+old version and our new version and it was and it took you know two weeks to deploy to
+our new new version so we we should this is time to bring this out it's hardened and but
+yeah I think I think bottom fine. It's not a good idea to be starting new companies when
+you're when you're until you're pretty big and and should be looking for other income
+streams to maintain your growth rate. And if you're growing a 40% a year without it,
+then you probably shouldn't be taking your eye off the ball anyway. But there are times
+when it's just like, okay, we kind of have to do this because we we we stumbled across
+it. like, you know, Slack had to stop making video games but release their new thing
+that they had built as a communication tool in the video games because it was just
+obviously a really good idea. Like they should have they it was appropriate to to to
+release that product, too. And so that's I think the the way I would approach it is is
+wait till wait till you're big enough to be making those types of strategic moves unless
+it you know you're kind of your hand is effectively forced. Yeah. You're in the
+
+[00:29:32]
+space. you need to be able to do this something else doesn't do it well enough or or not
+well enough with your system yeah you almost have to build it I mean we do we do a lot
+of systems integration ourselves and for that very reason you know it's not necessarily
+product oriented but you got to get data from point A to point B better than this thing
+is doing it and you know your customer is one or two you know it doesn't need to be an
+entire software service by itself it's something that helps somebody get further down
+the road and maybe others could use it if it works another thing to think about if it is
+more much more adjacent and it's for the same product. I mean, obviously the our our
+products are for two different people, right? Our two different products are for
+different people. But if you're building a feature on your existing product, but it's
+like, well, but this is also could be purchased alone, standalone. They and and there's
+a group of people who don't wouldn't even want our first product, but would want this
+feature of our product. Well, then you can release it as a feature of your product and
+also as a standalone product. release it under two names and and that's fine too, right?
+So you can
+
+[00:30:36]
+you can you know spin it out as a separate product, separate company, but just create a
+partnership agreement between yourself and that company that allows you to basically be
+a reseller of your other business. But that that's really useful in that you can now
+market it totally separately but also as a feature that enriches your your current
+company and you just it's a feature that you charge separately for under your existing
+product but you char and and you just but it can also be sold separately as a as a
+completely different product. Yeah. No, that's that's a terrific point. So all that
+taken in total, what what does the future of Badger look like? What's what's what's
+next? I don't have any other products planned on the market here. Um we're we're just
+trying to uh grow the product at this point and um you know we're we're going to try to
+move from 8 to 10 as quickly as we can basically. So that's that's really the goal. I
+like it. Just just keep the growth. So as a founder you you also host a podcast. to
+
+[00:31:39]
+run multiple projects and and products and I'm assuming that like like most founders or
+or you know folks like yourself that have have bootstrapped something or or fired
+something up, you wear a lot of hats. Uh and the do more the do more pull is constant.
+Uh you know what what helps you stay focused when the when the do more is always there
+in the back of your mind? I think I just try to get just get things done, right? I mean,
+it's it's just one thing after another and there's always a big pile of stuff and uh you
+I try to either do thing get things done fast or delegate them or say no to them as
+quickly as I can. And so it's a lot of decisions and a lot of uh a lot and a lot of
+choices, but you certainly there's only so many hours in the day and you know, so you
+can only do so much. Uh, so you do have to be able to to delegate and surround yourself
+with great people that can catch those those curve balls. For sure. So, last big
+question, general stuff. What what kind of advice or wisdom do you have for other
+founders who are starting out who
+
+[00:32:42]
+are shooting to to bootstrap something, you know, what's going to help them? I guess my
+my first piece of advice is being a founder or a a CEO of a tiny company, you creating
+something is not really a job. successfully founding a meaningful company. It it'll it's
+going to take away almost all your bandwidth. You can't be a good friend, a good son, a
+good daughter, mother, father, be in good shape, participate in participate in hobbies
+or extracurriculars or your community. It, you know, I think this is a bigger
+responsibility than a lot of things, especially if it starts working out a bit. So, you
+should probably Yeah, you have going into it, you have to accept all that and and you
+know, forget about the fun and hobbies that you have and you know and and and set
+expectations properly with everyone else in your life. I think you have to be ruthless
+with your prioritization of your time and how you're spending your time. You can you can
+you can still get
+
+[00:33:45]
+your highest priorities in your personal life done. So you have to you have to make hard
+choices around what those are because if you don't the choices will be made for you and
+it won't necessarily be what's most important to you. It'll be what you know raises its
+hand the most. So you have to be ruthless around those prioritizations. It's it's really
+important to identify the things that really matter for the success of your business in
+your personal life everywhere else. And you you can only really get those things done. I
+would also say that it's not a time to have work life balance if that's what you want.
+Like go work for a big tech company or or you know just a great big company like that
+great work for a great or a great middle mid-size company but like you trying to create
+something you just don't get to have work life balance. I think getting the train out of
+the station is really really hard but the flip side to that is once the train's in
+motion it's really hard to stop. So that's that's really uh that's
+
+[00:34:50]
+the good news is once once once the once these things get going it's it's great. It's
+nice if there's good news. Yeah. Don't plan to do anything else in your life. But once
+things get going maybe you can again. It's not all doom and gloom. And frankly you know
+risk adjusted it's not a good idea. Like it it's know that like the the risk the work
+and risk adjusted calculus on this. It's not a good idea to start a startup unless it's
+really something you really want to do because it is it's not easy. It's hard. It costs
+a lot. Uh you know, you have to give a lot to it and it's uh it's hard to raise a baby
+and so so I've raised human babies and I've raised business babies and the human babies
+are are easier. Okay, you heard it here. You have to go into these situations with your
+eyes open and understand what you're getting into and and and want that, right? Because
+if I think a lot of people fall in love with the idea, but like it it oh, I'd love to be
+my own boss. That'd be great. It's like, well, why do you want that? Because you want to
+work
+
+[00:35:52]
+less because this is not that path. That is not happening. No, that's great advice,
+Steve. It has been a pleasure. I want to thank you so much for sharing your time and
+talents. Uh we have been talking with Steve Benson, who among other things is the
+founder and CEO of Badger Maps. Uh Steve, where and how can people reach you? LinkedIn's
+a great place to get a hold of me. Um, just Google or well, I guess you can Google or
+LinkedIn, Steve Benson Badger. And a special thanks as always to our listeners. If you
+like what you're hearing, have ideas for the show, or just want to tell us what's on
+your mind, throw a review our way or subscribe if you are so inclined, and we will see
+you next time on SAS that app. Thanks for cruising along with us on SAS that app. We
+hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

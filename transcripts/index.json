@@ -1,0 +1,940 @@
+{
+  "videos": [
+    {
+      "id": "s0_IhEIyYAw",
+      "title": "The $30K Invoice That Killed a 10-Year Customer Relationship",
+      "date": "2026-07-28",
+      "duration": "00:31:26",
+      "file": "videos/20260728-the-30k-invoice-that-killed-a-10-year-customer-relationship-s0_IhEIyYAw.txt",
+      "url": "https://www.youtube.com/watch?v=s0_IhEIyYAw"
+    },
+    {
+      "id": "7MRL3E9CPDo",
+      "title": "The $30K Invoice That Killed a 10-Year Customer Relationship",
+      "date": "2026-07-28",
+      "duration": "00:27:13",
+      "file": "videos/20260728-the-30k-invoice-that-killed-a-10-year-customer-relationship-7MRL3E9CPDo.txt",
+      "url": "https://www.youtube.com/watch?v=7MRL3E9CPDo"
+    },
+    {
+      "id": "sAgevIINmmU",
+      "title": "Why Your SaaS Growth Has Stalled (And It Isn't Your Funnel)",
+      "date": "2026-07-21",
+      "duration": "00:47:23",
+      "file": "videos/20260721-why-your-saas-growth-has-stalled-and-it-isn-t-your-funnel-sAgevIINmmU.txt",
+      "url": "https://www.youtube.com/watch?v=sAgevIINmmU"
+    },
+    {
+      "id": "HyI7wQm3yOA",
+      "title": "Most SaaS Companies Get Customer Research Wrong",
+      "date": "2026-07-21",
+      "duration": "00:41:00",
+      "file": "videos/20260721-most-saas-companies-get-customer-research-wrong-HyI7wQm3yOA.txt",
+      "url": "https://www.youtube.com/watch?v=HyI7wQm3yOA"
+    },
+    {
+      "id": "K3fMKZLRAc0",
+      "title": "SaaS Sales: The Playbook Every Founder Needs to Scale",
+      "date": "2026-07-07",
+      "duration": "00:47:12",
+      "file": "videos/20260707-saas-sales-the-playbook-every-founder-needs-to-scale-K3fMKZLRAc0.txt",
+      "url": "https://www.youtube.com/watch?v=K3fMKZLRAc0"
+    },
+    {
+      "id": "LrRXskkpqn4",
+      "title": "SaaS Sales: The Playbook Every Founder Needs to Scale",
+      "date": "2026-07-07",
+      "duration": "00:42:17",
+      "file": "videos/20260707-saas-sales-the-playbook-every-founder-needs-to-scale-LrRXskkpqn4.txt",
+      "url": "https://www.youtube.com/watch?v=LrRXskkpqn4"
+    },
+    {
+      "id": "xw0PthH5Y-Q",
+      "title": "The 200-Hour SaaS Build: A Real Workflow Breakdown",
+      "date": "2026-06-23",
+      "duration": "00:53:43",
+      "file": "videos/20260623-the-200-hour-saas-build-a-real-workflow-breakdown-xw0PthH5Y-Q.txt",
+      "url": "https://www.youtube.com/watch?v=xw0PthH5Y-Q"
+    },
+    {
+      "id": "xI0joFUs_Xo",
+      "title": "The 200-Hour SaaS Build: A Real Workflow Breakdown",
+      "date": "2026-06-23",
+      "duration": "00:47:15",
+      "file": "videos/20260623-the-200-hour-saas-build-a-real-workflow-breakdown-xI0joFUs_Xo.txt",
+      "url": "https://www.youtube.com/watch?v=xI0joFUs_Xo"
+    },
+    {
+      "id": "LTLu8hgEKnI",
+      "title": "Claude Code Did What? Real Stories From Daily Use",
+      "date": "2026-06-10",
+      "duration": "00:50:43",
+      "file": "videos/20260610-claude-code-did-what-real-stories-from-daily-use-LTLu8hgEKnI.txt",
+      "url": "https://www.youtube.com/watch?v=LTLu8hgEKnI"
+    },
+    {
+      "id": "3fbU7YI7sok",
+      "title": "AI-Assisted Development in 2026",
+      "date": "2026-06-09",
+      "duration": "00:45:55",
+      "file": "videos/20260609-ai-assisted-development-in-2026-3fbU7YI7sok.txt",
+      "url": "https://www.youtube.com/watch?v=3fbU7YI7sok"
+    },
+    {
+      "id": "q8Ahxlz_Ue4",
+      "title": "Healthcare AI Is Failing And the Fix Isn't More Data",
+      "date": "2026-05-26",
+      "duration": "00:38:19",
+      "file": "videos/20260526-healthcare-ai-is-failing-and-the-fix-isn-t-more-data-q8Ahxlz_Ue4.txt",
+      "url": "https://www.youtube.com/watch?v=q8Ahxlz_Ue4"
+    },
+    {
+      "id": "9FfSPxR7M7U",
+      "title": "Healthcare AI Is Failing And the Fix Isn't More Data",
+      "date": "2026-05-26",
+      "duration": "00:29:50",
+      "file": "videos/20260526-healthcare-ai-is-failing-and-the-fix-isn-t-more-data-9FfSPxR7M7U.txt",
+      "url": "https://www.youtube.com/watch?v=9FfSPxR7M7U"
+    },
+    {
+      "id": "dbwSf8dn5JI",
+      "title": "Your Product Isn\u2019t Ready for AI Until You Fix These Software Mistakes",
+      "date": "2026-05-12",
+      "duration": "00:38:59",
+      "file": "videos/20260512-your-product-isn-t-ready-for-ai-until-you-fix-these-software-dbwSf8dn5JI.txt",
+      "url": "https://www.youtube.com/watch?v=dbwSf8dn5JI"
+    },
+    {
+      "id": "kW5axmGKlt4",
+      "title": "Your Product Isn\u2019t Ready for AI Until You Fix These Software Mistakes",
+      "date": "2026-05-12",
+      "duration": "00:32:27",
+      "file": "videos/20260512-your-product-isn-t-ready-for-ai-until-you-fix-these-software-kW5axmGKlt4.txt",
+      "url": "https://www.youtube.com/watch?v=kW5axmGKlt4"
+    },
+    {
+      "id": "vU4QbL3aNTY",
+      "title": "Why Most SaaS Companies Fail to Scale in the AI Era",
+      "date": "2026-04-28",
+      "duration": "00:54:10",
+      "file": "videos/20260428-why-most-saas-companies-fail-to-scale-in-the-ai-era-vU4QbL3aNTY.txt",
+      "url": "https://www.youtube.com/watch?v=vU4QbL3aNTY"
+    },
+    {
+      "id": "Sx3lufdBX30",
+      "title": "Why Most SaaS Companies Fail to Scale in the AI Era",
+      "date": "2026-04-28",
+      "duration": "00:46:48",
+      "file": "videos/20260428-why-most-saas-companies-fail-to-scale-in-the-ai-era-Sx3lufdBX30.txt",
+      "url": "https://www.youtube.com/watch?v=Sx3lufdBX30"
+    },
+    {
+      "id": "pVkZFOgh3vk",
+      "title": "Hype or Game Changer? How Developers Are Actually Using Claude Code",
+      "date": "2026-04-21",
+      "duration": "00:36:03",
+      "file": "videos/20260421-hype-or-game-changer-how-developers-are-actually-using-claud-pVkZFOgh3vk.txt",
+      "url": "https://www.youtube.com/watch?v=pVkZFOgh3vk"
+    },
+    {
+      "id": "Zbmv33RZjTM",
+      "title": "Hype or Game Changer? How Developers Are Actually Using Claude Code",
+      "date": "2026-04-21",
+      "duration": "00:31:02",
+      "file": "videos/20260421-hype-or-game-changer-how-developers-are-actually-using-claud-Zbmv33RZjTM.txt",
+      "url": "https://www.youtube.com/watch?v=Zbmv33RZjTM"
+    },
+    {
+      "id": "HxxJfoOBmUk",
+      "title": "Stop Flying Blind: The Financial System Every SaaS Needs with Anthony Nitsos",
+      "date": "2026-04-14",
+      "duration": "00:45:43",
+      "file": "videos/20260414-stop-flying-blind-the-financial-system-every-saas-needs-with-HxxJfoOBmUk.txt",
+      "url": "https://www.youtube.com/watch?v=HxxJfoOBmUk"
+    },
+    {
+      "id": "XGulifkfnhQ",
+      "title": "Stop Flying Blind: The Financial System Every SaaS Needs with Anthony Nitsos",
+      "date": "2026-04-14",
+      "duration": "00:42:19",
+      "file": "videos/20260414-stop-flying-blind-the-financial-system-every-saas-needs-with-XGulifkfnhQ.txt",
+      "url": "https://www.youtube.com/watch?v=XGulifkfnhQ"
+    },
+    {
+      "id": "EETQBaEDvqc",
+      "title": "Fail-Safe by Design: How Safety-Critical Systems Thinking Can Scale Your SaaS with Kjell Hedstrom",
+      "date": "2026-04-07",
+      "duration": "00:39:27",
+      "file": "videos/20260407-fail-safe-by-design-how-safety-critical-systems-thinking-can-EETQBaEDvqc.txt",
+      "url": "https://www.youtube.com/watch?v=EETQBaEDvqc"
+    },
+    {
+      "id": "g9gAOCOcWgk",
+      "title": "Fail-Safe by Design: How Safety-Critical Systems Thinking Can Scale Your SaaS with Kjell Hedstrom",
+      "date": "2026-04-07",
+      "duration": "00:31:01",
+      "file": "videos/20260407-fail-safe-by-design-how-safety-critical-systems-thinking-can-g9gAOCOcWgk.txt",
+      "url": "https://www.youtube.com/watch?v=g9gAOCOcWgk"
+    },
+    {
+      "id": "pdUUkX_fxjU",
+      "title": "How Joe Walsh is Pivoting a $4B Legacy Business into a SaaS Model",
+      "date": "2026-04-01",
+      "duration": "00:56:46",
+      "file": "videos/20260401-how-joe-walsh-is-pivoting-a-4b-legacy-business-into-a-saas-m-pdUUkX_fxjU.txt",
+      "url": "https://www.youtube.com/watch?v=pdUUkX_fxjU"
+    },
+    {
+      "id": "r6KtnNqEl_o",
+      "title": "How Joe Walsh is Pivoting a $4B Legacy Business into a SaaS Model",
+      "date": "2026-03-31",
+      "duration": "00:48:19",
+      "file": "videos/20260331-how-joe-walsh-is-pivoting-a-4b-legacy-business-into-a-saas-m-r6KtnNqEl_o.txt",
+      "url": "https://www.youtube.com/watch?v=r6KtnNqEl_o"
+    },
+    {
+      "id": "MwNGX09X5AQ",
+      "title": "You're Shipping Constantly - So Why Aren't You Growing? With Daniel Layfield",
+      "date": "2026-03-24",
+      "duration": "00:45:26",
+      "file": "videos/20260324-you-re-shipping-constantly-so-why-aren-t-you-growing-with-da-MwNGX09X5AQ.txt",
+      "url": "https://www.youtube.com/watch?v=MwNGX09X5AQ"
+    },
+    {
+      "id": "fyk-Aoa3LJY",
+      "title": "You're Shipping Constantly - So Why Aren't You Growing? With Daniel Layfield",
+      "date": "2026-03-24",
+      "duration": "00:40:22",
+      "file": "videos/20260324-you-re-shipping-constantly-so-why-aren-t-you-growing-with-da-fyk-Aoa3LJY.txt",
+      "url": "https://www.youtube.com/watch?v=fyk-Aoa3LJY"
+    },
+    {
+      "id": "5J5ghRV_XgU",
+      "title": "AI-Assisted Development: Expectations vs. Reality with Richardson Dackam",
+      "date": "2026-03-17",
+      "duration": "00:42:34",
+      "file": "videos/20260317-ai-assisted-development-expectations-vs-reality-with-richard-5J5ghRV_XgU.txt",
+      "url": "https://www.youtube.com/watch?v=5J5ghRV_XgU"
+    },
+    {
+      "id": "RU0xv6DIR4k",
+      "title": "AI-Assisted Development: Expectations vs. Reality with Richardson Dackam",
+      "date": "2026-03-17",
+      "duration": "00:34:43",
+      "file": "videos/20260317-ai-assisted-development-expectations-vs-reality-with-richard-RU0xv6DIR4k.txt",
+      "url": "https://www.youtube.com/watch?v=RU0xv6DIR4k"
+    },
+    {
+      "id": "bBvHGWA9LwM",
+      "title": "Who Actually Owns Your Code? SaaS Legal Landmines with Gabriel Saade",
+      "date": "2026-03-10",
+      "duration": "00:52:08",
+      "file": "videos/20260310-who-actually-owns-your-code-saas-legal-landmines-with-gabrie-bBvHGWA9LwM.txt",
+      "url": "https://www.youtube.com/watch?v=bBvHGWA9LwM"
+    },
+    {
+      "id": "NbRcmSBoNOc",
+      "title": "Who Actually Owns Your Code? SaaS Legal Landmines with Gabriel Saade",
+      "date": "2026-03-10",
+      "duration": "00:46:01",
+      "file": "videos/20260310-who-actually-owns-your-code-saas-legal-landmines-with-gabrie-NbRcmSBoNOc.txt",
+      "url": "https://www.youtube.com/watch?v=NbRcmSBoNOc"
+    },
+    {
+      "id": "aAUirp9Rkjk",
+      "title": "How to Price SaaS for Maximum Growth with Dan Balcauski",
+      "date": "2026-03-03",
+      "duration": "00:51:51",
+      "file": "videos/20260303-how-to-price-saas-for-maximum-growth-with-dan-balcauski-aAUirp9Rkjk.txt",
+      "url": "https://www.youtube.com/watch?v=aAUirp9Rkjk"
+    },
+    {
+      "id": "JhdP8xosYGM",
+      "title": "How to Price SaaS for Maximum Growth with Dan Balcauski",
+      "date": "2026-03-03",
+      "duration": "00:43:14",
+      "file": "videos/20260303-how-to-price-saas-for-maximum-growth-with-dan-balcauski-JhdP8xosYGM.txt",
+      "url": "https://www.youtube.com/watch?v=JhdP8xosYGM"
+    },
+    {
+      "id": "fBpBWrTDrMM",
+      "title": "The Metric Most SaaS Teams Ignore with Geoff Roberts",
+      "date": "2026-02-24",
+      "duration": "00:43:25",
+      "file": "videos/20260224-the-metric-most-saas-teams-ignore-with-geoff-roberts-fBpBWrTDrMM.txt",
+      "url": "https://www.youtube.com/watch?v=fBpBWrTDrMM"
+    },
+    {
+      "id": "dgdeP2YMyf4",
+      "title": "The Metric Most SaaS Teams Ignore with Geoff Roberts",
+      "date": "2026-02-24",
+      "duration": "00:37:19",
+      "file": "videos/20260224-the-metric-most-saas-teams-ignore-with-geoff-roberts-dgdeP2YMyf4.txt",
+      "url": "https://www.youtube.com/watch?v=dgdeP2YMyf4"
+    },
+    {
+      "id": "bX8YCx7tniA",
+      "title": "How Poker Coaching Became a Scalable SaaS with Jason Gondziola",
+      "date": "2026-02-17",
+      "duration": "00:35:23",
+      "file": "videos/20260217-how-poker-coaching-became-a-scalable-saas-with-jason-gondzio-bX8YCx7tniA.txt",
+      "url": "https://www.youtube.com/watch?v=bX8YCx7tniA"
+    },
+    {
+      "id": "fr5FkYZmKOI",
+      "title": "How Poker Coaching Became a Scalable SaaS with Jason Gondziola",
+      "date": "2026-02-17",
+      "duration": "00:32:26",
+      "file": "videos/20260217-how-poker-coaching-became-a-scalable-saas-with-jason-gondzio-fr5FkYZmKOI.txt",
+      "url": "https://www.youtube.com/watch?v=fr5FkYZmKOI"
+    },
+    {
+      "id": "gc6M-jXkPcc",
+      "title": "Bootstrapping a Global SaaS from Vietnam with Milan Milutinovic",
+      "date": "2026-02-10",
+      "duration": "00:55:50",
+      "file": "videos/20260210-bootstrapping-a-global-saas-from-vietnam-with-milan-milutino-gc6M-jXkPcc.txt",
+      "url": "https://www.youtube.com/watch?v=gc6M-jXkPcc"
+    },
+    {
+      "id": "KAAUlMZqAys",
+      "title": "Bootstrapping a Global SaaS from Vietnam with Milan Milutinovic",
+      "date": "2026-02-10",
+      "duration": "00:48:39",
+      "file": "videos/20260210-bootstrapping-a-global-saas-from-vietnam-with-milan-milutino-KAAUlMZqAys.txt",
+      "url": "https://www.youtube.com/watch?v=KAAUlMZqAys"
+    },
+    {
+      "id": "cIKl2rxqLIk",
+      "title": "Be the \u201cSh*t Umbrella\u201d: CTO Lessons on Leadership, Tech Debt, and Exits",
+      "date": "2026-02-03",
+      "duration": "00:44:04",
+      "file": "videos/20260203-be-the-sh-t-umbrella-cto-lessons-on-leadership-tech-debt-and-cIKl2rxqLIk.txt",
+      "url": "https://www.youtube.com/watch?v=cIKl2rxqLIk"
+    },
+    {
+      "id": "hdxAaH_VfxA",
+      "title": "Be the \u201cSh*t Umbrella\u201d: CTO Lessons on Leadership, Tech Debt, and Exits",
+      "date": "2026-02-03",
+      "duration": "00:39:38",
+      "file": "videos/20260203-be-the-sh-t-umbrella-cto-lessons-on-leadership-tech-debt-and-hdxAaH_VfxA.txt",
+      "url": "https://www.youtube.com/watch?v=hdxAaH_VfxA"
+    },
+    {
+      "id": "y49QyG6JmZs",
+      "title": "Building SaaS Faster in 2026 with Vinay Rao",
+      "date": "2026-01-27",
+      "duration": "00:40:29",
+      "file": "videos/20260127-building-saas-faster-in-2026-with-vinay-rao-y49QyG6JmZs.txt",
+      "url": "https://www.youtube.com/watch?v=y49QyG6JmZs"
+    },
+    {
+      "id": "w69zz3ThClk",
+      "title": "Building SaaS Faster in 2026 with Vinay Rao",
+      "date": "2026-01-27",
+      "duration": "00:39:33",
+      "file": "videos/20260127-building-saas-faster-in-2026-with-vinay-rao-w69zz3ThClk.txt",
+      "url": "https://www.youtube.com/watch?v=w69zz3ThClk"
+    },
+    {
+      "id": "_bR9hhjJsck",
+      "title": "2026 Predictions That Every Founder Should Plan For",
+      "date": "2026-01-20",
+      "duration": "00:24:45",
+      "file": "videos/20260120-2026-predictions-that-every-founder-should-plan-for-_bR9hhjJsck.txt",
+      "url": "https://www.youtube.com/watch?v=_bR9hhjJsck"
+    },
+    {
+      "id": "3ouRcnRCwXg",
+      "title": "2026 Predictions That Every Founder Should Plan For",
+      "date": "2026-01-20",
+      "duration": "00:22:32",
+      "file": "videos/20260120-2026-predictions-that-every-founder-should-plan-for-3ouRcnRCwXg.txt",
+      "url": "https://www.youtube.com/watch?v=3ouRcnRCwXg"
+    },
+    {
+      "id": "oetV5CHH_yQ",
+      "title": "Top 10 SaaS Lessons (Best of 2025)",
+      "date": "2025-12-16",
+      "duration": "00:22:57",
+      "file": "videos/20251216-top-10-saas-lessons-best-of-2025-oetV5CHH_yQ.txt",
+      "url": "https://www.youtube.com/watch?v=oetV5CHH_yQ"
+    },
+    {
+      "id": "GInEtVCbTu8",
+      "title": "Top 10 SaaS Lessons (Best of 2025)",
+      "date": "2025-12-16",
+      "duration": "00:20:39",
+      "file": "videos/20251216-top-10-saas-lessons-best-of-2025-GInEtVCbTu8.txt",
+      "url": "https://www.youtube.com/watch?v=GInEtVCbTu8"
+    },
+    {
+      "id": "_GDHJH5d-6s",
+      "title": "Freemium, Feedback, and Fighting Google: How Jotform Bootstrapped 35M+ Users",
+      "date": "2025-12-09",
+      "duration": "00:47:34",
+      "file": "videos/20251209-freemium-feedback-and-fighting-google-how-jotform-bootstrapp-_GDHJH5d-6s.txt",
+      "url": "https://www.youtube.com/watch?v=_GDHJH5d-6s"
+    },
+    {
+      "id": "RL_MwYlnafs",
+      "title": "Freemium, Feedback, and Fighting Google: How Jotform Bootstrapped 35M+ Users",
+      "date": "2025-12-09",
+      "duration": "00:43:29",
+      "file": "videos/20251209-freemium-feedback-and-fighting-google-how-jotform-bootstrapp-RL_MwYlnafs.txt",
+      "url": "https://www.youtube.com/watch?v=RL_MwYlnafs"
+    },
+    {
+      "id": "B4vIVmJ6Lhc",
+      "title": "How Cockroach Mode + Curiosity Rebuilt a Career from Scratch",
+      "date": "2025-12-02",
+      "duration": "01:00:41",
+      "file": "videos/20251202-how-cockroach-mode-curiosity-rebuilt-a-career-from-scratch-B4vIVmJ6Lhc.txt",
+      "url": "https://www.youtube.com/watch?v=B4vIVmJ6Lhc"
+    },
+    {
+      "id": "7-LUaXRhF1k",
+      "title": "How Cockroach Mode + Curiosity Rebuilt a Career from Scratch",
+      "date": "2025-12-02",
+      "duration": "00:54:54",
+      "file": "videos/20251202-how-cockroach-mode-curiosity-rebuilt-a-career-from-scratch-7-LUaXRhF1k.txt",
+      "url": "https://www.youtube.com/watch?v=7-LUaXRhF1k"
+    },
+    {
+      "id": "kFYlqRcnSeQ",
+      "title": "Why Founders Keep Building: The Hard Truths & Big Wins",
+      "date": "2025-11-27",
+      "duration": "00:03:04",
+      "file": "videos/20251127-why-founders-keep-building-the-hard-truths-big-wins-kFYlqRcnSeQ.txt",
+      "url": "https://www.youtube.com/watch?v=kFYlqRcnSeQ"
+    },
+    {
+      "id": "A7BAEgCPHtE",
+      "title": "Thanksgiving Special: What Really Fuels Entrepreneurs",
+      "date": "2025-11-25",
+      "duration": "00:08:14",
+      "file": "videos/20251125-thanksgiving-special-what-really-fuels-entrepreneurs-A7BAEgCPHtE.txt",
+      "url": "https://www.youtube.com/watch?v=A7BAEgCPHtE"
+    },
+    {
+      "id": "oPwsDjA7v3A",
+      "title": "Thanksgiving Special: What Really Fuels Entrepreneurs",
+      "date": "2025-11-25",
+      "duration": "00:07:13",
+      "file": "videos/20251125-thanksgiving-special-what-really-fuels-entrepreneurs-oPwsDjA7v3A.txt",
+      "url": "https://www.youtube.com/watch?v=oPwsDjA7v3A"
+    },
+    {
+      "id": "iYpgbqBm9xE",
+      "title": "ICP Mistakes, Startup Failure, and the Workflow Platform That Changed Everything",
+      "date": "2025-11-18",
+      "duration": "00:54:25",
+      "file": "videos/20251118-icp-mistakes-startup-failure-and-the-workflow-platform-that-iYpgbqBm9xE.txt",
+      "url": "https://www.youtube.com/watch?v=iYpgbqBm9xE"
+    },
+    {
+      "id": "hwPJBgDC3AE",
+      "title": "ICP Mistakes, Startup Failure, and the Workflow Platform That Changed Everything",
+      "date": "2025-11-18",
+      "duration": "00:48:20",
+      "file": "videos/20251118-icp-mistakes-startup-failure-and-the-workflow-platform-that-hwPJBgDC3AE.txt",
+      "url": "https://www.youtube.com/watch?v=hwPJBgDC3AE"
+    },
+    {
+      "id": "KXfY0Ctt0l4",
+      "title": "Behind Schedule, Over-budget, and... Happy?",
+      "date": "2025-11-11",
+      "duration": "01:00:52",
+      "file": "videos/20251111-behind-schedule-over-budget-and-happy-KXfY0Ctt0l4.txt",
+      "url": "https://www.youtube.com/watch?v=KXfY0Ctt0l4"
+    },
+    {
+      "id": "ZEKpG9VVh9g",
+      "title": "Behind Schedule, Over-budget, and... Happy?",
+      "date": "2025-11-11",
+      "duration": "00:55:55",
+      "file": "videos/20251111-behind-schedule-over-budget-and-happy-ZEKpG9VVh9g.txt",
+      "url": "https://www.youtube.com/watch?v=ZEKpG9VVh9g"
+    },
+    {
+      "id": "X01PDdq3wGg",
+      "title": "When AWS Broke the Internet: What Really Happened and How to Prepare",
+      "date": "2025-11-04",
+      "duration": "00:35:59",
+      "file": "videos/20251104-when-aws-broke-the-internet-what-really-happened-and-how-to-X01PDdq3wGg.txt",
+      "url": "https://www.youtube.com/watch?v=X01PDdq3wGg"
+    },
+    {
+      "id": "2lELAMP8s9Q",
+      "title": "When AWS Broke the Internet: What Really Happened and How to Prepare",
+      "date": "2025-11-04",
+      "duration": "00:31:20",
+      "file": "videos/20251104-when-aws-broke-the-internet-what-really-happened-and-how-to-2lELAMP8s9Q.txt",
+      "url": "https://www.youtube.com/watch?v=2lELAMP8s9Q"
+    },
+    {
+      "id": "EYOjouCnfrg",
+      "title": "From Problem to Product: Turning Personal Frustrations Into Tech Solutions",
+      "date": "2025-10-28",
+      "duration": "00:35:52",
+      "file": "videos/20251028-from-problem-to-product-turning-personal-frustrations-into-t-EYOjouCnfrg.txt",
+      "url": "https://www.youtube.com/watch?v=EYOjouCnfrg"
+    },
+    {
+      "id": "sfINchqJDuI",
+      "title": "From Problem to Product: Turning Personal Frustrations Into Tech Solutions",
+      "date": "2025-10-28",
+      "duration": "00:32:07",
+      "file": "videos/20251028-from-problem-to-product-turning-personal-frustrations-into-t-sfINchqJDuI.txt",
+      "url": "https://www.youtube.com/watch?v=sfINchqJDuI"
+    },
+    {
+      "id": "m_exAmaRAp8",
+      "title": "SaaS Lessons You Can't Afford to Miss",
+      "date": "2025-10-22",
+      "duration": "00:22:31",
+      "file": "videos/20251022-saas-lessons-you-can-t-afford-to-miss-m_exAmaRAp8.txt",
+      "url": "https://www.youtube.com/watch?v=m_exAmaRAp8"
+    },
+    {
+      "id": "GuPHIPeSjk0",
+      "title": "SaaS Lessons You Can't Afford to Miss",
+      "date": "2025-10-22",
+      "duration": "00:19:35",
+      "file": "videos/20251022-saas-lessons-you-can-t-afford-to-miss-GuPHIPeSjk0.txt",
+      "url": "https://www.youtube.com/watch?v=GuPHIPeSjk0"
+    },
+    {
+      "id": "Nu0PR84-k4Q",
+      "title": "Building What Matters: Culture as a Moat, Scrappy SaaS, and Startup Reality with Steve Powell",
+      "date": "2025-10-14",
+      "duration": "00:43:17",
+      "file": "videos/20251014-building-what-matters-culture-as-a-moat-scrappy-saas-and-sta-Nu0PR84-k4Q.txt",
+      "url": "https://www.youtube.com/watch?v=Nu0PR84-k4Q"
+    },
+    {
+      "id": "1Y1NsthWDD8",
+      "title": "Building What Matters: Culture as a Moat, Scrappy SaaS, and Startup Reality with Steve Powell",
+      "date": "2025-10-14",
+      "duration": "00:36:07",
+      "file": "videos/20251014-building-what-matters-culture-as-a-moat-scrappy-saas-and-sta-1Y1NsthWDD8.txt",
+      "url": "https://www.youtube.com/watch?v=1Y1NsthWDD8"
+    },
+    {
+      "id": "1gS1fffEnwA",
+      "title": "Why 90% of Developer Tools Fail and How Honeybadger Thrived",
+      "date": "2025-10-07",
+      "duration": "00:41:35",
+      "file": "videos/20251007-why-90-of-developer-tools-fail-and-how-honeybadger-thrived-1gS1fffEnwA.txt",
+      "url": "https://www.youtube.com/watch?v=1gS1fffEnwA"
+    },
+    {
+      "id": "U_IdbrM1a70",
+      "title": "Why 90% of Developer Tools Fail and How Honeybadger Thrived",
+      "date": "2025-10-07",
+      "duration": "00:34:58",
+      "file": "videos/20251007-why-90-of-developer-tools-fail-and-how-honeybadger-thrived-U_IdbrM1a70.txt",
+      "url": "https://www.youtube.com/watch?v=U_IdbrM1a70"
+    },
+    {
+      "id": "bZ7eYVSORsg",
+      "title": "Scaling SaaS with Values, Culture, and AI Feedback with Stefano Grossi",
+      "date": "2025-09-30",
+      "duration": "00:45:44",
+      "file": "videos/20250930-scaling-saas-with-values-culture-and-ai-feedback-with-stefan-bZ7eYVSORsg.txt",
+      "url": "https://www.youtube.com/watch?v=bZ7eYVSORsg"
+    },
+    {
+      "id": "ID8TP3DWRTY",
+      "title": "Scaling SaaS with Values, Culture, and AI Feedback with Stefano Grossi",
+      "date": "2025-09-30",
+      "duration": "00:38:51",
+      "file": "videos/20250930-scaling-saas-with-values-culture-and-ai-feedback-with-stefan-ID8TP3DWRTY.txt",
+      "url": "https://www.youtube.com/watch?v=ID8TP3DWRTY"
+    },
+    {
+      "id": "9D28xK98oY4",
+      "title": "From Bootstrapped to Bought: Sustainable SaaS Growth with Tom Buchok",
+      "date": "2025-09-23",
+      "duration": "00:55:20",
+      "file": "videos/20250923-from-bootstrapped-to-bought-sustainable-saas-growth-with-tom-9D28xK98oY4.txt",
+      "url": "https://www.youtube.com/watch?v=9D28xK98oY4"
+    },
+    {
+      "id": "P2UHLnHUO_k",
+      "title": "From Bootstrapped to Bought: Sustainable SaaS Growth with Tom Buchok",
+      "date": "2025-09-23",
+      "duration": "00:47:43",
+      "file": "videos/20250923-from-bootstrapped-to-bought-sustainable-saas-growth-with-tom-P2UHLnHUO_k.txt",
+      "url": "https://www.youtube.com/watch?v=P2UHLnHUO_k"
+    },
+    {
+      "id": "Ul7U0laMG3I",
+      "title": "Scaling SaaS Smarter: Growth & Retention Strategies with Rob Walling",
+      "date": "2025-09-16",
+      "duration": "00:50:21",
+      "file": "videos/20250916-scaling-saas-smarter-growth-retention-strategies-with-rob-wa-Ul7U0laMG3I.txt",
+      "url": "https://www.youtube.com/watch?v=Ul7U0laMG3I"
+    },
+    {
+      "id": "8a4-N4yGLqI",
+      "title": "Scaling SaaS Smarter: Growth & Retention Strategies with Rob Walling",
+      "date": "2025-09-16",
+      "duration": "00:45:02",
+      "file": "videos/20250916-scaling-saas-smarter-growth-retention-strategies-with-rob-wa-8a4-N4yGLqI.txt",
+      "url": "https://www.youtube.com/watch?v=8a4-N4yGLqI"
+    },
+    {
+      "id": "n1f9M6iMO0o",
+      "title": "Burn it Down and Start Over: When is it Time to Rewrite?",
+      "date": "2025-09-09",
+      "duration": "00:34:51",
+      "file": "videos/20250909-burn-it-down-and-start-over-when-is-it-time-to-rewrite-n1f9M6iMO0o.txt",
+      "url": "https://www.youtube.com/watch?v=n1f9M6iMO0o"
+    },
+    {
+      "id": "6Tq5WMvpFqg",
+      "title": "Burn it Down and Start Over: When is it Time to Rewrite?",
+      "date": "2025-09-09",
+      "duration": "00:31:19",
+      "file": "videos/20250909-burn-it-down-and-start-over-when-is-it-time-to-rewrite-6Tq5WMvpFqg.txt",
+      "url": "https://www.youtube.com/watch?v=6Tq5WMvpFqg"
+    },
+    {
+      "id": "3p4LgOVCxtw",
+      "title": "SaaS That Sells Itself: Growth Without Ads or Cold Outreach",
+      "date": "2025-09-02",
+      "duration": "00:41:22",
+      "file": "videos/20250902-saas-that-sells-itself-growth-without-ads-or-cold-outreach-3p4LgOVCxtw.txt",
+      "url": "https://www.youtube.com/watch?v=3p4LgOVCxtw"
+    },
+    {
+      "id": "45ltKm6iUD0",
+      "title": "SaaS That Sells Itself: Growth Without Ads or Cold Outreach",
+      "date": "2025-09-02",
+      "duration": "00:36:15",
+      "file": "videos/20250902-saas-that-sells-itself-growth-without-ads-or-cold-outreach-45ltKm6iUD0.txt",
+      "url": "https://www.youtube.com/watch?v=45ltKm6iUD0"
+    },
+    {
+      "id": "bJZmSxQaPc0",
+      "title": "React Native vs. Native Apps: Finding the Right Fit",
+      "date": "2025-08-26",
+      "duration": "00:41:57",
+      "file": "videos/20250826-react-native-vs-native-apps-finding-the-right-fit-bJZmSxQaPc0.txt",
+      "url": "https://www.youtube.com/watch?v=bJZmSxQaPc0"
+    },
+    {
+      "id": "jWanwI2E3S0",
+      "title": "React Native vs. Native Apps: Finding the Right Fit",
+      "date": "2025-08-26",
+      "duration": "00:38:01",
+      "file": "videos/20250826-react-native-vs-native-apps-finding-the-right-fit-jWanwI2E3S0.txt",
+      "url": "https://www.youtube.com/watch?v=jWanwI2E3S0"
+    },
+    {
+      "id": "_G_HC0UUb4E",
+      "title": "From Idea to MVP: The Early-Stage Decisions That Will Make or Break Your Startup",
+      "date": "2025-08-19",
+      "duration": "00:40:27",
+      "file": "videos/20250819-from-idea-to-mvp-the-early-stage-decisions-that-will-make-or-_G_HC0UUb4E.txt",
+      "url": "https://www.youtube.com/watch?v=_G_HC0UUb4E"
+    },
+    {
+      "id": "UDLO62gwCok",
+      "title": "From Idea to MVP: The Early-Stage Decisions That Will Make or Break Your Startup",
+      "date": "2025-08-19",
+      "duration": "00:40:14",
+      "file": "videos/20250819-from-idea-to-mvp-the-early-stage-decisions-that-will-make-or-UDLO62gwCok.txt",
+      "url": "https://www.youtube.com/watch?v=UDLO62gwCok"
+    },
+    {
+      "id": "nFzfT7wAvTY",
+      "title": "What Makes a Founder Fundable: Inside the VC Playbook with Brett Calhoun",
+      "date": "2025-08-12",
+      "duration": "00:32:05",
+      "file": "videos/20250812-what-makes-a-founder-fundable-inside-the-vc-playbook-with-br-nFzfT7wAvTY.txt",
+      "url": "https://www.youtube.com/watch?v=nFzfT7wAvTY"
+    },
+    {
+      "id": "Zy1fWF0hT2c",
+      "title": "What Makes a Founder Fundable: Inside the VC Playbook with Brett Calhoun",
+      "date": "2025-08-12",
+      "duration": "00:27:20",
+      "file": "videos/20250812-what-makes-a-founder-fundable-inside-the-vc-playbook-with-br-Zy1fWF0hT2c.txt",
+      "url": "https://www.youtube.com/watch?v=Zy1fWF0hT2c"
+    },
+    {
+      "id": "QCuyUBNyfVw",
+      "title": "JavaScript Optional: How Turbo is Rewriting the Rails Stack",
+      "date": "2025-08-05",
+      "duration": "00:42:08",
+      "file": "videos/20250805-javascript-optional-how-turbo-is-rewriting-the-rails-stack-QCuyUBNyfVw.txt",
+      "url": "https://www.youtube.com/watch?v=QCuyUBNyfVw"
+    },
+    {
+      "id": "OcYfSou0HrI",
+      "title": "JavaScript Optional: How Turbo is Rewriting the Rails Stack",
+      "date": "2025-08-05",
+      "duration": "00:37:54",
+      "file": "videos/20250805-javascript-optional-how-turbo-is-rewriting-the-rails-stack-OcYfSou0HrI.txt",
+      "url": "https://www.youtube.com/watch?v=OcYfSou0HrI"
+    },
+    {
+      "id": "MrwBq5vC1o4",
+      "title": "The Unsung Visionary: Inside the Founder-Adjacent Role",
+      "date": "2025-07-29",
+      "duration": "00:38:44",
+      "file": "videos/20250729-the-unsung-visionary-inside-the-founder-adjacent-role-MrwBq5vC1o4.txt",
+      "url": "https://www.youtube.com/watch?v=MrwBq5vC1o4"
+    },
+    {
+      "id": "6CgHYkm76L4",
+      "title": "The Unsung Visionary: Inside the Founder-Adjacent Role",
+      "date": "2025-07-31",
+      "duration": "00:38:41",
+      "file": "videos/20250731-the-unsung-visionary-inside-the-founder-adjacent-role-6CgHYkm76L4.txt",
+      "url": "https://www.youtube.com/watch?v=6CgHYkm76L4"
+    },
+    {
+      "id": "D6Uiq5D14WQ",
+      "title": "Will AI Replace Software Engineers\u2014or Just Redefine Them?",
+      "date": "2025-07-22",
+      "duration": "00:37:07",
+      "file": "videos/20250722-will-ai-replace-software-engineers-or-just-redefine-them-D6Uiq5D14WQ.txt",
+      "url": "https://www.youtube.com/watch?v=D6Uiq5D14WQ"
+    },
+    {
+      "id": "rRx9VjiQV4M",
+      "title": "Will AI Replace Software Engineers\u2014or Just Redefine Them?",
+      "date": "2025-07-22",
+      "duration": "00:37:04",
+      "file": "videos/20250722-will-ai-replace-software-engineers-or-just-redefine-them-rRx9VjiQV4M.txt",
+      "url": "https://www.youtube.com/watch?v=rRx9VjiQV4M"
+    },
+    {
+      "id": "RN17I7wNKcE",
+      "title": "Lights, Camera\u2026 SaaS? The App That\u2019s Transforming Film Sets",
+      "date": "2025-07-15",
+      "duration": "00:46:53",
+      "file": "videos/20250715-lights-camera-saas-the-app-that-s-transforming-film-sets-RN17I7wNKcE.txt",
+      "url": "https://www.youtube.com/watch?v=RN17I7wNKcE"
+    },
+    {
+      "id": "PSfheqCafrM",
+      "title": "Lights, Camera\u2026 SaaS? The App That\u2019s Transforming Film Sets",
+      "date": "2025-07-15",
+      "duration": "00:40:44",
+      "file": "videos/20250715-lights-camera-saas-the-app-that-s-transforming-film-sets-PSfheqCafrM.txt",
+      "url": "https://www.youtube.com/watch?v=PSfheqCafrM"
+    },
+    {
+      "id": "_jMpy9EZcHQ",
+      "title": "Joe Kowalski $1B Mistake? Picking the Wrong Vertical",
+      "date": "2025-07-08",
+      "duration": "00:46:21",
+      "file": "videos/20250708-joe-kowalski-1b-mistake-picking-the-wrong-vertical-_jMpy9EZcHQ.txt",
+      "url": "https://www.youtube.com/watch?v=_jMpy9EZcHQ"
+    },
+    {
+      "id": "hpBfcTSSJ7U",
+      "title": "Joe Kowalski $1B Mistake? Picking the Wrong Vertical",
+      "date": "2025-07-08",
+      "duration": "00:46:13",
+      "file": "videos/20250708-joe-kowalski-1b-mistake-picking-the-wrong-vertical-hpBfcTSSJ7U.txt",
+      "url": "https://www.youtube.com/watch?v=hpBfcTSSJ7U"
+    },
+    {
+      "id": "fyfvMUu8ixQ",
+      "title": "Cracking the B2B Marketplace Code with Brett Farmiloe",
+      "date": "2025-07-01",
+      "duration": "00:36:40",
+      "file": "videos/20250701-cracking-the-b2b-marketplace-code-with-brett-farmiloe-fyfvMUu8ixQ.txt",
+      "url": "https://www.youtube.com/watch?v=fyfvMUu8ixQ"
+    },
+    {
+      "id": "dxAt4MRjPUE",
+      "title": "Cracking the B2B Marketplace Code with Brett Farmiloe",
+      "date": "2025-07-01",
+      "duration": "00:36:32",
+      "file": "videos/20250701-cracking-the-b2b-marketplace-code-with-brett-farmiloe-dxAt4MRjPUE.txt",
+      "url": "https://www.youtube.com/watch?v=dxAt4MRjPUE"
+    },
+    {
+      "id": "rGTaxMkPbUQ",
+      "title": "The Brutal Truth About Being a Startup CEO with Steve Benson",
+      "date": "2025-06-24",
+      "duration": "00:37:01",
+      "file": "videos/20250624-the-brutal-truth-about-being-a-startup-ceo-with-steve-benson-rGTaxMkPbUQ.txt",
+      "url": "https://www.youtube.com/watch?v=rGTaxMkPbUQ"
+    },
+    {
+      "id": "iRDKP3NeFUE",
+      "title": "The Brutal Truth About Being a Startup CEO with Steve Benson",
+      "date": "2025-06-24",
+      "duration": "00:36:52",
+      "file": "videos/20250624-the-brutal-truth-about-being-a-startup-ceo-with-steve-benson-iRDKP3NeFUE.txt",
+      "url": "https://www.youtube.com/watch?v=iRDKP3NeFUE"
+    },
+    {
+      "id": "GDhB32hc-Jo",
+      "title": "Most Startups Build the Wrong Product First",
+      "date": "2025-06-17",
+      "duration": "00:33:28",
+      "file": "videos/20250617-most-startups-build-the-wrong-product-first-GDhB32hc-Jo.txt",
+      "url": "https://www.youtube.com/watch?v=GDhB32hc-Jo"
+    },
+    {
+      "id": "WMUThLGWNaQ",
+      "title": "Most Startups Build the Wrong Product First",
+      "date": "2025-06-17",
+      "duration": "00:33:25",
+      "file": "videos/20250617-most-startups-build-the-wrong-product-first-WMUThLGWNaQ.txt",
+      "url": "https://www.youtube.com/watch?v=WMUThLGWNaQ"
+    },
+    {
+      "id": "Wh6mQjX3MdU",
+      "title": "An AI Sales Engine That Actually Feels Human with Dan Wegner",
+      "date": "2025-06-10",
+      "duration": "00:29:42",
+      "file": "videos/20250610-an-ai-sales-engine-that-actually-feels-human-with-dan-wegner-Wh6mQjX3MdU.txt",
+      "url": "https://www.youtube.com/watch?v=Wh6mQjX3MdU"
+    },
+    {
+      "id": "74iu4TXjqRQ",
+      "title": "An AI Sales Engine That Actually Feels Human with Dan Wegner",
+      "date": "2025-06-10",
+      "duration": "00:29:39",
+      "file": "videos/20250610-an-ai-sales-engine-that-actually-feels-human-with-dan-wegner-74iu4TXjqRQ.txt",
+      "url": "https://www.youtube.com/watch?v=74iu4TXjqRQ"
+    },
+    {
+      "id": "u8-PDUeWemE",
+      "title": "Drones, Django, and Saying No to Bad Clients with Brian Stinar",
+      "date": "2025-06-03",
+      "duration": "00:43:59",
+      "file": "videos/20250603-drones-django-and-saying-no-to-bad-clients-with-brian-stinar-u8-PDUeWemE.txt",
+      "url": "https://www.youtube.com/watch?v=u8-PDUeWemE"
+    },
+    {
+      "id": "PNCwW-I8YQc",
+      "title": "Drones, Django, and Saying No to Bad Clients with Brian Stinar",
+      "date": "2025-06-03",
+      "duration": "00:43:51",
+      "file": "videos/20250603-drones-django-and-saying-no-to-bad-clients-with-brian-stinar-PNCwW-I8YQc.txt",
+      "url": "https://www.youtube.com/watch?v=PNCwW-I8YQc"
+    },
+    {
+      "id": "k29-ygi56nk",
+      "title": "How One AI Insight Took YellowBird from MVP to Market Leader",
+      "date": "2025-05-27",
+      "duration": "00:47:11",
+      "file": "videos/20250527-how-one-ai-insight-took-yellowbird-from-mvp-to-market-leader-k29-ygi56nk.txt",
+      "url": "https://www.youtube.com/watch?v=k29-ygi56nk"
+    },
+    {
+      "id": "Ae1lC9FLaqE",
+      "title": "How One AI Insight Took YellowBird from MVP to Market Leader",
+      "date": "2025-05-27",
+      "duration": "00:47:01",
+      "file": "videos/20250527-how-one-ai-insight-took-yellowbird-from-mvp-to-market-leader-Ae1lC9FLaqE.txt",
+      "url": "https://www.youtube.com/watch?v=Ae1lC9FLaqE"
+    },
+    {
+      "id": "pDhg3-G7cyM",
+      "title": "Why Most Startups Fail and How to Avoid It",
+      "date": "2025-05-20",
+      "duration": "00:37:40",
+      "file": "videos/20250520-why-most-startups-fail-and-how-to-avoid-it-pDhg3-G7cyM.txt",
+      "url": "https://www.youtube.com/watch?v=pDhg3-G7cyM"
+    },
+    {
+      "id": "3wcfHeopLH0",
+      "title": "Why Most Startups Fail and How to Avoid It",
+      "date": "2025-05-21",
+      "duration": "00:37:33",
+      "file": "videos/20250521-why-most-startups-fail-and-how-to-avoid-it-3wcfHeopLH0.txt",
+      "url": "https://www.youtube.com/watch?v=3wcfHeopLH0"
+    },
+    {
+      "id": "AYoi-iN1pqo",
+      "title": ".NET vs. Rails: Which Tech Stack Will Save Your Startup?",
+      "date": "2025-05-13",
+      "duration": "00:48:44",
+      "file": "videos/20250513-net-vs-rails-which-tech-stack-will-save-your-startup-AYoi-iN1pqo.txt",
+      "url": "https://www.youtube.com/watch?v=AYoi-iN1pqo"
+    },
+    {
+      "id": "KC7K8LhCDrg",
+      "title": ".NET vs. Rails: Which Tech Stack Will Save Your Startup?",
+      "date": "2025-05-21",
+      "duration": "00:48:37",
+      "file": "videos/20250521-net-vs-rails-which-tech-stack-will-save-your-startup-KC7K8LhCDrg.txt",
+      "url": "https://www.youtube.com/watch?v=KC7K8LhCDrg"
+    },
+    {
+      "id": "XeF0SgG8Diw",
+      "title": "The Case Against SPAs",
+      "date": "2025-05-06",
+      "duration": "00:50:54",
+      "file": "videos/20250506-the-case-against-spas-XeF0SgG8Diw.txt",
+      "url": "https://www.youtube.com/watch?v=XeF0SgG8Diw"
+    },
+    {
+      "id": "WIAHnv6go8Q",
+      "title": "The Case Against SPAs",
+      "date": "2025-05-06",
+      "duration": "00:46:00",
+      "file": "videos/20250506-the-case-against-spas-WIAHnv6go8Q.txt",
+      "url": "https://www.youtube.com/watch?v=WIAHnv6go8Q"
+    },
+    {
+      "id": "pxIX3LPKMqA",
+      "title": "The Print Shop That Automated Its Way to Growth",
+      "date": "2025-04-29",
+      "duration": "00:44:35",
+      "file": "videos/20250429-the-print-shop-that-automated-its-way-to-growth-pxIX3LPKMqA.txt",
+      "url": "https://www.youtube.com/watch?v=pxIX3LPKMqA"
+    },
+    {
+      "id": "g_y68bzg-ZY",
+      "title": "The Print Shop That Automated Its Way to Growth",
+      "date": "2025-04-29",
+      "duration": "00:44:35",
+      "file": "videos/20250429-the-print-shop-that-automated-its-way-to-growth-g_y68bzg-ZY.txt",
+      "url": "https://www.youtube.com/watch?v=g_y68bzg-ZY"
+    },
+    {
+      "id": "C4B4ogs7EvE",
+      "title": "How Strong Culture Built a Stronger SaaS",
+      "date": "2025-04-23",
+      "duration": "00:45:02",
+      "file": "videos/20250423-how-strong-culture-built-a-stronger-saas-C4B4ogs7EvE.txt",
+      "url": "https://www.youtube.com/watch?v=C4B4ogs7EvE"
+    },
+    {
+      "id": "d65N2vlISwg",
+      "title": "How Strong Culture Built a Stronger SaaS",
+      "date": "2025-04-25",
+      "duration": "00:39:16",
+      "file": "videos/20250425-how-strong-culture-built-a-stronger-saas-d65N2vlISwg.txt",
+      "url": "https://www.youtube.com/watch?v=d65N2vlISwg"
+    },
+    {
+      "id": "KTaWGdNexxs",
+      "title": "\ud83d\ude80 Launching Soon: SaaS That App \u2013 Building B2B Web Applications \ud83c\udf99\ufe0f",
+      "date": "2025-04-21",
+      "duration": "00:00:42",
+      "file": "videos/20250421-launching-soon-saas-that-app-building-b2b-web-applications-KTaWGdNexxs.txt",
+      "url": "https://www.youtube.com/watch?v=KTaWGdNexxs"
+    },
+    {
+      "id": "deQxX7J9VFw",
+      "title": "\ud83c\udf99\ufe0f SaaS That App is coming soon\u2026",
+      "date": "2025-04-17",
+      "duration": "00:00:08",
+      "file": "videos/20250417-saas-that-app-is-coming-soon-deQxX7J9VFw.txt",
+      "url": "https://www.youtube.com/watch?v=deQxX7J9VFw"
+    }
+  ]
+}

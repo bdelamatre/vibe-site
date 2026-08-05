@@ -1,0 +1,518 @@
+The $30K Invoice That Killed a 10-Year Customer Relationship
+============================================================
+
+Video ID:  s0_IhEIyYAw
+URL:       https://www.youtube.com/watch?v=s0_IhEIyYAw
+Published: 2026-07-28
+Duration:  00:31:26
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Software is not your remote anymore. How you treat people, your relationships, that's
+the remote. We left this relationship where we felt poorly treated by a vendor. We now
+have a partner that we for vendor that we really like and he's responsive to us. >>
+Welcome to SAS that app, building B2B web applications. The podcast where we share real-
+world stories, practical advice, and tech insights for those building or thinking about
+starting a tech-enabled business. I'm your co-host, Aaron Marshbanks. >> And I'm Justin
+Edwards. Each week we bring you the stories, strategies, and insights you need to build
+your SAS or tech-enabled business smarter, not harder. Let's dive right in. Hello and
+welcome to SAS that app. Today we are talking about Harvest and Bend Spoons and what you
+can learn about our recent experience with them and how all that went. And to talk
+through the trials and tribulations we've been through related to one of our uh most
+trusted long-term vendors, I have my co-host, Mr. Aaron
+
+[00:01:04]
+Marshbanks. How are you doing today, my friend? >> Doing well, doing well. Looking
+forward to the conversation cuz I think this is a this will be a great platform to
+actually talk about kind of what we do, how we advise our clients, and the good, bad,
+and ugly of what we see in the industry when it happens and it's finally kind of bitten
+us. So >> Yes, and uh specifically what we can learn from how they handled the situation
+and how maybe you want to handle it differently in your in your SAS when you raise
+prices and how how you treat your customers. So uh yeah, let's kick in. Uh for anybody
+who doesn't know, uh Harvest is a time tracking tool. It's pretty simple. All that it
+does is it lets you load up your team, load up your projects, and your project budgets,
+and people can track time against projects, and that's pretty much it. It connects to
+QuickBooks so we can do invoicing out of it. It's got lots of great reporting. It's a
+cool tool. We've been using it since 2016. It had every feature we needed and it never
+really changed. I don't I think they maybe added one or two features in the decade that
+we were a customer. It always worked, it never went down, and it did everything that we
+needed. >> I think so. Yeah. Yeah, it's a it stayed in its lane, in other words.
+
+[00:02:06]
+>> It stayed in its lane up until 2025 when it was acquired by another company called
+Bending Spoons. Um shortly after that uh acquisition, we started seeing new features
+show up. Uh there was announced they were going to do a a user interface overhaul, which
+is the last thing that I want with a tool that I use for my work all day, every day. And
+uh that's kind of where the problem started. I guess Aaron, do you want to talk about
+our surprise our surprise bill? >> Uh sure. Yeah, so like like Justin, it it was uh
+interesting to start seeing suddenly uh a number of mainly UI-related updates happening,
+uh which, you know, if you've used software at all, and especially over the course of
+many years, and you're accustomed to where everything is, and how it works, and what it
+does, suddenly changing all of that is uh you know, not necessarily a great look, but
+the super big surprise came when uh uh we got our bill, which we were working through on
+an annual basis, and they also of course have a monthly uh monthly type plan as well. Uh
+so, just kind of rolling that up, but it suddenly jumped I don't know, what was like 300
+350%? Something something like that. And
+
+[00:03:09]
+it was mainly due to one additional line item. And I say one additional because up to
+that point there was only one line item, which was number of users, basically. >> Number
+of users time times the annual fee for the user. >> Exactly. But uh there was there was
+a fun new line item that just had to do with usage. It was very nebulous and and uh I
+won't even say hard to decipher, impossible to decipher, uh because it was just one very
+large number in a dollar amount with really no details or indication of how that number
+was arrived at, what it meant, how potentially it could be adjusted in the future, uh
+any of that. So, that was that was kind of the uh the knife to the heart, if you will.
+Um and at that point, yeah, things things started moving into motion very quickly, not
+the least of which were questions. >> And the the usage line item, by the way, was about
+two and a half times the per usage or per seat pricing, which I believe also went up. I
+could be wrong about that, but we were expecting a bill in the neighborhood of $10,000,
+and we
+
+[00:04:11]
+got a bill in the neighborhood of 30. So, um it was a very large very very large
+increase, and I checked my email afterwards. I didn't find any place that they had
+notified me. I know that Ben and Spoon's updated their terms of service where they could
+just announce their price increases on their website and not even notify their
+customers. I don't know if they reached out to me or our team and it got lost in the
+email or not, but I will say that I'm I became aware of this surprise change when the
+credit the credit card bill hit, and I got a message from my accounting team saying,
+"Hey, this seems high." And indeed it was. So, at that point, I'm looking at a $30,000
+annual bill, and I'm immediately like, "This is the era of cloud. Like, we'll just write
+our own. Harvest is not that complicated. We'll just take care of it." I'm like, "Well,
+I don't really need the project right now, and and we're busy. What are we going to do?"
+So, I was like, "Well, I'm going to investigate and see what else is out there." So,
+that's kind of where where we started. Um we identified a new vendor. We migrated our
+entire business off of Harvest in the span of 3 days. We backed up got all of our data
+out of Harvest, moved it into the new competitor, which was set up to capture people who
+were
+
+[00:05:15]
+leaving Harvest, and Harvest refunded our money, to their credit. Uh well, first they
+came back and offered us a 75% discount on the price that they had tried to charge us,
+and we let them know that it was too late for that, and then they they did refund our
+money, to their credit. Um So, that's kind of the the story, but this is a a story of
+vendor-created churn, where Harvest did some We were very very happy. I would have
+stayed with Harvest indefinitely. Harvest did something, and we left. And that's
+probably not what you want in your business, especially cuz I don't think we were the
+bottom end or bad customers for them. I think that we were probably in their juicy
+middle. Uh mean $10,000 annually for a company that is using a piece of software that
+you you write is not nothing to sneeze at. I didn't really know much about Bending
+Spoons before this happened. Um, but I've kind of subsequently done some research on
+them and this kind of seems to be their playbook where they they find a a mature
+software that has a little bit of stickiness or a little bit maybe it's a little bit
+hard to leave. They step into that they cut all the expenses that they can find a way to
+get to axe all the teams, just kick everybody everybody who
+
+[00:06:18]
+can afford to be lost is lost and they basically just cut the thing down to a skeleton
+crew. Um, then they find anything that they're giving away and then they remove that and
+strip that away from people who had access to any kind of premium features. Then they uh
+figure out a way to uh raise prices on the people who are sticking around and it seems
+like the model and and I'm not intimately familiar, but it does seem that their model is
+basically they uh push for maximum pain and then they dial it back just to the point
+where they don't lose everybody, but they're essentially constantly pushing on their
+customers to see how much pain and price increase they'll they'll tolerate. They did
+this a number of times, so they did this with Evernote, they did this with retransfer,
+they did this with a company called Filmic. I don't use any of those products or
+services, but that's what I have read. >> I did use Evernote for a while actually some
+years ago and and like many Evernote users really enjoyed it, but uh while I did not
+research what happened to it about the time that I left, the reason that I left was
+roughly the same as what we saw with Harvest. >> That seems to be their playbook. I
+don't know what why they run this playbook. Apparently it works for them. I mean
+
+[00:07:21]
+it's a business call for them. I don't think they're dumb guys. Like I just started
+every situation assuming that someone is either evil or stupid. So this is part of their
+playbook and it works for what they're trying to do, I suppose. Um, but it was a really
+bad experience from our perspective and I think that that's a really great opportunity
+to learn about what the right thing to do is when you need to uh raise prices with your
+customers. So, yeah, let's try to pivot that into learnings of uh the right way to raise
+prices and then kind of maybe we can highlight what they did and how they maybe didn't
+follow how we would have liked to have been treated uh and a- as their customer. >> To
+our earlier points, leaving because of UI changes is understandable, but also if uh if
+you had that stickiness that that Justin referenced there, uh you know, it's something
+that you can get accustomed to, particularly if it's not just a vast departure from
+where you are, you know, it's UI rewrite and just changing all of the things uh around.
+You know, that's something that can be manageable and it is still yet something that uh
+you know, in our experience works best when you do let someone know that it's coming, uh
+
+[00:08:22]
+particularly uh if it is going to be a a somewhat large overhaul. If it is something
+small within the you know, within the scope of of your SaaS, um you know, that can go on
+a road map, that can be addressed with a you know, a little short video or something
+along those lines. You know, look look at the way we've made this thing easier or better
+or nicer or saving you clicks or what have you, you know, whatever that might be. Uh you
+know, so that that in and of itself is typically not a sufficient reason for people just
+to start bailing right and left, but that is going to raise some eyebrows and it is
+going to have some questions, especially if it's done after a very very long dry spell
+of no real visible changes. That is something that you want to take into consideration
+as you're as you're making some of these decisions on your own software itself uh
+without even thinking of prices yet. >> And just as an example uh to to prove your
+point, Aaron, is like we're still with Atlassian and uh every time they roll out a UI
+update, they somehow make it less usable and harder to navigate than the previous
+version. Um and I wish that they would just stop changing things so that I could learn
+it. Uh I could not even care if it's confusing, but at least if it's if it's static, I
+
+[00:09:24]
+can learn it. But now it's every time I need to do something in Atlassian, they change
+the user interface. Uh but we're still with them. We still we still pay them money every
+month. So, we will endure the user interface >> [laughter] >> uh changes to to hang out
+with them because they're providing a service that we need and they're treating us
+relatively well. I mean, I can talk a little bit about how we handle price increases
+here, but so the first thing is we explain the reason for the price increase and as a
+SaaS founder, that reason is usually I've added a lot of features and the software has a
+lot more value. I think that always framing that in terms of customer value is
+important. Ever I don't If you're in a service model, it's maybe a little bit more
+defensible, but in general, I I would make that a um a value-forward claim. Like we're
+actually more valuable than we were before, which is why we're charging more and you're
+getting more out of our software now, which is why we're charging more. Uh nobody cares
+that your your cost went up. Nobody cares about inflation. That's not the right way to
+frame a price increase, especially if it's dramatic. Um so especially if it's SaaS
+founders who are a little bit squeamish about pushing on the price lever, I think you
+should look back at all the features you've written since the last time you increased
+prices and think about how much more valuable your software is and then use some of
+those items to um to explain why the the price increase is justified essentially.
+
+[00:10:28]
+Give them a a rundown. In the Bending Spoons example, they did actually add some
+features. None of it were things that I needed. The price increase was a gargantuan one.
+So I don't think that they did a nice job of explaining why software was somehow worth
+350 300% more, whatever it was that they were charging us. So that's kind of one. Step
+two, I think it's just being really transparent. So this is your new hourly rate. This
+is your new bill. This is what your plan is going to renew at at this date. Doing that
+communication clearly, transparently, and ahead of time uh I think is key. If we were
+notified and I can't say one way or the other if we were. I didn't see the notification
+neither did anyone else on my team. It was not not enough work with them to make sure
+that we saw this notice ahead of time, especially when the price increase is that
+dramatic. I mean, this is a This is three you know, this is two and a half times two two
+and a half times the price. It's a it's a very large price increase. So that's not
+ideal. I think that you should really try to communicate with your customers um ahead of
+time and especially if you have key customers who are going to take a really big price
+increase, I think having a hopping on the phone with them is a reasonable thing to do
+and having a call and say,
+
+[00:11:30]
+"Hey, you've been with us for 10 years and you're about to get a big increase in your
+bill. Here's what's going on with our business. This is why we're This is how we are
+adding more value than before and this is what we need. But, I wanted to take the time
+to like say that I care that this is going to affect your business and and make you
+understand why it's necessary." >> Yeah, exactly. I mean, most most organizations are of
+course very familiar with the term churn and generally speaking, while you definitely
+want to keep that number low, you also want to keep the opportunity for that number to
+go up low. And one of the ways that you can do that is in our experience and what we
+have heard from many people that have been on the show is over communicate. Um, you
+know, an email one time 3 months in advance of something that's going to happen that
+potentially and in maybe our case got lost somewhere along the way is probably not
+sufficient. It needs to be you know, on par with what it is that's going on. If it's a
+small bump, you know, you don't have to go out of your way to just really start
+hammering home. But, still early communication and something else Justin that we've that
+we've done and I
+
+[00:12:33]
+know that other organizations have done as well is have at least some sort of a grace
+period or a grandfather period, you know, for those existing customers or those longer
+term customers to give them an opportunity to see what it is that you have done if it is
+still going to be beneficial for them. Perhaps even at their at their older rate or a
+much smaller, more modest, you know, increase for some time period. Again, let them see
+what's going on. Um, but also at the same time don't kneecap by uh, you know, removing
+tooling that might be beneficial or help them move somewhere else if it's no longer a
+good fit. Uh, I will say in this specific instance and again to Harvest's credit, they
+did not we were still able to manage our exports of the data. We were still able to
+relatively easily cancel. We did get some communication surrounding that. So, those were
+all good things, but it's all after the fact stuff. And so, getting in front of this as
+much as possible and making sure that people understand what's coming, why it's coming,
+what their options are going to be going forward, and and giving the decision and the
+power back to your customer and back to
+
+[00:13:35]
+your client can a lot of times by itself salvage that relationship. >> Yeah, 100% and
+and when you say giving, you know, you're grandfathering people in or something, that
+should be an on-ramp, not a forever lower price. Just explicitly say that. So, yeah, I
+understand you've been here for a long time. This is a big increase. We're going to
+phase it in over 3 years for you as a big customer who's been so loyal and blah blah
+blah. But, don't It should never be that person gets a different price forever. It's
+just you're trying to honor the relationship and also stop it from being so jarring for
+them, especially especially if the price increase is really big. Real quick, this
+episode is brought to you by Delta Systems, which is what Erin and I do when we're not
+talking through microphones to you, the people of the internet. We've got a really,
+really great software team here and we'd love to work with cool people on cool projects.
+So, that sounds like you when you've got a problem or you're in some kind of a jam, go
+to deltasystems.com, grab a time with us. We can beat up on your problem together and if
+there's a fit there, amazing, we'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. Yeah, I think that's that's kind of
+the main thing. So, explaining that you're
+
+[00:14:38]
+adding additional value, tying the price increase to added value, treating honoring
+loyalty in relationships and treating people like human beings, like you'd want to be
+treated. This is kind of the basic stuff. Being really clear about what the price of the
+bill is, explaining it ahead of time. Treat your customers the way that you want to be
+treated. I don't think that's, you know, this is not exactly rock rocket surgery. I
+think a lot of the talks we hear about this are about founders who are just so afraid to
+push price increases on people and we've never struggled with that issue, but if you are
+going to push price increases on people, there's a classy right way to do it and yeah,
+and that's that. And again, you can kind of be be open to that. For the next segment, I
+was going to kind of Charlie Munger rule of inversion this. I don't know if you're
+familiar, so like you just, you know, what's instead of saying what you want to do you
+say like what what would be the way to optimize on the thing that I don't want to do. So
+this section is like this is the guide to maximizing churn and damaging customer
+relationships through price increases. So there's a way to do it so if I wanted to
+maximize churn and damage my customer relationships I would take really basic simple
+pricing that's easy to understand
+
+[00:15:41]
+and I would replace it with complicated pricing and formulas that are arcane. Especially
+so one of the things that's kind of insulting is maybe not the right word but doesn't
+make me feel good about this whole usage based billing that Harvest introduced is
+nothing about what we're doing in the app changed. There everything that we were doing
+is like having projects. Having people log time on projects, having projects that have
+budget set, invoicing these projects. This is what the product does. There's no
+additional we're not paying for something it's not like when you run over on cloud and
+you have to pay cuz you're actually burning extra CPU cycles over what their plan
+allows. Like No, this is just a fee for using the product. There is no tie to value.
+That is another way that I guess if you wanted to maximize churn and piss people off you
+could you could do it. >> Yeah, absolutely and and completely flipping your model you
+know, just all together. I mean everybody probably knows becoming very familiar and
+versed with with usage based pricing. If you have been in devops for very long, this is
+not anything that's new. If you dealt with digital ocean or AWS I mean you see it in
+various ways and it typically can at least be related back to something that you're
+doing. You are you know, in
+
+[00:16:43]
+increasing your your cloud presence. You are utilizing more cycles like Justin said. You
+know, you just need something that's more hefty. You know, there there are things that
+are easier to understand and then there are things that still kind of remain nebulous.
+You know, if any of you have just kind of watched your token ticker go up and you're
+wondering sometimes it goes fast and sometimes it goes slow and this thing should take a
+lot but it doesn't take very much and and you know, some of that is is hard to get your
+head around or to understand because there's not a lot of transparency there and there
+is on the flip side of that, of course, too much transparency, but everybody needs to
+know what it is that they're paying for and why they're paying it at the bare minimum.
+And so, not doing those things is not is not good. >> Yeah, and if we had had a 20, 30,
+50, maybe even 100% per seat price increase, okay. I probably probably wouldn't have
+churned. Especially they told us about it ahead of time. I'd be like, "Well, Harvest is
+going up, but it's going to be annoying to leave and that's fine, but this new kind of
+Arcuun pricing model they installed, it's like,
+
+[00:17:45]
+well, I don't They just They just made up a number, basically, and I'm not going to Like
+I just don't understand. I don't understand how that number changes with my my size. I
+don't understand what it's going to I can't predict what this expense is going to be for
+my business going forward. >> And a lot of that springs from from assumptions, you know,
+I mean, we we've been a 10-year customer, so they're assuming that we will be here for
+another 10 years, but there are very few things that are so sticky that you just simply
+cannot leave. And more often than not you wind up just annoying people. And And if you
+annoy people in the right way, I mean, we're, you know, we're all very intelligent
+people and we know about competition and we also understand that in this day and age
+replacing things is not as hard as it used to be. You know, there are there are very few
+800-lb gorillas, in other words, that that that cannot be found elsewhere. And so, you
+know, turning up the dial on annoyance really really right now increases the likelihood
+that someone is going to churn. >> 100% and and now in in the AI era for a tool like
+Harvest, immediately when we saw the bill, it's like, "Oh, I'll just write my own. It'll
+cost me less than
+
+[00:18:47]
+$30,000 in total dev time to write, deploy, and maintain a successful Harvest that we
+just use in house." And bonus points, we could even spin out our own SaaS. And so, it's
+other people who are leaving Harvest cuz Harvest stinks so much now or they're Yeah. I
+love I have loved Harvest for many many years, but they definitely offended me and and
+we churned, right? So, that's that. So, that's basically what we did and then or or
+started walking down that path and I was like, "I'm really hesitant to add another
+project right now cuz we're really busy. Let me see what new competitors are out there
+and we found on a Reddit post a link to this brand new company called Keito, which is k
+e i t o and they had a free or they had a a demo so I signed up for an account and I hit
+a paywall and they wanted 100 bucks to show me the product. At this point Aaron and I
+were evaluating, you know, other options for for Harvest and I hit the paywall and it's
+like, yeah, I'm not giving them 100 bucks. We'll go some of the other options have a
+free trial so we'll go mess with them. And within a day or so I have an email from the
+CTO over there who's like, hey, I noticed that you signed up and you never got into the
+product. Like, what what what went wrong? And I said, well, I hit
+
+[00:19:50]
+a paywall and I'm evaluating people who have a free trial. He said, well, I've turned
+you on for 2 months. Don't worry about it. So I logged back in and we started hardcore
+evaluating this and it's it's kind of buggy. Looks pretty good. Very similar to Harvest,
+does the things we need to do, but it's got a lot of kind of bugs on it and they have
+their um we noticed that they have their their build number in a version on the visible
+page and so I'm watching this thing tick up over the course of a couple days of
+evaluating this thing and like, they're they're actively actively working on this. It
+went up maybe 100 builds, um which is 100 different commits to to make the software
+better over the span of I'm using it and I noticed during the span of using that for a
+few days all of uh these little bugs and issues that I I had started falling away. And
+now I have the CTO messaging me on the email thread with him so I tagged Aaron in and I
+said, Aaron, let's talk to this guy about any gaps we're identifying cuz he's he's
+bringing this new software in and we ended up getting on the phone with this guy. Aaron,
+do you want to tell us a little bit more about your relationship with him, Aaron? >>
+Yeah, I mean, it was it was pretty remarkable. I mean, first of all, just just to get
+someone at the C-level to, you know, message you about their
+
+[00:20:52]
+application and the fact that they noticed that you showed interest but didn't follow
+through. I mean, one, that's the good side. Communication, right? You've reached out
+even if we were going to be just a disgruntled and be like, yeah, no, no, no, we're
+we're moving on. There was a reach out there so there was an opportunity to like Justin
+noticed uh you know, there was there was work that was going on. So we asked him about
+it. You know, we see these numbers ticking up and obviously that means that you are
+actively working on it and interestingly enough they were an organization that found
+themselves earlier than us in the same situation that we were. And so they had taken the
+route of we're just going to build something for ourselves and use it and wound up
+finding essentially a competitor to to Harvest and that's what they were building out.
+And so we of course doing that ourselves as as an organization as a consultancy was very
+interesting to us and so we were willing to take a flyer and and give it a give it a
+legit test run. And so in meeting with him he was very open about that. He understood
+that there were bugs. He was
+
+[00:21:55]
+actually looking for first users to be able to help help make it better. Which is an
+awesome opportunity if you are you know, a customer for people who are in our space. We
+weren't necessarily looking for a a finished polished product. We needed one that did
+our very similarly narrow scope of things and did it well and did it similar enough that
+we were going to have to break all of our different processes in the back office that we
+had. And he immediately said you know what would be great is if we could just like set
+up some communication where when you guys find something or you have interest in
+something, you know, think wish list send that to us because we are working on a lot of
+things actively and several of the things that we had mentioned on the call he said
+nope, we already are aware of that one. That's actually going to be rolled out tomorrow.
+And then for the rest we just kind of had a running document. He and his team actually
+responded to that document directly. We're working on this. Hey, we had three questions
+on this. Do you see it? Do you envision it like this or that? Would it be more helpful
+if we did it this way? Yes, we agree that this is a this is a
+
+[00:22:58]
+good one, but this is a much bigger lift. So it's it's a little further down the
+pipeline. Is that a deal breaker for you guys? So, it was just it very much became
+almost instantly a partnership. Um not saying that that every organization you run into
+needs to operate that way, but certainly some some organizations very early on in their
+SAS development, uh definitely a competitor that you're seeing an influx of customers
+because of a competitor, uh you know, you want to be open to those sorts of things
+because, you know, one of the one of the great earmarks of of good SAS is that you
+understand your client. Uh you understand what it is that they need, and that's what you
+build your product around instead of again making assumptions and and just putting cool
+stuff out there because you like it. Uh so, the the responsive nature of the
+relationship, and it continues, by the way, I actually got a message from him this
+morning, Justin. I don't think I mentioned that yet. But, um yeah, just something else
+that they are working on and actually wanted us to take a take a test on it and and see
+how it worked. So, yeah, that's that's kind of been the relationship since that first
+message. >> Yeah, 100% and huge shout out to uh Tokio and to Shawn, who's the CTO over
+there. And uh anybody else who's gotten
+
+[00:24:01]
+burned by Harvest, uh highly recommend. It was a drop-in replacement for us after
+getting a couple kinks out. Their team was so responsive, we had everything we needed
+within span of a week and change. The cost of this, by the way, was 1/10 of the price of
+what Harvest wanted to charge us. And I think that worked out to about 1/3 of the price
+of what we were planning to pay Harvest uh before any price increase happened. So, we're
+saving 60 60% over what we were paying before this ridiculous price increase. Uh working
+with the team that's incredibly responsive to us and has been a great partner. Google
+SSO is the only feature that I really want that I don't have right now, and it's on the
+road map, so I'm sure I'll have it before too long. The takeaway from this is not that
+Harvest is terrible and and and um Tokio is great, but it's basically like in the AI
+era, um this software firm was able to do this as a side project. We'd consider doing
+this as a side project, and we found theirs and decided to just use theirs. This idea
+that the software is so complicated and you have this giant moat, like the software is
+not your moat anymore. How you treat people, your relationships, that that's the moat.
+We left this relationship where we felt poorly treated by a vendor. We have We now have
+a partner that we for vendor
+
+[00:25:04]
+that we really like and he's responsive to us and they're a small team and like it's
+just awesome. So, I I think that long-term that people are going to end up in that
+business model because fundamentally the software, especially for these like simple
+business solutions, they just the software's not that complicated and a smart group
+smart group of guys with some some tokens can can re-implement these things really quick
+and teaching empathy, getting AI's to have empathy, getting AI's to understand
+relationships and loyalty, yeah, it's just just the the moat is moving and it's just not
+really about the software anymore and the vendor vendor lock-in is just plummeting more
+more so and more so over time. >> Yeah, we've had we've had a number of guests on uh
+lately including most recently Gia uh Gia Laudi who you know preaches on the
+relationship being so critical, you know, knowing what your ICP is, yes, that's that's
+important, but really knowing your customers and understanding what it is that they
+want. Uh because in this day and age you can't really afford to have you know, dedicated
+customers, long-term customers going out and making product comparisons. Uh there there
+are too many options now including the
+
+[00:26:07]
+build-it-yourself approach which has now become you know, much easier to do. The barrier
+to entry is very low in other words and so uh what you find is is often times there's a
+snowball effect, you know, that could happen because tech-enabled especially customers
+uh are connected in a lot of ways. And as soon as stuff starts showing up on like
+Reddits and and and things like that, uh it's too late. The the the snowball will begin.
+Uh and everybody's going to start sharing what their frustrations were or what their
+experiences were at the very least and where customers might, you know, direct their
+attention. Um and so you you got to take care of not just the customer that's in front
+of you, but recognize that they probably speak for a number of other customers as well.
+>> Yeah, I mean, and here we are, we're recording a podcast where I'm advertising what
+we moved to because I feel like there's other people probably in our situation who are
+being poorly treated and they should move over to a system and as long as it works for
+them and they can pull it off like I mean I feel so much better being where we are now
+than where we were before, you know, a company that that did that kind of price increase
+and did it in a way that was um so I guess most charitably poorly executed
+
+[00:27:11]
+and least charitably downright abusive. Um and if you you piss off and abuse your
+customers they will recruit other people to leave you, you know, that you Customers are
+talking to each other and it's I feel like it's weird to even have to say this, but
+yeah, it's like you have you have this trust in a relationship with your customers and
+if you abuse that it it does doesn't do anything good for your long-term business.
+Although it might spike revenue um in the short term. Which if you're IPOing or
+something, maybe is useful. Don't know what the strategy is for for Bending Spoons. I
+know they recently IPO'd, so maybe having a lot of revenue was useful for that. Don't
+know how all that works. Uh but I think that it's it's myopic uh to to treat people this
+way and you you're going to see a lot of people who are turning and when your vendor
+takes a customer who's been a a mid a middle of the the road kind of juicy 10 grandish a
+year customer uh who's been using the software for 10 years and then pushes them out,
+what does that say for the long-term prospects of the business? You better be squeezing
+a hell of a lot of value out of the top end. No, if you have anything else to cover on
+that, but yeah, the main things are there's a right way and a wrong way to do price
+increases. There
+
+[00:28:14]
+is a right way and a wrong way to treat your customers um and being respectful and not
+abusive and these kinds of things. Uh your software is probably not your remote anymore,
+but how you treat people is going to make it's a big it's a big deal. And um yeah. I
+think that's kind of the wrap-up. Aaron, do you have anything else for us? >> Yeah, no,
+that's that's pretty much it in a nutshell. And and you know, just so we're clear, this
+not necessarily meant to just be a bash session on Harvest because we did love them for
+so long and they did do uh exactly what it is that we wanted to do. They had just, you
+know, kind of fallen on their faces in in in regard and it uh it kind of spoke to a a
+larger thing that may be happening in the in the industry and in other softwares in
+other similar situations or in other consultancies, you know, not not unlike us and
+always there are lessons to be learned. There are ways that you can get better. I will
+might go so far as to say this is not an irrecoverable thing for them, but at this point
+it's really hard to say. Um and so if you're going to start raining things back in and
+try to do some damage control sooner is always better than later. Even if you make
+mistakes in doing it sooner is always better than
+
+[00:29:17]
+later. >> Yeah, well if they had done this to us last year we would have been in a
+really bad situation because we didn't have the AI tools like we have now last year.
+When they did it to us this year is like, well okay, that's not insurmountable. I can I
+can re-implement Harvest with my team in a short amount of time. Um that would not that
+would not not have been the case a year ago. We would have had to pay it for at least a
+year and then launch a project maybe get off of them in the following year or something
+like that. But as it is today with finding um uh Kito we were able to get all of our
+data transferred. I mean, we were actually completely off of them in 3 days, Aaron. It
+took it took zero time. And that's hauling 10 years issue of data with us. No big deal.
+>> Yeah, there were integrations that were important to us. Those tested through and and
+we we had to do very little change to our actual processes uh related to it. It was just
+mainly becoming accustomed to a slightly new software, slightly new interface and
+perhaps in certain ways maybe a slightly different way of doing things, but by and large
+it was a lift and shift sort of an opportunity. So, yeah, it made it made it very easy.
+
+[00:30:19]
+>> So, software and switching costs are probably not the moat you thought that they
+were. >> Yeah. >> And and [clears throat] treat people right. >> That's right. >>
+[laughter] >> Those are the takeaways, man. Pretty simple. Anyway, thanks for hanging
+out with us. Listen to us complain about Harvest and praise Kito and try to drop some
+lessons about pricing and uh business based off of what Bending Spoons and Harvest are
+are doing currently. Thanks for joining me, Aaron. Always a pleasure to see you. And
+thanks for hanging out with us. Anybody who uh still here is likes and subscribes and
+all these things. Do that. Say nice things about us in the comments. Say mean things
+about us in the comments. I don't care. It's totally fine. But yeah, do it. Anyway,
+thanks for hanging out with us on SAS.app. >> Thanks for cruising along with us on
+SAS.app. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

@@ -1,0 +1,375 @@
+Top 10 SaaS Lessons (Best of 2025)
+==================================
+
+Video ID:  oetV5CHH_yQ
+URL:       https://www.youtube.com/watch?v=oetV5CHH_yQ
+Published: 2025-12-16
+Duration:  00:22:57
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Welcome to SAS that app building B2B web applications. The podcast where we share real
+world stories, practical advice, and tech insights for those building or thinking about
+starting a tech- enabled business. I am your co-host, Aaron Marchbanks, and I'm Justin
+Edwards. Each week, we bring you the stories, strategies, and insights you need to build
+your SAS or tech enabled business smarter, not harder. Let's dive right in. [music] Hey
+everyone, welcome to SAS that app. Finally, at long last, back in the studio, back with
+the bow tie. Aaron Marshmix is here with us yet again, my friend. How are you? >> I'm
+doing well. Beard season is back. Man, I feel like I've been gone for ages, but it's
+been long enough for the beard to come back in. So, here we are. >> That's a big furry
+monster you got going on over there. You're not quite the caveman link there, but uh
+we're getting close. >> That's a goal by Yeah. by Christmas I got to get Santa Claus and
+then you know January there there's progression right but I'm I'm definitely due for a
+little
+
+[00:01:02]
+little cleanup little trim but it's kind of fun to have a backup >> No it's great for me
+too working with you because it's like I set my my calendar by it it's like we start
+with baby face we get to homeless and then we rinse and repeat it's perfect [laughter]
+>> my wife might agree with that so [laughter] >> but bet I bet you it helps with the
+cold up there in the the frigid frosted north >> Oh it really does yeah I had a long run
+this weekend and it was super nice to not have wind blowing on my face where I could
+feel it. Although at the end it was a little little crunchy. So >> cool. Well, uh it's
+like December that happened suddenly and uh I don't know if the people who listen to us
+are interested in listening to tech and business stuff in the month of December, but I'm
+not really that interested in recording it. So, [laughter] we're kind of going into a
+little bit of an off uh a little bit of an off time. and we're going to pick it back up
+in January and hit it hard. But this is going to be kind of our last official release of
+the calendar year until January. And uh we're doing something a little bit different.
+We've done a couple recently just cuz we've had so much good stuff on the show. Uh but I
+asked Aaron to pick five clips of his favorite stuff uh from
+
+[00:02:05]
+the inception of the podcast since April. I picked five of my favorite. Five times two
+is 10. So, we have 10 10 snippets or 10 guests that we want to highlight uh on the show
+for your listening and review pleasure in case you missed the episode or just forgot the
+nugget. [laughter] You did your homework, right, Erin? You got your list? >> Oh, yeah.
+I'm ready. Ready to go. In no particular order, but I have I have the five. >> All
+right. Well, it's satisfying for me to have the first feature on the episode be the
+first guest ever. So, I'll kick us off if I'm allowed. >> Do it. >> All right. First is
+TK. This is our first interview we did on the show. Uh it was so gracious for TK to to
+come on to a show that was new and had no following at the time. Uh he was a monster. He
+was just awesome on the podcast. The clip that I selected, he's talking about kind of
+the gunk between our ears and him feeling fear about asking a question in a meeting at a
+company that he owned and ran. And um do you remember the moment? Do you remember the
+clip? >> Oh yeah, absolutely. I mean, it's it's it's really interesting and always
+enlightening when we get to talk to, you know, CEOs, CTO's, founders, and, you know,
+some of them are just going in and they're feeling like all this pressure
+
+[00:03:08]
+of needing to know everything and needing to have all the answers and needing to get
+everybody rolling in the right direction, but so many of them have that realization
+moment of, holy crap, I don't and and he did and he shared it and it it was terrific. >>
+Cool. Well, I think that's teed up as good as it's going to get. So, here's TK. The
+reason I wasn't asking the questions was I was afraid. I was afraid that I was going to
+ask a question and the an the response I'd get back was, "Dude, you're the CEO of the
+company. How do you not know that?" Or, "That's a dumb question. I don't know
+everything." And here's the here's the insanity of these stories that live in our head
+and how they drive the bus. Here I am sitting in a building that I own at a company that
+I started surrounded by people that I employ and I'm afraid to ask a question in a
+meeting >> right now today. I would never show up that way. >> And we're back. All
+right, Erin, your shot. What do you got for us? >> All right, so uh one of my one of my
+favorite guests of the of the season, this was back in episode 12 before
+
+[00:04:11]
+Keeping Count. This was Joe Kowalsski. This dude just has an amazing story. a personal
+story which is which is fantastic, but he's also got just, you know, stacked of decades
+of knowledge and and business sense. And he just he really spoke to kind of a lot of
+common sense aspects. Um, but a couple of things that I picked and I'm cheating just a
+little bit. I'm actually going to squeeze two clips together here, but one of the things
+that he pointed out is is something that, you know, these days has become really
+relevant. uh you know the fact that you can get a business off the ground very quickly
+these days because of tooling that's just readily available stuff that's just you know
+it's there you know before you used to have to worry about things like okay I need an
+accountant to do accounting stuff and I need a salesperson to help me manage all the all
+the sales stuff and contacts and you know things like this and it it gets to be very
+expensive you know you're paying for people's time then you're also paying for their
+tooling and it's uh you know something that he really brought to the table was you know
+if I could do then what I can do now stuff would have gotten off the around a lot
+faster. And so he really points to that. And as an extension, kind of a tack on
+
+[00:05:14]
+clip that I have there is at the same time, while you can get stuff going really
+quickly, you still don't always uh have what you need to do a business correctly. Uh and
+so he he kind of spoke to this in the in the second portion of this clip is even though
+you may have all this tooling and stuff, you still may have no business starting a
+business. So here's Joe. >> Like it's seriously, I set up my next SAS 500 bucks a month.
+I have everything I need. CRM, email, accounting, like backend usage, statistics, data
+recover, I mean the whole nine. Now I can focus on the product. There are lots of tech
+founders have no business running a company. Like they have a great idea, they were a
+good engineer, maybe even you're good at product. That's onetenth of what you're going
+to need to build a real company. >> Yeah. Love Joe. He's so great. >> Dude, Joe's the
+best. I uh I was thinking about the um there's like a trope where like young people
+don't understand movies before the cell phone existed and they're like why do they just
+call ahead? How come they didn't hit them on text? And it's like so we
+
+[00:06:17]
+used to have to find a pay phone and you had to know the number >> or look it up in a
+book >> cuz and I had a little bit that with Joe. It's like oh yeah you just turn on
+Stripe like why was this a big deal? It's like yeah that didn't exist like I everything
+that we did we had to build like wow it's crazy. >> Um >> let's hear from let's hear
+from Tom Hunt. So this uh this is a clip about the process of starting a business and
+how sysphician and slow and how it's just such slow going but everything you're doing
+when you you you're building a business is is growing upon itself and it kind of starts
+the flywheel spinning and I think Tom just spoke to that really really beautifully.
+Whenever you're starting a business, you're turning this wheel and at the start, every
+time you turn it, it might take like a year to turn it because it's really hard because
+you don't have any previous work. But then every time you turn it gets a little bit
+easier and easier and easier. And so a good idea for a business is to understand what
+what are the steps on that wheel that you can impact and then how can you get it to turn
+faster and faster and then ultimately if it's turning fast enough, you can step back and
+it will keep going. >> That's uh Tom Hunt. Love Tom. That was a that was a great
+interview and I I uh I wasn't sure how it was going to go
+
+[00:07:18]
+beforehand. It blew every expectation that I had. I was like, "Wow, he's he's awesome."
+>> Yeah, absolutely. You step into some of these and it's like, you know, it could go a
+lot of different directions. That is always interesting to me to see where the interview
+takes you and and to see what the person is going to bring to the table. And and uh Tom
+did not disappoint. >> I think it's your turn, my friend. >> We did a really great
+interview with uh Rob Walling. Um probably many of you who are listening know of Rob
+Walling uh if not you know in person uh via conferences that he he puts out or or
+podcasts that you may follow but you may know him by reputation through uh the books
+that he has written. He he's literally has written the books on SAS. Uh and so it was
+just an amazing interview to get to have him and get to talk to him um about some stuff
+that that he didn't necessarily get a chance to touch on in other venues. Um, but one of
+the things that that uh I always find interesting because I have I am not now nor ever
+have been a business owner. And so I have never had to go through that process of of not
+only ownership from the start of a business to creating and maintaining a business, but
+then ultimately to to selling a business and and exiting because you are wanting to
+
+[00:08:21]
+go into something else or you're wanting to put it in in people's hands who who maybe
+can do it better. But he he made a point to say that it is something that you kind of
+have to do it, know that you want to do it, and then be done with it uh when you get on
+the other side because regretting it is one of the worst things that can happen. So
+either you love what you're doing, you want to stay in it. In that case, don't sell it.
+But for goodness sakes, don't try to get yourself into the situation where you really
+wish you hadn't done that. So here's Rob just with a quick snippet on on that. >> What
+you don't want to do is sell the business and decide that you regret it. You don't want
+to do that. It's a one-way door. You're never going to have that business again. And so,
+you want to be really, really sure. >> Man, Rob is SAS royalty. I'm so honored he he
+agreed to come on the show. He's just such a pro. Such a great guy. If you're not
+familiar with Rob, get familiar with Rob. He's incredible. Just incredible. >>
+Absolutely. >> Cool. Well, next up in the hopper, I'm going to feature our own our own
+in-house Nolan Alamante. Our own uh in-house wizard, architect, lord of all things
+programming. there, the guy who
+
+[00:09:23]
+makes me look guy who makes me look like I'm good at my job when I'm actually not. He's
+just the best. Um he um we were doing a deep dive on Turbo, which is a new Rails
+feature, and we were discussing some uh it was more of a technical episode. We were
+discussing some of the uh the fact that it's just harder to implement. It's actually
+more complicated and and things have gotten that framework has gotten more complicated
+and more difficult to understand over time. And I was like, why don't we just rip this
+stuff out and go back to something that's more simple? And uh he smacked me down with
+just a great a great clip. And he's exactly right. It's all related to Sting. Sting was
+kind of the default tooling. So, uh, here's here's Nolan. >> If you're a Rails dev and
+you're starting from zero on a new project, I think the case for deviating from like the
+recommended tooling and setup of a Rails app, which now is now Turbo and Stimulus, like
+you need to have a really good reason to to make that, you know, that configuration
+decision. I think in general like even if it's a little bit more work to implement these
+kind of interactive elements, the simplicity of staying within the bounds of the
+framework and the tooling is worth it. It's easier to maintain. >> So uh ask a ask a
+question, get an
+
+[00:10:25]
+answer. I suppose I uh guess I was wrong. >> Nolan is just fantastic. I mean the the
+guy's a genius. I mean what it is that he does. He's worked hard to get there and he's
+just he's the guy that you want. Uh, so when you have that question, if it's especially
+it's one you don't know, he's probably going to know the answer to it or can at least
+get you there in short order. But, um, I I love that he's the one that's kind of driving
+the the boat as as far as team league goes and and really, you know, helping people to
+understand these technical ins and outs of, you know, why why are we throwing this away
+or why are we trashing this or why are we moving away from the tooling and he really he
+really holds your feet to the fire and makes you, you know, argue your point and and see
+if it's a good one. Real quick, this episode is brought to you by Delta Systems, which
+is what Aaron and I do when we're not talking through microphones to you, the people of
+the internet. We've got a really, really great software team here and we love to work
+with cool people on cool projects. So, if that sounds like you and you've got a problem
+or you're in some kind of a jam, go to deltasystems.com, grab a time with us. We can
+beat up on your problem together and if there's a fit there, amazing. We'll help you
+out. So, deltasystems.com, grab an appointment, and hey, maybe we can work together.
+
+[00:11:30]
+My next clip is uh from Ben Curtis. This was episode 25. So this this was a few episodes
+after Rob Ben. And and this clip in particular I I really like because I think it it
+encapsulates certainly our philosophy on how we like to handle clients and projects,
+especially new clients and new projects, but this also holds true for returning clients
+and returning projects. And and I think it's something that a lot of consultancies
+either are striving for or shoot to strive for or want to have as their standard. And if
+not, you really should be considering this because it has to do with how you enter into
+that relationship because this is all about relationships. It's about building trust
+with the client. Uh it's about having them understand that yes, you are an expert in
+what it is that you do, but this is a partnership. At the end of the day, you are
+working with the client to build something. Uh and so make sure that you're going into
+the relationship or or into the feature into the project setting those expectations and
+and helping everyone understand that, you know, we're here to help. you know, we're not
+here to dictate, but we will work with you and we will give you our
+
+[00:12:32]
+expertise. So, here's Ben uh in a clip that's gonna going to talk a little about that
+point. >> Understand what someone's motivations are, what their goals are is really what
+my job is. And then from there, we can say, okay, how do we move forward with this? Do
+we hire an agency who has a readymade group of people who are ready to go and can build
+your app for you? Do we go with that outsource team in India because whatever maybe the
+scale of what you're trying to build or whatever reasons you have or do we start a CTO
+search and find that person for you that can really be with you through the whole the
+whole thing. I think most people when they get off that first call with me they think oh
+okay this guy actually is concerned about me being successful and not just taking my
+money and building something. I love that. I love that process. I love helping
+entrepreneurs find the way to get their passion made into reality. That was Ben, man.
+That was one uh that's a long We record a lot of episodes. I was like, "Oh, yeah. I
+remember Ben." I uh he wasn't on the short list of people I remember having on, but
+yeah, know his interview was awesome. >> Yep. And I I like that he just kind of speaks
+to that that process a little
+
+[00:13:34]
+bit. Like I said, when he when he did it, even at the time, I was thinking, "Yes, this
+is this is somebody that that uh we would get along with." Great. Because we have very
+similar philosophy as it as it relates to that approach. This one's also so my next code
+is going way back in the archives as well to the to the early the early ones as far back
+as a one-year-old podcast can go. [laughter] But uh do you remember talking with Brian
+Steiner? >> I do. I do remember talking with Brian. >> Yeah. So uh the clip I picked
+from from Brian is he's talking about the role of motivation and how um the resources
+that are available to you don't tell the whole story. If you're properly motivated,
+you'll find a way. And uh well, if you're not, maybe things don't go as well. Uh, it's
+Brian, so there's always going to be a little circumstance with the pump. But, uh,
+here's the clip. >> One of our clients really wanted to do an iOS app. No one was using
+the web app. No one. Like I was like, "No, I I mean I think if this is it, if you're
+hearing we need better mobile responsivity, we need to change these views." I mean,
+let's invest more. You gain trust when people say, "Here's the right thing to do, not
+here's the easy thing to do or here's what would be
+
+[00:14:36]
+right for me and wrong for you." >> Yeah, it was really fun to get to interview uh this
+guy that kind of was in the Albuquerque texting with me at that time and uh he's
+definitely a a friend from a time and place and it's like, oh yeah, it was just so cool
+to have him on the podcast and hear him talking about that episode is really cool, too.
+He's doing like uh programming for for drones that do like anti-weed spray. So they have
+drones that fly over these farms and like spray for pestic or for weeds. Super cool. >>
+Yeah. Yeah. It's really interesting to get to see that the technology meet the idea,
+meet the purpose. Um that's always really cool and and I love you might be able to kill
+them but you can't stop them. [laughter] It's like okay that is I suppose that is true.
+>> Yeah. I always found Brian is is extremely direct and I always find that refreshing
+when you have someone who just who just says what they mean. Um that's right. So I was
+always appreciate that. >> I too am grabbing one from Nolan. He's a man of few words,
+but man, when he says stuff, it's just so great. Uh so this is from episode 21. Uh and
+we're getting into um and again I'm I'm I'm cheating just a little bit. I've got a
+couple of
+
+[00:15:38]
+clips I'm going to kind of mash together because they're related. But we're we're
+talking about the situation where we're having to deal with technical debt and the
+debate between uh you know solving the debt a particular way which would be you know
+updating uh maintaining and building out versus rewriting. Uh and we've had a number of
+people on the on the pod and it's interesting because uh people feel very strongly one
+way or the other. um you know going uh going back to Joe's episode, he talked about you
+know they they rewrote their product four times um you know like a from scratch rewrite
+but while that situation is uh you know going to be unique and you need to you need to
+take that consideration um Nolan does provide a little bit of a of a different
+perspective too where uh he is talking about something that's at at the product level
+you know whether or not we need to solve technical debt at the product level and that's
+a rewrite versus update. So he's talking about maintaining. He's talking about cost
+savings and he's talking about where we find success in rewrites uh versus maintaining.
+So here's uh here's Nolan talking tech about that.
+
+[00:16:40]
+>> A rewrite is not going to solve uh debt at the product level. Like if you're still
+not sure what your product should be or if there's still those types of questions that
+need to be answered, a rewrite is not going to solve those problems for you. Like the
+rewrite is strictly a technical solution, right? Like or or a maintainability solution
+like maybe cost-saving. But if you're carrying over baggage from a project that is like
+not solidified or is that is still kind of in flux, like you're just going to bring all
+those same problems into your codebase and you're going to hit the same issues. The most
+successful rewrites we've had were projects where the client knew exactly what they
+needed. There was no ambiguity about what the output should be and we built exactly what
+they asked us for initially and there was very little kind of scope creep or pivot
+within that process. And those those rewrites always wind up being great. >> Well, uh I
+noticed a trend. So that's Nolan's Nolan's second clip and I'm about to feed you Rob's
+second clip. So those are uh some similarity and overlap and stuff that you and I dig on
+and really like. So yeah, I wanted to put this one last just because Rob is so awesome,
+but also because I think what he's talking about is a little bit about like level
+setting and realizing that like if you're a SAS founder or an
+
+[00:17:43]
+entrepreneur, your job's not actually that hard. You're probably in like a pretty good
+situation. It's the time of year to be a little grateful and a little charitable. And uh
+anyway, Rob just gives a lot of clarity towards uh how difficult your job uh maybe
+isn't. Anyway, here's Rob. >> It is challenging. I hate to say it's hard because I
+worked construction. That was [ __ ] hard. This is not hard, guys. Like, let's just
+really like it. I know guys who drive trucks for a living. That's hard work. So, let's
+just super level set that. Okay. But in the scheme of sitting at a computer and typing
+and listening to music all day, let's say, is being a SAS founder harder than like being
+a developer at a big company? Yeah, it is. It's a grind and it is ups and downs and is
+very emotionally draining for sure. It's not physically draining, but it it's a lot
+harder than most people think. And this is why I tell most people, if you are not
+technical, you are not a developer. Consider either co-founding with a developer or
+building some smaller things first. I have this thing called the stairstep method of
+entrepreneurship. >> All right. And uh that brings us to uh the very last clip, which is
+going to be
+
+[00:18:45]
+yours. >> Yep. >> Last clip of 2025. >> Oh my gosh. Okay. We got to make it a good one.
+Well, >> no pressure. This was a very fun episode for me uh because it is actually with
+someone that I have known for over 20 years, have worked with and for for all of that
+time, but u really a person that I do love and is very dear to me. This is Steve Powell.
+He's one of the the owners of of the company. Um also, like I said, a very good friend
+of mine and uh someone that I have absorbed a lot of business philosophy from over the
+years. And to your point about we're coming up on the end of the year wanting to be
+grateful and we're wanting to uh you know just be aware of those those who are around us
+and what it is that we spend our our our time what we choose to spend our time doing.
+And Steve talked a lot about um in that interview culture and culture is something
+that's very important to us here. Um I think it's something that's very important to uh
+you know the world at large. Uh you know and and talking a little bit about specifically
+in the business context what culture is and what it is not. And it's not something that
+you can really manufacture though many people have tried. Uh it's it's something that is
+
+[00:19:49]
+shaped. It's molded. It's it's shared vision. It's shared values. And it's uh it's again
+a place where you want to be enjoying what it is that you're doing. But perhaps even
+more importantly, you want to be enjoying who you're doing it with. And so here's Steve
+kind of bringing us home talking a little bit about culture and and success in business.
+>> We have this culture is not a pool table. Culture is not uh a bar on upstairs and
+downstairs. Culture is not uh the Xbox in the corner. Now, we had all that for a while,
+but we got rid of all of it literally cuz nobody was using it. So, it was kind of funny.
+So, uh so I I think for our company and and what we're doing, uh culture is definitely a
+moat. People want to work here and that keeps smart people and uh they people that uh
+enjoy what they're doing and enjoy who they're working with. Uh so you got to be
+mentally challenged but emotionally helpful to other people. It's not just you know life
+is too short to tolerate people that you just can't get along with. Right? They may be
+smart amazing coder and boy they can really design the heck out of an app or a
+
+[00:20:52]
+system but I just don't even want to look at this person. That would be not something I
+want to do. >> So there is Steve. And if you get a chance to catch that episode uh we
+don't call it story time with Steve for nothing. the the man is a natural storyteller
+and he can just go on and on. >> Yeah, Steve is uh Steve is fun. I I very rarely meet
+someone who's like telling four different stories all at the same time and like it's
+it's upon you to figure out what thing we're talking about at the present moment because
+he just kind of goes back and forth between them and it makes sense like he's he's
+cogently telling four stories on top of each other and the only time there's an issue is
+if you don't happen to come along with them at the right time. All right, that was that
+was the 2025 episode. um my my friend, this is uh our first our first full year is uh on
+on the books and uh behind us and we're going to hit it again next year super hard. Look
+forward to bringing a lot more interesting guests and digging up a lot more pieces of of
+tech wisdom, but that's that's what we've got for the year. >> Yeah, it's it's been a
+blast. This has been a really fun journey. Uh something that I know you and I both have
+have never really ventured out into. We're both kind of uh avid podcast listeners.
+
+[00:21:56]
+Uh but never never really put forward the idea of doing it ourselves and it's it's
+really been interesting. It's been enlightening. It's been fun and I've enjoyed every
+minute getting to do it with you and our guests, my friend. >> Yeah, absolutely. Right
+back at you. I'm super excited to to launch into next year and see see how far we can
+ride this thing. But it's it's just been a ton of fun and even just for selfish reasons,
+I get to talk to really cool people and I just happen to record it so these other people
+on the internet can listen. But uh it's a [laughter] it's a good deal. Anyway, >>
+absolutely. >> Good to see you, my friend, and we'll see the rest of you back in 2026.
+>> All right, thanks everybody. Have a great end of the year. >> Thanks for cruising
+along with us on SAS that app. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

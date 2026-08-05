@@ -1,0 +1,607 @@
+Building What Matters: Culture as a Moat, Scrappy SaaS, and Startup Reality with Steve Powell
+=============================================================================================
+
+Video ID:  Nu0PR84-k4Q
+URL:       https://www.youtube.com/watch?v=Nu0PR84-k4Q
+Published: 2025-10-14
+Duration:  00:43:17
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Culture is not a bar on upstairs and downstairs. Culture is not uh the Xbox in the
+corner. And we had all that for a while, but we got rid of all of it literally cuz
+nobody was using it. So, it was kind of funny. So, uh I think for our company and what
+we're doing, culture is definitely a moat. It actually people want to work here and that
+keeps smart people and uh the people that enjoy what they're doing and enjoy who they're
+working with. Welcome to SAS that app building B2B web applications. The podcast where
+we share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host Aaron Marchbanks and
+I'm Justin Edwards. Each week, we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. Hello and welcome back to SAS that app.
+
+[00:01:03]
+I am again without my co-pilot who is again traveling the world. Uh he and his amazing
+adventures uh which he's going to have to catch us up on when he gets back in. But uh
+today I get to welcome to the show Steve Pal. Steve is the co-owner of Delta Systems, a
+full-ervice software engineering consulting company known for building and maintaining
+critical applications, e-commerce systems that process hundreds of millions in online
+sales each year. Steve describes himself as an entrepreneur, raon, and provocator, which
+will definitely need some teasing out. >> Hello. Thank you. Hi. Where's Justin? I don't
+get the donut shirt. >> You do not get the statement shirt this week. He is in somewhere
+in Southeast Asia at the moment. >> Maybe he's buying in a fifth shirt. So, there you
+go. >> Yeah, we'll have to see it on the show and get the story all about it. >>
+Excellent. Very good. >> Well, history lesson time. Uh, so you've obviously done a lot
+of stuff in your career. You've been an engineer for
+
+[00:02:06]
+email monitoring systems. You've been angel investor. You've been a mentor to startups.
+You have owned and operated a software consultancy and spun off some SAS along the way.
+So back to the beginning, uh what got you started in software and technology and kind of
+kicked off this journey? >> Wow. Uh yeah, if we go all the way back, I went to college
+and so uh I know that's rare. I was uh electrical engineering and uh computer
+engineering. I got uh if you stay an extra two years, you get an extra degree. So that
+works pretty well. Uh that's automatic, I think. Then at some point, what is it from
+Tommy Boy? A lot of people go to school for nine years. So they're called doctors. All
+right. Anyway, but uh yeah, I did that. Uh but the funny part was I was dating this girl
+and went to a birthday party over at Harpos here in Colombia and uh her my my
+girlfriend's girlfriend's boyfriend uh said, "Just come find me when you graduate." And
+um I walked in there and had about a half hour interview and got my first job. And um
+worked for that
+
+[00:03:09]
+guy. Didn't know much programming at all, electrical engineering. Uh, I just kind of
+picked up programming uh, from there and I walked in the door over at uh, Delta Systems
+and a woman named Devon Binish had started this company in 1986 and uh, she got people
+off of typewriters. Look that up on Wikipedia. And um you uh converted uh she got
+converted to uh computers and uh word processing over at shelter insurance which is a
+regional I don't know maybe they're nationwide now I don't know uh insurance carrier uh
+that has been a customer still is a customer today and so uh we started doing um network
+support for them as well. uh they didn't have anybody in house in the beginning. So that
+was kind of funny. And so uh she went out and hired uh some people to uh help with
+network support. And then I came along and in the early 2000s and um I said uh hey you
+want to you want me to uh work on your software development team? And she says I don't
+have a software. I said oh you just want me to
+
+[00:04:11]
+make one. And kind of what you said, we kind of started finding niches and um finding
+our way and um started making some key hires and uh we're were able to expand from there
+and we just kind of felt our our way along. Uh but uh you know I think you you had what
+TK Herman on and um he was talking about what culture as a moat and uh when I listened
+to that I was like this guy gets it because that that's exactly what we are. Uh we have
+this culture is not a pool table. Culture is not uh a bar on upstairs and downstairs.
+Culture is not uh uh the Xbox in the corner. Now, we had all that for a while. Um but we
+got rid of all of it literally cuz nobody was using it. So, it was kind of funny. So, uh
+so I I think for our company and and what we're doing, uh culture is definitely a moat.
+It actually uh um people want to work here and that keeps and uh keeps smart people and
+uh they people that uh enjoy what they're doing and enjoy who they're working with. Uh
+so you got to be mentally challenged but
+
+[00:05:15]
+emotionally um uh helpful to other people that it's not just you know life is too short
+to tolerate people that you just can't get along with right they may be smart amazing
+coder and boy they can really design the heck out of an app or a system but I just don't
+even want to look at this person that would be not something I want to do. So >> all
+right and that's a wrap. So >> that was right. How we do >> that's excellent. Excellent.
+Yeah, there's a lot there to unpack and I want to get into some of it. So let's let's
+jump back to uh to softell and and ads uh automated business solutions for those of you
+that that don't know. Um I want to talk about SAS basically before it was a coined term
+or a phrase is basically it's what you guys wanted to do. And you know always one of the
+first questions I like to ask folks that come on that have been successful at it. You
+know what what was the problem? you know what what was the thing you were seeking to
+solve? What was the issue that that that needed what it was that you were doing? >>
+Yeah, I think in this situation it was uh people um the the the gentleman that
+
+[00:06:20]
+I worked for at first he they had uh the problem was that email uh was being run by a
+system called CC mail and uh it was extremely popular like most of the mailboxes in the
+world were running on CC mail at the time. That's a CC colon mail, right? And um that
+product was an independent little product that just exploded and everybody was using it.
+And um the gentleman I worked for had the foresight. They they were generating they had
+these they call them routers, mail routers uh that basically it was just used a modem to
+call other phones, right? And they would check for mail. So if you think of a hub and
+spoke configuration, it was an email server in New York would call another modem in
+Bangkok and say, "Hi, do you have any mail for me?" "Nope." "Do you have any mail for
+me?" "Nope." "And it would hang up." Back in the day, that was three bucks for one phone
+call that lasted 15 seconds and you did nothing. And just imagine doing that if you're a
+city bank
+
+[00:07:24]
+globally and and domestically across the United States, right? just all these servers
+calling each other for no reason. Uh but that they recorded that into a log and then
+they were like nobody ever did anything with it and they would just pay these
+astronomical phone bills and this guy somebody said hey we need to we need to fix you
+know this is silly and so he he hired a guy and they they coded this thing in DOSs that
+actually um was parsing that router log and then saying oh well if we reconfigure this
+to you know how about everybody it's not hub and spoke it's all pointtooint and you just
+call back home when you have mail. And so now every time they made a phone call, an
+actual email was sent. And so, and then you had the problem of somebody sending a onemeg
+email. Oh my gosh. One mag back then, forget it. That was days, right? And it was all
+sequential. It's one at a time. So if that sucker was stuck, there's no way to send a
+pool ball down
+
+[00:08:27]
+to to unstick it. You literally had to alert somebody. And so we had pagers that
+actually it would actually the system would actually page you when it detected that some
+giant email was trying to be sent from Bangkok to New York and instead of you paying for
+backing up phone or u uh having a phone call last for multiple days for one single giant
+email uh you would get a page about it and then they would go fix that problem. And then
+when I came along they moved that into Windows and that that was a SAS in the late 90s.
+It was uh you know this software application as a service inside a browser. Can you do
+that? Yeah, actually you can. And so we got very creative very early. And so we did very
+basic things. It was how do you push an updated uh we literally had the system take a
+screenshot and how do you how do you update somebody? Well, it took a screenshot. it
+saved it to a server and then the your browser would just be open in the in the data
+room and it had literally that refresh tag on it.
+
+[00:09:31]
+The the very basic meta tag and said, "Oh, every 5 seconds just refresh yourself." And
+so it would and so we just had the screen that was that was a web enabled app. That easy
+that early. And so it it got very fancy very uh very early on. And then uh and then when
+we went got into Microsoft Exchange and change we changed we started changing the rules.
+We were competing against a company called NetIQ which is was a billiondoll company and
+we're just three guys and in literally the back bedroom of my apartment at the time and
+um we were competing against them and they were their systems and was it HP Open View I
+think it was called and uh I mean we were just crushing them because it was stupid
+simple but we solved the problem and we solved the problem easily. We gave you visual
+data. We gave you refreshing data. And it was uh you know I didn't know anything about
+how the infrastructure worked. But we had to become an expert in their systems and an
+expert in electronic mail to solve the problem. And so, you know, it's kind of
+
+[00:10:34]
+one of the toughest jobs to do, right? You're trying to solve a problem, but then you
+have to become an expert at it and then fix that problem when a customer comes to you.
+It's not the easiest job in the world. >> Yeah. Well, you obviously were successful at
+that. There was a there was an exit. You made this opportunity for yourself at uh at
+Delta when you came to talk to Devon. Uh and I always love that story, you know. Hey,
+you want a software division? I can create one for you. >> You want one? Cuz I'll make
+one for you. So, yeah, she she she did say she had one job for me to do and after that
+she was going to have to let me go. And I said, "Don't worry, I'll make my own rain."
+Yeah. I had no idea what I was talking about. >> Confidence got me that job. >> There
+you go. Well, and and here you still are. Well, I I know that at at a certain point
+obviously um you you took full ownership of the of the organization. Um and I think it
+was even at that point that you had begun a little bit of a pivot. Um like you mentioned
+and obviously to to add a little more context context to that, Delta was training. I
+mean it was a training
+
+[00:11:38]
+company you know that's that's kind of how it got its start its founding and by the time
+that you had come along uh you know PC and network support for local companies was
+already a thingites were kind of becoming a deal uh software was in place but it was
+almost always something that you purchased and installed and you ran it or you know that
+that sort of a thing there wasn't this this big uh you know web database of of utilities
+that people could just download and install. No, we we built npm before npm was a thing.
+>> Exactly. >> How do we round the corner? Yeah. So, training uh it was uh you know,
+let's train you to get uh from typewriters to computers. Okay. Hey, now uh so we did
+that. So, she she had training classes for thousands of people in this town. Uh she was
+balling. She had five, six, seven, eight trainers going and a full schedule of training
+throughout the day. And then they're like, "Oh, hey, this computer's busted that you
+that you've trained us on. Can you fix it?" and she said, "I I don't have anybody for
+that." And they said, "Well, go find somebody for that." And so, again, like I said, she
+hired um a network support person who uh you know, is still working for us
+
+[00:12:42]
+today. And uh and come and go. That that grew for a while and had we had three or four
+or five people working there. And then uh then it became oh well, you know, the
+computer's working uh and that's great. Oh, hey, this this Excel that you taught us, uh
+this thing's getting too big and it's out of control. Um we need something better. Uh,
+and then she would train them on Microsoft Access and then they're like, "Whoa, that's
+too comp that's too complicated. I can you guys just uh just uh just run it for us and
+build it for us." And uh so we started doing that and that's when I kind of came into
+the picture. She was she was still building things in Microsoft Access and Excel
+spreadsheets that had grown out of control and um and that was a great place space to be
+in that in that time frame. Uh but then it was like well hold on there's there's now
+these web servers that are doing stuff and uh you know then this concept of a website
+showed up. When I came here she barely had a logo. She didn't have a website. It wasn't
+important cuz she was right here in Columbia, Missouri and and
+
+[00:13:44]
+and everybody knew knew Devon and uh you know just called Delta was a thing. And so I
+was like well we got around this corner. This web this web thing ain't going away. And
+uh uh so starting starting to build those websites and and just again back at chamber
+events, talking to people, social events, uh people who know people, it's you know, you
+do great work and they tell their friends. It's it's I mean I I'll say it forever. It's
+the it's the best lead generator is good work. And so the ability to go out and say,
+"Oh, well, yeah, I've got this and this and this." You alluded to several e-commerce uh
+businesses. Um, we we built a a system for a company called Glow Forge, uh, back in 2017
+or so and helped them with the largest 30-day uh, fundraising campaign, Kickstarter. Um,
+they couldn't use, you know, this, but uh, they couldn't they couldn't use Kickstarter,
+right? Because Kickstarter doesn't have a referral code. And so they were going to go to
+Kickstarter.
+
+[00:14:46]
+Kickstarter was going to make 5%, right? They take 5% for the credit card, they take 5%
+for Kickstarter. Well, Kickstarter lost out on that because they couldn't do a referral
+code. And somebody from a startup weekend had won startup weekend and went to Y
+Combinator and he got into their Slack at Y Combinator. It's why the Y cominator alumni
+Slack and um the guy who started Glow Forge was in there and it was I think he said it
+was like midnight 2 a.m. something and he just pounded out, my god, my kingdom for
+somebody who knows how to build a WordPress website and and our guy who had uh who had
+um left us to join that uh that startup weekend team that won uh he uh he said just call
+Delta and u that guy called me up and and within 20 minutes he goes that's it you're our
+guys and we started working and figuring out how to build that system and uh so we built
+built uh kick. Basically, we built a Kickstarter plugin for WordPress that allowed for
+
+[00:15:49]
+referral codes uh for a discount. So, if you went and bought this Glow Forge, which was
+>> and a and a custom way for the referral codes to work, too. It wasn't just like a
+straight up, you know, here's a here's a friend, give them a code. >> That's right.
+That's right. Cuz you needed you needed to get credit for you. And they said, oh, you
+and and we're not this isn't like 50 bucks, right? This was like this was this was a
+$6,000 machine. this laser cutter $6,000 machine uh was getting ready to explode, right?
+And and this guy's like, "No, we're giving you as the referer $500 and we're giving you
+as the customer also $500. So that ain't nothing to sneeze at." And you're right, it was
+tied to me. So of course any influ, you know, this is early days of influencer, right?
+And this is what, eight, nine years ago now. And uh um the idea that you could make 500
+bucks just by saying, "Hey, check out this awesome thing uh pretty new." And uh very
+quickly, CNET and all these review websites uh would put out their referral codes and
+boy howdy, they were I mean tens of thousands of
+
+[00:16:54]
+dollars. >> Yeah. It wasn't a mature ecosystem yet. >> Not a mature ecosystem at all.
+Now it's like, "Oh, you could find, you know, you could find a Facebook clone and have
+it spin spinning up in, you know, an hour and uh great. This is a super. Just find a fun
+name and go nuts." But but now but back then it was uh no, we need this and we need kind
+of like this. And boy, we we did some pretty crafty stuff very simply to solve the
+customer's problem. And at the end of that, what was it? $29 million worth of laser
+cutters over >> over 30 by the last day. >> 30 million. That's right. It was >> they
+were they were selling what like one a second or something. I mean it was just >> it was
+one every one every six seconds. >> That's right. At the peak. >> Yeah. It's kind of up
+with other guests too, but it's just another way of basically saying that we we arrive
+at these solutions because people are asking us for stuff repeatedly. It's like this
+seems to be a problem for you or this seems to be a headache for you. You're having to
+do this every day, every hour, every week. Is this is this something that's going to
+continue? And then you can just kind of fair it out what it is that they're actually
+trying to do and and there's the problem to be
+
+[00:17:56]
+solved. >> Yeah. I think then then the the next step beyond that, I mean, you're solving
+these problems and you're doing pretty obvious things to us because we're like, well,
+that's crazy. Why would you do it that way? This is, you know, why don't we just solve
+your problem? Oh, well, that's great. And so, uh, and so we, you know, we we expand
+beyond just, you know, we we don't just take orders from people, right? People come to
+us with an idea and we build it out but at the same time uh they don't you know they
+don't know what they don't know right and then somebody comes to us like oh I need this
+to work for a million a million simultaneous users really do you know so do you even
+understand the concept of a million users hitting a server? No. uh how about we build it
+for 1,000 and when you get 10 customers and then we're only hitting one.1% of the of the
+server utilization. You know, we can rightsize things. We could save you costs. We could
+save you money. And so, uh you know, your Rob Walling guy did that uh you know, what did
+he say? Something
+
+[00:18:59]
+about your first 10 customers tell you more than your first 10,000 customers or
+something. And I, you know, we live that all the time. It's like, you just got to go get
+10 customers, buddy. Let's not build something for a million. Um, unless you're flushed
+with so much cash and free resources, uh, let's go nuts. That's not, you know, if you're
+that unicorn, yeah, you have my undivided attention. But, uh, but that's not how the
+world works. And so, we we kind of, you know, I we've kind of been acting CTO for
+several companies. And, uh, then, you know, that comes with the tech roadmap. And uh you
+know they won't they won't know what that even means. They come to us and they have an
+idea for a SAS. Uh we had a gentleman come to us and he he's like hey I want to do a
+lawnmowing I want to help lawnmowing companies with a SAS that brings them customers.
+And um uh that was a great idea. We're like that's kind of cool. And and we're like what
+you know what's the need? And and uh he's like oh I need this to be nationwide and I
+need every house in this system. And uh and this was before uh Google Maps API had every
+residential address in the United
+
+[00:20:05]
+States. And so he bought that data and that was a large financial investment. And we had
+to make that work. But we had to instantly make that system work for 95 million single
+family households. So our database had 95 million records in it. And you're like, well,
+that's not really a lot. It is if you're having to do full searches. And so indexing and
+speed become a thing. And so all this extra work that he didn't think we'd have to do,
+we're like, "Well," he's like, "Why is the system so slow?" I'm like, "Well, you told us
+we need 95 million records in here. You didn't tell us that in the beginning. You just
+said we were going to do a few counties." And so now we have to go back and we have to
+add and expand cuz we didn't know your full vision, your full road map. And so, so we've
+learned to ask those questions ahead of time. What's your end goal? Right? Most of the
+time with these SASes, it's one of two goals. One, I want to get bought. I want Google
+to buy me. I want Microsoft to buy me. Okay, that's great. Apple, Apple, Apple, those
+guys are buying what, two companies a day or something right now. Uh, that's a that's an
+awesome goal to have. I I wish
+
+[00:21:07]
+you luck. I I hope I can help. Um, but the other side of that is uh lifestyle
+businesses, right? It's no, I want to be comfortable. Uh, I want to make X number of uh
+dollars of myself personally. I want to support a staff of 10, 20, 30, whatever. Uh, and
+pay them well. And that's success for them. That's wonderful. That's great. Uh there's a
+lot of them out there like that. And uh you know, but with that naturally building
+something that is providing a solution just grows legs and just um just allows it it you
+know becomes a becomes it to have a life of its own. And so the um you know you don't
+have to worry about scaling that uh because you're organically growing at the beginning
+and you're solving individual customers needs but once you go from 10 to 10,000 it's a
+whole different animal. So um seeing seeing what you can do in that growth path and just
+determining um um the pain points and solving them
+
+[00:22:11]
+is one way to go. >> Yeah. So, I already know the answer to this question, and you've
+also kind of made it very apparent in the interview, but I'm gonna ask it anyway.
+Obviously, we're getting into the realm of of of startups and helping businesses and
+things like that. Uh, and you are obviously very passionate about it and always have
+been. Um, but what got you interested in in investing and helping startups and and
+mentoring startups instead of just going in and solving the problem of being a software
+developer? >> You want a positive answer or you want a negative answer? Yes. >> The
+negative answer is well, I'm sick of making millionaires. That's it. No, it was it was
+uh u it I love a challenge and I love a technical challenge and I seem to have an
+ability to put on a customer's hat even in an experience of something I've never had to
+do. So uh but then the intuitive nature of frustration or you know I'm not a graphic
+designer but I could tell
+
+[00:23:14]
+you when graphic design sucks and then getting excited about like a startup weekend. Uh
+frankly uh for us that was a uh a way to recruit people and it was people that were
+passionate about solving problems. Uh being able to go in and hear a problem or somebody
+pitches an idea. But we used it as a recruiting tool. And so we're like, "Hey, you want
+to help us with this thing?" And so we've hired a few people that were like, "Hey, this
+is cool." And then they you're kind of vetting them through the whole weekend, right? Um
+somebody pitches something on Friday and by Sunday, again, if you can if you like
+hanging out with them for three days with very little sleep and uh you're not at each
+other's throats, then this is probably somebody you can continue to work with. Well, as
+part of that, I know you've also been well, you've been a participant, but you've also
+been a coach, you've been a judge, like at Startup Weekend, but just in in a general
+sense dealing with with startups through, you know, Centennial Investors and things like
+that. So, I'm I'm curious whether it's a whether it's a developer or it's an investor or
+it's
+
+[00:24:16]
+the idea person or if that is all the same person, what would you say is one of the
+biggest mistakes like these early stage ideas or founders make when they're trying to
+build these products? >> Yeah. half the challenge is they can't get the idea out of
+their head. Uh, and so they're like, "Well, I got a vision for this. Let me just think."
+And I'm like, "Well, you have to talk. You can't just you're not going to do it in a
+vacuum." Uh, and and then it's um and then they they can't communicate it fast enough or
+they again they think, "Oh, this is too expensive to build." Um, or they've done
+absolutely no due diligence and it's like, "Really? You didn't Google this?" I mean, I
+had a friend of mine send a uh send me a text the other day. He goes, "Dude, I got the
+weight. We're going to make a million dollars." Um, you know how you have those golf
+your golf bag thing that follows you along while you golf? I want to do that for
+luggage. This was like a year ago. Like, bro, now don't get me wrong, that's a great
+idea. There's several companies that do
+
+[00:25:19]
+that. >> They also thought it was a good idea. >> Exactly. But you thought it was a good
+idea. Now, you could you could certainly be the 22nd company that is doing that. The
+first 21 companies seem to be doing it all right. Uh which is totally fine. We're we're
+we've we've come into late stage capitalism and uh everything has been figured out and
+uh there's very few spaces that are new and unique. Uh I make the analogy all the time
+of cable companies. There's like 9,000 cable companies in this in this uh they're all
+they're doing is delivering uh data and they're they're internet providers, but what's
+wrong with being 9,000 and first? It's uh there's okay just you don't have to be a
+unique idea. And that's kind of one of the challenges at some of these mistakes that
+they make. Oh, it's never been done before. Really? Cuz that's a big big red flag for
+me. That means you haven't found the people that have already done it. A. And then B, if
+you think nobody else has done it, there may be a reason why. Maybe that's not a
+customer. Maybe that's not a market. How
+
+[00:26:22]
+do you expect to make $10 million a year off of blah blah blah when there's nobody doing
+that? It's crazy. >> So thinking is the problem. >> Thinking is the problem. No research
+is the problem. Um what other ones that that uh greed is a problem. uh the the I have to
+control this whole thing. Uh you need to understand that uh that it's a team effort and
+most people do not understand that this is a team effort. They think I can do all of
+this and they try to do that. I I was the sole owner of Delta Systems for uh 18 years
+and uh let me tell you that that was a stressful existence and uh it was a limiting
+factor of our company uh because I was the you know I brought in 90% of the business. I
+was, you know, that hub and spoke thing I talked about earlier, uh, that same concept is
+like, oh, this company will only grow as far as my reach is, and I can only reach so
+far, right? And as soon as I, what is it, let go of the vine? And I said, I
+
+[00:27:26]
+need partners. I need somebody who's better at sales. I need somebody who's better at
+the legal stuff. I need a mergers and acquisition guy. Um, uh, because I was doing all
+that and, uh, managing people. We did a SWAT analysis one year and which we could do an
+entire podcast on as well, but uh one of our one of our people said that one of our
+weaknesses was that I was our best programmer and I and they're like and they they
+thought I was going to get mad at them, but that boy that ring that's ringing in my head
+all day long, right? What do you mean I'm your that's a threat, that's a weakness?
+Whatever. And they're like, well, you should be out growing the company. you shouldn't
+be working on this client that's driving us crazy with this WordPress site for a local
+um pizza place. You should be out getting the next pizza company or maybe we make a SAS
+for pizza companies or working on the business and not in the business makes all the
+difference as well. So, that's another challenge that these guys when they come in,
+they're
+
+[00:28:28]
+not they're not uh you know, it's oh, it's my idea. I'm going to be protective about
+this uh at startup weekend. Um, boy, Saturday afternoon in a startup weekend is very
+telling. You, uh, you get to the point where everybody's exhausted, nobody's really
+eating very well, and then you get everybody gets hangry, right? And then somebody gets
+this crazy idea, and then somebody says, uh, and then then all of a sudden it's like
+they start talking about ownership. And so another mistake they make is talking about
+ownership percentages before the product exists. And so now you are you're out here
+saying, "Well, I have to own 51% of this company because that's how I need to control
+the company." Well, that tells me you don't understand how a company works and you don't
+understand how ownership works. Is that you think you say 51% ownership is a controlling
+interest and that also controls all the votes and so you're controlling the whole
+company. Well, that's not how the large companies work. You, you know, Elon doesn't own
+51% of the company. Uh, but he has the voting rights on the other side. So, there's a
+lot of things,
+
+[00:29:30]
+a lot of nuance things in there that, you know, you just pitched an idea a day and a
+half ago and you all of a sudden you think you're worth $10 million a year on recurring
+revenue and that's absolutely not the case. You got to got to you got to actually build
+something before you're actually doing it. >> Yeah. Proof of concept. >> Proof of
+concept. Well, uh, keeping an eye on time, you've obviously been in tech a long time.
+Uh, you've seen languages and frameworks and ideas and paradigms come and go. So, two
+questions. One, what of the past do you secretly miss? And two, what are you glad is
+actually gone and buried? >> Boy, I don't know. I I some of them they just don't go
+away. I mean, they kind of drift around and I'm I'm glad I'm not involved in some of
+them anymore because they drive you a little crazy. Uh but uh I wish some of them were
+back. Um C++ Builder was pretty cool way back in the day. That was a fantastic, very
+powerful tool. Uh, and then Borland, the company, uh, got acquired by somebody else and
+they they, you know, they they they
+
+[00:30:34]
+strangled them and stole the customers and moved everybody over to something else. And,
+uh, so that's kind of frustrating when you do that. But everything's kind of based off
+of C++ these days, which is great. JavaScript is is great. All these little flavors of
+JavaScript that come out are a little annoying to me. Um, I could probably name 20 30 uh
+JavaScript uh libraries that came across and we're like, "Oh, here's the solution. It's
+blah blah blah.js and and uh then you start digging through it and you're starting to
+use it and you realize, oh yeah, somebody's built this to do one thing and you're like
+gh so this is an entire platform." So um we actually started uh we we found Zen
+framework very early. Um I switched uh early on. I was innet and I found it frustrating
+uh in several ways but I think that was more the IDE and I I was compiling DLS uh and
+Microsoft that was that was weird to me that you had to still compile code and then put
+it on a server. So we would you
+
+[00:31:38]
+know we called it DLL hell, right? And uh and so compiling code and putting it up on a
+server. So not my bag, not my thing. And so uh you know I picked up a book on PHP and uh
+and learned that and uh that was more of a language that I that just made sense to me.
+And so and then I found other people that like PHP and were better at the it than me.
+And then Zen Framework popped up and uh we're like oh this is awesome. And then and then
+we started extending Zen Framework. And then we tied Zim Framework to WordPress and um
+very very intelligent uh you know much smarter than me uh guys that worked for me who
+liked working with me uh tied those two things together and we called it DoD drop and uh
+we open sourced it and um so you could put a WordPress website on the front and had the
+power of Zen Framework on the back. Um I thought that was awesome. It uh it worked
+extremely well. We were we were building it's like you have a Ferrari but you're going
+around a test track constantly or you're just you know going to the grocery store. It's
+
+[00:32:41]
+like I felt like we could build anything with that. >> Well, I kind of predated those
+headless systems which are still very popular right now. >> Exactly. And at the same
+time, you know, once that person moved on and got acquire that person, you know, now
+works at WordPress and automatic and uh you know, actually, you know, back in the mother
+ship. Absolutely. That's where that person should be. Uh but that caused us to look
+around and we poked our head out of the sand and sure enough here's this thing called
+Laravel and we realized did we just spend the past few years building Laravel and not
+knowing that Laravel exists the answer was absolutely yes. So, so had we had the
+foresight and the vision or the, you know, keep looking instead of putting our head in
+the sand, uh, we would have probably stopped building on our own thing early and went,
+"No, no, no, no." Just like how we adopted WordPress very early. Uh, we would have, you
+know, we were paying attention, right? We we went through all of the different
+competitors to WordPress at the time. And and you know that's another thing that uh that
+
+[00:33:43]
+developers can you know people say oh WordPress sucks. That's a great interview question
+and I could talk about that in a minute but uh we but but we actually you know we we we
+would say sugar CRM sucks. Okay. Why? Well there's 35 security holes that I just found
+in it. See that's a great reason to say why something sucks. If you say uh this this
+system sucks because you don't understand it that's a whole different discussion. And
+so, so I think looping back on your original question of uh what do I think uh goes
+away, I don't I don't know if I want to beat up anyone in particular. Uh but uh but it's
+systems that just don't keep growing is uh uh keep adapting uh to what they're doing uh
+is is annoying and so uh and just don't don't make things easier for for programmers,
+right? So um PHP is a good base for things but Laravel certainly empowers everybody. Um
+npm is uh you know this the entire internet is built on these package libraries of just
+
+[00:34:46]
+uh I used to make a joke about Java right when Java first came out it was uh you would
+you're given the Legos. You weren't told how to build the Lego and you're like oh this
+is kind of cool. You snap together all these Legos and and uh or Lego, excuse me, the
+poloralization there. I'm going to get up. I'm going to get dinged. Uh you're building
+Lego and you've got um all of this uh Java, but you don't know how any of the Lego work.
+And so you've got this problem that you're building programmers that only know how to
+snap things together, and they have no idea what's in each one of those. That's
+frustrating to me. Um the tech itself, I don't care. Again, semicolon, no semicolon.
+It's just something that uh it comes with the territory. If you're good at this, uh you
+know, every chef needs a sharp knife. Great. You hate a knife, you love a knife for a
+certain reason, but either way, you're getting the work done in a way. And oh, other
+people recognize that they also can use a knife. Great. Sounds like we should stick with
+knife for a
+
+[00:35:48]
+while and not sharp spoon, right? But I'm not angry at sharp spoon. It gets the job
+done, but not as many people know sharp spoon. Most people know knife. So there's your
+poll quote. >> It's story time with Steve, ladies and gentlemen. >> Oh, don't get me
+started. Wait, you did get me started. This is the whole point. >> Get started. This was
+the point. Yep. >> That's right. >> Uh, as I'm making notes on the next 14 podcasts that
+we could do together. >> Yay. Let's do five more. >> Okay. So, last question then. So,
+what is next for you? What's the next hill to climb? What do you want to do when you
+grow up? >> Uh, I want to go to take a nap. So, I don't know. Geez. What what do you
+want to do when you grow up? That's a great question. Uh I've been doing a lot of that
+searching uh lately. We're uh we're in some transition phases with some clients. I've
+been kind of doing the same thing for 20 years. Um but it's been different. But um the
+the nature of being uh everything to everybody was just exhausting and um I couldn't do
+it. And so so I've already turned the corner
+
+[00:36:50]
+on that. That was you know, but that was 2018, right? So, it's been seven years of me
+shifting gears and kind of working in the business for several years. Uh, but uh but you
+know, this is this sounds stupid, but we want to go build a SAS. Uh, we've been building
+everybody else's SAS so much that um we know what to do. And uh I've I found these other
+podcasts inspirational um at a time when my tank has been empty uh because it's just
+been a schlug for the past seven years of uh working for a specific uh client and taking
+off all the hats has allowed, you know, this guy, this guy, this guy, right? That's
+freed me up and allowed me to finally go, well, what am I passionate about? What do I
+want to do? And uh boy, I could I'm I'm pretty good at solving problems, but what
+problem do I want to solve? And and so uh that's kind of what uh what we're currently
+doing. The you know, the royal we uh what am I looking for? It's uh it's we
+
+[00:37:56]
+have all the tools. We're looking for the idea. Uh but again, I don't need a new idea. I
+need to go be the the the the 15th version of something. Great. 16th one is going to
+come along and wipe everybody off the planet, right? Um, so there's several dozen
+verticals that we could pick that uh that need help or they they've been they've matured
+and they have an 800lb gorilla and that 800lb gorilla isn't paying attention anymore.
+That's kind of where we started, right? when we were doing the story I told earlier
+about uh the the email monitoring for Microsoft Exchange when Microsoft Exchange was in
+its infancy and this net IQ company this billion-dollar company um we were building a
+better solution for uh for onetenth the price and uh we didn't have an overhead of uh
+thousands of employees uh and a board of uh a board of directors to answer to and we
+made a better solution and um had we not been bought out we definitely would have been
+
+[00:38:59]
+a competitor there. So, we probably could would have got bought uh to go away or to
+acquire our business. But, um again, that was the, you know, get acquired or be a
+lifestyle business. I don't know if we've decided that yet. Um but, um we have several
+things that we want to do and uh we have several startups that we built in house that uh
+I think I'm just going to get my feet wet again uh and uh kind of improve those. We need
+to advance the tech stack on several of those and we know how to do that uh easily. and
+then something's going to pop up and we're going to say, "Well, let's let's run with
+this one." But I think the analogy and I guess the um the advice that I always tell
+everybody is, you know, if you what is it? Um don't expect your ship to come in if
+you're never sending any ships out. And so I'm just keep sending ships. And so and most
+of them are going to sink. That's the world of startups. That's the world of um startup
+weekends. That's the world of uh entrepreneurship. But it's a 95% failure rate, if not
+98% failure rate. Uh, and that's depressing at
+
+[00:40:03]
+times, but you don't know what you don't know when you get started. You don't know. Uh,
+you know, that research, that due diligence, that's huge. Uh, but at the same time, if
+you're sending out 100 ships, you only need one or two to come back. Um, okay. It sucks
+when the first 98 fail, but uh you're never going to find that success or never find
+that niche and if you don't keep sending those ships out. >> For sure, Steve. It is
+always a super happy fun time. But, uh, thanks for sharing your time and your insights
+and the fun. >> Absolutely. Pleasure to be on. It's been great. And like I said, I don't
+even listen to podcasts and this is the one I listen to. >> Well, good. We must be doing
+something right. Well, it's, you know, I I I think I told you guys to go make a podcast
+that only I would listen to. So, thanks. So, that's uh you know, my personal podcast
+station is pretty pretty sweet. >> You're welcome. We've we've picked up a couple of
+more. So, that's good. >> No, it's been inspirational. Uh like I said, it's it's uh
+sometimes you need to go to a conference just to hear the same things, right? You need
+to I think it's
+
+[00:41:05]
+back there. Did I Did I strategically arrange the books that everybody should uh I
+didn't realize I didn't realize that that they're there. That's kind of funny. But the
+uh I did bunch them all together at one point. But the uh but but um sometimes you you
+know you need to whip out one of those books. You need to go to a conference just to
+hear it again and uh just to re-energize, to recharge, and to uh to do that. That's
+we're in that phase right now. And again, I'm I'm ready to start sending ships back out.
+>> Awesome. Well, to help with that, uh we've been talking with Steve Pal, owner of
+Delta Systems, among other things. So, Steve, where and how can people reach you? >> Uh
+the interwebs. I'm on the Google net. I don't I don't know. What am I supposed to say
+there? I don't even know. So, how do you get a hold of me? >> Find me. >> Find me. If
+you can't find me, I'm doing something wrong. So, but uh yeah, I'm on I'm on the
+LinkedIn and uh I'm on the uh um deltasystems.com and that's usually where most people
+get a hold of me and uh happy to uh talk through uh startups
+
+[00:42:09]
+anytime uh uh at any phase of the I mean early stage, mid-stage, late stage uh all good.
+I've helped wind wind ventures down. Uh it's almost as interesting as winding them up.
+So, it's uh but at the same time uh yeah, if you can hit me up an email um uh via the
+website u deltasystems.com and um we can go from there. >> Sounds good. Thank you, my
+friend. >> Thank you. >> And a special thanks as always to our listeners. If you like
+what you're hearing, uh if you have any ideas for the show, just want to tell us what's
+on your mind, throw a review our way. Hit subscribe if you're so inclined and we will
+see you all next time on SAS that app. Thanks for cruising along with us on SAS that
+app. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

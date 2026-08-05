@@ -1,0 +1,860 @@
+How Joe Walsh is Pivoting a $4B Legacy Business into a SaaS Model
+=================================================================
+
+Video ID:  pdUUkX_fxjU
+URL:       https://www.youtube.com/watch?v=pdUUkX_fxjU
+Published: 2026-04-01
+Duration:  00:56:46
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+We have 2850 employees. I think of myself as a small business. I and I think of us as
+wicked nimble and we can turn in days or a week or two on a dime and go in a different
+direction [music] if we need to. And a part of that's a mindset. I had that mindset when
+I was running a 16,500 employee company, too. Welcome to SaaS That App, building B2B web
+applications. The podcast where we share real-world stories, practical advice, and tech
+insights for those building or thinking about starting a tech-enabled business. I'm your
+co-host, Aaron Marshbanks. [music] And I'm Justin Edwards. Each week we bring you the
+stories, strategies, and insights you need to build your SaaS or tech-enabled business
+smarter, not harder. Let's dive right in. Hello and welcome back to SaaS That App. As
+always, I'm your host, Aaron Marshbanks, and with me as ever in his lovely Dunning-
+Kruger Justin Edwards. How you doing, my
+
+[00:01:02]
+friend? Doing great, Aaron. If you want to prove that Facebook advertising works, if you
+put a stupid shirt on my feed, I will buy it. And uh here we go. So. Nothing wrong with
+that. The The algorithms are are pretty good. Uh also today we are excited to welcome
+Joe Walsh, who is chairman and CEO of Thrive. It is a SaaS platform helping small and
+medium-sized businesses market, sell, and grow their business. Uh now Joe has led
+companies through dramatic transformations and growth from expanding Yellow Book into a
+$4 billion global business to turning Thrive from a legacy directory publisher into a
+cloud-based SaaS platform that is still serving hundreds of thousands of SMBs. So, we
+are excited to get into all the ins and outs of that. Joe, welcome to the pod. Thank you
+very much. Glad to be here. So, first question, always the hardest. How in the world did
+you get here? >> [laughter] >> What was your start? How did you get to where you're at?
+Oh, well, that's that's a good one. Um you know, I I I my dad was the man. Um my mom was
+a clerk at the phone company. I'm from a big family. And you know, I I I wanted
+
+[00:02:06]
+to try to figure out how to become successful and be in a position by the time my
+parents retired to sort of, you know, help them have a better life because they gave
+everything, you know, for us. And it's amazing what you can do when you're doing it for
+somebody else. Or you just you can really you can get thrown out of places, you can
+knock on more doors, you can make more phone calls, you can do whatever you have to do.
+And um um so, you know, I started young. Uh you know, uh reading reading the biographies
+of great men and women, studying success, really. Uh companies, countries, sports teams,
+anything that achieved success, trying to kind of chronicle and understand in my mind,
+how is it that you become successful? How do you become that kind of 1% you know, kind
+of thing? And um and I just worked at it. And you know, it's amazing you know, what you
+put in your mind over time starts shaping the way you think, shapes your vocabulary,
+shapes the way you uh set goals, the way you think, the way you plan. And um you know,
+starting out as a young guy, I just really figured I would never work for anybody. I
+would just, you know, build my own
+
+[00:03:09]
+businesses and figure out how to go do that. And early on I got as as you sort of
+mentioned in the intro into the yellow pages business, the glamorous and exciting field
+of yellow pages. You know, before it was cool. I did it back before it was cool a long
+time ago. And you know, the telephone companies had a virtual monopoly on this business.
+They by right of the fact that they had your phone service, they had to provide a
+subscriber list, and so they sold ads alongside of it. And they were pretty much the
+only provider. And there were some niche publications that offered an alternative either
+by a little geography or possibly you know, by some other vertical, but there weren't
+any real direct Coke and Pepsi kind of competition. And so, you know, I set out to do
+that as a young guy, built a business, sold it on to another business, and stayed within
+it. Kind of we we were the publisher of the year after a couple of years. Uh and then I
+joined this little company in Long Island, New York called Yellow Book. And it was about
+$20 million in revenue at the time. There were 38 sales people, less than 200 employees.
+It was a small
+
+[00:04:12]
+company. And um with a little luck, uh took that organization from that sale sales size
+and scale to more than $4 billion globally over the next 24 years. And we did that by
+first sharpening up the story around what we did, um and then creating a replicatable
+model of how we could begin to scale it. And then we made 77 acquisitions over time. I
+was pretty good at raising money and doing all that stuff. And so, we were launching
+greenfield into new markets where they hadn't had competition, some 250 new markets over
+the arc of that time. And then we were making acquisitions and and bringing in talent
+and bringing in more customers and market that way. So, here in the US we grew it to $2
+billion in revenue, more than $600 million of EBITDA. Um we were about 8,000 employees.
+And then along the way the financing story is always interesting on these. We used
+private
+
+[00:05:14]
+equity partners to back us. And I would swap out the private equity partner about every
+two and a half to three years. So, they were still excited and new in the process, and I
+would bring in somebody else and swap them out. So, the batteries were always fresh. And
+they were always saying yes to whatever I was bringing them. So, financing my deals
+worked out pretty well. But along the way British Telecom came along, and they said, you
+know, we want to buy you. And I said, look, you know, I've seen the movie The Patriot. I
+I don't the powdered wigs, all that stuff scare me. Just not sure, you know, how it turn
+out with you guys. Um and uh uh they said, no, no, we we we desperately, you know, want
+to back you. And I said, look, um if we could create a structure that was just like
+private equity, I would do it. So, we did. We created this really interesting model
+where they bought the company, but then created a built-in upside plan. You'll love it.
+It was called the super wealth incentive scheme. Very British, you know. >> [laughter]
+>> Swiss plan. I don't know what I gave out shares in this. I call it cheese. I'm going
+to give you some cheese. Bring in the Swiss
+
+[00:06:15]
+plan. It'll work out. Anyway, this this was amazing because it allowed us to take a
+whole bunch of money off the table and then still have this big upside. So, um we we
+went, uh you know, a couple of years with them. And then we went and got Hicks Muse,
+which was a big private equity firm at the time, and Apax, which is still a big private
+equity firm. And uh got them to back us. And we bought ourselves back plus the yellow
+pages in the UK. And then two years later we took it public on the London Stock
+Exchange, and it went right into the FTSE 100. It was a, you know, five plus billion
+pounds, you know, uh business with 16,500 employees, you know, wrapping around the
+world. And I stayed on for a number of years, eventually left, and and went out and did
+my next adventure. But uh that was that was how I got started in this. That's amazing.
+So, I mean, obviously, tons there. And And I know Justin's going to have questions on
+the financial side cuz he always does. Uh you know, keeping that in mind, even even
+before that financial planning, I mean, did you did you look at this as, you know, here
+here is this legacy thing, this legacy
+
+[00:07:19]
+business that we're dealing with. And was there ever thought given to maybe it just
+simply needs to end. We need to manage it to decline and start something new. Or was it
+always a, no, we can transition this thing. And here's how we're going to go about doing
+it. That story is so old, it wasn't declining yet. I mean, yellow pages was still
+growing. What the problem was that the the phone companies had had a monopoly, and so
+there really wasn't any alternative. So, the price that they were charging was
+unregulated. So, it was owned by the phone company. So, everything the phone company
+does in in telephony is regulated. But the yellow pages was an unregulated aspect of
+their monopoly. And so, it represented about 4% of each of the regional Bell operating
+companies' total revenues, but some 25 or 26% of their profits, their operating margins.
+So, um they were just hitting it with huge price increases and kind of customer-
+unfriendly policies cuz they didn't have any competition. And we came along and created
+direct, head-on, aggressive competition in kind of a you know, Coke, Pepsi, Hertz, Avis,
+right at
+
+[00:08:22]
+'em kind of thing. And we were coming in at about half their price point. An amazing
+service, an amazing care, and phone it all over you, and really aggressive you know,
+marketing campaigns and stuff like that. So, uh it was still that industry was still
+growing. In the US alone, it was a $15 billion industry. It was delivering around $10
+billion of profit when when we went after it. Just the dollar amounts were just huge,
+like obviously. It's uh we work with a lot of smaller smaller companies in very niche
+markets. And yeah, someone something as just generally applicable as businesses with
+phone numbers, it's it's a huge market. So, the numbers are big. It's kind of kind of
+interesting. Um Can you talk a little bit about swapping out your equity partners? Was
+that uh intentional to try to not let people get too comfortable and start having
+opinions about what things Okay. Great. Tell me more about that. It's like guests. It's
+fun when they show up. You're excited the first day or so. And then after a day or two,
+you're like, when are they leaving? Um it's a little like that. Those relationships get
+stale. Um what what happens is, you know,
+
+[00:09:27]
+familiarity breeds contempt. They start to think they know your business. In the
+beginning, they're very respectful. Oh, we want you to run the business, and it's really
+great, and we're going to back you, and it's terrific. As time goes by, and they begin
+to learn, they begin to meet some of your team, and whatever, they start to sit around
+when you're not there and say, hey, could we do it without Joe? And you know, do we
+really need this? And And you know, he says that, but is it really another thing? And
+And familiarity starts to creep in, and they start to think about it differently.
+Furthermore, um you know, no business is perfect. Sometimes you'll have a misstep in a
+plan or something like that. We were very fortunate. I was one of my big mantras is
+always under promise and over deliver. And so, um we if I thought something was going to
+do, you know, 12, I would tell them it was going to do nine. Um and I and as it was
+unfolding, it was clearly going to do more than than nine, I might fess up that it was
+going to do 10. Then in the end when it did the 12, I always thought it was going to do
+it. They were like, "Wow, you over delivered." We just did it over and over and over
+
+[00:10:29]
+again. So, if once in a while if it only did nine, everybody got over it in a hurry. Um
+But but yeah, so the way I So, that's how I thought about it. And in terms of how I did
+it, um you know, I was I was always talking to various PE guys about backing us. Just
+quietly, not running a process or something like that. Just meeting them, building
+relationships, and letting them know that, "Look, around every 3 years I bring in new
+batteries. You guys I know you think you own the business. I'm the owner. You're
+basically batteries. You get to ride this for about 3 years, make a a a ton of money,
+and then um and then you I'm going to switch you out. And um the best IRR we delivered
+was 126% which is a five and a half timer on their money in 22 months for one of the one
+of the groups. But a number of others got, you know, three baggers, four baggers. And if
+you do that, people are waiting in line >> going to say, yeah. How do you talk people
+into that? I mean, the first the
+
+[00:11:31]
+first one I guess especially, but after you start seeing that success, yeah, I would
+guess they're lining up. Well, there's a lot of money out there looking looking to get
+deployed. And there are a lot of ideas, a lot of deals out there. The It's like the NFL.
+There's 32 teams and like 14 good quarterbacks. And everybody else is chasing around
+trying to rehab somebody or find a quarterback. They just If you're a proven
+quarterback, particularly with a proven team, it's fairly easy to find your financing.
+Um when you're trying to do it the first time, you have to be really careful because you
+got to set expectations that you could beat. And then you got to get those guys out
+quickly while it's still a win before it sours. So, then you've got this you've got this
+sterling, you know, uh reference if you will of somebody that did really well in your
+investment. Then you start building on that and you do the next one. So, anyway, that's
+probably more than you want to know, but that's how I think about it. Real quick, this
+episode is brought to you by Delta Systems, which is what Aaron and I do when we're not
+talking through microphones to you, the people of the internet. We've got a really,
+really great software team here, and
+
+[00:12:33]
+we'd love to work with cool people on cool projects. So, if that sounds like you and
+you've got a problem or you're in some kind of a jam, go to deltasystems.com, grab a
+time with us. We can beat up on your problem together, and if there's a fit there,
+amazing, we'll help you out. So, deltasystems.com, grab [music] an appointment, and hey,
+maybe we can work together. No, I think it's amazing amazing. And so, you have this
+rocket ship that's just going crazy, and you plug in some money, that helps you fill the
+rocket ship. The rocket ship gets a lot more valuable. You bring in another investor, so
+they're now paying a premium. They they cash out the last person, they give you more
+money, and now you have more money to grow even further. And so, as long as this thing
+is going up, you can just keep swapping people out, and people are happy to get >> It's
+way better than what Made Off Did, cuz we were actually it was actually [laughter] a
+business. Well, uh yeah, I was noticing you're not in not in orange today, so that's >>
+[laughter] >> Yeah. If you're rolling up a category or or rolling up an industry or as
+you get bigger and you become more efficient, each acquisition that you buy becomes
+easier and easier and easier as time goes by because your multiple is
+
+[00:13:38]
+that you can command on your scale is a premium to the guys that you're acquiring. So,
+you actually make money with each transaction even before you improve the business. And
+so, we were we were doing an acquisition every four four to six weeks. We were just
+rocking. We'd do like one or two big platforms a year and a lot of little tuck-ins. And
+and I had a whole machine built to do the tuck-ins, and I was the head of the industry
+association, and so I it for me it was like shooting fish in a barrel. I had
+relationships with all these people. They would come to our conferences, and I'd welcome
+them. Meet the wife, meet the family, meet the kids. And um you know, when time was
+right, I'd plug them into what we were doing. And was there some sort of like a process
+or blueprint for this? I'm I'm I'm imagining probably yes with with doing it on that
+particular pace. I mean, that seems like a breakneck speed. Yeah, Andrew Jackson came up
+with it. He called it manifest destiny. Remember that from history class when the the US
+only covered part of the continent, and manifest destiny was we were going to roll out,
+we were going to eventually cover the whole thing. And we had this little tiny strip of
+
+[00:14:41]
+land in Long Island, New York, and I had this manifest destiny vision that we would
+eventually turn the entire nation yellow. We would cover cover the country with uh with
+yellow books. And um that was the playbook. And um you know, if you get started the
+right way, if your first couple launches work, and your first couple acquisitions work,
+you start to get momentum, it gets easier. You can attract more and more talent. And we
+had to innovate a bunch of things. We had to innovate the way we paid people, the way we
+collected money. There was some very small innovations on 12 fronts that when you added
+them up, combined with hopefully a little charisma and a little energy we were bringing
+to it, uh we we got it going. And there were other people that saw us doing it and tried
+to jump in and do it, too. And we lapped them and bought them eventually. Interesting.
+Oh, yeah. So, I guess have you ever more on on Yellow Book digging first, but I I was
+going to move on to the next the next thing. I doubt your listeners want to hear about
+phone books a couple decades ago. I mean, you asked me a background, so I answered it.
+But like, we should
+
+[00:15:42]
+probably jump into SaaS and that app and all that stuff. >> [laughter] >> We should
+probably define what a phone book is for some of our younger founder listeners. >>
+[laughter] >> Yeah, I I could probably find some substitute floating around here to
+demonstrate. Cool. So, I I guess I want to ask a founder psychology or a leader
+psychology thing. Um so, 24 years you're 24, 25 years almost you were working with
+Yellow Book scaling it. Obviously, hugely hugely successful. They're you described a
+liquidity event at the end. Presumably some of that made its way to you. I see after
+that you had a a year or two where you were maybe not as busy. What was it like stepping
+off of the the treadmill? And or did you hit the ground running with a new project? What
+was it like after the the transition? >> Let me just be clear. I didn't sell Yellow Book
+once. I sold it every two or three years for that whole 24 years. So, each time I would
+take a little money off the table, roll some more back in, and keep doing it over and
+over and over again. So, I had, you know, liquidity events I I don't know exactly, but
+you know, uh eight or nine of them over the arc of that time as well as my team. And
+that allowed me to cash some team members
+
+[00:16:46]
+out, bring in some different talent as we kept moving along. Um for the most part I kept
+the team together, but some people as they got older would cash out. So, back to your
+question, um at the end of that run, you know, what did I do? I I did step back for a
+minute um and think about, you know, what I was going to do. And I thought I was going
+to do a lot of angel investing and work with startups and things like that. And I very
+quickly soured on it. Very, very quickly because I found that it I just was wasting an
+enormous amount of time with with people that didn't really have a very fully developed
+business plan. They didn't really know what they were doing, and they were just sapping
+onto me because I was a reasonably deep pocket and a reasonably big name. And everybody
+his dog was coming to me with these ideas, and I developed some screens to stop the time
+wasting. And I pretty much said, "If it doesn't make 20 million of EBITDA, I won't talk
+to them." And that that brought me into a world where I had financials I could read that
+were put out by one of the big four accounting firms.
+
+[00:17:48]
+I had a law firm that I could actually trust that was doing the contracts and stuff like
+that. Before it was just all squishy, and I made one or two angel investments, and it
+didn't work out for me very well at all. Um it was a time sink, um and you know, for the
+most part lost my money. So, I I got more focused on what my skill set is is I'm an
+operator, and I'm an operator at scale. And so, while I in theory could invest cuz I
+have some dough, I was better off, you know, deploying my particular skill set because I
+didn't didn't exactly have the golden touch investing in startups. So, how does that how
+does that bring you into Thrive? I set up a little board advisory practice called Walsh
+Partners. Very informal, no big effort. I had all these people contacting me as soon as
+the press release went out that I'd left this big public company. Um they just started
+coming. Some phone calls, but a lot of emails, texts, you know, letters even coming in
+saying, "Hey, you know, will you come help us with this situation?" And I had
+
+[00:18:50]
+just stepped away after a 24-year run. So, I really wasn't ready to go be a CEO the next
+day. So, my answer was, "Well, I'll help you. I'll you know, I'll I'll take a look." So,
+I went on and did some kind of um board advisor type stuff, and I went in and looked at
+some situations for people and gave them some advice. And then I started getting into
+doing strategy work, kind of more deeply getting in and trying to figure it out. So, one
+of the companies um that had made or investors that made a ton of money along the Yellow
+Book uh run was a PE firm called Veronis Suhler Stevenson out of New York City. And they
+had had a investment in a um education company. And it was a K-12 education company that
+helped children learn how to read, learn how to do math, etc. Uh particularly
+intervention stuff where the kids not necessarily the core curriculum, but the stuff
+around the edges. And their business was almost entirely on paper. And you can imagine
+what happened when the iPad got invented, and things are you know, the common core is
+coming along, and they weren't really moving
+
+[00:19:54]
+that quickly. And their stock price had gone from $9 or so a share all the way down it
+was around a dollar a share. And they they said, "Hey, will you go in and help us with
+this?" And um So, I said, "Sure." So, I went in I as a board advisor. And I, you know,
+went out in the field with the sales people to see how it all worked. I went into some
+of their local, you know, operating meetings and, you know, got to know how the
+education business worked. And it was very similar to Yellow Pages in that you had this
+traditional analog print and you know, uh industry that had been around for a really
+long time that was trying to move to something electronic. And um So, to speed the story
+up, I basically took over as executive chairman of the company, made some really
+significant management changes in it and and and in one morning. Uh elevated a bunch of
+people into the key positions within the company. And we pivoted really hard to deliver
+the pedagogical powerful content that they were doing in paper digitally. And we we
+charged
+
+[00:20:59]
+$2 or $3 a month subscriptions for the for kids in the classroom uh to to have access to
+these interactive games and fun tools that would both teach them, but also capture data
+on where they were. Um and then we gave it away. We went out and started giving it away
+to people. And you can only have one class and like an elementary school could have it.
+And so, you know, Mrs. Johnson would fill out a thing and she she'd get it. And then the
+other teachers all wanted it. The other students all wanted it. The parents were beating
+the principal up saying, "That thing is terrific. And little Cindy has it in her class,
+but my little Johnny doesn't have it in his." And so, teacher sneeze that the
+information spreads. So, what happened was that that we'd hear from the principal, "Can
+we buy it for some other classrooms?" We said, "Sure, it's a couple dollars a classroom.
+No big deal." And it would spread up. Next thing you know, the district would want it.
+Next thing you know, the state wanted it. It would be moving up. And uh in 6 and 1/2
+years we went to 43 countries around the world. And we blew this thing up. And it was
+just going. And um
+
+[00:22:01]
+a giant private equity firm approached us and wanted to buy the company and take it
+private. It was a public company. They wanted to take it private. And um so, we ran a
+process to make sure that was the best bid and all that stuff. And turned out it wasn't.
+Somebody else came along and topped the bid. And um it was taken private for $14.50 a
+share. Remember, it started at $0.70 a share. It went to 1450 in 6 and 1/2 years. So, it
+was a massive transformation from an analog print business that had been around for a
+long time to a completely It wasn't called SaaS in education, but to a monthly recurring
+revenue model. I think they do call it SaaS now. But in those days they didn't. How did
+you how did you manage the the expectations and and, you know, the whole the whole
+customer and client side of things when you made that hard pivot? I mean, obviously once
+you're on the other side of it and people see the benefit and and it becomes easier to
+market, but but how did you handle that Did you see a lot of a lot of churn? Was there a
+lot of resistance to it initially? Or was it something that was pretty smooth? You you'd
+planned it through the transition. No, nothing's ever that smooth. It's always bumpy.
+And there's different
+
+[00:23:02]
+constituents you have to manage different ways. So, investors had already kind of given
+up on the company. So, they heard somebody take over with a crisp, clear plan and a
+track record of of of success. So, the stock started moving up as soon as I started
+talking to them. Um and I said, "Look, we're also going to get control of the cost side
+of this business so that you know, we're going to be really responsible as we do this."
+And we started growing the EBITDA line and reducing the the debt to EBITDA ratio, which
+took some pressure off the share price. And the share price started moving. So, they
+were happy. The employees were excited about the idea that the audience for what they
+did for this great material that they created was shrinking cuz they were selling less
+and less of each year. Um and they had missed plan the prior 5 years. So, picture an
+employee base that hadn't gotten a bonus in 5 years and had just missed and missed and
+missed. I basically had a big webcast with everybody. I said, "Look, it's not your
+fault. You know, you guys do incredible work. When I come uh to the results meetings and
+I, you know, meet with the
+
+[00:24:06]
+the the the academic officers and look at what we're doing, I feel like I want to, you
+know, chop a cord of wood and run 5 miles when I come out of there. It's just it's so
+exciting what you do. Only the business is not experiencing success. And the reason for
+that is here in Dallas at headquarters. You were just being given the wrong playbooks,
+the wrong priorities, the wrong spending. That stops right now. You guys are going to
+have a whole lot more input on what we're going to do. Um and I'm basically going to
+just guide this little bit and get it back on track. Um and so, they were pretty excited
+about that. And pretty excited that I was showing up everywhere and listening to them. I
+was out in the field with the reps. I was going all their conferences. And I'm just
+sitting for listening for hours to people. And so, where I figured out what to do. I had
+no background in education. And by the way, you know, I don't have a college degree.
+These people I was managing had double PhDs, all kinds of academic credentials. I just
+knew how to get people to buy stuff, you know, and and and where the market was going.
+So, it wasn't really all that, you know, And and they did it all. I just sort of got the
+investors on
+
+[00:25:08]
+side, got the employees all moving in one direction. And then made a few I sold a few of
+their businesses and made some small acquisitions and and and found great people that
+were already there. And then just sort of gave them the the leash and the runway to get
+it going in the right direction. So, um It was really it was really cool. That was a
+really fun experience. And you know, you can imagine the investment group that brought
+me in when they got the delisting letter from NASDAQ and the shares were $0.70 a share
+that sold them for $14.50 a share a few years later. They were really really happy. I'll
+bet. >> [laughter] >> That was fun. No, it's a that's an amazing intervention. And and
+so, it seems like like you basically just kind of set the the North Star as to where
+where things were moving in terms of you saw the business landscape changing and where
+this business needed to be. You put the right people in leadership roles and then got
+everyone rowing the right direction. That was those are the big the big moves that you
+made. Is that right? It is. And I and I never committed more than 50% of my time to it.
+So, I was still doing other things the whole time. Um it allowed me
+
+[00:26:11]
+to kind of focus on the big stuff. And I found over the years that work expands to fill
+the time a lot in. I mean, if you have 20 hours a day, it'll chew up 20 hours a day. But
+if you say, "No, I'm not I'm going to give this thing about 10 days a month. And that's
+it. And I'm going to work on other stuff the other times." So, I have to raise my floor.
+I have to raise the bar. Focus on the big stuff. Get the right butts in the right seats.
+Make sure the motivations and the incentives and stuff are clear. Make sure investor
+expectations are right. And then inspect what I expect. You're able to drive the thing.
+And um I was in Dallas a lot at the time because that's where the company was
+headquartered. And the guy that ran the old telephone company Yellow Pages that I had
+competed with in the past was headquartered at the DFW Airport. And he said, "Will you
+come around and see me next time you come to Dallas?" And um so, I did. And he springs
+his chairman on me. It's the CEO and the chairman at this big long mahogany table in
+this 500,000 square foot seven-building complex. Um you know, they have There's
+
+[00:27:14]
+just There's just money falling off the walls onto the floor and potted plants
+everywhere. And you know, just it's it reeks of opulence, you know, and I really I was
+an entrepreneur. And they said, "Yeah, we want you to come run this place." I said,
+"No." [laughter] I said, "Is there anything else you want?" And um And uh so, they said,
+"Well, we see on your your your your little website that you do strategy work. Would you
+help us think of a strategy?" We agreed to a deal for them to help me do that. And then
+basically I came back to them after a study period. I said, "Look, you know, less people
+are going to use Yellow Pages in the future." And they said, "Yeah, we know that." And I
+said, "Okay, good." Um and your online Yellow Pages, yellowpages.com and Superpages,
+while they're good, they're not going to out-Google Google. You're You're not going to
+win there. Google's going to win. Out-Googling Google, draw a line through that. That's
+don't spend any money on that. Don't spend any urges, any time. Can't out-Google Google.
+You also can't out-Facebook Facebook. So, don't don't go down that avenue either.
+
+[00:28:16]
+Um And I said, "Your small business customers don't even know about the cloud yet. This
+is 2014. Uh but they will. Right now, we're putting, you know, like I just signed a
+contract for Cambium to put a bunch of our computing up into the cloud. Big companies
+were doing this. But it hadn't trickled down yet to smaller businesses. And I said to
+them, "Look, I you know, I I'm going to forecast for you as, you know, day follows night
+that little businesses will follow big ones into this whole cloud revolution. And that
+market will be much bigger than enterprise is because there's so many of them. And it's
+an imperfect market. It's hard to get to them. So, there'll be a lot of money to be made
+there. You currently have hundreds and hundreds of thousands of small business customers
+that that will be the answer for them over the next, you know, decade or 15 years or
+whatever. And you could provide it. You could deliver. You have a trusted relationship
+with them. That's what That's should be the future of this business. And that, you know,
+the the board came back to me and said, "That's the best idea we've ever heard.
+
+[00:29:18]
+We just can't believe how clear that is. And we're certain that that's the right idea.
+But we're positive that our current management team can't do it. We want you to do it."
+So, [laughter] Once again, >> I You know, like the dog that chases the car and then
+catches it. It's not It's not not really what you wanted to have happen. Then all let's
+do this now. Yeah. So, long story short, they made me an offer that I couldn't refuse.
+So, I brought in um basically took my whole Walsh Partners team. It's eight of eight or
+nine of us that joined the first day all together. We replaced the other management
+team. It's about 5,000 employee company, 2 billion 2.1 billion of revenue, making about
+700 million of EBITDA, but shrinking really fast. Um and we we took it on and uh
+breathed some entrepreneurial energy into it, um streamlined the cost structure, got
+everybody focused on this new mission and started better managing the old business so
+that it would last longer. And believe it or not, we still publish Yellow Pages
+directories all
+
+[00:30:20]
+over the world today, only for a few more years, but we still do. And it's produced 3.2
+billion dollars of cash since I since I took over 12 years ago, 11 11 and a half years
+ago. Amazing. Yeah, so we still should get eventually to start talking about software. I
+don't think your listeners care about phone books very much. They might be interested in
+these business stories. I'm going to say you'd be surprised on the business side of
+things cuz it is very interesting and it's and it's something that we don't really get
+to get into nuts and bolts of very often. So it's it's really cool to get to to get to
+talk in those terms. >> know that many public company CEOs come on your podcast and tell
+you about all this stuff that they do. [laughter] I think you probably are our first
+publicly traded company CEO. Yeah. There you go. Well, I'm honored. I'm honored. I'm I'm
+breaking new ground. Hey other guys, come on behind me. It's a great These guys are
+nice. Now we have we have a better you started a stampede and what a what a a capstone
+or highlight for your career to finally be on SaaS. app. I mean That You know, I was
+just thinking that. Um
+
+[00:31:23]
+you know, I I So what what did we do? How did we do it? Well, the first thing we did was
+we hacked together a a solution to take out and kind of prove our concept. And it was
+kind of an all-in-one business management software CRM-y kind of thing. And it worked
+really well. We altered and refined it as time went by. In the meantime though, we began
+focusing on what our real true North Star is and that's linking buyers and sellers
+together. That's what the Yellow Pages always did back in the day. That's what we were
+known for. And so we developed this thing we call Marketing Center and it helps small
+businesses grow. Helps them grow efficiently. You know, 100 years ago John Wanamaker had
+a very famous quote. He said, "I know that half of all my advertising is wasted. I just
+don't know which half." You You guys have heard that quote, right? Well, we have a tool
+that allows a small business to know with the detail exactly how everything that they're
+doing is working, both analog and
+
+[00:32:26]
+digital. Track it all the way down to the cost per sale and what they what they were
+able What their return was. And let me give you some quick examples. Let's say you have
+a like a roofing contractor and he's doing a roof at 123 Maple Street. He often will put
+a sign in front of it that says Fred's Roofing. Well, we put a phone number on there
+that's a coded phone number. It goes right into the into the database and if he gets
+five calls over the course of the time he's doing that job, we track whether they
+converted to a sale. And if they did, what revenue was associated with it. At the end of
+the quarter or year, we can show them, "Look, your yard signs did this. Your truck sign
+did that. The ad you put in the church newspaper that you thought you were throwing
+money away, you actually got four jobs out of the last year out of that one. And then,
+you know, your Google search campaign did this. Your social did this. You got this much
+from Instagram, this much from Facebook." You know, we can take them through everything
+that they're doing so they can figure out what should they lean into that's really
+working and what isn't. And then because we're Thrive, because we're, you know, pretty
+big plugged-in company, we've got this big
+
+[00:33:29]
+network of directories that we own and control and we're partnered with people like
+yeah, you know, Yelp and Nextdoor and whatever so you can reach all this big audience.
+And then we run tens of thousands of search campaigns and social campaigns for
+businesses all over the world. We've got all the tech and all the data and all the AI
+helping to do it better. And so if you think you want to try that stuff, there's like a
+spigot you can turn on top of this thing and use those aspects, too, and then measure
+whether they work. So we really help a small business grow efficiently. And this is all
+on platform. All all of those growth metrics, all the reporting >> Everything's in one
+platform. And it's getting better by the hour because we've been we've rewritten the
+thing up from the studs up with AI now so that each piece of it has a brain and it's
+helping you do it better and better. We also made a key acquisition a little over a year
+ago. We bought a software company out in Arizona. Uh your some of your listeners will
+know it from the past as Infusionsoft. It was called Keap. It rebranded when we bought
+it. And um they were really good at
+
+[00:34:33]
+email marketing. They were kind of HubSpot before HubSpot. And they were really good at
+helping like online marketers, you know, market things and so on. Really good at
+converting and bottom of the funnel work. But they weren't any good at the top of the
+funnel. And you can be as good as you want at the bottom of the funnel, people want the
+top of the funnel. And so we put those two pieces together now and we've brought the
+Keap capabilities into Marketing Center. So we have lightning in a bottle now. It's very
+exciting. We call it we kind of market, sell, grow. So help you have people find you in
+the market piece, sell, convert them so they actually buy and all the facilitate the
+elements of buying. And the grow part is stay with those buyers and make sure that they
+come back. You know, make sure you're staying in touch with them with drip campaigns,
+whether it's through text or email or other other techniques that you can use. And it
+and it's all done with automations. Mhm. So you don't as a business owner have to
+remember to send them a happy birthday. It's doing it. It's doing all that stuff. Yeah,
+I'm curious in your last iteration. So the
+
+[00:35:35]
+the step that you made you're you're now, like you said, you're more you're on the AI
+side of things um and that's growing and and you talked about that, but you said you had
+kind of rewritten this thing, you know, four or five times over the course of its life.
+I'm curious about that last step. >> listening has done. If they If they've got a tech
+You're you're you're you're constantly rewriting it. It's got a shelf life and there's
+technical debt that builds up and the ones that really survive, you know, address that
+technical debt along the way. They don't wait until it's this just albatross that they
+have to chuck it all and and redo it completely. So I That's why I'm curious about, you
+know, these these iterations, were they were they at meaningful enough points that you
+weren't having to drag along a lot of technical debt and particularly this last step
+into AI, you know, how did you make that step from what presumably didn't necessarily
+have AI in it to something that is a bit more governed by AI? Yeah, I you know, a lot of
+times when you work when you're working in a big complicated ecosystem, you have plugins
+that you use. And so there'll be there'll be a plugin that's just like an answer. It's
+way better than what you had before. And so you'll write to incorporate that plugin. And
+then a little time goes by
+
+[00:36:39]
+and that plugin falls out of favor and there's a better version either because they used
+your contract to go finance and or sell themselves and get rich and then and they're not
+paying attention to it anymore or Intuit buys it and that's where companies go to die.
+It goes and dies or something like that. Um you guys have probably seen that where a big
+company buys something and then it just becomes crap cuz they don't keep, you know, that
+they owners leave and nobody makes cares for it anymore and so it just falls into
+disrepair. So for us it's an iterative dynamic process where we have a vision for what
+we want to deliver and we're either writing ourselves or bringing pieces in. And then
+you're swapping them out is on the fly all the time cuz there's stuff there's just
+better stuff. Also people get greedy. Sometimes people get a contract with it and it
+comes they come back for renewal and they're like, "Let's talk." And they're like, "We
+we shouldn't talk." "We we have to talk." And you end up having to swap them out. So um
+but yeah, we we've been uh rewriting it and rewriting it is getting easier. Refactoring
+code is getting easier. Everything's getting easier. We're going faster and faster.
+
+[00:37:42]
+It's really ex- it's exciting and a little scary at the same time cuz you worry is there
+somebody who's better at this than us? You know, cuz we know we're so much faster than
+we were. Is there somebody that's even faster out there, you know? But uh we have an
+advantage that's hard for somebody else to scale. We still have a quarter of a million
+customers. And you know, even if a guy is smarter than me and he's working a few hours a
+day longer than me, it's hard to overcome a quarter of a million customers and 3,000
+committed employees, you know, that are out there doing their thing. So I'm hoping that
+holds the hordes off of it for a while, anyway. It seems like there'd have to be a
+compelling reason to take you guys on. So there'd need to be missing the mark somewhere
+for someone to get excited about entering that space. Maybe not, but I always advise
+against people jumping in and trying to compete directly with the giants in the space
+unless the giant has a terrible product. There's not like some huge differentiator that
+like your software does something better or more is more useful or something. I wouldn't
+say that we're giant. I mean, that giant is like Intuit or Salesforce. I mean, we're
+we're we're just good enough size to kind of have a little bite
+
+[00:38:44]
+behind us, you know? Um so To to to to me it's big. I would I work with very small
+businesses usually. So when I say giant, I mean uh big, you know, for you starting for
+Daniel out of starting a new company at two people, you're you're big compared to that.
+>> it's important how you think of yourself, you know? Uh we have uh 2,850 employees. I
+think of myself as a small business. And I think of us as wicked nimble and we can turn
+in days or a week or two on a dime and go in a different direction if we need to. And a
+part of that's a mindset. I had that mindset when I was running a 16,500 employee
+company, too. I thought of us as lean and nimble. And um I think it starts with how you
+think about it. Yeah, I think that makes sense. They they probably actually were under
+you under your leadership and with you having that that vision and valuing that and if
+that's how you see yourself, you take I imagine you take bureaucratic processes and
+delays and barriers out of the way. You you pull those out stuff so you can be nimble
+and you can turn things around quickly. Whereas some some organizations We have
+recognition awards in the company for people who can just rip a layer out or
+
+[00:39:47]
+rip a process out or stop a report that's been running for years or something. Just
+anything like it's like, you know, it's like you bring back that and and you get paid a
+lot for it and we bring you we do a webcast every month. We bring you on the webcast.
+How'd you do it? And she's like, well, I thought AI could do this. Why do we have to do
+that? You know, and we'll and we'll shower the person with money and and give them lots
+of recognition. You know, Napoleon said, "Give me a trunk full of metals and I'll
+conquer all of Europe." It's amazing what you can do with recognition. You know, if you
+if you put people's name up in lights and help them, you know, you get some of what they
+want that moment in the sun. It's and it's fun to do. I love doing that. Yeah, it's one
+of my things I love most about my job is when I get to send a a happy Slack message or
+recognize someone on a company call for awesome work when someone someone on my team has
+done something amazing and I get to highlight it in front of everybody and say that it's
+awesome. Like, yeah, it's It's a fun part of working with a great team. I love it. It is
+and and it's it's so basic and I'll just quickly cover this in case you've got some
+maybe less experienced, you know, managers out there on the call, but you
+
+[00:40:51]
+know, it's really really simple, but you never ever ever criticize somebody in a public
+forum or in front of people. You know, you just you you have a word on the side, but you
+praise them as when as many people as possible can hear it and see it. You know, it's
+it's a really simple rule. You never criticize by email, voicemail, text, Slack, any of
+that. It's always one-to-one in a real conversation. You can praise them any way you
+want. You can skywrite it if you want, but never criticize any way like and it's and I
+see even pretty bright people, pretty mature people get that wrong and they make people
+hate them. And uh it's just, you know, it's it's just too easy to get that right. So, a
+little management note for your your your listener. No, I I think it's I think it's
+absolute gold. I was like uh as a leader all failures are your responsibility and all
+wins belong to the team and I think that's it's in a similar vein, but same thing.
+That's perfectly said. Perfectly said. But just interpersonally, people will
+
+[00:41:54]
+follow you anywhere if you if you, you know, make sure they're well paid and make sure
+that, you know, they believe in the mission and you're giving them credit, but when you
+criticize them in front of people, they [snorts] they'll just sharpen knives for you at
+night. I You know, you never want to do that. So, anyway, I I I guess what I what I was
+wanting to go in terms of your assassin that app kind of conversation is that sometimes
+the product that you really are seeing that's taking you to the promised land won't take
+you all the way there. And so, you know, our all-in-one business management platform is
+still very good. We still have tens of thousands of customers on it using it. We're
+still innovating it, improving it, and we're still selling more of it. But all the heat
+and light is going to this marketing platform because it's so darn good and it plugs in
+so easily. You don't have to have a root canal to put it in place. You know what? To
+change out your whole CRM is like, oh my gosh, is that really something I'm willing to
+So, you know, I think remaining flexible and um you know, continuing to innovate within
+your
+
+[00:42:59]
+business and realize that one product isn't necessarily going to take you all the way
+there. You got you got to keep thinking about where's this market going and what are
+competitors just rendering worthless. And um that's not worthless, but that's kind of
+what happened to our original product is it just it just attracted so much competition
+and there were so many people with point solutions online that sounded like it that were
+way cheaper that were, you know, maybe solutions coming in from overseas or whatever.
+There's not really a company behind it, but it starts starching your ability to hold
+margin and make money and so you have to figure out what can we do uniquely, you know,
+to really stand out. So, um and it's by the way it's hard at hundreds of millions of ARR
+to to to do an air-to-air refueling while you're flying. It's not that easy to do. Um
+especially when our >> yes. We're a public company and as a public company, if you even
+have a blip in your metrics, you know, they think you're no good at all. But John, I
+want to go back to something that you'd said a little bit just a little bit earlier
+about, you know, how fast things are moving now. Um
+
+[00:44:01]
+you know, especially with the the new platform, you you've you've got AI on there,
+things are getting faster and faster both in the marketplace, but also in in your
+platform and your technology. I'm I'm curious, is that something that you or or a group
+of someone's in your organization keep an eye on and keep a reins on? Or is that
+something where you just kind of hold loose reins and you let the smart people do their
+thing? Closer to the latter. Um I think we're more challenging and cheerleading and
+pushing and uh questioning. Could we do do do we do we have to do the whole nine steps
+still? Like when this new paradigm, could we just jump over that and do it in two steps?
+Um and then smart guys listen and they go, "You know, I actually could. I actually
+there's a way I could take an MCP, plug it into an API, and I could query it and next
+thing you know, the guy comes back to you 3 days later and says, "I Eureka, I found a
+way to what you were asking about I I I think I can do it."
+
+[00:45:03]
+And then, you know, you give them some money to make a little pilot or whatever and then
+you start trying to to build in in something that you could actually ship. So, I'm more
+of a more of a cheerleader challenger guy. Um and there we have a lot of smart people
+that are really close to the subject matter of their their niche that, you know, are are
+the ones that are actually bringing that innovation sometimes. So sometimes I'll just
+ask the question, "Couldn't we do it this way?" And I I may not even know all the steps
+underneath of it. And they'll say, "Oh, no, we can never do that." And say, "Well, do me
+a favor. Think about it." You know, and sometimes they come back and go, "We thought
+about it. We can or we can do part of it. We do the first half of it." I think that that
+balance is so incredibly important. I mean, you you need the people who are steeped
+enough in the industry in the vertical to know what the market actually is, what what
+the customer client actually is, but then you also need that that fresh set of eyes and
+ears, somebody that doesn't necessarily know, but can ask good questions or or ask
+questions at all and feel comfortable of sitting in the middle of that question. You
+ever had John John from uh so Jonathan from Choose FI on a few episodes back, but he had
+a thing that
+
+[00:46:07]
+he said which was web surf, which is wouldn't it be cool if and just giving being being
+free to be curious and and ask the question and kind of live with it and just web web
+surf. Wouldn't it be cool if and then uh maybe it's like, oh, it can't it can't be done.
+Like, we'll sit with it for a minute and what part of what what part of it could be done
+or what makes this a hard problem? Can we can we solve an easier problem? Yeah, I I love
+all that stuff. >> [laughter] >> You mind if I borrow that? I like that a lot. That's
+really good. Attribution to to Jonathan Mendonsa from Choose FI. Yeah, please do. He's I
+loved it when he said it on the podcast. I thought it was great. Yeah. Well, that that's
+what I'm trying to do and the team is trying to do at Thrive is we're, you know, we're
+we're trying to help small businesses grow more efficiently. We're trying to do it with
+our market sell grow platform. And um you know, uh make it some pretty good headway
+doing it. What are the what are the characteristics of businesses that are a great fit
+for Thrive? Like who's going to get the most value out of being on on the platform? Our
+our our best customers are kind of like 5 to 25 employee,
+
+[00:47:10]
+you know, pretty small businesses. These are not typically hundreds of employee
+businesses. At that point they're using Salesforce or HubSpot or some big expensive
+solution. And you know, they're better. They they just do more stuff than our than ours
+does. Ours is ours is, you know, $4 or $500 a month. It's not not even close. I mean, I
+I spend that an hour on salesforce.com uh and HubSpot. So, um you know, it's it's
+purpose-built for that smaller business. I would say probably up to like 80 or 100
+employees you could probably use it pretty well. Um you know, we do have an offering
+that startup type ICP, an ideal client profile we call dreamers and that's somebody
+that's starting a business or maybe has less than half a million of annual revenue kind
+of their like a hobby turned business or it's maybe two people working in a small
+business. And we have an offering for them. That's not really really where we spend a
+lot of our sales and marketing time, um but but we have a lot of those customers who
+
+[00:48:15]
+come in and sort of a more of a self-serve way at the at the lower end. But that's, you
+know, and we have because we came from the yellow pages business way back when, we have
+a ton of service-based businesses. So, think about all the home services, personal
+services, car services, you know, a lot of professionals like dentists and doctors and
+lawyers and all those kinds of people that rely on a steady flow of customers coming in.
+We don't have a lot of high-end dining or retail or, you know, uh esoteric things like
+travel or something like that. You know, that that those are their own categories mostly
+online. Um but those are a lot of businesses that we have. So, you've been through this
+several times yourself. Like, obviously in in your own in your own path, you know,
+through through your career and then certainly now, you know, particularly with Thrive,
+you've seen a lot of businesses uh through difficult times or challenging decisions or
+or, you know, a transformative or or tough period. So, um just taking taking a step
+back, you know, 10,000-ft view sort of a thing,
+
+[00:49:19]
+over the course of your career and also what you've seen in others, what would you say
+uh to the audience about things that you found to be harder in those moments uh than
+than easier? Is it something that's technology-based? Was it more often than not the
+organizational design? Is it the customer migration process, internal politics? I mean,
+how would you categorize usually where the hard stuff really falls? Well, look, I I
+think so much of success in business is mindset. It's It's the It's the way you approach
+it. It's the questions that you ask. Like that guy with the wouldn't it be cool if
+question? Well, so it's just a powerful great question. The The brightest, best leaders,
+entrepreneurs, executives that I know, they just ask really good questions. You know,
+and they don't like, "Oh, why You know, woe is me. Why did this happen?" They're like,
+"Okay, this, you know, how can I make, you know, uh let lemonade out of this big pile of
+lemons I just got?" They're always They just You can knock them down and they just pop
+right back up. Shove them down five times, they stand up the sixth
+
+[00:50:22]
+time, they go, "Okay, let's go." And they're not even bothered. They're just ready to go
+again. And that Those kind of people are the ones that succeed. They just, you know,
+when everything within you tells you to quit. When your customers tell you to quit. When
+your family says, "Why are you doing that thing for?" At that moment, when you stick to
+your original resolve, and you just ask the question one more time, "Surely there's a
+way we can do this." You break through and you find that find that way through. And
+that's been my experience in my life. Um so many times when people around me thought,
+"Oh, you know, it's never going to work. We're never going to make it." And I'm like, "I
+can't even believe you could possibly say that. How can you even think that way? There's
+50 ways this could work. We just haven't found the one yet. Let's keep going." And the
+next thing you know, the next month, you land a giant customer, you sign somebody, or
+something happens, and the whole world looks different. You just got to, you know,
+Winston Churchill said during the war, you you got to just keep buggering on. You just
+got [laughter] to keep buggering on. You do even when you're not sure. And um that
+mindset does so much, and it attracts people to you that maybe don't have it themselves.
+
+[00:51:25]
+They want to get behind somebody like that. Want to be around somebody like that. They
+can They can do that. And um you know, so much of business is people issues. And if you
+start with the right mindset, then half of them are already solved. You know, stuff we
+talked about earlier, like how you treat people interpersonally. And then the path you
+blaze and the vision that you can transmit to them. You know, selling is just a
+transference of belief. If I believe it, and I can convey it to you, even if I'm a bit
+in inarticulate, if I can somehow get it over to you, then you believe it, you feel that
+way, too, off we go. And we start going in business together. And as I said, for me, I
+had one vision of where we were going, and it's changed over time. And the team are
+still behind me. We're still going, even after after the new one now. Because the market
+moved over a 12-year arc. The original goal ended up being wrong over time. And so we've
+altered it a little bit. Not without some setbacks, by the way. We missed a couple of
+numbers in the process. But, you know, that's I'd love to find a story that's just
+straight up with no
+
+[00:52:28]
+no down segments. I haven't found that one. >> [laughter] >> Let me know if you ever
+come across one. Well, the the the story I told you about my first business, the only
+reason that story sounded so smooth is we we had the benefit of time. We're looking way
+back in time over a big arc of time. While it was going on, it was ugly. I mean, there
+were all kinds [laughter] of setbacks and disappointments and problems. Looking back, it
+seemed very smooth now. I'm going to steal what's my favorite question. So, what what
+should we have asked you about that we didn't? Or what wisdom did you did you have to
+give that we didn't get after at all? I don't know if I have a lot of wisdom. Um but
+well, I guess I'll talk about this, you know, the world right now is questioning the
+value of apps and SaaS and software and whatever. And you know, just be I'm so inside
+the tornado. I'm right in the middle of it. I guess you guys are, too. Um I just believe
+it's all going to be melding together. I I I don't know of any you know, software out
+there or any SaaS operator that's not bringing AI to bear on everything. It
+
+[00:53:30]
+doesn't I don't have to go create my own large language model to benefit from it. I
+mean, it can all come together. And I suppose you could be asleep at the giant company
+that starts with an I earlier that, you know, tends not to pay a lot of attention to
+their businesses. But, you know, assuming you actually own it and you're in it and you
+care, um I just can't imagine you could get passed by by AI. Now, could some AI native
+guy start something that's just AI? Yeah, but you should have some incumbency in
+customer intimacy, relationships with your employees and theirs. Um And building
+relationships and stuff like that, you should should be able to leverage. And you might
+have to alter your pricing model, you know, not do seats, but do outcomes, or, you know,
+and I would say if you're not innovating that stuff, you're going to get your butt
+kicked. So, as to this question, which you didn't ask me, but you said, "What could we
+What's the last thing we could talk about?" This whole is, you know, AI going to just
+obviate everything that we all do. I just think it's all coming together. And um and the
+better
+
+[00:54:34]
+operators will leverage all the advantages they have and use AI um and and do well. It
+It It probably will starts the margin out of certain edge cases and so on. But, I think
+if you're close to your market, close to what's possible, you can just be out innovating
+in stuff that maybe wasn't important product 5 years ago, price point might come down on
+that, or it may not make as much margin. But, you'll be doing the next thing. So, I I
+don't really fear it at all. I'm pretty fired up about it. I'm fired up about it, too.
+We're aligned on that. I think that we're going to have different problems to solve. AI
+is going to take the stuff that used to be hard and make it easy, but it's going to make
+a lot of new things hard. And people are going to have new leaders emerge who are good
+at the the things that are now hard in the new landscape. And I'm just to see what those
+things are and make sure that that our team is is on top of it, too, and and doing good
+doing a good job for our customers, being good advisors. Well, Aaron and Justin, you
+guys are fun to talk to. Thanks for having me on. We appreciate it. It It I I I have
+like a laundry list of things I've been making notes that I want to ask you about, but
+we're flat out of time. So, that's super unfortunate for us, but so glad to have you on.
+Uh we've been talking to Joe
+
+[00:55:37]
+Walsh, chairman and CEO of Thrive. Um Joe, what is the best way for people to get a hold
+of you? Uh joe.walsh@thrive.com. There we go. Well, thanks so much. Thanks so much for
+coming on. It was super super awesome to get to meet you. That's how you got a hold of
+me, Aaron. Come on. Oh, I know I know how I did. I just want to make sure that the right
+people are getting to you the way you want them to. >> [laughter] >> That's my mission
+here. Thank you, guys. Good good talking with you. You bet, Joe. Thanks, Joe. Justin,
+thanks as always. And thanks everyone for listening in. Hit that subscribe button and
+give us a shout or a comment. Let us know if you got any suggestions or ideas for show
+topics, or if you just have a question. Justin is hot on the Ask an Engineer. So, let us
+know what you're thinking, and we'll catch everybody next time. Once that's that out.
+Thanks for cruising along with us on SaaS. That App. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

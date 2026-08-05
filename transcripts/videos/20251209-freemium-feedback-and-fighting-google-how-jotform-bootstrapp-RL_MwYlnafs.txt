@@ -1,0 +1,628 @@
+Freemium, Feedback, and Fighting Google: How Jotform Bootstrapped 35M+ Users
+============================================================================
+
+Video ID:  RL_MwYlnafs
+URL:       https://www.youtube.com/watch?v=RL_MwYlnafs
+Published: 2025-12-09
+Duration:  00:43:29
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+I remember one day when actually a friend actually told me, "Hey, did you see that
+Google actually released a competing product? Google was just releasing Google forms and
+I was like, okay, how am I going to compete with Google like this big company coming
+into our this little market and the solution was automation and delegation. So I tried
+to automate everything as much as possible. Welcome to SAS that app building B2B web
+applications. The podcast where we share real world stories, practical advice, and tech
+insights for those building [music] or thinking about starting a tech enabled business.
+I am your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. Hey everyone, welcome back to SAS that app.
+It's Justin here. Aaron is still out playing hookie, so I've only got Wilbur, the
+emotional support bull ratt and shotgun for today's episode. Today we're hearing from
+Idkim Tank, a quiet giant in the SAS space who bootstrapped Jot Form from
+
+[00:01:03]
+a small drag and drop form builder into a massive SAS ecosystem with tens of millions of
+users. He's the founder of Jot Form. He's the author of Automate Your Busy Work. He's
+the host of the AI agents podcast and an innovator in the agentic AI space. He also
+knows a thing or two about scaling companies, bootstrapping, and leveraging AI in this
+new era. Idkin, welcome to the pod. >> Hey Justin, thank you for having me. Thanks for
+the great intro. Like I don't know if anything has left to me to talk about. Yeah.
+[laughter] >> No, I'm sure it's going to be an engaging conversation. You've done a lot
+of stuff. So, I'm I'm very excited to dig into it. Just to kind of kick us off, can you
+let anyone who's not familiar with you know a little bit about your background, your
+story, and how Jot Form came to be and then how that put you where you are today? >>
+Yeah, sure. So, right out of college, I started working for this media company. I worked
+there for 5 years in New York and we had like over 100 websites and I was a developer. I
+studied computer science and one of my duties was to help the our editors with like
+various things and like they always needed like forms, contact forms, payment forms like
+they would run contests. We would create
+
+[00:02:05]
+forms to apply for the contest like so many different kinds of forms. And I kind of
+hated that. Like I hated creating forms. It was boring like just write in HTML and
+building these borings the same thing and I just tried to find a product that could
+actually like automate the task like just use a product to create the forms but I
+couldn't find one like there was survey monkey but that was like mostly focused on
+surveys. So I decided okay I'm just going to quit my job and I'm just going to build
+this product and that was like almost 20 years ago. It was actually 20 years ago and I
+quit my job and I started working on Jav and the rest is history. Now we have like 35
+million users. That's absolutely incredible. That kind of user count is just amazing. So
+you obviously built something that was really highly in demand. What inspired you or
+like how did you take the initial leap to jump out of a steady job into doing your own
+thing without a certain income and like that's quite the plunge to take? I think I
+always had that passion in me to do my own thing like just to have that freedom to have
+
+[00:03:09]
+independence to build my own products. Even when I was in college, I had like released
+some open-source products and like I've seen them like become successful some of them.
+This was long time before Facebook. Like for example, I had a product called profile
+manager. people could install that into their websites and then like people could
+register and do things like that. So I did that for a student organization and then I
+just released it as an open source product and then suddenly I assume like so many
+people were using it like I caught that bug when I released that open source product. I
+think that was the initial reason, but I didn't actually believe in myself. Like I just
+I was like I don't know if I could do that. I'm just going to find a job and I actually
+found a great job like just really loved it. But the thing is like I was still like in
+my mind that one day I'm going to just my start my business and like I just started
+reading all these blogs and like books and just kept learning more and I think that's
+over time at some point it just became like
+
+[00:04:12]
+okay okay it's 5 years when am I going to like start it and I have the idea and I also
+had a co-founder actually that's another story we have been talking to each other like
+two Turkish guys in New work. We have been talking to each other about like starting our
+own business and he was like 10 years older than me and then like we were just really
+excited about our startup and right about like we were just going to do it he came to me
+and he told me okay I was talking to my accountant and he said like 50/50 is not a good
+idea like just it's a bad idea so you should do like 51 to 49 and since I'm more
+experienced I I'm quitting like a larger company his salary was much higher than me.
+Like since I'm older, I should be the 51. But I took that as a like a vote of no
+confidence. Like we knew each other for a long time and I thought that okay, I didn't
+want to do it and that was like a dealbreaker and he just I think he just got married
+also like he was also stressed about like quitting his job and starting a business. So
+at the end I started by myself like even though I was
+
+[00:05:16]
+planning to be a co-founder I just started by myself and over time I actually I was
+happy that I was the single founder because like I heard like so many stories about
+these startups breaking down because like the founders they don't get along or like they
+get along in the beginning but then over time one of them is actually getting really
+good like just developing and other one is maybe costing like doesn't grow as And then
+suddenly there's this like feeling of like someone is actually pulling harder things
+like like just I've seen so many different kinds of problems with that. So I was so glad
+but it was harder because psychologically it's really hard to be a single founder but
+what I found was like as soon as I hired my first employee and that was like one year
+after I started working on Jot form as soon as I hired my employee and that employee was
+kind of like my co-founder like we would actually talk about everything in the ear. We
+had that kind of environment where we would actually discuss everything and we would had
+that really friendly environment
+
+[00:06:21]
+that actually supported me instead of having a co-founder. I was able to actually have
+the same feeling by just giving our employees more empowering them and just giving them
+more voice in our startup and that's how it went. Yeah. >> No, I love that. So you kind
+of took an early employee and told them more information than maybe you you did
+subsequently to employees at the same level, but then that they be kind of became your
+sounding board and they helped you noodle through problems. That's interesting. I've
+always had a co-founder when I've worked on something, but our first business that we
+ran, we also had our first employee who became basically a co-founder of the business
+even though it wasn't on the cap table. So that's fascinating. We had Joe Kowalsski on
+the podcast a few episodes back. It's been a couple months, but he ended up in a
+situation where he had some family friends and stuff and he ended up with a bunch of
+freeloaders on his cap table which made a whole bunch of problems for him later on and
+he made a bunch of people he wasn't really on great terms with really rich when he
+exited. So, he has a really interesting story about that. And I guess I don't
+necessarily agree with the 50/50 being bad. I do think you have to do contingency
+planning, but I think it's really interesting that was like such a big like vote of no
+confidence
+
+[00:07:23]
+for you and then you that gave you like the confidence somehow just to be like I'll do
+it on my own. Yeah, I think it was more like I wasn't probably prepared for it and the
+way he proposed it, I felt like it was like take or leave it >> and that actually also
+maybe he could have approached it much in a different way. Maybe I could have accepted
+that. I don't know. But the way that was introduced that probably didn't excite me. So I
+don't know what would happen. But he was more into like doing like consulting services
+and I was more about like building a product. I know I had Jot for in mind like I knew
+like what I wanted to do and I think that was also another problem that we had but we
+weren't actually because we were so friendly we were always spending time and excited
+about startup we weren't really focused on that we thought that we could fix that but
+this actually gave me like the freedom to just work on Jatform like just not do other
+stuff that we were planning to do in the early days so that also gave me more speed by
+just having a single focus and for 8
+
+[00:08:26]
+months I just worked on forms first version and I released it and that was like okay
+here I am can I make this successful right and I thought that the way that I could make
+it successful is if I give it for free and if I make it as easy as possible to use it
+and if I can see that lots of people actually use this product if I can prove that then
+I can actually continue working on it I already had savings so I wasn't worried about
+like just shortterm. So I worked on the first version for 8 months and then I released
+the free version and I think that was kind of what I learned releasing all these like
+open-source products, free products that it was easy to market a free product and the
+way to develop a product is get feedback. If you cannot get feedback, you cannot improve
+a product. I mentor out of stand of set of founders and one of the issues is like if you
+are trying to do an enterprise product it's just so hard because you only have like one
+or two customers and like it's really hard to like just get feedback from them like
+
+[00:09:29]
+just learn from them and some of them don't even have that but the more users you have
+the more feedback you get and that's what I actually learned during that time with the
+open source products with my other products and I decided that if I release this for
+free and that if I could do like PR and try to get people to use this product and if I
+can get a lot of people to use it then I can turn this into a successful SAS business
+which the term actually didn't exist back then SAS term didn't exist but I also knew
+when I released those open source product when I tried to sell like premium version
+selling something one time didn't work but the subscription actually was a better
+business model so I could also see that business aspect of that as well. >> How did you
+get from having a free version with a lot of like you gave this away for free and there
+was interest in it and you had users who were giving you feedback, you were making your
+product better. How did you rip off the band-aid and introduce that premium tier where
+you started asking people to get their wallets? >> So, one of the things I did was in
+the early days we had this public forum and
+
+[00:10:32]
+people would try the product, they would write there and I would like instantly whatever
+they ask like I would actually deliver that. So for free they were getting a product and
+then they would actually whatever bug reports or feature requests they were making I
+would just instantly in a day like just implement them and give them to so that also
+created that culture of giving feedback. So when I released the product in February 2006
+and then in September 2006 I actually hired my first employee and then I told him that
+okay I'm going to continue like supporting existing users like constantly getting
+feedback and okay you're going to work on this new premium version of the product and
+it's going to have features like PayPal integration for taking payments in your forms
+all kinds of additional features so that we can ask them to upgrade to the premium
+version and then March March 2007, like a little over a year after I released the free
+version, we released the premium version. And I remember like when we released the
+premium version, like we had like 15,000 users at that
+
+[00:11:36]
+time. So it wasn't much like we were getting only a few hundred signups like just a week
+or a month, I don't know. Like we had like 15,000 people using the product and they were
+using it for free. So, I made that announcement and I was really anxious like what's
+going to happen? Are we going to get like total silence, no one buy in it or are we
+going to get people to buy it? So, we made it early in the morning and then like a
+little bit later. I think it was like very early in the US time. So, I think it was like
+a university from Spain actually bought the premium version. That was the first one. And
+then like half an hour later, one from the UK and then we start getting like the east
+coast of the US. So I knew that okay this is like that's the day when I knew that this
+was going to be a successful product because as soon as we released the premium version
+as soon as we sent that announcement email we started getting those upgrades because
+people were getting value and the product was only like $9 per month at
+
+[00:12:38]
+that time. Still Jot For me has a free version, fully functional free version and like
+low monthly prices still, but it was even lower back then. So that proved that the
+business was going to be successful. >> Interesting. I guess there's kind of uh assume
+knowledge now that fremium is probably not the right way to do most SAS. Have you had
+challenges with running freium? Has it always been a good choice for you just because of
+how you designed this thing to launch? Over the years we have done a lot of experiments
+and a lot of people are don't love fremium but I really believe in fremium and like all
+the tests we have done actually showed that it was the right approach at least for our
+product. So for example when we actually lowered our limits so much that like people had
+to upgrade for example one of the most popular features of Jot form is like payment
+forms right and on the free version you can get like 10 payments per month and we
+actually lowered that limit to three per month and then when we did that test suddenly
+we have seen like so many upgrades and great things happening
+
+[00:13:43]
+and then like over a few months we looked at the data and then We discovered that okay
+this is very successful. we did the right thing and we increase upgrades, right? But a
+year later, I was just like looking at the data like we have all these dashboards that
+we built ourselves and I was like looking at the dashboard a chart for like payment
+users and the chart was like constantly going up up up and then suddenly it straightened
+out like it wasn't going up anymore. it turned into a straight line. And then when I
+looked at what happened there, like when we lowered the limit, it turned out that we
+actually lost those people. Like even though we got those temporary upgrades, even
+though things were looking good in the early days and maybe we were even like earning
+more by just getting more people to upgrade, but over time less and less people were
+actually trying the product, using the product and that resulted in stopping the growth.
+And we have tested this experiment many times and always the same result because free
+
+[00:14:48]
+kind of builds goodwill and also free allows people to use the product and just lowers
+that barrier to use the product and if the product is good if it's easy to use giving
+them that opportunity to experience the quality of the product is actually great so that
+like you can then charge them further. For example, when I look at products like Canva,
+even my kids like their teachers give them homework like okay, go to Canva and do this,
+right? And think about this like this wouldn't be possible if they didn't have a free
+version. And then all these people who are just like doing like easy quick things in
+Canva basically turning into paid users over time when if they have big usage and if
+they have low usage they're still promoting the product. Especially in the Java forms
+case, for example, when I create a form, what I do with that form? I will actually share
+it with other people. I might embed on my website. And if I embed on my website,
+actually, if I'm using the free version, there's like this small powered by Jot Form
+text at the bottom. Or if I'm just
+
+[00:15:51]
+sending the link to someone, they're actually looking at the link and they say, "Okay,
+what's Jot Form?" And then they discover Jot Form and that's like it's free. That
+increases that virality. And that was also one of the reasons for our growth. Yeah,
+absolutely. We had Tom Hunt on a few episodes back and his entire episode was about
+productled growth and the things you're talking about are exactly that, which is like
+every free user on Jot Form is free advertising and helps my domain ranking because now
+there's links to me from everywhere and SEO and on and on. So, I love hearing that. So,
+what did you end up doing with uh dropping from 10 transactions down to three? Did you
+come back up to 10 and then your graph recuperated or how did that resolve exactly that?
+>> Exactly. We just restored back and then the graph continued to grow after that and we
+process like billions and billions of dollars of payments and one of the reasons people
+like use jatform a lot is because like most of services they will actually take
+percentage from the payments but we don't do that just by using so that actually means
+that a lot of people also use it because of that like just they don't lose a percentage
+from their payments and then when they use forms and that's one of
+
+[00:16:56]
+the reason of using products like Shopify or other like products. They just use JF form
+and integrate with the all these different payment gateways and it works for them. Yeah.
+And the free version is enough for many of the users, many small businesses. >> I love
+that and it's attractive to me as someone who runs small businesses. It's like, oh, you
+know, it's part of my subscription. They're not tacking on a fee for, you know, the
+better that I do. And I like that as a founder. So awesome. Real quick, this episode is
+brought to you by Delta Systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here, and we love to work with cool people on cool projects. So, if that
+sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab a time with us. We can beat up on your problem together, and if
+there's a fit there, amazing. We'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. Well, I could talk to you about the
+early days of Jot Form and all of your scaling and tribulations for hours and maybe
+we'll come back to some of that. I did want to give you a chance to tell people a little
+bit about Automate Your
+
+[00:17:59]
+Busy Work. What was your inspiration for starting that book and like I haven't actually
+haven't read that book yet. I added it to my list after I found out we were going to be
+talking. But yeah, tell me a little bit about what inspired you to write a book and your
+thesis. >> Yeah, in the early days I assumed that we are in this like form building
+market like we were helping people create forms, right? That's what I assumed. But over
+time like what we discovered was we were actually helping people automate their
+businesses or organizations if they are doing something like manually like a lot of like
+healthcare, education, nonprofits like these are like some of our top customers and when
+they use Jot form they are basically automating that communication between them other
+people. Let's say you're in education you're an administrator you're trying to do
+something right? If everybody's like just sending you emails, right, just you have to
+deal with them one by one. But if you can create a form with validations, required
+questions like conditions like just very structured form, you can actually take all the
+information you need easily and
+
+[00:19:02]
+just not spend time like with the communication constant back and forth. So basically
+people have been using JFO for automation. That's what we discovered. And other thing we
+discovered was like forms were kind of like the first step in a journey for many things
+like people are registering for something filling out a form but it doesn't end there
+right those people they get an email maybe they get approved maybe they need to make a
+payment there are a lot of things that needs to happen after that maybe they need to
+sign a document so we discovered that if we can help people with the next steps on the
+journey automate the workflows that if you can build those tools people will use them
+because they are already here building their forms. Why not just set up their approvals,
+workflows, e signatures if they need to build a app, mobile app and put their forms on
+it. Why don't we let just allow them to like do all those things so that they can we can
+actually complete their workflows and just make it part of the product and make the
+product more useful for them. So I think I learned a lot
+
+[00:20:06]
+about automation by just trying to help people automate their business. And I also as a
+founder struggled with automation. I remember in the early days especially like I
+remember one day when actually a friend actually told me hey did you see that Google
+actually released a competing product. Google was just releasing Google forms and I was
+like okay so how am I going to compete with Google like this big company coming into our
+this little market and competing with us and even putting like Google forms in Google
+drive at the very visible places and at that time we were around like probably like 5 to
+10 employees and I was like constantly doing all kinds of things like I was doing like
+accounting legal HR order and supplies for the office like just I would do everything. I
+would actually like spend so much times doing support like we didn't actually have a
+customer support employee for probably first 5 years like I was just doing the support
+and I really believed in that because
+
+[00:21:07]
+like I was just learning so much from like observing so much from users but at this
+point like I wasn't really spending my time appropriately. So, okay, I decided that if
+I'm going to be able to beat Google, if I'm going to be successful, then I needed to
+change something. And the solution was automation and delegation. So, I tried to
+automate everything as much as possible, use our own product as much as possible to
+automate my own business. And then I started delegating more like just I went to like
+Upwork at that time it was like odesk and just hired like this like five remote support
+people and just gave like most of my support work to them for example as delegation for
+the automation part like just many of the things that we did like especially with the
+product development like continuous integration and deployment things like that a lot of
+automations that started at that time and just helped us become much more productive. So
+over time I started by helping myself with automation and then helping our
+
+[00:22:11]
+customers with automation, helping our team with the automation and I felt like just I
+learned so much about automation that I could actually write a book about it and that's
+what I did. One aspect of the story is it took me like years to write the book and right
+I was about to release the book actually the AI blew up right at that time around that
+time and my book wasn't about AI so that was one problem so the book is more about like
+the automation the ideas the principles of automation even the examples like as soon as
+I released the book the examples in it were old like it was in this new AI era I think
+it was kind all but I feel like the ideas still apply. So for example, I talk about
+automation flywheels where let's say you are a small business owner like already under
+so much busy work. How do you actually use automation? How do you decide like what to
+automate? How do you learn which automations tools to learn? So in the book I described
+this automation
+
+[00:23:16]
+flywheel. So you start by basically putting down your workflows. Like it could be on
+paper like you could just draw your flowcharts of your work or you could just use one of
+the products available and then once you actually look at your workflows and you
+shouldn't just look at your workflows like basic automation basic things that you can
+automate but just look at all the things that you do. For example, if you are waiting
+for an email from a customer, that's also part of that workflow. So the workflows, they
+don't have to be just very simple things. And then one of the things I talk about is
+like how you should really look at how you spend your time. And for example, you could
+do like a time audit like if you create a spreadsheet and then just put how you spend
+every day like just like I spend my time with this and that. And at the end of the week,
+if you add them up, if you do this time audit, you discover that how you're spending
+your time. And then you could just ask yourself like, am I really happy with this? Like,
+do I
+
+[00:24:19]
+actually enjoy spending my time with these things? So, I actually recommend picking
+things that you don't enjoy to automate first because usually those things are pretty
+boring. That's probably why you don't enjoy them because it's just became like doing
+them all the time. It's just boring. and it doesn't excite you. It doesn't just take
+your time. It's also taking down your energy, taking down your motivation. But if you
+can actually automate those things and spend more time on things that really matter to
+you, you'll have more time to spend with those things. So those early wins will allow
+you to like automate more and more things and create this flywheel of basically instead
+of doing things you are turn them into your systems and then over time you can actually
+improve these systems and you are basically turning into a manager of your systems as
+opposed to doing those things. and then you are spend more of your time improving your
+systems and monitoring them and then improving them as opposed to like getting lost in
+busy work.
+
+[00:25:22]
+>> Yeah, I love the idea that the stuff on your calendar that you hate doing even if
+it's not timeconuming, it just drains your energy and it creates friction in your life
+and if you're fired up about everything that's on your agenda, you jump out of bed in
+the morning. Whereas if you know you have that one thing that you hate doing all day, it
+can really take away from the things you do enjoy doing just because it drains your
+willpower, it drains your energy. >> I try to apply the same principles to my work as
+well. For example, I'm really excited about AI in the last like two years. Like I just
+stopped doing anything else. Just I'm actually leading our teams to build our AI
+products and we first built this AI agent 2 years ago again that's 2023 that one thing
+we do at just form is like we do these hack weeks these hackadons but we don't want
+people to like sleep at the office. We just say okay just do your regular hours 9 to5
+but we turned this hackathon into a weekl long hackathon. So, one of the hack weeks we
+did was like about AI and some of our teams came up with this idea of what if people
+could fill out forms with AI, right? The idea actually
+
+[00:26:24]
+sounded great to us at that time. Like what if you could just call a number and fill out
+a form on the phone, right? What if you could just use voice or just by just talking to
+a chatbot? What if when you go to a website, a chatbot can take your information for you
+as opposed to like this boring form? what if you could just turn it into a conversation.
+So we were really excited about this idea. We started our first AI project at that time
+and then we had a few teams and I started working on this and then we released this to a
+small number of Jam users as an MVP product and we discovered something that 90% of the
+users were actually wasn't using this product as we intended just to you know get people
+to fill out forms conversationally. We discovered that because this product also allowed
+you to kind of answer questions, not just fill out forms, but also provide answers. 90%
+people were really excited about the product. They were really using it on their
+website, put in the chatbot on their website. But what we discovered was people were
+actually using as a
+
+[00:27:28]
+customer service chatbot. And that's why we decided to pivot and since people are
+looking for a good AI solution, AI agent that can actually conversationally help their
+users and not just like be a chatbot not just answer questions but be able to use tools.
+For example, if they need to take appointments when you call a number or when you're
+talking to a chatbot on a website, it can also take your order or it can make an
+appointment for you. So that's where we basically pivoted and we released that product
+early this year and it has been pretty successful. So far we have like 18,000 active
+users and it has like many different channels like we have the Gmail agent basically it
+can actually create drafts for your answers. So if you are providing support on your
+Gmail it can create drafts. You can put it on your Instagram. Instagram agent can
+actually create these answer the DMs coming from people automatically. So we
+
+[00:28:32]
+had all these different channels like WhatsApp, Shopify, you can put it on WordPress and
+just all these different kind of agents. So that was really great. But there was one way
+we were really able to improve the product. We released this in February 2025, early
+this year. And when we released it, we thought that okay, why don't we just also provide
+support at JFO using our own product right and then that's exactly what we did like we
+started like put this chatbot on our product we even like started putting in our support
+system so that our human support also answers the question but then AI can provide the
+early answers as well and then we discovered that we weren't actually doing well like
+the resolution rate was only like 25% % when we release this support chatbots and then
+okay we decide okay if this product is going to be useful to our customers we need to
+make it also useful to us like we need to dock feed our own product and if it's failing
+for us it's probably failing for
+
+[00:29:35]
+our users as well so like we start asking the question like why it was failing why it
+was like only like 25%. And one of the things that having this support actually was
+interesting because we have around like 200 support employees at chat form and then our
+support load was actually getting lower because many people were getting actual answers
+from the chatbot the AI agent. So we were able to actually move like 20 people from our
+support team to dedicate them to review our support agents conversations and we started
+doing this like daily. every day they would actually read those like usually like 3,000
+conversations happening between our customers and our users and our AI agents and then
+they would actually say is it resolved or not yes or no so they would evaluate that
+conversation they would say yes or no if they say no it wasn't result they would
+actually choose like a category of the reason for the failure they will provide the
+description and then we started actually
+
+[00:30:40]
+turning those into like reports and then based on those categories, we actually sent
+those problems to the teams that are responsible for them. So over 3 months, we were
+able to take that 25% resolution rate and to increase it to 75%. Let me just put a bow
+on that cuz I love this. So you rolled out something that wasn't really blowing your
+hair back as much as you wanted it to, but it did create 25% worth of space. So you took
+the 25% of space that it gave you and you took the people who were previously having to
+do that 25% of work and you put them to work on making the tool better and then since
+they were not having to do the actual work and the AI was doing the work, you were able
+to use all their energy and efforts to make that 25% rate go up to 75% rate. >> Yeah.
+But 5% rate is actually the resolution rate of our AI customer support. So we had this
+20 support employees who were just reading all these conversations and then labeling the
+conversations as resolved or not resolved and then put in all these information about
+like why it was
+
+[00:31:42]
+failing and then our product teams they were all responsible for different category of
+problems. So they would actually take a problem and they would work on that problem over
+that 3 months. >> Do you have like an example of like one of those problems and like how
+that got resolved? For example, someone was saying like, "I don't receive my emails.
+People fill out my forms, but I don't get the emails, right?" So, the AI agent would
+say, "Okay, do this, check this, check that." But when we looked at our human support,
+our human support actually had the tools. They could actually take the email address of
+the user, put it in a tool and then query and find out like if there's a problem with
+that email, if it's like in our bounce list, if that person actually like enter their
+email address incorrectly, like they could check like many things like that using the
+admin tools, support tools we add. But the AI agent didn't have that. So one of the
+things we did was our AI agent actually has the functionality of using tools. We
+actually gave those tools to our AI agent. Basically, now our AI agent could
+
+[00:32:48]
+actually use tools to check if this user is in a bounce list, if they unsubscribed from
+Jot form, if we received an error message from when we sent the email, maybe the inbox
+was full or maybe because they thought that we were spam or something, right? So the
+exact thing our human support were doing, our AI just started doing. So once we did
+that, that probably gave us like one or two point increase in the resolution rate. So
+when we went from 25% to 75%, the 50% resolution rates difference mainly came from like
+three different things. One of them was our user guides were not good enough. Like our
+human support team, they already knew the product, so they didn't need to check the user
+guides. But our AI agents AI was actually using our user guides to answer people and our
+user guides were missing so many information. They had like old information. They were
+outdated in some cases. So basically there were people who were like constantly updating
+
+[00:33:52]
+our user guides to make sure that AI agent knows that. So this also had the side effect
+of improving our documentation. So that was probably like 10%. Another big problem was
+so basically with AI when you have like big database like when you have like big
+knowledge base you cannot put it in the tokens like if it's too large you cannot just
+add it [snorts] to your prompt. So what you do is like you use a rag system retrieve it
+augmented retrieval. So basically retrieve it augmented generation I think. So basically
+what you do is like you query a database and then just the basically a vector database
+tells you that okay the information you're looking for is in these sections and it just
+like gives that as a part of the prompt to AI. So for example, if we are using open AAI
+when we actually asking for the answer for this user, we are also adding that adding our
+user guide, but we only
+
+[00:34:54]
+want to include the user guides that are related to that specific question, right? We
+don't want to send our whole user guide because it's just too large. So basically that
+database wasn't performing well. That rack system the embedding model wasn't doing well.
+So we basically improved the embedding model we used there and that also gave us like
+additional 10% increase and the tool usage was also something big that made uh
+difference basically our AI had access to the same tools that our own human support had
+that also made a big difference. So by just like continuously iterating like daily
+iterations, daily discovery of all these problems and then like just the teams that we
+had about 15 teams that were actually working on different areas at the same time. So
+over 3 months 15 teams working on different areas and improving the AI agent we were
+able to go to 75%. But the great thing was like when we actually
+
+[00:35:57]
+improved our own system, our own support AI agent, we were also improving our own
+product. So that also made our product much better over time. So probably why we have
+like 18,000 active users on just from AI just now because it works really well. It's
+just really easy to set up because like if you want to put like this chatbot on your
+website, it just goes and crawls itself and learns everything on your website and it can
+just ask for questions. And I think the great thing about AI agents is that it can scale
+much easier like this festival. They were receiving so much traffic and then people were
+constantly asking these questions. when they used our AI agent, when they use our
+chatbot on their website, they were getting all these questions and the chatbot was able
+to like instantly answer them and just be able to scale and then they would just look at
+all these different conversations and then if there is any question that are not
+answered well, they would also add to the knowledge base and improve it. And what
+happens is that even if the
+
+[00:37:01]
+knowledge is on your website, people are kind of lazy. They don't want to like just find
+the information on your on website. They just want to go to that chatbot and then ask
+their question there and get an answer quickly. They prefer that when you're going to a
+festival, maybe you are driving, maybe you are outside, like you don't have time to like
+try to read all the information on a website. But if you can just call a number, talk to
+an AI, or if you can just talk to a chatbot, that's just much easier. Another kind of
+piece of this trend of like it used to be you received a newspaper and someone else
+decided everything that you were going to be interested in and then we moved to RSS
+feeds where it's like I will tell you what I'm interested in and then when it's ready
+send it to me and it's kind of like an information on demand model which is like I'm not
+going to read your whole website to figure something out. I'm going to go to your
+website when I have a specific question and ask for what I want and then I'm going to
+get exactly that answer back out. And so I love that. I love the idea of taking whatever
+AI does for you initially as a starting place and having your entire team work on like
+why is AI failing and how do we enhance its performance? How do we oh our knowledge base
+isn't as good as it should be. So the AI like the
+
+[00:38:03]
+AI is not a human. It has to go off this knowledge base that we have. So we need to make
+sure that's in a better condition and better shape. >> So we are now working on our
+second AI product. And one thing I discovered was like I learned so much about building
+products over the years. And what I discovered was that the rules don't apply to AI
+products. When you're building AI products, all the playbooks, all the rules you
+learned, they go out of the window. like they don't work anymore and the reason is like
+most of the time there is no UI there's just conversation most of the time people are
+writing a prompt people are talking to a chatbot and all the UI based based like
+improving the user experience all the rules that we learned over the years don't apply
+here so what we learned is basically doing these evolves doing these reviews of the AI
+and what AI does in the AI agents product basically we were just reviewing all these
+conversations and labeling them. So the next project we are working on we call
+
+[00:39:07]
+it J form AI basically being able to use AI everywhere on J form and notion actually
+released something similar like notion AI was similar like everything you do on notion
+you can actually do it by just talking to their AI and it's like wherever you are it's a
+chatbot on the right side or just you can just go to this notion AI homepage. So,
+Jatform AI is kind of similar and what we learned is that we are using the same idea
+here. Basically, because like we saved so much resources from support, we were able to
+move like 30 support employees to do the reviews to do the evolves for us. And what
+these employees do is basically they are looking at all these conversations between AI
+and looking at what Jaton AI does for them. Like for example, someone is asking okay
+create me this contact form right and then they are basically evaluating like what the
+user asked and then what we produced. So basically instead of the conversations they are
+actually
+
+[00:40:10]
+reviewing what the AI has done not just what AI answered but what the AI has actually
+performed on job form and then they are labeling them and every morning when a product
+team we have about 20 teams working on this project when a product team actually comes
+to the office at 9:00 a.m. they actually received this automated report that basically
+all the conversations like we cannot review all the conversations but usually like we
+review around like 200 of them. So yesterday okay we review 200 conversations and what
+AI has done and then we are clustering the AI is also clustering all these like
+different conversation and then the report actually say here's the top problem from
+yesterday here's the second most important and then the team is actually working on that
+problem that day. So basically this is like this iterative approach to improving the
+product and this is like daily sprints as opposed to like doing like monthly or weekly
+
+[00:41:13]
+sprints like basically they are doing daily sprints. Humans are reviewing what the AI
+has done, where the AI has failed and then our developers are basically fixing those
+mistakes and then improving the product iteratively and eventually our goal is like not
+just to fix the problems but also okay here's the people expected to do but we don't
+have that feature at Jatform so let's just build that feature as well in Jatform because
+we are able to look at like the top requests basically it's going to help us with the
+product discovery as well, not just product improvements. >> Well, you just brought us
+full circle back towards having the free users giving you all the feedback that you
+needed to make the product work and then now you have your AI chats which are bringing
+you the feedback that you need to make your It's beautiful. >> Exactly. Yeah. >>
+Awesome. Well, I know it is like 9:00 in Turkey where you're calling in from. Thanks for
+meeting with me on US time zones. I really appreciate it. Right at the end of our time
+here, where can folks connect with you? Where would you like to send folks if they want
+to get in touch? So my website is itaken tunk.com my firstnamel lastname.com
+
+[00:42:17]
+they can find the first chapter of my book for free as you would expect they can just
+read that and we don't even ask for email address or anything and they can find my
+articles I write for like Forbes entrepreneur different places they can find my writings
+there as well if they're interested and they can also talk to me my chatbot there as
+well if they have any questions My chat is actually basically trained by my books and my
+writing and all the knowledge I add edit and it can ask for questions if they have any.
+>> That's so on brand. I love it. [laughter] Awesome. Well, thanks so much again. It's
+been an absolute pleasure folks. Thanks for cruising along with us. I hope that you
+enjoyed the episode. Like, subscribe, reach out to Delta if you want a software project
+done. But yeah, thanks so much and very soon Aaron will be back and you won't have to
+endure only me. So, thanks Adakin. Thanks everyone for listening. See you next time.
+Thanks for cruising along with us on SAS that app. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to
+
+[00:43:20]
+subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

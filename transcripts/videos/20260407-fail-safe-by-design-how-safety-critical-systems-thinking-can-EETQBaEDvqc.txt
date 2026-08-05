@@ -1,0 +1,516 @@
+Fail-Safe by Design: How Safety-Critical Systems Thinking Can Scale Your SaaS with Kjell Hedstrom
+=================================================================================================
+
+Video ID:  EETQBaEDvqc
+URL:       https://www.youtube.com/watch?v=EETQBaEDvqc
+Published: 2026-04-07
+Duration:  00:39:27
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+It's a personal policy of mine that we're not hiring a-holes. That's just not going to
+happen. If they fit with a team and they can't collaborate well, then that's not the
+hire. We want people from different backgrounds and different experiences at Onfleet for
+sure. But the skill to collaborate and work through problems together, that's super
+important. Welcome to SaaS That App, building B2B web applications, the podcast where we
+share real-world stories, practical advice, and tech insights for those building or
+thinking about starting a tech-enabled business. I'm your co-host, Aaron Marshbanks. And
+I'm Justin Edwards. Each week we bring you the stories, strategies, and insights you
+need to build your SaaS or tech-enabled business smarter, not harder. Let's dive right
+in. Hello and welcome back everyone to SaaS That App. With me is always with his air
+conditioner sadly turned off at the
+
+[00:01:02]
+moment, Mr. Justin Edwards. Justin, how's it going, man? Man, it's a shame to be to have
+to be so professional I got to turn off the AC while I'm recording. It's it's a real
+pain. The noisy background. There's so much construction going on in my area. I'm just
+like in constant fear of recording these and and there just be like some sort of an
+explosion. They had a big crane next door going yesterday, so I was thankful that we
+didn't have that that recording in the background. >> [laughter] >> It's going well here
+though otherwise, so I'll I'll I'll take I'll take the not having to have the air
+conditioner on quite yet. Joining us today also is Kjell Hedstrom. He is a CTO at
+Onfleet, which is a platform powering the last mile delivery for thousands of
+businesses. It handles things from route optimization to real-time tracking, and their
+software helps bring order to one of the most chaotic environments out there. Now,
+Kjell's career has been shaped by solving complex operational problems where inputs are
+messy, stakes are high, and things don't always go according to plan. We're going to
+find out about some of that today. We'll also be digging into what it takes to build a
+SaaS in the physical world. So, how products evolve world pressure, what founders can
+learn from operating
+
+[00:02:04]
+where software meets reality and all that good stuff. Kjell, welcome to the pod. Well,
+thanks for having me. So, hardest question always is the very first one. How in the
+world did you get here, where you are now? Well, that's a good question. Um I am in
+Montana right now. But yeah, I the accent is Swedish. That's where that's where I grew
+up, in the very north close to the Arctic area. And this is actually my fourth country.
+I I lived in Norway and Spain also before I before I moved to the US in 2013. All right.
+And how? I don't know. Coincidence coincidences like weird stuff. Um I met my wife in
+Spain. She's from Iowa. We lived about a decade in in Scandinavia, and then we decided
+to move back to the US. I had had finished my master's here in the US also, so I had a
+pretty strong connection to the country. All our kids have five.
+
+[00:03:07]
+I didn't have five at the time, but they were all like dual citizens. So, it was like
+felt like a pretty natural move for us. Great. What what part of Iowa, if I can ask?
+Just close to the the Mississippi. So, so it's from Clinton, Iowa. Okay. Justin and I
+both have some connections to to Iowa. I lived there for about 7 years in the Cedar
+Rapids area. Oh, cool. Like the Quad Cities area? That's where that's where my family's
+from. Yeah, so interesting. Always a small world. Yeah. So, you've spent a lot of time
+just in a general sense dealing with software, solving problems in software, working
+with organizations that specialize in software and solving problems with it. So, what
+what kind of drew you to that space initially? Oh, yeah. My goodness. Uh Initially, I
+wanted to be a doctor actually. And and then Sweden is a is a interesting country where
+everything is like monopolistic. I had an unusual career path, so I was rejected strong
+with my application even
+
+[00:04:10]
+though I was well overqualified. So, so my second choice was was computer science. I
+I've always loved math, and and so that that put me in this direction. My career started
+really in in air traffic control systems, more on the operational side dealing with
+integrations and dealing with people. And then then I had a martial arts career on the
+side also, and then I had an accident outside of martial arts that ended my martial arts
+career. Then I decided to really dig into really my focus on my education, which was
+computer science. And and I realized I loved it. And and both dealing with people and
+and with computer science and really tough challenges. So, I started my career in
+safety-critical software, C++, um and then moved more to like mission-critical software
+in in like
+
+[00:05:13]
+missile early warning systems and so on, and then medical technology later. And and then
+it yeah, it just rolled on from there on. That's amazing. I love all the verticals.
+That's really cool. It's it's somewhat reminiscent of kind of what we do. Justin and I
+both work in a consultancy and it's it's fun because we're not like singularly product
+focused, so we get to work in a lot of different verticals and and we get to become kind
+of keepers of knowledge and and information, and we have to kind of learn you know, the
+business or or the industry or whatever to really be able to write software in it. And
+so, I always always find that kind of unique and special, but that that's very cool that
+that's that's what you've done. So, I want to get into Onfleet in just a minute, but
+tell me a little bit about like pre-Onfleet. What what kind of experience that you did
+have in in all these different software industries that kind of shaped how you approach
+building things now. As as a music Onfleet got. Yeah, and it's they have really shaped
+me to a great extent. I think um
+
+[00:06:17]
+when my my career really like started in in air traffic control and I setting up like
+ATC systems, I was in charge of Santiago uh airport in Chile, and then I took over the
+responsibility for London Heathrow. And and what worked with setting up all the systems
+for the new control tower, which is now an old control tower I guess, but but but this
+was back in like 2005. I think they they had big inauguration and the brand new systems
+up there. And like really like working with redundant systems, but understanding a
+metric-driven approach, evidence-driven approach, but not just like assuming the data is
+correct, but actually like looking at the breadcrumbs and following the evidence. I also
+handled a lot with like um people and and and like interpersonal
+
+[00:07:21]
+conflicts and and you know, I worked with big airports with like maybe tens of different
+members all all coming together sometimes with weird and quirky personalities. And and
+getting them to align and get getting everything to to work out. So, the career
+afterwards was was really in consultancy. I I worked for a consultant company HiQ in in
+Stockholm. I think they're now might be more more global. And my focus was more on like
+first a step into a side, which really cemented the importance of quality I think. But
+then fairly shortly afterwards, I took over a team there and and tried to like really
+like rejuvenate their development practices. This was when Agile was fairly new also, so
+we like we rolled it out and I I turned it to something of an Agile coach for that
+company. And and I kind of like like like that direction of of driving with quality, but
+also like
+
+[00:08:25]
+putting down a fun like a fundamental building blocks that are uh that are everlasting
+or like making it easier for the for the company to stand on as they continue to grow.
+So, I went more and more into like the change management and leadership type of of
+consultancy. And then after a couple of years in in the defense industry, I moved more
+towards um safety other types of safety-critical software more in the medical industry.
+So, I worked for Elekta and Maquet in in Saint Jude in in Uppsala and Stockholm.
+Anything from like heart stent placement type things to brain surgery to medical
+ventilators. All like really really interesting and cool cool things. And and but we
+really want not only the software to be robust, but you really want the organization to
+be robust because there's always some kind of like
+
+[00:09:29]
+reflection or mirroring between the two. And I had lots of fun with it. And then it
+became more and more clear to me that I that we needed to move either inside of Sweden
+or or to US. And so, so even though I was quite top high up on like leadership type type
+things or that type of consultancy, when I moved to the US, it was easier to go back as
+an IC. I had made some software that was used a little bit here and there over the
+world. And and one of the companies that were using it was a security company in
+Boulder, Colorado. So, they they heard I was moving over and they gave me a job offer. I
+interviewed for Apple. I got an offer and and went there and it was like, I can't deal
+with this deal with this commute. And I I went back to that company and checked it out
+and turns out I I love the Rockies.
+
+[00:10:31]
+And so, I spent 5 years in in Colorado before I moved to Montana. So, how did you come
+to to be involved with with Onfleet and that product in that company? Oh my goodness.
+COVID, I would say. That's been an answer we've gotten a lot actually at our at our most
+recent career staff. But COVID is still like our bullet most people and most companies,
+I think. So, I worked for ClassPass not now Mindbody and they did like they went from a
+billion dollar company to zero in revenue in a couple of weeks. They had massive
+layoffs. So, so after that I I worked as a I went back again to IC for a while and and
+they did some consultancy and freelancing and then I started working like roughly a year
+at each place. I I worked at Flowhub, Canada Goose, retailing and then for Ganaz who
+works more in the agriculture
+
+[00:11:35]
+agriculture hiring and and staffing scene. And and both companies were struggling to for
+various reasons but but but but regarding very closely connected COVID. And we both like
+straightened the ship for them as on. But but then when when things were a little bit
+tougher for Ganaz, I felt it was time to move on. And and it was the right call for me,
+I think. But it was a little bit tough because then in my goodness, 2023, I think it
+was. It was probably one of the hardest job markets and it took some time for me to to
+get my feet back on underneath me as well. But then in December, I think of 2023, then
+then I started to get more traction with with leadership positions and I I got in
+contact with with Onfleet
+
+[00:12:41]
+and I did a straight up application job application to them. I I think they had
+something like 2,000 people applying for it. But but I I could see some alignment with
+my past like they they handle a lot though like routing, logistics, just like
+understanding mapping systems and so on something that's always been interesting to me
+since since my air traffic control days. And so, I I felt an alignment with them and it
+was I don't know almost love at first sight, I think. I think it was a good good match
+with me and the leadership team. I really liked the focus they had, what they tried to
+achieve and how they had learned some tough lessons in the past and were now now trying
+to like straighten up. So, I felt like I can they are they've been through a lot.
+They've learned their lessons. They're eager to to improve and I think I can make a big
+difference here. So, can you can you shoot out a couple of those examples of
+
+[00:13:45]
+those tough lessons? That's that's actually something I'm super interested in. You know,
+what what did they have to learn? Well, they had done pivots before. So, they they had
+they had started a little bit of one focus and they had done some hard pivots. And and
+then I think COVID came and they were just perfectly placed and positioned with their
+product. Everyone did deliveries, right? So, so they they needed shipments and they were
+they were just there at the right time. So, they grew really really really really fast.
+And and they grew maybe maybe too fast or maybe maybe they needed a little bit more
+structure. So, once COVID kind of like simmered off, it's still around us but we don't
+have the societal fear about it anymore. Then then like businesses tapered off a little
+bit. And so, they were a bit they were a bit too heavy on their expense front and then
+they needed to correct that. So, it was both
+
+[00:14:48]
+just spending wise but also like how they were staffed, how they were organized. Really
+focus on like the infrastructure and so on. And a lot of these areas we I started to
+look at when I joined. In fact, I would say that they're completely different business
+on the R&D side now. Like we we changed ground up from culture to meeting culture to how
+we do agile, what our infrastructure looks like, how we do releases. Like we left no
+stone unturned, I would say. Real quick, this episode is brought to you by Delta Systems
+which is what Aaron and I do when we're not talking through microphones to you, the
+people of the internet. We've got a really really great software team here and we'd love
+to work with cool people on cool projects. So, if that sounds like you and you've got a
+problem or you're in some kind of a jam, go to deltasystems.com, grab a time with us. We
+can beat up on your problem together and if there's a fit there, amazing. We'll help you
+out. So, deltasystems.com, grab an appointment and hey, maybe we can work together. So,
+do you bring a lot of kind of
+
+[00:15:52]
+methodology in your background from safety critical systems and and developing in that
+kind of high stakes environment where mistakes just just can't happen? Do you bring that
+with you to Onfleet and the stuff you're working on now or is that some stuff that you
+kind of choose to leave behind and and not introduce? I think a bad match good. >>
+[laughter] >> I think I think I will always keep that keep that in mind and so on. And
+and especially now with agentic engineering and agentic systems comes into place where
+where like if I think last time I checked at Onfleet like the teams are between like 70%
+all agentic coding and and 100% all agentic coding. So, so like we don't want slop and
+so we don't want like low quality. And so, the change we have done here has been like
+heavily influenced by my by my background. And I think overall in engineering I think
+there's every single person
+
+[00:16:56]
+would agree that our quality now in everything that we're releasing it's a magnitude
+higher quality that than before we really like dig into this new work this new approach.
+And so, we follow an evidence driven approach where where we try to avoid having
+prompting unnecessary dead skill that that makes it that makes or breaks the the output
+quality. Instead we put we try to put systems in place so that when when we're making
+learnings, it improves the whole system not just for the individual person. And of
+course, it's it's a journey. The whole industry is in in that journey right now. So,
+it's not the same for for every team. Intentionally, we aren't like putting putting the
+exact framework in for everyone. I think we're still in heavy experimentation and and
+iteration across the team.
+
+[00:18:00]
+But all the teams I think are very heavily influenced by the philosophy that I that I
+brought to the table. I I love that. It makes sense. I like the idea of having uh that
+kind of rigor in background and using that that skill set and that experience to kind of
+push forward in the war the war against slop. It also turns out that these agentic
+systems like regardless of you work with Claude or of code or something like like that
+is that they they are the most efficient and more most deterministic output if they are
+laser focused and you put in these safeguards these like what we call it like agentic
+harnesses and so on so that we also like validate the output. Like what when you when
+when you put that in place and you're driving with a quality mindset, checks and
+balances, you don't trust we don't trust a single agent versus we don't trust a single
+human. Like we trust a process where of checks and balances and always driving with a
+quality mindset and always driving
+
+[00:19:03]
+opinionated with a like coding philosophy in mind. And it yeah, it just turns out that
+when you when you put that in place, the agentic systems, they they really excel. I love
+that mindset. The the trust but verify. >> [laughter] >> And I like that that you apply
+it in both directions. You know, that was going to be one of my questions actually. I
+mean, you know, obviously it's getting better and better but agents in general and and
+AI, you know, while it's gotten much better is still not it's it's still not 100%
+trustworthy. And then by the same token, you also have humans and you you you know, you
+inject you know, personal traits and and characteristics of of individuals, coding
+styles and you know, what they see and how they see things too. So, I think that that's
+that's great that you approach it that way. It turns out humans are not 100% trustworthy
+either. Like, we have fights with our spouses, we have like a tummy ache, or or we're
+distracted by something else, right? We We do mistakes so much all the time. Right? And
+it's So, that's why we
+
+[00:20:05]
+through the hundreds of years of them have engineers that they have established
+processes on checks and balances and and validation and that we have reviews in place
+and so on. And so, really using the same mindset. >> Now, and and also an appropriate
+reference group. So, I know there's been with self-driving cars, there's been a little
+bit of a this kind of double standard where it's like with self-driving cars, they're
+supposed to get to zero accidents ever. They need to be flawless cuz cuz human drivers
+are so good. It's uh the reference group is not fair, right? And I think that that also
+comes into with a with a genetic coding, right? Where it's like, "Well, yeah, but we
+have I have people who work for me do some really dumb stuff, too, and we just need a
+little coaching and a little help and a little process that fixes that stuff." So, I
+like that a lot. Oh, I I feel I feel so much safer in a Waymo in San Francisco than than
+with a with a human Uber driver who's really stressed and and trying to like complete
+his run on the on the shortest amount possible. I just wish you could go to the airport
+with a with a Waymo because then I would definitely do it. I'm waiting for the
+
+[00:21:07]
+donkey and chicken extension of Waymo to drop so they can deploy here in Mexico. >>
+[laughter] >> I wish you all the best of that. So, So, Joel, given given your history
+and and all the things that you did bring with you into this new role that have
+obviously helped, you know, it's helped you, it's helped focus your team, it's helped
+put these these qualities and these processes in place. I'm curious, is there anything
+from your past that you intentionally did not bring in? Is there something like you had
+to unlearn, you know, a potential habit that you just couldn't bring into this
+particular environment or system or processes? I was a tank chief in the Swedish army.
+Okay, now I have many questions. >> [laughter] >> Second lieutenant through the like the
+compulsory service. So, so, yeah, I don't think I'm a tank commander. It's a light
+infantry tank, so it's a tiny tank. Uh but yeah, I I to some extent, it's still it's
+still the same mindset, but I'm like not stepping down from the command's
+
+[00:22:11]
+position a little bit. Um the Swedish army is very tiny. Um and back then we were we
+were being ready for for trouble with Russia, and now they're gearing up again. Uh but
+with a tiny army that you have to have independent thinkers because you can't have like
+the big like US uh forces type mindset. You You have to like operate independently in
+small pockets and so on. Uh and so, like they they really raised independent thinkers.
+And while you're following orders, you have to navigate a lot of unknowns yourself. Um
+and so, that uh I think to some extent, that mindset like really resonated with me. I
+don't think it they they taught me anything new there. Uh but I think certainly take it
+with me to some extent, but without being the the commanding officer. Um then again, you
+should talk to my managers. Maybe they they disagree about that. Back to Onfleet and
+specifically, what
+
+[00:23:14]
+uh in in in the realm of what you all do, and I know that there's a whole spectrum of
+things that that uh the service offers, but what would you say since you've stepped in
+in particular has been like the most difficult or challenging problem to solve from the
+platform or software perspective, outside of dealing with with individuals and people,
+which I know is a whole other realm? Yeah, on Yeah, and that's a huge part of it, for
+sure. Our infrastructure was really like in in the bad legacy area. We were really
+really inefficient in in just deploying things. I think they deployed like once a week
+before. And and with each deployment then comes a lot of risk. And so, really speeding
+that up to having deployments at least once per day, maybe more, I think that that was
+like a huge challenge that that that had been in on the works for many years, but but we
+actually moved very quick on that when I joined. Outside of that, I think that that kind
+of like a natural growing pains for
+
+[00:24:17]
+Onfleet for all startup companies is a scale. Uh like we like you know, you don't
+prepare for the big enterprise customers when you're when you're tiny. You don't have
+the scale for it. But then once like now we have customers who delivers in the hundreds
+of thousands. And so, but we still have many companies that are much much smaller. Maybe
+they deliver a thousand deliveries per day. And so, like cater to that range, like don't
+abandon your base, but like let make sure that they're happy. Our like biggest, largest
+customers. That is still like an ongoing journey for us. And I think we're getting much
+better at it, but definitely been been some areas where like, "Oh, yeah, we need to
+really dig into how how we can scale up and do it more efficiently." And so, on on the
+human side of things, you're obviously dealing with, you know, customers, you people
+that you actually service, but you're also dealing with, I'm assuming, drivers,
+dispatchers, you know, the actual logistics and the
+
+[00:25:20]
+complexities that go into that that whole notion of the last mile, right? So, I'm I'm
+just curious, you know, as you're iterating, as you're improving the software, and as
+you're looking at ways to become more efficient, to be able to scale, um are are there
+groups within each of those drivers and dispatchers and customers that you really kind
+of focus on or key on? Do Do you have some like round tables where you're trying to
+gather information? Do you accept comments and feedback? You know, how How do you go
+about iterating and knowing what it is that you're putting out there is going to be
+useful to those groups of people that you service? That's great. I I really rely a lot
+of them on my my my product partner there, the CPO, um Andre here here at Onfleet for a
+lot of that. But yes, so we have we have we have frequent customer calls with them on
+various levels of the company also. And we really try to dig into getting getting both
+feedback as well as as well as pain points. Uh on our on our driver side and our mobile
+
+[00:26:24]
+team are like extremely laser-focused on feedback they're getting on their mobile app.
+Uh and if something seems off or people are are are you know, upset about something,
+often they reach out directly to the driver, even though we might have had we might
+have, you know, many many thousands of drivers. We don't get feedback from everyone. So,
+right now, like last time I checked, they still have a five-star for our mobile app, and
+it really it makes a big big impact. But yeah, like we have many many different tiers.
+So, we have all the way up for like the like company leadership, we have we have
+dispatchers really that are working day to day with our systems. Like you said, we have
+the drivers. Um And we have the end consumers. The end consumers, like you you get a
+text message say, "Hey, your driver's on the way. We estimate him to be be at your door
+in like 20 minutes." And like, do you have any instructions for them? Like like all that
+messaging and make it safe also for both parties. So, it's
+
+[00:27:28]
+like like you they can text each other afterwards. And so, like like that is very
+important for us as well. We want both the end consumer to have a good experience,
+absolutely the drivers, and then from the dispatcher's point of view, like and about the
+dispatcher, too, like how do we group shipments together? You have pick up at hub. You
+have maybe secondary hub on on on the way when you want to do a bulk load. Um and then
+like how do we get an analytics about this? Like like like we want to know that the the
+routing we're doing is is optimized and the best. We want to know if there are problems
+with some drivers, for example. Like that that type of analytics are is like absolutely
+key for many of these these companies that are without Onfleet or similar software, they
+they would be flying blind. In the course of your career and and certainly in your
+leadership leadership position now, like what hard one less hard one lessons do you have
+in terms of putting a great team around you and selecting people you want to work with
+
+[00:28:29]
+and just kind of building a team and a culture around you so you can actually do great
+things? Sorry, about like what what lessons I have? Yeah, what what can you share with
+our listeners about making their team better and selecting the right people to to join
+them? I read a book good book a while ago that really resonated with me, and and I think
+it it it didn't really change anything. I was operating that way. I think I have it
+right here, actually, behind me. Uh Yeah, by by David Marquet. Turn the ship around.
+He's a submarine commander, slightly bigger than a than a tank. But really like like
+having a philosophy where you you you create independence but within within the uh
+framework of responsibilities also. So, you do do follow up and so on. But you're you're
+really encouraging people to drive. So on. I think it's important to make sure you have
+a culture where you really fight against siloing knowledge siloing and so on. And and
+
+[00:29:34]
+that as a manager philosophy, you should try to strive to make yourself obsolete. Try to
+create like a team structure that can operate fairly independently after you. You don't
+want to be the try to be the smartest person in the room. Like you want that them to be
+the smartest person in the room. And so like having that philosophy mindset I think
+really is like top-down. Like you if you if you don't have that mindset yourself towards
+your your direct reports, then your managers, your directors, they're not going to have
+it towards that their groups and their teams and so on. So like really like influence
+that culture overall and like nurturing people to speak up and and to like disagree.
+Like we have a definitely like a disagree and commit mentality here at Onfleet. But like
+yeah, hiring is is important also Justin. Like you have to hire the right people with
+the right mindset
+
+[00:30:38]
+and so on and then some some skills, technical skills, those can be learned and I much
+more important that the the personality is the right one. It's not an official Onfleet
+policy, it's a personal policy of mine that that yeah, we're not hiring a-holes. That's
+just just not going to happen. Like if if if if if they fit with the team, if they can't
+collaborate well, then that's not the hire. And still like you know, we want people from
+different backgrounds and different different experiences at Onfleet for sure. But the
+skill to collaborate and work through problems together, that's super important. I'm
+sorry to hear that I'm not a good fit for the Onfleet team, but um I was waiting for it.
+I knew it was coming. I knew it was coming. >> [laughter] >> So I I love that and yeah,
+if I start getting really busy, that's who that's the biggest hiring signal that we have
+is like my yeah. If all this stuff is bubbling up to to
+
+[00:31:40]
+Aaron and to me, then it's like oh yeah, we have we have problems to solve down down the
+company. I think that's spot on. I love that. Thank you for sharing. Yeah, I'm and I'm
+in full agreement the culture is so critical. Uh you know, it's it's uh one thing to
+love what you do, but it's another thing entirely to love who you do it with. Uh and and
+so, you know, that's that's something I think is just the goal. I mean that's that's the
+mission, right? For for every business I think in in a general sense and I find it
+harder to do the larger the organization gets. Um but I I I think that if I were to work
+for a larger organization that would still be so critical in my mind. Oh, absolutely. So
+I've got another question I I wanted to back up to for just a second um cuz we talk we
+spent some time talking about the groups of people that you have to satisfy. I mean
+obviously the business itself, but also your your drivers and your customers and your
+dispatchers and and things like that. And then even in a more broad sense, you're you're
+just generally dealing with a lot of logistics. And I'm curious if in addition to
+applying you know, AI and the agentic approach to
+
+[00:32:43]
+your software development, have you applied it also to your process development and and
+how to maybe better handle or make more efficient all of those logistics? You mean the
+internal logistics? Like how R&D is running or what do you mean? Like the actual problem
+you're you're you're obviously dealing with, you know, a customer who needs to ship
+something, you are dealing with the the dispatcher who's going to be grouping that with
+other shipments, you're dealing with the driver who's going to be delivering that and
+then the ultimate consumer when they receive that and all of the different elements that
+go into that process that have to then be reflected in some way in your software for all
+of those different people to interact with it. So my my question is more have you
+applied AI to working through those sorts of logistics and those sorts of problems to
+then reflect the software? So analytics has really been a first-class citizen with
+Onfleet for a long time and and we we have that also action if machine learning, but
+more like the traditional machine learning rather than before
+
+[00:33:46]
+agentic models became like common. And and last year we we really started to dig into
+that as well. So we have a we have a whole team just focusing on making our analytics
+much more clear, but also making it customizable. And and so we I think last week they
+actually released a new model for that so that customers can can start making customized
+analytics and insights that are really important for them, which might be a little bit
+different from one company to another. So we do have a default set, but also that they
+can create their own like customizable analytics. And it's really about like like
+finding the insights and being able to drill into them. And that's something that, you
+know, we had the good set before. We're making it much more powerful now and we're going
+to continue to drive in in that area. It's so much to step into like a
+
+[00:34:50]
+company like Onfleet also has like an immense wealth of data. And so like really driving
+that part much much more for us like because we can I think we're really good right now
+with like routing prediction and and picking the the optimal route, but we can be much
+better in that that way as well. Like we have so much historical data around routes and
+and and and streets and and so on that we can really boost the the routing engines that
+we're already using with more insights like doing predictions even better. So it's like
+an immense area of of of vertical slices where for analytics that we can like spend a
+lot of time in and and and I'm really excited about our team and and the the work
+they're doing there. That's great. Yeah, and and last question for me and then I'll kick
+it over to Justin, but with that in mind, what is next? What's next for Onfleet? Where
+you going? What's on the road map?
+
+[00:35:53]
+I don't know what I can reveal. >> [laughter] >> I don't want to get you in trouble, but
+Yeah, I'm very very excited about about a new product like a market slice that we're
+really digging into. We have a few beta customers about it that's really going to open
+up things for for Onfleet in general and and also be able to to service our customers
+much better. We're still in beta mode though, so I think I'm not going to shout out what
+what it is. But but I I'm really really excited about it and it's been something that's
+been been brewing now for for three quarters of a year almost. Oh my gosh. Okay. Oh
+yeah, can't wait to can't wait to see that Justin. I'm going to give you the last
+question. What did what do we not ask you about that we should have? What what did we
+totally miss with the interview? No, there's there's such a big space to to to ask about
+the different different ways of driving things. Um Yeah, and I think you did a did a
+good
+
+[00:36:55]
+job. We could easily probably have a whole day of just talk about different topics like
+AB testing, demographics, actually like really digging into culture in general and and
+and how to establish that culture I think is huge as well as well. But yeah, like I
+think Um I think they they the they touched on many of these. Yeah, I'd love to get into
+culture too. We can talk about the the the military career at another time. I know my
+brain completely spiraled off for a second when you said that. Jo, thank you so much for
+for sharing your time and your insights. Really appreciate it. Oh, thanks for having me.
+Appreciate you inviting me. Absolutely. So we've been talking with Jo Hedstrom, CTO of
+Onfleet and unless I'm mistaken, our first ever tank commander. Also probably our first
+Swedish-American, so I think that is also true. Jo, where and how are the best ways for
+people to reach you if they need to? LinkedIn. I think I think that's easily enough. But
+don't just do a
+
+[00:37:58]
+connection request because that will be rejected. You have to send you have to send me a
+message. I'm also doing a bunch of open source stuff. I released the agentic framework
+called Quest and I'm doing some other small open source stuff I think as well. So um
+through LinkedIn you can find some stuff that I'm doing there and you can always you can
+always if I'm giving you the silent treatment on LinkedIn, you can always put in an
+issue in one of my open source repo say hey buddy, I want to connect. Careful what you
+ask for. Yeah, who knows. >> [laughter] >> All right. Justin, my friend, thank you as
+always. Always a pleasure Aaron. Indeed. And a special thanks to our listeners. If you
+like what you're hearing, have ideas for the show or just want to tell us what's on your
+mind, hit that like button, throw a review our way, subscribe if you are so inclined and
+we've also got some some lovely forms to be filling out for for comments and ideas as
+well. Otherwise, we will see you all next time on SaaS That App. Thanks for cruising
+along with us on
+
+[00:39:01]
+SaaS That App. We hope you grabbed some insights that were inspiring, actionable, or at
+least entertaining. If you enjoyed the show, don't forget to subscribe and leave a
+review. Until next time, keep building, keep growing, and keep those apps SaaS-y.

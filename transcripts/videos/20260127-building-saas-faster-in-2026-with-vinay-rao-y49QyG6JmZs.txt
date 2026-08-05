@@ -1,0 +1,590 @@
+Building SaaS Faster in 2026 with Vinay Rao
+===========================================
+
+Video ID:  y49QyG6JmZs
+URL:       https://www.youtube.com/watch?v=y49QyG6JmZs
+Published: 2026-01-27
+Duration:  00:40:29
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Building something 0ero to one is is so much more faster and enjoyable because you get
+to quickly build it, experience it, and then go back on this doesn't look right. Let me
+go back. I think go back and rebuild it. And that sense of I put in my heart and soul
+for 2 months and now we have to reject it. That doesn't quite exist. So as a builder,
+it's so much more fun. anything between two hours and two days and you can build like a
+whole feature out and play around with it for a few days and yeah put it away if it
+doesn't look that great. Welcome to SAS that app building B2B web applications the
+podcast where we share real world stories practical advice and tech insights for those
+building or thinking about starting a tech enabled business. I am your co-host Aaron
+Marchbanks >> and I'm Justin Edwards. Each week, we bring you the stories, strategies,
+and insights you need to build your SAS or tech enabled business smarter, not harder.
+Let's dive right in. Hello everyone and welcome back to SAS
+
+[00:01:08]
+that app. We're in 2026. Justin, how did that happen? >> [laughter] >> Doesn't that
+sound like some like mystical magical faraway date from like a 1980s sci-fi? >> It does.
+I think we're past all of the good ones now, though. I think we're past the Back to the
+Future jump, you know? It Yeah. Yeah. We're We're starting to edge toward the alien ones
+now. I think. >> Yeah. It's uh it's absurd and unbelievable. And I'm like simultaneously
+like very upset by all the cool stuff that I'm supposed to have and don't and just
+terrified of the stuff that actually does exist. It's it's bamboozling. >> So much of
+that. back in our main seats here. We we uh kind of kick things off with some
+predictions and things like that in a previous episode. So, uh we'll we'll see how we're
+doing in 2026 come 2027. But uh in terms of interview, uh today we are joined by Venet
+Ralph who is co-founder and CTO of Elvin among other things uh which is an AI powered
+super app focused on reducing mental noise through calmer more intuitive software
+experiences. Venet is a technical leader with a background in building scalable
+
+[00:02:11]
+infrastructure, cloudnative systems, real-time platforms at companies like Prove and
+Yahoo and Smart Things. Uh, and we're going to get into all kinds of fun stuff with him.
+Venet, welcome to the pod. >> Yeah, thank you so much. >> So glad to have you here. So,
+always my first question and uh we talked a little bit a little bit about this on the
+pre-call, but I'm always interested in how people got to where they are. So, tell me a
+little bit about your technical journey. Uh, how did how did you get started and how did
+you get end up here? >> Yeah. Uh for me it is uh graduated out of uh North Carolina
+State and moved to Silicon Valley to join Yahoo back in 2013. Uh and I've been here
+since then. Uh got to work at some amazing things back then. Uh there was a small window
+there where it looked like Yahoo would compete with Google again. So I ended up working
+on systems like um the Yahoo cards which were supposed to be these what's in your email.
+You would get the right kind of cards. that kind of set me up in terms of where things
+would be going. I think with AI that's now the norm, but this was in 2014. Uh uh from
+there uh won one of the hackathons and
+
+[00:03:14]
+took the money to get smart things in my home to tinker around with home IoT and then
+when smart things got acquired and moved to uh Silicon Valley, I joined them was there
+for seven years but worked on a new project or a new initiative for every single year I
+was there. So that kept it fun and then moved to my startup journey about three and a
+half years ago. Uh experimented on doing something on my own working at like a YC back
+startup and then finally joining PUR where I worked for about 2 years. Uh moved up to
+CTO there and uh the CPO there uh Ellie Powers. Uh she and I think quit a few months ago
+and then decided that we we should uh start Elvin together. So that that's kind of where
+Elvin started just about a month and a half or so where we uh kind of set up the
+company, incorporated it, and at this point, yeah, just building the initial prototype
+and the fun early 0 to1 experience is is is where we are right now.
+
+[00:04:15]
+>> Yeah. So you're just you're just in the throws of all the fun at the beginning. >>
+Yes. Yeah. Uh it's it's exciting especially right now whereas building something 0ero to
+one is is so much more faster and enjoyable because you get to quickly build it
+experience it and then go back on this doesn't look right let me go back I think go back
+and rebuild it and that sense of I put in my heart and soul for 2 months and now we have
+to reject it that doesn't quite exist so as a builder it's so much more fun where
+anything between 2 hours and 2 days and you can build like a whole feature out and uh
+play around with it for a few days and yeah, put it away if it doesn't look uh that
+great. >> So, tell me how that's going for you. I mean, what are what are you using to
+get things up quickly? Are you are you using some AI to to help scaffold things? Are you
+are you pulling from past projects? Tell me a little bit about about what this early
+building looks like. >> Uh it's it's it's definitely uh the the AI thing is uh for me it
+is across the board. uh for as far as the core building is concerned that is a cursor
+but cursor in the the build plus uh the
+
+[00:05:21]
+plan plus build mode I think that's been super helpful. I've tried the test mode a
+little bit. Uh but for the most part it's the the plan mode trying to figure out if the
+plan looks right and then going ahead and building it. Uh uh few key things have really
+changed my workflow. One is uh just playing around with Devon where for some of the
+smaller uh bugs especially the visual bugs like this looks wrong like or the text is
+overflowing here I don't have time to even go into cursor and fix it I'm just going to
+assign the linear ticket to Devon uh and the other key thing that's changed the workflow
+in the last month month and a half has been uh uh two services I've played with I've
+gone with code ant but code rabbit and code ant which is this code review bot that goes
+ahead and actually does a really good job of catching everything from critical errors to
+minor nitpicks and it'll classify it as such so that you can review it and the workflow
+right now is I can have AI build something have this other system go ahead and review it
+as I then go and do my one pass review on
+
+[00:06:25]
+does the code look right does the function the functionality work as expected that's for
+me personally has been a huge game changer like a lot of my friends and uh uh family is
+all is all in engineering. So the last month has been every time I've met someone's like
+have you heard of code rabbit and code ant like I'm I'm the kind of person if I really
+like something I try to tell everyone about it. The last six weeks has been about these
+systems that have really changed the the pace at which I've been moving forward uh
+especially building in this early phase. >> Have you uh played around with Claude as
+well as Devon? I haven't played with Devon yet, but I have been really impressed with
+what Claude is doing right now. >> Right, I've played around with Claude code a little
+bit. For the most part, I've been using Claude within cursor, like the plan mode and all
+of those things. The best example I have is just from 2 days ago. Uh once in a while I
+switched the AI in cursor to something else. Uh I think there was a time where it was uh
+GPT4 I think where it was free for a while. So I had switched over and
+
+[00:07:28]
+then Gemini 3 became good. So I had switched over to that and that day I spent like 15
+minutes just going in circles trying to debug an issue and gave it to Claude and it one
+shot just fix it and I was like Gemini 3 was at it. I was at it for I think right now
+it's like the patience is 10 to 15 minutes and then you're like nope this AI is not good
+enough. I'm moving over. Uh and I saw Claude uh code do that. The the only caveat I
+would bring up is I switched it and cursed in remembers that and so all uh future
+queries kept going to claude um 4.5 and then I think uh I have long coding sessions. So
+sometimes I'll sit between 9:00 p.m. and go up till like 2:00 a.m. or something and I
+get an alert at 1:30 saying you've breached through your $20 credits and your $40 extra
+spend. And like how did I was under the limit. I was supposed to hit the 25 or something
+by the end of the month and I go in and like sure enough the the the fact that I went to
+
+[00:08:32]
+Claude meant that I was spending a lot more per query but at some point especially when
+uh when you have some amount of funding whether that's angel funding or something else
+where you look at the speed that you can move at it makes no sense to me like no I'll
+try to save a few pennies here or a few dollars here and I think that's been the biggest
+learning in terms of especially when you're building this early uh some of these systems
+uh I just met the the team at code and just trying to get a sense of they've got other
+products that is like trying to find dead code and other entire code base other than
+just code review and one of the things I brought up with them is their plan is like $25
+a month or something and I told them I would genuinely pay $100 a month for this service
+because this makes sense for me for the pace that I'm moving at if it's constantly
+catching my uh pull request and it's uh it's causing the bugs to not end up in even
+testing phase. That's a huge win for me because it just saves me time in terms of the
+
+[00:09:33]
+speed I can go at. And so those are things that I've I've like realized. I've not played
+around with cloud code as much as I want to just because the current workflow with like
+I think Coro Devon and like looking up stuff on perplexity just so that you have a good
+sense of how things are built. uh one of the things we've been trying to build at Elwin
+is the idea of a agent marketplace. So as part of that trying to build computer use uh
+models and real-time search models uh powered by like sonar and perplexity that's been a
+fun experience just trying to see what these agents are capable of and where they fall
+short. That also then comes up in the building side of things in terms of how quickly I
+can build these systems. Real quick, this episode is brought to you by Delta Systems,
+which is what Aaron and I do when we're not talking through microphones to you, the
+people of the internet. We've got a really, really great software team here and we love
+to work with cool people on cool projects. So, if that sounds like you and you've got a
+problem or you're in some kind of a jam, go to deltasystems.com, grab a time with us. We
+can beat up on your problem together and if there's a fit there, amazing. We'll help you
+out. So,
+
+[00:10:36]
+deltasystems.com, grab an appointment, and hey, maybe we can work together. Yeah, you
+mentioned like 15 different AIs in the span of that answer, which is which is awesome
+and that's what that's a lot of what our job is anymore is is coordinating these things
+and working with them. So, I think it makes a ton of sense. Um, so just to um expand a
+little bit or just kind of highlight some of the things you said. So, you're working
+with these code tools to do planning and and design for application features, working
+with them to implement the application features, having different tools review, vet the
+code, and elevate things to you that you need to review personally on top of your own
+review. So you're having AIS write the code, AIS help you plan, you're confirming and
+directing them through that. Then you're sending it to another service which is then
+validating and reviewing their work and elevating things to you again uh for that. So
+the piece we're missing and it's one thing that Claude is trying to launch right now is
+the browser testing where there's a cloud browser extension. And so not only is it going
+to do the writing, but then claude is going to have its cloud code and browser extension
+work together. So it's actually doing manual QA using the browser.
+
+[00:11:37]
+>> Not not yet. I think the the for for me the the idea of it opening up the thing and
+like going through a feature set uh I've seen some aspect of it where the tickets that I
+assigned to Devon it will actually uh include a screenshot of hey I opened up the app in
+local host and the fix was the text overflowing I fixed it here's a screenshot of that
+for me is like oh it did open something up behind the scenes uh it does act like a
+junior developer in all in every sense of the way where the expectation is do not give
+it overly complicated or ambiguous projects but it'll go do the work attach screenshots
+on I got this thing done it's also a junior developer the way I was which is very eager
+on slack on I got this done it's now ready for review so it does that aspect too uh yeah
+and so uh and then if you don't respond for 10 minutes like I've gone to sleep or I woke
+woken up again. I'm looking at the code review comments. Um, but I've seen
+
+[00:12:41]
+that aspect on what it can do when it goes tests the thing especially in a browser view
+and then replies back saying that this this looks good now. I've been able to test this.
+This is ready for review. Uh, and then I pass it along to code ant and that will go do
+the review. It will look through the comments, fix all the stuff and then I have
+something that's ready to merge. >> I love that. Super super cool. Well, and yeah, I
+love the uh the notes about junior AI and not giving ambiguous tasks and that that stuff
+all makes a ton of sense. Um, in the uh cate I know you're working with with cursor and
+uh Devon Ola, but like in the categories of like prompting, do you have any actionable
+tips for for doing better prompting? I do a lot of having one AI write a prompt for a
+different AI. It's we've seen that for uh one of the things we've been trying to do is
+make easy to build AI agents on our own platform and that's one of the things we've been
+trying to figure out and a key part of that is we just decided that our users shouldn't
+be able to like or don't need to write a full prompt but rather give the thing on I need
+to achieve this thing in one or
+
+[00:13:45]
+two sentences and the key workflow there is Gemini goes and writes the prompt for you
+and It injects two key things into the prompt. One is the user context, which is if the
+promp if the agent needs to go look up something based on your uh region or your city,
+it pulls that automatically from the profile even if the user forgot to include that.
+And the other key thing that we've been injecting into the prompt is we know how our
+backend works and what the front end is going to then showcase that JSON response as.
+And so the whole thing of prompting the agent to say, hey, when you give me a response
+back, it needs to be a JSON and it needs to be this schema. The user doesn't need to
+know that. But a key part there is that um the prompt itself that we end up eventually
+sending out that has all of those information. I think that's the way I've kept my own
+workflow too, which is kind of writing the prompts that way so that a lot more
+information gets added. And this was about 6 months ago or something. I started using
+super
+
+[00:14:47]
+whisper uh just because I realized I can talk a lot more. I love talking more that I end
+up kind of trans because there's a layer of filtering that happens between when you talk
+versus when you type. Uh but AI systems work better when you give it just more context.
+So in cursor or claw or pretty much anything that I use, I'll try to use super whisper a
+lot. like I'll try to talk through my whatever I'm thinking like just brain dump that
+way rather than trying to type it out and that ends up giving a lot more context to the
+prompt than one line of I need you to do this. So that that's like a key workflow change
+I think I probably done in the last couple of months. >> This is Whisper Flow you're
+working with for for that. >> Uh Super Whisper I think is is the app. I know Whisper
+Flow is the is the other one that I haven't tried yet, but uh Super Whisper has a local
+model so that you don't have to pay for subscription if you don't want to, which is
+pretty decent. I've tried both the cloud model as well as the local model. I think at
+some point I might try the pro version, but even the the free version is really
+
+[00:15:50]
+really >> I've been very curious to try Whisper Flow for all the reasons that you said
+and they don't support uh Android or Linux. So, it's pretty much a a non-starter for me
+because that's the two that's what I use. So, uh I'll check out Super Whisper if they're
+a little bit more uh developer friendly for for us weird privacy security people. Uh
+they they'll win my business. So, that's that's super awesome. >> So, yeah. >> Can you
+tell me a little bit more about about like Elvin, what happens post sign up? What
+problem are you solving? Like what's your I'm super curious to know what this what this
+is as much as I'd love to talk about AI tech all day. >> Yeah. [laughter] >> Yeah. For
+for us, one of the key uh reasons uh Ellie and I decided to kind of build this was we
+still see a lot of the AI systems as prompt first. Like a good example of that is uh
+Claude. Like Claude could go be this powerful AI system that could look up your
+calendar, your Gmail. It could you could connect all of these things to it and then the
+next thing that it does or some of the other
+
+[00:16:54]
+systems do is just tell me just prompt me and I can solve everything for you like I have
+all the context just prompt me and I think the thing that we realize especially when you
+look at beyond the core uh AI enthusiasts who like I'm going to like not just do a
+better prompt I'll like uh prompt hack or look up what are the latest prompt on X or or
+on other uh surfaces and try them. For a lot of the other people, the expectation is
+what can AI do for me without me having to think about it. And that's where I think the
+system that we've been trying to build is not something that is prompt first, but rather
+that it goes figures out from your emails, from your reminders, and other things, what
+are your key tasks, showcases them, and then behind the scenes figures out if there are
+some of these tasks that we can just run an AI agent on, whether that is looking up
+information and all of those things. So when you open the app in the morning, it's not
+saying, "I'm ready for you. I've ingested your emails. Tell me what you want me to do."
+But rather, I've ingested your emails. Here are some
+
+[00:17:56]
+top emails, and based on that, I've looked up these information. This might be helpful
+for these tasks. I think that's the approach we've been taking. And the I think the goal
+over time is trying to build this agent marketplace. uh my background trying to work uh
+with Smart Things Schema uh at at uh Smart Things Samsung was trying to work with B2B
+and with product and business trying to figure out how to build this this system that
+would enable developers to come build this and my co-founder Ellie she was at Google
+where she uh was in the early days of Google Play that marketplace is huge and then was
+at Slack um building its productivity the uh developer platforms there. So I think for
+us we felt like we had the right background and the right interest to kind of build that
+for the AI agent marketplace but rather than saying here's a system have developers come
+build it we feel like the real users who have the real pain points they would be the
+best ones to build it or we auto build it for them and that is one way of getting away
+from prompts. One uh funny
+
+[00:19:02]
+anecdote that I've heard is the idea that we still prompt is the equivalent of CLI. Like
+you're still typing into a CLI, right? And you don't have interfaces where you can click
+or tap on the app. And I think that's how we had that change with Uber and all the other
+apps where you just tap on it. You don't you don't have to type into CLI the whole
+here's my geol location, here's the service I want you to uh send, and here's the JSON
+of the uh of of the uh user profile. I think that's the change that we want to see and I
+think that's where the industry is definitely going. Uh and that's that's what Elvin is
+is supposed to be and we that's that's what we're building right now. We've been daily
+using it between the two of us and the goal right now is as as the wait list has been
+growing for us to launch the alpha in the next couple of weeks. >> So you mentioned that
+it that it currently at least Elvin in its implementation so far is connecting to like
+email or or calendar. So you've got some endpoints obviously some things that you're
+you're approving connection with. Are there are there others that are that are already
+to go that you're
+
+[00:20:05]
+going to be integrating with? Is it is it a service that you're going to extend to other
+like direct messaging systems like Slack? Yeah, right now the uh the quickest uh thing I
+could build uh as part of the alpha as part of getting ready for the alpha was a share
+sheet where you could be in any app whether that is images, text or URL and just share
+it to Elvin and then it will get that whether that's a URL or uh the fun thing that uh I
+was building over the weekend was uh the meta uh rayband display and just telling AI to
+like hey take a picture and send it to Elvin and through WhatsApp or SMS like sends that
+picture over and then the AI on that we've built is trying to then make sense of this is
+not just an image the user sent it for a reason which is there's some kind of task here
+or there's something there let me analyze that and have that ready for the user so
+that's kind of how we've been seeing it so right now the the the direct integration is
+like uh mail and calendar apple reminders and then for everything else we've been trying
+to figure out how do we add share sheets or some kind of
+
+[00:21:08]
+other integration so that we can share those things out. Um I think the other thing that
+has come up as we've spoken to our ICP is the sense of AI generation has become so much
+more easier whether that's image generation or marketing generation that the expectation
+that you will ever be on top of your email like the inbox zero dream is almost over
+without again getting AI's help to reach that state. So I think that's that's one of the
+key things on or I can never keep up on task right. So I think those are the key things
+where we feel like we we would have a big impact especially when the thing in the
+morning is prompt me like that's not the expectation. The expectation is we took a shot
+at it. These are the key things. Here's the rest of the stuff for you to review if you
+wanted to. But we've already reviewed here are some high priority, medium priority stuff
+and then trying to figure out what to do with the low priority thing whether that is a
+quick summarization or a podcast or whatever that is so that you can quickly listen to
+it uh and be done with it because otherwise just keeping up just going
+
+[00:22:13]
+through the amount of content that is in your in your multiple inboxes that you have
+today is is is just not feasible moving forward. I think just because of the ease at
+which generation is possible, you're just getting more and more targeted marketing
+messages that feel like this is something I need to read only for it to be like I
+shouldn't have spent 5 minutes on this. >> Yeah. So, so the mission then is just to take
+that extra step and instead of presenting you in the morning with I am ready task me or
+ask me uh it is just simply now taking that extra step of here's what your day looks
+like or or or your week or your month or whatever it might happen to be. Is it is it uh
+in the in the plans to be educable? Uh you know can you can you train it in such a way
+as to say okay you you keep putting this in a high priority bucket and it is actually is
+not a high priority bucket or or what have you. Yeah, I think for us the the key part
+here is and we've seen that today where as Claude and Gemini has gotten better, a lot of
+people have said I still can't move over
+
+[00:23:16]
+from chat GPT because it knows me and the user context on it being able to get that
+right. I think that's that's turning out to be a bit of a mode, right? Unless chat GBD
+says you can like export this out to Claude, which I don't see why they would. uh people
+have been trying to figure out again interesting prompts to get that out so that they
+could give it to Claude. uh but but I think a key factor there is learning from the
+users as we especially as we're going through their emails and other tasks getting a
+sense of who they are so that as they're prioritizing things as they change the priority
+of of task keeping that in mind so that as we keep improving the the product for them it
+feels more personal which then kind of is the only mode in terms of they can't get up
+one day and just go to another task system or productivity system or agent marketplace
+because the expectation here is it kind of gets my priorities right versus there I would
+have to go teach it all over again. Nice. And then what's the vision for the
+
+[00:24:18]
+service offering? Is this something that's going to be I'm assuming of course a
+subscription base of some sort, but is it going to be a you know some sort of a throttle
+to mount? Is it going to be a monthly fee? Is it going to be a number of integration
+points? What's what is your model looking like? I think at this point we are looking at
+from a monthly subscription point of view the uh just just from the sense of you pay a
+certain amount and you get these things. Uh, one of the other things we've brought up is
+the idea of there being I think Kel and others have kind of proven this model of credits
+where you end up getting a number of credits and if you are a high uh usage user versus
+a low usage user uh what that looks like but I think in the early days what I loved
+about curs and some of the other systems was they just charged you $25 a month or $20 a
+month whatever that was and they ate the the the pain so that users didn't have to think
+about, oh, I shouldn't overuse it. I think especially in the early days, one of the
+things that I've learned from previous mistakes is you don't want to limit the users.
+
+[00:25:23]
+You want them to go do the things that they want to do so that you can learn early
+patterns in your system. And the last thing you want to do is oops, you ran out of
+credit. I I had that experience with I think Notion Mail when that came out and I was
+like cool, this is a cool product. I want to try it. And within the first 20 minutes as
+it went through a bunch of my emails of work emails it's like oh you've ran out of
+credits like we you need to upgrade to use this mode and I had not used it for more than
+20 minutes when it locked me out and I think that's one of the key things where we've
+been trying to figure out to charge a early flat fee especially in this day where there
+you're going to have alternatives right you're going to have systems that you're like oh
+this I can make do with that. So for us the initial plan is trying to figure out what
+that sweet spot is go from there and then over time figure out if that's a credit based
+system or some other alternative where uh especially for if it's home related task and
+we can have agents go or present systems like uh whether that's task rabbit or
+
+[00:26:27]
+something else like hey they can do that for you would they be paying for running that
+agent on your behalf because they also get something out of it. you've been trying to
+explore all of those those potentials for for our users. >> So, I'm I'm curious also and
+and this is I may be kind of jumping to the end a little bit, but how how is it that you
+plan to or are currently handling like privacy and security? [snorts] >> At this point,
+one of the key parts that we've been trying to figure out is making sure that there is
+an aspect of the mails that you're processing how that is encrypted and there's that's
+step one, right? like whether that you're building an IoT system or you're building
+something where at pro we were uh building uh at home hormone testing uh where our
+biggest worry was what would happen especially the the climate that we were in uh
+anything in women's health was being targeted. So kind of getting the security system
+audited there constantly and building a system where even if one system whether that was
+our odd zero system where we had all our user records versus our key database
+
+[00:27:31]
+none of it had user identifiable data. So making sure those kind of systems are built in
+a way where one system doesn't expose the whole thing. Uh I think that's one of the key
+things that we've decided uh we built it that way a couple of years ago when we did the
+women's health uh platform and we're kind of doing that similarly here where the
+expectation is we want to build it in a way where everything's encrypted. We want to
+make sure that users have full control. Uh one of the first things that I built uh at
+Yahoo one of the the reason I won that hackathon that I brought up was it was called adb
+block unblock. So back then adb block had just hit the market and as you can imagine
+that had an impact on Yahoo's core revenue which was ads. Uh I had built a system that
+would serve the ads to the image platform such that if you tried to block that ads all
+the images would go away which is what most systems then tried implementing. Uh but a
+key learning out of that was users don't mind ads. I think Facebook and Instagram have
+brought that up over and over
+
+[00:28:34]
+again. they mind bad ads and I think the same thing applies here. Uh the expectation is
+I want to have control over what the AI is seeing or what the ad systems are seeing
+about me and kind of building this user context that I was telling you about as we learn
+things about you especially through your emails making sure that if there is any uh
+financial information like your tax record your SSN those things are not passed or saved
+those are key things that we've built from day one making sure that the systems don't
+end up then saving that one of the things that happened yesterday, day before yesterday
+when I was using cloud and cursor was it ran my bashcript to upload my lambda zip and I
+was like how do you have access to that and part of it was you pasted in the credentials
+how did you get that like oh yeah part of your script is you can pull in the lambda
+credentials and I was able to pull that and see some of the information that's how I
+have that in my knowledge base that is if you've not prompted it or you it's not part of
+the code prompt to kind of protect that
+
+[00:29:38]
+user privacy on don't look at these things, don't run these things. That's where user
+run into trouble. And I think for us, that's one of the key things that we're building.
+Part of the the user context that we're building is to make it front and center so that
+users can see that and delete information or prompted to say never ever store this about
+me or the certain certain aspects of what they want to showcase versus not want to
+showcase. >> Yeah. the emerging area of privacy and security uh as it relates to AI and
+uh prompt injections and all these kinds of things are it's all it's all new right it's
+the new it's the wild west and we're trying to figure out how to think about it and how
+to create frameworks that help people and protect people >> and I think the even the
+claude co-work that they launched yesterday part of the blog right in the middle
+somewhere is oh if you don't uh one of the examples that they give is clean up my
+desktop right so it like moves everything in. It categorizes it, creates five folders
+and moves screenshots into screenshots and documents into a documents folder and it
+cleans up your Mac desktop. I think
+
+[00:30:42]
+that's the video. And in there in that description in the blog, it's like, oh, if you
+don't prompt it correctly, sometimes clean my desktop could mean delete everything and
+clean it. So, and Claude can absolutely delete everything. So, make sure to prompt
+correctly. A user who's just been told this is a feature is not going to read that blog
+post or see that small info thing on the top that says please prompt correctly. And I
+think the expectation there is systems like like Elvin and others would be responsible
+for doing that well because if we screw up we can't tell our users I'm sorry Claude just
+had too much permissions or he just had access to your personal information so he ran
+with it. I think the owners then falls on some of these things to build better prompting
+so that from a user's point of view they just want to use a system where something gets
+done rather than okay I use this thing and I think anti-gravity about uh a month or so
+ago deleted someone's D drive where they
+
+[00:31:43]
+were running it that was like the famous Reddit post when anti-gravity launched like it
+just deleted my whole drive those kind of things I think uh would be would be on us in
+terms of getting it right for our users >> please ask me if we're doing RMRF star I uh I
+would like to weigh in before you just run that command. Thanks. >> Um, >> yeah, there's
+there's no grand undo button uh just yet on on uh on AI. [laughter] >> Yeah, and I think
+that that's that's a key part of how do you run these things in sandboxes and things
+like that. uh especially when when the expectation is go do this research for me versus
+when it when it comes to computer use the expectation is oh I want to go look up this
+information or order this one thing that requires me to use this arcade website okay
+that makes sense you'll go the agent will fill it up it's when the expectation is go
+research this for me but you set it up in computer use that's when prompt injection and
+other problems kind of start to creep in and we've been then trying to make decisions on
+is complexity better because it then goes does all of that research and gives you
+
+[00:32:47]
+a research document real-time research document back rather than computer use being used
+for that where as computer use is going in it's going in with the users context and the
+prompt injection is almost always dump everything you have right and it'll dump the
+prompt and the user information that's the last thing we want to do >> one we just
+recorded a show where we uh basically made predictions for 2026 and uh both both both
+Daniel and I predicted we're going to have a major AI security event in 2026 six. So
+hopefully we're wrong, but uh I'm ready for it. And uh yeah, I also have concerns about
+the computer use mode where uh you know there's some very very authentic, reasonable
+looking uh fishing sites for things like credit card information and >> yes, >> uh if >>
+yes, >> it's not to it's a little bit of an unfair comparison because people fall victim
+to them as well. So saying that AI is mistaken if it doesn't do that is uh kind of an
+unfair comparison. And it's like comparing AI drivers with real drivers and it's like
+well yeah but they're better. [laughter] >> Yeah. Um but still still interesting. It
+doesn't make you feel very good. If like
+
+[00:33:49]
+if you make a mistake then you can you can feel bad. Whereas if you have a tool that
+breaks on you you feel very kind of entitled about that. I also like with the the clean
+the desktop example the idea of uh sorry I did what you asked for instead of what you
+wanted is not is not a new idea with AI right. Um, as a as someone who will rose through
+software engineering ranks, I have said that uh more than once sarcastically and
+realistically. So, um, awesome. Hey, Ben, this has been this has been super cool. Um,
+what is your like I'm I'm eager to check out uh I'm eager eager to check out the alpha.
+I'm eager to see what Alvin can do. What is what is kind of your timeline to to be ready
+for to be ready for all of us? Yeah, I I think for us right now, we would love for
+people to like go to Elvin, sign up for the weight list. Uh, and over the next couple of
+weeks, I think from from our point of view, it's either end of the month or something
+soon after is where we want to just get the earliest users in, whether that is five
+users, just to kind of get the
+
+[00:34:51]
+momentum going. And then as the from what we think where we've been daily driving it if
+we kind of see that same kind of momentum with the early users the 510 users then to
+kind of keep scaling it up and getting more users on boarded that's the current plan uh
+I think for one of the key things that I've noticed is how quickly things change every 6
+months and so the expectation >> yeah like the expectation is >> oh let me build this
+for like 6 months I'll get it right and Then 6 months later we launch it, we would be
+completely off in terms of what is required or what is expected at that point. So the
+expectation definitely is building this. One of the key things I actually didn't bring
+up is a key part of our workflow is like Figma make. We were using B 0. We moved over to
+Figma make and so my co-founder Ellie, she will go build the the code of the the design
+system and the front end and the product vision that she has in Figma make and I'll pull
+that in. And we've been kind of speedrunning on that. And so the idea right now is how
+quickly can
+
+[00:35:54]
+we take some of this showcase the core product to our early alpha users and then keep
+polishing it up as we go to more users. So that's the current plan where it has to be
+out in one or two months because anything beyond that and the landscape changes again,
+right? So I think that's that's the way we've been approaching this uh 0ero to one
+system. >> So when does that become more than what just you you two can do? Is that is
+that already on the horizon? Are you thinking there is no possible way I can keep up
+with this break neck pace right now? >> Yeah, I think at this point one of the things
+I've realized is uh there are systems there things that take up a lot of my time which
+is like setup. So I was trying to like set up the WhatsApp business paperworks as part
+of setting up the meta ray band. The API thing took legitimately less than 2 hours to
+build out, right? The whole other paperwork took me hours and hours. And I think other
+than that, especially when it comes to like working on the features and other things
+that our users are asking for, it's just a matter of how quickly can I get the prompt
+out and go through the review and get it out.
+
+[00:36:56]
+That's the the the bottleneck at this point to be honest where the expectation is just I
+just want to quickly prioritize. I think the thing that we do is we are both based here
+in in Silicon Valley. as we meet every uh uh twice a week, the goal is just always
+prioritization. What do we prioritize now? Because we can get through everything. The
+thing is based on what we prioritize, we get through all of those things because it's
+just a matter of how quickly we can build and that seems to just be multiplying. And I
+think the goal is as we do the alpha and raise more and get a small team the yeah the
+expectation absolutely is what we can we do with a small team quickly as we continue to
+scale this. >> I absolutely love this. I think this is what this is what bringing new
+products to to market is going to look like in 2026 and going forward. We're going to
+have two very talented people with all the right tools doing incredible things uh very
+quickly and that's going to scale across the entire entire society and we're going to
+see so much innovation come out of this. It's just awesome.
+
+[00:37:58]
+>> Thanks, Austin. >> Yeah. Yeah. No, thank thanks so much for uh coming on and sharing
+what you guys are doing. I mean, this is uh it's it's just incredible. It's it's
+outstanding. >> Yeah, Van, this has been just really great. >> Thanks, Adam. >> Well, um
+I think that brings us to a close, Justin, unless you got any closing thoughts. >> Send
+everyone to Let's send everyone to Elvin. We'll definitely put a link to you down below.
+>> Yeah, we try Elvin. Yeah. So hopefully yeah, you go there and sign up for the wait
+list. >> Awesome. Anywhere else you want to send people or is that the main place? >>
+That's the main place. Uh after you sign up for the weight list, uh if you're
+overloaded, uh we built a Tetris game that took us two hours to build. That is instead
+of the Tetris block, it is like a Slack emoji and Zoom and all of the things that take
+up your time. So that >> I was going to wait till we stopped recording, but I do have a
+bone to pick with you because I lost about 25 minutes of my day. Thanks for that. >>
+[laughter] >> The same thing happened to me when I built it, which is I spent half a day
+and then there was this one day where I
+
+[00:39:01]
+was playing it till 3:00 a.m. I was like, maybe maybe this is not something I want to do
+because the goal is to prove that you're overloaded and not have this take up your time.
+>> Fantastic. Well, we've been talking with Venet Ralph, uh, co-founder and CTO of
+Elvin, among other things. You can check that out and jump on the wait list at I believe
+it is tryelvin.com unless I am mistaken. Again, Venet, thank you so much. It's been a
+great conversation. Really appreciate your time and your and your insights. Uh and it
+actually just curtails very nicely into a lot of the predictions that we made which were
+surfaced around AI for 2026. So, it's a really great way to start the start the year, I
+think. >> Thanks, Adam and thanks Justin for this. >> Appreciate you, Rene. Super nice
+to meet >> Special thanks as always to our listeners. If you like what you're hearing,
+have ideas for the show, or just want to tell us what's on your mind, hit that like
+button, throw a review our way, or subscribe if you are so inclined, and continue to be
+on the lookout for some new and exciting ways that uh we're going to be able to interact
+directly with our listeners over the course of this year. For now, uh signing off, and
+we'll see you all next time on SAS that app. Thanks for cruising along with us on SAS
+that app.
+
+[00:40:04]
+We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

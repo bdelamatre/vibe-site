@@ -1,0 +1,59 @@
+Why Founders Keep Building: The Hard Truths & Big Wins
+======================================================
+
+Video ID:  kFYlqRcnSeQ
+URL:       https://www.youtube.com/watch?v=kFYlqRcnSeQ
+Published: 2025-11-27
+Duration:  00:03:04
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+We have guest after guest come on to this podcast and we talk about what are your tips
+for people who are getting into SAS early on and the first thing they say is don't do
+it. Absolutely don't get into it. It is horrible the sacrifice. I worked a thousand
+hours a day. I sacrificed my family. I'll never get the time back. >> Do they really
+brutal? >> Wow. Almost invariably. Almost invariably. >> I've been there done that. All
+these things are resonate. It's like I've never felt so seen as you're saying these
+things. But at the end of it, you will also ask them, "So, was it worth it?" And almost
+every one of them say, "Well, yeah, but it's because they're on the other side of this
+great idea, a great organization." >> If we had all the data on people who successfully
+startup companies, a couple things would be true. One is the overwhelming majority fail.
+If I could reach into the minds of the founders and potential founders in Arizona and
+just flip one bit, the one bit I would flip is go work at a company before you start a
+company. There's a common adage that cheap is expensive, which I believe in a big way. I
+think a lot of people think, oh great, we're going to do this entire thing in
+JavaScript. We're going to have
+
+[00:01:02]
+Angular and React and we're going to have Node on the back end and we'll do the whole
+thing top to bottom JavaScript. Then all we have to do is hire JavaScript developers and
+they're so cheap. What I like most about AI is it helps people do what they don't do
+very well much better. You're an expert in one thing or three things. AI lets you be
+kind of an expert in well at least good enough in a lot of areas that maybe aren't your
+strong suit. That's been the sweet spot of AI for me. >> AI [music] Ford starts with the
+mindset of the organization. Even before AI gets into the product, they are
+experimenting with the product already. But I don't necessarily think that's a first
+criteria. [music] It really is about the mindset of the organization. Usually I would
+say it probably [music] comes from leadership. So the CEO or someone in the sea suite
+making a statement that AI adoption within the organization, right? >> So I'm going to
+start that my next SAS app start drip and I'm going to be so good at it from the start.
+I'm going to hit product market fit on day one cuz I'm super smart. I know exactly what
+people need. And then launching it
+
+[00:02:04]
+plateauing and almost running out of money like almost having to fire three developers.
+And I kept saying like looking in the mirror like I thought you knew how to do this man
+like you've written two books on this topic. But it turns out even those who know how to
+do it, the second, third, fourth time is still quite hard. >> And if somebody's
+motivated and they want to figure something out, I mean, you can't stop them. You might
+be able to kill them, but you can't actually stop them, right? It's impossible. And just
+like if they're not motivated, it's almost impossible to motivate them. If you think
+about the extremes of this, it's just amazing what people can do with very limited
+resources if they're properly motivated versus the kind of resources that get squandered
+when they're not. Is there an additional hurdle that a founder entering a crowded space
+has to clear for you to be interested or is it a bit of a skepticism you have to kind of
+talk through as to why especially if it looks very similar to something else? >> If they
+can clearly articulate why their company should exist in a crowded market space then
+yeah if they can't then I don't know why we would be investing in the company.

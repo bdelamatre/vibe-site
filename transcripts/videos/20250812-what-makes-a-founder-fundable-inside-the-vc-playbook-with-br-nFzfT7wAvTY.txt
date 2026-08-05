@@ -1,0 +1,499 @@
+What Makes a Founder Fundable: Inside the VC Playbook with Brett Calhoun
+========================================================================
+
+Video ID:  nFzfT7wAvTY
+URL:       https://www.youtube.com/watch?v=nFzfT7wAvTY
+Published: 2025-08-12
+Duration:  00:32:05
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Raising money should be the easier part of building the company. And if it's really
+hard, it's because you're doing something wrong or you're horrible at selling the story.
+Good companies always raise money. Doesn't matter how bad the market is. There's always
+capital to deploy and good founders always going to raise money. And so, if you're
+positioning yourself in the right way, should be fairly straightforward. >> Welcome to
+SaaS That App, building B2B web applications. The podcast where we share real-world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech-enabled business. I'm your co-host, Aaron Marrsbanks. And I'm Justin
+Edwards. Each week we bring you the stories, strategies, and insights you need to build
+your SaaS or tech-enabled business smarter, not harder. Let's dive right in. Hello and
+welcome back to SaaS That App. Today we are happy to welcome to the show Brett Calhoun.
+Brett is an innovator in the world of venture capital, tech, and SaaS, and is a
+
+[00:01:02]
+champion for the startup ecosystem in the heartland. As co-founder and general partner
+of Redbud VC, he's been at the forefront of investing in early-stage tech companies
+across the US, but also in the heartland. Uh he is also the co-founder of Stealth, which
+is a game-changer in HOA technology, has contributed to multiple successful ventures in
+fintech and SaaS, including uh CapGains Inc. and The Junction. And his passion for
+empowering entrepreneurs in underserved regions and his hands-on approach to venture
+capital make him a unique tech world. So, Brett, welcome to the pod. Thanks for having
+me, guys. Really looking forward to the conversation. Absolutely. And with me as always,
+my co-pilot and world traveler who will be heading to somewhere in Central America next
+week, I think. Justin Edwards. South America, technically. Headed to Quito, so Ecuador
+is a lovely country. Quito is a beautiful city. Highly recommend it to everyone.
+Fantastic. Be uh looking for the pics and the news from there. All right. So, Brett,
+you've worn lot of hats. Venture partner, co-founder of multiple tech startups. So, just
+kind of right out of the shoot and looking back, what was the driving force behind your
+
+[00:02:05]
+transition between those two? Founder to venture capitalist and and back and forth a
+time or two now. >> Driving force was that I really enjoyed the investing side and
+supporting lots of entrepreneurs. And, you know, maybe the more stability around you
+have multiple companies doing well and multiple companies doing bad versus just one
+company doing really bad and they're really good. So, maybe just more for my mental
+capacity, but and also my my first entry point into this was actually working with a
+fund while I was in grad school at Mizzou. And so, got to support entrepreneurs in
+Missouri and had a chance to work with a portfolio company there. A great team to learn
+and work with. It's called Patient and they've been really successful now and then
+helped a friend start an angel investing group and um that led to me getting a role with
+a fund called the Legal Tech Fund and we incubated the company there called CapGains and
+had the opportunity to be the first person on that team and then ended up co-founding a
+lending startup and which was a good experience. Definitely
+
+[00:03:08]
+learned a ton about the lending industry and capital markets and you know, early days
+of, you know, building a company and what can go right, what can go wrong and
+opportunity came up to to join some some really successful entrepreneurs in building any
+uh incubator here. And so, I stepped into that role and through that kind of hustle and
+trying to figure out what we were doing, uh led to uh raising a venture fund and uh
+rebranded everything under Redbud VC and so, we've been building this over the last two-
+ish years and Can you tell us a little bit about uh kind of your policy or your kind of
+what kinds of companies are good fit for for you, the things you look for uh when you
+when you make an investment? Like, what is the what is the strategy? What is your
+overall approach? Yeah, so we're really in the talent sourcing business, to be honest.
+And 65% of our investments in this fund of 30 companies we've invested in, we're the
+first fund in these companies or or the first committed fund to these companies. We're
+looking to find people really
+
+[00:04:10]
+early at the inflection point or even tracking them through the inflection point of
+they've taken minimal resources in terms of capital or bootstrapped, nights and
+weekends, maybe you left your full-time job, depends on your life financial situation,
+but um have shown resiliency in that first 6 to 12 months of building the company where
+you aren't begging investors for money or trying to raise capital in order to I don't
+have your own conviction in your idea or for whatever reason you want to raise capital
+to start. We're looking for people who have resiliency and conviction in what they're
+doing and they've built that conviction rolling up their sleeves. And we're coming in at
+an entry point where they don't really need our money, they just want it to accelerate
+and we can come in and add value and help them raise the rest of the round and um really
+most of people we're investing in, it's sure we can help support those companies, but
+we're investing in good entrepreneurs who honestly, if we give them money and don't hear
+from them for 3 months, that's fine. And so that's that's a bit about what we're looking
+for in terms of the the people side. So being pretty involved in it in shaping a lot of
+that
+
+[00:05:13]
+ecosystem like in Missouri, in the Midwest in general, how would you how would you
+categorize or how do you think venture capital in the heartland differs from like major
+coastal cities or or you know anywhere along the coast or outside of the Midwest,
+especially when it comes to you know B2B web applications and some of the verticals that
+you mentioned, you know, how how do those things differ? I think most people would agree
+that generally speaking, people don't correlate Missouri with venture capital and that
+is a narrative that we're working on changing um because there There a ton of talent
+here. There's a lot of great operators and that is something special that Columbia has a
+lot of those people who built successful companies stayed here and a lot of that
+knowledge was retained. So, I don't really think like Missouri necessarily has a capital
+problem or that that's not a problem of like why there's not as much innovation. I think
+it's really unlocking that knowledge sharing and the network effects that people have
+here and creating denser ecosystems. So, yeah, I mean and those are a lot of
+
+[00:06:14]
+things it's and and that's partially why I mean we don't just invest the heartland and
+we look for opportunities everywhere and we want to create a competitive venture capital
+asset class in Missouri for a lot of the high net worth individuals or institutions who
+haven't uh been super expo- exposed that to that asset class because the returns are
+insane. If you do pre-seed investing right, you can't get those types of returns
+anywhere else unless it's your own you're putting your own blood, sweat, and tears into
+building your company. Yeah, you kind of answered but really what my next question was
+going to be which is, you know, once you funded these and and you know, they kind of get
+their legs underneath them, do you often see those organizations or those companies
+staying local or do you see them moving out somewhere else to other tech hubs around the
+country and and you kind of indicated that those tend to stay in the Midwest which is
+certainly a good thing for growing these ecosystems like you mentioned. Do you Do you
+think that that's Would you say that that's like the majority of them kind of stay where
+they are or stay regional? I think so. I think a majority of them do. Some companies
+certainly leave and could be dependent on your industry, you know, if you're trying to
+build a
+
+[00:07:17]
+consumer company like that seems like ultra hard to do in the middle of the country.
+Especially when there's denser populations on the coast and then a lot of obviously a
+lot of the innovation then makes its way to the to the Midwest. So, I think it really is
+industry dependent and then good founders and good entrepreneurs will always find a way
+to make it work and raise money and investors on the coast, you know, they're looking
+for deals to back. Some of them, sure, maybe they care that a company's in the Midwest
+or they don't think it's going to be a successful because of that, but not everybody. I
+think good investors don't care where you're based and you know, there's a a testament
+to that is like, you know, the the guys that started Zappier like EquipmentShare or
+whatever patients are good example. Columbia's probably considered like a a tier two
+town, not even a city. It's, you know, 130,000 people, so typical college town and if
+you can build a company here like that, then I mean, I don't see why you can't do that
+pretty much anywhere. Sure, yeah, yeah, I'm I'm liking where you're going with the the
+notion of these these ecosystems
+
+[00:08:20]
+and I'm I'm assuming that you have, you know, partners in this space. Um, you know,
+certainly University of Missouri, it's it's right there in the backyard. Other
+universities and colleges that are in Columbia because there are a number there,
+obviously, and then and then throughout the state, uh, there's also the ACE Student
+Venture Fund that that's kind of playing into growing this next generation of web
+developers. What What other types of partnerships do you employ or do you see uh, do you
+see working with going forward? Yeah, I mean, ACE is a great example. Um, I'm lucky to
+to still be here in Columbia and I can be the adjunct for that student-run fund, which
+is getting a lot of, you know, really high-caliber students, um, educated on what
+venture capital is from an a younger age and that so we pull in students from all
+different departments, not just business students. So, you get some unique perspective.
+And it's helpful for me to see what, you know, the younger generations, how they're
+thinking about things and what's interesting to them. Other partners are, you know, in
+Missouri, there's a
+
+[00:09:23]
+out-sized amount of generational companies or large legacy businesses and a very under-
+sized amount of venture capital companies. And so, how we've unlocked partnerships are
+through corporations that are interested in being customers of innovative companies. And
+so I we can leverage the you know, the very the the great talent we're sourcing all
+across the country and pair them with customers here. Because a lot of those uh
+customers aren't seeing a ton of innovation and like a lot of those companies in New
+York and SF and Miami or whatever take a while to start selling into the middle of the
+country. So we help diverse by that customer pipeline which is a you know, it's selling
+point for us of like somebody asked like why would somebody take your money out of
+Columbia, Missouri? Like how do you compete with other venture funds? And it's like,
+well we bring a different perspective being a Midwest investor. We have different
+values. We bring a different network that we can help uh diversify your customer
+pipeline. And then we have phenomenal operators on the team. And these are all reasons
+why funds or founders want to work with us. So that's
+
+[00:10:26]
+an example and then you know things like Missouri Startup Weekend have been great which
+is where that's like our build event. So we try to source talent all across the state
+and surrounding states. Um pair up entrepreneurs with engineers to launch companies. And
+so like this last year we had 50 engineers at the event and that you know, the the
+quality of the companies we had this year and then the amount of things that you can
+build in a weekend with all the latest advancements with AI tools um is quite
+incredible. I mean, we had 11 companies this year that first off, every single one of
+them could have won Startup Weekend the year prior. But every one of these it's almost
+like we had we've even joked about doing like an index fund because they're such good
+companies. Like there's good talent. Ideas are cheap and when people are, you know, have
+strong work ethics and in the middle of the country and um it's really just trying to
+help accelerate the education and knowledge around the steps to take from zero to one.
+Yeah, have you have you been a part of some of those
+
+[00:11:28]
+Startup Weekends uh even in some of the earlier days and you know, products of that uh
+you know, for listeners are things like Zapier and Equipment Share and and Brad, I know
+you guys have kind of rebranded that now bigger picture. So Missouri Startup Weekend. So
+tell me a little bit more about about that that Startup Weekend process and then you
+know, what are what are some of the big winners, you know, quote unquote winners that
+have come out of that just in the in the most recent years. I mean, you you mentioned
+the two in the in the earlier years Zapier and Equipment Share which are both you know,
+incredible companies multi-billion dollars now. The first year we took it over was So we
+took it over in 2021 but we did the Startup Weekend in 2022 and that was a company
+called Appreciate. It was a Mizzou student. He actually ended up dropping out of Mizzou
+to start the company and uh we supported him in the early days, funded a little bit and
+and helped him find a technical co-founder and that company's still growing and scaling
+and they're doing I'm they're a profitable company now. Uh it's it's doing quite well
+and then the next year we ran
+
+[00:12:29]
+uh this company called Liquid that came out. Local entrepreneur uh Crystal who had sold
+some hair salons and then she had idea for building an operating stack for hair salon
+owners who typically aren't great business operators. They learn how to do hair and so
+like um there's some gaps in the you know, how to continue growing your salon and then
+you know, eventually maybe even exiting it and so that company's still going. We
+supported her early on. She got into Techstars and um it's now you know, a revenue
+generating business and then the third year we did it there was the second place winner
+actually started their company and it was like the WeWork for music studios and then uh
+there that person actually the Kylie she interned for me for about 18 months and uh
+she's great. She's she's about to open up her second studio now and then this year was a
+company called Focus and it was two attorneys that I had met and they had a phenomenal
+idea that a lot of people in their industry were begging them to build. And so, before
+the weekend helped pair them with a potential technical co-founder, which
+
+[00:13:33]
+they're now a team, and that company I very excited about. We put an investment in them,
+and so, yeah, Startup Weekend has been great. So, you spoke a little bit earlier about
+kind of you really are It's about the people. We're about the the talent, the the folks
+you're putting on your team, and you had a lot of decisions about who to work with and
+what to fund. It sounds like based off of of who the people are. So, what are the kinds
+of things that you look for with a founder or someone you're looking to to work with or
+fund? Are they characteristics? Is it just track record? It sounds like you listed a lot
+of people with different levels of experience coming out of the uh on the Startup
+Weekend. Yeah, I mean, track record is Yeah, pedigree is a pretty easy data point. I
+think a lot of the folks that were supporting, we certainly have pedigree in the
+portfolio, but uh you know, a lot of people haven't quite had that pedigree. You know,
+maybe they didn't go to an Ivy League school or didn't work in big tech or haven't
+exited a company yet. And so, it's a little bit harder to underwrite that background.
+And so, like I had mentioned before, we're looking for resilience early on in building
+the company, and then,
+
+[00:14:35]
+you know, this isn't every company that we're in, but something that is important to us
+is somebody who has domain experience and has lived the problem they're trying to solve.
+And because of that, they've probably developed some unique insight or wedge into the
+market that unlocks a much bigger opportunity. And so, that That would be a trend in our
+portfolio is somebody with that background. And a lot often times, you know, say, for
+example, construction, if you spend, you know, one or two decades in that industry, you
+probably have no idea how to raise venture money or have never navigated the whole game
+of trying to, you know, create FOMO and whatever it is that you have to do to raise
+funding or, you know, hiring your first engineer and managing your first product and how
+to, you know, do customer discovery, like So, there there is a slight opportunity to to
+provide some support there, but those through trial and error a lot of times you'll see
+the ones who are resilient doesn't really matter. They'll, you know, break down brick
+walls and figure out how to how to build those companies. And then having technical
+skills on the team is obviously important. You know, we're not looking for
+
+[00:15:40]
+you know, someone who is necessarily hiring somebody else to build the product that
+they're building that they're supposed to be, you know, staying up late at night and or
+waking up early in the morning that they can't sleep to think about that they're
+paranoid and obsessed with. And so, we make sure that they have the right skill sets on
+the team. Technical skills, being able to articulate super well with hiring hiring
+talent, selling to selling to customers, or fundraising. So, that's a little bit of it.
+I mean, it's And we're, like I said, we're playing the power law. We're not investing in
+people who aren't doing this unless they're trying to create generational wealth. And
+you had to do some of this yourself with with like cap gains and and stealth and things
+like that. How was it a situation where you learned from those things and it has made
+you better at your work at VC or was it the other way around? I certainly think it has
+made understanding what it takes and and being able to have empathy for how hard some of
+those things are in the early days. Not having any money, high stress, you know, could
+create you butt
+
+[00:16:45]
+heads with a founder. Like, you know, there's there's like so many things at play that
+you have to understand when, you know, working with a team and then understanding where,
+you know, somebody's background. Like I, you know, I grew up in a small town of 10,000
+people and I had zero education on what venture was and where to go to college and all
+those things. And I think a lot of the founders we end up backing, you know, they didn't
+go to flashy schools. A lot of our immigrant founders or Midwestern plants into the
+coasts. So, they're they're are with very similar very similar backgrounds but I've
+always had you know a North Star of doing something big. So I I mean I think it's
+constant you know perspective changes and our pattern recognition changes and and what
+we look for and how we're learning from The only downside of venture is it takes you
+know 3 to 5 years to actually learn from something so but but certainly and it's been
+great too to just learn from osmosis with uh working over you know last 4 or 5 years
+with the
+
+[00:17:48]
+founders of EquipmentShare and you know their background's pretty crazy too they didn't
+go to high school or college and built a you know multi-billion dollar company and have
+hired probably 10,000 or more people at this point and so they have a very unique
+perspective on talent as well and so I think for us as like a fund manager we have the
+ability and the perspective to underwrite talent that might be a little harder for other
+investors to underwrite we're very focused on pedigree and you know people coming out of
+Stanford and Harvard and whatnot and we we invest in those people I'm not saying that's
+bad but I think there's opportunity too to invest in to get in early in opportunities
+that we can underwrite better than what might take somebody else a little bit longer to
+underwrite cuz on the coast you know trend is look for pedigree in the Midwest it's look
+for traction well what happens when you don't have pedigree or traction you know that's
+that's where we come in and and a lot of our opportunities look like that so Pivoting a
+little bit to the actual business idea or the opportunity what kind of filters do you
+have for
+
+[00:18:51]
+selecting something that you'd be interested in obviously if you're looking for a
+billion dollars then total addressable market is going to be a thing you look at are
+there other things that kind of in that in that vein? Yeah I mean market size is
+important I think it's not everything I mean there's a lot of you know if you look at
+like a Carta if you're familiar with Carta the cap table management company it's like
+early on if, you know, somebody was raising and they're like, "We're going to, you know,
+digitize cap tables and make them easy." It's like, "Well, how is that like a big
+company?" Well, look at Carta, they're a multi-billion dollar company. So, like part of
+it's the market size, but also being able to have an open mind about the founder's
+vision and like where the market could be going and what this could unlock. So, we
+certainly do spend a lot of time there and then we spend a lot of time talking to their
+customers, customers that potential customers that we know, and people from the
+industry. Honestly, like that is where 90% of our diligence is spent outside of just
+spending time with the people and trying to understand if they're the right founders
+that we want to back. Cuz most of the companies that we work with, it's not This is all
+very qualitative. There
+
+[00:19:55]
+is no revenue numbers. Um we've we've done some that are post-revenue, but I mean it's
+so early that it doesn't really matter. It's immaterial. Um so, that's where we mainly
+spend our time with. Looking more toward or what is becoming a part of your portfolio
+now, you you kind of mentioned these these trends and you know, you're kind of following
+these. They seem to be in kind of non-traditional sectors. You know, you you'd mentioned
+the the salon product. Certainly, Equipment Share back in its time was was a very non-
+traditional sector of, you know, a place to put software as a solution. What what other
+kinds of non-traditional sectors have popped up and and do you see even more continued
+growth opportunity there in that space? With all the generative AI stuff and the
+advancements with AI, there's a lot more ability to unlock opportunities in some of
+these like sleepy low-innovative spaces. Um so, think like pharmacy, for example, you
+have to have a very high level of accuracy in order to build a product that pharmacists
+can use.
+
+[00:20:58]
+And up until now, there hasn't been a ton of innovation um in that space. And we
+recently just backed a company there and, you know, they were able to move move quick
+and build a product that had very high accuracy, and a lot of the big conglomerates that
+work with pharmacists just they they couldn't do it internally. They didn't know how to
+do it. They couldn't build it. They couldn't get accuracy be past like 60%. Another good
+example would be, for example, like title insurance. Okay. So, document intelligence
+within that space, like you literally could not do that before like the last like 6
+months. You have, you know, over 3,000 counties with hundreds of years of history with
+all these pictures and horrible, you know, digitized formats that's been scanned into
+the the internet. Whereas now, you have the ability to not You don't have to OCR all the
+stuff and hire a, you know, an army of people in India to go label everything. It's like
+there's like BLM now, where you can convert the the PDFs to images and use computer
+computer vision to read the documents and then to communicate with the documents.
+
+[00:22:01]
+Like it That is where a lot of the stuff that we're looking for, it's like you couldn't
+have built this 2 years ago. And then, there's a whole data play that you're unlocking
+that no one's ever had before. So, that's where like the vertical stuff comes in, cuz
+like moats are pretty cheap now cuz the AI. So, like the the better distribution and
+access to data to keep doubling down on your product and make it really hard for
+somebody else to enter. We look for people in those spaces. Aside from these emerging
+trends, you know, this is obviously kind of a shift that's happening in the industry
+because of AI. I mean, it's the it's, you know, it's the new shiny toy, right? Everybody
+is talking about it. Everybody wants to have a piece of it. Not everybody understands
+it, uh you know, how it can be leveraged in their business or, uh you know, in their
+organization, let alone how to how to how to utilize it well enough to actually have it
+make a difference in in what it is that they're doing. But, you know, as as we see these
+emerging trends, what would you say that, you know, beyond just like immediate high
+growth, a quick turnaround on an idea, What what are investors looking for?
+
+[00:23:04]
+You know, just kind of beyond this you know, current emerging trends. Yeah, I mean,
+actually our best performing companies right now are not have any nothing to do with AI.
+We love fintech companies. >> surprised at that. Yeah, I mean, we love fintech like
+it's, you know, the opportunity to sell a commodity or do lending or whatever, but have
+access to a very unique distribution channel. Anything with that is very interesting
+where you can build a brand and so for example, like the closing cost company that I was
+a part of, you know, we were financing closing costs on VA mortgages and you know, still
+having a partner with like a Veterans United Home Loans that has a quarter of the market
+where they're sending us opportunities that we have a mega card on the back end and
+there's zero CAC on that opportunity. There was zero marketing, zero acquisition cost
+for the consumer. So like we love fintech opportunities like that. So we have a company
+that a lot of warranty space that is very B2B focused. So they sell to partners who
+resell their their warranty
+
+[00:24:07]
+product. And it drops the cost like they've had zero customer acquisition to date and
+have had really, really solid growth this year or like working capital financing like
+landing a partner like a you know, like a Home Depot or a Lowe's and they where they
+distribute your product where you're adding value to them so they wanted to distribute
+it, but you're actually getting paid to distribute it like so for somebody else to
+distribute a commodity for you like we love those kinds of businesses and there's still
+opportunities for that. You know, the multiples aren't going to be like as crazy high as
+like an AI company, but I think there's still there's so much value creation still in
+many industries like that and so we look for for those things. We do some deep tech
+stuff like we did one that is CRISPR gene editing with mosquitoes, which is really
+interesting. Um just to think about how much So, for example, like Miami-Dade County
+spends almost $40 million a year alone on mosquito prevention. And how the the problem
+with, you know, disease-carrying mosquitoes has gotten
+
+[00:25:10]
+worse and how chemicals are so bad for the environment and they kill other species.
+We're like, you know, team for us has developed a technology that basically replaces all
+that in a much cheaper way and tapers the population of the mosquitoes more efficiently.
+So, like, that's an interesting opportunity for us. We are not scientists, but like we
+had somebody help validate the technology, but like it literally just makes sense. It's
+like this is a no-brainer. Like, why would you not buy this? And we've gotten to some
+other some other opportunities, you know, through like our relationship with
+EquipmentShare and you know, if if they're interested in being a customer of a company
+and it's really early stage, like we're going to invest in that company. Like, they're
+doing something right. So, that's what Those are some of the things that we look for and
+yeah. So, for folks who are listening who are either uh co-founders or technical co-
+founders, uh maybe kicking around an idea, maybe starting a product, what uh what kind
+of words of wisdom or advice can you give them as if they're approaching, maybe looking
+to get to get some funding? Yeah, I mean, how to just be able to show that you have
+conviction in what
+
+[00:26:11]
+you're building and that you have a unique insight into a specific industry, you're
+thinking about the world differently than every other person trying to build whatever it
+is you're building because somebody's probably had the idea before you. And then I think
+I mean, it's just it's making sure that you're not out just begging for money. I don't
+think you're just like you're always like raising, you know what I mean? You're always
+networking and then when the opportunities come up, then it just kind of naturally
+happens. You don't want to be like, all right, on June 15th, I'm going to start
+fundraising. I think it's Yeah, you just really start networking and then you start, you
+know, updating investors over time and showing those results and then someone's going to
+be like, hey, uh will you take our money now? and sure. So that'd be my recommendation
+there. Yeah, raising money should be the easier part of building the company. And if
+it's really hard, it's because you're doing something wrong or you're horrible at
+selling the story. Good companies always raise money. Like it's doesn't matter how bad
+the market is. There's always capital to deploy. And good founders are always going to
+raise money. And so if you're positioning yourself in the right way, should be
+
+[00:27:15]
+fairly straightforward. Are there are there instances that you can recall where you've
+pushed back on a company that's come to you for funding? You know, maybe there's a
+couple of markers that we're looking for you haven't hit yet or this idea needs some
+work. You know, take it back and and and tinker with it for 6 months to a year. You
+know, what what do you say to to those folks who just aren't ready yet? For sure. I just
+had one I talked to this week and I said, you know, let's put a time on the calendar for
+4 weeks later and see where it's going. They had no idea what the long-term vision was.
+They built an interesting tool. They had some users, couple people paying them a little
+bit of money. But they didn't know what the business was in 5 years. And I'm like, well,
+you have to have conviction in like something or you're just aimlessly floating around
+when you have no milestone of like this is what we're like going for. And I don't know
+how I'm supposed to have conviction in a company when you don't have conviction in your
+long-term vision. So like that's an example or like you know, founders coming to me that
+are pre-revenue trying to raise $5 million on like, you know, some absurd valuation.
+It's like, why? Like why make it hard for somebody to invest in your
+
+[00:28:19]
+company? You know what I mean? Like if if you aren't raising money and you want to build
+the company, like why would you go out and try to make something so like so expensive
+where it's like how do I even make money? Like, you know what I mean? Where I'm
+questioning out the gate. And so I would never bring up valuations if I was a founder. I
+mean, I would say like you know, this is what we need to raise in order to fulfill these
+goals that we have for the company. And then the investor can kind of back into like,
+all right, well, typical, you know, rounds or you're selling, you know, 10 to 25% of the
+company, so the valuation is going to be somewhere around here if we raise this much
+money and so I would never I think that's a big mistake that founders make cuz they're
+like, we're raising at a 15 million valuation. And then you you get on the phone with
+the investor and you tell them that and they're like, well, that's too much for us, so
+we just don't want to talk to you anymore. That is just such a horrible mistake to make.
+So you touched on something I wanted to to ask a follow-up question. So you when you're
+going to fund something that you're looking to know how your capital's getting deployed,
+like the the person who is doing the raise, the founder needs to
+
+[00:29:21]
+have a plan for like, we need this much money because we have these goals and we want to
+deploy this money exactly this way to achieve this end. That's something that you're
+looking for them to come to you with? Yeah, I mean, for sure. I mean, it's I think you
+have an idea, you have some plan around it. I don't think you know, we're not going to
+go dig into somebody's financial model, but like I do think that you should build
+something out. Like you should be budgeting like, these are the expenses that I have and
+it's pretty straightforward. It's like, I need to hire these four people. We have AWS
+costs. Like you know what I mean? Like you need to know what it's going to cost you in
+order to hit that revenue milestone that you want to get to and then probably have a
+little bit of extra funding just in case, you know, something doesn't go right. That
+makes perfect sense. Like would you consider funding a project where someone's entering
+into a space that's already crowded, but they maybe have a unique perspective or a
+particular niche in that? So I'm thinking we we talked to a guy recently who did like,
+he's basically competing with Salesforce kind of, but he was this is a long time ago and
+his product worked on dial-up, which Salesforce didn't at the time. So he went after a a
+different kind of smaller segment of
+
+[00:30:22]
+the market. Are are those things that you're you're open to? Oh, yeah. I mean, 100%. Uh
+I mean we've probably got a few companies in those markets already. So Is there an
+additional hurdle that that a founder entering a crowded space has to has to clear for
+you to be interested or is it just a bit of a skepticism you have to be a of talk
+through as to why if especially if it looks very similar to something else. If they can
+clearly articulate why their company should exist in a in a crowded market space, then
+yeah. If they can't, then I don't know why we would be investing in the company. So.
+Yeah, well said. That makes sense to me. That's about as succinct as you can put it.
+Well, Brett, this has been really informative. Thank you so much for sharing your time
+and your talents with us. We have been talking with Brett Calhoun, co-founder and
+general partner of Redbud VC. Brett, where and how are the best ways for people to reach
+you? Uh you can email me at b@rb.vc or connect with me on LinkedIn or on X. I'm around.
+Do my best to respond. So. Awesome. Thanks so much for being here, Brett. Really
+appreciate it. Thanks for having
+
+[00:31:24]
+me, guys. This was fun. Special thanks as always to our listeners. If you like what
+you're hearing, have ideas for the show, or just want to tell us what's on your mind, uh
+throw a review our way. Hit subscribe if you are so inclined, and we will see you all
+next time on SaaS That App. Thanks for cruising along with us on SaaS That App. We hope
+you grabbed some insights that were inspiring, actionable, or at least entertaining. If
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

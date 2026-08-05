@@ -1,0 +1,484 @@
+Healthcare AI Is Failing And the Fix Isn't More Data
+====================================================
+
+Video ID:  9FfSPxR7M7U
+URL:       https://www.youtube.com/watch?v=9FfSPxR7M7U
+Published: 2026-05-26
+Duration:  00:29:50
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+If you're Netflix, if you're finding a documentary that no one knows about, right? It's
+on the fifth page, you complain, you shrug, you move on. But if you're in a self-driving
+car and your car cannot detect an out-of-distribution event, the consequences could be
+quite profound. Welcome to SAS. that. app, building B2B web applications, the podcast
+where we share real-world stories, practical advice, and tech insights for those
+building or thinking about starting a tech-enabled [music] business. I'm your co-host,
+Aaron Margbanks. And I'm Justin Edwards. Each week we bring you the stories, strategies,
+and insights you need to build your SaaS or tech-enabled business smarter, not harder.
+Let's dive right in. Hello and welcome back to everyone. It is SAS. that. app time. With
+me as always, in his appropriate, as always, shirt of the Dunning-Kruger Society, >>
+[laughter] >> is Justin Edwards. Justin, how are you doing, man? Oh man, I don't know.
+SAS. that. app time is fun, but SAS. that. nap time sounds pretty good, too. >> yes.
+It's midweek. It's after lunch. Our feelings like index crested 100 degrees today, so
+I'm now paying the piper for
+
+[00:01:03]
+the heat down here. Oh my gosh. Well, I will happily get to enjoy it with you sometime
+very soon. Yeah, excited to have you in the town. Yeah, it's going to be exciting. I'm
+glad to get down there. My girls are giving me grief cuz they're like, "Well, we're
+going to be at the pool." It's like, "Well, I'm going to be at the ocean, so there." My
+body of water is larger than yours. Your move. >> [laughter] >> Also joining us today,
+we are excited to welcome Dr. Abhishek Chaw. He is the co-founder and CEO of Elucid
+Data, which is a company focused on transforming life sciences R&D through AI-driven
+data platforms. Abhishek has over 20 years of experience at the intersection of life
+sciences, data science, machine learning, with a career that spans deep scientific
+research, drug discovery, and building technology to accelerate how breakthroughs reach
+patients. Today, Elucid Data is focused mainly on building high-quality AI solutions
+that are focused on out-of-distribution observations and small n. They have built a
+data-centric AI stack on their platform Poly, which we will definitely get into a little
+bit, that helps accelerate precision medicine. Dr. Shah, welcome to the show. How are
+you? Hey,
+
+[00:02:06]
+thanks. I am just in excited to be here with you guys on this podcast and thanks for
+sharing this platform with us to bring our story to the world. And if I may just say
+like I will deliver on the SAS that NAP promise. Outstanding. >> [laughter] >> I got one
+question right out the gate, which is can you tell us a little bit about Elucidata and
+what exactly it does and who your customers are? Yeah, I know, happy to. We founded this
+in 2015 around 10 years back now and what we do is we build AI solutions and our key
+thesis is that the bang for buck is by focusing on the data side. That's an under served
+market. People flex and talk a lot about models, companies, investors, media. There's a
+huge obsession about how many tokens you have in your parameter and that's important.
+That's definitely helpful, but I think an under served need is data that goes into this
+model, right? So, we call ourselves a data centric AI company and we have built such
+solutions and that stack for a very focused vertical, which is health care and life
+sciences. Mostly life science. So, our customers are large organizations like you may
+have heard of like the Pfizers of the
+
+[00:03:09]
+world and small biotechs in Cambridge, both new and old and South of Surf. That's the
+market that we serve. So, you spent obviously the early part of your career and
+certainly schooling, you know, being a scientist in a very broad sense. So, I'm curious
+what got you from being a scientist, being someone who's in the lab, being someone who
+works for that type of a company to being a founder for basically this industry that
+you're now getting into, which is very AI driven. Tell me about that jump. The short
+answer is my naivety and my curiosity. That's what got me here. I never thought I would
+be on this journey that I have been on. For most of my life, I wanted to be in academia
+and I trained for that. I spent first 30 years of my life to get there. At some point
+when I was at MIT I realized that's not going to happen in a time frame in a way that
+suits my life. There were a few other considerations, conference of personal things and
+professional things, which made me rethink my choices. And it was a great place to
+rethink because you know, you're right in Boston and a lot of high quality startups that
+are coming out
+
+[00:04:12]
+almost on a weekly monthly basis. This is like late 2000 odds and luckily enough as you
+would guess, one of my friends who had moved to a postdoc position in Harvard his PI was
+starting a company and they were looking for someone with my phenotype. I thought like
+sure, you know, it's worth trying. And in hindsight I think that was a great call,
+right? So, that was a big transition and Agios, which was my first job out of MIT, was
+really foundational in my journey as an entrepreneur. I currency changed from publishing
+papers or going to conferences to really own a very tiny part of a much bigger picture,
+right? Which was a patient. How can you help a patient? And then I just again I cannot I
+can talk for hours about how incredible that experience was. One of the things that I
+remember and I'll take it with me forever was our CEO at Agios. He was a practicing
+doctor. He would see patients every so often and he took a lot of pain for us to
+remember that, you know, everything that we were doing writing code or get commits and
+slide decks and experiments were for a patient. And then
+
+[00:05:15]
+that was very transformational, right? It didn't happen in one meeting or one pep talk.
+But it was very visceral, right? Like for example, when you walked into Agios there were
+pictures of people who were lost to cancer, right? That was a very visceral reminder of
+what is at stake. Every once a year when we had our offsite, we would have a patient who
+would come and talk to us. And that finally led to Agios finding four drugs, all four of
+them were first in class and were brought to the clinic. All four of them may have been
+approved by the FDA. So, that really changed my currency to think more about patients
+and how can I help in my own way, however tiny that is, right? To make a meaningful
+contribution there. And 7 years later, at Agile, the company was in a different place, I
+was in a different place. And I thought like, hey, look, from very basic first
+principles, right? I don't have the tools and services that I need to do my job better.
+I'm not alone. There are many people like me. And the third point was it will only get
+worse with time. So, that was a very basic first principle analysis that I thought like,
+okay, let's get on this path of entrepreneurship. And it has been an
+
+[00:06:17]
+incredible privilege to be doing this for last 10 years. I would attribute that to my
+naivety. I had no idea what I was signing up for. I was very curious. I thought like,
+let's try it out. My wife was very supportive. Agile was very supportive. I was very
+lucky to find a good very good outstanding co-founder. And here we are. That's
+fantastic. I'm trying to think back, Justin, but I I think Dr. Chawla is the first
+medical professional or someone even in the medical field that we've had on the show.
+And in my mind, that puts you in a very, very small group, obviously, but also an
+extraordinarily important one when compared to other organizations and certainly other
+pieces of software that are out there. But it's interesting to me because the approach
+is very similar. You know, you had a passion, you had a curiosity about something. It
+was missing a set of tools or a solution or a utility. And you took it upon yourself to
+go fill that gap. It's a very common arc that we see, you know, across all of these
+different organizations. And I I doubly love the fact that the people who find it from
+being in that type of work. You are a medical professional, you are a scientist, and you
+know, that is what led you to the technology rather than the other approach of I'm in
+technology
+
+[00:07:20]
+and I'm looking for a problem to solve. Which is very cool. So, talk to us a little bit
+about Elucid data itself. What did you learn getting that off the ground? What was the
+initial venture there? You saw a problem, tell me about that. Yeah. And before I go into
+that, I just want to comment my medical professional friends will not identify me as
+such. When you get on a flight and you have to identify yourself as a doctor, I do make
+a qualification that I'm a user as a doctor. I cannot help patients. I'm too far removed
+from that, right? No, but as I said, the genesis of Alita was based greatly on my
+experience at Agios, which was a very exciting front row seat to see my colleagues at my
+company work on a problem over years and bring a meaningful product for patients. And
+that plus some basic first principle analysis, right? Of a need. At that point, you
+know, when we're starting, we had a choice. One was to raise capital and build a
+product, right? The second was to just dive into the market and build what the market
+would actually pay for. Both of them have their own pros and cons, right? For whatever
+reasons, we chose the second path. We bootstrapped the company. And
+
+[00:08:23]
+of course, you know, there were some favorable things that happened. Like for example,
+Agios assigned us up right away for some support right on day one. So, we had some cash.
+We were cash flow positive on day one, right? That allowed us to bootstrap the company,
+be fiscally disciplined, be really thoughtful about whatever we build is addressing a
+real need, which the best proxy for that is someone's paying you for it. And that
+became, in hindsight, a very critical part of our DNA. And we have raised capital three
+times since from investors. So, the world's best investors. But we've been very
+disciplined with deploying capital, right? To understand where it leads to growth,
+right? So, we had a thesis. As bullish and as hopeful we were about the thesis, we were
+very clear about not, you know, drinking our Kool-Aid and like be not romantic about it
+and be just to start with the market, right? What does the customer think? And that has
+served us really well, right? That's how we started here. Real quick, this episode is
+brought to you by Delta Systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here and we'd
+
+[00:09:26]
+love to work with cool people on cool projects. So, that sounds like you and you've got
+a problem or you're in some kind of a jam, go to deltasystems.com, [music] grab a time
+with us. We can meet up on on problem together and if there's a fit there, amazing.
+We'll help you out. So, delta.datasci.com, grab an appointment and hey, maybe we can
+work together. So, you're arguing about being data forward, arguing less focused on
+models and more focused on data. So, I assume that your customer is you need to go to
+customers that have maybe not a lot of data, maybe unique data or data that they're not
+currently using. I didn't know that you mentioned that you work specifically with small
+n and out of distribution data points. Like can you tell us a little bit more about
+working with maybe smaller sets of data and unique sets of data or how that kind of
+comes to work for you? That's a big part of our thesis. That's how we have built our
+stack and our people and processes. The argument is quite simple, right? The kind of
+data that tech companies and traditional AI at large has built on, right? You think
+about search, advertising, product recommendations on a marketplace like Amazon, right?
+Insane amount of data, which is just not a possibility for health care and life
+sciences. So,
+
+[00:10:29]
+even think about the best, richest clinical trial that has ever been run, it's been tens
+of thousands of patients, not tens of millions of patients. So, you have a small n to
+begin with. Compare that to, you know, Facebook has, you know, what? I think half of the
+world, 3.5 billion people unique logins on a daily basis, right? And all the clicks,
+journeys on the platform, right? The scale is just off by orders of magnitude, not even
+close, right? And if you compare that to the best, richest clinical trial that's tens of
+thousands of patients, right? And then there's a huge number of rare diseases, small
+cancers, right? Which that's where the median is. So, you are inherently have a ceiling
+of how much data, how many n's you can have to begin with, right? And that's a common
+objection that we hear about, is AI going to be even meaningful for us or not, right?
+That's one part of reality where I think traditional AI just does not translate very
+well. The second one is that out of distribution is a key tenant, very well defined
+mathematically, right? A key assumption of any supervised learning model, right? Where
+if you're trying to predict on data that is outside of the training
+
+[00:11:34]
+distribution, you'll be compromised. Your model will see purpose. That's a very
+established meeting edge of AI theory, right? Is this just an academic point or is this
+has some real consequences? And that's something that we talk a lot about, right? So, if
+you're on Netflix, if you're finding a documentary that no one knows about, right? It's
+on the fifth page, you complain, you shrug, you move on. But, if you're in a self-
+driving car and your car cannot detect an out-of-distribution event, the consequences
+could be quite profound, right? Similarly, in health care and life sciences, right? If
+there is a group of patients that are not responding to a drug which was doing really
+well in preclinical settings or phase one, right? My worldview is that most likely it's
+a distribution that is different. That biology that label has shifted. That it's the
+same disease, maybe the same tissue, but those variables are not going to completely
+define your distribution and you're in a So, both of those things are key aspects of our
+vertical that we're focusing on. If you buy that, the third point we make is that
+actually, AI will just not serve because it over relies on scale. So, what do you do,
+right? How do you drive value from that? And our This is
+
+[00:12:37]
+data-centric AI. We are not the first ones to talk about it. Most famously, Andrew Ng,
+Coursera founder, Stanford, he's been talking about it. We have learned a lot from his
+blog posts and interviews and such papers. But, that's what we bring to focus in health
+care and life sciences. Again, these are very simple arguments. If you buy that, which
+we do, then the stack that you build is very different. How do you find a that matches
+your use case? Is it multimodal? How do you clean it up? How do you link it to each
+other? Because, even if you have small n, the advantage that you have in health care and
+life is you have a lot of data. You can have a lot of different types of data for that
+small n. And if you know how to link it up, then you can reinforce the signal from a
+very noisy background, right? How do you choose the training data set? How do you
+prepare for model to be generalized? How do you test it? How do you add priors to that?
+So, there's a whole stack that we have built which are very data centric, which you
+know, we have showed we have you know, just submitted in Europe's last week to
+consistently improve models performance without changing the model at all, right? Across
+five different architecture types, right? That's the
+
+[00:13:39]
+stack. That's our focus. Does that mean models are not helpful? Most certainly not. They
+are very helpful. But, the argument that we're making is there's a whole broad community
+of academics and companies that are publishing models. We want to shine the spotlight on
+the data part, which again becomes very critical for classical and also for large-scale
+models as well. So, for the people that you serve, I'm going to guess behind the scenes
+before I let me tell you what my guess is. Are you kind of a an outreach sort of an
+approach? We do this thing and we think it might be useful to you. What do you think? Or
+are you all more closely aligned with like a referral-based model or reference model
+where, you know, people are like, "Hey, I have used their service and it's really great.
+You should, too." Is it a combination of those two things or is it one more heavily than
+the other? It's at this stage of journey, it's a combination of both. Dominantly
+customer references, right? Like, you know, I think it's very noisy out there, right?
+So, if I put myself in the shoes of our customers, right? Everyone is talking about data
+and AI, right? Like, it's kind of exhausting. I get exhausted by that. You know, right?
+So, any social evidence, prior experience or a friend who has worked with us, right?
+Anything
+
+[00:14:42]
+that allows us to cut through that noise helps us a lot, right? That could be a paper in
+Europe's, which is a pretty good paper, right? Then, it helps you cut through the noise
+that, "Hey, these guys have done something real, right?" So, to answer your question,
+it's both, but dominantly it's a small group of people who know us, have derived value
+from us. They take us to their new jobs. They take us to their friends and colleagues,
+right? That has served us really well. But, we have also have a something more scalable
+that we are reaching out to, but it's very noisy out there, right? There, yeah. Yeah.
+Well, related to that, then talk to us a little bit about your pricing model. How you
+put this out there. I mean, is this a licensing type of a situation? Is it a one-time
+use sort of a situation? Is it an X number of uses or per study, something along those
+lines maybe? The use cases are varied, right? We have a breast day managed services
+model. It's a combination of subscription plus access to our experts. That is again
+driven by more of a first principles approach. That's what our market understands.
+That's what they see value in. Now, so there's the projects which end in 3 months.
+There's some engagements that have gone on for 6 years, right?
+
+[00:15:44]
+And I think that is the reality for AI solutions companies. I think the classic
+traditional SaaS model per seat based thing just does not translate very well. We have
+certainly lived it first hand. We have experienced that. We have changed our pricing
+models over the years from a subscription annual subscription of these many seats and
+whatnot. That just was not meaningful. We are trying to force fit a model that was not
+natural to our offering in our market. There's a very interesting blog that came out
+from A16Z a few years back which argued that AI companies are struggling with SaaS like
+models because it's very, you know, there's some purpose built configuration that you
+have to do for almost every use case, right? So, the combination of the offering that we
+have and the market that we serve, it's a managed services model that we are using to
+deploy, using to deliver, and using to price it as well. Got it. I'm also very curious
+because you are in a field that touches a lot of data that is very sensitive on the
+magic side. And I realize that a lot of times by the time it gets to data models and
+things like that, it's stripped of a lot of identifying types of data. But, I'm
+
+[00:16:47]
+curious how you all do handle your data being as sensitive as it is within the studies
+that are going along, across studies that you might be leveraging, things along those
+lines. So, a couple of comments here, right? There's a huge amount of data in public
+domain that is extremely valuable and we always draw the attention to that, right? And
+there have been very successful large enterprises that have been built on public data
+alone, most famously Google, right? That's is perhaps not to that magnitude, but there's
+definitely true in biology as well. There's the NIH, the biggest funder of R&D
+activities, publishes so many good quality papers every year, right? There's a huge
+wealth of data there, right? Number one. Then there's a class of restricted access data,
+right? where you have to write an application as to why you need that data. NIH again
+supports that. Other countries do that, too. I think what you're talking about is
+proprietary of our customers, which are very sensitive. We have that, too. And there at
+least two ways to do that, right? One is contractually we commit to not using the data
+to improve our model or anyone's model, etc., etc. And technology, we have all the
+certifications like HIPAA, SOC 2, and others, right? And any personal data,
+
+[00:17:51]
+very well defined, they're stripped. Or even if it's not personal data like there's a
+lot of sensitivity around compound structure data that companies are using to find new
+drugs, right? There's a lot of IP associated with that. So both contractually and
+technically we are capable of handling and addressing that, but that is a very
+legitimate concern very specific to our industry. I think not unique to our industry.
+I'm sure financial industry must have similar burden, but we certainly do, and we have
+very actionable responses to that as to what kind of certification we have, what kind of
+contractual obligations we'll commit to to respect that. And finally, it's most
+important for our business, right? We'll be, you know, up this if there's one such
+glitch. As important as it is to our customers' IP, right? It's quite existential to us
+as well. Are you typically using models that your customers already have and then you're
+kind of enhancing and improving them with the and your approach, or are you also using
+other generally available models like whether in the context of like Cloud or Open AI?
+Is it mostly in-house stuff that you enhance, or is
+
+[00:18:54]
+it mostly their models? And then the second piece of Can you speak to the velocity of
+new discoveries and growth and how the models are performing specifically in the last
+year or so? It seems like everything out here on the consumer side has really gone
+crazy. It does It does go crazy, yeah. So we do just in all of that. In In if I were to
+make that picture more complicated, we also have models coming from academia on a weekly
+basis, right? Which captures the imagination for 2 weeks, and then there's another
+model, and people move on. So, let me contextualize this for the audience at large. So,
+if you put one task of frontier models, right? Like Claude or ChatGPT or Gemini and
+whatnot, right? Or Llama. I think there's a huge gap between the frontier models to
+delivering value for our scientists at Pfizer or Moderna, pick your favorite, right? And
+that's where I think our managed services business model has been very helpful. How do
+you make Claude understand your proprietary data, the context of clinical data or
+single-cell RNA seq? All those things are really hard to get out of box. So, what I say
+is you will get a response, and will you get a
+
+[00:19:56]
+high-quality response or not? They're two different things. And that's a gap that we see
+is quite obviously there, okay? Number two is I think there's a much broader range of
+what I would call task-specific models, which are very good at one task, right? Most
+famously, AlphaFold. It does one task of predicting protein structure. But that's one of
+the like really hundreds of tasks that you need to do, maybe thousands of tasks you need
+to do before you make a product and bring it to the market, right? So, that world is
+less mature, more fragmented, right? There are very good models coming out on a weekly
+basis from labs, from companies, but they all perform one task really well, right? And
+what we have talked about is that any task as simple as, let's say, scheduling a
+meeting, right? Has its own spectrum of complexity. For example, let's say we want to
+schedule a meeting, it's easy enough. I share a calendar link, you click it, find it,
+get it done, right? But if there are six of us in different time zones traveling, right?
+It becomes a nightmare. Best AI solutions will not generalize to that scale of
+complexity, okay? So, what we have tried to do is we have taken tasks through the entire
+
+[00:20:59]
+value chain of drug discovery, very narrowly defined tasks, which are actually being
+performed by scientists at Pfizer and Novartis and whatnot. And we did that task, we
+have defined a scale of complexity. What is a simple version of that task and what is a
+more complex version of the task. And we have built diagnosis methods as to evaluate
+different models that are coming out. That's our benchmarking activity with a very
+specific lens. How generalizable these models are. And that goes back to our out of
+distribution observation, right? And we see a drop in performance as the paper might be
+very compelling and promising, but the moment you try it on your data collapses. So we
+have put a benchmark to diagnose, right? Just to say that hey, look, this is where you
+stand. And then the next step is prescription. What kind of priors do you can add
+without changing the model? Of course you can change the model if you want to, but just
+to make it apples to apples, we show that if you add data priors, it increases the
+context of your training corpus, your models are becoming little more generalizable than
+before. That is what we bring to your models, public models. We don't do this to close
+models because we cannot, but
+
+[00:22:03]
+yeah, that's the idea. And in terms of performance of models, speed of discovery, are
+you seeing crazy speed ups on your internal stuff like we're seeing on the consumer
+side? No, I think the speed up has not been the bottleneck to at least my viewpoint is
+it's the performance. The performance is quite poor right now. I guess I was asking if
+you guys are also experiencing the improvements in outcomes that the rest of us are
+seeing or if it's been a more steady improvement. It has been more steady improvement
+and not impressive enough for many tasks, right? There's some very good tasks where the
+models have done really well. AlphaFold again is a very good celebrated example. Won the
+Nobel Prize, has received a lot of attention, has seen a lot of adoption. Digital
+pathology is another one. But there are a lot of tasks where the performance has not
+been acceptable enough of the models. So any optimization of cost or speed is kind of
+moot. So you know, when we talk about the complexity of task, the other axis is
+performance. It should pass a minimal threshold of performance, right? That's how you
+evaluate people, too, right? Like, can they perform tasks credibly enough for the range
+of
+
+[00:23:06]
+complexity of a task, right? We are putting the same limits for AI models, but I think a
+huge majority of activity in this space just do not pass that performance threshold. And
+you see poor adoption in the space for that, right? It's not universally true, but it's
+majority of the models do not pass that threshold. I'm wondering how much of that is is
+just due by virtue just a minute in our space. So much of it is given by large language
+models. It's built by a certain degree of control and everybody seems to be a little bit
+more loose on what they're okay throwing at it to train the models versus in the medical
+field, I would say that probably people are a little bit more skittish and rightly so to
+just start throwing a whole lot of data at it just to get those models because everybody
+wants to take a lot of care up front recognizing the security that's needed. I'm
+wondering if it's just we're dealing with a volume imbalance right now. So, there
+there's definitely a school of thought that argues for that, right? But it is
+practically like if you talk about volume about the quality, right? You're talking about
+data to the model. There are initiatives like more famous announcement that Lilly made
+about two labs, right? Which clearly puts money
+
+[00:24:11]
+where their mouth is, where they're partnering with small biotechs where they put data
+and they get access to the model, right? And what I can read between the lines is that
+they're hoping that more data of different types of data, you know, leads to that.
+There's definitely another example of federated technologies which have received a lot
+of traction. You have very large compelling biobanks from Finland, from UK, from US,
+India, Middle East, Asian countries. And the data cannot leave the country, right? That
+zip code. So, there you have federated solutions which allow you to access all the data
+without the data moving, right? Again, solving both the volume and the quality issues
+around data that feeds it to your model. But especially in health and life sciences, I
+think it's still very early. And large language, I think is more mature in terms of both
+volume of data, how to represent that. The tasks are better defined, not entirely true
+for all tasks in healthcare and life sciences. Well, a couple of big picture questions
+that I've got and then I'll let Justin have another swing. So, just looking at I'm going
+to call it biotech in general, but certainly, you know, anything that has takes data.
+You've done this now. You've been successful at it as a co-founder,
+
+[00:25:14]
+certainly as someone with a history and a background in the field that you're working
+in. But, what is something that other people or you might mentor or encourage or help
+other people who are trying to get into this space and trying to do it in a trustworthy
+manner and also in a way that moves the needle, you know, moves things forward. What
+would you tell people who are entrepreneurially minded, but trying to get in this space
+and maintain that level of trust and also solve problems at the same time? Yeah, so one
+of the lesson that I keep relearning even after 10 years is that as scientists and
+engineers, we over index on technology and not on people, right? I think that seems to
+be the harder problem. I'll bring it close to home where AI, right? Like that has again
+captured the imagination as very few technologies have in the last 20 years, right?
+Cloud did not have a a hard moment like ChatGPT has, right? You know, everyone was on it
+right after the next week. The kind of growth that we have seen, right? Leadership in
+companies large and small have co-opted this language, right? But, I think there's
+definitely a people problem when the leadership does not really
+
+[00:26:16]
+understand what that means and the guidance is they do something about AI. The board
+says that, right? And the CEO then talks to the VPs and VPs don't know what that looks
+like. >> [gasps] >> So, I think anyone who's getting in this space, I would, you know,
+congratulate them and invite them and welcome them. But, a big component of all of this
+is people. How do you educate? How do you tell them about the problem? How best to think
+about it, right? Because it's very polarized otherwise. If you follow your Twitter and
+LinkedIn, there's an apocalypse coming waiting to happen or it's all a hoax. The reality
+is something in between, right? And that nuance is a very people driven. It's not tech
+limited often. Some things are tech limited but a lot of things are not. And as
+scientists I tend to over index on oh I have this better solution people will come. Does
+not really happen that way. Distribution trumps product here. So very clichéd but these
+are things that you learn after years and years right and there's a reason why they are
+clichéd today. There's a lot of truth in that. Definitely. All right Justin. All right
+or or wrap this up here. What is
+
+[00:27:17]
+something we should have asked you about but didn't or what is something you have to
+give that we didn't touch on? I think you know as I've lived this for the last 10 years
+right the romance of an entrepreneurship journey is definitely not the entire truth
+right? There's lot of collateral damage starting from your own body health you
+deprioritize that your family your wife your friends your kids. It consumes you right?
+Like I think no amount of excel modeling of how much will you make and when will you
+make justifies this right? It's a gut call if you feel very compelled to do this you do
+it otherwise maybe you should not right? That is something that I think should be part
+of the conversation as well for entrepreneurship at large. It takes a toll right? It's
+also a privilege but we cannot ignore one over the other right? And that's often
+overlooked. Yeah as I talk just like that I realize that I've been doing this for 10
+years I've learned a thing or two and when I meet founders who are preparing for YC or
+what not right? Like you see the energy is really inspiring and it's really exciting but
+maybe at some point they will have kids and they will marry and they will and lose those
+kids down the way right? All of that will happen. So that's something that we should
+make more part
+
+[00:28:21]
+of the discourse. Yeah it's that whole notion of 1% inspiration 99% perspiration thing.
+It's very common across every industry. Well then and then you're not an island unto
+yourself you're dragging everyone around you into that situation. They can't sign up for
+that right? Like you get the highs they get the lows. Yes. That's the truth. Yeah.
+Absolutely. Well that kind of brings us to a close for today's episode. We had been
+chatting with Dr. Abhishek Jha co-founder and CEO of Elucid Data. Dr. Jha, how can
+people reach you if they are so inclined? I'm quite accessible on my LinkedIn. I don't
+have a Twitter handle. I do have one, but I don't use it a lot. LinkedIn is the best way
+to reach me. You can always email me. This is a great platform to meet new people, share
+ideas, learn from them. So, yeah, LinkedIn is the best place to find me. Fantastic. And
+thanks as always to my co-partner here, Mr. Justin Edwards. Thank you, sir. Can I get
+the turn my AC back on now? >> You can turn your AC back on now. >> [laughter] >> And a
+special thanks as always to our listeners and subscribers that are out there. If you
+like what you're hearing, do hit that subscribe button. Send us some notes, what you
+like, what you
+
+[00:29:23]
+don't, what you want to see later, and we'll get back to you and maybe get it on the
+pod. So, thank you all again, and that will wrap us for this episode of SaaS That App.
+Thanks for cruising along with us on [music] SaaS That App. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. If you enjoyed the
+show, don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

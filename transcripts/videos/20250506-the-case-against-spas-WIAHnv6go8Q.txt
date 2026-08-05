@@ -1,0 +1,830 @@
+The Case Against SPAs
+=====================
+
+Video ID:  WIAHnv6go8Q
+URL:       https://www.youtube.com/watch?v=WIAHnv6go8Q
+Published: 2025-05-06
+Duration:  00:46:00
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+[Music] If you are a SAS founder, if you're looking to build a SAS product, I don't
+think there's any reason that you should run scared of somebody saying, "We're going to
+do this as an SPA." I also don't think there's any reason that you should just embrace
+that with wide arms. Welcome to SAS that app building B2B web applications, the podcast
+where we share real world stories, practical advice, and tech insights for those
+building or thinking about starting a tech enabled business. I am your co-host, Aaron
+Marchbanks, and I'm Justin Edwards. Each week, we bring you the stories, strategies, and
+insights you need to build your SAS or tech- enabled business smarter, not harder. Let's
+dive right in. Glad to have you joining us for today's topic, which is why single page
+applications suck. Subtitle, a reasonably fair assessment of single page applications
+and multi-page applications with a strong preference for the former. Joining me today is
+my co-host, Mr. Justin Edwards, CIO among other things, of Delta Systems. Welcome,
+Justin. Howdy. Super happy to be here. And also Daniel Cannon who is the chief
+
+[00:01:02]
+innovation officer also of Delta Systems. Daniel, thanks for being here. Hey, how's it
+going? Going well. So these two Yahoos have co-owned software businesses together,
+consulted on, helped start, often maintain or rebuild applications and they are also
+amazing developers in their own rights working in industries and applications ranging
+from like food service to medical assessments. And as an added bonus, I get to work with
+these guys every day. So hope you enjoy our conversation guys. Let me set the stage here
+just a little bit. So what we're talking about here is distinguishing between single
+page applications and multi-page applications. So single page application basically
+we're just talking about an application that runs pretty much entirely within the
+browser. Doesn't require an entire page to be reloaded during use. We're talking about a
+goal being like faster transitions, making websites feel a lot more snappy, a lot more
+like native mobile applications, and more often than not, using some flavor of
+JavaScript, React or View or Angular, things along those lines. So, think like Gmail or
+Google Maps or Facebook's Newsfeed, Netflix, stuff like
+
+[00:02:05]
+that. On the other side of the coin, we have multi-page applications. And so, this is
+something that's a little bit more traditional. It loads a new page for every action
+that a user is going to take. typically consist, as its name implies, of multiple pages
+that are more static. Load a new page from the server and then update the content of
+that page. Here we're talking about things like e-commerce sites. So, think Amazon or
+Etsy, new service sites, traditional websites that have multiple pages that you're
+clicking through to get things to happen. So, I'm going to start with Justin. First of
+all, did I get that right? Yeah, I'd say you're pretty much spot on. Good deal. So,
+Justin, give us the overarch here. Why is it that the single page version of this sucks?
+So look, there's different things to consider. I think the popularity of single page
+applications and their utility and their benefits are super overblown. I think the main
+reason is that they're really relatively new compared to like multi-page applications.
+And so because it's this shiny, lustrous new thing, people went running towards it
+without maybe taking time to appreciate some of the drawbacks of this new technology.
+and and because there was so much irrational exuberance
+
+[00:03:07]
+in adopting this cool new thing that was coming out. I think that we didn't take a
+minute to assess if it was the right solution for all the problems that it's been
+applied for and I think in a number of ways it's demonstrabably worse than the archaic
+older multi-page applications more standard general frameworks. Yeah. Okay. Yeah. So I
+can speak to some specific issues with single page applications and the challenges they
+introduce but that's like the big picture of I guess why they suck or why they're
+misapplied very frequently. Daniel's just on there with the improper application from
+the new hotness. Yeah, I don't know. I mean, I think that's probably a little bit overly
+harsh. I mean, single page apps are definitely like the new way of making web
+application. It's the experience that you're used to when you go to like Facebook for
+example. You don't want every time you like a comment to have a page load and have it
+oh, spin and then all of a sudden it lights up and it says, "Hey, blue." It's like
+modern apps, interactive apps, you expect to have that kind of single page feel. And
+it's pretty standard now that if you just click a like button on something, it just
+lights up blue. Yeah, there's drawbacks. There's complications to it. I mean, I think
+I'd have a hard time saying they suck. I think it's probably a little overly harsh. I
+know
+
+[00:04:09]
+that's the the topic today, but you know, I would say often times there is a decision
+made for these front-end frameworks that just isn't really justified by the problem that
+you're trying to solve. If you're Facebook, you want to have something that's extremely
+interactive. You want to offload all of the performance onto the user's browser. I mean
+there's a lot of reasons you want to do that for your average SAS startup I think most
+of the time I think Angular React I think these front-end frameworks is actually
+probably not the right call which is a little contrarian but yeah I think that probably
+be my take on it just to push back a little bit on the idea that having any kind of
+interactivity is necessarily a single page app like for the like example I'm not anti-
+using JavaScript or having these kind of dynamic interactions in the front end and in
+fact all the traditional single page or multi-page tools rather provide for that stuff
+it's fighting off this every single front end interaction is going to go through this
+kind of convoluted state management mechanism and have all this super complicated
+interactivity as opposed to just like little tiny components of interactivity. So like
+the like button example will be well accomplished in a multi-page app as well. And
+you're right
+
+[00:05:11]
+that you don't want to deal with a page load for that. Yeah, with all technologies
+there's trade-offs and there's never, you know, something where it's like, oh, this is
+the silver bullet and it does everything exactly how I want. So you're making the trade-
+off when you want to have it be really interactive and responsive. oftentimes the trade-
+off you're making is that you're going to have data consistency issues. You click the
+like button and the like button lights up blue and everything looks happy to the user,
+but in the back end we've actually not liked the post. And so when you refresh the page,
+that like button goes away. And in an ideal world, you wouldn't have either of those
+problems. But the interactive SPA approach, you're going to see that immediately as the
+user and it might not be consistent with the back end, whereas in the traditional multi-
+page app, it's not going to be as pleasant an experience for the user, but your data is
+going to be consistent. It's going to be right. Well, let's start there. Let's start
+with the user experience. I mean that's the thing that everybody sees first. The vast
+majority of the time when a startup or a founder or a tech lead or someone is
+approaching this as often as not they'll approach it from that front end that user
+experience. What is it that an end user is going to see? We'll deal with how we make
+that happen later. Right? So if what I'm hearing is right from you guys really it
+doesn't make too much of a difference in
+
+[00:06:15]
+terms of what the user can see. Components can be the same between single page
+applications multi-page applications. We're talking about the actual interactivity of
+those components. Is that right? Yeah, I'd say that's right. It's how the user interacts
+with the page, how quickly their actions reflect on the page that they're seeing, right?
+So, button clicks, likes, things along those lines, doesn't necessarily take you to a
+new page, require the page load. So, potentially, we're talking about a a faster or or
+more streamlined user experience on the single page application side of things versus
+multi-page application side of things. But functionally, things can work the same way. I
+yeah I would say in general and I mean obviously there's a lot of I'm sure we're going
+to get into it but there's a lot of kind of trade-offs between SPA and MPAs there's a
+lot of middle ground like Turbo which I'm a huge fan of which really gives you that SPA
+experience while actually being a multi-page app but it doesn't feel like one to the
+user so there are a lot of trade-offs in the middle but I'd say generally what she says
+right yeah Justin take on the UI yeah yeah just one correction I think in a single page
+application even the page navigation is happening 100% in the front end so that's more
+of a user experience
+
+[00:07:18]
+decision that it feels like a navigation happened but in reality it it didn't, right?
+So, but in the single page world, there's not really a distinction between changing
+pages and pressing a button except for what you decide to show as a user when they do
+something. So, in the case of a button click, say you want to like something, you press
+the button, there's a exchange that happens in the back end and you light up a blue icon
+says you did a good job liking this nicely done. You click on a hyperlink for instance,
+that works the exact same way. It sends the exact same backend request, but instead of
+uh turning the button blue, this time you de load everything that's on the page and load
+a new page or have something slide in or a modal pop-up or whatever your version of that
+is. So that starts to feel more like a performance issue, user experience, all things
+being equal where we're talking about load times, perhaps application size, complexity,
+things along those lines, right? So look, I mean, when single page apps are really well
+written and when they perform well, when you have a good internet connection, user
+experience is hands down better. That's my take on it anyway. We could argue about
+Turbo, which is somewhere in the middle, but that's a distraction from like the main
+point. Let's say we're using Rails without Turbo versus we have a React front end. If
+the React front end is well written and optimized correctly and
+
+[00:08:21]
+your internet connection is good and all those kinds of things like that experience is
+going to be nicer, it's more seamless, more smooth than the Ruby on Rails analogous
+experience. So that that's true and that's a lotable idea. Then there's all the problems
+that you bite it off and all the things you have to take on when you make that decision.
+You want to go for this last 10% of user experience for moving to a single page
+application. So would you, and this may be too big of a blanket categorization to make,
+but would you say that something leaning more towards a single page application is more
+performative than a multi-page application? Daniel might have a different take on this
+than I do, but I would say it's less performative, but the experience is better for
+users. So, okay, when you load a single page application, you actually have to load more
+content than your multi-page counterpart because the interactions are more rich and it's
+just it takes more actual bites to power that experience. And then B, you also have
+things like skeletons because you do actually need data from the server in order to
+display these things. So now you have placeholder images that you're also loading on top
+of the data back from the server. So your user can look at gray lines going across as
+opposed to just waiting for a page to load because that we've decided that's a better
+experience. Yeah, I I would say the performance question is not really a
+
+[00:09:23]
+binary. It's not a question of which is more performant and which is less performant.
+It's whose performance are we concerned about? Why did Facebook invent React? I mean,
+they're meta now, but they were Facebook then. Why did they invent React? One of the big
+reasons, I mean, yes, they wanted to improve the user experience. One of the big ones is
+they wanted to shift the load off of their servers onto your device. So, when you're
+using a React app, your browser, your phone goes out and downloads this big old bundle
+from the internet and then you run that in the browser and all the computation, all the
+work is done by you and you just have to tell the server the occasional thing here and
+there. So, I mean, I think that was a big part of it is how can we offload the work, the
+computer time, the comput cycles onto the users's devices. I think there is also another
+nice thing with SPAS from a performance standpoint is that you can deploy them using
+CDN. You can use CloudFront or something like that. And now these bundles are cached all
+throughout the internet. So you're not having to go all the way to Seattle to go and get
+the application. You're just going to go next door, Denver, wherever you happen to be.
+You're going to get it. You're going to download it. It's all running on your browser
+really quickly. You don't have to wait for the API for every single little thing. Every
+time you load
+
+[00:10:25]
+a page, we're going to download all the styles, all of everything. I mean, obviously
+there's other caching that comes in there as well, but for the most part, once you bite
+the bullet of downloading the bundle into your browser, now you're pretty much just
+running the application, and you don't have to have a lot of network communication. To
+tag on to the end of that, another thing that SPA do really well is to Daniel's point,
+once you have that bundle, you actually have an application that might have utility that
+doesn't require an internet connection. And that can be beneficial. Anyone who's used
+Google Docs offline or has done some Facebook interacting offline has had that benefit
+like I don't have internet but I can still see some stuff that was downloaded before I
+lost my connection. That's cool. Yeah. And an awesome thing that you can do with React
+is you can build what's called a PWA. I mean there's a few more steps to get to that but
+a PWA is literally an application that gets installed in your browser and just like
+Google Docs the example Justin gives it works offline. If you want to turn that into a
+mobile app it's very easy to take your PWA wrap it up put in the app store. Great. Yeah.
+Now you got a mobile app. If you got a a mobile optimized website, it's pretty much just
+a few steps to get to having a mobile app. So, huge upsides there, especially for SAS
+founders. The dark negative side of that though is that you've now decided that cash
+
+[00:11:26]
+invalidation is a problem that you want to deal with. That was going to be my next
+question, right? And I I'll get the joke wrong, but it's like there's only like four
+hard problems in computer science, which is like naming things cash invalidation and off
+by one errors or something like that. So, that makes sense. Anyway, caching validation
+is a really hard problem and why I provided all the qualifiers earlier saying like when
+an app is really well written, it's really easy to get into troubles with caching and
+the bane of my existence when I'm on a single page application is I'm trying to go take
+an action, I click on like my profile image because I want to go to my settings page,
+for example, and then I click on the settings button to move to my settings page. Except
+between when I made the button click and when the click got processed, the entire
+navigation loaded and then I clicked on some place that I didn't want to go to because
+the navigation from the server finally loaded. And so it's like this loading was
+happening in the background, but the user experience is now worse than a multi-page
+application because of this delay and response time and also bad design potentially.
+What would one do then to mitigate some of that caching issue? I mean, Daniel talked a
+little bit about utilizing CDNs and Cloudflare and things along those lines, but for
+
+[00:12:29]
+folks out there that may not be too terribly familiar with it. While caching can improve
+the performance, like you say, because it's all localized, how do you deal with cache
+busting and making sure that everybody has the current JavaScript libraries? I mean, at
+the highest level, and then all the way down to the application packages, you tear that
+off into two separate things. There is the caching and distribution of the source files
+to allow users to run the application. And so, that's like your DNA, Cloud Front, CDN,
+all that stuff. That's great. But then there's also the caching of actual application
+data. So my app goes out to the server and asks for what items should be in my
+navigation. And then it has a version of what it thinks should be in the navigation. And
+then I go into the database and the web application. I make an update there. And now
+that the application server has a different idea for what items should be in my
+navigation. And how do we determine whether the navigation that's on the server or the
+navigation that's on the device is is the most upto-date. That example isn't the most
+apt because in that case you probably just take the server version all the time. But
+there are versions of this that are not so easy to determine. Like say there's like a
+financial app and a user is increasing a dollar amount by pressing a money button and
+the server has some representation of what the transaction size is supposed to be. Well,
+the user's
+
+[00:13:31]
+version of that is arguably more correct until the actual transactions process and the
+server's version is more correct. And again, these are toy examples, but every single
+user interaction, you have to think about whose version of this data is more correct or
+should be trusted. And there are other things that came into that as well. Daniel. Yeah.
+Yeah, I mean I I think like Justin said, there's kind of two problems here. One of them
+is the the caching of the code, and one of them is the caching of the data. The caching
+of the code's really not that hard of a problem to solve. You stick a version in your
+bundle. That one to me is a pretty easy one. Making sure everyone has the most up-to-
+date code. The data caching is a huge pain. Anytime you've gone to a website that has a
+search bar and you're like, "Oh, there's the thing that I want to click." And then you
+go to click on it and that changes to something else and now all of a sudden you're
+looking at an article about corn harvesting and that's not what you wanted at all. Yeah,
+that's caching issues. That's we're trying to present this really nice responsive snappy
+user interface while we wait for the server to tell us what the reality is of the
+universe. Then the server gets back and tells us and then we have to change the front
+end on you. Yeah. So I mean those are big issues. There's lots of ways for solving data
+caching problems. But it is like the joke Justin told. It's it's about the
+
+[00:14:34]
+hardest problem in computer science. Cash invalidation is is a very tricky thing to
+solve. Yeah. And again it's just like cool. So, we're biting off this thing that we know
+is hard, that's going to take a lot of time and energy and money to deal with properly
+and to also achieve that better user experience, which is presumably the reason we built
+off the single page app decision to begin with. Barring Daniel's point about scalability
+for our SAS founders and people who work with us, we're typically not concerned about
+offloading CPU cycles to the user. On average, at that scale, you have money to rewrite.
+So, it is what it is. So, anyway, you're biting off this thing was difficult and
+expensive and hard and gonna spend and going to take time. So, like what are you getting
+in exchange, right? And so that's the the trade-off that people have to understand when
+they're making their decisions about what technologies to push their application out in.
+Gotcha. So related to caching then is I'm assuming the application size itself libraries
+of course package things that that have to come along for all the different utility that
+you want to have or tool sets. But between the two, between the single page application
+and the multi-page application approaches, I'm going to make an assumption here that
+those single page applications, all other things being equal, the application size
+itself is smaller because it does need to be delivered to the browser or is it
+
+[00:15:38]
+larger? Yeah, I mean it's hard to answer cuz it's complicated. What is the application
+here? I would say so the front-end bundle that you serve out to the user is probably
+going to end up being pretty well compressed if you're doing it right. I don't I mean,
+I've worked with a lot of projects where you end up having a bundle.js that's like a
+gigabyte. It's like, guys, how did this happen? It's like, well, we just packed every
+library into the bundle. Ordinarily, I mean, if you go to facebook.com, for example, is
+the one that keeps coming up. Most of those libraries are actually getting loaded from a
+CDN, and most people have them cached. Your browser probably has multiple copies of
+Bootstrap cached. You're not going to go load Bootstrap every single time that you go to
+the site. So, you can actually offload a lot of stuff. You can take a lot of stuff out
+of the bundle, put it in the internet, depending upon browser caches to to handle that
+for you. Usually the bundle's not particularly big. It's probably it's going to be
+bigger than like a single page load. Like if you want to just talk about the HTML on a
+page, oh, the bundle's going to be dramatically larger than that. But again, you load it
+once. So if you're only ever going to see one page, so like for SEO purposes, for
+example, like WordPress, why is the whole internet written in WordPress? Well, you're
+actually trying to get that initial page load really small. You want to load
+
+[00:16:40]
+really fast so that you score high and all the performance rankings. You do not want to
+do your marketing site in Angular because that first load is going to take forever. Once
+you've actually downloaded the bundle, now everything's really snappy. So, if you're
+going to keep interacting with the site, you don't have to do a whole lot of
+downloading, but that first load is going to take forever. So, you don't do your
+marketing site in Angular. That's for sure. Yeah. And I agree with what Daniel said. I
+think on average your JavaScript bundle, the user has to download more in a single page
+application than in a multi-gage application on average. But unless it's particular for
+like your business use case, machine cycles are cheap, bandwidth is cheap, programmers
+are expensive. So that's not the right thing to optimize on 90 plus% of the time. Right.
+Well, and that is a good point too because you know these days the world is small and
+everybody's wired. You have the processing power in your pocket that we could only have
+dreamed of 20 25 years ago. So the trade-off between server cycles versus something
+that's more local is not quite the big concern that it used to be. But still yet
+application size does matter. And I would think as an extension of that as a function of
+the complexity and getting into more technical details about that and something that I
+haven't had to deal with for quite a few years. So you guys
+
+[00:17:42]
+are going to be closer to the tip of the spear on this. But in terms of like maintenance
+complexity of the application, I would again think that a single page application is
+going to be more complex in that you have to have it pretty well thought out maintaining
+it and keeping it updated. there are going to be more interactive components or more
+things that are going on and therefore more potential issues that could arise than on a
+multi-page application that can be more structured, more formulaic, more traditional. Is
+that a fair assessment, Daniel? Yeah, the more complex the application, the more
+maintenance there is. You can get a pretty complicated multi- huge application. I mean,
+we've got some Rails applications that are very complicated. I mean, I will definitely
+say there's been a real tendency in the front-end world to just go crazy with libraries.
+And pretty much any package JSON you open up for any large application is just a hundred
+things. I don't even know what half of these things are. And all of those have to be
+maintained. All of those have to be updated. All of them are potential security
+vulnerability. Honestly, most of them are are open- source libraries that you're
+installing from hub. And I'm here to tell you, not every single commit gets audited. And
+I won't
+
+[00:18:45]
+remember the details, but there was just a big exploit of this a while ago where
+somebody snuck something into a popular open source library that I think was doing
+something for like formatting developer console outputs. It was some kind of just cute
+little tool and then it wound up actually being, oh, here's a huge back door and now all
+of a sudden we can hack your app. So the larger the bundle, the larger your attack
+surface from a security standpoint, the larger your maintenance requirements, the more
+you need to upgrade those those libraries. I wouldn't say that that would be a big
+reason for me to decide between an SPA or an MPA to decide between Ruby, Angular or
+Rails, but it is certainly a consideration. I think a lot of times the choice you end up
+making is do you want to have one application where you take front of like Rails assets,
+the Rails pipeline and all the things that ship with Rails to make multi-page
+applications or do you want to have Rails act as an API and then have a separate front-
+end only application. So you can't end up basically with two code bases where otherwise
+it would have been one. It's going to vary by application. I don't think you can
+generally say that multi- page, single page are more complicated, but if your site is
+relatively simple and doing relatively simple things, there's no reason not to use all
+the stuff that ships with Rails, especially
+
+[00:19:47]
+like for most of our customers, for most of the people that we work with, like having
+this really sexy user experience is not that important. I mean, the people are paying
+for the software because it does something they need and it needs to work well. We want
+to make it a pleasure to use, but it's not like Facebook or something where this really
+sleek UX is like, oh yeah, if we have any friction, then we're not going to be able to
+serve more ads to this person that we've kept on platform, right? And that's what
+Facebook is optimizing on, right? It's like, no friction. This person has to stay here.
+If they scroll down, we have to show them something else they might want to see. We need
+pictures. We need ads. And that's not our customers. Our customers are solving real
+world problems. And their customers are using their applications because they do
+something that's useful. and they probably don't care that much if the screen slides in
+from the left or if they have to wait half a second for a page load on a complicated
+interaction. If I could volunteer one pro on the complexity front, one really nice
+thing. So, one thing Justin keeps talking about is well, you write your backend in Rails
+and well, you don't have to. You don't have to write your back end in Rails. You could
+actually write your back end in the same language as your front end. So, one big pro of
+using uh front-end technology like React or Angular is that
+
+[00:20:49]
+you can actually do your backend in JavaScript. It's actually a really common pattern to
+use node as your backend application, your API server. Once you do that, now your entire
+stack top to bottom is JavaScript, which means you only have to hire JavaScript
+developers. It means that there's not as much switching cost. If if you have somebody
+who works in the back end and work in the front end, they're not having to switch
+languages in their head. And it also means that upgrades and all that can happen at the
+same time. When a new version of Node gets ruled out, that's going to impact your back
+end. That's going to impact your front end. So in a lot of ways it could actually be a
+lot easier to do maintenance on an application where the entire thing top to bottom is
+in JavaScript and in the kind of same universe. Yeah, Daniel's exactly right with that
+and it's really common to see people unify behind both stacks to provide a little bit of
+a counterpoint or some other context or other things to consider. If you end up writing
+your backend in the wrong language because you don't want to have multiple languages,
+that's a much more expensive decision than having two programming languages. And I'm not
+a Node Express fanboy so whatever. We can have religious language wars that doesn't
+really matter. But if node is not the right actual technology or if you're going to
+spend a lot more time and money or not have the right library support or
+
+[00:21:51]
+whatever in node and you decide to go with node anyway because your front end is also
+going to be in JavaScript and you want to have this kind of unified thing that's a
+really expensive decision and potentially the wrong decision. So again it's a little bit
+of the the tail wagging the dog and I don't know it can work out well if you have one
+talented person but it could potentially also be problematic. So that feature could be a
+bug. The other side of that is that front end and backend skill sets these days
+especially are very different and having that one unified perfect person who's just a
+crazy awesome JavaScript hacker with flames come out of his fingers who's just riding
+dollars into value all day long both in the front end and making it sexy and beautiful
+in the front end. Like that person exists but he makes a lot of money and he probably
+makes enough money that you could hire one who's pretty good at both sides. I was about
+to say that generally, you know, begs the question of what happens when that person
+disappears for whatever reason, moves on to a different organization, is no longer with
+the consulting company that you're working with or there's like some wholesale redo of
+for whatever reason, we're going to change dev shops and here is what this application
+has been written in. I'm I'm handing it now to you guys and we have this laundry list of
+features, but it's
+
+[00:22:54]
+all in technologies or libraries or what have you that you may not be as familiar with.
+I know everybody has a particular fandom toward various libraries or or structures or
+patterns or languages and what have you, but how do you deal with those language
+differences and the application that comes in the door already written needing to be
+maintained in in its you know current codebase if you don't have that person? That's
+probably a podcast episode all by itself. I probably have an hour of comments about
+looking for consultants and migrating projects between teams. Well, I suppose more
+specifically then is that a person that you send in the direction of another
+organization or another developer, another solution that might better fit that or is
+that a situation where you just talk in terms of let's do a rebuild or refactoring of
+some sort? I mean, it's super case by case. So like if I have a client show up an
+application that looks really good that I think we can do a good job of maintaining even
+if it's not like in Rails or whatever our core competency is. If I think we're going to
+be able to do a good job with it, then I'm happy to throw our hat in the ring and I
+explain to people like, hey, this is not 90% of what we do, but it isn't the 10% of what
+we can do and this is a good
+
+[00:23:56]
+application. There's no reason to bite it off or rewrite. If I think that we're not
+going to be successful, it's in something we don't dabble in, then I say, "Hey, I would
+love to work with you, but we're not a fit for each other with your tech stack. So based
+on looking at this, not that I'm an expert in this, but I don't think it's a candidate
+for a rewrite. So you should find someone who can work with you and support this. It's
+just not us. And that last kind of category is the burn it down and kill it with fire
+and how did this happen? How did anyone allow this piece of software, if you want to
+call it, that come into existence? And let's just take that and set it aside as a
+seminar and a lesson learned and then let's reimplement this in a way that's going to
+long-term work for your business. Fortunately, that doesn't happen all that often, but
+I've done it more than once in my career. Sure. and and I know Daniel has. Who me? Yeah,
+I think you're actually in the throws of doing some of that right now as a matter of
+fact. But yeah, do you have a particular stance on that? Yeah, look, I mean, I think
+there are good developers and bad developers in every language. I don't think you should
+make your language choice based upon hiring good developers, bad developers. I will say
+I mean there's a common adage that cheap is expensive, which I believe in a big way. I
+think a lot of people think, oh great, we're going to do this entire
+
+[00:24:58]
+thing in JavaScript. We're going to have Angular and React and we're going to have Node
+on the back end and we'll do the whole thing top to bottom JavaScript. Then all we have
+to do is hire JavaScript developers and they're so cheap. We can for so cheap and then
+they'll be able to do the whole thing. And in general, if a developer is cheap, it's
+because they're not very good. That's just the reality of the situation. And I mean,
+I've worked with Ruby devs who are terrible, too. I mean, I'm not just trying to to
+throw fire on JavaScript. I think that if you're going to do your thing top to bottom in
+JavaScript, you should be looking to hire a very senior, very skilled JavaScript
+developer. and they exist, but they're hard to find these days. There's a lot of people
+say JavaScript has become the new PHP. It used to be everybody does PHP and so it was so
+hard to find anybody who was actually a good PHP developer because it's like, oh, I'm a
+configurator and I can stand up a WordPress site, therefore I'm a PHP developer. Well,
+no, you're not. It's the same with JavaScript. Everybody knows JavaScript. There's only
+some people who are actually really good JavaScript devs. And if you're a really good
+JavaScript dev, you're going to be able to step into a project, whether it's written in
+JavaScript or Go or Ruby or Forran. I mean, you'll learn it. you'll figure it out.
+That's what good developers do. Good developers are kind
+
+[00:26:00]
+of polygotss and aren't afraid of learning new languages. Sure. Yeah. So, just to bring
+us back to topic a little bit, when we're talking about JavaScript, obviously we're
+talking about JavaScript is heavier in these single page application scenarios. And so,
+when you're starting those things off or you're you're picking up an existing one,
+that's where that skill set or those individuals come in very handy because you have a
+heavier need in a particular direction. whichever way you happen to be going if you
+don't happen to have the unicorn that Justin described to be able just to go in do it
+all soup to nuts top to bottom and have expertise in that something else I wanted to get
+into a little bit too is for those that are interested in the marketing aspects of this
+so you know we have arrived at whatever determination that we've made it's going to be a
+single page application it's going to be a multi-page application you know for these
+reasons here are trade-offs that we're willing to make in terms of caching complexity
+here is generally what we would like to see for front-end components, but maybe not
+interactivity to a point now where I want to, you know, start talking a little bit about
+spreading the word and marketing this thing some. So, being able to get this out there,
+ordinarily there's going to
+
+[00:27:03]
+be some sort of a mechanism, whether it's a social media, a campaign or a website that's
+going to market this application or utility, something outside of word of mouth, right?
+So, teetering a bit into search engine optimization. So, SEO related to a single page
+applications and multi-page applications. My kind of take on this is the the multi-page
+application which is more traditional would seem to orient itself better towards search
+engine optimization because you're getting that page load every time you're you're
+moving between different pages which are organized for different purposes versus
+something that a browser and more specifically a search engine the Googles of the world
+will be able to interpret on something that's entirely in JavaScript and something
+that's entirely loading just the template effectively that's all that search engine sees
+but talk to me a little bit Daniel about SEO O as it relates to single page application
+versus a multi-page application and some pros and cons there. Yeah, I mean SEO is huge.
+I gave the example earlier about why you shouldn't do your marketing site in Angular and
+React. You want to have a quick first page load. So I mean that's huge. You're going to
+get dinged by the search engines if you have a big bundle. The other thing with the
+single page app
+
+[00:28:06]
+is you want to have lots and lots of pages on your site potentially. So, if you want to
+do something where it's like a marketplace where people are going to come and buy
+t-shirts or or shoes or something like that, you probably want to have a page for each
+of your kinds of shoes, kinds of shirts. So, somebody goes and searches for I want a
+alligator eating a potato on a t-shirt, they're going to find your t-shirt with an
+alligator eating a potato on it. And if you build the entire thing out as an SPA,
+getting those routes actually really hard. It's very easy to have, oh, here's your
+landing page for Joe's t-shirt shop, but trying to find the individual t-shirt is going
+to be really hard. And so we actually worked with somebody a while ago who built their
+entire marketplace app in React and then they ran into this hurdle of oh nobody can find
+our individual product pages and they came to us and we went and figured out a way to do
+what's called serverside rendering which now gets into a really silly place for me with
+SPAS but this is really common now cuz people solve this problem like well we want to
+use Angular we want to use React but we also want to be able to have these pages that
+load quickly. we want to have routes that work where somebody go to slasht-
+shirt/alligator and get the
+
+[00:29:08]
+alligator t-shirt. So what they actually do is they now render that on the server. The
+server will say, "Okay, we're going to build up a whole index of all these pages and
+we're going to compile them from the React source code to figure out what should be on
+that page so that we then have this page that can be rendered directly by the server."
+And now it's like I feel like you're just the dog's eating its own tail. I was about to
+say you you seem to be defeating the purpose of having that fast load, right? Well, the
+upside is that once you go to that page now, everything's very interactive and snappy
+and zippy for the user. You're really only generating these routes for people who come
+in specifically to that URL. So, I mean, there is an upside to it, but to me, you're
+biting off an awful lot of work and it feels very silly to me to try to solve the
+problem this way, but a lot of people do it. It's very common. Another thing just to
+tack on with that that you're creating the complexity you introduce to your website when
+you do this is hard to understand as a non-developer because now we have a codebase that
+I'm looking at that I used to be able to assume was happening on the browser with the
+user and now half the time it doesn't. Half the time it's also happening on my server
+and I have to know in my own head that this
+
+[00:30:10]
+front-end code is sometimes going to run on the server. It is really unintuitive and
+there are people who are experts at it. I am not. But I do see many junior and mid-level
+devs super twisted and confused because it boggles the brain. And again, I I just if SEO
+is important to you, a lot of end up in the single page land. And maybe there's an
+answer for that. I'm not saying it's never the right call, but it seems like if you're
+SEO doing a product index, like the last thing you should be really like enthusiastic
+about is moving into a single page application. There are examples of Amazon, but our
+customers don't have the resources of Amazon, right? Yeah. Well, so it would seem to me
+that's something that you probably want to try to establish early in the process, if not
+the outset. Is that something that's going to be important to you later because that can
+dictate the route that you take, right? Yes, I completely agree. And also, just to say
+it, cuz some Google Analytics nerd is going to be upset. Yeah, Google is doing ever
+increasingly better job of actually interpreting JavaScript and and they are improving
+their search engine, their scrapers, and crawlers to be better at this. So, work is
+being done. It has gotten a lot better. They are rolling out updates. I'm not an SEO
+goon, so ignorance claimed, but yeah, I know they are doing work on that. Well, it's one
+
+[00:31:12]
+of those situations where it's not going to go away anytime soon. And so, you either
+have to embrace it as part of the the development environment or you just have to let it
+go away. And they're choosing to not ignore it, which is good. I would say one pretty
+interesting framework in this space that is worth looking at is Nex.js. Nex.js is trying
+to be this hybrid everything application. So, you write it like it's a monolith. You
+write it just in JavaScript. Basically the front end is React and you can designate is
+this a React component that only renders in the client or is this something that
+requires server side capabilities. You put this directive at the top of it. You say oh
+use client or oh use server and if it says use client now you can't talk to the server
+pieces. That now needs to become a client side only component. But it's actually like
+eerily natural to write an application like this I have to say. I mean I've only worked
+on a few Nex.js projects and they they all feel a little kind of gross and slimy. I'm
+not going to lie about that. But it starts to feel like pretty natural where you're just
+writing this and it's like, "Oh, I'm writing this web page." And yeah, at some point
+it'll be figured out whether this is on the client side or the server side, but you
+don't really need to worry about it too awful much. And and again, I mean, the whole
+thing top to bottom is
+
+[00:32:14]
+JavaScript. I still think it's a little immature. That's one of the main reasons I
+wouldn't recommend it for people is it's just a new technology, but I don't know.
+Next.js is definitely something to watch out for in a general sense you talking about or
+just Nex.js. Next.js is a new technology. Yeah. Yeah. But JavaScript in general, I mean,
+that's been for for ages. Sorry. Yeah, I I just want to get clarification there. I mean,
+we know that some of these programming languages have been around for an eternity. Have
+you heard about this new language called JavaScript? How about HTML? Have you heard of
+that one? No, JavaScript is very mature. Next.js is very new. Good deal. And all this
+time I thought I was writing XM script. Uh, fun times. So, I feel like we're building up
+also this list of questions that need to have answers at the outset and things that if I
+put on my business owner or or startup person hat, we need to be aware of obviously
+going into these situations as you're ready to have these conversations with wouldbe
+developers or development shops or recruitment or hiring as you will. The obvious stuff,
+how do you want this thing to look and work? What's the interactivity with the user?
+What's the problem that you're trying to solve for? Is performance going to be an issue?
+And if so, what performance elements are are going to be
+
+[00:33:18]
+an at issue here that we need to deal with? Is SEO something that's going to be
+important either to the application itself or just in general what you're trying to do
+around it? And something that Justin just touched on very early, but I made a note on
+because I did want to come back to it, is the offline capabilities. We're obviously in a
+very connected world and it's becoming harder and harder to find a place in the world
+where you're not connected to something, but I could think of quite a few instances off
+the top of my head where that offline capability is important to be able to complete a
+document or fill out a survey or fill out a form or some data and things along those
+lines. So, all of those are becoming very important questions, but I've saved the big
+one for the end because it's going to open up a can of worms. I know. And Justin is
+going to tell me that this should be an entire podcast by itself. But security between
+single page applications and multi-page applications. Security just in a general sense
+would seem to be a little more difficult to deal with in the land of single page
+applications because you are you're putting all the business logic and all the heavy
+lifting on the browser on the end user. And Daniel, you even mentioned earlier that
+there are some inherent security risks with that, not to mention some of the
+
+[00:34:20]
+long-term things. So I want to talk a little bit about securing these two different
+general kinds of applications and and some of the caveats or complexities or issues that
+we might run into with those. So I want to go to Justin first because I know he's got a
+lot of experience in the in the security space. So Justin, give us a quick little
+rundown on the comparative here between the two as it relates to security. Yeah, it's a
+big question. It's a lot to tackle. There's probably a bunch of different facets of it.
+Maybe someone who's a really good single page like React or Angular developer who
+doesn't have too much backend or database experience, but you have a hammer and
+everything looks like a nail and they're, you know, good enough to be dangerous. So,
+they can step into the back end and set up like a little API that like this little bit
+of like work probably with like a database. So, back to our full JavaScript stack, we
+have a little React called React front end. Then, we've got a little node server that
+just is really thin and just acts as like an intermediary between the database. Then
+we're stuffing this all into a a database which has no relationships and no structures
+and is basically for lack of a better description a giant folder full of JSON files.
+That could be really problematic for security especially if you have all of your front-
+end logic doing all of
+
+[00:35:24]
+your authorizations and things that people are and aren't supposed to see and things
+that's all happening in the front end. The first thing we do when we pentest something
+is we set up a proxy between our front end and the requests that go out and then we just
+capture those requests and do whatever we want with them. So if your front end is
+enforcing this mechanism and your back end is depending on the front end being a nice
+guy, that's a problem. And it's really a lot more common in the context of single page
+applications, especially when there's someone who's a really good front-end developer
+who picks beautiful stuff but maybe doesn't have that security or application
+background. And then just to tee off on that with this database construction, often
+times that's just not the right call because these relationships should be enforced and
+are really important or maybe there are other reasons that like you need to do reporting
+later for example. Maybe the other reasons that mongre just aren't the right call for
+whatever your business is and you got shuffled into this because someone's like, "Oh,
+it's just JSON objects. That'll be easy." So yeah, having the back end not do its own
+security and then maybe lacking some of that database enforced validation and structure
+from someone who's maybe not super talented with databases or specifically how to
+configure So those are big no nos on the front end. Single page applications we
+basically don't see cross-ite scripting in
+
+[00:36:26]
+anymore. So I'll give them the win for that. They I mean I'm sure you can write and I
+know for a fact you can write XSS in them, but they make it a lot harder. So that's a
+big one for single page applications. These frameworks and stuff have really helped out
+with front end security in terms of XSS XSS for them. And I guess the bundle library
+problem is a separate issue where it's not like a full-time job to keep these libraries
+up to date. But did I miss anything big that you would add on to that Daniel? Yeah, I
+mean I don't really think that security is a big consideration for me in deciding
+between whether to do a an SPA architecture or more of a standard monolithic
+architecture. There's just different considerations. Definitely five, six years ago,
+well maybe going back further than that, I don't know, a while ago, it was very common
+to find XSS vulnerabilities all over the web. I mean, they're still there for sure. And
+an XSS vulnerability is basically you stick some nasty code into some user input
+somewhere that you can then get to to basically execute scripts on a user's browser. Or
+you could do it with like a URL parameter. So you send someone a a link in their email,
+hey, click this
+
+[00:37:29]
+link and win a million dollars. and they click it and then it actually executes code on
+the browser. And so this was a really common I mean it still is a problem but it has
+actually gotten a lot better in the world of SPA because Angular React it is so hard to
+write an XSS vulnerability. I mean you can still do it. I see people do it all the time.
+Believe me I work with some bad code but in general it's pretty hard to do. So I think
+on that side technologies like Angular and React have really made that a lot better.
+Yeah. One of the big ones, I mean, Justin talked to this as well, and I don't want to
+beat it to death, but authorization should really come from the back end. And that's a
+mistake that people tend to make when they're working with these architectures. Oh, we
+hit the button, you can't see the button, and therefore it's safe. It's very hard to
+make your backend policies match your front end. There's been a lot of efforts to try to
+make this happen, but it's very challenging. Security by obscurity, right? Absolutely.
+Absolutely. And especially when you have one developer working on the front end and one
+developer working on the back end. I mean, it's very hard to make these two things sync
+up. And so, you often times wind up in the situation where, oh, there's a button on the
+front end, you click it, you get a big nasty authorization error, like, well, that
+
+[00:38:31]
+should never happen. If there's a button on the front end, I should be allowed to click
+it. I'm locked in. I should be able to do it. But you should always be starting your
+authorization from the back end from the API endpoint. You should say when before it
+goes to the database, we're going to make sure that you are actually able to update this
+record. And if it causes an error upstream, that's fine. That's on the next guy. So, it
+should start there. A lot of these apps, they don't start that way. A lot of them they
+they just start with the front end if we're going to hide the button and we're never
+going to make sure it's secure in the back end and it's a big deal. Daniel, you just
+made me think about something too. A lot of times on these single page applications like
+the the backends end up being really thin which arguably is a benefit but I think other
+things will happen where people upload all their maps and all their source to publicly
+facing things and all the applications in the front end all the application is publicly
+available and they're not obscuring it or taking these other actions sometimes. So an
+attacker can go and download your entire application, all the logic. They can host it at
+a different place. They can point it at their really thin, really easy, fast to write
+back end. It's definitely a vulnerability for people making exact replicas of your
+application that are literally indistinguishable for the user except for maybe the URL
+and then piping
+
+[00:39:34]
+that off to some little tiny server that they control. And that's a thing that happens a
+lot in front of applications is people don't take the time to to minify and jumble and
+obscure their front end code. as also just an IP concern where you don't want people to
+download literally your entire or 95% of your application because all your business
+logic is in the front end. Fair enough. Yeah. And like I said, I know that security in
+and of itself, that's like a whole series of conversations and different things that we
+can talk about there, but just hitting those high points. So guys, we're about at time,
+but want to come back to any last thoughts, Daniel or Justin, on single page application
+versus multi-page application, questions that might need to be answered, just things in
+general that you might want to tell somebody that's moving into the application space or
+someone who is looking to turn their application into a software as a service just to
+make sure that they're considering. Let's start with Daniel. Yeah, I mean absolutely. If
+you are a SAS founder, if you're looking to build a SAS product, I don't think there's
+any reason that you should run scared of somebody saying, "We're going to do this as an
+SPA." I also don't think there's any reason that you should just embrace that with wide
+arms. I think there's a lot of questions you have to ask
+
+[00:40:36]
+yourself. And we've touched on a lot of them here. Are you trying to build something
+that's optimized for SEO? Are you building like a marketplace that people need to go to?
+How important is interactivity? How important is responsiveness? I I think there's a lot
+of things you need to ask yourself and there's not just really like a a one-sizefits-all
+solution. I think for a lot of things if you're coming in and you're going to have a
+really mobile app forward business, that's basically what you're doing is you're making
+a mobile app and you want that to also be on the web. You want people to go to it and
+you also want to minimize your development time on that. I think that's a really good
+time to be considering doing something in React Native. If you're going to build your
+mobile app in React Native, then you can use React Native web or straight up
+oldfashioned React web to build the the front-end part of the web application. I think
+that makes a lot of sense. If you're trying to build something like Facebook, a social
+media site where people click a like button and you want it to light up immediately, I
+think there's very strong argument to be made for doing an SPA. If you're doing
+something that's more business software forward, uh I think generally in those cases,
+you're going to want to look for something that's more monolithic. You're probably going
+to want to look at I mean, I'm a big fan of Ruby on Rails. That's my jam. So I
+
+[00:41:39]
+would say I I most things I'd probably just encourage you in the direction of Ruby on
+Rails I think is probably the good call there. But yeah, I mean I I don't think there's
+a one-sizefits-all solution, I guess, would be my takeaway. Sure. Justin, final
+thoughts? Yeah, I mean I think it's complicated and no two sides are the same and like
+yeah, it's not like it's super you can't just like make one recommendation for
+everybody. My kind of flowchart for deciding where to recommend somebody starts with is
+there a strong reason we shouldn't do it in Ruby on Rails? And second question is, is
+there a strong reason that Ruby on Rails front end and visual UI and interactivity
+features won't support what we need? And I very rarely answer no to those. I mean, it
+does come up sometimes. To Daniel's point, having one monolithic codebase that powers
+the entire front end and I can send that to the Google Play Store, to the App Store, and
+have that same codebase power the web and all that stuff works together, that's
+beautiful and powerful and absolutely a win. And that's a great reason why you wouldn't
+want to use Rails for the front end. So I'd answer if this is primarily a mobile app on
+React React Native all day. I think there are categories of applications like if you're
+making a calculator or something that just maybe there's some really complex
+computations that have to happen but you don't want to just like
+
+[00:42:41]
+have an Excel spreadsheet with a giant numbers of sheets and formulas. Yeah, if it's all
+just front end and you're entering data and spitting it back out, there's a lot why
+would you have a backend for that? There's no reason to. It's another huge win for when
+you might use a single page application. But yeah, those are the two main ones. I mean,
+there could be other considerations, but primarily if you're not looking at one of those
+two things, I I think it's probably likely that moving to a a single page app is not the
+right place for you. Especially now that the Turbo is a thing like Rails interactivity
+features now are just so powerful that unless we're going to put this in the app store,
+I just don't see the reason. I'm really glad you brought that up. Can I give a spiel
+about Turbo? Well, I think if you're going to have the conversation about SPA versus not
+SPA, I think you'd be remiss not to talk about all the cool things you can do with Turbo
+in Ruby on Rails these days. So Turbo, this whole thing started as Turbo Links way, way
+back in the day, super early on in Ruby on Rails land. I think it's been around since
+like Rails 2 or three. I mean, it goes back a long ways. And basically the idea behind
+Turbolinks is that we're going to cache a huge portion of your page and then when you
+click a button, we actually use JavaScript and we talk to the server and we ask the
+server, hey, how would you render the page? And it would be like,
+
+[00:43:42]
+well, here's how the page would look after we render it. And then JavaScript would
+replace it for you in the front end. So, you're not actually really running a front-end
+application, but there's a JavaScript library that is running in your application that's
+reaching out to the server and asking how it should render it. That has now evolved
+dramatically from there. And these days, we have a Turbo Stream, which is just
+incredible. Turbosam is like you click a button and the button goes and makes a request
+to the server and it actually will do like the same post request. So, if it's like a
+delete button, you'd make the delete request back to the server and you say, "Hey, I
+want to delete this user record." And the server then answers with this teensy tiny
+little snippet that says, "Hey, here's how you need to update your DOM." And the browser
+just does that. The browser says, "Oh, okay, great. So that user records just gone.
+Great." And then just removes the user record. And that's the whole update that comes
+back from the server. So it's still happening on the server. The server is still
+updating the database. The server is still figuring out how to render the view, but
+you're not rerendering the entire page. You're just rerendering this tiny little
+snippet. And so it's super snappy. It's super responsive. I guarantee if you sit down
+and use an app that's been well built using modern turbo technology, you'd probably be
+like, "Oh, this is
+
+[00:44:44]
+probably written in Angular or React or Vue or Ember or any you see these other ones
+until you actually look at the source code and you're like, really? This is Ruby on
+Rails. That old dinosaur that's been around for decades, like yeah, that old dinosaur
+has some pretty cool tricks." So, so Turbo's pretty awesome. And I would definitely say
+consider that for pretty much any application. I mean, I think there are exceptions,
+mobile apps and all sorts of things, but definitely where I would start be the same as
+Justin. You bring me an app you want to write, a web application you want to write.
+Yeah, why wouldn't we write it in Ruby on Rails? And you'd have to make a strong case
+not to do it for me to start going down my flowchart and finding another answer these
+days. Fair enough. I think we found one of Daniel's favorite topics. So, I'd have to
+have him back for unloading all things fun with Turbo. Yeah, absolutely. Turbo is
+absolutely fantastic and it gets you all of that interactivity and sexiness you're
+looking for interaction, but not solving the issues of the mess and nightmare of state
+management and caching. So, it's a good mix indeed. and answer some of those earlier
+questions, too. Thanks for cruising along with us on SAS that app. We hope you grabbed
+some insights that were valuable, inspiring, actionable, or at least
+
+[00:45:47]
+entertaining. If you enjoyed the conversation, don't forget to subscribe, leave us a
+review, and share it with your network. Until next time, keep building smarter, not
+harder, so you too can sass that app.

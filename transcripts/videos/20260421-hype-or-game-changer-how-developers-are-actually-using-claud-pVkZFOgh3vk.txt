@@ -1,0 +1,595 @@
+Hype or Game Changer? How Developers Are Actually Using Claude Code
+===================================================================
+
+Video ID:  pVkZFOgh3vk
+URL:       https://www.youtube.com/watch?v=pVkZFOgh3vk
+Published: 2026-04-21
+Duration:  00:36:03
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The bottleneck in our process has [music] changed from writing code to reviewing it and
+to validating it. We can produce an infinite amount of code. We can review a very small
+amount of code as humans [music] in any given day. Welcome to SAS. that app building B2B
+web applications. The podcast where we share real world stories, practical advice, and
+tech insights for those building or thinking about starting a tech enabled business. I'm
+your co-host Aaron Marjech. And I'm Justin Edwards. Each week we bring you the stories,
+strategies, and insights you need to build your SAS or tech enabled business smarter,
+not harder. Let's dive right in. Mr. Aaron, how you doing? Doing pretty well. Doing
+pretty well. Finally enjoying some spring time out here. I don't recognize that bow tie.
+Is that a new one or just one from deep in the collection? It could be both. I I quit
+trying to keep track. I don't have like a rotation of, okay, I wore this one two weeks
+ago, like church or something like
+
+[00:01:01]
+that. So, it could be from any time. I I just I grab the one that kind of matches the
+shirt. All right. Well, something something for you to improve as we move into quarter
+two, sir. You should You got to have a a bow tie schedule. Get the rotation down. We got
+just a couple housekeeping items. We are very close to one year of doing SAS. that app.
+This is really close to our one-year show and we're really really busy as our our other
+guest today will tell you. And we're moving back to going every other week on the show.
+So, if we start missing a Tuesday, that's not an accident. It's planned. We're pulling
+back to doing just every other week instead of every week cuz the the weekly cadence is
+pretty brutal. So, just want to let everyone know that up front. >> [gasps] >> Now
+that's out of the way, I can introduce our actual guest today. He's the the wizard of
+all things code. The guy I spend most of my time internally working with on projects and
+have for like a decade or better at this point. Nolan, welcome to the show. How's it
+going, my friend? Doing well. Thanks for having me back. Absolutely. Yes, a return
+guest. We We don't have too many of those this year. Yeah. This This is time number two
+or three for you. Three. Three, I think.
+
+[00:02:05]
+Our most featured guest then, but uh >> [laughter] >> Way less nervous this time. It's
+after like, yeah, if those idiots can do it, I'm sure that I'll be fine. So, uh >>
+[laughter] >> Cool. Well, today we're digging into into Claude, not specifically and
+only Claude, but that's the thing that we've been using and getting a ton of value out
+of lately. So, I brought uh Nolan cuz he's, like I said, our our head practitioner. But
+Daniel and Aaron and I are also right in the trenches working with Claude and wanted to
+give you guys you guys an overview of kind of the different pieces of Claude and how
+we're using it, what's going great, what's not going great, and how you might get some
+value out of it also. So, Nolan, do you want to give us just a quick kind of definition
+on the separations of the different Claudes and what you're using to actually write
+write code these days? Sure. I am mostly using Claude code and Codex in my terminal at
+this point. Um I find myself like using browser-based tools less and less. Pretty much
+all all, you know, in the terminal. Um I haven't really ventured beyond Anthropic and
+Open AI models at this point. It's mostly just just uh Opus 4.5 and
+
+[00:03:10]
+or 4.6 now and whatever the latest Codex model is. Awesome. Yeah, so also using uh
+Claude Claude code. Um so, like functionally what that looks like is you open up at
+least for me, I open up my terminal on Linux and I type Claude and then I have a chat
+interface that is aware of like the project and the code base that I'm I'm working on.
+Are you in the same thing? Are you working with any different tools right now? It's all
+terminal-based, yeah. It's solely terminal. Cool. We're talking about doing a part two
+maybe a part three of this. I think some other folks on our team are working with this a
+little bit differently, so that'll be interesting to um tear into. Uh what are some
+examples of kind of type types of tasks or types of things you're getting to Claude
+code? So, you you pop into a project, you got something to take care of, you type
+Claude, what's like the next steps? Yeah, I mean, everything depends on kind of where
+you're at in that project. Uh I've used it to scaffold out, you know, a new application
+that we're starting from scratch. I've used it to do bug bashing and like, you know,
+feed it Sentry errors to try to get it to help me figure out what the issue is and like
+a you know, from a from an obtuse like iOS stack trace. Um I've used it to help me plan
+features. I use it for UI UX design work at this
+
+[00:04:13]
+point. I pretty much use it for in some capacity for everything that I'm doing, you
+know, throughout the day. Uh it's very rare that I'm working on something without some
+kind of AI assistance at this point. >> Because of that, have you found yourself like
+coding less or just coding differently? Absolutely coding less. The amount of I'll put
+like raw handcrafted code that I've pushed in the last, you know, four months is
+minuscule compared to what I've been doing every day for the last 10 years. Like it's
+it's it's it's fallen off a cliff, but I'm still very much kind of engaged in the
+process. It just looks very different and the actual the amount of code you have to
+write as a human is just massively de- decreased. So, for for those of us that are like
+non non-developers anymore, uh is is this would you would you classify this as more
+like, you know, like auto complete on steroids or is this like having a partner
+developer that you can just feed stuff to, like a ticket, and it and it gives you back
+results and you're QAing it? Where would you put it on the spectrum? I think it depends
+on how you want to use it. I'm using it kind of more in line with the latter. It's much
+more like
+
+[00:05:15]
+it is a co-worker that I'm delegating work to. I'm thinking about the problem with and
+kind of handing work off to. Um when when I kind of started experimenting with Claude
+code back in November of last year, it felt very much to me like kind of a natural
+progression from managing, you know, a human co-worker to just managing an AI co-worker.
+It's very very much the same thing. Um but you can be as involved in that process as you
+want to be. You can hand off, you know, massive plans to it and just kind of let it run,
+you know, run through so tokens and do its thing, or you can kind of step through things
+a little bit more incrementally, hold the reins a bit tighter, and and and work with it
+a little bit more closely. So, what do you find that works well in terms of like
+striking a balance between those controls? Is that mostly like depending on your style
+or how mature the code base is or I'm both trusting the tools more and kind of letting
+them do their thing and trying not to interfere with what they are good at, while at the
+same time stepping in for things that I know they are bad at. And it took a while to
+kind of develop an understanding of what that looks like. Yeah, I mean, I I often kind
+of start with like a high-level plan, let it let
+
+[00:06:19]
+it run a bunch of cycles, and kind of burn through you know, most of the output, and
+then I'll I'll step through things incrementally, fix issues as they come up, address
+education edge cases, things I don't like, things that I know are going to be kind of
+problematic long-term. Um so, it's it's a bit of a mix. It's a bit of a mix. Like I do
+want it work unsupervised and then I'll step in and kind of supervise, you know, all the
+things I want to see changed. So, is that kind of like like in terms of like maintaining
+code quality and looking for like reuse and that kind of things that we're looking for
+to be good as developers, is that kind of uh a later phase or is it something you get on
+a couple of different levels? Like make sure the planning is correct beforehand and then
+clean up afterwards. Code output is still pretty dependent on quality, you know,
+prompting and quality input. Um it's you know, you There There is some element of kind
+of like re-rolls are important because some, you know, the the the stochastic like
+output and stochastic nature of these models means that like you know, the the output
+the first time is going to be a little bit different from the output the second time and
+it doesn't it often doesn't nail it, you know, the on the first on
+
+[00:07:21]
+the first roll. So, I kind of have accepted some some margin of slop and and problem in
+in in output, right? So, like that's just a part of my workflow is that I know the first
+the first iteration is never correct. I know I'm going to need to step in and kind of
+clean things up afterwards. And sometimes that means improving code quality, like, you
+know, try to dry things out by, you know, adding utility functions and helpers
+throughout so that, you know, it's not it's not copying and pasting things everywhere.
+Um there is still a lot of that. Um but yeah, I think for the most part I'm kind of
+arriving at the conclusion that these models are very good at writing code. And for the
+most part, I can kind of just let it do its thing and and step in after the fact and and
+clean it up. >> So, you talked a little bit about trust. Do Is there like a Is there
+like a type or category of tasks that you trust it with immediately versus something
+that makes you hesitate? I mean, have you started being able to kind of put those into
+buckets of, okay, I know this one is going to be okay. I'm going to give it this one.
+This one I'm
+
+[00:08:23]
+going to take though cuz it's never going to get it right. Is there Is there a balance
+like that or is it just I'm going to throw stuff at it and where it fails I'll teach it?
+>> I think it's more the latter. There There really isn't for me there isn't a really
+kind of clearly defined line between tasks I tasks I trust it with and tasks I don't. Um
+just because I do think that there is kind of some element of of of uh you know,
+randomness in in what you get. So, I I mean, like I said, I think I'm using it for
+pretty much everything at this point kind of at all levels of complexity. And it kind of
+feels to me like even for simple tasks, there is there is still a need for somebody to
+kind of go in and clean things up after the fact. And it's the same for very complex
+tasks. Yeah, I find that its intuitions for user interfaces are really bad or at least
+very out of line for my vision. And I have a hard time putting my vision into the
+prompt. So, usually what I would end up with is I work end up with a working
+implementation and then I would go through and tear it apart on how it implemented user
+interface. It'd be like, no, you need to do this this this this this this and this. And
+it does a pretty good job of cleaning that stuff up after the fact. Um but if I'd say
+one thing that I'm seeing that I don't think it does a good job with, I think if I
+
+[00:09:26]
+hand a user interface task off to a junior dev, it comes back closer to what I want than
+uh what Claude with on average. Um Which may be an okay segue into the next thing cuz
+one thing I'm not using is any skills related to that. So, you can talk a little bit
+about skills and how those how those work in addressing that work correctly. Yeah, I
+mean, I'm I'm using like two to three skills throughout the day at this point, but the
+front end design skill, which was published by Anthropic, is one of those few. Uh and
+the the difference in output in in design kind of just general UI UX between using the
+skill and not using it is is massive. I mean, with the skill, I can ask often get kind
+of just general themes that are far and away better than something I could do, you know,
+on the fly. Something maybe maybe not quite as good as what our designer can do, but you
+know, it's it's leaning more in that direction than like the slot that I would produce
+just just kind of out of pocket. Um so I do as interesting it is as it is, like these
+skills are just simple markdown files, but for whatever reason, like just telling LLM
+not to implement this same design that it will implement by default without the skill
+seems to
+
+[00:10:28]
+just produce something much more interesting and visually appealing. Yeah, I don't think
+that you're alone in that assessment, either. Somebody that we're probably going to have
+one for a a part two of this, Steve, he's already over the moon with what it's doing on
+the output side, on the user interface side, cuz he likes to work in that direction
+rather than back to front. He likes to get the UI looking the way that he wants it and
+then implement the code based on that. And And he's he is very excited about several of
+the things that it's generating. So I know he's he's kind of seeing that, too, and he's
+utilizing those skills as well. Yeah, Steve is doing a bunch of different stuff. Uh He's
+engaging [clears throat] with it a little bit differently than I think than we are. So
+that's one of the reasons I want to bring him on. I think Daniel is also one who's doing
+some different kinds of tests, which are maybe less relevant to programming, but uh he's
+really on Musha on a couple things that I want to bring him on as well. So he's probably
+got a couple of episodes here about how our team is working with AI and where we're
+seeing value, which I think is awesome. Real quick, this episode is brought to you by
+Delta Systems, which is what Aaron and I do when we're not talking through microphones
+to [music] you, the people of the internet. We've got a really, really great software
+team here and we love to work with cool people on cool projects. So
+
+[00:11:30]
+that sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab a time with us. We can beat up on your problem together and if
+there's a fit there, amazing, we'll help you out. So deltasystems.com, grab an
+appointment and hey, maybe we can work together. So I guess practically my workflow is I
+write a I write a cloud MD file as like the one of the first things I do before I start
+writing the pro writing a project or working with cloud. And I put a lot of stuff in
+there about like I don't like how I don't want to have cloud manage git for me. Like I
+just maybe I'll get there eventually, but right now I'm very specific about how commit
+messages are. I have like my style for doing that and I've had to do a bunch of stuff
+that has annoyed me or it tried to give itself little attributions in my git messages or
+just commit too much and I don't like that stuff. So I run my own git, which is I put in
+there. Um I have a take a pass on I have a bias towards writing things that are drier.
+Earlier, I would bias towards planning and not just making assumptions. So I mean, those
+are some things that I put in my file. Are you putting some more things in there? Do you
+have other things that you're like really important need to go in the cloud MD so that
+you you can work with these things successfully? I'm using instructions less and less as
+I use these tools more, uh which has
+
+[00:12:34]
+kind of been an interesting interesting evolution. At this point, my cloud MDs maybe
+kind of start with like, you know, a two or three sentence summary of what the
+application is. Uh and then some instructions for verifying work, like running tests,
+you know, running a lint step, uh something something like that. And then a section for
+things I don't want it to do moving forward, like maybe it tries to verify its work by
+running the server even though I already have a server running locally and I'm going to
+verify the work. So just course corrections that I want to make permanent or try to make
+permanent. >> [snorts] >> Uh that's that's about it. Um and I very much started with
+this idea that like the cloud, you know, that your agent MD file needed to be massive
+and it needed to, you know, outline every little detail uh possible. And I think I'm
+starting to realize that that kind of adds more friction to the process and there is
+some element of just like letting the model do what it's good at, like inferring what
+the tech stack is or what the product may be be based on the controller names. Like it
+it's very good at doing these things and I often wound up with these issues where
+
+[00:13:38]
+I had this massive agent MD file that kind of got stale or out of sync over time and
+those instructions were actually conflicting with, you know, features or functionality
+that had been pushed into the code base over time, which was causing problems. So uh I'm
+kind of just letting it do its thing now and adding really minimal instructions where
+needed. Yeah, I I agree with you. I think all the instructions that I add are like
+specific to like code quality things or how to verify tests or like one thing that my
+cloud keeps doing is trying to like install a bunch of Python libraries so it can run
+some scripts to verify something. You're just like, okay, look, if you're going to do
+something like that, just Ruby Ruby's already installed. Stop trying to install Python
+libraries. Um So I did have cloud dump a development database that was full of uh like
+actual data that was very useful to have for testing. And afterwards it was like, sorry,
+my bad, but uh it did it did kill my database. I know Daniel had an issue where he tried
+to run a sudo command on a remote server. It was flushing a production system. Oh. The
+the monitoring does still is really required. Um I guess I have a take on this, but let
+
+[00:14:40]
+me ask you first, Noel, how has like your workload in terms of like how hard your job is
+uh changed or has it maintained or or are you just getting more done? But like has cloud
+made your life any easier or actually harder or the same? Just but different. Yeah, I
+mean my my workload has either stayed steady or increased since we've since I started
+using these tools and I've been a function of part of that is just where we're at as a
+company and and how many projects we have running concurrently. Yeah. Like it it is
+absolutely a force multiplier and it allows you to output, you know, 10x the code that
+you used to, but at least in our business, like the the the work seems to scale with
+your resources. So we just have more things >> yeah. Yeah, we just have more things
+going on at once and and, you know, the AI is helping with that, but like the the way
+I'm kind of spending my time throughout the day is now just different. It's it's jumping
+across terminal windows, managing multiple projects at once, trying to keep everything
+like, you know, as soon as the session is done with this task, I'm I'm reviewing it and
+you know, tweaking it and then moving on to the next one. So it just looks different. Uh
+I think if you're one person working on one one project, like I bet you it's
+
+[00:15:43]
+a massive a massive uh a massive speed up or massive uh efficiency boost. Um and it is
+for me, too, but it yeah, my my workload is just about the same, probably. Yeah, I find
+that it's been a huge bias towards executive function and like all the things that have
+made me a non a non-mediocre, hopefully, uh manager in my life. Uh I'm now managing
+these agents, but all the struggle I used to have of just finding time to focus and
+actually sit down and write on write features, I can now get a lot of progress made on
+those kinds of features in my uh my manager schedule, to go back to to Paul Graham's
+idea of the maker schedule versus the manager schedule. Um And now people who are
+talented and have a lot of technical ability, but operate on a manager schedule, um as
+people who move up the the corporate ladder tend to become more and more managers. Uh I
+think we're actually able to use some of our talent uh to get things done, which which
+is exciting. But uh it certainly has not made my life any easier. Uh quite the opposite,
+actually. It's like now I'm now I have like another like instead of just slack and
+email, I have yet another thing with these three agents who are just pestering me all
+day about and they never ask easy questions. Like at least
+
+[00:16:45]
+junior developers, you'll get a stupid question once in a while and you're like, well,
+obviously this. But for the most part, cloud comes back and it has like these really
+like identified these huge foundational things you didn't consider when you prompted me
+and now I'm like, oh man, I have to think about this, but I'm on a I'm on a meeting. It
+does. I mean, I think I do think that there's a difference in working with these agentic
+tools versus like a super junior or maybe even kind of a a lower mid-level developer in
+that a lot of the time the output is pretty good. It's pretty close to actually like
+what I'm asking for and the the gap in cleaning up that work is often pretty small,
+whereas that's often not the case with a junior or somebody who's kind of kind of a
+little bit a little bit less experienced. So it's not like it's not like managing a
+junior. It's a lot easier than that and much more productive than that, in my opinion.
+But yeah, there is it's it requires it requires my oversight. It's not a you can't just
+set it and forget it. So on projects where you're using cloud to do most of your
+development with, are there are you then just running the server and going in and like
+doing testing? So you're kind of now like a technical QA with agentic powers? Is that
+kind of your role these days? I mean, I we I still offload as much QA to
+
+[00:17:48]
+our QA person as possible for client work. Um yeah, like there's I have found that there
+are a couple of tools that allow cloud to kind of test its own work in the browser. Um I
+mean, I'm you know, I'm we're always we're always adding, you know, unit tests and and
+and integration tests. Um but for the most part, it does feel like I still very much
+have to be able to live for for quality assurance and testing. There's a tool called um
+the agent browser, which was I think it's it's it's published by Vercel and maintained
+by by Vercel. And I found that you can allow cloud to have access to an agent browser
+and kind of just tell it to, you know, do an end-to-end test in the browser of this
+thing that you just did and it does okay. It's not perfect, but, you know, it might find
+kind of the low-hanging fruit of of the bugs that it just wrote and and and help you out
+a little bit, but yeah, it still still very much requires a human for testing. I have
+cloud will talk out big features and write tons and tons of code and then it's just like
+every step of the process that it wrote is busted is busted in some by some way and you
+have to go through and fix it. I mean, to be fair, with the way we write code, we do the
+same thing. But it seems like cloud will get to a
+
+[00:18:50]
+point where it's like, I'm done with the project and you're like, well, there's an old
+point if there's an old point exception in the first page that I tried to load, it seems
+like you should have been able to figure out that this page was going to have a syntax
+error or whatever. I have found that using a variety of models for each change has
+eliminated some of those kind of obvious issues. So my workflow at this point often
+looks like I'll plan something out in cloud, let cloud take the first pass in
+implementing that feature or, you know, bug fix or whatever, and then have uh codex do a
+local code review of all of the changes that cloud has made and kind of break those down
+and point out flaws or help me harden the harden the implementation or whatever. And I
+do find that having there's kind of an element of just like throw more tokens at it and
+and let a variety of models beat up on it and you I have found that the output tends to
+be a little bit better. Um I don't know what to attribute it that to. I think codex just
+feels like it kind of steps through code a little bit differently than cloud does. Uh
+maybe it has kind of a broader understanding of of the entire application.
+
+[00:19:52]
+Um but I have noticed a massive decrease in just kind of obvious bugs by using a
+combination of models. So how does that interplay? Like how do you coordinate that
+interplay between agents when you're when you're doing that? I have Claude code running
+in one terminal and Codex running in in another and they're just in the same in the same
+directory and they're just looking at the same code and kind of picking each other's
+changes apart. So if like Codex identifies something that Claude did that you want to
+fix, do you have Codex run the fix for it or do you actually have you have it inform
+Claude what it wants done? Depends. Sometimes I'll ask Claude if Codex's finding is
+valid and explain to me why it is either valid or not valid. So I'll have them I'll have
+them do a bit of a debate between each other and and see what happens. Um but I've I've
+found that Codex is often good at fixing bugs Claude wrote and vice versa is not often
+true. So I've I'm kind of treating Codex as like the manager in the the the code
+reviewer but that before I get to it essentially. So it kind of it eliminates some of
+the manual review uh work that I need to do. Just to kind of shift around a little bit
+because we're we're kind of
+
+[00:20:54]
+leaning into is AI actually replacing people at this point? Um I know that you are
+working on several projects with other developers utilizing uh Claude. So I'm just I'm
+kind of curious how how Claude Claude code Codex has changed how you collaborate with
+those human developers. The bottleneck in our process has changed from writing code to
+reviewing it and to validating it. Uh we can produce an infinite amount of code. We can
+review a very small amount of code as humans in any given day. So managing the amount of
+features and code that is pushed in, you know, through PRs on a day-to-day basis is is
+is uh is still a problem that like we're trying to finger through. Um there's also it's
+so easy to kind of let the agent take the reins and lean on it a little bit too heavily
+to understand what this application or product is supposed to do. And as humans we
+naturally kind of want to use the tool and offload that, you know, intellectual
+responsibility from
+
+[00:21:59]
+ourselves, which I think is a serious like a serious problem that we need to address. Um
+I've had issues where kind of neither the developer who is implementing the feature or I
+understood enough about what the application was supposed to do that I felt very uneasy
+like merging the PR into the code base cuz I just I didn't know. Like I could spot an
+obvious like syntax error. But from a higher level I have no idea if this is correct.
+Like I don't really understand the underlying application. I don't know the business
+needs. I don't know if this is correct. And like there is kind of an element where the
+less the more we removed we are from the code base, the kind of I think the closer we
+need to be to understanding the product like holistically and the business need
+holistically to to to feel confident that what the tool is producing is is going to work
+long-term. I think that's one of the kind of major major issues that I'm still trying to
+figure out and and the code reviewer. So when you do decide at some point that you're
+going to pull in an actual another developer to help you with the project or to just
+take the project up from you or something like that, do you do you share the resources
+that you've
+
+[00:23:02]
+already gleaned from what you've done in Claude? Like I mean, do you do you just wholly
+give them like what the what the MD file is so that they're starting from the same point
+you did? Do do you let them have flexibility in in teaching their instance how they
+write code, how they go about processing things? Uh you know, I'm just I'm just trying
+to get an idea of how do you how do you make sure that what you're producing via Claude
+is in alignment with what someone else is about to merge in using Claude for themselves?
+Yeah, it's it's a good question. I mean, I think we we as a shop are still kind of
+trying to figure that out and I think over time we will have more defined guardrails and
+processes in place for using these tools collaboratively. Um I I think anything that is
+relevant to the project or the agent should be committed to the code base. So it's it's
+there in source code and available to the agent. But I think for a lot of kind of
+personal preferences about how these tools work, I think it's probably fine to kind of
+just let every developer use it in the way that they see fit as long
+
+[00:24:04]
+as it's, you know, it's producing good output and and we feel confident about it. Yeah,
+I think we're still kind of in an early phase where we're trying to figure out exactly
+what managing these tools as as a as a company or an organization looks like. Really
+talented folks tend to get a ton of value out of these tools and I think folks who are
+earlier in their journey on on technology and development are getting like incrementally
+less value. So I think about it is like a there's like a fixed multiple. Say it's like a
+5x speed up or something. So if you were 10 as a developer you're now a 50 developer,
+but someone who's a three is only a 15. Um so it's like the the speed up is like a fixed
+amount, but it kind of like your your base that you're multiplying weighs heavily. I
+don't know if that will always be the case, but um I think having the technical know-
+how, having the business case to your point from earlier, like having the strong a
+strong understanding of what the client wants, what the business case is, what how the
+software is supposed to work. Um And then having like a general experience of working
+with Claude and seeing the stupid things that it does that you have to stop it from
+doing. Like stop stop trying to install and run Python scripts locally when you have
+Ruby and Bash and all these other tools or it does a lot of things that are
+
+[00:25:07]
+silly and I think as we work with it more and more we just get really good at
+identifying like Claude, you're kind of going in circles here. Please take a step back.
+And you can literally just tell it to do that. Like hey, you're spinning your wheels.
+Like look at this problem holistically. Let's go back to first principles and let's
+let's write a fix together because the thing you were doing you're vacillating and it's
+not working. So I I think like how getting a general skill set of like getting better at
+working with AI is actually a huge a huge component of what we're seeing. And it's
+something that we're all learning right now because this stuff became viable months ago.
+And you know, in six months from now someone's coming into this and listening to this
+episode in October or November or 2027 for God help us. I Who knows what the state of
+things will be, right? It'll be posterity at this point. I do really worry about handing
+off tasks to a developer you know, to solve with AI when they don't really know they're
+not familiar with the language or the framework or whatever. Like I do think that having
+kind of a base level knowledge of whatever technology you're working with produces a
+much better much better output from these from these coding tools. And if somebody were
+learning the framework, I would be very hesitant to let them loose on a problem, you
+know,
+
+[00:26:10]
+using AI only AI because I don't think they're going to know what to look for. Yeah,
+that's that's a huge concern of mine, too. And and something that that I I think we even
+put Justin in our uh you know, our prognostication episode way up front is that the
+junior the junior devs that are coming up today, they're going to be better at using AI
+than we are because they started at the very outset with it. But the problem that I see
+is that they're not going to have your skill set to be able to manage it and QA it and
+test it the way that you do. And I'm not sure how they get there or or if there's going
+to be interest to get there. You know, if they're going to use a just an LLM to to be
+their teacher to learn and then they're immediately going to jump over into a into some
+coding models and then just start building and then just kind of go back and forth and
+back and forth. If that becomes the way that you teach yourself these days, I'm
+concerned that it it's going to miss out on like you say the fundamentals of the
+platform or the programming language or the libraries that you're even supposed to be
+working with enough to know hey, why are you using 14 libraries? One will do. Kind of a
+kind of a thing. So it's a concern of mine. That's one of
+
+[00:27:13]
+the reasons I like uh at least for like project structure I like having some extra
+details in that Claude MD not about like what the project is, but like we always So
+Claude for whatever reason loves to write JavaScript. And we just don't write a ton of
+JavaScript in Rails usually. I mean, we we do some for sure, but uh Claude will have
+these very JavaScript forward approaches to solving issues that are better solved by
+using some Rails core features. Not to get super deep in the weeds. But uh you'd say
+just drop that in my Claude MD which is just like yeah, JavaScript should be as light as
+possible. It should always be a Stimulus controller and basically all the stuff should
+be handled in the back end with the exception of like you know, the activity that we
+have to have. And when we need interactivity it's got to be in a Stimulus controller,
+the Rails way, the way that we write code now. And if you put that in your Claude MD
+tends to do these very JavaScript forward approaches a lot less. Um but I still I mean,
+I don't know if you find yourself smacking down Claude doing the same thing, Nolan, but
+I um I do constantly see it writing these like very JS forward approaches to things that
+are better solved by by Ruby features. Totally. Yeah, and like if I when I'm working
+with
+
+[00:28:14]
+you know, an agent coding tool on a React project or some other JavaScript framework
+project, it has a tendency to kind of turn to a plugin for everything just because like
+the majority of human code at this point that it was trained on has a ton of kind of
+extraneous dependencies. So I'm constantly having to tell it like no, don't implement,
+you know, don't pull in this package. Just write the, you know, the 100 lines of code to
+to recreate it or build it better or whatever. So yeah, you definitely have to Talk
+about a junior dev tendency that Claude is now doing over uh >> [laughter] >> Yeah. It's
+definitely Is even JavaScript package. Yeah, definitely a junior dev tendency which is
+like well, I'm not actually going to write code. I'm just going to find a library that
+does that and plug it in. And then you end up with these 500 poorly maintained libraries
+in your code base and you got other problems. Which you know, from a growth curve of a
+human you would expect that, too. So Absolutely. Well, I guess what are like Do you have
+any tips or any like kind of hot hot little learnings you can share with with folks who
+are kind of getting into working with with these kinds of tools on on writing code?
+Things that maybe some some hard word
+
+[00:29:16]
+hard-earned learnings that you have? I mean, I'm still I'm still very much figuring it
+out for myself, you know, I'm a I'm not an expert in any of these things and and I'm I'm
+I'm uh trying to get up to speed like everybody else. And then a huge part of this is
+just like experimentation and keeping an open mind. Um I was in this position where for,
+you know, the last the last couple years it felt like kind of ChatGPT was helpful, but
+that was maybe like where AI, you know, coding assistance had plateaued and I kind of
+didn't pay too much attention to it. And when I wound up about Claude last November, I
+mean, my mind was blown and I was like, oh, the Yeah. the next version of what this
+looks like is here. It's now feasible and I can actually use this throughout the day.
+So, like my my workflow has changed overnight and I think that will continue to happen
+and for every developer, I think like all we can do we we don't know what's going to
+look like in the future, but all we can do is kind of try to keep up to keep up pace,
+stay curious, you know, try things as they as they released and uh try not to anchor too
+too hard to to devices that we establish for whatever [snorts] is currently out. Yeah, I
+think it's a
+
+[00:30:18]
+great time to be uh at the bleeding edge, but uh for like Frogger in particular, we need
+to avoid the hemorrhaging edge, right? So, we're we're staying several months behind the
+cutting the very very bleeding hemorrhaging uh of things, but I think as a but as an
+individual contributor, as someone who's doing their own tinkering and projects, um we
+can we can do much more be much more adventurous. So, like it's one of the reasons I
+love having people on staff who have their own projects, right? So, uh everyone everyone
+we've talked about having on this call to talk about this has their own side projects
+and their own things that they write that are separate from like their day jobs and so,
+like I have a personal assistant that I wrote and I actually I don't even know if I've
+opened up an IDE on that project. Like at some point I got it running so I could test
+things, but like my email triage and all sorts of uh personal tasks are happening and I
+haven't actually seen a line of code on that project, I don't think, maybe. Uh it was
+probably related to like a deployment configuration and you know, I obviously can't do
+that with the customer's code, right? But for my own project, I can do that and it's
+like, oh, I'll be very curious to review that um as it becomes necessary and actually
+see like, hey, I just kind of let Claude do this and I gave it a lot of instructions
+
+[00:31:21]
+about what I wanted, but I haven't actually touched the code or even reviewed it. Um So,
+I don't Do you have Do you have any projects that you've just straight up not even
+opened or reviewed code on, Nolan, or you just like ask Claude to write a project? I
+have some projects where I've written written maybe 5% of the code. So, I mean, you
+know, but but I'm I'm still still in the in the loop. I'm still part of it. Um But I
+mean, it's enabled me to start and, you know, see see side projects through that were
+just hanging out kind of in in the back of my mind for years because I just didn't have
+the energy or the motivation to work on it, you know, after after a long day of work.
+So, these things are are insanely powerful for for a hobbyist or for somebody who just
+wants to tinker and I highly encourage everybody to to play around with them. What is
+the laziest thing you've gotten away with then? You don't have to name a client or a
+project. In fact, I would rather you didn't. But but what is like you know what? I've
+just got to get this done. I don't even care. Do this thing. And just push to
+production. I mean, I've definitely I've definitely had, you know, Claude implement
+sweeping changes on a personal project and just like
+
+[00:32:23]
+deployed it to production without looking, you know, just just clicking create pull
+request and creating, you know, clicking merge right away and uh and just kind of hoping
+it works. So, it yeah, it's it's easy to fall into that, but we definitely don't need
+that for client work. No, we have we have a little more rigor and we have a little more
+rigor in the view, but uh this goes back to like the the fundamental idea of like
+criticality and one of the one of the things that we take over a client project often we
+do is we have someone who is very rigorous and had a lot of opinions about the right way
+to do things, uh but sometimes their rigor and their opinions and their technology
+choices were not really aligned with the size of firm they were working for and we ended
+up pulling back a lot of the rigor, which this sounds bad, but it's kind of like, well,
+you installed a ton of process on something that wasn't really solidified yet and now
+you're you're dragging this process along as you're trying to pivot and make progress.
+There's a sweet spot for Claude in in that in that dynamic where like you need to have
+the right amount of oversight to make sure we're writing good code and we also need to
+take in the number of users in the uh the magnitude of problem uh that we could generate
+with issues in production and have that stuff inform kind of the
+
+[00:33:26]
+amount of rigor we put on um to put onto our code bases. I'm kind of I'm kind of Claude-
+ed out, Aaron. Do you have more? Do you want to talk to Nolan about more things more
+things to do with Claude and Codex and all the other AI things? No, I I guess uh I cuz
+I've I've actually asked a couple of other people this too that that have been using it
+even more in depth than I have in in other ways, but if something were to happen and
+like to get the nuke tomorrow, no more Claude, no more Claude code, what would hurt you
+the most? Like what would bother you the most? What will you miss if there if if this
+just like all of a sudden train wrecks and it's it's no longer? I would miss the the the
+feeling of momentum that these tools can give you because you can you can push so much
+code across so many projects at once. Uh and I think that's about it. I have always
+really enjoyed writing code. That's like my favorite part of this job. So, I think if
+all this went away tomorrow, I'd probably be fine. Um I would miss the I would miss the
+ability to kind of work on my own projects in the background. Uh that has been really
+empowering and and super awesome, but yeah, I think I think I would be okay if it went
+away. I don't think it will. Oh,
+
+[00:34:28]
+I don't either. I was just curious. Yeah, I think the uh the open source models that are
+out there are increasingly competitive with a few months ago's models and unfortunately,
+the first model that I thought was great for prime time was a few months old, but in a
+year we're going to have an open source model that does what we can do today and we'll
+be able to solve some of the other concerns um especially with um shipping code off to a
+third party. That's a big concern for some customers and some clients and um at this
+point there are there are answers for not doing that, but if you run an open source
+model locally, that's a great one. Um Amazon Bedrock is potentially another one. Uh so,
+there are some other answers out there, but I uh I'm very very excited about um the fact
+that this is becoming completely commonplace and we're going to have free versions of
+stuff that's as good as Opus like before that long. All right, just an unavoidable.
+That's what I got. Cool. Let's call it a day then. It's been a hell of an episode.
+Nolan, thank you for coming on. Thanks for telling us about Claude. I uh I selfishly
+invited you on cuz I wanted to know what I was doing wrong. So, I got I got some
+homework to do. Thanks for the info. Yeah, thanks for having me. Absolutely. Aaron, it's
+
+[00:35:31]
+always a pleasure. Yes, indeed. Thanks for listening along. Cheers. Thanks, all. Thanks
+for cruising along with us on SaaS That App. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

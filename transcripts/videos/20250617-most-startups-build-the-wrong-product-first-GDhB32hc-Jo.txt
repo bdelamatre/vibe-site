@@ -1,0 +1,473 @@
+Most Startups Build the Wrong Product First
+===========================================
+
+Video ID:  GDhB32hc-Jo
+URL:       https://www.youtube.com/watch?v=GDhB32hc-Jo
+Published: 2025-06-17
+Duration:  00:33:28
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+product was a differentiator and it it no longer is, right? We can all duplicate each
+other's products pretty quickly. Not that a poor product is going to compete with a good
+product, but it's really the market and then the customer experience that differentiates
+companies. Welcome to SAS that app building B2B web applications, the podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host Aaron Marchbanks.
+And I'm Justin Edwards. Each week, we bring you the stories, strategies, and insights
+you need to build your SAS or tech enabled business smarter, not harder. Let's dive
+right in. Hello and welcome to SAS that app. With me as always is my uh traveling
+companion, Justin Edwards. Where are you off to today, my friend? Got to go back to
+Albuquerque. Back to Albuquerque. I I I hope that that good times and fun await you.
+
+[00:01:04]
+Me too, buddy. Me too. Also with us today is Wayne Neil, the co-founder and chief
+product officer at Founders Workshop, where he has helped uh I suppose at this point
+hundreds of founders uh build market ready software that doesn't just look good, but it
+works. He has uh decades of experience leading teams, transforming ideas into scalable,
+fundable products. And Wayne's career has spanned, if I have it right, education, UIUX,
+startups, venture capital. Uh, and today he's here to help us break down what oftentimes
+founders get wrong and what some of the best teams get right when going from an idea to
+their MVP. So Wayne, welcome to the pod. Yeah, thanks Aaron and Justin. Happy to be
+here. So Wayne, I want to jump right in. You've worked on many sides of the somewhat
+round table, I suppose, as a founder, product partner, developer. So when a new client
+comes in the door uh and says, "I've got an idea for an app." What is your like initial
+reaction or question to them? Yeah, it depends, right? If if it's a BTOC app or B2B,
+depends on how developed their idea in is. But I I usually just start by,
+
+[00:02:09]
+you know, why don't you tell us a little bit about it and where the idea came from. It
+depends you know the founders sometimes they are non-technical and so they they just
+have an idea and by non-technical I also mean they they don't know how to describe all
+the features of their app either they might have this one kind of core idea and you know
+how it might evolve but they don't know how to translate that into a whole set of
+features let alone requirements and how to you know build a piece of software and I lost
+track of how many times somebody has come in I to make the best e-commerce experience
+ever. Like, awesome. That's a slidy scale. Let's uh let's get into some nuts and bolts.
+So, at at Founders Workshop, you have um what you call the 5D process that that I'm
+imagining helps. Um so, would you share with our listeners what that 5D process is and
+and how you have found some success with it? Yeah, it's a it's a process that we can
+all, you know, follow in the company and also lead the client through from their initial
+idea all the way through to implementation
+
+[00:03:11]
+and support. And so our first um uh D1 we call it is the is the discovery process. And
+that involves many things. It it often um like I said involves having that conversation
+with a a client to understand their idea. But most importantly, we recommend and suggest
+and often conduct what we call market validation research. So we will um talk to their
+clients or potential customers or current customers or whatever the situation may be to
+really get get to the truth as quickly as possible as I like to see say um you know
+getting out of the building and getting out of the founders's head so that we can really
+understand the needs and we're not asking people you know hey what what feature would
+you like to see it's more about talking about what problem do you have today? Or what
+problem are you trying to solve? And how do you do it today? And then if we have an
+idea, we might introduce the idea at some point
+
+[00:04:15]
+and say, well, if we had this idea that operated like this, um, what would that do for
+you? And so we're not looking for them to give us the ideas, but more to gather insights
+so that we can then translate that into features and requirements. Sure. Yeah. I think
+it's it's always critical for startups, founders, clients, those in the seauite,
+technical or not, to understand how software is a kind of collaborative process, right?
+And the thing that you wind up with more often than not, is something different than
+than what you started with. It's to varying degrees. you know, someone comes in the door
+with this idea, you go through this discovery type of a process, uh, and then you
+actually go through the iterations of of developing it and and sometimes you wind up
+with something that's slightly different or completely different at the end depending on
+how that process goes. So, how do you coach those individuals to either better
+understand that process at the outset or for those that are hearing it for the first
+time uh, to not get defensive about their ideas? Yeah, we we walk them through the
+process. What
+
+[00:05:19]
+really works is the research with their with their clients because it's it's real data
+and we can present that data. We can present clips of what people are saying, things
+like that. And it almost immediately settles any, you know, discussion controversy you
+may have or any bias that the founder has. And we're usually trying to get over those
+biases because every founder, you know, thinks their idea is wonderful. And and a lot of
+times it is, but it often needs refinement and often needs adjustments. And what the
+research really tells us often is what features are more important and what's a priority
+because a lot of the a lot of people want to build I call it a space shuttle and their
+first product, you know, and it's like well we don't have to you don't want to spend
+that much money or that much time. let's build something quickly that um we know solves
+the problems and then um iterate from there and so um they they often you know they
+listen to
+
+[00:06:23]
+their own customers and then um you know refine their thinking accordingly. So the first
+stage of the process is to kind of identify what the problem is that's being solved and
+then to take data from people who would actually use and or pay for this product and
+bring that to the founder the entrepreneur um to kind of validate the idea and also help
+them kind of drive product and that's kind of the D1 step. What's the next step on
+moving into D2? Yeah, it would be D2. So D2 we take all that information including our
+you know our own ideas and by that time we had had many meetings with the client to
+refine the requirements or the features and then we get our UX and UI design folks
+together to begin to visualize those ideas and that's where um we see especially
+founders but uh clients really get excited because it's the first time they're seeing
+their idea visualized And we're not trying to, you know, design the final product, so to
+so to speak. Our initial concepts are really
+
+[00:07:26]
+to to continue to visually think about the idea because it's like, you know, like a lot
+of people like myself, um, if you were telling me to how to interior design my house, I
+can tell you, you know, when it's done if I like it or not, but it's very hard to tell
+in the in the uh process. But because prototyping is so rapid, right, you can you can
+put something out there and then and then refine it really quickly, you know, based on
+the customer's idea and feedback and then at some point we take that prototype back to
+those same customers. Again, not the exact same ones, but the the target or ideal um uh
+customer profile and and pass those ideas and that prototype uh through those customers
+to again iterate on the idea, refine ideas, prioritize concepts, prioritize features,
+etc. So that D2 can take you know one to three months depending on how much we iterate,
+how many ideas there are and um it's often
+
+[00:08:31]
+um an expansion of ideas and then a refinement of ideas into you know something in into
+the prototype. And then D3 is our software development phase. So that's when we actually
+you know build but we're all we're all always designing and building at the same time.
+You know we're following an agile approach. where, you know, as we have some things
+approved, development is taking that and building it while we're still designing other
+parts of the system. And then D4 is our deployment. So, how do you go from a, you know,
+a staging environment where everything is built into an actual live and and deployed
+environment. And then our D5 is the support and maintenance which we support our
+clients. But oftentimes, especially for founders, it's building that 1.5 version or you
+know, things we learn from or version 2.0. And so it includes uh those phases as well.
+So when do you know that you're ready to move out of D2 and into D3. So you've got your
+your prototype, you take it back to your potential customers, back to the market, and I
+assume that that there's a couple of iterations that
+
+[00:09:34]
+happen at that phase. What's your signal that it's kind of time to go into into
+development into the actual expensive part where I see most the money is spent which is
+building the software? We know usually so from doing this for so many years I have found
+that even the best designers won't get things right you know your in your first
+iteration but after four to five iterations um it's pretty pretty well locked in. So you
+have about a you know 85% probability that there'll be no usability issues and that you
+know there's some probability that the features really do solve the problem that
+customers have and that this is going to work and then it's really um and so that's when
+you know and and then it's you know putting it out in the wild and as you experience you
+know real data coming in and real customers interacting you you'll find that other 15%
+and be able to iterate. after after being live. I love that. Uh one other question kind
+of on the in the prototyping phase. How do you control for things that are cool
+
+[00:10:38]
+that people like but maybe that they won't pay for? So this is a cool feature or as a
+customer I like having this but it's not something I would actually put money down and
+and buy. Do you have some way of testing that as well? We hold their code hostage. No,
+we want those cool features. You know, it's off it's it's interesting. It's often us
+that's constraining the customer rather than the other way around. And so they're
+usually wanting to do the cool things, um, more things, bigger things. And we're trying
+to constrain it down, you know, just limit the ideas. And we want to I often define I
+have this picture of an MVP that's a triangle. You guys may have seen it where on the
+bottom it's like functional, usable, desirable. And people often think MVP is you just
+build a little bit of functionality, but the the way I define it is a slice that goes up
+the side. So you have functionality, usability, and desiraability. And so that's what
+we're kind of aiming for in an MVP. We wanted we wanted to capture
+
+[00:11:42]
+all the magic a cool feature or two and you know the functionality that's relevant and
+important so that you get you know good relevant feedback and can make decisions about
+how you extend the product or pivot you know in those cases do you ever run into
+instances then when somebody wants to like I'm assuming you do but jump a step uh in
+this process you know it's like okay well we've done this we've done this first round
+you guys have done some discovery this sounds Great. I I want to I want to go right into
+design and building. Yeah. And we've had clients that say, "Well, you guys are great
+designers, right?" And you know, how do you answer that other than yes, of course. And
+and then it's like, "Well, then why do you have to do the research? Just design the
+application." And so in those situations, it's um it's just a matter of educating the
+client. And we try to emphasize that it's in your best interest and you're going to be,
+you know, have a higher probability of being successful. And we are not going to
+compromise our process because if we
+
+[00:12:46]
+build something that we don't like, it's going to reflect poorly on us and it's going to
+reflect poorly on you. But are there are there any like particular techniques or secret
+sauce underused underrated stuff that that you think founders should be leveraging
+during that other than just kind of the standard fair of questionnaire interview polling
+that sort of a thing or or is that yield the results that you you like? Yeah, Erin, our
+our secret sauce is to not do focus groups or surveys. Okay. Because um I like that. I I
+like you. Yes. those things are biased um in a number of ways and and they're hard to
+control and and so therefore the data is unreliable and it's hard to interpret. So we um
+we prefer ethnography and there's a couple different forms of that. One of those is um
+direct one-on-one interviews and those are the most powerful. And so we again, you know,
+we will interview, you know, usually six to eight clients. Um it depends on a couple of
+different factors, but we we'll spend about an
+
+[00:13:48]
+hour interviewing um those potential clients to to really get at the key insights that
+we're looking for. And as you get to the sixth, seventh, eighth interviewer, um you you
+begin to see the patterns. You begin to see the insights really come through. And so in
+a focus group, you can be biased about a whole bunch of different things or other people
+or who's talking the loudest. And so we don't use those techniques. Sometimes using a
+survey along with the interviewing is okay because then there's a correlation and you
+can look for those um correlations and and and really use the data to refine your you
+know features and ideas. Um the other one is to immerse yourself into the environment if
+that's possible. So, in a B2B situation that that usually um involves going on-site in
+their work environment and just hanging out with them and seeing what they do and do
+they just sit at their computer or do something or do they go somewhere else and access
+other information that's key to the system that you would have never
+
+[00:14:53]
+discovered had you been in that situation. And the and the third form is just
+observational. So usability studies fall into this situ uh into this uh method where you
+just you're sitting people down doing representative task with the software and
+observing their success and failure rate and being able to um ask questions or in a in a
+real live environment. Again, it's also being able to sit there and observe people using
+something like a kiosk or an ATM or you know situations like that where you you can't
+observe. The thing that uh usually I emphasize with people is um you guys know this um
+you know you have this term UXUI and they use it together and it really does a
+disservice to the industry and so you really want to find UX people and by that I mean
+people that have studied you know human behavior and psychology and the methodologies to
+measure human performance and it's it's the skill and
+
+[00:15:57]
+and the knowledge that comes from those practices that you want to conduct this
+research. Whereas UI, they're typically graphic designers and they may be really good at
+interaction design, but they couldn't even tell you about a single research method. So
+getting getting into a little bit more nuts and bolts of of that development and
+deployment processes, you know, you've you're reading your history, you've led a lot of
+different teams, a lot of different team makeups, you know, US nearshore partners. How
+how do you kind of build trust within your organization or between your organization and
+who you're working with across these like distributed teams? You know, it's not a here
+I've got two developers and they're going to be working full-time on your project. This
+could be somebody in four different states. It could be someone out of the country, you
+know, how how do you how do you help people understand that this is a good approach and
+this is a good mix and here's how we're going to leverage everybody's skills. Are you
+referring to kind of the the remoteness of people and the distributed team or is the mix
+of skills within that team? a little bit of both, but but more more
+
+[00:17:02]
+the distribution of the team itself and and building trust with people who you know
+sometimes come in the door with well I only want to work with people who are like in
+your office like you know full-time your your guys right where that's that's gone away
+especially with you know the time of covid and things like that but but even before then
+remote is the way how do you comfort people in in knowing that this is this is okay
+we've got a great team they're just not all under one roof yeah you know we don't really
+run into that too much people don't really um you know care too much about that. I think
+we we don't serve large enterprise clients and I I think they are they usually maybe
+have more of a preference of having people on site. They have bigger teams and there's
+more you know dynamics in play. Um we usually have small teams of you know five to six
+people on a project. we intimately get to know the client and they get to know us and
+they're interacting with us on a usually daily, you know, basis. And so that trust
+develops over time, but it really starts in the beginning where, you know,
+
+[00:18:06]
+we never hold back our our thoughts given our experience. We we want to tell people the
+truth. If that means they're going to go away and not use us, um, you know, that's okay,
+you know, but we we want to help people out. we've as you know founders many times over
+we we've seen you know the good bad and the ugly and we we want to share those
+experiences. So I think right from the beginning it's building that trust and they I
+think they sense that they're getting you know authentic advice and you know we we lead
+our clients too. We we tell them that this is what we're going to do and this is how to
+do it and this is why we're doing it and um as you begin to work with them they see
+evidence of that. Right? If you if you begin to make mistakes and fail, then you're
+going to lose that trust. But, you know, we build that trust over time and then every
+day with our clients. Have you ever had anybody try to put the brakes on, you know, at
+that particular point? You know, when when you are rightly uh, you know, helping the
+client understand what it is they're actually trying to solve and these are some
+
+[00:19:08]
+approaches that actually will help them get there, but it differs from their viewpoint.
+you know, do you do you ever have anybody be like, you know what, no, this this is not a
+good fit for us, you know, it's got to be our way and and that's really just kind of the
+end of it. Do do you ever run into that? Trying to I'm trying to think of that. Um
+trying to think of a scenario where that happened and I can't think of it off the top of
+my head. Usually, you know, like I said, it's it's a conversation and we tell people why
+we, you know, think the way we do and and where it comes from and if if they want to go
+a different direction, then they're they're happy to do that. But I I don't remember a
+situation where that's happened. No, that's fair. And lucky you. Yeah, it does. It does
+pop up. Justin and I kid sometimes, I mean, we talk ourselves out of business
+periodically, too, because, you know, perhaps there's something that's already off the
+shelf or there's something that gets somebody 50, 60, 80% of the way to what they're
+doing and that gives them enough and, you know, rather than trying to reinvent a wheel,
+they'll they'll cobble together
+
+[00:20:10]
+something that could serve as an MVP and not engage with, you know, a development shop,
+for example, to to do any custom work or even integration. And so that's that's really
+kind of where my question is coming from is as you are leading a client, you know,
+leading the horse to water as it were, uh, you know, that may be away from you, uh,
+rather than toward you. The other side of that coin that we do experience is the founder
+who has an idea, but they're not sure, you know, and and there's a lot that goes in
+right at the beginning of any project is when the ambiguity is the highest. And so our
+goal is to use methods and techniques to reduce that ambiguity so that they can make the
+decision to go to that next milestone. And so, you know, Jake sent us um a client once
+who wanted to uh he had an idea for his B2B industry and he's in the industry and owns a
+company doing it currently, but just wasn't sure. So, we got together with him and did a
+bunch of that market validation research and and validated the ideas.
+
+[00:21:14]
+And I've seen it again and again after just finishing presenting all the research.
+They're like, I'll write the check right now. Let's go. They get so excited about the
+idea because it removes some of that ambiguity. So, that's kind of the other side of the
+co that coin that we see more often. So in terms of like the develop developing and
+deploying where your customers are working with with their team with the the folks who
+are actually doing the the development the deployments and all that what are those
+communication points you mentioned that you did you did an agile process. Can you speak
+a little bit to to how that looks when you engage with somebody like the communication
+with the client where that happens how it happens? Yeah, I'm your customer and I'm
+looking at what you're building and I want to change the color of a button, but also I
+just talked to someone in a bar last night who says that it should do Y and I have all
+sorts of ideas about what I want to do with my product. Again, it's usually a
+conversation. Uh I'll usually tell them why they don't want a red button even though it
+uh sometimes is required by their wife or someone at the bar like you said. And so we'll
+talk through, you know, again, I'll usually present, you know, research that has been
+done on that. I can find
+
+[00:22:17]
+research that that you know has been done and have that conversation. We talk on a daily
+basis. I know years ago before I was part of the company, we had a single individual
+where the client would it' be that single point of contact and then that person would
+would interact with all the people on the team. And I changed that so where our whole
+team interacts with the client. So once we get things going, the project manager manages
+everything, but often the client is engaging directly with our designer in the in a
+Figma comments, they're engaging directly with the developer when something doesn't work
+and they found an error or or something like that. And then, you know, they are you
+they're having that discussion. And usually it depends on the client. Each client has a
+different preference for communication and we'll ask that early on during the discovery
+session. We'll we'll ask people about, you know, whether whether or not they want to
+really be involved intimately in every aspect of every decision or whether they
+
+[00:23:21]
+kind of prefer more the weekly check-in and that and that kind of thing. But often our
+clients um will will want to be much more engaged and they're they're engaged on a daily
+basis meeting weekly to review progress that kind of thing. We also have staff
+augmentation clients and so in that case we you know put um individuals on their teams
+and so they're managing the project and managing that and so in that those cases they're
+interacting directly with the individual. Cool. Makes sense. I think that uh that
+communication between the people doing the work and the people having the vision is
+super key. We do a similar thing. Some customers really want a single point of contact
+in which case we we can accommodate that but it's in general much smoother and we have
+many fewer issues with communication and redoing work if we can get the people doing the
+work in the room with the person who who's dictating how it should work. So it's one of
+our learnings as well. Completely agree. Yeah. If you do it long enough, you you
+realize, right, that that's the better way to do it. So, the application is deployed. Uh
+and and
+
+[00:24:25]
+I know uh and we have also talked to folks that are like, "This is great. I'm now going
+to go disappear and raise funds around this or I'm going to go, you know, kick the tires
+on it for 6 months to a year and then come back." Uh one, do do you see that uh type of
+a thing happening? And two, how how do you go about talking them out of it as it were
+since software is living and breathing especially after an initial launch? We don't see
+that too much. We have a customer called um Buzzy B U ZZ that they launched a
+application to charge electric vehicles out of people's homes. So you can decide to set
+up a a charger in your home and then rent it out to cars that that want to come and
+charge. And so they they built the initial MVP. They pivoted a little bit from like
+consumer and houses to um large apartment buildings. And they're getting a lot of
+traction. They're raising money, but they they are as they do that, they run into new
+requirements, right? New ideas. And so they they do
+
+[00:25:29]
+come back to us and either want us to continue to develop or enhance those requirements
+or in some cases a lot of clients will switch from you know a project team to a staff
+aog team. So as they raise money as they get traction they'll start to bring that
+inhouse a little bit augment that team with our folks and at some point you know switch
+maybe to an allin-house team which we've seen that as well. So, um, we try to live along
+with the clients and kind of meet them where they are and it it tends to work out well.
+Oh, that's great. I love that the the notion of staff augmentation, you know, you always
+you always get into since you're since your business is softwarebased, it would make
+sense that you actually had somebody inhouse on your team that understood software that
+could at the very least do the, you know, the hot button urgent, you know, quick fixes
+that might be needed as you're as you're planning out your road map. And I think it's
+something that often gets overlooked, you know, is over the course of a process is, you
+know, I need to continue to budget for maintenance and maybe that maintenance budget
+turns into a human being. Yeah, it could. And it's
+
+[00:26:32]
+interesting, too. We have one client who um literally invented and is the godfather of
+CRM and I won't mention his name but but he's building another application and he's he's
+hired our um staff augmentation uh folks and he's like I don't I don't think I'll ever
+need to hire an internal team because you know along with that comes you know larger pay
+and benefits and and all these managing people when they just want to get the work done.
+And you know, as long as we're delivering and delivering consistently and those people
+are are living in their world, you know, so it's it's very much like an employee without
+all the so-called baggage of of having to hire someone internally. And so he had that
+revelation and you know, as long as now he's a you know, been in the software industry
+for 50 plus years. So has a very strong vision and understanding of software and what he
+wants and needs and how software works and in that case this scenario I think
+
+[00:27:37]
+works well for him. So definitely had that early on uh early on with some customers who
+wanted to hire people all over the US and make a great product this great team and it's
+like oh do you want to pay tax in Ohio and Missouri and Seattle and California and and
+it's you got like 25 quarterly filings you're signing yourself up for and you're not big
+enough to have a department that handles that. So, you're going to do it and if you if
+you don't love that, uh, maybe consider a different approach. Right. Exactly. Exactly.
+Well, you know, and and it used to be that, you know, product was a differentiator and
+it it no longer is, right? We can all duplicate each other's products pretty quickly.
+Not that a poor product is going to compete with a good product, but it's really the
+market is is where the definition and the customer experience that you can build is what
+differentiates um companies. And so, you know, maybe maybe this guy knows something, you
+know. So, stepping back now big picture, you know, we kind of we kind of work through
+through the the D's as it were. So, a couple of different things I want to I want to hit
+on here.
+
+[00:28:42]
+There has been, and you mentioned this much earlier in the podcast, so I'm kind of
+wanting to come back to it, but I'm trying to frame it as a question. You kind of talked
+about the triangle. You talked about this notion of uh, you know, build stuff fast, get
+it out to market, fix it later kind of an approach and and I think that we've probably
+hit it at various points along the way. But if you could wrap it up with a bow, why is
+it that that type of an approach is not great? Why is um building things small and
+quickly and getting it out in the market not a good approach? Yeah, build it fast, build
+it ugly, get it out the door and then and then we'll address it and fix it along the
+way. Basically, in the pie example you gave, taking only that bottom tier as opposed to
+having a slice of the whole thing. It depends, right? I've seen a lot of technical
+developers that can code. They just want to code something really quickly and get it out
+there and they miss the other parts of the pyramid. And so they're they're not getting
+the feedback that they need or or the feedback is kind of non-existent or you know it's
+really
+
+[00:29:46]
+really silent you know because they're not getting any feedback because they're not
+addressing those other human needs other than just the functional piece of the
+application. But I do believe it's really threading the needle, I think, in defining
+that MVP, like what is enough to to get that reaction and to get the learning and and
+and the product's certainly going to be inefficient, right? Especially if it's competing
+with something that's already in the marketplace. So, you do have to do something a
+little special, a little different, you know, to be able to get that reaction and to get
+that validation to keep going versus, you know, this is not the right thing. So I sort
+of do believe in I very much believe in in building small and fast and getting it out
+there but it doesn't mean that you don't do the research right you you still talk to
+customers you get those insights you make sure that you're solving real world problems
+and if you're solving someone's problem either saving time saving money or you know
+complying with something to keep them
+
+[00:30:48]
+out of jail then you're gonna you're going to get you know traction and So, um I I do
+believe in that, but some people can go too fast. And I don't know if this is what
+you're getting at. They kind of rush and go too fast and cut wind up cutting corners or
+there's just this notion of, you know, whatever it is can can look terrible and as long
+as it works real quick. Yeah. Yeah. Exactly. I think that's where it's missing that that
+human experience, right? and and so we've we very much follow that human- centered
+design philosophy and experience and that the technology needs to meet the experience
+rather than the other way around. And so um we let the experience drive development
+rather than technology. So, one more kind of big picture question then and I'll wrap us
+up. But having having talked all the way through this and I'm sure that you have
+different examples for different circumstances and such, but even if you needed to group
+them together, where would you say then that most teams or founders or developers or
+startups go wrong between their idea and the MVP?
+
+[00:31:53]
+Somewhere along that spectrum, where would you say most of the time it goes wrong? if
+it's going to go wrong. Most of the time in my experience is they focus on the minutia.
+They focus on, you know, every little detail and they try to build too much rather than
+focusing on their customer and solving a real problem. I I think that is the nail on the
+head. Said a lot with that statement. True. Yes. We could dig into that for another
+hour, but uh yes, absolutely. Well, uh, where can where can folks uh, find you or where
+where can folks connect with you? Either online or Yep. They can find me on LinkedIn
+personally under my name, Wayne Neil, ne or foundersworkshop.com. Awesome, Wayne. It has
+been a pleasure. Thank you for sharing your time and your talents. Uh, we've been
+talking with Wayne Neil, co-founder of product, chief product officer, sorry, at
+FoundersWorkshop. Uh, special thanks as always to, uh, my my traveling partner over
+here, Justin Edwards. Uh, I'm off to the airport. off to the airport now. So, we'll get
+him out the door. Thanks
+
+[00:32:56]
+as always to our listeners as well. We'll see you all next time on SAS That App. Thanks
+for cruising along with us on SAS That App. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

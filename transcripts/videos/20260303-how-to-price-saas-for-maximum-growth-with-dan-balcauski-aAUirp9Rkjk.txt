@@ -1,0 +1,764 @@
+How to Price SaaS for Maximum Growth with Dan Balcauski
+=======================================================
+
+Video ID:  aAUirp9Rkjk
+URL:       https://www.youtube.com/watch?v=aAUirp9Rkjk
+Published: 2026-03-03
+Duration:  00:51:51
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Just because you added an AI feature does not mean it has value for your [music]
+customers. A lot of these AI features I've tried in products. It's like, yeah, it's
+interesting. It only works about 50% of the time. And now you're going to charge me more
+for this thing that works 50% of the time. As soon as I put a monetization gate in front
+of it, [music] that's going to stop my adoption flywheel. >> Welcome to SaaS That App,
+building B2B web applications. The podcast where we share real-world stories, practical
+advice, and tech insights for those building or thinking about starting a tech-enabled
+business. I'm your co-host, Aaron Marshbanks. And I'm Justin Edwards. Each week we bring
+you the stories, strategies, and insights you need to build your SaaS or tech-enabled
+business smarter, not harder. Let's dive right in. Hello and welcome back to SaaS That
+App. As always, I am your co-host, Aaron Marshbanks. And with me today, as almost
+always, uh either here or here, uh
+
+[00:01:03]
+usually, is Justin Edwards, my partner in crime. How's it going, Justin? Hey, never
+better. Had a uh somewhat eventful uh weekend, as you may have uh picked up on if you
+saw the news, but uh all in all, not uh not doing too bad. Yes, Justin is hanging out
+south of the border where there has been things going on. >> [laughter] >> So, but happy
+to report, safe, you know, safe and sound. Um but yes, and and finishing up the house,
+right? Yeah, the house is basically done. This is not a virtual background. This is
+actually my mess, so that's exciting. Yeah. I I I noticed that as well. It's like that
+that's great. Things are going to start feeling a little bit more settled with that.
+Also with us today, our guest is Dan Balakovsky, founder of Product Tranquility, where
+he helps B2B SaaS companies uh design pricing and packaging strategies that actually
+reflect the value of what it is they're delivering instead of just guessing or doing
+what other competitors are doing or just, you know, going with the gut and charging what
+feels right. So, Dan has spent most of his career uh kind of at the intersection point
+of product and
+
+[00:02:05]
+strategy and growth, worked across startups, large organizations, um led a lot of
+product initiatives, and and dealing firsthand with uh what we're going to be getting
+into today, which is one of the hardest problems in software, and that is how to price
+something in uh a meaningful kind of tangible way that's fair and or scalable and or
+aligned with businesses uh and models that you're trying to build. So, through Product
+Tranquility, he partners with SaaS founders, and and that's kind of how he he gets them
+across the line. So, if you've ever launched a feature, had no idea what to charge for
+it, underpriced it cuz you're afraid of losing deals, looked at your pricing page and
+thought, uh this is probably not the best way to go about it, uh we're going to get into
+all that today. So, Dan, welcome to the pod. Thanks for having me. It's good to be here.
+Absolutely. So, first things first, uh what pulled you in the direction of technology?
+Uh you know, was this something that that was like gold for you since the get-go? Did
+you Did you fall into it? Did you get in there sideways? How How did you get here? Yeah,
+I've been in uh the tech space my entire career, uh probably going back to, you know,
+high school. Uh was I'm a nerd, so really did well at,
+
+[00:03:08]
+you know, math and science and those type of things, and um took uh my first programming
+classes in high school, and decided, you know, to go and get a computer engineering uh
+undergrad. So, started out my career as an engineer, and then moved into product, got an
+MBA along the way, and uh been running my consulting firm for a little over 6 years now,
+which is kind of wild to say, and now I have the uh privilege of helping, you know,
+founder CEOs and their teams divine pricing and packaging that helps them, you know,
+turn pricing from a strategic liability into a core strategic asset. So, at uh what
+point along the journey there did you decide this is going to be the focus? Pricing is a
+problem, packaging is a problem. I want to attack that. Yeah, that's an interesting
+blend, right? I think uh like any good career, it's a blend of luck, uh experience
+{slash} wisdom. Wisdom is what you get when you get experiences you don't want. Um and
+then uh some natural inclination or talent. Uh as I mentioned, I'm a nerd, so
+
+[00:04:11]
+uh I think my preconception before I got into pricing, you know, explicitly, was
+pricing's very analytical, very data-driven. And there are pricing worlds that are like
+that, and we may get into what it looks like in B2B SaaS or elsewhere. In B2B SaaS, uh
+there's definitely analytics to it, uh but it also is a significant blend of psychology
+and uh understanding. And we think about uh idea like customers' willingness to pay for
+something. Willingness to pay is a measure of desire or motivation. It's similar to
+measuring happiness. Um and so, it has a lot of interesting principles of consumer
+psychology that you have to understand. And then, uh yeah, so it blends a lot of
+interests and then, you know, happenstance along the way. For sure. So, you've worked in
+companies, obviously, you know, before becoming, you know, a pricing wizard, the the
+wisdom part of that, right? Uh so, so when you when you get into and and I'm assuming
+there there are many places where your your line of work and and our line of work kind
+of cross over,
+
+[00:05:13]
+you have to almost become a subject matter expert with the people that you're helping,
+so that you can understand, you know, their market, their customers, and things like
+that. But when you're when you're on the inside, when you're getting in here, you know,
+how do you help founders approach pricing? You know, what what when you get in, what are
+what are the places, the specific elements that you look at that deserve attention that
+that, you know, kind of kind of drive what it is that you want to get them to see? Yeah,
+well, I think maybe first is helping them with a misconception that is pretty rampant
+when folks think about pricing. You know, when it comes to SaaS pricing, most executives
+think that what you charge determines success. In fact, who and how you charge
+determines your success. So, uh unpack that a little bit, you know, that first part,
+people think about what you charge. A lot of the initial preconceptions are all around,
+what's the number? You know, we're we're charging for this product. Should it be $19 a
+seat or should it be $99 a seat? Or should our prices end in fives or
+
+[00:06:16]
+nines? Uh those are all super interesting questions, but they tend not to be the biggest
+leverage points. >> [snorts] >> So, you know, in this conversation, I may say pricing,
+but I'm always talking about pricing and packaging. And so, that really gets into that
+second part of who and how. So, I kind of hinted to this before, thinking about
+willingness to pay, it's a measure of of desire or motivation. That often comes from a
+particular customer or group of customers, what we call a segment, their specific
+situations, their motivations, their current constraints define that level of desire or
+motivation. And then, how we charge, breaking packaging down into its different
+elements, like the price metric, the unit of value you charge customers for. Are you
+charging per seat or per number of contacts in your database or number of pipelines in
+your CRM, right? It could be any number of things. Or the pricing models, is it
+subscription, perpetual, pay-as-you-go, some sort of hybrid of those? Uh is it What are
+the offer configurations or bundles that you're putting
+
+[00:07:18]
+into the market such that your differentiated value as you graduate between, for
+example, tiers. A lot of companies in the B2B SaaS world use good, better, best, that
+that's clear and consumable by your uh customer, right? Because you might have, for a
+mature, even semi-mature software product, you could enumerate a couple hundred
+features, right? And so, if we tried to sell those as a Chinese menu of features, like,
+you know, first of all, your sales people aren't going to be able to explain it. Your
+customers or prospects aren't going to be able to understand it. So, we need to put
+those together into uh bundles or offers that are coherent, that solve distinct use
+cases, that are easy to communicate, uh right? But so, a lot of the work goes into that
+packaging aspect. And of course, at the end of it, we need to put a price point on
+something, but it's really at the tail end, and it's usually no more than, I would say,
+at most 5% of any given pricing exercise is really figuring out what that number is at
+the after back end of all that work. So, if you wanted to be a little data-driven about
+
+[00:08:20]
+this, new personally who became customers kind of through your connection with them, and
+now you're trying to develop the pricing >> [snorts] >> uh that works to address the
+market like more generally and to go find people who aren't coming to you from word of
+mouth or through connections. What are the things that you coach people to look at to
+start developing a sense of like segmentation if we're going to do good, better, best or
+or maybe there's certain modules that people need and other people don't. Uh what's the
+way to engage with that initially? Yeah, it really depends on, you know, when you say
+you're bringing a new product, right? I can take that kind of from two ways. You know,
+there's the early-stage company where they don't have anything in market, uh which might
+be very different than if you're already in market and you have a portfolio already, and
+now you're adding an additional product, right? Your understanding of customers and
+dynamics and what they've been asking for in those two cases might be very different.
+You know, I would say the latter case, you're going to have a much stronger hypothesis
+of what is going to satisfy customers. The early-stage company, right? Anybody going
+through a Y Combinator program or anything else, right? It's like you're starting from
+zero. We got this idea, we
+
+[00:09:22]
+think it might be valuable. Now we got to go talk to 100 people net new to go figure out
+is this something that they're struggling with and and is it a problem that they need to
+have solved. You know, there's a couple of different assumptions buried in your
+question. I would say, you know, when you're at the earliest point in your development,
+so I'll start with the new company cuz it's a cleaner sheet of paper. I see a lot of
+companies that maybe try to innovate in areas that don't require innovation off the bat.
+Is that really required for market success for you to have that? And so, when you think
+about something like good, better, best, it's a really nice starting point. It's not the
+best solution for every single scenario, but it has a lot of things going for it. It
+relies on a lot of tried and true methods of consumer psychology and choice
+architecture. It's relatable for your customers, right? So, even going back to something
+like price metric, if I'm creating a new CRM, well, who's the absolute market leader in
+that
+
+[00:10:26]
+space? It's Salesforce. What does Salesforce use for a price metric? The number of
+seats. If I come up with a new product and I'm like, "Well, I'm not going to charge you
+by the number of seats. I'm going to charge you by the number of, I don't know, the the
+number of I don't know tokens our AI uses on the back end to to to, you know, help your
+sales team, you're going to have you're just put yourself in an uphill battle, right?
+It's very similar not the same, but has similar characteristics to, if you're, you know,
+there's a lot of buzz about this back in the day when people were like, "Oh, you have to
+create a new category." It was like, "Yes, the there's companies that do create a new
+category. It worked out very well for them, but they're few and far between. There's
+many, many successful companies that did not create a new category because creating a
+new category is hard because every time you're like trying to create something in the
+frame of mind of an entire market, it's very expensive and difficult for them to to
+reference versus you're like, 'Hey, we're a CRM. We charge by seat.' This now we can
+talk about a differentiated value proposition. This is how we're different." So, like
+that's a long way
+
+[00:11:28]
+to say a way of saying, like, "Don't be afraid, especially at the early stage, of you
+know, this is not copy your competitors, but not trying to out innovate yourself and be
+too clever such that you put yourself in a in a a bad position." I would say early stage
+as well, there's, you know, really a question or a decision to make around price
+positioning. It's kind of rarely talked about, but the early stages like, "Well, what
+kind of company are you trying to be?" I think that maybe the most relatable example to
+this is, "Okay, I'm going to be a watch company. Am I Am I going to be a Timex or a
+Rolex? Cuz that has very downstream implications on the rest of my company and go-to-
+market model and marketing and position, you know, how we talk about it, you know, what
+are approaches to sales, right? Is it Is it very high touch? Is it very bespoke
+concierge because our, you know, a single sale supports all that activity or does it
+have to be highly transactional and volume?" And that's a decision you're not going to
+come at that analytically. I mean,
+
+[00:12:31]
+potentially you have some amount of analysis that says like, "This is what this looks
+like." But that's really sort of a decision point. Are you going to be a, you know, a
+luxury brand? Are you going to be a value brand? Are you going to be, you know, maybe
+somewhere in the middle? And then, you know, at those earliest stages, it's I say all of
+what I said before around don't out clever yourself because those earliest products
+launches and, you know, maybe the first 1 2 years after launch, it's really about does
+this product actually create value? Does it solve the problem we say it solves? And so
+that we have validated feedback. Of course, you want to have people paying for that, but
+you're very rarely is your problem, "Oh, we don't have the optimal pricing and
+packaging." Right? You could really screw that up by being too clever, but you want to
+validate that because if you think about any product launch, all products have a set of
+hypotheses. You build something. It doesn't mean it's actually going to solve the
+problem. It's going to work for customers. You know, maybe you solved it and realized
+
+[00:13:33]
+it wasn't we use the sometimes use the term vitamin versus aspirin. Ours is more of a
+vitamin than an aspirin. Price could give you some of those signals, but my sense is
+that like your product alone is going to give you some of those signals, and so you
+don't want price to get in the way with it, which is very different than maybe you get
+to, you know, 5 million or 10 million of ARR and now you're like, "Okay, the product's
+getting complex enough. We've established a differentiated value proposition. We know
+enough about our customer base, and now it's time to kind of go back and rigorously
+approach this at that point." Real quick, this episode is brought to you by Delta
+Systems, which is what Erin and I do when we're not talking through microphones to you,
+the people of the internet. We've got a really, really great software team here, and
+we'd love to work with [music] cool people on cool projects. So, that sounds like you
+and you've got a problem or you're in some kind of a jam, go to deltasystems.com, grab a
+time with us. We can beat up on your problem together, and if there's a fit there,
+amazing, we'll help you out. So, deltasystems.com, grab an appointment, and hey, maybe
+we can work together. So, what are like the signals that you look for when you're you
+have some customers and you're you're kind of trying to take
+
+[00:14:37]
+your different customers, maybe you're doing segmenting or seeing that maybe there's
+different types of customers that are I mean, they're segmenting, but not necessarily by
+size, and saying like I guess what is your strategy if you work with a company that's
+rethinking their pricing and they have a bunch of customers, how do you go about trying
+to tease signal out of of what pricing might might work better? Yeah, so there's a
+couple of different ways you can look at this. I would say transactional analysis, like
+the data that you have in your general ledger or CRM, um that can be helpful, but
+probably not as helpful as most people think it is. What do I mean by that? Like usually
+we'll go in and we will look at the transactional data, for example, to see do they have
+a discounting policy? Is that discounting policy enforced? Those are two different
+questions, by the way. Those don't always happen together. And And then, what is the
+sort of that dispersion, right? And so you can potentially see pricing problems in the
+dispersion of discounts as it
+
+[00:15:41]
+relates to potentially different customer groups. So, for example, what can happen maybe
+helpful, you know, very tactically is we have a use case. I see this quite often,
+actually. We have a use case that is split across tiers. So, say we're just take we have
+a two simple two tier. We've got a good and a best. We don't have a better, right? But
+there's a use One of those use cases is split between, and so you see customers who to
+solve their problem really need to buy the best, but don't want all have no need
+whatsoever for all the other stuff the best comes with. Yes. >> So, what you'll see
+there is you see that they got sold the best, but they got a really significant set of
+discounts, and that points to a problem of, "Hey, like our use cases should be coherent
+within a package. Like, if we're straddling use cases, you're going to end up having a
+lot of And imagine what that looks like in real time in the sale, right? It's like,
+"Okay, we got the sale." But how many extra calls with sales and
+
+[00:16:44]
+negotiation rounds did that have to go to close that sale versus like, "Oh, yeah,
+Justin, you got this problem. This package is the one for you." "Oh, yeah, that does
+everything I need. Great. Here, send me the send me the you know, PO etc. We'll we'll
+get the contract signed." I'm living this problem right now, so I have trying to figure
+out pricing for a company that I'm I'm working with, and we have one customer who's a
+large customer, and they're very, very happy with their package and happy to pay for it.
+And then I have another customer who's a lot smaller and really wants a couple things
+out of the the better or best tier, but just can't actually afford that tier for the
+size that they are, and but really need a couple things from that. So, we ended up
+basically discounting them down cuz of their size, but I'm trying to like I think you're
+right. I think it's always like a a problem with with how we're packaging this. Yeah,
+and so, you know, that's that's a problem that'll I don't say there's any perfect
+solution. There's always, you know, segmentation is a approach always has, you know,
+somewhat fuzzy boundaries. So, but definitely that could be a a way to, you know, get at
+that. But in general, right, when you're
+
+[00:17:46]
+looking at pricing, especially you're looking at transactional data through a pricing
+lens trying to figure out what to do, it's much like looking at your company strategy
+through last year's P&L. Like, that's what happened. That doesn't tell you what you
+should do. Like, unless it's glaringly obvious of like, "Hey, like we keep on, you know,
+punching ourselves in the face. We should stop doing that." The P&L, right? If you If
+you have a another dimension you can look at, for example, is like your your win rate or
+close rate. Um And what your pushback is on deals that you don't close. If nobody is
+complaining about your pricing whatsoever, you lose no deals to pricing. "Hey, well, we
+got a fantastic win rate." Well, it's probably a problem. You probably means you're way
+underpriced. If anybody's sold services before, you know, having a a talking to a
+prospect, you're like, "Yeah, this will be a million dollars." They're like, "Oh, great.
+Send me the thing today." You're like, "Oh, no." This person probably This person
+
+[00:18:48]
+probably would have bought This person probably would have bought for 10, and now I
+don't know that. Um So, you know, that that is a sort of a dog that that didn't bark
+type signal that you can look for. Uh but going back kind of So, so then So, the
+transactional analysis helps for some, you know, remediate remediation issues. Churn
+customers are also very helpful. You know, if you could do with Well, with loss on the
+front end and then also, you know, retention studies on the back end, that can give you
+signal. Then looking at deeper levels of, you know, what you might call kind of
+unobservable characteristics. So, we're really getting into a segmentation approach. I
+think one problem that a lot of many companies run into is they think about
+segmentation, and they infer that, "Oh, you well, our sales team is divided into an
+enterprise and commercial segment." So, that's our customer segmentation. But remember
+what I said before about willingness to pay. Like, willingness to pay arises from the
+situation, the context that you're in. I don't know any So, sell your say you're selling
+martech
+
+[00:19:51]
+software. I don't know a Fortune 500 CMO that wakes up in the morning and says, "I am a
+Fortune 500 CMO. What software do I want to buy today?" It's like, no, that person has
+got some very specific problems that they're dealing with in their organization. And
+usually what we see when we go and do uh the deeper level segmentation work is that the
+Fortune 500 CMO maybe also looks very much like a mid-market CMO, right? But there's
+there's other characteristics, there's situations, motivations, uh behaviors workforce
+compositions uh that are more telling um that help help you define what those those are
+that then propagate into, "Okay, what is the what are the use cases? What are the pain
+points those people need to solve?" So you you start from that bottoms-up of what is the
+problem they're trying to solve into the capabilities that your platform has to
+coherently package them together to create an offering for that kind of person who's in
+that situation. I want to I want to jump into as we we spent some time talking about,
+you know, I'm
+
+[00:20:55]
+going to start I'm going to say startups or early stage or or you know, these are these
+are good points to be thinking about. I want to jump to a mature company now. So someone
+who's been in business for a while. Uh maybe maybe it's a very I'm going to call it a
+broad type of approach to pricing that's that's like a license model, you know, it's
+just like a per use like, you know, here's this thing, you pay an annual fee or or a
+monthly fee for the licensing of it or something like that. And they find themselves at
+a point to segmentation or at a point where um they need to maybe fork their product uh
+and therefore change their pricing model. How do you how do you help them first of all
+identify if that is something that they do in fact need to do? And two, if they do need
+to change that model and, you know, maybe fork their product or whatever, how do you
+help them change that from like a maybe a license to a per use or a per seat um or, you
+know, per like you said, token? Something something like that that's that's a departure
+from what they have done for years and years with their customers. So these are these
+are often challenging because an existing business
+
+[00:21:58]
+um you know, the the benefit of the incumbent is they've got money. >> [laughter] >> Um
+the the down the downside or weakness of the incumbent is they've got a lot of money
+that they don't want to lose. Um and so uh going through one of these transitions uh can
+be uh risky and painful uh etc. So there's a bunch of like sub questions embedded in
+yours. So I'll just Sorry, I I do that sometimes. All right. >> [laughter] >> I'll just
+I'll just I'll just take like a price metric transition cuz I think this is one that is
+uh most impactful for for companies. Um it can be it can be difficult and painful, but
+it's often uh you know, worth worth the the the bite of the apple to uh to figure it
+out, right? So um I would say across like B2B SaaS about 40% of B2B SaaS companies
+charge by seat. So it's not the I don't think any uh metric is beyond that, but it's
+definitely the the highest
+
+[00:23:01]
+proportion-wise. But like maybe for if and I'm not a person who believes that per seat
+is dying or that it's bad for all use cases. It makes a lot of sense. Um but maybe it's
+like, okay, should we we need to look at at what this should be. So how we would go
+about that is multi-step. I'll give you the short version. If you want to dig in at any
+level, you let me know. Um One thing that we always want a couple of criteria for what a
+good price metric looks like. And so again, a price metric could be per API call, per
+contact in your database, per seat, uh you know, per gigabyte of data stored. Uh Dropbox
+is or you know, any storage company has. We want to evaluate a price metric through a
+couple lenses. So does it scale with the value the customers receive? Does it scale with
+[snorts] your costs to serve? Um and do both sides, the buyer and the seller, uh is is
+it relatable and do they feel like they could exert some reasonable control of the
+metric? Cuz if it's not enforceable,
+
+[00:24:05]
+then that's a real problem. So I want to add to this picture this concept of a value
+metric. So a value metric is separate than a pricing metric, but a value metric helps
+you frame what is the customer really trying to achieve by using your product? So the
+trade answer here is all B2B SaaS can be boiled down for value prop and either it's
+going to make me money or going to save me money. There's some others, but that those
+are the two two ways. And so if we think about, okay, I'm making a a CRM or a MarTech
+platform, this is going to help me make more money. That's the customer's value metric.
+That's what they're using to judge the success of your product. Usually implicitly like
+you have to bring that you have to drag this out of uh customers and prospects as you
+talk to them. Uh but effectively, right? If you're if you sell a CRM and it doesn't have
+like it doesn't help them make more money, like it's probably something you is going uh
+terribly wrong, right? Even if you can fully attribute to that or or not. And so
+
+[00:25:07]
+we want to understand what the customer's value metric are and then how does using our
+product help them achieve that value such that we can tie together this customer-centric
+view of value with what our product is doing and what it's enforcing. And that we can
+think of that as like a a value chain, a multi-step process that I'll use an example. We
+sell again, we'll go use a MarTech uh platform uh help helps you and your marketing team
+send more email campaigns, right? And those email campaigns are now more effective. So
+you can sell more and they're more effective uh because we got some fancy AI system that
+helps you, you know, really understand your customers well. It could could AB test and
+do all this stuff for you. And so within that is okay, if if they're launching more
+campaigns like we could look at and they're getting more customers, we could look at the
+size of their database, we could look at the number of campaigns they're launching,
+right? But none of those are the things that customer really cares about. The customer
+cares about like
+
+[00:26:09]
+you got me more MQLs and those MQLs translated into pipeline and the pipeline closed and
+converted into sales, right? So we have to draw that line to, okay, what are the things
+we can measure versus what are the customers trying to achieve? And then evaluate each
+of those against a set of criteria. Is it enforceable? Is it relatable to the customer?
+This is an area where we may get into AI a little bit more in-depth later, but I think a
+lot of people are really taking a hard turn in the wrong direction by looking at a lot
+of cost-plus pricing as it pertains to like LLM use. As people are building AI-enabled
+applications that use a foundation model for Anthropic or OpenAI uh Google uh Gemini.
+CFOs are seeing a giant monthly bill go out the month uh go out the door every month to
+those companies and they're like, "Oh my god, this is now costing us way more to serve
+than we expected. So we're getting charged by tokens by Anthropic, so we're going to
+charge our customers their token usage." Well,
+
+[00:27:13]
+your customers are not developers, they're not AI experts. They're buying a CRM and now
+your sales people have to explain in real time what a token is and why they should care
+about it. Um it's just a losing battle. It's not relatable uh even if you have really
+persuasive sales people, which I know a lot of companies do. It's still very difficult
+to wrap your arms around something that the customer is not already measuring, right?
+Going back to your original question, Justin, of, you know, what should you do if I'm,
+you know, entering a market, right? It's the same idea. Like if you're selling a CRM and
+I say, "Hey, we charge you per seat of the sales people that are there." It's very
+relatable. Oh, yeah, like the other the other uh players in the space already do that,
+right? It's an easy to thing to grok versus like, "Oh, this is new and different."
+Doesn't necessarily mean it's always the right uh always the wrong choice if it's not,
+right? It might be very strong in other characteristics where you have some value
+proposition where that really aligns well to the differentiated value story you're
+trying to tell. But you usually what you're looking for going through that process is
+what is the best of of the set of different options that we have? There's rarely one
+pure
+
+[00:28:18]
+best play. Um and let me just say one more thing because in the value metric to pricing
+metric story, I think one thing that folks always try to do is like, "Well, we're trying
+to help them increase revenue. Why don't we just help them grow revenue?" That's really
+difficult on something like the enforcement mechanism. Because unless you're in the
+transaction, I think Stripe has a beautiful business model. They charge, you know,
+percent of a transaction plus, you know, some uh additional fee. I haven't looked at the
+pricing recently, so it may be different, but they're in the transaction, right? They're
+like, "Hey, we're helping you scale your e-commerce business or whatever. You're using
+Stripe, so we're going to take a percentage of that revenue." Most companies, they do
+not have enforceability on that revenue level and therefore kind of a pure performance
+or outcome-based model usually is a non-starter and you have to look at one of these
+other surrogates. Getting back to you said that you think kind of trying to switch to
+tokens and charge people for the for the token usage is is kind of a hard turn in the
+wrong direction. Would you then advocate for selling like a limit, like a
+
+[00:29:21]
+you know, you can use the product up to some limit, but then you just raise your prices
+on on your package and then do uh some enforcement on how much token usage is that that
+package is allowed so that it stays profitable or or what what I guess would you be like
+the right way to pivot from your your price perspective? So there's a few different
+approaches uh that I think are becoming more standard. I think we're still in a uh area
+of high experimentation. Um, I would say the way I would frame what we're in right now
+is very akin to the transition every software company was going through, you know,
+between 2005 and 2010 trying to wrap their arms around subscription model and the SaaS
+model. Uh, and so I think there's a lot of learning and iteration going on right now,
+but what we're seeing is if your capabilities you're adding are enhancing an existing
+value driver, then what do I mean by that? Let's give
+
+[00:30:25]
+Let's give you an example. Uh, we'll go back to our CRM. Uh, I add an AI feature such
+that a sales rep can come in, look at the the account, and summarize all the transaction
+history, and all the conversations that have been had with that customer, okay? Um, so
+that's using some tokens, right? But I'm helping that sales rep do the job better that I
+already sold on, right? That's not a net new value proposition. I'm just making that
+person more efficient, more effective, right? They're able to give a friendlier touch. I
+don't know about you, but I hate ever calling into a company I've been a customer for 20
+years, uh, and they're like, feel you have a support ticket that it feels like the first
+time you've ever talked to them. That's super annoying, right? So I can imagine that
+inspires a lot of customer loyalty. That increases customer lifetime value, right? It
+increases brand affinity. I mean, there's there's some other, uh, characteristics there.
+But that said, that's going to cost us more. So how do we want to monetize that? Because
+remember, customers don't care about your costs. That's not their problem. So
+
+[00:31:29]
+if you believe that has differentiated value, then put that in your higher paid tiers to
+help drive upsell. If you think that's not enough, if you have in your CRM space a, say
+for your better plan, it's $9 per user per month, on a net basis can we raise that plan
+to $2 or $2 more to $11 per user per month for that plan cuz we're adding that that
+value and just assuming with a distribution of usage that we're going to end up on the
+net positive. Yeah, we're going to have some heavy users, we're going to have some light
+users. It really depends upon what you're trying to do with that feature. I think, uh,
+one mistake with tokens is the machine before, it's symptomatic of a deeper set of
+problems. So fundamentally, we've got a cost problem. We need to pass that cost problem
+onto our customers. Again, that's not a cost customer's problem, that's your problem. So
+does this feature have differentiated value? Is it actually driving results for
+customers? Just because you added an
+
+[00:32:32]
+AI feature does not mean it has value for your customers. A lot of these AI features
+I've tried in products. It's like, yeah, it's interesting, it only works about 50% of
+the time. Like, and now you're going to charge me more for this thing that charges that
+is like works 50% of the time. And so in that knee-jerk reaction to hey, let's make sure
+our margins don't change because we shipped this product, remember what I said before,
+anytime you launch a new feature, you always have adoption risk. You always have value
+creation risk. We put something out even with the best of research, we don't know that
+it's actually going to do the thing customers wanted. Maybe the UI's not quite there,
+maybe we missed some things, right? Such that customers sort of look at it and don't get
+it. Like we have it all the time, and now you're also going to put a monetization
+barrier for there. And so we're seeing a lot of companies now retract from that approach
+because they're realizing as soon as I put a monetization gate in front of it, that's
+going to stop my AI my adoption flywheel. And I think we've all got very
+
+[00:33:35]
+comfortable over the last 15 years of SaaS saying, hey, we're going to ship stuff and
+we're going to iterate and we're going to move as like customers and we're going to see
+where the the flaws are. Well, now we're charging for this thing that's not quite half-
+baked, so now we get no usage on it. Now our flywheel is immediately impeded. Um, and so
+we're seeing companies start to look at this risk tradeoff a little bit more, uh, deeply
+and try to see like, okay, it are there things that we can do that maybe are fair limit
+uses. Most software you use, if it has an API, somewhere in the user agreement documents
+it'll say, hey, we don't charge for API usage, but if you start making a million
+requests a second to our servers, we reserve the right to rate limit you because you're
+not allowed to take down our system for all of our other customers. Um, so maybe you put
+something in there like that. There's other, uh, cost routing options people have. So,
+you know, Anthropic has Haiku, Sonnet, and Opus. If maybe the first 50 requests or first
+100 requests get you routed to Opus. If that
+
+[00:34:37]
+salesperson is just hammering our thing all day every day, maybe we route him down to
+the Haiku model. Uh, he still gets his question answered, but it saves us a bunch of
+money and like most of the people in the organization are still getting the the promised
+value. It's just we can help manage costs on our end. Um, and so or maybe you put things
+in sort of in contract language, right? Not in the like technical documentation, right?
+It's like, is that feature really something you're broadcasting on your pricing page or
+saying this has value, therefore we're going to charge you money for it? Uh, I think
+that's where companies are really taking a second look at, okay, how far ahead are we
+are we? I think the other thing that's going on here is there's a bit of red the Red
+Queen problem. So if you remember your childhood storybook Alice in Wonderland, the Red
+Queen is I run faster and faster to stay in the same place. We're seeing that in spades.
+Um, I do not envy the foundation model companies. Uh, they're out raising hundreds of
+billions of dollars in capital just to keep the lights on and and serve the next model.
+Um, and they're also incredibly price
+
+[00:35:41]
+competitive, right? The models that are out right now versus two years ago. If someone
+gave you the top tier model from two years ago and made you use it today, you'd be like,
+what is this garbage? Right? It's amazing how fast our preferences change. Uh, and it
+probably cost you less like all in to do that task that it would have done uh, before,
+right? So the cost is less, the effectiveness is more. I think there was a report from
+OpenAI. Um, I can't remember exactly what the the number was, but they looked at just
+from a year ago, the same token usage, uh, one model versus another from a year was like
+350X better efficiency, like or or or price. So like that's the level of the price curve
+that we're talking about. >> It's like the new the new Moore's law. Yeah, yeah, it's you
+know, so so I I would say all that to say, you know, plan for continued improvement of
+these models, plan for this to be a investment period, plan for agility and iteration.
+Um, I don't I think the companies that are doing the best at this in the AI game
+
+[00:36:43]
+have their ears glued to their customers, to their customers' communities. Uh, if you
+pay attention to Reddits or Twitter, like, uh, there was just a price announcement from
+a company I'll leave nameless, but like, uh, I I I saw it all over my Twitter feed.
+Maybe I'm getting fed specially, uh, because of, uh, my my proclivities and my, uh,
+recommendation algorithm is tuned, uh, to to surface all that to me. And then doing
+really well on communicating and iterating based upon that market feedback, uh, versus
+thinking like I think I think we got lulled into a a false sense from 2010 to now
+thinking like, oh, the subscription model is baked. We just change our pricing once
+every five years when we do, you know, do something major. Um, and yeah, that that
+wasn't the case again, '05 to '2010. There was a bunch of perpetual software companies
+that'd be like, what do we do with this SaaS thing? We don't understand. Um, and then we
+had to figure it out and then we got lulled into, you know, 10, 15 years of a fixed
+business model. I think we're in another one of these transition periods. And so I think
+agility is the name of the game.
+
+[00:37:46]
+I like that. There's so there's so much there you said to unpack and that just I have
+like six more questions based on that, but unfortunately, we don't have a lot of time. I
+do have a few more questions though and we've kind of we've we've worked our way to my
+next question actually, which is, um, communicating then these pricing changes to your
+existing customers without damaging their trust. I mean, we've we've kind of you hit on
+it like around it in several ways, but you know, the decision gets made based on
+whatever information or analytics that we have, a pricing change is going to occur,
+again, for whatever reason that might be, good, bad, or indifferent. How do you now
+communicate that to your customers in such a way as to not damage that trust or or make
+it off-putting? I would say, uh, there's a few different techniques or dimensions here
+that I would touch on. So one is the communication itself, one is the timing, and one
+is, um, uh, iteration. So, um, so let me talk about, uh, iteration. So, uh, segmentation
+isn't just applicable when you're trying to understand customer motivations and needs,
+um, but when you're rolling out
+
+[00:38:49]
+changes like this, uh, thinking about segmenting your existing customer base and who is
+at risk and who isn't, uh, is it really important. So any B2B SaaS company, separate
+than B2C. So Netflix, I don't know how many millions of customers they have. If they
+lose any one of them, not going to be material to their business. Um, however, B2B SaaS
+company, oh no, we lost JP Morgan because of our price change. There goes 20% of our
+revenue. That's a problem. Uh, so so maybe you want to put JP Morgan in a special
+bucket, maybe towards the end. Uh, well, maybe towards the beginning and the end. Maybe
+before you make the decision, your product team, maybe your CEO should have a
+conversation with your JP Morgan person being like, hey, here's what we're thinking
+about doing. Like, uh, would you cause this to cancel your contract, right? Um, there's
+better and worse ways to have that conversation, but usually customers, look, they want
+you to be long-term successful. We've had a lot of innovation. We're trying to succeed
+as a business. You like our
+
+[00:39:53]
+product? We would like you to continue using our product. We We don't want to like go
+bankrupt and have you find another vendor, right? Having it be aligned is is very
+upfront, right? I think a lot of people are very shy from their prison not prison
+personal lives talking about money, but in business, like it's very upfront to talk
+about money. Like, hey, we like you've got a business, we've got a business, we've all
+got to be here together. Do you guys want to write this software? No, that's why you're
+paying us. Like we've got to be able to make sure that our business is successful to be
+around long-term, right? So making sure values are aligned and that you're communicating
+upfront, but then also when you're rolling these changes out, hey, we've got a segment
+of customers who are highly engaged, high NPS scores, and they don't pay us a lot
+currently. Like these are like a ripe target to roll that first set out of changes to,
+right? Like, hey, hey, we're uh you're getting tons of value out of the product. Um You
+You You really love us. We're charging you more. Like you might see here some pushback,
+right? But then listen and then tune it for your next group,
+
+[00:40:54]
+right? And you're going to slowly sort of move up that risk curve. I've seen companies
+go to like you know, like a five by five matrix, right? Where they're looking at like
+value to the customer, value to us, right? And trying to figure out like how we how we
+grow that. But you know, however many levels is you know, tactically unimportant, but
+the idea is like you're not doing like a broad sweep at once. Um the other point is kind
+of the communication itself. So, hey, Mr. Customer, last year given our you know, what
+we heard from you in QBRs or what we could tell from your product analytics data, you
+know, we think we helped you generate X million dollars a year in pipeline or you know,
+close this many deals over the last uh few quarters or few months, we've introduced all
+XYZ amazing new features. We see that your team is really adopting those, blah blah
+blah. Glad you're getting a lot of value. We're committed to continuing investing in the
+product and therefore we need to adjust our pricing
+
+[00:41:57]
+to do that. Um and therefore we're increasing our prices. Here's what our new prices are
+going to be. However, this is optional, but recommended depending upon your case,
+because you've been such a loyal customer, Aaron, we want to extend you a 3 6 12-month
+loyalty discount. So your pricing is not changing. For everyone else, it's changing on
+March 1st. For you, you're going to have the same pricing through March 1st of next
+year. And then your price will be set at the new list price. Um after that, the new
+pricing will apply. You know, PS, if this causes real hardship for you, please reach out
+to us. We'd love to speak with you and see if you know, we could make this more amenable
+to you. Yeah, no, absolutely. It's It's a big part of my my day-to-day is is you know,
+handling client communications and things like that. And And that is something that
+comes up periodically, obviously, is is when you have a new service or or you know, it
+becomes an annual sort of a thing or as you say you iterate on it. I'm always interested
+in
+
+[00:43:01]
+in reaching out to clients and customers and and other businesses in a in a meaningful
+and healthy way, but you know, keeping everything on the up and up as you say talking
+about money, which is not a strong suit of mine. I'm afraid my wife is far better at
+that than I am, but >> Yeah, there's there's been some really bad blow-ups in the last
+few years. There was a company Unity that was I think their CEO got fired and then they
+were on the front page of the New York Times. Reddit changed their API pricing and
+irritated a bunch of people. All their moderators quit in protest. Um And you know, if
+we could draw one through line through a lot of those ones where things go poorly, it's
+because one, you don't want to argue with your customers in the public square. Um
+there's no way that comes off as anything other than you're stupid and we're smart and
+customers don't like it when you say you're stupid and we're smart. So don't do that.
+Good note. And usually it implies that you made a communication error somewhere. Like uh
+you know, this doesn't apply to every example, but I've been on the other side of this.
+Usually this you you do have a lot of spreadsheets, you know, on the back end
+
+[00:44:05]
+that explain what the changes are and and where everyone's going to land. Spreadsheets
+are really hard to communicate to entire customer base, right? Even if you sent them to
+them, they probably wouldn't understand them. No like most people wouldn't even open it
+up. And so usually what you have is just confusion and then you get really
+unsatisfactory answers from a comms team. And so what do you do instead? You say So
+hopefully CEO comes out, says, hey, sorry about that. We screwed up. We're going to
+retract what we said we were going to do and we'll be back with an update in a month on
+what we're going to what our plan is, right? And so because we're where the you're
+you're stupid and we're smart thing goes wrong is that just riles up the crowd. This is
+particularly pernicious if you're have customer base that's chronically online. Pissing
+off all the Reddit moderators, really bad idea. Unity is sells to game developers, so
+techies who are on these tech forums and Twitter, etc. Really bad community because as
+soon as you start arguing with people in forums and tell
+
+[00:45:08]
+and try to explain yourself, it's just going to be a pile on and not going to go well.
+So just short circuit that. Hey, we screwed up. Sorry about that. Disregard what you
+said. We'll be back with you update in a month, right? And then you come back and even
+if you come back in a month and it's just kind of marginally better, you've you've
+you've not turned a little bonfire into a into a forest fire and and in the interim. You
+know, the Reddit API changes were particularly upsetting cuz a lot of people had
+businesses that were built off of Reddit's old API model that were just not feasible
+after the changes. And they they killed a lot of people's small businesses, which I can
+understand why people are irritated by that. Yeah, yeah. And yeah, Redditors are a vocal
+group. >> [laughter] >> What? I appreciate not wanting to yeah, to to irritate them.
+Well, I guess in your work consulting and and helping people with pricing, what is what
+are the things that people most often get wrong? Like if there if there's one or two
+mistakes there or if on an 80% like if you hit the three things on this checklist,
+you're probably doing okay.
+
+[00:46:10]
+Do you have Do you have like a a quick answer to something like that? I would say one,
+just very tactically, like especially if you're B2B, going back to our saying before,
+like have a good discounting policy and enforcing it. This is more the operational side
+of of pricing, but you know, it is also if it's not enforced, you don't have market
+signal, right? It be it's you're like trying to push on something with a with a string.
+It's if your pricing is squishy to the market, think about what that does as it
+translates back into the business from the market. You have very squishy understanding
+of of where the problems in your pricing are. Um even if it's not good today, if you if
+you have a policy and are enforcing it and are monitoring it, that at least gives you
+better sense of the market. Shouldn't be your only one, but it gives you that sense. So
+I'd say that's that's what Aaron. Can you can you bring that down to the street? Like
+what is what does it look like when someone has a discounting policy that's enforced?
+Yeah, so I've seen a lot of discount policy
+
+[00:47:13]
+theater, maybe what I'll call it. So if I So maybe you have a discounting policy that
+says a sales rep can discount to X before they need approval, then ask to go to their
+manager and then they get this approval authority, then ask to go to a VP and then it
+goes CRO and then it goes to CEO and CFO for approval, right? So one question to ask is
+of discount escalation requests that get made, what percentage of them are approved? And
+I see a lot of companies where 100% of them are approved. So what does that mean? It
+means that you have VPs and directors who are in their email probably getting bombarded
+just being like approve, approve, approve, approve, approve. And why do they have that?
+So because they you ask them, they're like, hey, I see you have 100% approval on all the
+discounting. So then why have the policy? Well, because every time I get asked about it
+or I say no or I used to say no. So from that as a tactical perspective, I would say,
+you know, trying to go through and you know, does your what we're talking about before,
+like
+
+[00:48:17]
+can you say who each of your offers is for? I think is a really helpful exercise. So if
+I have a good better best, like who is this for? Right? Like can we name that or do we
+just throw a bunch of features together because they were I don't know, cheap for us to
+build and we just thought like we'll just give those away basically because we don't
+care about those features, right? It's like no, like that has to solve a customer use
+case and that customer looks like they're in some situation. Can we name so who who each
+of those are for? Um And man, I could just I could go I could go on and on. I would say
+the other thing is just, you know, do you have the right price metric? That's probably
+one of the highest leverage things. And it can be one of the hardest to pull off. It is
+definitely not something you want to change repeatedly, probably no more than often than
+you know, once every two or three years, I would say at most. But you know, that one can
+have a really big impact cuz that allows you to really scale with the how much value
+different customers get in a very repeatable way that hopefully customers understand and
+you know, they see the success as well.
+
+[00:49:19]
+Maybe they're not happy to pay you, but they they understand it. For sure. I've got I've
+got one more and it's actually Justin's favorite question, so I'm going to steal it from
+him. Sorry for taking the thunder, sir. Because we are getting tight on time, but I
+still have like so many questions for you, but what's what's something that we did not
+ask you that we should have or some some bit of information you want to get out there
+that that we did not prod out of you. Oh, man. Um And don't say it's enough for a whole
+another episode because that might be true, but it won't make us feel good as
+interviewers. If somebody starts saying we're in AI world now, so outcome-based pricing
+is the way to go, um I would stop listening to anything else that person tells you. Uh
+so, uh that will I'll leave you with with that. There's a sound bite. I love it. >> Man,
+yep, clip that. Yep. Fire down, I love it. That's amazing. Awesome. Dan, this has been
+super fun and really informative and and no kidding, I I could I mean, we could easily
+do a whole
+
+[00:50:23]
+another episode uh for real, but thank you so much for sharing your time and your
+insights and your talents here. Oh, thank you for having me. I appreciate it. That was
+fun. Where can folks connect with you? Yeah, I'm happy to connect with folks on
+LinkedIn. Um just let me know in the request that you're heard me on the podcast so I
+can separate it from the rest of the LinkedIn spam and um you check out website
+producttranquility.com. I also have a podcast called SaaS Scaling Secrets where I
+interview scale-up B2B SaaS CEOs. Uh it's not pricing centric, but all of the other
+challenges, sometimes including pricing, but you know, could be culture, could be you
+know, management, could be remote uh you know, work um etc. on scaling companies, so
+that can be found wherever podcasts are. Fantastic. We've been talking with uh Dan
+Burkush founder of uh Product Tranquility. Special thanks as always to our listeners. If
+you like what you're hearing, have ideas for the show, just want to tell us what's on
+your mind, um hit us up. Hit that like button, throw a review our way, subscribe if you
+are so inclined. Justin May, thanks, my friend. Looking forward to seeing you again next
+time on SaaS That App. Thanks for cruising along with us on
+
+[00:51:26]
+SaaS That App. We hope you grabbed some insights that were inspiring, actionable, or at
+least entertaining. If you enjoyed the show, don't forget to subscribe and leave a
+review. Until next time, keep building, keep growing, and keep those apps sassy.

@@ -1,0 +1,785 @@
+.NET vs. Rails: Which Tech Stack Will Save Your Startup?
+========================================================
+
+Video ID:  AYoi-iN1pqo
+URL:       https://www.youtube.com/watch?v=AYoi-iN1pqo
+Published: 2025-05-13
+Duration:  00:48:44
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+someday somebody else is going to go look at your code and then spend two hours trying
+to figure out what you did in one line when 10 lines would have would have made it
+absolutely clear in two minutes. And so those those are the sorts of things that no
+matter what your stack is doing that that you have to do. Welcome to SAS that app
+building B2B web applications the podcast where we share real world stories practical
+advice and tech insights for those building or thinking about starting a tech- enabled
+business. I am your co-host Aaron Marchbanks and I'm Justin Edwards. Each week we bring
+you the stories, strategies, and insights you need to build your SAS or tech enabled
+business smarter, not harder. Let's dive right [Music] in. Hello everyone and welcome to
+SAS that app. Uh today we are tackling kind of an existential question or decision for
+any startup that's uh going to be growing a SAS team and that is choosing the right tech
+stack. So we're not talking about just simply the collection
+
+[00:01:02]
+of frameworks or programming languages. We're talking about the backbone of your
+application. This is going to shape everything uh developer experience hiring
+scalability long-term support maintenance. Uh so we're going to get into some specific
+frameworks, some open stuff like uh Ruby on Rails. uh we'll we'll wade into the
+JavaScript jungle a bit maybe with some Node.js and such. Uh also going to get into the
+Microsoft stack, some modern.net. So uh not just getting into technical trade-offs,
+we're going to be talking about team dynamics, like I said, organizational fits, real
+world impact. So whether you are launching your first app or rethinking your stack for
+the long haul or you just are here for some spicy takes, stick around because I suspect
+with this group it is uh going to get a little nerdy. Uh so to help us break it all
+down, uh joined by some fantastic guests today with me as always, Justin Edwards, my
+partner in crime, CIO of Delta Systems, uh and our resident potster for today. Uh he's
+going to help us kind of frame a lot of this stuff with flexibility and structure,
+communitydriven innovation, that sort of stuff. Uh also with us
+
+[00:02:05]
+again is Daniel Cannon. Welcome Daniel. our chief innovation officer of Delta Systems, a
+seasoned Ruby on Rails developer in his own right and a big-time advocate for open
+source and he has scaled of course numerous SAS products and applications with a lot of
+open source tech. So, welcome Daniel. Hey, nice to be here. And then new to the pod we
+have Daniel Almar, founder of this way development. He is a net expert. He knows all
+things net what it takes to build secure scalable applications. Uh and so we're going to
+dive into uh maybe even some things about isnet going to be open sourced are we heading
+in that direction? Let's what's let's let's find out today. So welcome Damon. Thank you.
+Hi. All right. So I just want to kind of dive right in here. Want to I want to start
+high level 30,000 foot view. Um and Daniel I want to talk just a little bit a couple of
+minutes here on why is open source uh in general but but specifically Rails uh why has
+that worked? Why has that worked for us? Yeah, absolutely. Uh so yeah, nice to be back
+on the program. Thanks for having
+
+[00:03:08]
+me. Yeah, I mean open source uh you know a lot of people old school people are really
+afraid of open source software like it's open. Oh my god, the code's public to anybody.
+Anybody can come and hack your code. And like actually the opposite is pretty much true
+with open source. If something's an open-source piece of software, it means there's a
+whole community around it. It means there's a whole process for uh you know code getting
+merged back into the repo and and and actually having the code be be public to the world
+makes it easier for you know good good guys the white hat hackers to go in and try to
+find vulnerabilities and software report it back. Um so it tends to actually be much
+more much more uh secure. Um it's also typically free so that's pretty cool. I'm
+constantly amazed by these things where it's like there's this commercial paid solution
+and it's just it's just terrible. the free source alternative is actually much better.
+So, it's free and better. It seems like an obvious winner. All right. All fair points.
+Damon, uh give us give us a little bit on the net front there. Why why is this a
+compelling choice? Uh I know that we're talking here about uh maybe sometimes
+
+[00:04:10]
+larger organizations or or things with compliance needs. But, uh give us the give us the
+scanning on net. Yeah. umn net is used mostly by larger organizations uh and uh
+enterprise organizations uh because I think for a number of reasons one the the tool set
+out of the box is complete so uh when you enter into the net world um you get frameworks
+right out of the box that help with security and compliance um that help with your
+pipelines umn net or Microsoft has made a number of moves over the last 10 years too um
+that have sign significantly uhre increased uh the usability of .NET basically by
+adopting some open- source uh uh methods and and open source things and actually is
+already open source. You can download it. Um the it's that's comes with some caveats. So
+I think we might talk about that a little later. So I'll save that. Uh but they've also
+moved to GitHub. Uh not GitHub itself, but Team Foundation server is now called DevOps
+and it it its default is is uh based on Git. Um so that was a huge improvement from
+their
+
+[00:05:13]
+their old team foundation server. Um but I think that the tool set really not only does
+it come out of the box um but it also supports larger teams. Um and that's a big big
+plus as well because um everybody's working in the in the same environment in the same
+IDE um and everything from code to pipeline to deployment uh is is all happening in the
+same universe. So it's it's uh there's that. The downside is the cost. Um and we can
+talk about that as well. Yeah, that's right. It's actually going to lead right into the
+first thing I really want to talk about, which is, you know, you get a new opportunity,
+a potential client comes in the door or or a project uh that you're going to be working
+on and there is an initial component of uh as I'm looking at these tech stacks, the the
+actual fit for the organization. Um and and Damon, I want to start with you because you
+just mentioned it a moment ago. You're talking about .NET and and it being very
+scalable, good for larger teams. Um so talk to us a little bit about uh you know an
+ideal candidate or or why it is that .NET might work for a
+
+[00:06:16]
+particular company of a particular size or or something with some you know compliance or
+or security needs uh that that um net would really be leveraged well for. Yeah. So um
+I'll start with the compliance and the security needs. Um there's a there's a number of
+advantages uh that come withnet. um from the code libraries uh you get encryption uh
+role-based authentication things like that are are are again out of the box and and
+really easy to implement um but then there's also a number of ways to scan the code um
+and uh there are third parties that'll do that Microsoft has some stuff and if you're
+deploying to Azure um they they also will will check compliance uh in that case as well
+and then I think also when you are uh dealing with people who need to audit uh what
+you're using for encryption. They need to audit how you're doing doing certain things. A
+lot of times if you're using the Microsoft supported libraries, that's all they need to
+know. Um because uh because those are widely used and and uh supported by Microsoft.
+Yeah. Just just a little bit about like
+
+[00:07:18]
+you know size of of uh you know a development team or or even size of the project as it
+would relate there. Yeah. So um I think also the complexity of the project you're
+working on has a lot to do with whether you would go with net scalability as well. Um
+once things get scaled to a very large scale um if you're deciding between something
+like Ruby on Rails and andNET or even even other things you can only scale Ruby on Rails
+so far. Um and I only I only say that because of the experience that Twitter had with
+it. Um and they I think it was a good choice for them in the beginning but once they got
+too big they had to they had to look for other technologies. So Microsoft uh
+technologies will scale uh to that level that's needed as well. but also separations of
+concerns and abstractions uh work very well with the net um uh project uh organization.
+Um so if your project has a lot of different modules uh that you want to keep separate
+um and especially if the modules need to scale independently the way that the net uhn
+net is set up and the way that you set
+
+[00:08:21]
+up your projects of course if you set it up correctly really lends itself to more
+complicated projects and keeping the code organized. Yeah. So Daniel, I I want you to to
+respond to that because I know we've spent a lot of time talking about Rails in in in
+terms of like the size of your team and and auditing and compliance and security, but it
+seems to me that Rails also does have a pretty nice complement of of libraries and
+capabilities as it relates to those elements. Yeah, I mean absolutely they do.
+Absolutely they do. Um, I I mean I think Damon's point is really well taken, especially
+if you're trying to get in working with like an enterprise customer, somebody who's uh,
+you know, going to going to make you fill out a compliance questionnaire, which Lord
+knows I filled out hundreds of those. Actually just got off a call doing one of those
+right before this. Yeah, it it gets a lot easier if you can if you can say, "Hey, we're
+using, you know, these approved Microsoft tools. Hey, we're sock 2 compliant." That that
+one always solves a whole bunch of of questions. But it it's not to say that Microsoft
+is in any way uh, you know, more secure than than Rails. I don't really think anyone is
+is saying that. Um, but it it it can give you a win to just come in and say, "Look, we
+use blah blah blah this approved thing that everyone at
+
+[00:09:23]
+your enterprise knows and loves and it's Microsoft and people just, you know, they have
+a lot of a lot of belief in in Microsoft being this being this secure company." Um, you
+know, I disagree. I think frankly if you look at uh the the track record of of Microsoft
+proprietary software versus your more open- source alternatives, uh, Microsoft's had a
+pretty bad uh pretty bad run of it. you know, they're they're starting to get more
+groovy. You know, they got this new CEO who's uh wanting to move things more into the
+open source realm. I mean, that's the direction that Microsoft is is going. Um which
+which I'm excited to see. I think it's I think it's great. But yeah, I mean, can you
+build secure software in Rails? Absolutely. There's uh wonderful library support uh for
+Rails. I think it's very easy um to write extremely secure applications in Rails. It's
+actually very hard to introduce uh vulnerabilities because things are so, you know, uh
+built using this kind of conventional method. it it just makes it really hard to add
+things. Whereas when you have these more complex systems like whatnet encourages you
+toward with all these levels of abstraction. It uh it actually introduces I I think a
+lot of places for uh for little issues to kind of kind of
+
+[00:10:25]
+creep in. You know, the nice thing about Rails is you can step into a codebase and
+understand what's going on. It follows the same convention as other projects. There's
+not that much that's weird and it's it's it's in the parts that are weird which is where
+your security issues tend to tend to crop up. to Damon's point about uh scaling and
+correct me if I'm wrong on this but moving from an interpreted language to a compiled
+language is going to give you a speed boost and I believe Twitter actually moved to a
+different open source technology which is play uh on Scola if I remember correctly but
+uh to be fair that's also that compiles down to Java bte code which is uh a move from an
+interpreter language to a compiled language which is going to give you a performance
+increase when you have problems on the scale of Twitter so oh pedantic complaint
+pedantic complaint Java bite code is very much still an interpreted language. It's just
+a compiled interpreted language. But all right. Would you agree it's more performant
+than interpreted code? Well, I mean, so I mean actually Java was a really interesting
+case study because everyone was like, "Oh, Java is always going to be slower than
+something that's written in C, something that's compiled
+
+[00:11:27]
+down to run in machine code because it's interpreted. Interpreted languages are slow."
+Um but actually what wound up happening with Java was the development of the just in
+time compiler which actually analyzed the the patterns that your application were using
+on the you know on the architecture and recompiled in real time as you were using it. Um
+and it didn't take long before Java applications were actually running way faster than C
+applications uh because they were dealing with this interpreted world where it's not
+explicit machine instructions but rather you can actually see a little bit of the intent
+of how the software is supposed to be uh used. And I think there have been a lot of
+evolutions like this with functional applications where you're writing functional code.
+You're describing the problem for the computer and letting the computer figure out the
+optimal solution for how to solve it. So I I think that there is definitely the
+potential for these higher level more interpretive languages to actually be more
+performant down the road. Uh and there has also been an evolution in the Rails world of
+moving to using what's called Rust, which is a different uh a different language uh that
+actually does compile down to to bite code. Uh and so a lot of you know key components
+of of the Rails
+
+[00:12:31]
+ecosystem these days like active record are written predominantly in Rust as opposed to
+to in Ruby and you always have that option if you are dealing with a performance uh
+issue is to to recode part of your application in Rust. So there there are ways around
+it. Yeah, I mean I'd say in general if if you want to take the Pepsi challenge between
+Ruby on Rails versus Play, Play is probably going to be your more performant, your more
+uh your more scalable, but what are the trade-offs for that? How much work do you have
+to do? uh to to make this really scalable application. And is your company to that size?
+Does your company have millions of users or is your company trying to get its first
+user? And once you have millions of users, you're going to have the budget to spend to
+rewrite the thing anyway. Well, Damon has a lot of background and experience working
+with like insurance companies and companies of of big sizes with specific and unique
+compliance needs. So, financial planning. Yeah. So, these technologies make sense for
+that reason. I I also think there is probably some benefit to the idea of um outsourcing
+liability or outsourcing uh responsibility for things. So if if you're 100% Microsoft
+shop and they
+
+[00:13:35]
+control 100% of your stack and Microsoft has an outage, you can kind of point the finger
+at Microsoft and say to your customers, hey guys, sorry, but Microsoft is down and we
+this is a very supported, very widely used thing and it's messed up right now. So it's
+their fault, not ours. Sorry. Um whereas when you have something you're architecting
+yourself out of a series of open source technologies, it's kind of always your fault. I
+strikes you as Zach accurate dam if you have complaints with it. But Oh yeah. No, we've
+definitely pointed the finger at Microsoft when they deserved it. But but a lot of that
+has to do with uh it's tied into the cloud now uh in in in Azure and when they have
+troubles um everybody has troubles. So um but I I I want to uh jump back at C# all which
+is net one of the languages for net is also just in time compiled um as well. Um but I
+do want to I do want to mention like security and scalability really you can code in any
+language and in any platform and make things terribly insecure. It all has to do with
+how you code it. Um, and so I think the advant we're not saying netnet's more secure for
+sure. I
+
+[00:14:37]
+agree with Daniel, but uh, but I think the toolbox that you have to make things secure
+uh, is is there. I don't know if it's better than review worlds or not, but I've taken
+advantage of that out of the box stuff a number of times. And same thing with
+scalability. Uh, it all has to do with your system design. Um, if if you are if you are
+scaling large, I mean, let's face it, the the differences in in performance between a
+just in time compiler and a and a a fully compiled application uh is is only going to
+affect, you know, certain niche things that you're that you're doing. Um, performance
+right now, a lot of coders really worry about performance where they don't need to. One
+more thing within this kind of realm of of organizational fit before we move on to
+another topic is uh and one thing we haven't really touched on and Damon I want you to
+kind of lead us here on this one but um something that that that I have fought with
+clients on or or I say fought uh discussed uh in in strong terms with clients um is if
+they already have you know existing technology if they already have an existing stack if
+
+[00:15:39]
+they have a suite of applications whether or not you're necessarily trying to tie to
+them is is the technology that they already have in house uh a a large piece of a
+consideration for an organization when they're deciding what they're going to be using
+for this new application or new feature that they're building out. Yeah, I think I
+absolutely is like I I would never walk into a company uh that has millions of dollars
+invested in a certain technology and say no, in order to do this we're going to have to
+switch technologies. Um I'm a big believer in in being a little tech staff agnostic.
+there are a number of of decisions, you know, that help you make that decision. Um, but
+at the end result, they're all they're all doing the same thing, you know, in different
+in different ways. So, there are advantages and disadvantages. Now, if if somebody came
+in and and I think what I hear a lot is um it's it's getting slower and slower to
+develop, you know, using our existing tech stack. Things have grinded to a halt. It
+takes forever to make, you know, this change or that change. Um and and I think that
+that can that can happen not necessarily by the
+
+[00:16:43]
+technology stack but by the um the use of the technology stack and not having good
+design that that you know is is able to take them forward. So if I came into a company
+like that we would then like revisit the the question are we using the right tech stack
+for what we're doing and and the the uh resources that we have available the human
+resources that we have available. Um and maybe we are maybe we aren't. Uh but but that I
+think that's a good question if they're having you know trouble with their software
+development life cycle. Yeah and Daniel kind of the same question but but even more
+focused on uh you know because we we have had situations even even somewhat recently
+where maybe the technology that's currently being used is not necessarily best fit for
+this new thing or this new application or this new SAS even though the stack already
+exists for for what it is that they're using. Is that is that something that you find a
+lot or or do you agree with Damon that it's that is something that you know the default
+position is let's stay with what you got until proven otherwise? Yeah, I mean I mean
+absolutely. I I think in general if you've made a large investment in your
+
+[00:17:46]
+technology stack even if those aren't the decisions I would have made up made, you know,
+from day zero. We're not going to pivot you out of that. We're not going to be like,
+"Oh, you wrote this entire thing in Node. I hate Node. Let's now do it in Ruby on Rails
+because that's all we do." um there have to be really really compelling reasons to uh
+embark upon a rewrite. Uh that said, if you're just starting out your company, if it's
+if it's brand new, if it's small, you know, now is the time to make those uh make those
+right technology choices. And I I would say I' I'd actually I'd love to invite Damon to
+disagree with this, but I would say for your typical startup, for your typical uh small
+company, you're launching a new SAS product, I would say that.NET is probably not the
+right choice for that. I would say is probably more for a larger more enterprise
+application as opposed to a small startup. But would you disagree with that Damon? I
+think that for if you need to get a prototype out fast and you have a a smaller use case
+um like like Twitter is another good example and they I think the correct choice for
+them is Ruby on Rails because Twitter is very simple. It just needs a lot of volume. But
+that wasn't they didn't need that when they first
+
+[00:18:48]
+started out. They just needed to get it out there. Um and you can for sure stand up
+stuff way faster in Ruby on Rails and .NET.NET um takes a lot of thought towards design.
+You don't have to do it but you really should because it gets really messy like you know
+Daniel was saying earlier you know these weird things that you find generally in my shop
+I don't give coders opportunities to decide what goes where. Uh everything is already
+mapped out because net can get really wiry and crazy and and a big ball of duct tape.
+But if you keep it under control um you can control the code uh and understand the code
+very well uh in in especially in in C. And to me that's another really important point
+is the cost of applications is exponentially higher after they go live. And so that
+comes into the decision of a tech stack as well because if it's going to move and shift
+the whole lot you want to you want to invest in the design up front and make sure that
+the code the code is readable. Code is very expensive. Um, and so I'd much rather see
+coder, you know, cutters like to do
+
+[00:19:52]
+things in as little lines as possible. Well, that's great, but I can't read that and
+know right away whether it has problems or not. And and so someday somebody else is
+going to go look at your code and then spend two hours trying to figure out what you did
+in one line when 10 lines would have would have made it absolutely clear in two minutes.
+And and so those those are the sorts of things that no matter what your stack is doing
+that that you have to do. Yeah, I think the emphasis on on code readability on top of
+performance or overperformance is in general the right call. People, humans, programmers
+are very expensive. Machine cycles are very inexpensive. So if you run something that's
+10 times slower, who cares? If it becomes a performance problem, you'll find out and
+then you can pay someone to fix it. But if it's easy to read, that's that's actually a
+better place to start than uh it's a super performant or super fast. So I want to shift
+this just a little bit then. still still thinking in terms of organization, but uh you
+know we're we're going through this these uh these analyses and and you know we kind of
+have the two buckets if you will of you know an existing organization uh perhaps with an
+existing tech stack and and we're building out some new SAS
+
+[00:20:55]
+versus uh you know a startup type situation uh and we're getting into decisions about
+hiring. You know, I suppose a couple of questions right off the top of my head is when
+do you start to make the the the decision or when do you start considering hiring in-
+house, having that person here versus, you know, contracting something out? And what
+does the what does the pool look like, you know, as we get into these these generally
+two types of technologies that we're talking about here? Is it easier to find uh you
+know, one type of of a developer than another? Um, so Daniel, why don't you lead us off
+with that one on on talk about talent pool? Yeah, I mean, absolutely. It's a huge
+consideration when you're when you're trying to pick your stack. And I mean, I think
+it's it's actually really interesting when you're talking about .NET versus uh versus
+Ruby or any of these open source technologies, you know, like when I when I first went
+to school, when I was, you know, at the university long long long ago, um, you know,
+there there was kind of like this expectation that people who got bachelor's degrees,
+those were programmers. Those were the people who implemented code. And if you wanted to
+be the guy who wrote the spec, you got
+
+[00:21:58]
+your master's degree. So I always wanted to be that guy. So I went on and got my
+master's degree. And so now I get to write the spec to to hand off to uh to developers
+to to go and implement. I mean that was sort of the traditional paradigm. And I think
+that's still largely how uh you know net teams tend to work. There tends to be sort of a
+the architect, the guy who says these are the patterns that we're following. And they
+they break it up into little small uh components, little small modules so that we can
+hand this off to Chuck. And Chuck maybe isn't that great of a programmer, but he can
+follow directions real good. And so I'm going to give him the the recipe and he's going
+to follow and and and implement it. So I I thinknet teams tend to be much more diverse
+in terms of of skill set and they tend to tend to be a little more um uh heterogeneous
+in that way. Whereas typically if you're working like in Ruby on Rails, it is a lot
+easier for one bad developer to screw everything up. And there and there's generally not
+this kind of like structure to the project where you have all of these these little
+self-contained little modules. It's like if you want to add a user show page, you go and
+create a f file called show.html.l. You drop it in the view folder. There's your user
+show page.
+
+[00:23:01]
+You're done. It's convention. You know, I don't have to wire it up to anything. It's
+just because it's there. Uh it's there. Um so I mean I think in general and you know
+there's been a lot of efforts to to impose this different kind of structure. You've
+probably heard of like micros service architectures. They're they're trying to do the
+same thing is let's break it off into little pieces so that when Chuck comes in and and
+he screws up, you know, the billing module, well, billing is broken, but everything else
+still works, which I would still call a pretty bad situation. But anyway, so I I I guess
+what I would say is that if you're working in like a Ruby on Rails style architecture
+that's much more traditional MVC and much less objectoriented, you want to make sure
+that you're only working with sort of senior developers who really know what they're
+doing. uh one bad developer can totally poison the bunch and cause all sorts of
+problems. Whereas I would say with a net style project, it's a lot easier to work with
+developers at different talent levels. So that could certainly be an advantage. I think
+another thing that's interesting about uh the net side and I'll let Damon comment on
+this because he actually has experience as opposed to musings but uh I have many I have
+many amusing Microsoft certainly offers certification specifically on like their MVCs
+and like
+
+[00:24:05]
+being a programmer in like the Microsoft ecosystem and obviously they have like the
+clouderts and stuff like that whereas like when you control the whole top to bottom
+thing you can create your certification because you're the company who makes all these
+products uh it's kind of like a certification and a training and all that specific to
+your stuff whereas Like I don't know where I would sign someone for a Rails
+certification. It have to be some third party that created it and how much credit would
+I give to that? I don't know. So I guess yeah. Do do you have experience working with
+credentialed folks statement? Does those credentials like are they is it signal? Is it
+noise? Is it somewhere in the middle? Sorry to put you on the spot. No, no, it's fine. I
+I hate to say this publicly, but I don't put a lot of credence into those because some
+people study for the test and they do it doesn't make them a good coder. Um, I think
+it's different with cloud technologies and networking and and DevOps and things like
+that where um there there is a lot a lot to learn, but but with um with coding, I I
+don't know. I I' I've never really put a whole lot of weight into the into the
+credentiing that they do. Um I think it's a good money maker for them. Yeah. But I'm
+happy to hear you say that. I I feel sim I feel similarly
+
+[00:25:09]
+about most credentials up to and including college degrees. So Wow. Yeah. Well, in our
+industry, yeah, I mean that and that was Daniel was talking about, you know, coming out
+of college and that's that's a really interesting thing and I think it's still true
+today. You don't really learn how to code for businesses in college or how to be on a on
+a business team. Uh you learn you have a computer science degree, you learn algorithms
+and compilers and all that good stuff and then you get to your first job and you have to
+learn from scratch. Um you know what what you're doing. So we never I you never see net
+developers come right out of college like oh I'm a net developer. They learn it on their
+first and first business job um because they're not teaching it in college and it's not
+fun. Uh nobody's like getting intonet to to mess around and make their little website
+and uh you know as they're starting to become a coder they're using other technologies
+and open source technologies. Um but I do agree also completely with Daniel withnet it's
+much more structured. Um like I said you can control the code a lot better. you can you
+can enforce patterns a lot easier or very easy I should say. Um and also you can isolate
+
+[00:26:15]
+your your junior developers from your senior developers and have them have them work on
+other things. The other thing about C too is it's a very very typed uh and and it's very
+hard to get something to build that has problems. whereas I don't know a whole lot about
+Ruby code. Uh but but for example, JavaScript uh is meant to kind of go over the bumps.
+Um and so you need to have somebody who really knows what they're doing coding
+JavaScript because it gets out of control really quickly. Whereas in C, it's not going
+to build. If it hits a bump, you know, you want it to explode and and that's what you
+want. Yeah. I mean, I think that is a huge uh a huge kind of religious argument among
+programmers for sure. and and I never really know which side I'm on because, you know,
+I'd spend a lot of my days working in working in Ruby, uh, working in JavaScript. Uh,
+but yeah, type systems are super helpful. And I mean, Ruby does have types, but yeah,
+it's very is very flexible. It's like, well, if you kind of want to cram an integer into
+a string, have at it or, you know, do do what you want to do. And I mean the the the
+trade-off is that you know your your net application, your Scola
+
+[00:27:18]
+application, your strongly typed language, you spend all of your time trying to resolve
+type issues. But then once you resolve all the type problems, the thing works. Whereas
+Ruby application, it runs. It runs. It's fine. It, you know, there is no compile step.
+It just runs. You find out when you click the button and everything goes red and you're
+like, "Oh, that's right. I guess I guess that did need to be an integer," for example.
+So it's got a trade-off. even down to the level of like I misspelled the word exception
+in the exception handler and that exception never got thrown. So there was actually a
+name error in an exception handler that it wasn't smart enough to figure out that I had
+a typo in. Uh so yeah, Ruby's very much on the on the far side of that. So Paul Graham,
+I believe he was speaking uh skeptically about uh Java and I think there's a reasonable
+amount of overlap between C# and Java in a lot of ways. Uh but he basically said that he
+he found it to be a really maintainable way to write spaghetti code. Um, what a way to
+put it. Well, not not, you know, his opinion, not my own. I'm not a big fan of Java, but
+anyway, I do wonder. We talked a little bit about kind of like working uh working with
+developers who are kind of top to bottom in their journey with like seniority and uh
+yeah, I do wonder if things some of
+
+[00:28:23]
+these things like type systems and really rigid structures and things are actually
+helpful in kind of bringing people along their journey as they get more and more senior.
+uh whereas there's just not a lot of support uh for Rails other than there's an obvious
+answer to everything if you know the convention and if you don't know the convention you
+should learn the convention and that's kind of the the answers we have for you but you
+learn by doing and you learn by you know working with or or being mentored by other
+developers I mean in either case you know and certifications as you guys have said kind
+of to the side I mean at the bare minimum at least it does show some level of knowledge
+even if it may just be uh you know to Damon's point working toward a test uh you know or
+or to Daniel's uh you know having experience in or or working with it in you know many
+different forms or with libraries and things like that. You still have to show that
+expertise. You still have to show that experience in some way other than just showing up
+and on the first day we all find out that you have absolutely no idea what it is that
+you're doing. But I mean we rock people in job interviews who have master's degrees in
+computer science and we we flop them up with really intense questions like how do you
+sort a list? You know what I mean? Hey don't give away our interview questions here.
+Come on. If you if you interview
+
+[00:29:25]
+with us I'm here to tell you you better know how to sort a list. I should Yeah. Start
+with knowing that it will at least be easier to solve if you do sort it. Yeah. No, I I
+don't I mean, you know, not to turn this into a higher ed conversation, but yeah, I
+don't put a whole heck of a lot of stock in educational credentials, like I was the
+golden path. I went that route because that's what I thought you were supposed to do.
+Looking back at it, it's like that's I mean, did I learn a lot in college? Yeah, I
+learned a lot in college. But, uh, yeah, lots of really smart people lot I mean, our our
+best programmers uh did not go that traditional route. our, you know, our best
+programmer that I could think of off the top of my head. Got his start as a a newspaper
+delivery boy. That was that was where, you know, where he started out and, you know,
+hired him to go around start taking pictures of senior citizens centers because we were
+working on a project for the city of Albuquerque and then, you know, he gradually grew
+and grew and grew and now I mean, he's a better developer than I am. So, I I don't think
+that, you know, there's this need to go that more traditional route and just because you
+have the credential doesn't mean I'm going to hire you on that basis alone. But my point
+is at least there is something there that shows hey, you can at least use terminology,
+right? So whether whether or not there's a lot of
+
+[00:30:27]
+weight behind it, you know, it is a filter through which things can pass. Oh,
+absolutely. Absolutely. All things considered equal. I'd rather hire somebody with a
+degree than not with a degree, but that's not, you know, Yeah. certainly not a decision
+criteria for me. Yeah. For our job, for our job postings, it's listed as a desirable
+trait as opposed to a required trait. Yeah. I mean, yeah, I I agree too. and in computer
+science and and especially guys my age. I won't give away women my age but but I went to
+college around the first internet burst bubble burst and uh or right before it rather
+and and so the internet was was really kind of just taking off um and uh my first email
+address was my freshman year in college. So that that's the time period but there were a
+lot of people there because advisers were telling everybody coming out of high school
+computer science is where it's at. You're going to make a ton of money. That's where the
+future is. And so you have a lot of people that get into it, went to college for
+computer science, they passed the test, but they never really I want to say loved it,
+but um you know, it wasn't in in their skin. So they're not they're not educating
+themselves as they go along. They're not really learning on the job. They just thought
+it would make
+
+[00:31:30]
+them a lot of money. And and it's it's a trait that you have to love and you have to
+keep up with technology. So, if you weren't messing around with it in high school and
+enjoying it, then you know, computer science isn't is not probably the thing for you to
+do or at least a programming path isn't isn't the thing for you to do. And I think
+that's why like D said, you run into lots of people who don't have a college education
+and they're awesome because they love it. No, that's that's a question we always ask in
+our on our interviews is how did you learn how to program? And honestly, the answer I'm
+looking for is, oh, I I've taught myself that those are usually the best developers.
+It's like I was so passionate about this that I went out and learned it and then I later
+found out I needed to go get a credential. But yeah, you got to have passion to become a
+programmer and I don't really want to work with anybody who, you know, oh, I thought
+this would be a good way to make money. So, I started doing it. They're not good
+developers. Yeah. And you can teach them patterns and you can teach them standards. If
+they taught themselves, they probably don't know it. But that that's the base. I also
+think there's a plenty of place in the world for folks who have, you know, who are smart
+enough to program and have it as a job and it's just not the thing that they're all
+about. Like I'm sure there are members
+
+[00:32:32]
+of my team who kind of feel that way and like I I have a lot of people I respect for who
+are like, "Oh, that person's a solid developer, but they're not like all about this."
+But that person typically doesn't become a team lead or an architect or, you know, a
+super super senior person with a neck beard making a gajillion dollars a year. Uh it's a
+lot easier to end up in that position if you if you really care about it. I'll let the
+beard comment go there. Justin, you have you have a proper beard, not just a neck beard.
+When I say neck beard, I mean only the neck. Gotcha. Yeah. Yeah. I hear they're calling
+your style. Oh my goodness. Well, we can we can hope not at least. So, you know, we
+spent some time talking about, you know, experience and taking initiative and and and
+learning some of this. And I think that we can all agree that to a certain extent. Uh,
+you know, .NET has more age on it. It certainly has, you know, more structure. There
+are, I'm going to say, more things out of the box um than perhaps, you know, open
+source. But obviously when you're dealing with open source, you have just a seemingly
+infinite number of thirdparty packages and libraries and extensions and and things that
+can be leveraged. So hey,
+
+[00:33:34]
+over to you on that. How how do you handle uh Daniel's t-shirts? Brings up a really
+interesting point. Uh .NET definitely doesn't have rails. Um but they there are little
+pieces you can do there. Uh when you're setting up a new controller in Vue, you can you
+can have it generate um you know, everything from a model. So you create the model and
+then it'll put in everything for you. Um I discourage people from from doing that
+withNET um because and that's that gets back to the you know the decision and the
+complexity.NET um can't stand things up as fast but it also um in more complex
+applications you want to abstract you know those things. So if if you're having net
+generate everything for you, it's going to couple your model to the view every you know
+and that it's also why I I don't necessarily do frontends and net either because I want
+to have a decoupling between the front end front end should be dumb and safe and and not
+really know anything but how to display things and when to display it and and everything
+gets told to it by
+
+[00:34:36]
+the API. So I think I think it's really easy to not that you have to couple them uh when
+when you start doing those but you have to be careful um and and make sure that you're
+maintaining some abstraction there. And there a couple other points too with with that.
+And one one other point on that I generated code it's it's it has gotten a lot better in
+my application of of technology. I I always say if you're going to generate code you're
+going to go in and clean it up and you're going to understand. Yeah. Yeah. And that's
+what AI kind of scares me these days. I I have a couple customers who are kind of where
+they're not the only one. I'm not worried about it taking over everything, but I am
+worried about some really bad code getting out there. Nobody understands. So, David, you
+mentioned decoupling the front end for the back end and keeping the kind of the front
+end pretty and dumb, I think, is what you said. I didn't say, but I like it. So, like I
+mean, is that are you ordinarily then like writing in in Angular or because it it seems
+like Okay, so you're typically doing it Angular, I guess. Can you speak to that a little
+bit? Yeah. Um I I like Angular. I like React 2. Both are are good. I like SBAs in
+general uh for
+
+[00:35:39]
+front ends. Um I think JavaScript was meant to be the front end. Like I said, it rolls
+over the bump. So, as long as it's dumb, it it it's not going to damage things by
+rolling over the bump. So, for the same reason I like a very tight, rigorous, you know,
+code on the back end. Uh or it's kind of the opposite. I I don't want that to roll over
+any bumps. Um but yeah, I do I do like those. I think you can stand them up faster. The
+problem withnet and and frontends, there's there's a lot of problems, but I think
+they're great if you just want to do serve a page, you know, either a staticformational
+page or, you know, that has dynamic data coming from a back end or forms that you just
+want people to fill out. um you can't you know they're not they're not real real great
+at oh well as soon as you get into async with withn net frontends now you're in Ajax
+spaghetti and and you just start repeating code everywhere and it becomes unmanageable
+and so what I really like about the open- source uh single page application type
+technologies is um there you can you can build all of that that you
+
+[00:36:45]
+need to you know do as calls and stuff like that you can build that in a very organized,
+structured way. Um, the problem with them too is same problem I have with with every
+technology is the code can get really out of control. I've seen some really crazy React
+apps that have the state going everywhere and and there's just multiple layers of
+everything just to get, you know, something to show on the screen and and so you have to
+control just like everything else, you have to control the code. It may be my my limited
+capacity as a as a person, but the way that Angular deals with data and async and
+structuring things inherently makes tons of sense to me and I just think that it pushes
+me towards writing things that uh at least that I understand or that like the way that
+it deals with state I I can gro. I'm not always the biggest fan of it, but like I kind
+of dig it. Whereas uh yeah, React, I've just uh continued just like why why are we doing
+all of this? It just it seems like there's like a thousand unnecessary steps that I'm
+required to do to do something like show a label on a button. And uh I just uh for the
+life of me don't understand why people like it or I guess the main thing that I'm into
+into React on is that you
+
+[00:37:49]
+it's great for cross cross compiling mobile apps. So if you want to deploy it to Android
+and iOS and have a single code source that's fantastic and reactive native I guess is
+the language that does that best. But uh I keep checking in every so often on
+NativeScript and Angular because I would much rather work with uh Angular than than
+React. So is the the .NET core or the .NET ecosystem pushing you directly into Angular
+or what is like what is that functionally like when you're starting a project? I have
+the same thoughts as you. I think React has a number of extra steps for some simple
+things. I have yet to see a a really good organized React app. I've seen some that are
+better than others, but uh but Angular I like for that reason. And then also with
+Angular you can, you know, I like to compartmentalize everything and and so you can do
+things in really discreet uh controls and and reusable controls very easily in Angular.
+It keeps things nice and organized and neat. Um you know if you adhere that that kind of
+stuff. So um I think I for those reasons I push towards Angular and and um I just I SBA
+stand up so much faster than MVC. Um, so I I kind of
+
+[00:38:55]
+steer every anybody away from .NET frontends, uh, unless they're like, you know what,
+all I need to do is show this piece of data from the database and it's never going to
+change. I'll be like, okay, that's going to be faster in innet. Um, but that's about the
+extent of it. Kind of as a as a last thing here, and I want to bring us all the way back
+to the beginning. And um Daniel, I'm going to go to you first on this one, but give me
+give me the ideal situation, scenario, project for someone to go uh Ruby on Rails open
+source, uh you know, from the get-go. Yeah, absolutely. Um I mean, I think uh open
+source is generally I'm going to say that's generally the way that you should go in
+general. Um I I I do think within that that's a pretty it's a pretty wide landscape. A
+lot of it depends upon what your project is, what your what your goals are with it. uh I
+think for your typical sort of SAS startup where you're going to be primarily a web
+application. So something where people are going to go to your website, log in, use the
+tool. Um I I think in general Ruby on Rails is is the direction that I'm going
+
+[00:39:57]
+to going to want to push most people to. Uh for the reasons I've kind of been rambling
+on about this entire entire podcast here. Um I mean I just think it's going to be the
+the fastest way to build that application. I think it's going to be secure. I think it's
+going to be a really good choice. You know, there's there's some separation there,
+though, because I what you know, it's important to keep track of everything I said
+there. If it's going to be a webbased application, so you're going on your web browser
+to the web application, you're creating a user account, you're creating a subscription,
+you're signing up, that would be the way I'd go. If you're going to be doing something
+that's much more of a mobile application, you're going to install this thing on your
+phone, and that's where 99% of the work is is going to be done is the user on their
+phone. Uh, now you're going to have kind of two pieces to it. you're going to have one
+that's a mobile application and then you're going to have to have an an API um somewhere
+and uh you know the mobile application there I'm probably going to lean in favor of
+something like React Native some kind of a crossplatform uh tool that you can compile
+out to multiple mobile applications um and the API piece gets to be a lot more dependent
+upon a lot of things I I think there are compelling arguments to try to do the
+
+[00:40:59]
+API uh in in node or some kind of nodebased thing uh just for codebase consistency
+you're doing your React Native application in JavaScript, now your back end is also in
+JavaScript. It makes it a little easier to kind of couple uh these things. So, I'm not
+opposed to that. Um I do think Ruby on Rails can be a good choice there as well. Um in
+general though, that's probably that might not be my first thought unless you're also
+going to have a web application where people are going to log in and do stuff. I so I I
+think there's a lot of good candidates. Uh the time when I would recommend net to
+somebody uh for me is going to be very limited to you are already working with net
+Microsoft technology. That would pretty much be the only time I would say build
+something new in .NET. If you're dealing with SQL Server databases, if you're dealing
+with legacy ASP applications and all of that, it might make sense to build it in .NET.
+For the most part though, if it's new development, if you're building something new, I I
+personally would not go the Microsoft route. I I personally would go more the route of
+of doing something open source. Damon, you're smiling. So So talk me talk me into .NET.
+I would take the opposite approach or or maybe think or take think the
+
+[00:42:02]
+decision quite shift it way over to the other side because if you're doing something
+really simple or need to stand up a prototype you know I think that makes sense to do
+Ruby on rails you can do it really fast um I think if you I'm going to be mean here but
+if you care about your data then then you need you need a pool you care about your data
+SQL server SQL server all right no not necessarily SQL server but I'm just talking about
+having a rigorous codebase on the on the back end. I I don't like having JavaScript, you
+know, do do business logic and and system functions, especially with financial data and
+things like that. There's just too many little things that you could miss. Um, and there
+is with with every code. But, you know, I'm also biased. Um, if you know I I most of my
+career has been net. Uh, it's where where I came from. So as a as as the architect and
+and the person you know in charge of the design net to me is much more natural to to be
+able to control the code. I know I have a set of patterns that I'm using. Um so if
+somebody hires me I'm also going to push to net because that's how I can build in
+
+[00:43:06]
+the past as well just to be totally honest. Um but that being said it's it's all like I
+said it's all about the design. Um and uh you know you can do you can do good design and
+bad design with any technology. Justin, closing thoughts? Yeah, so I think one thing
+that makes uh .NET a little bit harder for um small companies and SAS founders is the
+added expense of running it. Uh SQL servers and and .NET I guess I don't know if it's
+still true for uh for .NET web services, but certainly for SQL Server requires a Windows
+install, which requires a Windows license. So you start pushing up your hosting costs
+kind of pretty quickly, pretty early. And that could be really hard for someone for a
+company that's just just trying to break even or or you know get to a profitable month
+early on. And so maybe the answer is to reimplement. I think it's gotten a lot cheaper
+with with Azure though. I think that's more of a more of an old problem. Damon, correct
+me if I'm wrong. I don't really I don't really consider hosting all that much being that
+difference between .NET and Ruby. You can have really inexpensive Microsoft databases in
+Azure like 14 bucks a month. um they're uh and you're you know they're they're not
+
+[00:44:08]
+going to be to get to like enterprise size you're spending thousands a month. So um you
+can go anywhere but you also don't just because they're net doesn't mean you're using
+Microsoft SQL um you know that's that's use any database you need as long as that that
+you can get a whole driver. So and and just one quick point on the expense now that NET
+is open source. You can actually program for free in .NET. Visual Studio Code is free
+and open source.NET framework is free. Um but the debugger isn't. The debugger is
+licensed. Um there and a lot of the framework stuff, a lot of the packages we were
+talking about out of the box are are also licensed. Visual Visual Studio is licensed as
+as well and paid for. So there are some costs, but it's cheaper than it used to be for
+sure. Yeah. So this is a little bit old. It's been a while since I had to stand stuff
+up. Yeah, I used to I was looking at clients hosting bills and it's just like, oh, we
+have $500 a month in Windows licenses for what's not what's not a giant application and
+it's like, guys, this is killing your business. Like, it's so expensive. So, I'm glad
+they fixed that because it was a real problem. Um, and it's going to stop adoption.
+Yeah, but I think the real the real expense with going.net is not your
+
+[00:45:10]
+hosting expense. It's it's your dev time. If it takes you 10 times as long to build the
+thing, I mean, that can be very expensive. Well, at counterpoint to that and if you if
+you design it right and build it right, like I said, the expense of a of a a project is
+exponentially higher after implementation. And that's because it gets harder and harder
+to change. So the more things are coupled up, more things are generated, the harder it
+is to change. Whereas if you put the investment in early to do good design, lay
+everything out in components, make sure that you understand what's going to change over
+time, then then uh five years down the road, you're still able to be agile. Basically,
+I'd certainly say that like pushing someone who's coming with a new a new project,
+they're going to get started if they want to start with something. It's been this is a
+couple years old as well since I tinkered with this, but I was playing around with
+Elixir and their web framework, which I believe is called Phoenix. And I played around
+with Go and some emerging web web frameworks for Go and I was like, "Okay, cool. I want
+to get started. Now I have to write my own authentication system and password resets and
+all that." Like if you're starting there, stop and then go with go with something that
+already has it out of the box. And .NET does and so does so
+
+[00:46:12]
+does Ruby on Rails. So yeah, they could could both be good options. Uh I think if you
+have if you have a really great adviser who's pushing you one direction, you should
+probably, you know, take the advice of your adviser. Um working with a really great
+team, you could be successful in a lot of technologies, but it's really hard to be
+successful with a bad team. I I guess I mean maybe if I could just kind of throw one
+little one little tail on there. I sort of feel like implementing something innet is a
+little closer to implementing it in silicone. Uh you're implementing something that's
+robust and stable and that's maybe not the right call for somebody who's launching a
+startup. You don't necessarily know what your product is going to do 5 years from now.
+Maybe right now we should be trying to build this thing quickly, get some users, start
+getting some feedback on it. And you know, maybe five years down the road once we've
+proven our business case and demonstrated, wow, we've got millions of users. now maybe
+is the time to think about rewriting it into something that's perhaps more robust.
+That's definitely true. I think it all it all depends on on you know what you need out
+of it and what the business needs out of it and how fast and as much as the Rails
+community loves to harp on about testing as well and test driven development. I think a
+type system probably makes testing somewhat easier. I imagine I
+
+[00:47:14]
+imagine .NET also pushes you strongly to to have tests for everything that you're
+writing, right? Yeah. You can talk about time to market. That's the first thing that
+drops off though. Oh yeah. Yeah. No, I mean that's most most of the projects I work on
+like no there's no test bed. We we don't have users yet. Once we have users, we'll start
+writing a test bed. But it's like if if you write your test bed too early, all you do is
+spend your spend your life rewriting tests and rewriting tests as the business
+requirements change. So, you know, for for early stage startups, I think yeah, you put
+off unit testing till way down the road. You know, once you've I you know, solidified
+what the product is, then you build unit tests around it. But I think it just slows you
+down if you're just getting started, which is why rewrites are so wonderful and we love
+rewriting. We love rewriting software. No, it's rewriting software is the best because
+you know your product market fit, you know your business case, you know what your
+struggles are, the problems. You get to just start scratch and reimplement something.
+It's it's like the best. Nothing better than a rewrite, man. They're my favorite. That
+does kind of bring us to a close. Uh so do want to thank our guests. Uh Daniel who did
+have to just hop off. Really appreciate his insight obviously. Damon, thank you so much
+for joining us. It has been an absolute pleasure. Uh we will catch everyone next time on
+SAS that
+
+[00:48:17]
+app. Thanks for cruising along with us on SAS that app. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. If you enjoyed the
+show, don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

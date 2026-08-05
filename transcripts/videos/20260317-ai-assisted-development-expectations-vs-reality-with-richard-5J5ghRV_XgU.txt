@@ -1,0 +1,636 @@
+AI-Assisted Development: Expectations vs. Reality with Richardson Dackam
+========================================================================
+
+Video ID:  5J5ghRV_XgU
+URL:       https://www.youtube.com/watch?v=5J5ghRV_XgU
+Published: 2026-03-17
+Duration:  00:42:34
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The number one thing I always say is uh get familiar with prompt engineering. I mean,
+this is this is I feel like the skill of the century now. It can literally unlock so
+many different things. Technically, it opens doors to so many other things. I would say
+if you just focus on understanding how to prompt correctly, you've done already like a
+big chunk of the work. Second, I'll say understand the concept of context engineering. I
+know the term context engineering sounds complicated, but it's technically always think
+about what the AI needs to know in order to do something. >> Welcome to SaaS That App,
+building B2B web applications. The podcast where we share real-world stories, practical
+advice, and tech insights for those building or thinking about starting a tech-enabled
+business. I'm your co-host, Aaron Marshbanks. And I'm Justin Edwards. Each week we bring
+you the stories, strategies, and insights you need to build your SaaS or tech-enabled
+business smarter, not harder. Let's dive right in. Hello all, and welcome back to SaaS
+That
+
+[00:01:03]
+App. I see Justin uh is I I I say that with a little surprise because I think he and I
+both have been basically back-to-back-to-back-to-back today. >> [laughter] >> How's that
+going? I've been so back-to-back, Aaron, I can't even remember the last time that we
+recorded like an hour-long podcast together. >> [laughter] >> Was that two calls ago or
+one call ago? Well, for me it was it was two. I don't know I can't speak for yours. It's
+between you and Nick who's going to win the most time spent on the phone with me today.
+I think Nick's at two and a half hours and you're coming up on two. Ooh, okay. Well, I'm
+going to have to get it together a little bit. I'll I'll I'll see if I can grab you for
+an additional like time at the end of the day to even the odds. >> [laughter] >> Also
+joining us today, uh we have Richardson Dackam. Uh like to welcome him to the show as an
+AI engineer. Uh he's been a founder, he's a writer exploring what happens when modern
+software development kind of meets the rapidly evolving world and wild wild west of the
+artificial intelligence landscape. He is uh the captain of N Shipyard, a venture studio
+
+[00:02:07]
+focused on building AI-powered products and helping founders turn ideas into real
+applications. So, along the way he's worked on production AI systems, writes extensively
+about AI, startup building, spends a lot of time thinking about uh how these tools are
+changing small teams, solo builders, small dev shops, and what they can accomplish. So,
+today we're going to be diving into building with AI. Um talking about opportunities and
+pitfalls, AI-native startups, how founders can utilize all this incredible technology,
+uh and all that good fun. So, Richardson, welcome to the pod. Oh, thanks for having me.
+Always excited to talk about the AI. Good. A lot of people are, but I'm I'm excited to
+get your take on a lot of this stuff cuz I know that you've been been steeped in it. So,
+we'll we'll we'll get the the necessary stuff out of the way first. What What pulled you
+into the direction of technology and and when did AI become the thing that you really
+wanted to like knuckle down on and and captured you? I think the the real pull was
+actually being an entrepreneur, like being able to build my own thing and building
+anything that I wanted cuz initially I I I'm a self-taught developer. I I did I'm also
+self-taught
+
+[00:03:11]
+AI developer as well. So, when I started I wanted to build my own startup, but I didn't
+I didn't know how to code. So, I started talking to different developers, asking them to
+help me build the the thing. And one developer told me, "Why don't you just build it
+yourself? Learn how to to code and build the the thing yourself." And that's pretty much
+how I got started into web development. And then uh I do then I learned how to code at
+the time in college. I ended up working for a law firm and you know, and I've done a lot
+of different apps and so on. And I've always been good with computers in general, but
+technically I learned how to code for the web because before I I knew how to use things
+like Visual Basic, very simple um web development application. But in college I learned
+to build actual application for the web and that's when there were a big shift. Nice.
+So, what what was the what was the first big thing that you did build then utilizing AI?
+Somebody talked you into it, so you went and did it. What did you do? So, the first time
+I used AI was about uh 3 years ish ago and I I wanted to build Initially, I wanted to
+get familiar with
+
+[00:04:16]
+the technology first, like using AI to summarize things for me, to build um to build a
+application that can, you know, think with AI. So, I was building like really simple
+things to just, you know, play around with it to understand how it works. And I'm always
+driven by figuring out how it works first before I can actually like build more complex
+project. And and technically I was just like playing around, trying to understand how it
+works, what happened when I send a prompt, how to get it to do specific things that I
+want, and really pushing the limit of AI to try to understand at what point it just stop
+where it cannot do something and try to figure out what what I can build on top of it.
+So, what does your stack look like right now? I mean, what do you what do you leverage
+for the various aspects of of what you do with it? So, right now I'm using a little bit
+of everything. So, I I tried Gemini, you know, like Cloud, OpenAI. It really depend what
+I'm doing. So, the most recent project that I've been building, for example, um Oren LLM
+is like an application that allow me to um
+
+[00:05:20]
+essentially like if you're familiar with Notebook LLM that allow people to put a prompt,
+summarize um summarize something into a podcast or a video. So, what I initially built
+with Oren LLM was to do something like that where I can put the a prompt and then
+generate podcasts for me. So, this one utilizes uh technology that allow to understand
+ways to to um to to to summarize things as well. So, it's different I try to look at
+what the different AI platform offers and utilize the the best equation that I that I
+can use for the job. So, when when somebody says, "I I want to build an AI. I want to
+build an AI startup." You know, what what is like the most common misunderstanding you
+see right away? I I usually tell the story, you know, people or clients of ours even
+will show up be like, "I want to do AI." It's like, "Well, the fact that you said it
+that way means you don't really understand what it is you're you're wanting. So, let's
+let's back up and find out what it is you think it does and then why it is you think you
+need it." But what what do you run into when people approach you about, "I want to get
+into AI. I want to use AI. I want to
+
+[00:06:22]
+build this in AI." What do you What do you see them falling over themselves for? I
+always see a little bit of people that want to that underestimate AI and also people
+that overestimate AI. It always happen where someone think that AI is so good today that
+is so autonomous that, for example, it will take someone's job right now. So, I think
+there's some limit to that and then but people tend to overestimate what AI can actually
+do cuz they for example, there's this new tool that came around called Open Claw that
+can do a lot of things autonomously, but is is it real autonomy or is it just using cron
+jobs? So, there's there's always this thing where people assume that it's so good at so
+that all you need to submit a prompt and it will do everything for them. But a lot of
+like AI, especially if you want to use it for businesses and stuff like that, you need
+to customize it to an extent, like write a system prompt to make it better, uh figure
+out what kind of tool need to build automated with a cron job. So, you need to think
+about all of that. And then a lot of time people assume that if they just connect to
+OpenAI or Cloud that that these tools are going to do everything for them. So, they so
+they
+
+[00:07:25]
+they really imagine that being the wrapper and letting the AI do all the job, but this
+is not really how it works. You really need to put in the work to figure out how to
+utilize the AI the best you can to do specific things. So, what are some examples of
+like uh that you've seen in your career where someone kind of overestimates what AI is
+or or thinks that it does something that doesn't actually do? Often time is, for
+example, people think that AI is so good now that that literally if the company uh add
+OpenAI to the to your to the technology stack that it will literally like take the job
+and then they will like be jobless. Some people are really genuinely have that fear. Uh
+a lot of people don't realize that at the point where AI is right now is a lot more it
+has a lot more to do with augmentation where you you can utilize it to do tasks because
+AI replaces tasks, not jobs, where it stands right now. And and a lot of people don't
+see that. That's great. I I like that that that, you know, notion of it replaces tasks,
+not jobs, you know, things, not people. And I want to be up front to say
+
+[00:08:30]
+that we might get to a point where it's able to replace job. It probably can replace a
+lot of jobs or some type of jobs today. But generally, what AI tends to do is more
+focusing on task accomplishment. And and then so when you're making an agent that's
+really autonomous to the point where it can replace someone's job, it's essentially uh
+someone that has put a lot of work into figuring out exactly what tasks to replace. But
+replacing the the nature of job itself is a lot more complicated because there's a lot
+of uh things that are unsaid, for example, the the corporate culture that the AI can
+understand. And I believe um MIT recently did a study where they were actually looking
+into that and they wanted to evaluate if AI is actually able to replace someone's job.
+And then what they realized is that the percentage of job that it can actually replace
+today is really low because there's all these cultural things that happen in a in a
+company. If your if your boss tells you, uh "If you don't finish this job by Thursday,"
+you know, you know you know that you're going to be in trouble. You know that you might
+get fired if you don't do the work that you intended to do.
+
+[00:09:31]
+Well, AI doesn't really get that, right? So, so it doesn't really understand the
+cultural innuendo and all that stuff. So, how does how does having these these tools
+like these the AI coding assistants and the automation platforms and and things like
+that? How how do you how do you see that fitting in best today? You know, there's
+obviously there's a lot of different tooling out there, you know, everything from just
+the the LLMs that are out there to actual assistants that are in IDEs and and, you know,
+on and on and on, Uh those that specialize in in you know, quality assurance and code
+review and things like that. I mean, how does how does somebody kind of wade through
+this pile of AIs to find the mix that they need to do what it is that they want to do?
+How do you how do you help coach people find to find those? I really always tell people
+to to start with what you don't know and ask AI to to give you some clarity into the
+things that you don't know cuz it through that process you likely to have more follow-up
+and get more clarity into what you want to do. So so I I I run this committee where I
+have a lot of like people that want to build with AI and
+
+[00:10:34]
+often time they don't even know what they want to build or how to build it and I always
+say, well, just go and ask AI how to do that and what to build. Actually ask the
+question that that you have doubt about, just ask them. Um, but just like in a lot of
+things people don't actually take action. They they they kind of keep their their
+question and their fear in their head and they don't already take any action. But I will
+say like the first step is just use AI, ask the question that you need and the clarity
+that you want will come out from from this series of follow-up. So what I guess what
+cool stuff are you seeing right now that's like really fun to integrate with or like
+it's providing big lifts to products and things that you're working on in terms of like
+AI integrations. What's what's the big leverage items that are fun? There there are so
+many right now. I feel like there's a new tool almost every single like day or week now.
+Um, more more recently so I I played with XR which is a which we does deep research. Uh,
+I've I've played a lot with Deep gram for like um, if you want to build an agent for
+example that can listen to to conversation and and generate uh,
+
+[00:11:38]
+insight or information right away you can use Deep Deep gram to do something like that.
+Uh, it's also used a lot for people that want to build AI agents that can answer phone
+calls and do and and for example be like an AI bot. Um, I've I've used Open Claw is
+really interesting. I've been really analyzing the architecture. Um, and then I like how
+they've really put the work to think about how to utilize skills in order to not only
+build the personality of the agents but also how the agent function. So there's this
+skills inside of Claw called soul. So the theory where you your goal is just to define
+what's the soul of the AI agent and I think it's really clever a clever way to use
+skills for that. Um, I've been using um, more recently I was using uh, for example I I
+was using Gemini and Open AI voice capability and and I I I keep going back and forth
+between the two which is because of cost and Gemini has a really really good quality in
+terms of voices. I mean, if you've
+
+[00:12:41]
+used Notebook LM and any voices that you hear in the videos are from the one of the top
+models. That's so I've used that in Orn LM. Definitely a lot of tool out there. Like one
+area that I've been really diving deep into as well is bio biotech. So using AI agents
+specifically for for bio. So there's an AI agent called Bio Me. I believe it's it's
+currently free. That might change soon. They're just testing it. But it's like an agent
+that can actually that you can put out there to do some research for you like an AI
+scientist. So so I'm really exploring all the different applications to really
+understand the limitation and how I can push AI to do things for me as well. Real quick,
+this episode is brought to you by Delta systems which is what Aaron and I do when we're
+not talking through microphones to you, the people of the internet. We've got a really
+really great software team here and we love to work with cool people on cool projects.
+So if that sounds like you and you've got a problem or you're in some kind of a jam, go
+to deltasystems.com, grab a time with us. We can beat up on your problem together and if
+there's a fit there, amazing. We'll help you out. So deltasystems.com, grab an
+appointment and hey, maybe we
+
+[00:13:42]
+can work together. Just from a from a developer's or programmer's perspective, um, do
+you use different agents or different AIs for the different parts of your process? To
+you know, I actually want to generate the code. I want to review the code. I want to
+quality check the code. I want to publish or push out the code. Do you use you know, do
+you use different different AIs for each of those aspects and then do you cross-check?
+Uh, obviously I I read a lot these days about you know, if you're going to have one AI
+write it, have a different one check it which of course makes total sense but you know,
+which ones play best together and and give you the best overlap? >> So when I'm using
+Cursor, so I use Cursor for coding and when I use Cursor generally I've I've used GPT 53
+Codex for for planning for me because I find it's a really good planner and I usually
+whenever I want to generate a feature that is very visual, I tend to go more toward
+Cloud Opus because I feel like it's a it's a bit of better designer in that sense. I
+tend to be more happy with
+
+[00:14:44]
+kind of design. But also design is subjective. Sometimes I use uh, um, Open AI and I get
+much better design in some other aspect. So I really jump between the different models
+based on what I want to get out of it but I tend to go more with the the smarter model,
+the model that I consider the smartest at the moment. So right now it's GPT 53 Codex for
+me. So I tend to go more with that. In the past I used to use Chat GPT to or to to do my
+my PRD and plan my my development and I used to use Taskmaster separately but now Cursor
+has planning built in. So I don't really feel the need to jump between tool anymore. I
+just straight up straight up go directly inside of Cursor. And then like more recently I
+was using V0 to first do my my UI and then my workflow was to first generate a navigable
+prototype and that's that's a very specific term that I use when I generate it. I say
+generate a navigable prototype that is not functional, that doesn't make any requests
+cuz it really allowed me to play with a UI interface,
+
+[00:15:49]
+really see how it works, where it breaks and really focus on the design and and this way
+the AI doesn't introduce like functionality and breaks because sometime you end up
+spending more time debugging in between. So I I separate the way I generate the design
+and the way I actually implement the the functionality after the fact. My main go-to
+framework for that is Next.js. I'm actually a Ruby on Rails developer that completely
+switched to writing JavaScript because I felt that using Next.js I had the front end and
+the back end on the same on the same environment and it was a lot easier. It also inside
+of a project my AI doesn't have to to jump between application back and forth between my
+front end and my back end. He can see everything all at once and I'm sure if I
+constantly Cursor used to have a lot of problem with context when when you had like two
+very big projects. That was like a really big problem and and also if you had like a big
+front end and a big back end and you needed to put them all together that it would take
+more time for your AI to read through it. Now it's a lot better but that's kind of like
+what drives me toward doing that. Yeah, we have we have a couple we have a couple
+projects in Next.js. It's not
+
+[00:16:52]
+it's not without merit. I'm not You can have you can have my Ruby when you pry it out of
+my cold dead hands. >> [laughter] >> But yeah, now we have we have a couple projects in
+Next.js. Honestly, the uh, with my experience has been that the AI generation and and
+using like agentic coding has been so much better in JavaScript. I think there's just
+there's just so much corpus of terrible JavaScript code that uh, it really understands
+it very well and and the generated JavaScript tends to be of really high quality or
+maybe it it's of lower quality and JavaScript is also just of lower quality. Who knows?
+Um, Sorry. No, um, no. >> personal preference about anything in case you're wondering.
+The reason I gave him my own show is I have no opinions and I don't know very much. Um,
+>> [laughter] >> so uh, yeah, I mean, so we're curious to know a little bit more about
+your actual kind of workflow for working with with agentic coding. So you're working
+with with V0 which is Vercel's doohickey, I'll use for lack of a better word. Um, so how
+do you get those kind of designs like your clickable
+
+[00:17:55]
+functional prototype? Like how do you communicate that back into something that's going
+to do actual functional code gen? Like what is what's like a typical tool set up for for
+doing that? So usually in in my PRD, I would usually have make sure to always mention to
+generate all the the page path, all the API endpoint. I make it clear that it's we're
+going to have like a front end and a back end. But but when I when I do generate the
+front end, I I focus on navigable prototype and I also say not to implement any
+authentication. I always build for use it for like a user of one. Like I first like no
+authentication, we're just building the navigable prototype. Sometimes not even a home
+page. It's just focusing on the core feature, making sure that the core feature works
+and then down the road I end up adding other tools. So my my current workflow for speed,
+I tend to use Upstash. Very cheap. It's it's it's an easy way for me to to have a small
+register database to store anything that I need to store. And I tend to use Magic Link
+for authentication because then I don't have to do the complex uh, authentication set
+up. I can just like you know, put
+
+[00:18:58]
+put an connect go on Magic Link, create an account and then add it to my app and I'm
+just set up in a in a couple of minutes. So that's my little hack. I only go to a more
+relationship based database down the road if I really need to. For example, Supabase is
+usually my go-to for that. But I tried because I have so many different projects. I have
+more than 30 plus projects. So I try to minimize the cost as much as I can and and
+really focus on on making sure that the feature works with the AI and all that. I'm
+interested. You mentioned it a little while ago and I just kind of end it here. Um, you
+mentioned working with Open Claw and I I I looked a little bit into that very recently
+because actually we may have some service offerings or some service needs that are that
+are surrounding that and I I I also found that that notion of uh, them trying to craft
+it as a living thing. You know, you mentioned it has a soul, it also has heartbeats, um,
+you know, and and the memory and and things like that. So I'm I'm curious what what your
+level of experience with Open Claw is and and how you have how you have worked with it
+by way of some of those those pulse controls and and
+
+[00:20:02]
+lobster tails and things like that that they throw in. I would say my level of
+experience with Open Claw is not an expert by any means, but I I'm technical enough that
+I can I was able to set it up myself, you know, make it work in an environment, just
+read read through the code through the the architecture. I actually built something
+similar called BeetleBot that is literally inspired by Open Claw and Open Claw and then
+Zero Claw, which is an another alternative. Uh So, what I'm I'm currently using Open
+Claw to teach it how to build application for me so I don't have to. But, I'm in a very
+early days of that. So, the way I'm configuring it is based on um the experience that
+I've built, understanding how to write skills, how to do prompt engineering, how to do
+context engineering the right way. And so, I'm currently setting up my my AI with I'm
+using with the um the assumption that it has really good long-term memory. I'm currently
+setting it up to start building things for me so I don't even have to be involved in the
+building process. So, one of the step that I've done because ChatGPT and Gemini also
+have uh
+
+[00:21:07]
+memory about my the way I built, so I just asked Gemini and ChatGPT to summarize exactly
+how I built and how I think about it. And then I converted those memory into skills and
+I feed that fed that to a to Open Claw. So, this is how I set up my my bot right now.
+And I haven't tried to build something with it yet. I'm still in the setup process. >>
+[snorts] >> Uh with BeetleBot, which is the I would say like the bot that I built that
+is inspired by Open Claw. Um So, so just just to quickly explain what it is, it's a tool
+that allowed me to manage all my free time. So, it works exactly similar to Open Claw
+where you can have different cron job to set up autonomy and so on. But, but this bot is
+for me a way to really experiment with how Open Claw is built by getting my hand dirty
+on building it myself. So, so I love learning by doing, so I always like build a
+personal on my own and try to use the tool at the same time. Interesting. So, we were
+talking earlier uh just about the notion of, you know,
+
+[00:22:11]
+how how people have this misconception that it's it's AI I'm going to just it's, you
+know, AIs in general will be replacing people, will be replacing jobs. I was just
+reading this morning how uh you know, it's now there's there's going to be like no use
+for code review by by people at all. Like, you know, we shouldn't even be doing it now.
+It was entirely written by somebody that that sounds like they've never worked with a
+good team of engineers before and they just don't have a lot of love for them. So,
+frankly, so I didn't I didn't put a lot of stock in it, but it was just interesting that
+that was somebody that's on that level of I don't need a developer. Now, I don't need
+anybody doing quality assurance, just me. Wild West, I'm just going to go out there
+running a gun and and kind of get this done. So, do you do you think that that I mean,
+something like that is where we're is where we're angling toward, you know, reducing the
+number of developers, reducing the number of staff, or or is it actually going to wind
+up increasing the demand for good senior developers to help keep it in check and monitor
+it and make sure that it's it's producing quality output?
+
+[00:23:13]
+I think we're definitely going toward a a world where AI is going to do the entire
+review process. Even my job as a developer has completely changed already. So, it's
+literally completely different to what I was doing before. I don't write any code now.
+It's all generated. 99% of my job is reviewing code generated by AI. And and then
+sometimes reviewing the review with the with AI. So, like a lot of my work involve using
+AI to try the entire process. Now, where where the senior developer comes in is that
+because I have had so much experience coding and sometimes I can look at the code and
+and notice something and say, "Oh, this one does not look correct." And then I then I
+can dive in and push the AI toward a certain direction. So, I feel like the job of
+developer is more of a like guidance, like a navigator where I can push AI toward a
+certain angle to add clarity into an issue or investigate for me. But, I don't have to
+do that my only my myself. But, the way um code review is evolving, it's getting to the
+point where it's so good that I think
+
+[00:24:18]
+we give it a couple of maybe like a year or two where it's going to get to the point
+where where I'll have a lot of confidence with what the AI has reviewed to the point
+where I don't even might not even need to review it myself. Um some of the the areas
+where I still see a lot of weaknesses is when it has to do with something very visual.
+If you're building a visual feature, you still want a human in the loop that can
+actually look at the design and like approve it or or stuff like that. But, when it
+comes to the back end, uh generally I I I don't there are instances where I have to to
+do a double check, like if there's the the database migration, conflicts, stuff like
+that. But, generally I'm really satisfied with what the code review uh finds. Especially
+like right now, for example, like using multiple code review also give you different
+eye. It's like having different developer. So, I get code review from from Cursor, code
+review from Cloud, code review from uh I think it's called Greptile. And you're getting
+different perspective as you're coding. So, so it's definitely at the level of a
+developer where it is right now. Yeah, we've gotten a lot of benefit from
+
+[00:25:21]
+using what we're doing right now, it's called Code Rabbit, but it's it participates in
+our PR process just like a developer does and it has a bunch of notes and it takes some
+time to get it kind of configured to where it's providing useful useful notes as opposed
+to just a lot of cruft. One of the problems with generative generative AI is they're
+really good at generating a lot of content and if you're human has to read that, it's
+really annoying. So, trying to get things to be concise and also in code, trying to get
+it to generate concise code is sometimes a challenge, but uh yeah, I I think that it's
+similar trend to what we see in programming where someone who was a really smart
+developer with a great technical, you know, background and understanding can now
+orchestrate an AI and get a lot of stuff done in a short amount of time. I think that um
+AI is really giving us a lift on our code reviews and kind of helping us do a better job
+at it, be more thorough and so on. So, and we do we do the same thing where we have
+different AIs kind of critique each other and then we have a human step in and kind of
+be the the trier of what we're actually going to do. I I have some intuition that where
+code review is going to go is is that we're going to have skills for code review where
+independent developer can actually teach
+
+[00:26:24]
+the AI how to review code like them. That might be a like a short-term transition, but I
+think we might get to this point because even when I review code, I want to get to the
+point where I don't have to to actually write um go to the code review cuz I'm always
+doing similar things, looking at similar areas. And I've been thinking about how do I
+automate that? How do I fire myself from having to review this code every single time?
+And and then so and then the way I've I've um the solution I've thought about to address
+that is by writing skills for the code review. And so, I'm I'm I I have an intuition
+that we might go toward this direction. If you find yourself in a place where you're
+using AI in an existing giant code base that wasn't produced by AI, one of the things
+that's cool to put in your in your cloud doc or I actually I have like a PR prep for PR
+process that I run through where it's literally a different file where it opens it up
+and it runs through like these are all things I need to do to get this ready to go. And
+one of the things in there is just like look at some other places in the code base and
+be like does my code look like that code? And if it doesn't, then I need to alter, you
+know, I need to refactor my code to match the other
+
+[00:27:25]
+code in the code base. Um So, that's a cool tip uh for for anyone basically who's
+working in an existing code base. Uh can can you speak a little bit more to like using
+skills and how that works and like what a skill is and how one uses one and and just
+give people a little bit of color on engaging with those? Skills is I essentially a way
+to >> [snorts] >> to make it an ability more redundant. Technically, you you creating a
+way for for the AI to have the ability to do something in a in in a certain consistency
+multiple time. So, for example, you can have a skills to tell AI how you like to in the
+context of code, how you like, for example, to format your code. You can have skills
+that says, for example, when you're when you're using code, use double code. You can you
+can teach AI how you like to do things a specific way. But, you can also use skills in
+in a much more complex way where you can actually teach AI how to follow a certain
+workflow. For example, I've used skills a lot in browsers and with browser agents to
+follow a very specific workflow when
+
+[00:28:28]
+doing this task. Um so, they're just a way to give ability to AI that the AI wouldn't
+have otherwise by adding that ability inside of its context. So, do do these skills in
+I'm just thinking in particular context, but do these skills require constant feedback?
+Is it a is it a situation where you're basically like providing it with the initial
+proxy, how it does, fix it, tune it, see how it does, fix it, tune it, see how it does,
+or is it something that's so concise and so succinct that you can just say, "Uh this
+this is the process, you know, I want to I want to do this, I want to go here, I want to
+generate this email, it needs to be in this particular language and format, and then I
+want to make sure to log that in my, you know, Salesforce or something like that." I
+would say a little a little bit of both because you do need some iteration because
+sometimes you write the skill for the first time, you use it, then you notice little
+things that you can tweak to improve it. And then you go back to the skill folder and
+then improve the skills over time. So, so I I would say definitely iteration are helpful
+to make skills better. But, you don't it doesn't have to start
+
+[00:29:31]
+like that. One tip is that you could go on inside of ChatGPT or Cloud and describe what
+you want to do to do and ask it to generate a skill for you for that specific task. And
+and and then after the fact, you know, see if you like it and you can just iterate over
+that. Have you had a lot of success, or or have you worked at all with skills that that
+do actually generate uh like a document, a PDF file, a spreadsheet, some sort of an
+output um that you then, you know, that that becomes what the product of the work
+actually is? Or is that something that you need to spend a lot more time in actually
+coding to get it to do? I've done it before when I used to work on Skill Adapter. So
+actually I started like touching the concept of skills like a while like before even
+Cloud released skills. Um it's called skilladapter.com if you're curious. And um and
+then what I was doing with that, I wanted to find a way to to teach your browser how to
+do things and not to do redo the same thing over and over again. So I spent a lot of
+time figuring out how to to prompt in a certain way that the
+
+[00:30:33]
+browser would be intelligent enough, for example, to uh to have a to to not redo the
+same thing over and over again when he's looking at the browser, but also utilizing a
+little bit of memory. So I have a question for me, and then I'll I'll kick it over to
+Justin if he's got anything else, but um just thinking now into the into the future of
+of developers, you know, actually the physical humans that are going to be interacting
+with this thing. What what is one or two things that you might say to uh a new developer
+or or one of these new skill builders or whatever that they should be learning now to
+stay relevant? The number one thing I I always say is uh get familiar with prompt
+engineering. Um >> [laughter] >> you know, I mean, this is this is I feel like the skill
+of the century now. It can literally unlock so many of different things. Uh it's
+technically it's it's it's it's like it opens door to so many other things. I would say
+if you just focus on understanding how to prompt correctly, you've done already like a
+big chunk of the work. Sec- second I'll say un- un- understand understand the concept of
+context engineering. I know the term context engineering sounds complicated,
+
+[00:31:35]
+but it's technically always think about what the AI need to know in order to do
+something, the same way as if you were to teach your your your your employee or your
+assistant to do something for you, they need to have the right context. So if you if you
+think about the AI that way, you always make sure that it has the right context. You can
+accomplish a lot of things with that. Um I think just from those two, to keep it simple,
+I think that that unlock a lot of things for people. Um I've you see there's so much you
+can do now that if you dive into it a little bit more, then you know, the sky's the
+limit. Um but also like if you if you're curious about figuring out how to build
+application, go on something like V0, write what you want to do, and then the magic's
+just going to inspire you to do more. So what's the what's the wildest prompt that
+you've had to put together? Um um I'm not going to say that I'm getting good at it, but
+I certainly got better at it than when I started. Yeah. But I I read I read about all
+these different prompts. Uh particularly of interest to me are ones that generate
+images, and the the really fluid
+
+[00:32:38]
+language that you have to put to actually get the the imagery that you're looking for
+the exact way you want it. And then if you did that exact same thing tomorrow, you're
+going to get a completely different outcome. Yeah, it's like you're using like JSON for
+generating images or video or things like this. Uh I recently took a book that I wrote
+when I was 16, and I had it converted into JSON, the entire book. The technically the
+into a a story book so that it can generate a video from that. Uh the most complex way
+I've used prompt engineering actually is by So so I built this tool called Chim Board
+that is an LLM console, and it also has uh an MCP. So technically I have cursor uh go
+talk to the console and generate the prompt for the code itself. So I'm not actually the
+one writing the prompt. It goes straight to the console and it's generating the prompt
+from that. So I I think that's one of the most one of the most advanced way I've I've
+written prompt. Very cool. Justin, what you got, man? So you're going to uh you got a
+product idea, you're going to vibe code its MVP, get it in front of people, start taking
+payments. So it's
+
+[00:33:40]
+you got a new new business idea, you're going to get it started, you want to vibe code
+it from scratch tomorrow. Where do you start? What are you picking up? So I first first
+thing I'll spend a lot of time inside of ChatGPT or Cloud just like really trying to
+understand what I'm what I'm trying to build, where's the value, and all that. Once I
+have an an idea, I generate a PRD, go into V0, generate the application as a navigable
+prototype, and as soon as I see what it looks like, then I can, you know, try to figure
+out how to implement everything else. If it works, I use Stripe for payment. Uh if it
+works, I use uh Magic Link for authentication. Uh start with Upstash for database just
+to just to keep it simple. Um not over complicated. And then from there, I'm already
+starting from a from a good base. Th- there's actually a new a new one. I don't I don't
+know if you guys have heard about it. There's a new app that will allow you to build I
+um application inside of macOS, and soon inside of Windows directly. I think this is
+going to be be a really big unlock for people. Yeah, I could see that. Have you Have you
+um
+
+[00:34:42]
+Is there anything you're excited about in terms of uh in in the last recent week with
+like agentic AI? Oh gosh, yeah. We're as a our our long-time listeners know, we we
+Justin and I have day jobs, and this is not it, unfortunately. >> [laughter] >> And and
+in our day jobs, uh you know, we we run a consultancy, basically, and so it's it's been
+really interesting to see it uh AI gaining ground in the marketplace. And so, you know,
+one of the things that in a general sense I'm excited about is uh is creating some
+potential service offerings centered around AI. Not necessarily a, you know, here's your
+application and we generated it fully from AI, but rather how we can help people
+leverage AI by way of, you know, creating these skills or creating prompts or creating
+some of these agents to help them with the repetitive nature of some of the stuff that
+they do, particularly back office stuff, cuz we saw a lot of those problems. Um you
+know, that's that's something I'm kind of excited about. And then I guess from just the
+personal interaction aspect, um I've been out of the coding game for a long time. Uh my
+I'll I'll really date myself now, but my last full-time programming job I worked on an
+AB- IBM uh AS/400 mainframe
+
+[00:35:47]
+writing in RPG 4. Wow. >> Uh >> [laughter] >> I have done other types of programming and
+programming languages since then, but that was the last full-time paying gig as a
+programmer I did. I am glad to see it coming back around where I don't necessarily have
+to know all the ins and outs of programming languages, and I can actually get some stuff
+done again. What are What are any of those things, Aaron? Oh my gosh. >> [laughter] >>
+You said a lot of things that lexically parse to being nouns, but I don't know what any
+of the nouns were. I Wow, thanks, man. >> [laughter] >> I I'm a young whippersnapper,
+you know. Nope, I worked worked for an electrical cooperative, and that's what ran their
+entire back office system. Uh invoicing, meter controls, I mean, the whole nine yards.
+And uh it was it was a great experience, and I loved the job, but wow, I was not sad to
+see that die a painful death. Did you Did you get a chance to try um a computer
+Perplexity computer? What kind? Perplexity computer. Oh, no,
+
+[00:36:50]
+I haven't yet. I mean, I've been reading about it. I see it, and and I like some of the
+aspects of it. You know, you you start to get these aggregators in place, and I suspect
+that that's going to become kind of the next wave is people being able to couple these
+different types of AI agents together to get a suite of services rather than just, well,
+I'm going to I'm going to pick this one to do, you know, my my large language modeling.
+I'm going to I'm going to pick this one to be for my design. I'm going to People are
+going to start bundling those things together. I see that coming, uh and I think that's
+going to be very cool. I feel I feel like Minus was the first one to kind of do this
+kind of agentic things, and then and then down the road now, you know, uh Cloud uh
+Claude is doing really well. And then and then uh now Perplexity is doing that. That's
+really cool. I think I'm excited about building these um getting some experience
+building these agentic systems and and creating agents for other people. Uh I'm
+specifically interested in security and privacy, and not everybody on Earth wants to
+send all of their data to Anthropic and OpenAI. Um so like, for instance, I I'm not a
+I'm not a Mac user. I'm a I'm a Linux user. So we don't have um you don't have
+
+[00:37:55]
+WhisperFlow, but there's a great GitHub project called Open Whisper, and you can
+download your own model. So I have all on-computer dictation, so I can talk into my
+microphone and have my local model do all my dictation without shipping all of my data
+off to some overlord in the cloud. And I for people who have sensitive data, I
+
+[00:39:08]
+haven't had time to play around I haven't had time to play around with it, but yeah,
+ChatGPT of all people recommended that to me or of all LLMs. Uh so yeah, thank you for
+mentioning it. It's good you've enjoyed working with it. Yes, yes, yes. Yeah, Ollama is
+great. Actually, uh recently I've been trying to use Ollama with Are you familiar with
+Warp? It's like a It's like a console a a terminal that you can use on your machine that
+has access to AI. So so usually you have to pay for it, but then I was like, there must
+be a way to use it with Ollama. So I've been trying to set this up together recently.
+But yeah, have you use it. It's very very popular. Yeah, super cool. I'm excited to to
+get into it. Like I said, I've been doing doing a lot of cloud code with uh with Opus
+Opus 4 6, which is very, very impressive. But uh yeah, definitely definitely interested
+for a whole bunch of reasons to start uh doing some of that uh running those models
+locally and not shipping off so much data to to people uh across the internet who we
+have you know, what do they call that? Like uh imbalanced relationship, imbalanced power
+relationships with What what I
+
+[00:40:11]
+love to see is more um cloud solution that are free that allow me to use open weight
+model too. I think if even if it's not as private, at least using it for free will
+unlock a lot of things for a lot of people. Rich Justin, thanks so much for the the fun
+of getting to kind of dive into some of this real world AI stuff and and just kind of
+talk geek about about AI for a minute. So, I really appreciate you being on the show.
+Yeah, thanks for having me. So, that was that was a nice nice chat. Yeah, how can uh how
+can people reach you? What's the best way to get a hold of you? Best way is on Twitter
+at Rich Justin DX uh on my website rich.com.com. And if you curious about what I'm
+building, I build everything at nshipyard.com. It's like my little AI lab. It's like a
+one-person lab where I I build every single apps. Well, special thanks uh as always to
+our listeners. If you like what you're hearing, have ideas for the show, or just want to
+tell us what's on your mind, hit that like button, throw a review our way, subscribe if
+you are so inclined, and Justin will love you for it. >> [laughter] >> Oh, uh leave me a
+voicemail or a comments. We have a way for that. Then I'll really love you. I'll meet
+you on the show. I'll even talk to you. There we go. At least at least until we figure
+
+[00:41:14]
+out a way to make uh AI generate these shows for us, Aaron. It's coming. I'll I'll It
+will take a long time. I I mean, just to just to generate the the amazing quality of of
+uh you know, this. I think that you've got like some facial some like facial quality
+stuff going on, and then we're going to have to have an entire skill for dad jokes for
+me. So, uh it'll be good. Yep. Mine will have to be seasonal. Beard, no beard, various
+degrees of beard. Yeah. Various degrees of beard sounds like an indie band. Let me write
+it down real quick. That could be my next musical It's a kind of band that's like it's
+kind of rock and roll. There's like a bunch of guitar, but for some reason there's
+there's also an accordion on stage. You're like, "What's going on here?" >> [laughter]
+>> Fantastic. I hear the prompt writing itself even. Thanks, guys. And we'll uh we'll
+see everybody next time on uh SAS That App. Thanks for cruising along with us on SAS
+That App. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to
+
+[00:42:16]
+subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

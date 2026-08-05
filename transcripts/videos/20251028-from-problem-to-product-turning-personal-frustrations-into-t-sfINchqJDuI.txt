@@ -1,0 +1,497 @@
+From Problem to Product: Turning Personal Frustrations Into Tech Solutions
+==========================================================================
+
+Video ID:  sfINchqJDuI
+URL:       https://www.youtube.com/watch?v=sfINchqJDuI
+Published: 2025-10-28
+Duration:  00:32:07
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+So, I I gave our product designer the task of figuring out what viral stunts we can run
+that just get us more brand awareness. We took a bed around Manhattan last year with our
+custom branded sheet on it and we rolled it into the Brooklyn Bridge and City Hall,
+Washington Square Park. Then we took it onto a subway train during rush hour, which I
+guess New Yorkers weren't even phased about because people just sat there and did their
+thing. But a lot of people took naps along the way in our bed. So that was very
+exciting. >> Welcome to SAS that app building B2B web applications. The podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech enabled business. I am your co-host Aaron Margebanks. And
+I'm Justin Edwards. Each week, we bring you the stories, strategies, [music] and
+insights you need to build your SAS or tech enabled business smarter, not harder. Let's
+dive right in. Hello and welcome back to SAS that app. Uh across the microphone and
+screen for me once again. Super glad to have it
+
+[00:01:04]
+back, Justin Edwards. How's it going, man? >> Hey man, never better. Still digging
+myself out from the backlog. It built up while I was gone, but hey, it's starting to see
+cracks through the end of the tunnel here. So, little bit of light coming in. >> Nice.
+Nice. Not a bad way to come back in. Get to do some podcasts. It's always fun. >> That's
+like the best part of my job. I just get to talk to people and ask all the questions
+that I want to know. Like it's great. >> One of these times we're going to have to do
+like a non related pod on your adventures and travels. Jared Justin is like world globe
+trotder man. It's unreal. He's been everywhere and does all of the things. I'm super
+jealous. >> That's awesome. Yeah, I used to be a traveler. But yeah, that's cool. >>
+Yeah, the whole angle of like I've got like an 8 hour layover and I would like to take a
+nap is like very near and dear to my heart. So I'm like yeah, this is this is awesome.
+[laughter] >> Yeah, very relatable. Yeah, outstanding. Well, to talk about such things
+today, we welcome to the pod Jared Learner. Jared is the co-founder and CEO of Napper. I
+like his awesome shirt. A techdriven platform designed to help travelers find short-term
+hotel stays focused on improving sleep. And what
+
+[00:02:07]
+started as kind of a personal solution to Jared's own sleep challenges has now
+transformed into a marketplace for well-rested travel experiences. And it's kind of
+shaking up the way we think about booking hotel stays. Jared has extensive experience
+also and background in startup culture, having worked across multiple industries to help
+kind of drive innovation, tech adoption, but his passion for solving problems through
+technology combined with his background in software engineering has positioned him as a
+leader in this rather unique space. Jared, welcome to the pod, man. >> Thank you. Great
+to be here. >> So, I guess just the question right out of the gate, you got to tell us
+your sleep story. >> Yeah, goes back at least 10 or 15 years, maybe longer than that.
+I've suffered from a number of sleep issues in my life, especially while traveling. And
+it's something that I really wanted to solve, not for myself only, but for other people
+as well. And I fixed a few of those issues. I still deal with some of them, so I'm still
+pretty exhausted on certain days. But yeah, that's what really led to me founding Napper
+way
+
+[00:03:11]
+back in 2014. I didn't start with hotels, but I had an idea to have a brick-andmortar
+place where people could go take naps with a membership model whenever they needed to.
+And I wanted to have those stores all over the world, pivot over to a marketplace later
+on. But the idea really stayed the same, that no one should have to go more than 10 or
+15 minutes from wherever they are to get some quality on demand rest in the middle of a
+hectic day. Obviously, when you're traveling, it's more of an issue sometimes when
+you're landing on a redeye at 7 a.m. You can't check into your hotel until 3. So, you're
+kind of just stuck with this 8 hour gap. If you're like me, you don't sleep on planes.
+It's really exhausting. But even if you do sleep on that plane a little bit, it's not
+quality rest probably. So, it's a big pain point. And people just get through with
+caffeine for the most part if they don't have a room to lay in. So, there's that. You
+know, there's layovers, delays, but beyond traveling, you know, there's people getting
+tired behind the wheel on a road trip, there's
+
+[00:04:14]
+office workers, medical workers. Obviously, there's tons of research on napping out
+there that shows how beneficial it is for you and your brain. So, I'm really just trying
+to make this concept widespread and to make it a thing here in the US because I think
+for the past few decades and maybe even longer, we've had a culture of work and then
+maybe get some rest at the end, but not work and rest and then work more. So, that's the
+paradigm. And I always thought we could shift it because people do better work when
+they're rested. It's just the way it is. Yeah, absolutely. And I'm sure that you've
+experienced that firsthand even prior to this with being in software development for a
+while. I'm kind of curious, how did you make that turn or how did you make that curve,
+you know, working as a software developer and then jumping almost entirely over the
+fence into this entrepreneurial world, running a startup like Napper and how did that
+relate to the software approach with it, but then also brick and mortar. >> I started
+using computers I think when I was four or five. So, I kind of got into
+
+[00:05:18]
+the tech thing really early on. This was like MS DOS way back. I'm a lot older than I
+look. So when I started using computers, AOL wasn't even a thing yet. So yeah, I always
+really liked tech. And in high school, I was taking AP computer science classes. So that
+stuff really interested me. And then I ended up majoring in it in college. Right out the
+gate, I was an engineer for various tech startups here in New York City. I think I
+worked at five or six of them. Along the way, I got my MBA and studied entrepreneurship
+at NYU and kind of knew from there that I wanted to do my own thing. I wasn't sure
+exactly what that would be like or how it would play out, but a year after I graduated
+is when I founded Napper and I had the tech skills, I had the MBA and I I had a dream.
+So, that's kind of how it all began. But yeah, along the way, I really enjoyed all the
+coding I did at these jobs. always a big fan of JavaScript and Python. I was never
+actually a developer
+
+[00:06:22]
+per se. I was always like a scriptor and a hacker. So that was more fun for me than
+building backend systems, kind of doing the front-end stuff and hacking away to fix
+customer issues. All of these positions were really customerf facing. So I always had
+this notion of wanting to help people at these jobs and it's kind of what drove me to
+found this company obviously as well wanting to solve a painoint for people. >> So take
+us through a little bit of kind of the transition out of these tech roles into founding
+Napper and it sounds like you've been doing that for quite a long time now and what's
+been the journey like from your tech roles and then through starting it and to bring it
+to where it is now. >> Yeah, so I founded this in 2014. At the time, I was working full-
+time for an survey software company. I was at that company for a while and then
+transitioned over to a digital marketing company and then an adtech company, then a
+fintech company. So, I really ran the whole gamut of industries. Similar roles at these
+companies, very customerf facing like I said, supporting the APIs,
+
+[00:07:25]
+usually a REST API that the clients are interacting with to use the software. These are
+mostly SAS companies. and really got a good look at startup culture in general. A lot of
+these companies were 50 people, 30, one was 200. That was the biggest of the bunch, but
+>> No, no, that's too big. Not a good fit for me. >> Yeah, it felt like a lot. That
+really was the biggest startup I had worked for. But I liked the small culture. I was
+able to have a bigger impact at these companies just because I was able to like
+sometimes run the culture committee. I was always a big company culture champion and I
+still am at Dapper. That and work life balance have always been a very important thing
+for me even as an entrepreneur working crazy hours. So, you know, it was great to have
+that experience with all those companies and really mold the culture at most of them.
+And it I took all of that into Snapper and really do the same thing here. We only have
+seven people, so it's not quite as big as some of those companies yet, but culture is
+
+[00:08:28]
+number one. my employees happiness is up there, you know, customer happiness. Those are
+all things that I really hone in on and make sure are my top priority. >> So, what are
+some of the things you do to make sure that you have like a really groovy place to work
+and folks are happy and getting what they need? Besides, I imagine nap pods must be part
+of this, right? >> Well, we don't have pods, but we do advertise very clearly that naps
+are fine whenever you need to take one. No one's ever going to frown about that here,
+especially because we preach it. We're all remote for now. We don't have an office. I'll
+never like write to someone and say this needs to be done ASAP, especially if it's like
+seven or eight PM. You know, I'm very cognizant of hours. And on the weekend, I'll, you
+know, I'll slack stuff, general info, but I don't expect people to response me on a
+Saturday or Sunday. So, I don't mind working on this 80 hours, 90 hours a week because I
+love it, but I don't expect other people to. And I certainly won't micromanage anyone. a
+very type B. So, you know, I won't be type A on anyone else. There's just no way. Yeah,
+I think for the most part, people have a
+
+[00:09:32]
+lot of freedom and flexibility here. We give people projects to do and they usually do
+them and they're happy for the most part. So, it's very loose management style. I do
+meet with the team every week and we chat a lot, but it's not very strict or rigid here
+in any sense. You said that obviously when you meet with the team and they work on
+projects. What's like a typical project at this stage of the company? I mean you've been
+in business for what 10 11 years now as an organization. You said you got seven
+employees. I mean what is everyone kind of working on right now or some of the things
+that are exciting in there? >> So you only been in business for two years. I cut out a
+lot of the story but I founded this in 2014. >> Got it. Okay. Okay. That's I was like
+wow man that's cool. >> Yeah. Founded it back then. ran with the brick-andmortar idea
+for three years, pivoted to a consumer hosting model, then the pandemic hit, and then
+three years after that, we launched with hotels. So, that's like the very short story of
+the roller coaster. >> No, that's amazing to have a couple of
+
+[00:10:35]
+different pivots along the path where it's like this is like the search for product,
+market fit, and like a couple different business models. I'm sure that there's a long
+story around each one of those pivots. Yeah, we could do a separate podcast on just
+[laughter] that, but yeah, we finally got this out the door in 2023. And then, so
+projects wise, to get back to your question, one project we're working on now, it's
+really figuring out how to integrate AI into our culture and our product so that it's
+really optimizing what we do. I've really dived deep into this recently, the past few
+weeks and months, and I think it's something we could do a little bit more. And you
+know, even if it's just like a personal thing where I'm getting like lost in my inbox
+and spending an hour or two a day there, like how do I optimize that? From a company
+level, I think we could do a little more with AI in general. As a marketplace, we
+haven't used too much of it to date. You know, it kind of runs without AI pretty
+seamlessly, but you know, there's always opportunities to
+
+[00:11:37]
+integrate it more. So, that's something we're really looking into right now. And this is
+the booking the booking system. >> Yes. So, how do we help people book better? Give them
+suggestions maybe based on amenities they're looking for. How do we help hotels price
+better? It's something we really haven't done to date. Things like that. Other projects
+we're working on. So, I I gave our product designer the task of figuring out what viral
+stunts we can run that just get us more brand awareness. We took a bed around Manhattan
+last year with our custom branded sheet on it and we rolled it into the Brooklyn Bridge
+and City Hall, Washington Square Park. Then we took it onto a subway train during rush
+hour, which I guess New Yorkers weren't even phased about because people just sat there
+and did their thing. But a lot of people took naps along the way in our bed. So that was
+very exciting. >> [laughter] >> So we're always trying to push the envelope with our
+marketing and do things differently than our competitors. >> Sure. So tell me a little
+bit about the booking platform itself. So I mean I
+
+[00:12:39]
+understand fundamentally what it is, but I understand that because there's a lot of
+booking platforms that are out there, right? Just for various things. So what would you
+say is the defining characteristic of you know someone who's going to come to you for a
+booking? I mean, what does separate you from somebody else? Or what does make that user
+experience better from others that are out there, including the big 800 lb gorillas? >>
+Yeah. The great thing about our site is it's very easy to use and it only takes maybe 30
+seconds to book. What you do on our site is you basically create an account, you look
+for hotels like on any other OTAA, you book it, and then that's it. You pay at the
+hotel. So, we designed it specifically to be like this because I know someone could be
+very tired or exhausted when they're trying to do this on the spot and I don't want them
+to get lost or confused. So, very easy process. So, that's what really separates us
+from, you know, the companies like Expedia where you have to go through maybe a few more
+hoops. Also, we're shortterm obviously, so there's a lot of flexibility in the rates.
+You
+
+[00:13:44]
+could book like a 12 to 4, a 10 to 2, whatever you really need that day. And the great
+thing about Mapper on top of that is that you can book a block of time even after it
+starts. So if you land on a flight 7 a.m., maybe you get downtown at 9:00 a.m., you can
+book an 8 to 2 if it started already, if that rate is still available. Of course, it's
+really flexible, very easy to do, and because you're paying at the hotel, there's really
+no friction there either. you're doing the same thing you would normally do if you
+walked into a hotel in terms of the payment. And then beyond that, you get all the
+amenities of an overnight guest. So you get a lot of convenience, flexibility, and it's
+a much cheaper rate obviously. So really good benefit for the consumer. >> So I have one
+question which is like I book rather a lot of hotels and I don't really have the chance
+to pick like my hours for the most part. like I get a late checkout included sometimes
+or whatever, but it's the room's ready like kind of when they feel like it, but before
+like 400 p.m. and then I'm out by noon unless I have some status that I can force them
+to let me stay a little bit later. So, how is it that you have
+
+[00:14:47]
+these different kind of time slots like available? How does that like come about? >>
+Yeah, so the hotels give us times and pricing. We'll just list those. I think they tend
+to see a lot of the same time blocks open during the day and some of these hotels have
+upwards of 40 or 50% vacancy in the daytime. A lot of that is because people tend to
+check out early when they're catching a flight. So 30% of people will check out before
+their normal checkout time and then 30% of people will check in late. So you have 9:00
+a.m. till 6:00 p.m. this 9-h hour window with vacancy pretty high unless there's a
+conference or a big event in town. The hotels see this happening every day and they know
+which times will be open for this. Logistically, it's not too hard for them to assign a
+maid to a day use room if they get a booking. Even if they get a booking when they're
+not expecting one, they can just tell the maid, "Hey, we need this room clean." So,
+that's not an issue for them. And because they're setting the pricing, they're taking
+away whatever margin they'd like after they give us a commission. So, everyone really
+wins
+
+[00:15:51]
+here. The consumer, the hotel, and then us. So, as a consumer, it's a win because it's
+easy for us and we can book these time slots that aren't ordinarily like available, at
+least to mere mortals such as myself. Works great for you because you get a commission
+for filling a room that was going to be empty for the hotel. And then it works great for
+the hotel because they're putting out the price that is attractive for them to make the
+deal and that was just going to be a vacant room until you made the connection between
+the consumer and the hotel. Is that the business model? >> Yep. >> Beautiful. Okay. >>
+So, my overarching question there is how did you convince hotels to take this on? I
+mean, I got to imagine that they're probably just dug in deep and in the traditional
+model, which is the one kind of Justin describes, like you're booking for a day. You
+check in at this time, you check out at that time. I'm imagining that they pushed back
+on that. >> Yeah. It's not too difficult to get hotels excited about this because when
+you tell them they can make more money with a new revenue stream, their eyes open wide
+and they're like, "Whoa, how do we do that?" And because it's not logistically difficult
+for them to clean rooms on demand, it's really just more money in their pocket or very
+little
+
+[00:16:54]
+hassle, if any. So, it really comes down to them wanting to make more money as they
+should. They're a business and us enabling them to do that. We do work with some
+partners who have existing inventory and we'll just take that through an API. So in that
+instance, we don't have to really even ask the hotel if they want to do this. They're
+already doing it with a partner and we're just getting that inventory as well. So we are
+a bit of an aggregator in that sense, but we also go to hotels directly and ask them to.
+That was going to be my question like I'm certain you have a good stable right now, but
+you know when you approach a new hotel, one kind of what's the pitch? I think we've
+heard that, but then also how do you help them to find that that logistical pathway? I
+mean, is it something where a lot of these hotels, you called them day rooms, that they
+just kind of have a block that they would consider that and then they can flex those
+rooms in and out, or is this a situation where there needs to be something that's a bit
+more real time where, you know, hey, I found out today that 10 of these rooms are going
+to be
+
+[00:17:57]
+opening up. Let's throw that into the inventory pile, if you will. And does your system
+recognize that? I'm assuming through the APIs, and make that available to consumers, or
+how does that work? >> It is real time. They have a portal where they can remove or add
+rates or blocks whenever they want to. Some hotels, if they don't tell their front desk
+people about this, they may not be as on top of that portal as they should be, but most
+of them are very good about this. So, yeah, it's very flexible for them as well, not
+just a consumer. They can always add rooms on the spot whenever they want to or, you
+know, if they see that they're full, they can take off the inventory as well. So
+obviously they would prefer to have an overnight rate instead of a day rate because it's
+more money for them, but usually they work well in tandem. >> Is there like a conversion
+potential or a conversion option for, you know, someone who gets in and it's like, well,
+I need 3 hours or 6 hours or something like that, but then they decide, you know what,
+I'm just going to stay the night. Is there a path for that through your software or
+through the hotel? >> You got a problem with oversleeping, do
+
+[00:18:59]
+you? >> [laughter] >> I'm not I'm not going to call it oversleeping, but periodically do
+you like to sleep in a little bit if I get the rare opportunity? >> It's a good
+question. We have been asked before if someone could book a day rate and then continue
+on and extend that to an overnight rate. It's not something you can do today via Napper,
+but you can do the day rate and then ask the hotel at the front desk if they're willing
+to extend that into an overnight rate. But that is a really good use case. I think some
+people may want the day rate and then they're not sure if they want the overnight rate
+yet. So that's something that we could eventually integrate into our software. >> It
+seems like it's something that's happening with some regularity. It' be great for Napper
+to get their, you know, you brought that customer in. You guys kind of deserve a
+commission on it. So it' be good to get your fair share of you do have people who are
+staying. >> Yeah, >> I can imagine that being technically a little bit challenging to
+implement. So sorry, that was my only idea. >> Yeah. Well, that's great. That's kind of
+where I was going. So for the purposes of actually populating this inventory that you're
+leveraging is the system structured in such a way that me as a
+
+[00:20:02]
+hotel I don't know what manager administrator front desk person or whatever I have an
+account into mapper and that's where I control everything or is there some sort of like
+an automated process whereby they are tracking or they are allowing for this stuff in
+their systems and you're just pulling that. So most hotels will go into the portal, list
+our inventory, ours or our partners, and it'll just kind of flow to us through the API.
+When we get a booking, we send it back their way. And the end result of that is usually
+an email to the front desk. So 99% of the time, they'll see the email and everything
+will be fine. The other 1% or maybe a little less than 1%, they'll miss that email and
+then maybe we have to intervene with the booking and figure out, you know, how to make
+it right. But even though they have these PMS systems, they do prefer to get emails at
+the end. I think it's a little cheaper for them to do it that way. And usually, you
+know, they're monitoring their inbox, so it's fine. But that's basically how the two-way
+sync goes with the APIs. And then on your pricing model, your
+
+[00:21:06]
+business model, obviously, you're taking some sort of a commission. So there's a
+percentage that's associated here. Question one, is there any sort of tiering depending
+on the size of the hotel or frequency with which bookings go through to them? And then
+question two, is there like a membership fee to be part of Napper or is it just purely I
+want to get involved in this and it's just going to be the commission and we're done. >>
+Yeah, there's no membership fee. Anyone can list their property and if nothing sells
+that's pretty much it. There's no risk. So yeah, we're a marketplace. We're not really
+SAS even though I know this is a SAS podcast. >> Yeah, but there's crossover. Yeah. >>
+Yeah. And we might charge membership fees at some point for consumers or hotels or both.
+But yeah, they're really just paying when they get a booking and it's a commission. So
+very little risk on their side. And then you said the tiers, we usually do a flat rate
+across the board. Some hotels want to give a lesser commission, so we'll negotiate with
+them, but for the most part, it's pretty flat. >> Yeah. So now that we got the points
+that we've hit and we've pivoted and things along those lines. So you're now launched,
+you're live, you know, everything is rocking and rolling. Tell me about how you as an
+organization deal
+
+[00:22:10]
+with client feedback, customer feedback, not necessarily on the hotel side. Now I'm
+talking end user. You had mentioned, you know, the streamlined workflow, limited number
+of steps. I assume you probably have a UIUX person that helps keep an eye on that. But
+I'm also assuming that you get feedback from customers. So tell me about what that
+process looks like internally as a business for you to be able to process that sort of
+feedback. Is do you have a roadmap or is this something where we're just reactive? We
+take stuff as it comes. It's a little more reactive than it probably should be. If I see
+someone asking for the same thing over and over, I'll just go in and I code it in myself
+if it's like a front end thing, which it often is. So, you know, when I see the same
+pain points over and over, either I'll I'll get our devs involved and say, "Hey, we need
+this fixed. This is becoming an issue." Or I'll just go and do it myself. So, we don't
+really have a road map for that kind of thing. We probably should have a better process
+for it, but being able to work quickly like that is kind of nice because, you know,
+things get fixed faster. So, it's
+
+[00:23:13]
+not scalable to just kind of do things on a whim. >> That was going to be my next
+question. [laughter] How do you scale that? >> Yeah, it's not going to be scalable when
+we have like 30 people or 50 people, but you know, for now, it it kind of works. But I
+do try to fix those things, especially if they're blocking users from having a good
+booking experience or if they're not sure how the process works. Obviously, we need to
+hash that out better so that people don't have to write into support. They're probably
+tired. They don't want to have to wait for us. So, I'm actually doing all the customer
+support myself right now also. So, when I see a chat widget come in, you I'll try to
+answer it within like 30 seconds if I can. goes back to my days as a customerf facing
+engineer. I always tried to answer those things as quickly as I can. So still doing that
+which is also not scalable but you know for now I can handle it. So >> yeah no it's one
+of those roles it's one of the earlier ones that are we can systematize and give up but
+yeah a lot of hats. So you're probably also the accountant and legal and all the rest of
+it. So
+
+[00:24:14]
+>> well thankfully we have a CFO so I'm not doing accounting stuff for most >> Yes. >>
+Yeah. But I I did do that at one point, so I know the pain and the struggle. >> Yeah,
+founders are a rare breed and it's always just a lot of hats. I was in a great
+conference talk a while back and someone's like, "What do you call someone who can like
+do all the programming and all the advertising and it's good with customer support and
+also like deals with like the business level stuff and like guy in the back raises hand
+is like founder. It's the only job role you can hire for all of that >> every single
+time." >> Yeah, that sounds about right. >> So, out of curiosity, what does your
+consumer base look like? I mean, give us like an order of magnitude. >> Yeah, it is a
+lot of travelers. We give people a text field that they could fill in when they're
+booking and a lot of people say it's for a layover or a redeye or they're in between
+meetings while they're traveling. So, we know that probably 40 or 50% of the use cases
+are for that. Other than that, it's a mix. People don't always tell us why they're
+booking, so there's a bit of a gap there, but we do see a lot of morning blocks booked.
+I think 70% of
+
+[00:25:20]
+the bookings are like 8 to 2 or in that time frame. So, it's someone probably flying in
+or just needs to rest for a meeting or review something. And then it's like 2/3 male to
+female, which we're not too surprised about. I think more men travel alone and need this
+sort of thing. But we have seen that tick up a little bit. It used to be like 75 25. So
+we're seeing more women use the service as well. >> Like what kind of volume though? How
+many people we talking about like in a day, week, month, some period of time that you're
+measuring? >> So our revenue and our demand has gone up quite a bit over the past few
+months which we're very excited about. This month we are on pace for about 250 bookings
+which would be our high. So even though you know we launched it two years ago, we
+started with like five or 10 hotels and it took a long time to build that up and then we
+hired a really great CMO in December who's helped us advertise it. So yeah, 250
+bookings, few thousand website visitors, maybe in the 10 or 20,000 range, visitors per
+month.
+
+[00:26:25]
+So that's scaling up. It's on a nice upwards trajectory. And we're hoping to get a,000
+bookings per month, 5,000, 10,000, you know, in the next few months. So it's on pace for
+that. That's amazing. And these things are flywheels and they spin faster and faster as
+you get more of the options. So, I'm sure that you're kind of at the part where the
+curve starts going up. Super awesome. It's a great idea. I mean, I've gone as far as
+booking the overnight rate for the previous day just so I would have a place to land and
+show up to to like nap. Like, if I'm doing like a 15 hour flight or something, it's like
+if I'm landing at 6:00 in the morning, I want to go to bed. And yeah, it'd be great to
+be able to save some cash on that cuz that's not, you know, it's not economical. And if
+a hotel is going to be able to get rid of inventory that's just dead weight for them,
+like this just makes tons of sense. It's a really cool idea. >> Thank you. Yeah, I've
+heard that story many times from people who just book two nights or like early so they
+can get the extra eight hours and it's obviously expensive to do that. So yeah, we're
+just helping people save some money and get the rates they actually want and need. >>
+Yeah, I mean on the trip that we just came back from, we were in Hong Kong for 8 hours
+or something like that and
+
+[00:27:28]
+there's an airport hotel. that we booked the night before and then took advantage of
+like a late checkout with our status. But it was literally like we booked the night that
+we didn't sleep there just so we could check in at like 7:00 in the morning and then we
+slept until the afternoon and then got back on a plane. So this is like exactly the use
+case you're talking about like I wish I had known about this a couple weeks ago. So very
+cool. >> Yeah, glad we can, you know, help people in that scenario for sure. It's
+something that I have experienced myself anytime so I know how frustrating it is. >>
+Yeah. So I guess last question for me and then if Justin has any, I'll throw it back to
+him. We're always interested in like lessons learned. You know, you got a software
+background. You also have a background in the very thing that you're pursuing. So,
+passion is super important. We see that a lot. We've heard that in a lot of the
+different interviews. But what advice would you give to engineers who find themselves
+kind of in the same situation? You know, what have you learned in making this transition
+from software developer, customer support now into basically owning and operating and
+having founded this business? You know, pitfalls, lessons learned would you share? Yeah,
+that's another thing I could do a whole podcast on. Lessons learned and things I would
+have done differently. I think
+
+[00:28:32]
+engineering wise, a couple mistakes I made. One early on was that I focused on the tech
+only. I wanted the tech to be really good. So, I just started building that and hiring a
+few devs for that right away before I even did customer interviews, before I did
+anything else and spent too much time and money on the first prototype. So, I would not
+recommend doing that, especially in the world of no code tools or low code tools that we
+have today because when I started in 2014, that wasn't really the case. We didn't have
+all these new tools. I would have a decent MVP, but I wouldn't focus as much time and
+energy on it. It's more important to really survey your customers and to put something
+out to them instead of the perfect thing. Another thing I would have never really is
+vetted my developers more. Not the current ones, but the ones I started using early on.
+I just was just really eager to get into the project and start doing it. So, I kind of
+took a leap of faith and trusted them more than I should have. And it set us back a few
+years having to redo all
+
+[00:29:38]
+the tech from scratch a few times. So, if you're doing this sort of venture and you
+don't want to do all the coding yourself, which you probably don't because you need to
+do 50 other things, make sure the people you're bringing on for the tech are vetted or
+get a testimonial. Look at their past work. It's very important because the most
+important thing you have as an entrepreneur is time. It's the most valuable asset. You
+can't get it back when it's gone. So, you definitely don't want to waste it. Money is
+also not great to waste, of course. So you know those two things go hand in hand when
+you are working on the tech piece. You definitely don't want to lose time and money on
+that. So make sure you do both of those things. Both points that I mentioned are very
+important to focus on. >> Yeah, I do love that we have technical founders on and the
+comment is very often I spend too much time focusing on tech and product and kind of the
+stuff that they know really well. I was like, I want mine to be really great. And then I
+neglected all these other business side items. And then we have people who are more
+marketing or business oriented who come in. They're like, oh well, I
+
+[00:30:41]
+sold this thing and then I sold things that didn't exist and I couldn't get the tech put
+together. And it's kind of like we tend to to go really hard on the thing that we're
+good at. So I think it's one of the reasons having a tech and non tech founder is a
+successful paradigm a lot of times. >> Fantastic Jared. This been really informative,
+something very unique and something that we we actually haven't really got to get into
+very much on the show. So really great. Thank you for sharing your time and your
+insights and your talents on this. >> Yeah, thank you so much for having me. It was a
+blast. I love being on shows like this. So, have a lot of fun. >> Awesome. Jared, thanks
+for chatting with us today. I really appreciate it. >> We've been talking with Jared
+Learner here, co-founder and CEO of Napper. Jared, where and how can people reach you?
+I'm assuming through a website. >> Yeah, our website is napper.io. So, napr.io. We're
+also on both app stores, so you can download us on iOS or Android as well. My email is
+jarednapper.io. So jnnapper.io. >> Fantastic. And a special thanks as always to our
+listeners. If you like what you're hearing, have ideas for the show, or just want to
+tell us what's on your mind, hit that like button, throw a review our way, or subscribe
+if you are
+
+[00:31:44]
+so inclined. And we will see you all next time on SAS.app. Thanks for cruising along
+with us on SAS that app. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

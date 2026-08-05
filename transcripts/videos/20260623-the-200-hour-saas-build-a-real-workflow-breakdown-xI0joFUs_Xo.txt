@@ -1,0 +1,730 @@
+The 200-Hour SaaS Build: A Real Workflow Breakdown
+==================================================
+
+Video ID:  xI0joFUs_Xo
+URL:       https://www.youtube.com/watch?v=xI0joFUs_Xo
+Published: 2026-06-23
+Duration:  00:47:15
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Something that took 20, 25 minutes took 12 seconds. And now all of a sudden I can handle
+11 scouts as [music] a eagle coach because I don't have to read these documents. I mean
+it was getting so good that we had a work session one night, you know, upload it, do it,
+review it, send it back and I wasn't even looking at it anymore. It just got that good.
+>> Welcome to SaaS That App, building B2B web applications, the podcast where we share
+real-world stories, practical advice, and tech insights for those building or thinking
+about starting a tech-enabled business. >> I'm your co-host, Aaron Marshbanks. >> And
+I'm Justin Edwards. Each week we bring you the stories, strategies, and insights you
+need to build your SaaS or tech-enabled business smarter, not harder. Let's dive right
+in. >> Hello everybody and welcome back to SaaS That App. The pre-game show already has
+been quite entertaining and fun, so this should be a good episode. >> [laughter] >> Even
+Justin is chiming in on the fun stuff, too, and we're late-nighting with SNL here on
+SaaS That >> [laughter] >> I can let everyone know this would have been a lot funnier
+for you if you'd been
+
+[00:01:02]
+around before we hit record. You'd be all sitting laughing. >> Probably. You probably
+would. >> So now that we've got the fun and the entertainment out of the way, let's get
+started. >> Right, right, right. Well, welcoming back to the show, I'm going to call him
+a fan favorite because he's like one of our highest viewed videos, but >> [snorts] >>
+welcoming back Steve Powell, who's one of the owners of Delta Systems and currently kid
+in a candy store with all things AI. We're going to get into that and unpackage the
+sweeties, as it were. Steve, welcome back, man. >> Hello. Thanks for having me. And
+yeah, it was money well spent for all those bots to watch those videos. >> [laughter] >>
+My mom thinks I'm cool, so don't worry about it. >> Well, you know, she can only click
+like one time, I guess, if maybe per device. >> I should have never shown her how
+Mechanical Turk works. >> [laughter] >> Well, my friend, let's just start with the
+obvious stuff. What are you doing with AI? And I know it's not just Claude. >> Yeah,
+just been kind of playing with everything. I moved into a what I like to call a client-
+free era and have been
+
+[00:02:06]
+being able to just focus and dive in to a little bit of everything and just kind of
+played with it in numerous directions and I think it did kind of the natural migration
+that everybody's been doing, which is you start with Gemini or ChatGPT and then hit a
+limit in 5 minutes and then drop 20 bucks into it and then all of a sudden it's doing
+all kinds of fun stuff. Then you start getting sick of it lying to you or hallucinating
+and then you hop over and then somebody says you should try Claude and I started using
+Claude and I'm in Claude chats and not really paying attention and I'm like, "Okay,
+great. Let's code this." And it says, "Yeah, that would be great. You should open up an
+IDE and actually code it." And I'm like, "No, no, don't you do that?" >> [snorts] >> And
+it's like, "No, no, you need Claude code, bud." I'm like, "Okay, what's Claude code?"
+And then I was forcing it to tell me what it did and how it did things. I find it
+strangely odd though that Claude knows very little about itself. And so every time you
+ask it questions about billing or features, it says, "Let me go check the help." It
+says, "You know, you may want to go look
+
+[00:03:09]
+at support.claude.com." I'm like, "Bro, isn't that what you're for? I don't understand.
+What do we do?" So, very weird getting into that and have been playing with Claude chat
+and then I feel like Justin, you mentioned something that we're on the bleeding edge but
+not the bleeding edge, not the bleeding edge or somewhere around like that. >> The
+bleeding edge but not the hemorrhaging edge. >> Hemorrhaging edge, that was it. Thank
+you. So, yes, the bleeding edge I've definitely very much have been feeling that. I
+literally was in the middle of coding, I think it was a random Thursday when Opus 4.7
+came out and I was babbling pulling in a PDF of a diagram and I threw it into Claude
+design cuz that was they're giving away free tokens on Claude designer free limits, I
+guess, on Claude design and I had it tearing apart this diagram cuz I wanted to make it
+clickable in an app and like what can you do? And it was horrible. It just can't draw.
+And so I threw it over to chat GPT and it handled it quite nicely. So that was Claude
+4.6 and then 4.7 shows up literally 2 hours later and all
+
+[00:04:14]
+of a sudden that entire PDF was parsed and laid out very nicely. And I was like, oh,
+somebody just got an upgrade and that's pretty slick. And so it's like just in time
+features are showing up in these systems. So I started out in Claude chat and then all
+of a sudden Claude projects showed up and I felt like we went from each chat was an
+island and all of a sudden we got this archipelago of other islands joining together in
+Claude project and then all of a sudden Claude code and then you're like, well, you have
+export and import and all of a sudden they have a button that says, oh, yeah, just throw
+it over there now. So it's kind of building the system as you're using it. So it's kind
+of crazy. >> Yeah, so for those of you that don't know, Steve is a fount of ideas and
+has been hamstrung a little bit by the fact that he has a day job, too, and has been
+working on things. And so as soon as he decided, I'm going to stop doing that for a
+little while, it just became a field day. So like all of the ideas are spilling out of
+his brain and into AI and this is kind of the world that we're living in right now cuz
+Justin and I have talked about it. The bar to entry
+
+[00:05:16]
+now is essentially on the floor for anybody that's got an idea and can reasonably prompt
+an AI to help them build it. So really and we've talked about it at lunches, Steve, but
+I'm like super curious on now you're kind of steeped in it, how you're getting from that
+diagram phase into a working model, a working prototype or an MVP, maybe a, you know, a
+a beta release level product that you're able to put in front of somebody and do stuff
+with. >> I think the first couple weeks were quite interesting because it was, like you
+said, it was all these ideas that are in my head that I've had for 2 years, 3 years, 5
+years. I'm waking up at 4:00 in the morning again, just like when I had my first
+software company and we were building a product and you just you obsess over it. And but
+this was like, "Oh my god, this is like you said at the start was I'm a kid in the candy
+store cuz it's like, oh, I am the idea guy and I always have these crazy ideas, but I
+gel on them in my brain forever and I just beat them up in my brain forever, but now I
+have something to talk to and something to explain it to and it's
+
+[00:06:19]
+forcing me to write it down. And then I introduced or I guess Justin introduced me to
+WhisperFlow and I don't type anymore. And now I'm it's like, forget it. I'm I'm like 250
+words a minute just kind of babbling into this thing and all of these ideas for startups
+and SaaS improvements and, you know, 800-lb gorilla killers are just pouring out of my
+head and into systems. And so as some examples, I wrote a children's book in 3 hours one
+afternoon just because my family and I went to the Omaha Zoo 10 years ago and we had
+such a great day. There was a prairie dog incident and everything and I was like just
+carrying that around in my head and like, you know, this would be kind of a fun book,
+but never was able to get past the initial concept. And so I was able to work through an
+entire children's book in one afternoon and it's really off-loading from your brain cuz
+it's like, "Wow, now I have a place for this." And then you just start going back into
+the other ideas for projects I've had that are were silly or maybe it'll make some money
+or extremely vertical. And so I'm like, "Well and I
+
+[00:07:22]
+again like you like I said a minute ago, I was chatting with this thing and I wasn't
+even in Claude code. I didn't even know that Claude code was a whole separate animal
+because of the chat GPT model. So then I had to export and import and start over. Now
+all of a sudden and so I'm like, "Okay, let me just do an experiment. I want to build
+something that I don't know how to build in a language that I don't even know and I
+don't even want to open a development environment. I want to do what a founder does
+where you have an idea and you may not have the technical chops to do it. So, how far
+can we get with this thing? And I also hate throwing things away. So, I wanted to build
+something while I was learning that had some value. And so, I'm like, well, and I was
+fits and starts, fits and starts. We have some software that we built 10 15 years ago
+and it's rotting on the vine like everything else. And so, I'll get to that later, but
+the idea I had was, oh, I got an idea. I help out scouting a lot and it's a big passion
+of mine. And currently, I'm in an era where I'm
+
+[00:08:25]
+helping 11 Scouts to get their Eagle Scout. I'm an Eagle Scout myself and I know the
+process is is extremely complicated and getting a Scout from Life Scout to Eagle is a
+months-long process. At the minimum, it's 6 months for the activity. And these are kids
+that are 14 to 17 years old. And so, the concept of them sending a professional email to
+somebody is completely foreign to them. The communication patterns that we have as
+people that have been in a professional world, they just don't have. So, you have to
+help them with every little bit of this. Well, the entire process is hamstrung by PDFs
+and you download the official PDF of the Eagle Scout application and you download a PDF
+of the Eagle Scout project workbook. And I just said, wow, this is kind of perfectly
+geared for what I need to do. It's something I'm passionate about and something that I'm
+good at and it's something that's timely that I am actually working with people that
+don't code software and don't do this and but they're really going to be benefiting from
+what I work on right now. And so,
+
+[00:09:29]
+I'd like, all right, here it is. This is what I'm going to do. I'm going to build a
+Eagle Coach system and I'm going to use Claude and I'm going to use chat, and whatever I
+need to do to build this thing. >> Real quick, this episode is brought to you by Delta
+systems, which is what Aaron and I do when we're not talking through microphones to you,
+the people of the internet. We've got a really, really great software team here, and
+we'd love to work with cool people on cool projects. So, if that sounds like you, and
+you've got a problem, or you're in some kind of a jam, go to deltasystems.com, grab a
+time with us, we can beat up on your problem together, and if there's a fit there,
+amazing, we'll help you out. So, deltasystems.com, grab an appointment, and hey, maybe
+we can work together. >> I think I'm a good follow-on programmer. I can't set up a
+system from like start flat-footed. I always have depended on other people in our staff
+that are excellent at hosting, or are they're good at, you know, NPM and yarn and all
+these things. I'm like, "Eh, I don't do that stuff." Package management, all these
+things. I'm like, you know, I don't I wouldn't even know what a lambda was besides a
+letter of the alphabet,
+
+[00:10:31]
+right? And I was like, "Well, let's just talk to this thing and say, 'Hey, I want to
+build this, and I want to build it in whatever What are the kids using these days, you
+know, on on the languages?'" And so, you settled in React. I'm like, "Great. I can read
+React. I've seen React, but I never coded in React, and Node, and whatever flavor of
+JavaScript is fresh for the day." I did want to stick with Postgres and serverless
+Postgres and Aurora because I'm very familiar with that, but I just like how Aurora
+works, and I also like that you can shut it down completely and be charged nothing. So,
+that kind of became the tech stack of what we were doing. >> You're not using Superbase?
+>> Superbase, base 44, and Next What was the other one? Next next.com or something? Oh,
+man. The entire environment of those I mean, we could speak for an hour on those alone.
+They're very interesting, right? They're all like soft wrappers for Claude and for
+ChatGPT, but don't worry about what's behind the green curtain there, is what I feel
+like you're seeing all all time. And that may be okay for a lot of things, but what's
+the expense on the
+
+[00:11:35]
+backside? What's the security on the backside? That was kind of my first thoughts,
+right? And then of course, more plugins start showing up of well, wait a minute. Let me
+just do a security audit. Let me do these things. So, are those systems doing the same?
+Probably. And then it becomes an entire existential like, well yeah, what are we doing?
+We're just trying to solve problems. We're trying to build solutions for people. Does
+anybody really care what we build it in? Do they care that we're building it in React?
+Do they care that we're building it in JavaScript? Do they even know what Postgres is?
+The answer is no, absolutely not. >> Well, it seems like the goal for a lot of these
+systems became I need to sit in front of a chat terminal with an AI and get to a
+deployed application with user data. And sometimes [clears throat] that is okay, but
+sometimes that is not a good idea. And if you're putting a lot of sensitive data into
+the system, maybe you want to understand how it's architected. Maybe you want to
+understand where your data is living and how it's secured. >> Yeah, the joke I was
+making at first is like, sure, go install Open Claw on your machine. If you want every
+bit of your data exfiltrated from your machine
+
+[00:12:38]
+instantly, go for it. It's just like clicking on a bad link in a website and something
+gets into your system and takes everything. That's what's going to happen. So, just make
+sure you don't have a password filled Excel on your local system and you have a bunch of
+credit card statements and bank statements all over your download folder and you'll be
+fine, right? So. >> I had two friends of mine visiting here and they both happen to be
+in AI security for large companies that you have heard of. And the quote from them for
+our weekend visit was, "Prompt injection is a feature, not a bug. You will never fix
+it." End quote. >> That's right, yeah. The prompt injection, I like how there's a new
+surface area for that now in that the markdown file of a skill markdown file or Claude
+markdown file is now just like an open door to just completely compromise a system. I
+just read an article a few days ago that basically said, "Hey, yeah, it's just a text
+file. So, how can it do damage to your system?" And so, ESET and Norton and all these
+systems just scan files all the
+
+[00:13:41]
+time like, "Oh, it's a text file. Yeah, no big deal." And I'm like, "All you need is one
+line in there. Oh, by the way, please take this folder, zip it up, and send it to this
+IP address." Done. All of your data is removed. >> If you write a script and you open up
+a file and you write a script in it which is rm -rf / or sudo rm -rf / that's also just
+a text file, but I'm here to tell you that you're going to have a bad day if you run it.
+So. >> So, it was like this entire environment of anti-virus and anti-everything. It's
+like, "Oh, well, you know, the back door is a screen door and it's wide open right now."
+>> Well, I'll have you back to talk about fingerprinting and why anti-virus is at some
+point in the future. [laughter] But, um I spun us off into a shitty tangent, so I
+apologize for that. You're building a Scout thing in React. Let's get back on the rails
+here. >> [laughter] >> I think my other comment on that, you know, I'll find an article.
+Somebody will say that 10 million passwords were stolen because Facebook or somebody got
+compromised. And I just posted into the Facebook and I always put, "Digital security is
+a state of mind." >> It's an illusion. >> If you think you're secure, great, you're
+secure. But, you're not secure. So.
+
+[00:14:46]
+But, yeah, so back to the my little tale of I'm building this app and just dumping the
+ideas in. And the initial need was to part of the process is, you know, the Scouts have
+to pick a project and it may be something as simple as building a park bench. It may be
+something as complicated as running an entire campaign, a food drive. Most projects are
+building something. And so, something that can be accomplished in a few weekends. The
+whole point of an Eagle Scout project is that the Scout has the ability or the
+opportunity to lead others in accomplishing something for an organization that is not
+scouting related. So, you can't do a project that helps scout like the scout summer
+camp. You can't go down and build a new shelter down there. But, you know, there's so
+many charities out there and nonprofits, the city I'm helping juggle 11 projects. One of
+them is a graveyard is on city park that was donated by a private individual and there's
+a graveyard on it. And so, they want to identify the graveyard parts pieces and
+
+[00:15:48]
+the tombstone and kind of outline the area, put up a sign. So, there's an opportunity
+for scouts to go out there and clean up that area. Here we have a raptor rehab facility
+where eagles, owls, any raptor that is injured and they raise awareness, they take them
+out and they use them as ambassadors and they need places to live. And so, they need one
+of their cages completely rebuilt and have an aviary part added to it. And so, another
+one is for firefighters where they have a drying rack for when firefighters are training
+or mainly when they're training, they just get soaked head to toe because they have to
+get all the carcinogens off of their jackets and their protective gear. And then they
+put them in a dryer. But, of course, these are heavy items and it takes 24 to 48 hours
+for these items to dry. But, if you're training every day, you're now just in wet gear.
+And so, now there's a blower systems for that. And then, and I could go on with these
+other projects. Most are helping churches and putting in planting beds and other items
+like that. But, point is that this whole process has to be approved and you have
+
+[00:16:53]
+to work it through a system. And every kid does the same thing. They download this PDF,
+they start filling it in, and they immediately start having problems because you
+download a PDF and you have it in your browser, right? And you've done it, I've done it.
+You just start typing, right? You're like, "Oh, let me type in these fillable fields."
+And here I'm entering all my data. Well, a kid thinks, "Well, great." They close their
+browser and go do something else. I'm like, "You didn't download it, so it didn't save.
+And then you just lost an hour of typing. So, people get very upset. Or they download it
+and they overwrite the other one, but this one was a blank one again and they just lose
+data over and over and over. So, it's no different from any other work process that
+people are constantly struggling with is document management, file management. We've
+kind of mitigated a lot of that with versioning in Google Workspace and Office 365. Of
+course, you can upload and it's going to give you an automatic version, but these are
+just PDFs on local machines, they're on laptops, they're on iPads, and they're just
+losing data right and left. And so, I found that tremendously frustrating for them
+because it was crazy. So, they
+
+[00:17:56]
+have to type in and fill in all these things. It's like a nine-page document for a
+proposal. And to get that approved, it has to go through and the typical process of you
+know, you're going to show it to your boss and you know, show it to your scoutmaster,
+show it to your coach and say, "Hey, this is the project I want to do." And I as the
+coach, you know, "Hey, these aren't sentences. You have typos all over the place. Your
+formatting of phone numbers is strange or inconsistent. You're missing half the data.
+Road, street, court are abbreviated here and not abbreviated there. You don't list out
+any tools. You need a saw to cut wood, so you should probably list a saw." Those kinds
+of things. And having that process where you turn in a PDF and somebody sends you back a
+PDF with posted notes in it is kind of clunky. And then, you know, do you edit that PDF
+and keep going? And then, what happens if you have pictures you want to inject? Well,
+the whole thing's password protected. And so, now it's just a nightmare. And so, the
+biggest problem for me is that I'll get one of those documents in and I have to review
+it. And every time I get it, it's 15 to 20
+
+[00:18:59]
+minutes of me reading this nine-page document and seeing what's wrong with it. And I'm a
+coach, I've been doing this a while. I kind of know what they're looking for from the
+district and the council, the scouting council, what they're looking for in the rules.
+They always want to hear that there's a first aid kit. They always want to see that
+there's a map to the nearest hospital. The language you use says, you know, your project
+always starts with I will lead a team of volunteers that will. And I'm sure as you're
+doing like everybody else, as soon as I'm describing this, I'm describing a skill. And
+that's immediately what I thought was, well, why don't I just train Claude a Claude
+project and I'll just create this Eagle coach and say, "Hey, I just reviewed this kid's
+proposal and I sent this detailed email back to them. Do a couple rules in there. One,
+it's like line item numbered. And so it's like number one, you have typos in this box.
+And then number two, you missed this phone number here. Number three, "Hey, this looks
+great." Always be positive, right? These are 15-year-old
+
+[00:20:00]
+kids. And so it's not like, "Hey, I told you four times. You need to fix it." That
+doesn't help anybody. So I just dumped that email into Claude and I said, "Hey, I need
+you to review these things and with these rules and let's write a set of rules." And it
+said, "Sure, sounds great." And I got it to the point where I would start a new chat and
+I would upload a PDF and I would just say, "Review this." And it I had it refined all
+the rules and it would generate that email back. And I just copy and paste the email,
+send it back to Scott. So something that took 20, 25 minutes took 12 seconds. And now
+all of a sudden, I can handle 11 scouts as a Eagle coach because I don't have to read
+these documents. I mean, it was getting so good that we had a work session one night and
+all these scouts were kind of all working on the projects together and I would see one
+of them would start screwing around. I'm like, "Hey, what are we doing over here?" And
+they're like, "Oh, I'm done." Like, "Great, email it to me and then we'll review it."
+Now typically I would say, "Okay, you're done for the night. Thanks, you know, I'll talk
+to you next week or, you know, I'll review this tomorrow or whatever." Instead, I'm
+standing in the
+
+[00:21:03]
+kitchen talking to their parent and, you know, upload it, do it, review it, send it back
+and I wasn't even looking at it anymore. It just got that good. And so I was able to do
+15, 20 different reviews in the 3 hours that we were there. And most of the time they
+were the kids were just talking and going through those lists. And so that immediately
+is like, oh okay, now I've got the skill trained up. >> So talk about that just a
+second, Steve, because I think we're approaching a point where people are starting to
+understand that there is some segmentation and there are ways to do this besides I'm
+just typing into chat GPT and this happens to be a thread about scouting and it's
+recognizing that I'm talking a lot about proposals. You're talking about actually having
+a skill which is separate than just like a project or a thread that you've got going
+with an LLM, right? >> That's exactly right. Yeah, it's kind of a object permanence for
+a threat because I want it to repeat this thing over and over and I think as more and
+more people are doing things that are repeating, I think they're going to start
+realizing, oh, well this is something that I could have it just remember and just do
+every time. And that naturally lends itself to
+
+[00:22:07]
+this skill concept. And you could kind of teach it and kind of tweak it as it goes. And
+I've already have other programmers that have sent me skills. I was talking to a
+gentleman that I worked with years ago, Greg. You remember Greg Barron? >> Oh, yeah. >>
+I was talking to him the other night and I just happened to start texting him and he's
+like, oh hey, I got a couple skills you need for roof code review. I'm like, okay,
+thanks. Sends them over. They're like hyper detailed. They were fantastic. And they were
+very specific. He's programming something in rust. A couple things were rust specific,
+but most of them were general overall really great skills that you would you saw about
+half of them in superpowers, the other plugin that I can't live without these days for
+PR reviews and other review processes, but it was like, oh here, I figured this out.
+Here, they're just quickly and easily sharing it with me. And I was like, wow, if I
+change three lines in here, it's kind of generic for anything. And now it's like
+repeatable and you could bring it into the system. So I've made an Eagle Scout project
+proposal skill that technically
+
+[00:23:11]
+I could give to anybody and just hand it around and they can then become an Eagle Scout
+coach for proposal review with no effort. >> But this is also different from an actual
+application. There's not a you know, some pretty pretty interface that people go in and
+you know, that's sort of the thing. You're talking about something though that somebody
+would have to be in a Claude environment, have installed if you will the skill and then
+know how to leverage that. >> That's exactly right. It's like a power user, right? You
+got a Claude power user and somebody's in Claude and they're using this thing and all of
+a sudden they're like, oh, I'm able to repeat this over and over. Well, you start
+running into limitations, right? Each chat inside Claude or in Codex actually have
+limits because you have limits of files that you can put in there. You have limits of
+the context window, you know, a million tokens, all this jazz of the context. What I
+found was that I was dumping in multiple PDFs into a thread and it at some point like,
+dude, I can't handle anymore in here. So I was like, oh, well, why don't I just make one
+chat per scout? And the cool part was that it remembers the context of every time it
+
+[00:24:14]
+does a review. And so it's like, oh, hey, this is the second time you've given me the
+proposal PDF. So it would it changed without me telling it. It said it changed the
+language and it says, well, I see that you fixed these four things from before. Great.
+All the phone numbers are now parentheses and a space and a dash and that's great and
+you know, hey, you still got Prairie Home spelled wrong and it would spell out Prairie
+and it's P dash you know, R. It's like that was kind of I said, you can't be rude. Stop
+being rude. And it's like and it so it's you could tell it's kind of a passive-
+aggressive in its language and what it does like trying to literally spell it out for
+you here, but still without being rude. So it followed all of the rules with that. But
+you're right. You're empowering somebody they but they would have to have Claude running
+to make it work. And so I just took that to the next level and I'm like, well, let me
+just export that and take it over to an actual app. And so me coming from the background
+of building apps and understanding this entire process, I'm like, well, I can't be
+depending on Claude for everything. I'm just going to eat up money and API calls
+
+[00:25:18]
+and this thing's going to just eat me alive. I mean, technically I could slap together
+an application and just put a box up, right? And just everything's through the box and
+it will spit out word documents and spit out PDFs all day long, but that's not a really
+useful app and that's not how humans work. That's how we have a chat with somebody or
+chat with a technical support crew, but if we have the capability to build screens and
+actually give somebody a visual that maps, in this case, maps back to an actual PDF and
+actually a multi-page PDF, they're like, oh, great, this is on page six. I understand
+page six. I can fill these things out and then we can keep going. >> Are you doing any
+bounding box work with that? >> Bounding box? >> Yeah, so we had a cool thing. I'm doing
+some computer vision stuff where we have some paper and handwritten documents that we're
+bringing into a platform and then we want to have a human review. And so I'm working
+with Opus through the context of Amazon on this, but basically we're saying, cool, so I
+want you to give a confidence rating to everything that you are bringing in and anything
+that is dipping beneath 80% confidence, I want you to flag it. I want you to
+
+[00:26:19]
+flag why you're not confident in it and then I want to have a link next to where that
+piece of item is or that where that item is that pulls up the page and then puts a
+bounding box around where that data came from on that page. So as humans are doing their
+review of the computer vision, they're scrolling through, they see that something is
+maybe not quite right and they need to review it. They click the button, it pops open
+the original document with a box around where we got that data from. It's an idea if
+you're not doing that yet. It's pretty cool and this is all just asking the LLM to
+handle that stuff. >> Exactly. And the answer is yes and what I'm doing it with is the
+signature pages. So again, when the kid fills out a fillable PDF, they usually don't
+they can't manipulate the PDF. And so it shows up to the reviewer as still as a fillable
+PDF. Certainly they could you know like the old trick like oh I'm having problems with
+this thing. Well, why don't I print a PDF to a PDF and it flattens it out. >> Oh my God,
+the trick days man. >> Right? Well, so if we get that document in Justin, that's exactly
+what my next step is on version 3.3 I'm sure is in the pipeline here. Of me actually
+making that work because after this discussion
+
+[00:27:23]
+I'm going to be doing that for a scout because they had a problem with one of these
+online PDF tools and they stuffed it in there and what they were trying to do is they
+wanted they had some pictures of their proposal that they wanted to include cuz right
+there in the proposal it says be sure to include pictures. Well, they wanted it just all
+be in one PDF, which is great, but the only way they could get it to work was to flatten
+that PDF. So, now what? And then the signature pages interesting cuz my system that I
+built handles all digital signatures and that's wonderful. But how do you onboard
+somebody that already has a piece of paper and already has wet signatures on paper and
+how do you import them? And this is exactly your what you just talked about that the
+bounding box. Oh, I see these signatures. Well, let me just snap this out of here and
+save it as an image and use that as the quote signature and that's good enough for what
+we're doing here. These aren't really legally binding documents. I believe the first law
+is a scout is trustworthy. >> Three fingers right? >> That's right. It's three. >> Three
+fingers sorry. >> That's right. Just like that. Two is Cub
+
+[00:28:25]
+Scouts and the band-aid comes with it. >> I'll tell you where I got off the scout train
+cuz I thought it was two. So anyway. >> Yep. Cub Scouts is the peace sign, but now
+they've kind of changed it to that and then you got Scouting America and Scouts BSA is
+three. >> You guys have an AI merit badge yet? >> There is multiple merit badges.
+There's a cyber I was going to say cyber crime, but that's not right. >> [laughter] >>
+There is a cyber security merit badge. >> There you go. >> Absolutely. There's a
+cybersecurity merit badge, there's a programming merit badge, and they now have an
+entire online concept where they're experimenting with new merit badges all the time.
+And so they've added an artificial intelligence one into that. And the goal is that if
+people like it and they understand it, they get feedback from scouts and they're like,
+you know, "Hey, maybe we should add this requirement or this one's weird" or whatever,
+and they'll refine it and then all of a sudden it's a real merit badge. And so there is
+an AI merit badge that is out there that you can earn right now and still more in the
+pipe, you know, it's very eclectic group, right? There's like almost 140 merit badges
+out there. At the same time we're pushing an AI one
+
+[00:29:28]
+through this, we're pushing through a sewing merit badge. So that's the kind of the
+range of merit badges that are going through the system right now. >> That's very cool.
+So, keeping an eye on time, you've got this now to a process. You had talked about
+you're now wanting to kind of turn it into an app or you have partially turned it into
+an app. And you and I have talked a little bit about this, but I think our audience
+would also be interested in the aspect where you worked with the AI to generate a
+design, an actual workflow, and then you also just gave it to it to program cuz you
+don't do React. And so I'm curious how that process went and was the end result good
+enough that since you didn't know React, it didn't matter? Or did you have to like tap
+somebody and be like, "Is this garbage?" >> Right. So I used plugins to ask it if it was
+garbage. And so I just went with Laravel because I kind of came from a Zen framework
+world and I liked what Laravel was doing with PHP. And I was actually started the whole
+project in Laravel 12 and that was part of the pile that I was working with and lo and
+behold, bleeding edge, here we are. While I'm working on it, you know,
+
+[00:30:31]
+Laravel 13 pops up. All of a sudden it's like, "Oh, hey, it's got all these agentic
+endpoints and it's got all of the support for models" and just put a key in and all of
+these libraries and structures and classes are all just here for agentic programming.
+And I'm like, "Hey, can we use this?" And it goes, "Yeah, sure." And I think I went to
+the bathroom and came back and it was added. I was like, "What just happened?" So, could
+I get it to that point? Absolutely. I took it and I Right now, Claude Design is giving
+away their usage of that system. And so, right now I feel like I'm cheating because I'm
+using Claude over here for building the system, but then I'm using Claude Design to
+build out all the user interface. And the entire user interface I'm chatting with this,
+it's making mock-ups, it's making a lot of visuals for me. But I know what I want, I
+know what the workflow looks like. I had actually started with that PDF workflow, and so
+I already knew that, you know, I already understand the concepts of software. I need a
+user table, I need to be able to do these things. But there's other stuff that I didn't
+even think
+
+[00:31:34]
+about. It's like, "Hey, you know, you really don't need to use passwords." I'm like,
+"Really?" And they're like, "Yeah, you can just So, let people log in with Google? Do
+you want me to just add that?" "Sure. You want me to add log in with Apple? Sure. Okay,
+great, done." And then we just kept going. And the system is live, it's up at
+myeaglecoach.com. And I actually have actual scouts using it right now. I had a
+functional system built in under 200 hours. And for me, that's crazy. And I say I say
+200 hours, that's actually a pretty feature-rich system. At about 100 hours, it was
+ready to start going. Pretty basic, but it was working. So, this system now uploads and
+imports Eagle applications that have already been filled out. It uploads their entire
+There's a system called Scoutbook, that's the official system that's out there. It will
+import all of their advancement, all of their merit badges they've earned, all of the
+ranks they've earned. It'll just import that PDF and dump it in. It'll import that
+workbook, like I said before, this, you know, 32-page workbook of fillable PDF, it will
+just dump all that data in. And
+
+[00:32:38]
+then I made it I took the official PDFs and I repopulated so that you can dump it all
+back out. So, I'm putting in PDF, I'm pulling out PDF. So, technically scouts can work
+through this thing without even using the system. But as soon as they see the system,
+they're like, "Oh, this is amazing." You know, I had a scout the other night. I'm like,
+"Hey, you can't edit this part until you sign the document that says, 'Hey, I'm working
+on this document.'" It's kind of a gated area. And so, she goes to it and it's a digital
+signature. And she's like, "Oh." And she starts using her touchpad to kind of sign and
+she didn't like it. And I said, "No, no, click there." And then showed her a QR code and
+she didn't read anything on the screen. She just immediately says, "QR code? Wait, I'll
+scan it." And she goes, "Oh, here. I'll make I can make" My mom does a giant first
+letter. So, she's like signing the document right there and she's like, "Cool, cool."
+And she's like, "Oh, this is so baller." >> [laughter] >> Which I thought was awesome.
+And without me explaining the system at all, this scout, you know, this 14-year-old was
+able to understand how to do it and how to import and export this PDF. So, I guess
+that's a testament to me being
+
+[00:33:42]
+lazy and not wanting to explain things to people, but at the same time, if we're doing
+our job correctly, usability just comes with good design. So. >> No, cloud design is
+fantastic. And now it's like if you have a vision and a little bit of expertise and a
+little bit of initiative and a healthy dose of curiosity, you can do crazy stuff right
+now. And this is really driven in the last 6 months. I mean, with the cloud stack and
+other relevant like AI stacks, I mean, it's if you're a guy who has an idea and you can
+see a problem and can conceive of a solution, but just don't haven't had the resources
+or the time to dedicate to it, we're solving problems like that so fast these days. It's
+just it's fantastic. I think the scouting app you're talking about is a great example of
+that. Like it's a problem there wasn't really money in it, but it's a great service that
+people needed and had all the pieces I needed to get it solved. So, I just took care of
+it. >> I was just going to say, yeah, even within like cloud design's environment,
+there's now just a gigantic button up in the upper right that basically just says hand
+to Claude code and it just youp. >> That wasn't there 3 weeks ago. >> I know. That's
+what I'm saying. It's wild cuz I just I was looking at it the other day. I'm like, what
+is that? Oh, no. >> I thought it was interesting in Claude
+
+[00:34:45]
+design that it you know, you could point it to the code base and for me system
+documenting is difficult, right? I mean code documenting nobody wants to do. Test
+harnesses, that's kind of a solved problem now. You just in your claw.md file you just
+say everything must have a test and put it in all caps and all of a sudden it just
+happens. I think I just passed 1,000 tests in this app. So everything has a test
+coverage 100%, which is great. You know, deployments take a little more time, but now
+I'm finding that I'm like, well, wait a minute. What's in this system? How does this
+look? You know, I'm so used to seeing like a database diagram and a schema and I just
+want to see what that looks like. And so I had I said, "Hey, I want you to spit out the
+schema and I want you to spit it out in a draw.io format so I can pull it up in a
+browser, a very popular tool and it did that. But every time it did it put it in a grid
+and it looked horrible, but it was all right. So I you know, I spent like 15 minutes
+moving things around where I liked how it visually looked. And then I you know, of
+course we changed the schema and I said, "Okay, update it again."
+
+[00:35:48]
+And it wiped everything out and I'm like, wait a minute. Okay, I'm going to lay
+everything out the way I want and I'm going to change some stuff, but I'm not going to
+delete or add the tag to you know, it's got some metadata inside those elements for
+those tables. I moved them where I wanted to and then all I said was, "Okay, I've moved
+this stuff around. Don't move it and just keep going with your updates and up add or
+remove elements from this as needed. You know, I've changed some stuff from integer to
+var cars and other stuff and I've added new fields all over the place." And it remembers
+this and of course and now my diagrams are completely in sync and so now I have a visual
+that is up to date with my tech stack. That's a good thing. The bad thing is that
+there's a lot of stuff that Claude is not good at. I mean, I'm finding the daisy-
+chaining markdown files, it keeps referencing old residue of features that have already
+shipped or ones that I already said, "Oh, no, we're not going to do that. We went in
+another direction." Initially, we thought we were going to use like DocuSign. I was
+going to use DocuSign as a server to do these electronic signatures. Turns out I
+
+[00:36:51]
+didn't need the overhead of DocuSign. You know, DocuSign is the open-source version of
+DocuSign, and I said, "This thing is a pain in the butt, and I don't want to spin up an
+entire separate server just to have this up." And it's like, "Oh, well, all you really
+need is this, and I can do that." Great. Let's get rid of DocuSign. But as soon as I
+came up with the architecture diagram, I said, "Hey, Claude design, spit out a diagram
+that shows me the architecture." It had DocuSign in it. It had a Redis server in there.
+It had connections out to systems I don't even use. And I'm like, "What is all this?"
+And it's like, "Oh, yeah, I found that in the spec." I'm like, "But I gave you the code,
+and I wanted you to architecture of the code." It's like, "Oh, so in its mind, code is
+spec. It doesn't matter if it was in the code base or if it was just in its memories."
+It just built an entire architecture based on the full collective of what it had, which
+I thought was kind of crazy. But I was like, "Okay, well, either way, get rid of that
+stuff, and let's tighten that up." But that was extremely useful with
+
+[00:37:54]
+what we had in there. The other part of that was I think you had Justin and you guys
+keep beating this one into the ground. You know, it's consistent development
+methodologies. It kind of changes its mind halfway through. It's a junior developer
+that's had too much Baja Blast, right? It's just sitting there and decides that, "Oh,
+today I'm going to follow the rules of PR generation and deployment. And other times,
+I'm just shoving this as a hotfix out to production with without any checks." And like,
+"What are What are doing?" It's like, "Oh, yeah, sorry, that's my bad." >> My experience
+is actually been it's that it's a giant JavaScript enthusiast who's reluctantly accepted
+a job writing Ruby on Rails and then also has had way too much bourbon. >> Is there such
+a thing as too much bourbon? >> Sounds like the end result is about the same. I mean,
+the Balmer peak is a very tall and very narrow thing and too much bourbon, at least in
+the context of programming, is when you end up on the right side of the Balmer peak. So,
+>> I am fully familiar. So, my 7-day rollover Claude is Tuesdays 11:00 p.m. So, Tuesday
+nights I'm just down here burning capacity before that limit gets hit. And so, uh yeah,
+the Balmer curve
+
+[00:38:57]
+shows up a lot on Tuesday nights in my house. So, >> JavaScript and Woodford. It's going
+to be a good evening. >> [laughter] >> That is the truth. Yes, exactly. So, and if you
+want to completely destroy your personal life, I would suggest you familiarize yourself
+with {slash} remote-control in Claude. And then, you just code everywhere, all the time.
+And your work-life balance is completely destroyed because you're remote controlling
+Claude. And as soon as you have an idea, it doesn't matter if you're driving or sitting
+on a bus or at lunch with your wife, you're like, "Oh, wait, got an idea." And I'll say
+you're chatting, but you're sending it back and updating some code base somewhere. >>
+I'm going to push back on that idea the same way that I push back on Apple Watches,
+which is just like any invention that exists now so I can spend all of my time staring
+at a tiny screen versus just most of it. I don't need. I went outside. There were these
+things growing. And like, they're tall. Well, some of them were small and you could walk
+on. Other ones were tall and you could climb. But, I was out there for a while and I
+felt some of my anxiety fall away
+
+[00:39:59]
+and I I realized that my overclocked ape brain sometimes needs a minute or two out there
+in the I think they call it nature. Anyway, what happens when you go outside? You know
+when you order an Uber Eats and then there's that uncomfortable moment between when
+you're at your front door and when you get your Uber Eats order, where you experience
+like weather and stuff? Like, if you just lean into that a little bit longer, like it's
+actually really good for you. >> You mean like longer than taking out the trash? There's
+like a world past the end of the driveway? Is that what you're saying? >> If you get to
+the end of the driveway and you turn right, and then you keep walking, we call that
+traveling. And a lot of people like to do it. Yeah, yeah. >> Interesting. That's kind of
+wild. Let me help you out with that a little bit. I can give you some hobbies on the
+other side that'll equally suck all of your time away. >> [laughter] >> But yeah, that's
+a great That's a great way. But remote control doesn't work, so it's half the time with
+like slash commands. So, you have to remember what the flash commands are, or you have
+to overexplain what you're trying to do, which kind of drives you crazy. So, it's like,
+oh, well, maybe they'll fix this soon. But if I want you to do a review,
+
+[00:41:02]
+great, but if I forget how to do to turn on the front end reviews, blah blah blah plugin
+that is out there, I just can't remember the syntax. It says, I don't know what that is.
+Like, yeah, you do. And then you have to explain it further. It's like, oh, yeah, okay,
+I'll run that one. Like, oh, so. >> What's your favorite plugin or skill or tool that
+you're playing with right now that's maybe new from a couple weeks ago? >> So,
+superpowers, I mean, if you're not running superpowers, you're not using Claude. That's
+it. Beyond that, I found a couple very specific ones that have been helpful. I'm
+sticking to the Anthropic official library because I feel like what's going to happen
+with the marketplaces for plugins is going to be exactly what happened in the WordPress
+world in that early on, a lot of official plugins showed up for WordPress from all the
+big players. And then everybody realized, oh, I can write my own plugin, and then it
+just became this no man's land of ridiculous plugins that aren't really coded well at
+all. Giant security holes, they eat up your CPU or server stack, whatever, and
+
+[00:42:07]
+they're just not good. >> Sorry, are you talking about WordPress or JavaScript? >>
+Right, I'm getting there. >> Oh, let him cross the ridge. >> Good, good, getting there.
+That's the WordPress problem, right? >> Uh okay. >> So now I'm like, what's this
+marketplace thing that Anthropic has out here? And there are all these official ones.
+And I think by the time I hopped in, there were 15 in the marketplace. And I said, "Oh,
+you sweet summer child. This is so cute that you have 15. This is going to become a
+nightmare as soon as everybody finds out about how this works." And sure enough, you
+know, you guys have talked about this on a couple other episodes where people install
+this plugin and I think it's going to do this cool thing and it just eats tokens like
+right and left. And you're like, "What did it end up doing?" And I think Nolan mentioned
+another one of these things, you know, "Can you just put in the 100 lines of code that
+this thing does instead of just recoding everything for God's sake?" It's like NPM
+packages, like for God's sakes, everybody, let's just go back to reality. But if you
+stick with the Anthropic plugins that are official, things work pretty well. The
+superpower one, PR reviews, I mean, you're sticking with what it knows and
+
+[00:43:10]
+it's really good at. And then I branched out a little further and I actually I'm hosting
+the scouting app on Laravel Cloud. And that's another system that I never used before. I
+have the entire stack up on that and managing through Night Watch and Alt Backpack and
+all these things that the Laravel ecosystem manages without me. So I just installed the
+Laravel best practices plugin. And I installed the Laravel Cloud plugins and the Laravel
+CLI plugin. And now this entire Claude thing is now very in tune with Laravel. And
+before when I was struggling with it doing things, now it just completely understands
+the Laravel stack. And then the security is another one. You know, do a security audit
+for me. It's been very good. Hey, you know, you there's cross-site scripting
+vulnerability here, but really without me touching the IDE ever, I'm not injecting any
+bad practices, right? So, if it put a security hole in there, it did it on its own
+doing. So, I'm not
+
+[00:44:15]
+ham-fisting my way through uh some functionality that I'm trying to code and oops, I
+didn't realize that I didn't sterilize my inputs. That's not a happening cuz I'm not
+writing any of the code. And then the third one was accessibility. Super important for
+many reasons, but even for sighted individuals, contrast colors and stuff are difficult
+to see. I mean, that's is that tan on orange? What are we doing? If I can't tell, then
+what's a screen reader or anybody else going to be able to do with low vision? And those
+plugins have been super helpful as well because I'm able to get lighthouse scores of
+like 99, where before it was like 85. And a good friend of mine is a lawyer out of St.
+Louis, and he's building an entire app. Like, I could go on and on with what he's doing.
+He's a perfect example of a lawyer that understands how to do this and is just dangerous
+enough to build something, but he knows how to now find cases, and he just got me
+thinking cuz I'm like, in the state of Missouri, we have a huge problem with this
+lawyer, and he has a client, and they go around and they sue everybody
+
+[00:45:17]
+because your website isn't accessible, and it doesn't score a 99 on the lighthouse. >>
+Yeah, we did a podcast episode about these people, I guess would be >> Exactly. >>
+divisive thing to say about them. It's a huge problem. >> Yeah, and this plugin got me
+to 99 and makes them go away within minutes. It was It's very nice. And you know, it
+keeps up, right? It keeps up with the standards. It keeps up with the things that I
+can't. And most of the time, you know, you're moving stuff around in the background, and
+it's hidden tags and hidden things that oops, I missed one or something. It's just, you
+know, these LLMs are really good at. >> Well, guys, we're uh probably past time at this
+point, but it's always just so much fun to get to chat about these sorts of things, and
+we all know each other well enough to if we could just kind of BS with each other a lot.
+So, it's been fun. Steve or Justin, what did I miss? Anything you want to wrap us up
+with that we haven't hit that won't spin us into another full episode? >> Oh, I thought
+we were going to talk about the future of SaaS. I had a whole like nine-point bullet
+list of the future of SaaS. And you'll be back, dude. >> Yeah, every time Steve comes
+on, it's like, "Well, we got three more episodes queued up." So. Always good to see you,
+my friend.
+
+[00:46:21]
+>> Happy to keep babbling, but I think a couple of my clouds here are finished, so I
+need to get back to it pushing the next version. So. >> Go baby sit some more. All
+right, that's fair. >> Make sure you're taking remote control off long enough to be on
+the podcast. We appreciate you. [laughter] >> How do you know it's off? He's got it over
+here on the screen blinking. You know it's happening. >> We're good, bro. Don't worry
+about it. We're >> [laughter] >> There he is. >> [clears throat] >> Well, Steve, thanks
+so much, my friend. Justin, always a pleasure. And thank you all out there. Appreciate
+everybody taking the time to watch the episode, hit subscribe, hit like, let us know
+what you think, anything else you want to see, send it our way. And we will catch
+everybody next time on SaaS.app. >> Thanks for cruising along with us on SaaS.app. We
+hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

@@ -1,0 +1,588 @@
+Joe Kowalski $1B Mistake? Picking the Wrong Vertical
+====================================================
+
+Video ID:  hpBfcTSSJ7U
+URL:       https://www.youtube.com/watch?v=hpBfcTSSJ7U
+Published: 2025-07-08
+Duration:  00:46:13
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+There are lots of tech founders that have no business running a company. They have a
+great idea. They were a good engineer. Maybe even you're good at product. That's
+onetenth of what you're going to need to build a real company. Welcome to SAS that app
+building B2B web applications. The podcast where we share real world stories, practical
+advice, and tech insights for those building or thinking about starting a tech- enabled
+business. I am your co-host Aaron Marchbanks. And I'm Justin Edwards. Each week, we
+bring you the stories, strategies, and insights you need to build your SAS or tech
+enabled business smarter, not harder. Let's dive right in. Hello and welcome to SAS that
+app. With me as always is our friendly neighborhood CIO, Justin Edwards. Hey, Justin.
+Hey, at least one data point that not all those who wander are lost. And our guest
+today, uh, Joe Kowalsski is the managing partner of SAS Labs, where he brings two
+decades of SAS
+
+[00:01:03]
+experience to help new startups get off the ground, uh, get some advice, um, after a
+successful exit from his company, uh, Service Monster. Joe now focuses on guiding that
+next generation of SAS founders through hands-on mentorship and investment. So, he's
+known for his blend of tech expertise, entrepreneurial instincts. Joe's kind of been
+through it all and he is here today to help share how we can all navigate the
+fastchanging world of web applications and AI and the ups and downs in the world of
+building SAS. So Joe, welcome to the pod. Appreciate being here. Thanks for the invite.
+Absolutely. So uh super easy one to kick us off because I'm always interested in
+people's life's journeys. But um I I was looking back at my notes. Am I recalling
+correctly that before you made the leap into software and SAS, you were a biomed polymer
+chemist in an R&D lab? That is correct. Yeah. Tell me about that. I didn't go to
+college. I kind of stumbled my way into a chemical company and earned my way into the
+lab over about 8 months, you know, just learning organic chemistry, biochemistry.
+
+[00:02:08]
+and the way that I approached data was very interesting to the lab and so the they
+brought me in and uh yeah and I got to work on several cool projects there before
+finding my love for computer programming. It seems like a pretty uh unusual path to get
+into a job as a as a polymer chemist. My life has been unusual journey, right? My story
+opens at 23. Um, grinding on aluminum parts for minimum wage with a new wife and new
+baby on the way and no college education. That's kind of how my story opens. And just
+through intellectual curiosity and fortitude and just this desire to learn, I worked my
+way through a number of interesting careers. That is so cool. Well, kind of jumping off
+of that and and and pardon the the pun there, that that attitude, that mindset that you
+have the just kind of jump in or just get started mindset um obviously has led you to
+where you are,
+
+[00:03:11]
+but what does that mean exactly and and how does that translate into now your world of
+SAS? Yeah. Well, so I fell in love with computer programming through a QA necessity, the
+lab, it took 3 days to get a test result and so I but I I love expediting, right? that's
+processes my my my love and joy. And so I helped them by learning to code how to convert
+that process down to like a 6-hour deal instead of a 3D or a 3-day deal. And uh just
+fell in love with programming. Joined a Fortune 500 company slinging code for their
+production uh for a while. Got cancer and I had always wanted to start a business. After
+I recovered from cancer, I kind of figured what's the worst thing that can happen? I'd
+die, right? So that's when I made the big jump and started one of the very first SAS
+companies in 2003. And um you know Salesforce was ahead of
+
+[00:04:14]
+us by a number of years, right? But they targeted the enterprise and they were on you
+know uh fiber optic, right? I mean, as far as I know, I was the first person to offer it
+to small businesses at 50 bucks a month over dialup. Dial up, man. We can only hear the
+sound now. Oh. Oh, yeah. Those of us, those of us who have ever heard the sound, it
+stays with us forever in our nightmares. Yeah. What led you to target that segment of
+the market? Did you was it conscious decision not to try to compete with Salesforce? Did
+you want to make something for people that you knew? Yeah. So, we didn't compete with
+Salesforce, right? They targeted enterprise sales organizations on, you know, like I
+said, on the fiber optic, cable or at least broadband, which was only like 30% of the
+nation at the time. No, I saw the bigger vision, right? Of really SAS would become
+lowcost, monthly, recurring, guaranteed income
+
+[00:05:18]
+offered to people who couldn't afford big huge enterprise solutions. And so we targeted
+the service industry like carpet cleaners and pressure washers, right? I mean people who
+average invoices 250 bucks a pop, right? So small small businesses. Um at that time only
+25% of that industry was on a serum of any kind. And I knew that it was cost prohibitive
+for them. They didn't know about servers and certainly people couldn't access it while
+they were in the field. Not in 2003, but I knew that was coming, right? And so we built
+over 4 years all of the infrastructure that we take for granted now. Recurring
+subscription charge engine, CRM, SEO, analytic engine usage, like all of the stuff that
+we have to have to support the building of a product. We had to build that too, right?
+And so it took a long time to
+
+[00:06:25]
+kind of get to a point where we were finally making some steam. That took about four
+years and a little pivot that really made the difference. Yeah. People of my generation
+of programmers and SAS founders take for granted all the amazing tools that just at our
+fingertips and we don't think about the fact that there was a company a month. Yeah.
+Like it's seriously I set up my next SAS 500 bucks a month. I have everything I need.
+CRM, email, accounting, like backend usage, statistics, data recover, I mean the whole
+nine. Now I can focus on the product. Yeah, that's that's fantastic. And with with
+service S service monster in specific, you know, most people that I have found the
+successful startups are kind of birthed from people that are really steeped in personal
+experience with the industry or the area that they're wanting to provide the service
+for. For you, was it because you have a lot of experience or expertise in that service
+industry or was it because you were wanting to bring what you were really good at to the
+service industry? Yeah, so I was industry agnostic. So, I made two huge mistakes I want
+to make
+
+[00:07:30]
+sure I communicate to the people listening here. Uh, the first one is I wasn't smart
+enough of a business person at the time to really thoughtfully select my vertical
+market. I got in because I knew what SAS was going to be, right? It didn't even have a
+name at the time. Nobody was doing online business management. online typical, you know,
+what we see today and take for granted. Nobody was doing that then. And at a family
+reunion, one of the elders kind of knew a lot about the carpet cleaning industry and we
+just got to talking and I was like, there it is. I could be incognito for a couple
+years, figure out how to make this work and then open up to all services. not
+understanding that the better play is always a straight vertical approach and really
+growing that base out and I chose the wrong industry sale um my nearest competitor
+Service Titan you may
+
+[00:08:34]
+know about them cuz they're like a $4 billion company now they're preipo and they got
+started 5 years after I did the difference they selected HVAC first and they weren't
+didn't have a better product. I have a far superior product. We were far leaner. We ran
+better. We had the infrastructure. My customer's average invoice is $250. Their
+customer's average invoice $7,500. And so they could charge $1,200 a month for what I
+was charging her for 45 bucks a month. All right. That's a that's a huge deal knowing
+kind of who your vertical is and who your market is and what your customers can afford
+to pay and consequently kind of how much value you can capture in the total addressable
+market. There's only 25,000 carpet cleaners in the United States. When I sold in uh two
+years ago, I had like 40% 35% of the market, you know, of the addressable
+
+[00:09:38]
+market when you really break it down because only 35% of carpet cleaners run a CRM 20
+years later. They were all online at that point, but it only gone up 10 bips in flipping
+20 years, right? And they couldn't afford anymore. their invoices didn't really go up in
+that 20 years, right? Because it's a fairly inexpensive service, right? And it's low
+tech. It's easy to get into and so lots of pressures to keep the cost low. And so, yeah,
+bad bad decision. I mean, I sold for 8 figures, so I'm out whining. But yeah, I am
+whining cuz it wasn't 4 billion, which I could have easily done if I had just been smart
+enough at the time to pick the right vertical. So, just to close the loop for my
+neurotic brand, you said you made two big mistakes. One of them was vertical selection.
+What was the other one? The other one was pricing, right? So, and then several sub
+mistakes in the pricing category. The first is I didn't take advantage of first mover,
+right?
+
+[00:10:42]
+and I wanted to charge us just a little over cost which was stupid considering I didn't
+get funded right I bootstrapped and I really neutered myself for growth I could have
+used that additional capital as fuel to grow and invest literally invested the 12:1 cact
+to live ratio that I was living at the end I could have rewound that five six years. The
+other thing I did was I grandfathered any price change we made and we only made three in
+those 20 years. Two of them, everyone was grandfathered who was already on the system.
+So when we did our third price increase a year before I sold, we had customers that were
+still on our 2003 pricing, they saw a 300% increase in their monthly. Now, how much did
+I lose? Right? I was terrified. Always terrified to raise prices. Always terrified to
+
+[00:11:46]
+raise it too much. Always terrified to lose clients. Nearest I can figure cuz we had a
+really good churn of about 1.2% monthly at the end even at the end. So, and this was a
+service industry, right? They have a yearly churn of 20%. So, 20% go out of business
+every year. My 1.2% 2% was nothing. These were mostly going out of business and
+occasionally we'd lose one to a competitor. Sorry, just to highlight that, uh, thinking
+about your turn specific to your industry is super important because 12% turnurnish
+doesn't sound like that phenomenal a turn, but if you have an industry that's turning
+over at that rate, contextually, it could be fantastic. It's all industry specific. We
+were industry gold standard for sure. It was one of the things that made the four
+companies that were bidding for us at the end kind of get in a war, right? because I
+knew they had a really good customer base and we did $750 million of invoice throughput
+per year. So, we were doing pretty good. We lost as near as I
+
+[00:12:49]
+can figure 2% from that increase over the course of the next 12 months. So, 300% co cost
+increase, 2% customers lost the some of them, right? Not to everybody, right? The couple
+of them saw that, but yes. And you were continuing to develop and grow the product and
+add features for this entire 20-year period. And you never raised your price. I'm an
+engineer. It never stops. What an answer to that question. To the sugar of my two non-
+technical uh board members. When are you ever going to be done? The first time they ever
+said that 12 months in, I was like, you got in the wrong business, dude. I'm going to
+rebuild this thing four times. We tell people, we tell people that when they're looking
+at buying off a software project is like software is not ever done. You know, you build
+a house, it has to be maintained and software's maintenance cost on carrying software
+are way higher than a house. So it it never ends and never stops. Yeah. And I don't
+think the new blood, right? We've got two new breeds coming into this industry. We've
+got the tech technical path, standard tech founders, but now we've got marketing
+founders
+
+[00:13:52]
+that are actually able to spark together something of an MVP, right, with these no code
+or low code tools. And we know as engineers, it's not great yet. Certainly not. They
+can't build whole systems, right? I can have it build functions for me all day long. But
+but um they don't know that these marketing guys are building these MPPPS thinking that
+they're going to be able to create a product to sell like a widget. And I ain't going to
+go that way, boys. Yeah, that's that's a lot of wisdom right there in kind of the
+irrational exuberance of the AI um kind of environment we're in today. There's a lot of
+exuberance that I would I would call irrational around AI and what it's going to be
+capable of in the next 5 to 10 years. So I I love that point. I think that you're spot
+on. Yeah, there's I mean there's a lot that surrounds that for everybody that's involved
+in the in the play of that too because from the development perspective obviously it's
+you know it can write code to a certain extent, but unless you know as an engineer what
+it is you're getting back, you don't know if it's good, bad, or ugly. And then on the
+
+[00:14:54]
+other side of that, to your point with the marketing folks, you don't know what you're
+getting really at all. And it's like, well, look, it just spit out code and it's
+supposed to do this stuff. So cool. I ought to be able to scale that. Why? By hiring an
+engineer and and then they're going to look at this and go, did you gen this up with AI?
+So yeah, I mean there's a lot of different angles to that. So where where would you say
+then like right now as it is AI in the industry? uh you know Justin and I kind of are
+similar opinions on this that the real value with AI right now is like pattern
+recognition you know removing or you know repetit repetition and things like that not
+replacing jobs but what would you say is the opportunity for AI right now in these web
+applications or in these startups or in the minds of these founders? Yeah. So I have an
+evolving attitude on this with each version that you know deep sync or open AI kick out.
+So the baseline where we're at today, if you're an architect with, you know, deep
+technical knowledge, you've just turned
+
+[00:16:00]
+a 10x engineer into a 100x engineer, right? If you know what you're doing, you can read
+the functions. like I can scaffolding an entire service monster replacement in a day and
+I can have um AI spit out my web API restful backend pretty easy because I know what I'm
+doing. I know how to ask it to build Legos and then put those Legos in place. If I don't
+have an architectural background and a coding background, there's an illusion that it
+can build a system for you. And then you're just in deep not knowing what the hell is
+going on when things go wrong, trying to hand that over to real engineers. It's a mess.
+It's like a plate of spaghetti is how we used to talk about it in the old coding world.
+And engineers are always able to do more. But that's the opportunity because what's
+happening is a lot of out of work engineers now have a real ability to build a micro
+SAS. And what do I mean by
+
+[00:17:06]
+microess? I mean a 3 to 5 million ARR that's worth 15 to 20 million on the market easily
+if you've got a 1.5% monthly churn or better 70% COGS and you've set it up on a lean
+staff and I see those popping out like potato chips. There are so many small world
+problems where you can get 2500 clients paying you a hundred bucks a month at three
+millionaire error and at a 5x that's a $15 million exit and I could do that all day
+long. No, it's absolutely beautiful. Uh just to define some terms for anyone who doesn't
+have them, ARR is annual recurring revenue. COGS is cost of goods sold and churn refers
+to the percentage of your customers you you lose per unit time. In this case, he's
+talking about monthly, but we also talk about annual sometimes just to add some terms in
+for anyone who missed them. Don't want to get too meta. I I try to stay all out of the
+weeds.
+
+[00:18:09]
+No, your your angels your angel wings just came out. I saw all these investors
+investment terms go flying by and I was like, "Oh, we're moving into investment talk
+now, huh?" Oh, yeah. Actually, I've been looking at, you know, churn and um customer
+lifetime value over customer acquisition costs before those terms existed. as at month
+six after launch I'm like we're losing customers why are we losing customers because it
+really doesn't wasn't a thing SAS wasn't a thing right I just thought they were going to
+sign up and use it and so we had to we paid a lot of attention to onboarding and post90
+versus pre90 user behavior and how to make them stick around give them the dopamine in
+order to really make the product worthwhile. So, yeah, that was way before I became an
+angel. So, for your uh for for Service Monster, um did you have a way to get expansion
+revenue as well or was that one price
+
+[00:19:13]
+for everybody no matter how big you got? No. So, we had three buckets. Um and I didn't
+do user pricing until a year before we sold. One model I did have though is we scaled
+per truck, right? The way that carpet cleaners make their money is they send the truck
+out. And so it didn't matter to me if they were a oneman crew or two man crew, right? As
+far as like my scaling opportunity. And so we did we did that for a while. But I tell
+you, I mentioned the pivot at year four, which actually got us to profitability, which
+was revenue expansion in a different way. Cuz I realized one of the things that made
+them stay was a good marketing engine within their CRM tool. And the number one tool for
+marketing for carpet cleaners to build repeat business which was the bread and butter of
+this carpet cleaning industry was very sasslike in that way was reminders, mailing
+reminders. And so I was always saying, "Look, click
+
+[00:20:19]
+these buttons and spread out your labels." And and then one day it occurred to me,
+"Yeah, I have their freaking data. I could do the mailing for them." So, I ran down to
+Best Buy and I bought these two inline printers, 100 bucks a piece, and I bought these
+preprinted cards from Office Depot. We'd put them on the network as ching one and ching
+2 cuz every time the card come off, I'd go ching because we were making 60% margin on
+those cards. And suddenly our uh monthly sales volume doubled. People were signing up
+because of this additional service in addition to the additional revenue that it was
+bringing us. And so that was a big big turning point for us. That's amazing. Yeah. You
+got the captured audience right there already. Or or a new hookat to a new Yeah. And
+
+[00:21:21]
+the data, right? They didn't have to do anything except go approve and then I'd print
+the cards. We'd put them in envelope. I had a team stuffing and stamping them of uh
+part-time college kids. And we made a third of our revenue when I sold it through that
+meal program. Incredible. That is so fantastic. Yeah. And you've answered like six other
+questions along the way here. Uh that is just it's fascinating to me this this arc that
+you've got going and I really really appreciate your depth of knowledge on all this
+stuff. It's great. So, um, I want to shift gears just just a hair into like the SAS lab
+side of things now. So, you know, Service Monster, great. You you got your exit. You,
+uh, you decided retirement really was not your bag and and wanted to start helping other
+people not make the same mistakes you did or at the very least do stuff better. Uh, so I
+I want to talk a little bit about that. What What got you uh so quickly turned around
+and turned off to retirement and and into helping other people with these processes? I
+used to say that vacation is what gave me
+
+[00:22:25]
+anxiety. I'm the happiest when I'm being productive, when I'm building something. And so
+after I sold you, I got a couple pet projects I wanted to take care of. And certainly,
+as my voice indicates, I've had some health issues over the last 2 years, a couple
+cancers and heart failure. Um, but that's a that's a standard old story. I recovered
+from cancer in 2000 which was the inciting event for my business as I said but I just
+couldn't sit around and do nothing and after 20 years of operational experience and know
+how and you know too much cash it's an actual problem like what do you do with this cash
+um I really felt like I could help others plus I have a network of about 60 VC companies
+behind me that absolutely love my what I've done in my history who would love to pick up
+the torch when I get to a a company to that 5 or 10 million point. So yeah, I started
+talking to founders,
+
+[00:23:30]
+talked to about 150 founders last year and uh had a number of projects I was really
+interested in and helped along the way and it's been fun. Yeah, that's very cool. So I'm
+I'm curious now being on like the other side of things, you know, where you are the
+investor. I I've often wondered because it seems like everybody has just a slightly
+different checklist in this regard, but what what are the criteria that you look for
+when you are deciding about investing either money or time into a startup or or an
+existing organization? You know, obviously it's the jockey, not the horse, right? So, a
+lot of VCs will go in looking at the founder and founding team regardless of what
+they're doing if they've got good, you know, um, history, a good idea, like you said,
+some sort of coupling with that idea in their vertical versus their past, right? Their
+knowledge. For me personally, I want to see an MVP. like it doesn't necessarily have to
+be done, but you
+
+[00:24:34]
+have to have some interest from the industry you're targeting. Those are the baselines
+for me right now. I'm always willing to have the conversation. I would say half the
+founders I talk to didn't have an MVP. They just have an idea. They're sussing stuff
+out. But, um, if I'm going to invest my time or write a check, then they've got to have
+shown it a little bit of grit. um some fortitude. They've got to put something together
+and at least show a little bit of spark within the industry itself. Now, there's always
+exceptions, right? Like for instance, I'm really looking at ATP right now for myself to
+build something new. And nobody in their right mind would throw money against that at
+the moment cuz there's no good way to show traction other than just point to the 35
+million users on Blue Sky. Other than that, you can't guarantee traction until you have
+something in the public eye. And even
+
+[00:25:37]
+then, I think I'm playing a long game like I was back in 2003. All right. So that's one
+that's one you got to help me out with Joe because ATP is association of tennis
+professionals to me. So help me out. So ATP is a protocol that Blue Sky built. It's open
+source and it's a decentralized data ownership. They focus on social media, right? And
+so your decentralized the creators, the content creators, when they're posting, they're
+posting through Blue Sky, but they're really posting on the ATP network and they're
+posting micro blogs, right? That's how Blue Sky classifies themselves, but you can post
+anything, right? And so there's a a new uh skylight, a new um fecbacked company building
+a Tik Tok replacement on the uh ATP protocol. That's a bark backed by
+
+[00:26:42]
+Mark Cuban actually. So he threw some money at them. But anyone can build against this
+protocol and it decentralizes ownership of your followers, your you know engagement on
+your content, your content itself, right? It's going to be much larger than that
+overall. Um, I see it as an early Tims Burnsley and his team when they built HTTP and
+HTT HTTPS and HTML when they built those protocols, it was for document storage for
+college, right? And then business people got a hold of it and said, "We can sell on this
+and proof we have the internet." So, I know decentralized protocol is going to win
+eventually. My money right now is ATP is the only game in town. They're the one with the
+large user base. They got large financial backing and more companies are getting VC
+funding. And so I think it's
+
+[00:27:47]
+a smart play to think if you want to play in a decentralized network emerging in the
+future, ATP is a good call. Awesome. Thanks for the thanks for the lesson. Not a place
+not a space that I've played in. So thank you. Super interesting uh to do more research
+into that. Yeah, that sounds that sounds really interesting. Well, you you had talked
+about the long game there, you know, and and you've kind of had that viewpoint obviously
+since the turning point in your own life, but sometimes too long. Yeah. Sometimes too
+long. Yeah. But in a general sense, too. And I'm sure that you had those conversations
+with with founders and with startups, you know, I mean, everybody in some way, shape, or
+form needs to have that long view. So, h how do you help coach those people on, you
+know, keeping the long view in mind, but also being able to stay flexible and pivot when
+things don't go quite according to plan or there is a shift in the market or new
+technologies become available? Yeah. I mean, adaptation is a big key, right? It's if
+you're going to be a founder, you've got to be willing to adapt. The hard part is either
+staying too long or not long enough. How how do you make that call, right? I should have
+shut up shop on Service Monster on year three. I should have closed shop like we
+
+[00:28:52]
+were clawing. I was making huge sacrifices on my family, my income, my time. By year
+five or six rolled around, I would have made way more money if I would have got my uh
+what do they call it? My fang jacket, right? If I'd have worked for Facebook or Google
+or Amazon, which would have been easy for me, but I stuck with it and that paid off, but
+it took 20 years. So, the first part of how do I help them is I help keep them grounded.
+Right? This is emotional turmoil. And so, when do you have a real threat versus a
+notreal threat? When do you have a real obstacle versus one that's just in your head?
+When are you focused on what's going to move the needle versus what's fanciful for you
+at the time? As a founder, you've got to be willing to adapt and move quickly. You've
+got to be able to go in places nobody else's
+
+[00:29:55]
+tread. But without someone helping you, it's 100% crapshoot. And if you don't have the
+knowledge of having already done it, then you're probably going to make a large number
+of mistakes. Like, I wish that I had somebody like myself with 20 years of SAS
+operational experience to help guide me along the way. I would have cut 10 years off on
+my plan. Yeah. I mean, it definitely seems like, you know, at several points along the
+way, some of which you've you've already highlighted, I mean, you could have easily just
+gone left instead of right or just stopped altogether. But, um, yeah, that's that's
+amazing. So, you know, translating that or continuing to translate that into into, you
+know, these these bits of information, these these great nuggets of wisdom and
+everything, you know, we're talking about this long game and and this this work I'm
+going to call it work life balance. Um, you know, just just being able to kind of keep
+your head in the game, but also keep your keep your heart with your family kind of a
+deal. But
+
+[00:30:57]
+what what is it that when you're talking to these founders and and you are looking way
+down the road, you know, what do you tell them to to carry with them into the future,
+you know, as it relates to when do I get out, when do I stay, how do I know if it's too
+much, how do I know if it's not enough, do I delegate and step back, you know, when when
+do you when do you hit those pivot points along the way? How do you how do you help
+people identify those? There's is a harsh truth is I don't try to help people that
+aren't ready to be helped. There are lots of tech founders that have no business running
+a company. Like they have a great idea, they were a good engineer, maybe even you're
+good at product. That's onetenth of what you're going to need to build a real company.
+And so lesson one is are you somebody who I wouldn't say worth that's the wrong word,
+right? But are you somebody who's actually can do this or at least have the character
+
+[00:32:01]
+death that will put you in a position to make you the person that can do this? Cuz if
+you're not there, no amount of coaching was going to help, right? No amount of advice or
+even getting everything right isn't going to make everything work for you. So that's
+one. The second part is that character death. Like we all go in thinking that it's going
+to be this thing. It always takes way longer, always costs way more. It's always way
+harder. You spoke of work life balance. I don't think the people who work for others who
+talk about work life work life balance would think that I had it right now. I have six
+kids, an amazing wife, we homeschool. She has never had to work in our marriage. So, I
+have some privileges there like I would fully acknowledge.
+
+[00:33:06]
+And I never missed a kid's birthday, right? That was that was important to me. But I
+worked lots of weekends. I worked through the night lots of nights. I sacrificed
+extracurricular activities for my kids because I couldn't afford them. Because I wasn't
+taking a big enough salary compared to what my salary was like when I was working for
+other people. Doing this is sacrifice. Sacrificing yourself, your time, your emotions.
+So, you better have a great partner, a life partner if you're married, cuz this this
+disrupts marriages way too often. And if you really want to win, a 40hour work weekend
+can cut it. You've got to be thinking about this when you're cutting the lawn before you
+go to bed at night. When you wake up, you're grabbing on the phone looking for
+engagement from potential leads. Like it's a deep engagement and committed thing. Can
+you do it at a 40hour? I
+
+[00:34:14]
+consider that kind of a part-time founder effort. I don't know. I've never seen it.
+Never seen it, you know, realistically. Now, after you get to a certain point in your
+business, that changes, right? Once I had about 14 or 15 employees, I had enough layers,
+right, and enough people handling the things that go dayto day or watching the clock or
+would wake up and if the alarm went off, right, if your systems went down or something,
+but until you get there with like a million and a million and a half in the AR, there's
+no work life balance. You you got to build it out and you got to have the right
+temperament, right attitude and it sucks and it's hard but uh that that's just a
+reality. Yeah. But the end of the tunnel, you know, there's potentially an 8 figureure
+exit. So, you know, you got that to look forward to. Well, it's not a train. It's a it's
+not a light at the end of the tunnel. It's a
+
+[00:35:18]
+freight train headed your way. You got to figure that out before you get off the track.
+Yeah. So, you know, I've got to ask. I have to wonder. worth it? Would you change
+anything? Look at the back%. I wouldn't change anything. Okay, now here's the thing. I'm
+built that way, right? I'm built to do those nights and weekends and be sustained. I'm
+not draining energy when I'm working on a model. I'm getting energy, right? And so
+that's big. Um I I'd like to think I didn't really make any mistakes with the family. My
+wife and I are still happily married. We're loving life at this stage in our life and
+you know my my children seem to be happy and well adjusted but that's a conscious effort
+right what I sacrificed was my leisure I didn't sacrifice my family I didn't sacrifice
+my work I sacrificed the video games the football games the going out to you know sports
+events the golf all that crap I didn't ever care about anyway and so for me it
+
+[00:36:25]
+wasn't was in a hardship, right? I don't want to paint it that way. The one mistake I
+did make that I do regret is I got involved with the wrong people, my business partners.
+Like, I'll never do business with any of them again. And I don't want to talk too deep
+into that, but I will caution those. Don't take the check just for the money. Make sure
+you're aligned on ideologies, on worldview, on direction, and make sure the people who
+are writing that check actually can provide some value aside from that check. Right?
+Make sure that they've done what you seek to do, that they can advise you around those
+dark corners or dark times. And there's plenty of us out there that fit in that
+category. But there's lots more out there that don't that'll be happy to write you
+$50,000 or $100,000 check that you'll be
+
+[00:37:30]
+stuck with for 20 years that'll be nothing but a pain in your ass. Yeah. So So I kind of
+tease up into my next question which which is that you were bootstrapped at least for
+like a long period of of time. It sounds like you did eventually take on a business
+partner or take on some some capital. I would say we bootstrapped the entire way. Right.
+So I had five partners and that was including myself. So I had four partners. Two of
+them were working members, right? They were there for the whole time, 40 hours a week,
+good, bad or indifferent. Um, two other were non-working partners, zero technical
+knowledge, zero technical background, but they were friends and family. they really
+really wanted in and we would it was nice for us to have a little bit of cash at the
+time. And so that was it. That was the ownership of the company. I was a cap table, same
+cap table when I sold 20 years later. And so that was the makeup. We never took VC
+funding. We never got loans. So we bootstrapped. We
+
+[00:38:36]
+were self-funded. And that was the group. Would you say this because VC funding wasn't
+something that you just you simply just didn't need or is it because it was something
+you were trying to avoid or didn't want? I would say um three we didn't we didn't think
+we needed it so it was hard to go after it and give up the percentage but we could have
+gone a lot faster. Two I was trying to avoid it right because I didn't want the I
+already knew what these pricks were doing. I didn't want new pricks, you know what I
+mean? That wasn't going to work for me. And I wasn't 100% sure what to do with the
+capital, right? My mistakes were early on wrong industry, wrong pricing. Like, you don't
+fix those just by throwing more capital at it necessarily, unless you want to just pivot
+the whole thing to a whole new industry. And I wasn't smart enough until it was too late
+till it was probably five six years down the road.
+
+[00:39:37]
+Okay. So contrasting your kind of experience of bootstrapping having the same cap table
+from start to finish with what you're doing now where you are helping people both with
+with resources and and knowledge and from your your wealth of experience but also with
+money I guess. How do you kind of marry those together or what is what would the you
+from today who's doing those investment and that advising say to the you from back then
+who was who was going crazy? Yeah. So, if I could have wrote myself a check as it were,
+the new old me versus the new me as opposed to having those nontechnical founders, oh my
+god. Oh my god. Even if it was the same amount of capital, the difference would have
+been light years ahead of time, right? So, number one, I would have got rid of the
+friction from anchorweight founders, not even founders, right? investors, friends and
+family who didn't know anything about tech, who didn't know anything about what I was
+trying to do, didn't know anything about SAS, didn't know anything about service
+industry, didn't
+
+[00:40:41]
+know anything about running a business, but yet had all the opinions in the world that
+caused me hundreds of hours of worry and anxiety and crashes and bites and versus myself
+who would have been a lot more gentle, let the younger me actually run the damn company.
+But would have hedged the bet, would have shown the years of experience, the decades of
+experience in multiple facets, whether it's deployment or development or you know
+marketing or teamwork or team building or hiring or building sales teams and support
+teams and infrastructure like that would have been invaluable. So I do. That's how I see
+it. I see how can I find those rare nugget opportunities of a young myself and get in
+before they get the bastards that they don't want and help them accelerate
+
+[00:41:47]
+that next stage. That's that's how I resolve the two. I'm trying to help the younger me.
+So Joe, what's next? What's next for you? What's next for uh I know you spent a little
+time talking about like microSASS and microservices and things like that. Where are we
+going? Yeah. So, I'm watching the Microsass explosion, right? I mean, 150 founder
+meetings and the only thing I did was post about 40 Tik Tok videos, right? And then um
+and so I'll do that again. I'm bringing I'm turning the lights back on to SAS Labs here.
+I'm looking probably going to do a $200,000 uh fund. And I'm also looking at building.
+For the last two years, though, I've been focused on my health. And I've been um
+renovating an old farmhouse that we finally moved into last month. So, that took a year.
+So, that was a major project. Um so, I that's why I shut down
+
+[00:42:51]
+my TikTok. It was just too much engagement. even though through the few videos I was
+doing. Um, and like I said, I spent those last two years recovering from two new cancers
+I've been fighting. I'm currently in heart failure. I'm actually wearing a defiill in
+case my heart stops on me. It'll bring me back to life. Um, but I've been feeling a lot
+better over the last month or two. And so I think that I'm on repair there. So, how's
+being done? Health finally, I think, on the mend, which side note could be a benefit to
+young companies, right? They get the wealth of my knowledge if I engage with their
+company and I might not be around all that long. So, they might might have to do the
+payout. There's a there's a pitch right there. That's a pitch. What's your
+differentiator? Well, that's right. when we uh when we talk
+
+[00:43:54]
+about longevity risk, that's usually not what we're considering. Yeah. No, it's not. And
+obviously a little tongue and cheek there, but um yes, I think that's where I'm at. My
+health is better. My projects, personal projects are finally winding down, and I'm
+itching to both build and uh and start talking to founders again. Yeah, the fire is
+definitely there, my friend. I can see it. I And I'm so so glad to to hear about the
+health stuff. uh haven't turned a corner yet again in your life. You and I have a lot in
+common in our in our history as it relates to that as as we talked about on our briefing
+call, but uh yeah, I I'm just I'm really really glad that things are leveling out for
+you and I'm very excited to see what you are going to do next with those things. Um I
+say your your passion is there and obviously the knowledge is so you marry those two
+things up. That's terrific. Yeah. Resources. Yeah, that helps too. Kind of kind of
+getting to the end of our time here. I definitely definitely would like to have you back
+to to go into a more specific topic top topic in the future. You obviously got a a vast
+amount of knowledge and uh really
+
+[00:44:56]
+appreciate you um taking the time to to be on. This has just been just been great. I
+appreciate that Justin Aaron. Thank you so much. Absolutely. Just really appreciate you
+taking time and sharing your time and your talents and your and your wisdom here. So, uh
+we have been talking to Joe Kowalsski, managing partner of SAS Labs. Joe, where and how,
+uh is best for people to reach you? slabs.net. that has the link to all my socials. Um,
+I hang out on TikTok more than any place else. I just love that place for as long as
+it's going to be around. Um, and of course I'm on LinkedIn as well. Very good. Uh, as
+always, thank you to Justin, uh, helping guide the convo there. And, uh, a very special
+thanks as always to our listeners. If you like what you're hearing, have ideas for the
+show, just want to tell us what's on your mind, throw a review our way. Hit that
+subscribe if you're inclined and we will see you all next time on SAS that app. Thanks
+for cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring,
+
+[00:45:59]
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

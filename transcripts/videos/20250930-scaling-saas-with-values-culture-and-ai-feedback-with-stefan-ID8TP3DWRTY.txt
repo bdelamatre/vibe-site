@@ -1,0 +1,552 @@
+Scaling SaaS with Values, Culture, and AI Feedback with Stefano Grossi
+======================================================================
+
+Video ID:  ID8TP3DWRTY
+URL:       https://www.youtube.com/watch?v=ID8TP3DWRTY
+Published: 2025-09-30
+Duration:  00:38:51
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+The only way you get your technical debt to be understood is if you translate it in
+dollars. And that's hard. It's a difficult thing to do. But if you want to be
+understood, that's the way we translate. Welcome to SAS that app building B2B web
+applications. The podcast where we share real world stories, practical advice, and tech
+insights for those building or thinking about starting a tech enabled business. I am
+your co-host Aaron Marchbanks and I'm Justin Edwards. Each week we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. Hello and welcome back to SAS that app. I am
+without my co-pilot today who is actually on an airplane but not piloting. He is
+gallivanting around the world having a grand old time. But that is all right because
+today we also welcome to the show Stephano Graci. Stephano is an accomplished executive
+technologist and product leader. He is the founder of bronco.ai, a cutting edge platform
+that helps businesses align
+
+[00:01:03]
+strategy with career growth mainly through AIdriven feedback and action plans. And we're
+going to get into that some today. He is also the chief technology and product officer
+at FreshBooks where he's been a key driver of innovation and financial management
+solutions for small businesses. And he has a rich background in engineering and DevOps.
+And so he brings a really unique perspective to the world of businessto business web
+applications where we'll get into technical expertise and leadership insight. So
+Stephano, welcome to the pod. >> You definitely sold it more than it is but yeah. No,
+thank you. Thank you. It's great to be here. >> Good deal. So I'm always very interested
+in how people got to where they are and I was reading some history on you. Have I read
+correctly that you were or still are an EMT and a firefighter? >> Yes, you're correct.
+They say you are that for life especially in the firefighters say I'm actually not
+practicing today because I live in Canada but my certification and everything work only
+in Italy but yes I am a2 which is a paramedic level certification and I am a firefighter
+and I have been
+
+[00:02:08]
+for well over 15 years before I moved. So yeah, a lot of stories that and yeah a lot of
+help from that experience to actually the work and what happens during you know when you
+have to fight some emergency they call it fight fire. Yeah that's you know >> oh we all
+have to do that. Oh my gosh. Yes. As a former project manager myself I totally get that.
+So it's very transferable skills is what you're saying >> I guess. Yes. like it's mostly
+in the stress situation probably that's the most important part and I think also in team
+building there is a lot of that a lot of camaraderie and the way that you work with
+people that you put your life in the hands of translate in a way a little bit less deep
+way in the world of work but you know not that different not that different yeah sure so
+how did that get you into technology or how does that run paralle to technology or is
+that just something where you want to do something besides work in technology? >> It's
+both.
+
+[00:03:11]
+>> Okay. >> It's really I think there is an inner thing of helping others that I think
+everyone has and sometime you manifest anywhere or another. For me was that there is a
+little bit of me that might be considered a little bit of they're devilish and so you
+know those things they kind of go together. you can help people and do something that is
+challenging, a lot of learning, a lot of bringing yourself in a place of discomfort. So
+for me those are my driver like really learning new thing and having very challenging
+things to do is what really pushes me throughout my career but also through personal
+life. So in that case it was parallel. It was actually while doing school I started the
+certification and started doing it as a volunteer and then I started doing it as night
+shifts and so you know I would work at night as a firefighter and then maybe take a day
+off and then work during the day as my day job which at the time was mostly development
+or yeah
+
+[00:04:14]
+software architectural that that kind of stuff. That was parallel. Really parallel. Too
+parallel sometimes. >> I can understand that. That makes sense. I know you've had
+history before this in terms of like development and engineering, but I want to I want
+to start with Fresh Books. I want to jump into Fresh Books a little bit. So, tell me a
+little bit about what interested you in Fresh Books, early involvement that you had and
+and what the problem was that you were trying to solve through that process. Yeah. So,
+Fresh Books for me, again, if you look at my driver we were just talking about, which
+took me a while to find them out, but once I found them out, I'm like for Fresh Books,
+when I moved to Fresh Books from another company called Soti, which is like a beautiful
+Canadian company that you don't hear, but you probably touch every time you take a plane
+or every time you receive a piece of mail in your mailing va. But I moved from ST
+because I wanted to learn culture at scale. I wanted really to learn what a cultured-
+driven organization, how they operate and how they are structured and fresh for me was
+that it was really
+
+[00:05:19]
+about understanding how a company can operate and at the same time keep really culture
+at this high level and becoming a company that is mostly known as a fantastic employer.
+And if you are around Toronto or Canada, you know for sure Fresh Book Sales, one of the
+best employers out there. So that was what called me. That was also about 7 years ago
+and it was great. It took the longest recruiting process ever was about 7 months and the
+reason was because that was really my driver and the former CEO of Fresh Books would be
+like, "But your team is bigger than my company. Why would you ever come here?" And I'm
+like, "Because I want to learn cultural scale." And it's like, "Hand?" and that's it.
+But you know, for me it was a big thing and like doesn't smell like great, >> but we're
+still friends today. And I would say never look back. It was fantastic. I got to solve
+some amazing problems. I got to work with the best customer you can possibly work with.
+Small business owners are just fantastic. They are all the zero to one.
+
+[00:06:23]
+It's just such a beautiful customer base, a beautiful team and a beautiful product that
+helps this business owner to really take away accounting and all the stuff they don't
+want to learn and just getting their stuff done and getting paid. So, and now also we
+are the payros also pay their employees and get a lot more stuff in the back office of
+their business. So, Freshbook's great reality. I got in the meantime to grow there from
+VP of engineering to chief product and technology officer. I got to get humbled by some
+of the best product and design and engineer people that I worked with especially the
+product and design side because it was my arrow of discomfort and for 15 years I felt
+like I was at the top of my craft and then I've been plummeting to basically the bottom
+of the barrel and those team just brought me up in a great way I would say and all the
+experiences honestly I I spent two years in Amsterdon as a general manager. I went there
+and opened our European operation. Until then,
+
+[00:07:27]
+Fresh Books was just one building in one city in one country. And instead, we actually
+defied the odds of we're going to lose our culture if you go open somewhere else. We
+actually enriched our culture by adding people from Europe and all over the world that
+were working in a different place. I think we became a much better organization, being
+able to work more as synchronously, being able to work and really grow our culture by
+sharing our values with the people that were on the other side of the pond. And today in
+Europe, we have over 100 people and actually the leaders of our product and technology
+today are in Europe. So very proud of that part. I think we believe an amazing team. >>
+Yeah, no doubt. And that's actually something that I'm very passionate about and is dear
+to my heart as well. I like to think that I help to drive the culture at the
+organization that I work for as well. And that's always been a key thing for where it is
+that you are. You know, I always tell especially with new hires, it's like, you know, we
+want you to like what you do and we want you
+
+[00:08:29]
+to like the people that you do it with in almost equal measure because you spend a lot
+of time during the day. So tell me then, you said you took the step from, you know, your
+previous position, previous employer into Fresh Books to learn about culture at scale.
+So, what would you say are a couple of the big takeaways that you learned pretty quickly
+about culture at scale? >> So, my my thesis was look, if you're a startup, culture is
+it. They take care of itself. If you're below 50 people, you're still a startup. Like,
+who doesn't fit doesn't fit, you see it in a couple of weeks and and you can take care
+of it and that's super easy. When you are multiple thousands of people, there is
+something where it's more of an institutional culture and you kind of have to accept it.
+For me, Freshbooks was the possibility of going in a place that is known for one of the
+best culture and really learn from it and shape it and make it possibly better. And what
+I found, especially in my adventure going overseas, which by the way, there are some
+funny stories of
+
+[00:09:31]
+interviewing people at the bar and them asking is it actually a real company and like
+was very interesting. But what I find out is I think I distilled it down to there is
+culture and there are values. Culture will change. Culture needs to change, needs to
+improve, needs to evolve. We were not embedding in the culture some subject that today
+would be impossible not embed in a culture like being remote be more equal more
+diversity more inclusivity like all this stuff you know 10 years ago was was not in the
+in the front line was not the most important part and now you cannot even survive
+without it you cannot make sense of a world or a workplace without it and in fresh books
+I found out that the culture got shaped multiple times s and actually improved with
+time. But what was unchangeable where the values we shared and we took a big deal of
+defining them. There is an acronym there is a definition that is what we mean with
+passion. It's not just passion as a
+
+[00:10:34]
+name. It's actually what we mean. What does that behavior entices and what do you want
+to see it demonstrated by the leaders and obviously by everyone in the organization. So
+I would say that the biggest takeaway is the values. Define your value. Make sure
+everyone is aligned on the mission and make sure the values are really defined in a way
+that you cannot mistake. And then you put that together with a bunch of very smart and
+nice people and you probably have this culture really being a living and breathing
+animal that it's felt. You don't need to write it. It's it's just felt around. So that
+would be the number one thing. values are the cornerstones of culture and take time to
+define them and make sure that those are non-negotiables. That's fantastic. And you're
+not the first person that's been on the show that has said something in maybe a slightly
+different way, but it does seem to follow that very successful organizations,
+particularly startups and especially in the world of SAS when you're trying to attract
+people and and
+
+[00:11:37]
+you want to grow a business that you love and are passionate about that culture does
+seem to follow values and then success seems to follow culture. And so it makes a lot of
+sense what you say and it's always really nice to hear people's different perspectives
+or angles on that same take. So yeah, I really appreciate that. So shifting just a
+little bit away from culture and to product. You had mentioned that by the time that you
+came on obviously Fresh Books was very well established, but you also as part of your
+different positions got to work in some large achievements, some big features. You
+solved some problems, small and large. Talk to me about a couple of the problems that
+you ran into and how it was you all worked to a solution as an organization. >> The big
+one in the early time was a migration. I know you onto the migration. So it's a
+migration from a legacy platform that contained let's say 30% of the user but 80% of the
+revenue. So you know how that is normally translates to that catch up of feature and
+moving people best possible outcome is a churn that is a little bit better
+
+[00:12:41]
+than you expected. >> Mhm. >> So it's a game that you just lose. There's no winning on
+that game. So that was one migration. So legacy platform migration. The second one I
+think international expansion that was a very big one and the last one I think it was
+mostly better serving our larger customer that in the beginning they were not the reason
+why the new product was actually built for. So it kind of relates to the migration but
+is a little bit different. So that is where we're going to talk about for example the
+inclusion of advanced payments the inclusion of payroll and this kind of thing that if
+you think for a application for small business owner that might be solopreneur might be
+a loan obviously payroll is not the thing that they have most in mind there are as well
+but I would say that you know our larger users they have a product now that they never
+had before. So yeah, those three I think are are three massive ones and I don't know if
+you want to go the funny one as well like the migration and the international
+
+[00:13:44]
+experience were were two pretty funny one. I actually wanted to send an email
+personalized with myself to all the customer that were going to be migrated and give
+them my email address if they wanted to complain. >> Oh boy. And yeah, actually it's
+funny because I have customers I talked to even today and they came from that experience
+and we are friend like we're actually friend now and that's fantastic. And they were
+like for 6 months of my life I hated you like I couldn't even I didn't know you but I
+really didn't like you and I was like I get that. I'm like again it's not a nice game to
+play also when you're on the other side but we really need to have it and actually was
+interesting there from a product and engineering point of view is when did we decide
+that the migration has became mandatory instead of optional. So the new product was up
+since 2016 and we decided in 2018 to make that migration mandatory and the reason was
+there is something we call it basically the
+
+[00:14:48]
+classic tax. So the classic was the internal name of the old product and we call it the
+classic tax which means every time we had to touch a new feature because we had
+portability among the two system we had to pay a tax that was impossible and so our
+customer would get the feature probably not exactly as they could have added and for
+sure way later than they could have added. Sure. So we got to a point where we were
+talking about international expansion. We were talking about this larger cast. We were
+talking about doing a lot of other things and paying a 20 to 30% velocity tax was
+something we decided to stop doing. It was 18 months of pain moving all these customers.
+>> What was the percentage? How many people were there left to migrate at that point? >>
+It was over 30,000. >> Oh my goodness. >> Well over 30,000. Yeah. And you were the
+largest custom. >> Sure. Of course. >> Oh, it was a large. So yeah, it took a while but
+I think that couple of things
+
+[00:15:51]
+we did great. The first thing is that we had one person for every single team in the
+room when we made any decision. Second, we kept our most coveted document was a decision
+log. Every time we made a decision, the decision log was available to everyone in the
+organization. So they understood why we made that decision. >> Oh, I like that. And
+third, the whole organization will receive every two weeks an update that contained all
+the data and all the details. The same update that went to the board actually went to
+the team inside. So they would know how we were progressing. They would know what
+customer were saying and they were not liking, what customer they were liking, how was
+the process and all this thing and all the metrics we were tracking like their happiness
+level CISA 10 NPS we were tracking actually usage of the new system way more important
+less vanity metrics if you want that were really related to the migration like if you
+were doing this kind of stuff in the old system are you still doing that are you doing
+it faster
+
+[00:16:53]
+slower and we find out that the new system was much better in a million way, much
+simpler to use, but in some cases, much more cumbersome for people that are actually
+used to the swiftness of, you know, when you change something that takes you three click
+to five, it's a big change. It's it's actually an impossible thing. So then we had a lot
+of places to go and say, well, we changed them from three to five, now let's bring them
+to two. And so it was great for us to get a lot of places to improve the product. So, I
+love that. There's several things in there that really spoke to me. I I really had not
+really given a lot of thought to this decision log idea. As organizations, I think also
+it's very important to be transparent, not only with your clients, which usually they
+appreciate. There's obviously a threshold, but similarly with your staff and your team
+just so that they understand better what the thought process is and what's going on. So,
+it doesn't just feel like, you know, we're throwing this change at you. Good luck. >>
+And they know that one of them was in the room making that decision, right? We knew
+where to go, what to ask and and really understand you know there was
+
+[00:17:58]
+always so what's the impact on me right and whether you are in support especially
+obviously whether you are in sales whether you are in marketing whether you are in
+engineering data like the ability of having that line of communication I think that was
+that was a great thing I I would if I were to do it again I would do that again for sure
+>> good deal well and you actually answered several of my other questions that I was
+going to throw at you too you know I'm always interested in technical debt when you're
+dealing with these solutions that one need to scale and two are longer term. You know,
+it's not just something that was right out of the gate. Like you said, you're you're
+migrating tens of thousands of users and at some point as an organization, you're having
+to reach a a point where you're having to rebuild or refactor or reinvent or redesign to
+be able to continue to improve. And so I'm always curious the decision-m process that
+goes into, you know, how you approach that technical debt. What are the markers or or
+the things that you look for to begin that process? And then like you had just talked
+about when is like the drop dead. It's like we just simply have to do this now. We
+cannot continue to drag along this legacy system or feature or what have you.
+
+[00:19:03]
+Yeah. And for me I have a big definition technical data. Something that I try to really
+drill into especially technical leaders. The only way you get your technical debt to be
+understood is if you translate it in dollars. And that's hard. It's a difficult thing to
+do, but if you want to be understood, that's the way we translate. >> It just drives it
+home, doesn't it? >> It does. >> And you can just side by side compare it, you know,
+just like you've done. It's like you can stay here, but here's how much it's going to
+continue to increase on your cost, slow down on your development, eliminate certain fee.
+I mean, you can lay it out very clearly and yeah, I've seen good success that as well.
+>> It becomes very straightforward. >> Yeah. So, it's funny enough, I did write an
+article about it because it's a theme that always comes to me. I wrote an artic I call
+it the pyramid of needs. >> And I'm like, it's basically how to sell technical debt to a
+board. How to get everyone in your organization from the board to the person working on
+support or in design. understand what are the
+
+[00:20:08]
+needs you need to address and how and make a very conscious decision on how much do we
+want to spend in each layer and the layer at the bottom it's really about the KTLO which
+will keep the lights on if you have no features how does that look like if there is
+something there you got to invest and then on top of that there is quality I'm like you
+don't go anywhere else you don't get new feature you don't get new stuff if you didn't
+work on quality then there is the enablement where you enable the other team to do what
+they need to do. You can't block other teams. That's not possible. And then there is the
+enhancement. So what is your MVP today? How do you make it better for tomorrow so you
+don't lose your competitive edge? And then at the top when all of this is taken care of,
+then there is the new feature. 90% of leaders and people you talk about road map, you
+just talk about that thing and that is small. and everyone wants to spend you know I
+want to spend 50% of my time there 80 90 I want to spend all my time there however if
+you don't know how much like the cost
+
+[00:21:12]
+at the bottom you actually don't even get to decide it's imposed on you like your uptime
+your own cor rotation your team making sure that people are not leaving and and you
+don't get to choose that you got to do it right quality you can choose I think in the
+end you choose the three in the middle and the bottom one dictates how much time you
+have for your road map. So your technical depth is there, right? So we can decide, hey,
+we can tweak a little bit down on quality, a little bit more helping marketing and we do
+absolutely no work on the MVP for the next month. That's fine. You can play with those,
+but there is an indirect correlation between the KTLO and the road map. The bigger this
+one, the smaller that. That's about that. >> Yeah, it's only so big. >> I know everyone
+likes that. I like I like my co used to go nuts like you want actually statistics around
+that is like how are we on the pyramid I was like yeah we are executing the amount we
+want to execute is pretty okay the bottom is not impacted too much at top
+
+[00:22:15]
+there were a lot of time where the bottom was very big and we were like okay we are here
+now we're going to go here if we do these things and one of the things was actually the
+migration so that's an interesting topic connects really well to that >> yeah no kidding
+one other question then kind of along the same line. So, you've done the tech work as
+well. You've done product development, you've seen startups, you've worked in larger
+organizations and something that has come up in other podcasts and actually just talking
+with other business leaders as we're working through our own consulting work, there
+seems to be, especially the closer that you get to the top of an organization, this
+predominant mentality of fail fast. Founders in particular, it's like I, you know, I
+want to fail quickly. If it's going to go wrong, I need to know now. I want to make that
+call. But I'm curious now having heard all of this, how do you feel about this fail fast
+mentality or are you more toward the best innovations come from slower, more methodical
+processes? >> I kind of love the fail fast mentality, but okay. I think that that's the
+part when you actually looking at the new stuff you're building probably, right? Because
+everything else is like you
+
+[00:23:18]
+don't want to fail fast in keeping your system up. It's better if you just stay up. when
+you look at new stuff, I am a big proponent on just look at outcome and allow the team
+to be the leader in experimentation. So there is a concept about outcome over output
+which is very hard for people to understand to be honest but put it bluntly is like well
+what kind of result do you want to achieve here like which number do you want to change
+and how and don't tell me what to do I will not tell my team what to do I will tell them
+we want to change this number from this to this and you come back and tell me what we
+should do because you know better you're closer to the data and maybe the first time
+you're going telling you're going to come back and tell me well I don't know because I
+need to learn and so we can have a discussion about that's fail fast and understand that
+learning is as good as an outcome and sometimes the outcome itself and it's much better
+having an
+
+[00:24:22]
+outcome of learning than having an output that no one uses it. >> Mhm. I can build any
+feature in any time constraint to give me it would be either super shitty y >> and it
+possibly is completely useless. So my point is let's see what outcome you want to
+achieve not which feature we want and let's go and experiment what are the things we
+need to change in order to achieve that outcome. Could be the feature but could be
+completely different things. The key might be marketing. I don't know. The key might be
+we are just getting in the wrong customer. We need to change our messaging and we did
+actually we have no change to do on the product and things like that. So, and that I
+think is part of fail fast like the closest you go to the people that know the data and
+allow them to really have this culture of experimentation and learning and understand
+that there are two type of outcome. One is the one you want to achieve and one is the
+learning to get there. I think those are big mindset that they are not explained all the
+time
+
+[00:25:27]
+correctly when we talk about fail fast. >> Sure. No, that's great. That actually does
+highlight several things that haven't come up when I've heard people talk about that.
+So, I think that's terrific. So, through all of this, I'm starting to really get a feel
+and an understanding for where I want to go next and why it's important to you, which is
+bronco.ai. everything that you have been talking about obviously has been leading us to
+this conversation or this part of the conversation and I'm understanding from you now as
+a person and kind of your perspective and your outlook on things on why this is
+important but I'm going to ask anyway what was it that sparked your transition into
+Bronco or into this world and particularly with an AIdriven focus but just in a general
+sense what got you here I banned my ad for 20 years on performance review the very few
+people love performance review but I think that their inception performance reviewer
+created to get people better. Then something along the led the way went wrong and now
+they are in a different place. I wanted to bring it back to the ABC. I wanted to bring
+it back to hey let's do something that is targeted at
+
+[00:26:31]
+people growth and people and getting better in the future than something that just looks
+at the past. And then I started talking to a lot of people that were in great places in
+terms of tool and people growth and things like that and people that were not in these
+great places. And then I constantly heard this continuous feedback which was this
+chimera this nirvana that everyone wants to get to but no one gets to. Everyone would
+like feedback every second and would like an actionable strong feedback and no one gets
+it. And when you get it, it's either just a list of checkbox or a fake or now even worse
+an AI generated sentence that people don't even take care of editing instead of actually
+being some real feedback about the stuff that matters. And so with everything I learned
+in the last 20 years, I started building and creating tools for me to be able to grow my
+team. One thing I'm very
+
+[00:27:36]
+proud of is like everyone who work with me would work with me again because they grew.
+And when I hire any manager at any level, I'm like, look, you're going to get your
+people better and then you can screw up everything else. And then it's funny because
+then the team saves their butts and they don't screw up everything else too, right? So
+if there is this nice circle like you know if you're not in for that just change like do
+something else and when you think about that I try to bring it down to a system. So I'm
+like okay so what are the things that matter and the thing that matter is there is one
+thing is the getting stuff done. You can replace stuff with with another word that but
+GST getting stuff done. The sec so your impact on what the team is trying to achieve.
+The second thing is your skills. You got to be able to do the job. The third things
+which connects us to the beginning of our conversation are your leadership competences.
+So how do you embody the values of the organization? Branco has a value. You
+
+[00:28:41]
+start from the values. it actually forces you to put the value in in order to define
+this parameter for your organization. So what are the veg and what are the behavior want
+to see? And the fourth one is do you have a plan for yourself to get better? Because 90%
+of people they actually don't have a plan. If you don't have a plan, it's very hard to
+understand if you're going to actually reach it. And so I put this four and I mix this
+with what we think is the only autonomous continuous feedback tool in the market. Branco
+integrates with Slack and once every X days, let's say once a week, it asks your peers,
+so people that work with you on a day-to-day basis on the same objectives, it asks them,
+well, what was Aaron contribution to this team objected? Give me example. It pushes
+people to actually give good feedback, actionable feedback. And so there is this
+multipentic AI system once grabs your feedback and understand what your peer what your
+360 the people around you
+
+[00:29:46]
+your mentor your manager it has all this concept and understands what people are
+experiencing about you. It then understands how much those fit the expectation of the
+organization that are configured custom for this organization and then it builds
+actually the action plan for you. So he gives a suggestion as like look instead of
+telling you you need to get better at communicating which is what probably each one of
+us heard once in their life. It's like no because you sometimes come abrupt why don't
+you in the next two weeks in your retrospective with your team explain what your
+decision where your decision process and ask for feedback from your team members and so
+it suggests this little action to change this little behavioral change and then it gets
+feedback on it and then it feeds itself and what it creates for you is basically a
+constant executive level coaching ongoing on the system based on the live feedback you
+get from others. And what people use is just luck. So they don't have to go somewhere
+and rec remember a
+
+[00:30:49]
+login and go compile a form. It's just you know three minutes a week on Slack. You
+answer three four questions and you're done. And what happens behind the scene is that
+all these three four question a week that are randomized within between the people at
+the end of the year become 200 pieces of feedback that is extremely actionable and it
+gets summarized you don't see that blah blah blah all this all this stuff like security
+etc. But there is a huge amount of intelligence applied to the organizational design in
+order to actually come out at you and say, "Hey, those are the steps you should take to
+go there where you want to go." And so for me, it's our way to replace performance
+review. It's our way to make uh performance review a five minute meeting where you just
+review the output of the 360 feedback you had on a weekly basis. and it just works. And
+talk about fading fast. Our first customer was using the system without
+
+[00:31:53]
+login. We didn't build the login yet. We didn't have a web application where they could
+go and actually see what they're saying. I'm like, but because they asked like I'm like,
+let's just start getting feedback because that was the core. The core was if we get that
+continuous feedback properly, then we have something that can actually change the
+paradigum of what people are trying to do. in a better performance. >> Sure. So, I'm
+curious and this may jump way down into the weeds too fast, but I'm assuming that this
+is probably based more on like an LLM type model for your AI. Are these data points and
+is what it is learning encapsulated only to the organization or is it something that the
+AI is then utilizing in other organizations to help them as well? I'm just curious about
+the data segmentation. >> So, is in fully isolation. It actually leaves absolutely no
+footprint anywhere. We use enterprise level vertex API and we actually have no history
+allowed. So there is no history in anything. We we
+
+[00:32:55]
+rebuild the context every time. It's it's the implementation is done in a way where we
+actually spend more but we keep our customer information and data very safe and so we
+have absolutely nothing no data sets nothing nothing that's shared. There is a very good
+new trend. There is something that you were touching upon which is the federated
+learning today has been experimented mostly among hospitals which is basically you
+cannot ever share the information of a patient but you can share the learnings and so
+there are a lot of federated learning infrastructure that have been built for this
+specific purpose and maybe in the future we would have something like that just to make
+sure that hey if you're learning something from company A we can give it as as a best
+practice to all the companies using Branco. But today is not. So today we look at the
+feedback, we look at the usage pattern, we look at the type of interaction user are
+having
+
+[00:34:00]
+and if there is a change we basically is the one we learn more than the one that AI is
+not free to learn basically on our data. There is no training insight here today. >>
+Right. Interesting. That's very cool. I do like that approach. I asked it for several
+personal reasons as well, but I'm always interested, especially as we teeter into AI and
+and it's machine learning to be sure. But it also has a lot that can be shared that can
+help us learn across multiple verticals instead of just in a single vertical or even in
+just one single location. And I'm always curious how people see that approach coming.
+And there's obviously a lot of inherent danger in the states. We have HIPPA compliance
+issues like you you touched on there with sharing medical information and that is
+actually key to the success for someone's medical health in the future but at the same
+time you got hurdles to get over between hospitals and organizations and doctors and
+things like that. So it's interesting always to hear where those lines get drawn and how
+it is that we can extract the very useful bits the the experience bits but not
+necessarily the specific context. Yeah, I I think that we'll get there, but the
+technological
+
+[00:35:03]
+infrastructure today is not supporting that super well. There is also today a fairly
+large problem on tenency especially for multi-tenant system using these kind of
+services. There are bad solution out there and we prefer to not use any of them until we
+we have some things we are not flexible on like sharing with anyone else what one person
+performance might look like or what are the feedback from a person or what are the
+objective of the company A versus company B. So for now that doesn't allow to share
+anything today but it's okay indeed. Stephano we're kind of coming up on the end. So one
+last question. What is next? What's next for you? What's next for Bronco? What do you
+see next coming down the line? >> Uh, so right now we are in basically a soft launch
+period. We are reaching out to companies. We have a good amount of users. We just
+predicted one person leaving an organization and we were right and we predicted a second
+person and hopefully that person can be saved.
+
+[00:36:08]
+So those are the matters that for me really matter and we are probably responsible for a
+promotion which is like the matrix number one for us. So we are trying to keep going
+keep looking at the stuff. I think that the most important part that we are going to now
+is really inside the system we just deployed like the reporting administration area and
+there is the part about you know we get people better we get people giving better
+feedback and now we want to also get manager better so there is an old tool set for
+managers that is in the works today so I think it's going to be pretty exciting I'm just
+looking at the data is such a beautiful thing and obviously it tumbles me all the time
+because it tells me that I'm not sometimes as great as I think. So >> that's fantastic.
+I've really enjoyed this personally too because this is a big part of what I spend a
+good amount of time dayto-day working on is like I said I work in our culture. I work
+with the team very closely and helping to provide them with that feedback. you know,
+regularly we use a one-on-one process. And so, you know, I always tell
+
+[00:37:10]
+everybody if we get to any sort of like a performance review time period and you're
+hearing something for the very first time, one of us has failed big time and it's
+probably me. So, this type of stuff is very exciting to me. I I'm always looking for
+good technology solutions for that, too. So, >> wow. So, I have a great product to
+suggest. Do you do you >> actually saves you I actually we actually counted it saves you
+about 160 hours for each manager and 30 hour for each employee in an organization and
+actually makes them and you better send which is probably the thing that matter the most
+here. Yes, that's key. Stephano, this has been incredibly informative. Thank you so much
+for sharing your time and your insights. We have been talking to Stephano Graci, founder
+of Bronco.ai among other things. Stephano, where and how can people reach you? LinkedIn
+is probably the best. Brancoi as also is on LinkedIn, but yeah, that's probably the best
+way to get me. Fantastic. Or then Stefan at Brancoi, but I don't know if it's worth
+sharing that. Oh, well, we'll throw it out there. I gave my email to all the
+
+[00:38:13]
+customer in the migration. So, you know, I was just about to say everybody knows it.
+Everybody has it. I feel like we should, too. Thanks, Stephano. And a special thanks as
+always to our listeners. If you like what you're hearing, have ideas for the show, or
+just want to tell us what's on your mind, throw a review our way or subscribe if you are
+so inclined. And we will see you all next time on SAS That App. Thanks for cruising
+along with us on SAS That App. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

@@ -1,0 +1,699 @@
+Why Your SaaS Growth Has Stalled (And It Isn't Your Funnel)
+===========================================================
+
+Video ID:  sAgevIINmmU
+URL:       https://www.youtube.com/watch?v=sAgevIINmmU
+Published: 2026-07-21
+Duration:  00:47:23
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Do the target market research. Do as much as you can. As soon as you have 10, 15, 20
+customers. Talk to them. There's nobody better. They made trade-offs. They actually
+chose you over all of the other solutions. What was it about you that led them to choose
+you? I just think it's the fastest path to clarity and and [music] confidence. Welcome
+to SAS that app building B2B web applications. The podcast where we share real world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech- enabled business. I am your co-host Aaron Marchbanks and I'm Justin
+Edwards. Each week, we bring you the stories, strategies, and insights you need to build
+your SAS or tech enabled business smarter, not harder. Let's dive right in. Hello
+everyone and welcome back to SAS that app with me as always uh across the the I'm going
+to say not temperate but now rather hot and he has happily turned
+
+[00:01:03]
+off his air conditioning for the recording. Justin, >> hey man, how's it going? >> It's
+going well dude. We're arriving at the best time of year where it's raining every day in
+the afternoon. I love the rings. cuz I'm from the desert and so yeah, it's my favorite
+time of year here. The rain helps with the heat and then I get a nice lightning storm
+like every night. So, it's beautiful. >> Oh, see, the rain does not help with the heat
+here. Here, it just makes uh like sauna conditions. It's Yeah, we get we get the rain
+and then we get the humidity. So, >> I'm I'm familiar with walking out my front door and
+feeling like I'm inside of a dishwasher. I know how that goes. >> Well, everyone,
+today's guest uh is Gia. Gia is a strategic adviser, author, and keynote speaker. Uh she
+has a passion for helping the tech industry turn customer value into revenue generating
+outcomes. She developed the customer-led growth framework and co-authored the
+bestselling book forget the funnel which many of you have probably read. Gia works with
+high growth B2B SAS like bit.ly Sprout Social Apps, DBT Labs, Evercommerce, the list
+goes on and on. And Justin and I had the pleasure and chance to get to hear her speak at
+Micro Comp this spring. So after that presentation we were like we've got to get her on
+the show. So Gia, thank you so much for the time and welcome to the pod.
+
+[00:02:04]
+>> Awesome. Thank you so much. I'm glad to be here. So I'm just going to kind of dive
+right in. Uh you have spent a lot of years like 25 plus helping businessto business SAS
+companies grow. Uh and one of the core ideas behind your work is that many teams are
+pursuing growth kind of in fundamentally the wrong way. So looking back on the 25 years
+and and maybe prior to that even when did you first begin like questioning the more
+conventional playbook for SAS? >> I mean I don't know how old you think I am previous to
+the 25 years. I don't think I was thinking anything about this at all, but uh I think I
+recognized the issues pretty well. I mean, I transitioned from like BTOC consumer like
+retail, like actual brick-and-mortar retail into tech somewhere around 2008, 2009, like
+the dawn of Twitter. I sort of like my my career very drastically shifted and as I
+started to work with tech companies just the disconnect with like the customer and the
+like emotional drivers of the customer and what they actually care about and doing
+things because it's in
+
+[00:03:06]
+service of the customer that I had been so core and part of my like job working in
+retail and BTOC was replaced with this like passion about technology and the product and
+you know building things which obviously not Not I'm not saying that that's not
+valuable, but it was replaced like the enthusiasm in tech was really around the tech
+itself versus the my experience anyway. My enthusiasm working in like retail and BTOC
+was around like serving the customer, making the customer ridiculously happy. And so I
+think I recognized it pretty early on that my role in helping tech companies grow at
+first as like a marketer was to really helped sort of connect the dots between like the
+technology and the offer with the actual market that would give a about that offer. So
+that was very early and then it became much more obvious and painful as I moved into
+like leadership roles inside of uh tech companies where all of a sudden you know I went
+from sort of making suggestions to no actually like how we're going to be s
+
+[00:04:10]
+how we're going to be measured how we're going to measure success is actually going to
+be wrapped um in these like you know value drivers and things like that. So it just
+became very obvious that I needed to find like a better system. So I often tell the
+story of just like operating like a chicken with my head cut off, you know, narrowly
+missing targets, working like, you know, early stage tech startup. Um, working in sort
+of like panic mode and not really having a system and being terrible at prioritizing and
+to switching to a more taking a more systematic approach. um systematic also being tied
+to like customers like the human beings, right? Um and then what I realized when I left
+that in-house role was that cuz I had sort of closed myself in this like, you know,
+behind closed doors. I wasn't looking outside of the building very much. And what I
+realized was, oh boy, everybody was doing the same thing that I was. Everybody like all
+these, you know, marketing leaders are like drowning in the weeds of execution,
+desperate to, you know,
+
+[00:05:14]
+communicate value and have a seat at the table, you know, with their leadership teams,
+being undervalued, underpaid, um, underestimated, you know, expectations too high,
+misunderstandings of marketing. This is around the time where there was like a major
+disdain for marketing and tech. I think there still largely is. And so it was like, oh,
+I think I really want to try to help these people responsible with marketing and growth
+to get a better like a bigger seat at the table and to really represent the customer and
+to really advocate for people in customerf facing roles being, you know, understood as
+being drivers of revenue, not the arts and crafts department. So that's where Forget the
+Funnel came from. And when Claire and I launched Forget the Funnel, it was really about
+that, trying to help uh heads of marketing and and marketing leaders sort of get out of
+the weeds of execution and start thinking more strategically and knowing how to advocate
+for their ideas with data. Data being customer data. So that's a lot of what sort of,
+you know, pushed me in that direction. But like I said, it was
+
+[00:06:19]
+pretty obvious pretty early on, I'm sure to more to more than just me that like
+technologists are obsessed with the technology. Um, but when you go to market, there's a
+whole other side to that coin uh that has to be met. >> Yeah, absolutely. I mean, you
+you've noted many times in many places in many different ways that you know that the
+this idea of competitive modes uh you know, not necessarily being you know, what now is
+very hot with like AI or just in general software features and things like that. It's
+understanding your customers, you know, better than anyone else. And so, uh, you know,
+that that's that seems incredibly important to me as as a people person myself and
+someone who is client and customerf facing and and having spent a lot of time being an
+advocate for them, that makes a lot of sense to me. >> Yeah, totally. And this idea of
+understanding your customers better than anyone else, I think that that's like
+especially important right now as I mean, again, like it's always been important. And
+this has always been, you know, the soap box I've I've stood on. But I think right now
+it is particularly pertinent because there the pendulum is swinging so far in the
+opposite direction, even further than it it was
+
+[00:07:22]
+before. Um, but I do anticipate that the pendulum is swinging back the other way. And I
+think there is going to be a return. I've already seen it. There's a return to this like
+actually, you know, the the the more emotional drivers, the struggle, the problem. um
+understanding customers really deeply and on a psychoraphic level versus just
+demographic level. I think there is going to be a major return to that even in
+environments that may not have uh prioritized that previously like in PLG uh you know
+environments versus you know salesled environments which are you know generally pretty
+human human directed PLG is a little bit less right uh it's more we're more thinking
+about programmatic but um I think the pendulum is swinging the other way I think
+researchers are being understood differently now in in potentially an even more valuable
+way than before >> just for the technologists in our audience. Uh PLG is productled
+gross. >> Yes. Sorry. >> No, no, it's all good. Just uh yeah, we extend an olive branch
+to the tech nerds when we drop marketing lingo and to the marketing nerds when we when
+we drop
+
+[00:08:24]
+tech lingo just to make sure that we're all communicating. I love that you're saying
+that PLG is a marketing term because I do I think of PLG as like marketing go to market
+and and uh like growth strategy obviously but um to hear that it it that's being a
+marketing term is it might be the first time I've heard that. I love it. >> Yeah. Well,
+I'm I'm on the tech side of that so it might just be an error but uh >> No, no, not at
+all. You're probably [laughter] right. >> Validation, Van. Well, I mean, if you're
+primarily focused on on making a button you can click that does the thing, you may maybe
+haven't thought about how that impacts real people and what they're doing every day. And
+if you haven't thought about that, you probably haven't thought about how the product
+could sell itself and how by using the product, your product could attract more people
+to use the product more, which is a giant cheap giant cheat code, right? >> Totally.
+Yeah. I mean, PLG is a distribution model. It's a growth model. And so, you're 100%
+right. It's just that I guess I'm we work a lot with product teams. Um and product teams
+like productled growth is their domain or at least they you know believe I say they
+
+[00:09:26]
+like I like I don't consider myself the product or which I often do. PLG often lives
+inside of a product team inside of you know most SAS companies PLG would be squarely uh
+owned by the product team even though I actually think that that's problematic. I I
+think PLG should be thought of as a marketing. Um I've always said premium is marketing.
+Like a premium model, you know, premium offer is a a marketing tool and any budget you
+put into a premium like building a premium product should be attributed to the marketing
+budget, not the product budget necessarily. >> Yeah. No, 100% agree with that. And my uh
+initiation to anything that looked like sales or marketing was gorilla marketing. Uh so
+I probably overcribe things to big marketing even when they aren't. >> Oh wow.
+[laughter] >> Yeah. Yeah. Yeah. That's extreme for sure. Real quick, this episode is
+brought to you by Delta Systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here and we love to work with cool people on cool projects. So, if that
+sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab the time with us. We can beat up on your problem together
+
+[00:10:28]
+and if there's a fit there, amazing. We'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. Can you talk a little bit about like
+working with folks to develop an an ICP or or how you actually put the human human
+centered human focus strategy into into play in an organization? >> Yeah, so it's funny
+that it typically when a company will, you know, come to to me and and we'll be chatting
+about um growth and things like that. It's not typically the ICP that they're looking to
+sort of define or redefine. Typically, we're talking about things like acquisition has
+slowed, there's been a change in our market, um, you know, churn is ticking up, um,
+activation is slower than it should be. And so, typically where the conversation starts
+is there is like like something in the in the growth, something in growth has like is
+slowed or staggered in some way. And typically that is a signal that something about the
+ICP is off um or has like shifted. And so when
+
+[00:11:34]
+I start those conversations with teams, I'm asking like, okay, tell me about your
+customers. And of course, they will typically give me the like, oh yeah, well, they're,
+you know, this job title at this industry type of company at this size of company. And
+when I ask about like, okay, well, what was the day that that person experienced like
+first experienced the need for something new? like what was the day you know said
+differently what was the day that they were like f this I need a better way and almost
+none of them can answer so I tend to think about ICP as like the ICP criteria as being
+like demographic technographic like there's a profile of like attributes that make up an
+ICP I tend to do that second and I would go first to like tell me about them
+psychographically first and formost most like let's talk about what sucks. Let's talk
+about the old way. Let's talk about the circumstances that led to them needing something
+at all. And then once we have a picture of them and we know that there's a pattern and a
+demand
+
+[00:12:36]
+there, right? Because we don't generate demand. Demand exists in the market and we're
+tapping into it. So once we identify that demand and that need and that those
+circumstances then we sort of reverse engineer okay well what are the types of companies
+that that happens a lot in and what are the job titles and roles and the types of you
+know makeups of people that actually need something like that. So we tend to sort of go
+like demographic,ographic, psychographic and then back once we've done a bit of a deep
+dive into the customer base and we learn about like where's their urgency, willingness
+to pay um you know a genuine like sticky problem that needs solving and then we sort of
+say okay here's the here's that psychographic makeup here are the different groups that
+showed up and now here are now we get now we're in a position to be able to reverse
+engineer it and say like okay these are the companies and the ICP attributes boots that
+we would then use for marketing or or sales or even ads and things like that. We tend to
+um think of ourselves as like product marketing. So we think about a lot of like
+positioning, messaging, building customer experiences
+
+[00:13:40]
+that drive revenue in including uh activation, retention, expansion versus like
+marketing campaigns. So ICP criteria doesn't actually impact us for the most part when
+we're doing things like positioning and messaging. um except obviously when they need to
+but that's how we tend to think about ICP is ICP to me is a list of attributes that are
+very important um but ICP in absence of psychoraphic and jobs to be done which is the
+methodology that we use to sort of dig into those psychoraphics I ICPs in in absence of
+that is not a useful ICP in my opinion >> so when you when you walk into those companies
+for the first time are there I'm I'm assuming that there are but what are some of the
+like big warning signs that that maybe they have not made that that leap. You know,
+they've got an ICP. Maybe it's even well defined, but they haven't factored in those
+those other elements that you're talking about. I mean, is there like, hey, this is
+painfully obvious that you guys have just not made that connection. >> Yeah. I mean, I I
+guess there's two sort of like buckets I would put people into
+
+[00:14:43]
+and that or or companies into rather. And that's like they never really had it. They
+made they made a lot of assumptions early on and they never really had it versus they
+had it and their market changed. Um, and I'm seeing a lot of the latter now,
+particularly, um, actually in, it's funny, we're working with a lot of companies in 2026
+that we worked with in 2024. Um, there's like this weird pattern I'm seeing. I've had
+five or six companies come back in 2026 that we worked with in 2024 because they've
+recognized that their market has shifted significantly and they now know what they don't
+know about their customers. Uh but to answer your question, it's mostly so there's the
+numbers, there's the like our our activation has dropped or our turn is ticking up or
+our conversion rate on our website is stagnant or um you know leads are sort of drying
+up. Um and that's like there's actual quantifiable performance data to tell us that
+something's off. just as often and maybe even more often, but at least just as often,
+it's people saying like we're just we just don't articulate our value the way we know we
+could. um or there's
+
+[00:15:49]
+been some changes in like you know the the market that we're aware of and we just don't
+know how to you know meet them where they are or um our positioning is off like you know
+message messaging is definitely a big signal and I think the team teams in general I
+think at minimum anecdotally recognize when their messaging is off when they know that
+they're the bridge between what they offer and the people evaluating what they offer
+that bridge is messaging. Um I think people just recognize when that's off. So that's
+definitely a big signal and sometimes that's also a signal that their positioning itself
+is off. So if you know for those that are listening and just in an effort to maybe give
+them some actionable things what you know if they've never if if a company or an
+organization either they're they're they're brand new and they're they're crossing this
+bridge for the very first time or in the instances that you mentioned it's it's now
+become a second or maybe third time and they've never really done like formal customer
+research before where do you where do you even start with that? >> Oh boy that's a big
+question. So especially because of the different
+
+[00:16:52]
+circumstances that you mentioned right and so you might you would attack it slightly
+differently. Um, so for earlier stage companies, I guess I'll put that in my mind's eye
+first. For earlier stage companies, typically the signal a lot of the times what the
+trigger moment will be is that they recognize that they've got to move away from founder
+sales and they're at a point where the founder alone um, you know, doing all the the
+articulation of value work is just not sustainable and not certainly not scalable. Um,
+and so they know that like what's inside the founders's head has not been translated
+into their go to market. And when I say go to market, I include positioning in that. I
+include messaging. I include all marketing. I include sales. I so it's not it lives
+inside the head of one person. Um, so that's definitely for an earlier stage company.
+That's often the the moment where I know I can't continue with this all just living in
+my head. My this doesn't help my team. It certainly doesn't help my customers or
+potential customers. So that's an early stage thing. I'll answer the second before I
+answer how you would do the research. Uh because I the answer is similar but you
+
+[00:17:55]
+would just look for different things. Um with a more mature company generally the go to
+market teams will just have like I said an intuition that their market has shifted or
+something has changed or it's never been good enough. A lot of times it will happen with
+like a new CPO will come in or a new CMO will come in and they'll be like we are missing
+the mark and I'm not going to be successful in my role until we fix this because they
+recognize that like foundationally something's off. So the way that we there's a couple
+of things that we can do with uh as far as research methods. Um there's like the gateway
+drug research when the team is like I don't want to do research. all research does is
+lead to more questions than answers. Uh I've been part of research projects before and
+they're super expensive and slow and don't actually help. Um versus the teams that are
+like, "No, no, I want you getting on calls with my customers. I want you to go deep. I
+want to have every question answered." There's like that makeup, too. I think there's
+more of the latter
+
+[00:18:58]
+now. I mean I we ran a sprint really recently actually with um well I guess maybe that's
+not important to mention but like we were running a sprint with a team who I would wager
+they've been around for like 10 12 years um where like 5 years ago they would have never
+paid for customer research and now you know we were talking to them and I was I was
+saying we generally run 10 to 12 interviews and he was like no no no I want you to run
+like 25 interviews. So, we're seeing like the app like the pendulum again, like I said,
+swing really far where people are like, "No, I want to go deep. I want to I need to know
+these people better than anybody else. I want to make better product decisions, better
+messaging and positioning." And so, it depends on what your situation is um and what
+your role is. If you're ahead of product, uh you probably have more influence over
+budget for research. And I would say go straight to customer interviews. Don't muck
+around with any other like you have to you have to have human conversations to get to
+not only the depth but also the confidence level that the rest of the team is going to
+need. Like if you if you use some like cockami survey or
+
+[00:20:03]
+you scrape the internet your leadership team is going to be like what is this? I don't
+trust this. So versus another situation where if you're if you're at an earlier stage,
+if you're a head of marketing at an earlier stage company, good luck getting the budget
+you need to hire researchers to run good interviews. You will spend a lot of time
+running crappy interviews yourself and end up with not good results, which will have
+wasted everybody's time um and not look good at all and you'll like your job will be at
+risk because that's a huge investment. Um, so there are some like baby versions of
+research that I will recommend in those circumstances to again be the gateway drug to
+actually running interviews. And some of those like gateway drugs would be um I should
+probably stop calling them gateway drugs, but uh so one of them is asking a segmenting
+question during signup or like a a demo request. Like this is really obvious for people
+in sales. This is very obvious, right? like ask them
+
+[00:21:06]
+what their problem is on the form when they come in so that you know how to talk to them
+when you get on a call. But for um productled companies, this is a lot less obvious,
+especially if you've got a free name or trial model. It never ceases to amaze me how
+many companies don't take advantage of asking a question when they sign up like, "What
+was it that led you to sign up today?" Or like, "What was going on in your world that
+led you to sign up today?" to get some sort of picture or understanding of their
+circumstances. Obviously, it's not going to give you, you know, a ton of depth, but what
+it will give you, even if you do nothing with it, you're going to it'll, you know,
+populate a spreadsheet. I'm talking basic adding a question, right? Populate a
+spreadsheet where and it's open text where after, you know, 25, 50 responses, you are
+going to start to see patterns emerge there. And even just that like very basic, you
+know, input or data um is really really valuable particularly and this is the point that
+
+[00:22:07]
+matters particularly when you watch how they activate and convert into paying customers
+because then you can go back and say these ones who said these things didn't actually
+ever convert to becoming a customer. These ones who said these things did. And so that's
+a huge signal um that like your positioning might be or maybe your positioning is dead
+on and great or maybe it's really off because you have a lot of perfect customers
+signing signing up for your offer that we're never going to convince you. We're never
+going to be able to convince or convert. Um that's another one is like adding a signup
+question. Um, for a lot of the teams that we work with that we've run uh interviews for,
+we will give them like a drop down like just start tracking how these different customer
+groups convert um and start segmenting them so that you can watch them in a sort of
+cohort-based way. Um, and decide whether or not you want to provide some of them with
+like more handholding or a different onboarding experience from a different group. Um,
+watch how they convert and things like that. Um, so that's one thing is like very
+simple, add a segmenting question
+
+[00:23:10]
+to your sign up. Use that as the sort of foundation or like launching pad for more
+research because I I can't imagine any founder would ever like not want that kind of
+data. Like that's invaluable. Another um sort of like gateway drug so to speak uh
+research would be to run a survey and surveys look very different today than they did
+even a couple of years ago. You can get a lot out of surveys. In fact, we launched I
+don't talk about this publicly, but we la we built an internal interviewer. Her name is
+Penny and she knows how to run jobs to be done interviews um asynchronously and they can
+be sent in an email and it's a it's a the barrier to entry to respond to those is is
+much lower. Um the AI interviewer knows how to ask questions, knows how to ask follow-up
+questions. It's not nearly as good as a human interview obviously, but if a, you know, a
+typical survey would give you the
+
+[00:24:12]
+quality of like a two and a and a human-led interview would give you the quality of like
+a nine. I would say an AI moderated interview might give you like a a four to a six
+potentially. Like it's it's better than the old surveys. It's not as good as a human
+interview, but that's a good uh opportunity as well is to run surveys like that. um they
+can be super super interesting and they can help with segmentation. So you can run a
+survey like that, understand the different groups of folks that are um responding and
+then decide, oh, these are worth a follow-up conversation and then you've basically pre-
+qualified people for interviews. In fact, that's what we do a lot is as part of that
+like the AI moderated sort of surveys, we will say like would you be open to having
+another conversation? many people will opt in into it, particularly if you offer an
+incentive. Um, and then you've got a pre-qualified list of people who are willing to
+chat with you and have, you know, maybe a 30-minute conversation. So, that would be the
+sort of entry points that I would use or that's the I mean, there's also a
+
+[00:25:15]
+website survey you can run, but I I have been finding those a little bit less valuable.
+Um, but a website survey is another thing that you can do to measure the effectiveness
+of your marketing. certainly um and learn about and we I talk about this in the in the
+book so I'm not going to go into too much detail on the web survey but there's a way to
+sort of frame that web survey so that you're only finding people who are like shopping
+for a solution but it can definitely give you signals on whether or not your marketing
+is doing an okay job or not bringing qualified folks to the door. No, it it is feels it
+feels a lot like you know the the traditional shift from like customer feedback to more
+customer insight and and that's where the gold is. I mean like you said you kind of have
+to mind for it a little bit but you could start with things that are just so simple to
+start the segmentation early rather than just do you like our stuff >> 100%. That is
+such an important distinction. The difference between customer feedback and like actual
+customer research or customer insight I think is a mistake that
+
+[00:26:19]
+so so so many teams make. They conflate the two and they're very very different. Like
+you know I I I end up having that conversation sometimes with founders who are like well
+my product team ran research recently. I'm like, "Okay, tell me about that research."
+And it was it was like pricing research or it was for a feature that they were
+considering. And I'm like, "No, that's not the same." You know, you can't answer your
+positioning and messaging issue questions. Um whether or not you're you're targeting the
+right customer from those type that type of research. So, and in founders defense, I
+mean, they're not research experts just like they're not marketing experts necessarily.
+So, I mean, I totally understand the the confusion and the the conflating of the two.
+Yeah. I mean, you talk about in jobs to be done, you know, past past who the customer is
+and why it is that they're choosing the product. And that that's a big shift. >> Yeah.
+It's uh it's dramatic. We It's funny. Um in a we just recently delivered, this is last
+week, we delivered uh research and this is like a this is a bit of a um a cautionary
+tale.
+
+[00:27:23]
+We ended our call, but the client like our the team stayed on and we dropped off and it
+kept recording. Like our recorder stayed on the call and so we got to witness them
+talking about the research and like what they thought and um what they were going to do
+with it, which was super interesting. It was all complimentary. So I was very happy to
+hear that. Um but the thing that stuck with me was them saying like, "Did you watch the
+interviews?" And like it was um it was a light bulb moment for them. Um because the
+questions that are asked are like often nobody will think of those questions. So you're
+digging into like well tell me what led to that and like why was that hard for you and
+tell me more about that and digging into things that I you know a normal person off the
+street would never think to ask and it's really about understanding and getting a I
+often say like a documentary like understanding of what was going on. It's not about
+opinion. There's no conjecture. It's just what were the circumstances, what occurred.
+Um, and having that documentary like
+
+[00:28:28]
+understanding of a group of your most valuable customers is wildly valuable because it
+answers so many questions, not only positioning and messaging, but also product strategy
+as well. Um, product teams absolutely love the the outcomes of this type of research.
+It's incredibly val valuable. So, uh, I'm just, you know, I'm I'm noodling through all
+of this that you're talking about here and we kind of reached the point now. Let's,
+let's say, you know, where we do have a good a good amount of research. You know, we've
+done a lot of customer insight tracking. You know, we've updated our ICPS and and, you
+know, we're really on board with this with this approach. So, I'm curious now on the
+other side of that bridge, what what are some examples of, you know, companies or
+organizations or products where the customer research just completely changed what the
+company thought they were selling or or their approach to it? >> Yeah. So, the post
+research phase is my favorite. Um, it's the one that I get the most excited about and
+and like turning the insight into actual behavior change and action um and like revenue,
+right? And like identifying growth
+
+[00:29:33]
+levers that were not obvious before, repositioning companies um that's the part where I
+get really excited and that's what actually the customer le growth framework is meant to
+do is meant to like operationalize research. So the worst thing in the world that I can
+imagine is you do really great research and then it [laughter] >> the proverbial dust
+dusty shelf. Um that's why CLG like that's that's where this all came from was born from
+that like make research useful. So I guess the answer to your question is it depends um
+on what the outcome is. So sometimes what happens is well maybe I'll get a little bit
+more specific. So on the other side of research generally what we're doing is we're
+telling the team like okay so we talked to your best customers your highest value
+happiest customers we talked to them and these like three you know two three four sort
+of dominant groups showed up and we have a decision to make. Do you want to serve all of
+them? Do you want to serve one of them? Is there one of them you want to
+
+[00:30:34]
+actively dissuade from you know um signing up or or you know attracting? And so there's
+a prioritization discussion that has to happen once that happens. And there's all kinds
+of ways to like decide, right? Um urgency of problem, uh willingness to pay, an unfair
+advantage of the company or product, the product roadmap that's already in play. There's
+a lot of things that you could use to sort of there's we we use a prioritization rubric
+to help teams make the decision. Um once that decision is made, then it's like does this
+actually mean the product needs to be repositioned. Um it doesn't always sometimes it's
+just actually they just legitimately need new messaging. Um and that's one path or like
+positioning and messaging is sort of one path that we will take with pretty well every
+team at least messaging changes. Um the other path that we take is customer experience
+mapping and actual like optimization of the actual customer experience which might mean
+we update the website. It
+
+[00:31:38]
+might often means we update onboarding and activation. It certainly means we have much
+more meaningful ways to measure things like activation, adoption, retention, expansion.
+Um, so we do a customer experience mapping exercise where we sort of deconstruct the
+customer experience and we make very specific recommendations for each of those
+milestones and we do that in a workshop format with the team. Um, and so that's how it
+goes from while we learned so much, while we feel like we understand our customers so
+well now to an actually impacted like roadmap uh whether or not that's a product road
+map or a product marketing road map or even a marketing road map. What do you think is
+kind of the minimum size that an organization needs to be to start engaging in some of
+this? I know that like obviously funding to run research is expensive and problematic,
+but even what like what about a founder hopping on the phone with a prospect or doing
+like a little just let me watch you use the software. Like what is the the super
+bootstrapped version of doing this? >> Yeah. So, it's funny that you say let's just let
+me watch you use the software because that's like the opposite of type of research that
+I would recommend in
+
+[00:32:40]
+this case. But what you just said was really important was so one of the examples and
+you're right that I probably should have mentioned in the like what's the scrappy
+version of this. The scrappy version of this would be go to your sales calls your
+customers that closed. Obviously I'm talking about those that are in a salesled model
+here not a productled model but in a salesled model you go to your calls and the
+hopefully you've done a good job on those calls of asking them about their problem like
+why are we on this call today? What are you using today? You know what do you like about
+that? what do you hate about that? Like what sucks? Um what are you looking for? What
+are your deal breakers? Anxieties? Like hopefully that's part of your sales
+conversation. And hopefully you've recorded those calls and then you can sort of you're
+in a position to retroactively look back and say, "Okay, these are the companies that
+closed." And so I'm going to go to those call recordings and I'm going to see if any
+patterns emerge. One of the challenges with that approach right now is that recency is
+wildly important. So I would not go back further than like six months. Um just because
+
+[00:33:44]
+things are changing so so quickly in so many markets. Also more and more markets are
+being like commoditized. I would argue almost every market is saturated right now. And
+so the competitive set like who you compete with has very likely changed in the last 6
+months. And when I say who I mean like you could be competing with an LLM. I I've talked
+to many teams where they don't actually believe they're competing with LLMs and they are
+and they don't know that because like they they don't they don't have that recency. So
+that's one caution I would say is if you do go back to your sales calls go to recent
+recency is very important right now. Um and then just look for patterns and these
+circumstances and then um you'll start to see different sort of groups emerge ideally.
+So, as far as numbers go, when we're running interviews, uh, we do we run at least 10 to
+12. That said, um, well, sorry, let me finish that thought for a second. We do 10 to 12
+because
+
+[00:34:47]
+pattern saturation. We get to a point where we start to hear enough of the same stories
+often enough, like show up [clears throat] multiple times that we're like, okay, we
+think we've got it. We've got like we've reached pattern saturation. Bob Mesa who is the
+like original um you know the OG of jobs to be done his team runs like eight to like
+he'll he runs fewer. We recommend a few more just to get the numbers up slightly more
+just for those a little bit more riskaverse teams or or founders. Uh but generally 10 to
+12 c wellrun customer interviews and that's the really important part. well-run customer
+interviews, 10 to 12 is generally about enough. When we're talking about sales calls, in
+my experience, half of them are scrap because we didn't ask the right questions or we
+asked leaded leading questions or we said too much and they we they didn't say enough
+and we didn't actually get to the root of like what's really going on there and we can
+hypothesize but then we sacrifice confidence and so for interviews I would say more and
+for AI moderated interviews we definitely say more. We generally are
+
+[00:35:50]
+looking for like 25 good quality responses because then we'll see the pattern saturation
+and the level of confidence will be high enough that you actually feel good enough to
+make really business critical decisions on. That's the really important part here is
+they the teams have to feel really really confident in order to reposition a company or
+drastically change you know a product experience. Uh you got to feel really confident in
+the data. >> Have my heads coming back to sever books that I've read. one which was
+April Dunford's uh positioning manual which is >> friend of mine. Yeah, >> it's a great
+book. Um >> it's my favorite. [laughter] >> Yeah. No, >> it's the one that I want
+everybody to read before they read Free at the Funnel. Honestly, I've said that so many
+times or even like sometimes we get on a call and I'm like I don't think this founder
+understands positioning quite enough like you should go read April's book and then call
+me. Um it's fantastic and it's the it's like the must the must readad for sure. >>
+Sorry, something that you said just kind of sent me back into that book. was like, "Oh
+yeah, I have to pull this forward." And so my my brain did a hard might have referenced
+that. >> I don't I don't know. Well, maybe um she
+
+[00:36:55]
+maybe has been talking quite a bit about like competitive set and competitors in the
+market recently uh quite a bit. Um April does also work with um much more like salesled
+like much larger more salesled organizations and I tend to very philosophically aligned
+with April on on positioning. We we we did a whole podcast episode on it and um I I sort
+of tackle positioning from a PLG perspective. So like at scale um and how does our how
+does our marketing needs to show up and our website need to show up and our product need
+to show up in the market. Um for that functional buyer that is typically the one
+evaluating a solution when they land on a on a a company where the the the business
+model is productled as opposed to salesled where the website m might be more for an
+executive buyer. um like the buyer changes, right? It's a different makeup. The buying
+committee is completely different. >> Yeah. We have this a lot of times with customers
+where the person who is using the software every day and the person
+
+[00:37:57]
+who wants the software is not the buyer. You have to target two people at the same time,
+which is really challenging. >> It can be. Yeah. Um we we work with a lot of teams that
+that's the case actually. And your your homepage definitely the the probably the asset
+that is the most like difficult to straddle that would be like the homepage. Marketing
+is easy to segment. Marketing is easy to split, right? Um, even product pages are easy
+to split, onboarding easy to split, but the homepage is where like all of it has to live
+together and so there's a delicate balance to play there. Uh, but yeah, certainly have
+been in that situation very very often. Typically, we find functional buyer is the
+better one to target on a homepage. Um, and then they're your champion. When I say
+functional buyer, I'm conflating that with champion. That's not always the case.
+champion is the one that we we were like without the champion and and actually I've
+heard April say this as well like without the champion your deal is dead anyway whatever
+scenario whatever model um and so we tend to focus on the champion first and foremost
+the one that's been tasked with solving
+
+[00:38:59]
+the problem the one closest and and the one that's going to you know champion you
+forward >> yeah we we have an organization we're working with right now but it's like
+yeah we we get on the phone with all the people who are going to use the product and
+they're so excited they have tons of questions we have these huge long interviews where
+they have a million questions about the product and how it works. And then we move to
+like the next step up the closer to closing the deal. We get on the phone with the
+executive director and the questions are just like, does it do this report? Can I
+monitor this? How much does it cost? They like it. Sold. And it's very like it just the
+level of detail you have to go into the people who are going to use the tool is huge.
+And the buyer has like four questions like the team wants this. I need these three
+things or whatever. So >> yeah. Yeah. Totally. But you mentioned earlier about kind of
+competing with an LLM and I think that that's a thing that hap is happening a lot more
+and more obviously. Um you have I think you have a take on on working with AI and on
+using LLMs and that kind of hurting personal confidence or team's confidence or like
+kind of can you elaborate on that a little bit? Yeah, I mean it depends what the
+scenario is. But I mean one of the bones that I have to that I
+
+[00:40:02]
+am picking lately especially with marketing experts in this space is like this idea that
+you can use AI to do all of your research but don't you dare let it write a blog post
+for you. Like what that is so fundamentally that that like logic is so fundamentally
+flawed. Like you are making major business decisions based on this research. hopefully,
+ideally. Um, but no, you couldn't possibly get it to write a blog post for you. Like,
+it's so obvious. So, I just I don't know that that irks me. Um, the other thing that
+worries me um more than anything is teams that are substituting actual research um and
+like actually getting close to customers and genuinely understanding customers and
+relying on like superficial sources of information. Um, my my like least favorite would
+be like just pretend, hey ChadBt, pretend you're this profile and answer these questions
+or like, "Hey, Chad, pretend you're whatever job description and like
+
+[00:41:05]
+what do you think of this homepage and give me feedback or whatever." Um, that's
+probably like the worst offender. Um, and then the probably like marginally better than
+that is scraping the internet. Like literally scraping the internet for anybody and
+their brother's opinion on what you do and your space and your competitive space and the
+competitors and what you do versus them, which is like again, none of those people made
+a trade-off in order to purchase your product or solution. Um, you know, maybe some of
+them have the problem that your product solves, maybe. Um, so you're just like looking
+at lazy data in the aggregate which can feel you c you can feel good about it because
+there's numbers and you have data and charts to show your team but at the end of the day
+as you dig in that confidence is going to erode very quickly when you you know realize
+um I I believe wholeheartedly that the shortcut is customer interviews the shortcut to
+all it is your fastest path to
+
+[00:42:08]
+confidence. Why would you waste your time with like subpar intel when the best source of
+information is living inside the heads of your best customers? If you have c you asked a
+question before, Justin, I don't actually think I answered it, which was like, what's
+the stage of company that actually benefits from this? If you have happily paying
+customers, your fastest path to clarity and confidence will be getting inside the heads
+of those customers. If you don't have customers yet, well then yeah, you're now you're
+in a position where you're running target market uh research and doing more like broadle
+market research. We're working with a company right now who um they're moving from the
+um Latin America market into the US market. They have c customers in Latin America but
+not in the US. And so we're running target market interviews for them in the US. and um
+they can be super super valuable, particularly if they recently, you know, made a
+purchase decision and whatever. So, I'm not
+
+[00:43:10]
+saying that it's not doable if you don't have customers. Um but the research methods
+that you're going to leverage are going to be a little bit different and they're not
+going to be as confidence inducing as they would be actual customer research. So, I'm
+always like, yeah, do the target market research. Do as much as you can. As soon as you
+have 10, 15, 20 customers, talk to them. There's nobody better. They've like I said,
+they're they made trade-offs. They actually chose you over all of the other solutions.
+What was it about you that led them to choose you? I I just think it's the fastest path
+to clarity and and confidence. >> Yeah. And I would think if you're going to be
+insistent on leveraging AI in some way, shape, or form, throw your AI at that data. >>
+Yeah, 100%. And there's like we have or like artifacts I'll call them that we produce
+when we run research like there's the interviews themselves for sure. Uh but there's a
+lot of artifacts as well that you can produce that will really help a lot in like
+training of models. Um so we we produce voice of customer briefs which is basically like
+real voice of customer like actual
+
+[00:44:12]
+quotes but organized. Um we also obviously will leverage like jobs to be done and job
+statements and like you know uh the pushes and pulls and the forces of progress and all
+that of that stuff to help as well with LLMs. And then also when we do the customer
+experience mapping, we will also sort of de like I said deconstruct that customer
+experience and train up the LLM what whichever model it is on like here's the headsp
+space our customers are in when they're in this circumstance or this milestone and this
+one and this one and this one and this these are our goals. This is how we measure
+success. Um, and so that training is wildly valuable and yes, can do so much more. >>
+Yeah, I I I could easily spend like, you know, days just chatting with you. This has
+been fantastic, but I'm keeping an eye on time and I know Justin has one more question
+for you. >> It's the same. It's the last question we pretty much always use here, which
+is what is something we should have asked you about and didn't. I I mean I think the the
+thing that I love talking about when it comes to research is probably like measurement
+like how do you actually prove that this is working and how how does this actually come
+down to
+
+[00:45:15]
+like mobilizing the team. Um and so that's something that I really like to talk about
+when it comes to research because at the end of the day it's great to have this
+information but if you don't act on it first of all you won't get buy in to ever do it
+again. It won't be useful. It's not going to have an actual business impact. So the
+customer experience mapping process, identifying those milestones and then assigning a
+KPI to each of those milestones is something that um I think is wildly important. I I
+don't get nearly enough opportunity to talk about it. So that's maybe the one thing that
+I would say is KPIs and and connecting the dots between what [snorts] helps your
+customers be successful with what helps your team be successful. So those KPIs being
+really really um connected in and if not the same um cuz I always say like when you know
+when we help our customers reach their goals we reach ours and so if you can connect
+those KPIs together and actually have those KPIs be the leading indicators of your
+customer like reaching a moment of value um that's when this thing really starts to like
+
+[00:46:17]
+sing and actually have an impact on revenue and retention and all of those things. Well,
+we have been talking with Gio Lotti, developer of the customer-led growth framework,
+which we have talked about, and the co-author of the bestselling book forget the funnel.
+Gio, what is the best way for people to reach you? >> Oh, uh, I mean, yeah, forget
+thefunnel.com uh, has a lot of information about CLG, including the book. I guess the
+book would probably be the best um, thing if anybody wants to dig in. Otherwise,
+customerled.com is where we work with companies. So, that's another good one if anybody
+needs that. >> Thanks so much for hanging out with us. We really appreciate you taking
+the time. >> Thanks. It was a great conversation. >> Yeah. And thanks to all the
+listeners out there. We will catch everyone next time on SAS that app. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

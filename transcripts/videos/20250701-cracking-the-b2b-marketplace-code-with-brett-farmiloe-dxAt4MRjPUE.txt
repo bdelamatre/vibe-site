@@ -1,0 +1,556 @@
+Cracking the B2B Marketplace Code with Brett Farmiloe
+=====================================================
+
+Video ID:  dxAt4MRjPUE
+URL:       https://www.youtube.com/watch?v=dxAt4MRjPUE
+Published: 2025-07-01
+Duration:  00:36:32
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The business model is a premium B2B SAS, but the way that featured operates is more of a
+marketplace. And marketplaces are a nightmare. Like quite honestly, they they're very
+very hard cuz you've got to have both sides of the marketplace to ultimately work.
+You're constantly trying to find the right ratio. If one ratio is off, then it disrupts
+everything and it really slows momentum. Welcome to SAS that app building B2B web
+applications. The podcast where we share real world stories, practical advice, and tech
+insights for those building or thinking about starting a tech- enabled business. I am
+your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the
+stories, strategies, and insights you need to build your SAS or tech enabled business
+smarter, not harder. Let's dive right in. Hello and welcome back to SAS that app.
+Today's guest knows a thing or two about scaling ideas and he's got the hot pocket scars
+to prove it. Uh Brett
+
+[00:01:02]
+Farllo was the founder and CEO of Featured, a platform that's unlocking real human
+knowledge and democratizing thought leadership for over 50,000 experts and counting.
+Before Featured, Brett led marketers, an award-winning SEO agency for small businesses.
+Now with Featured recent 1 millionth answer milestone, huge. and the launch of Pitch
+Plus. Brett's taking a services background and turning it into a SAS success. So, get
+ready to learn a thing or two about making the leap from hands-on services to scalable
+software. Brett, welcome to the pod. Thanks for having me. And don't make me show the
+hot pocket scars. I won't make you show, but I'm going to ask you about it. Okay. And
+with me as always, my partner in crime, Justin Edwards, across the mic there, who now
+without me having a beard, we wind up looking a lot more alike, which is I'm just
+noticing. Yeah. Well, it makes you look a lot younger and me look a lot older. So Oh,
+yeah. I just came off this past weekend. It was my my winter fur, as they say. So, we're
+finally getting some springtime and uh I want you to feel it on my face. So, Brett,
+okay, Hot Pockets, you know, I got you I got to lead with that. So, did I I read this
+right that you were
+
+[00:02:04]
+sponsored by a food company with an unlimited supply of Hot Pockets and you proceeded to
+eat that for like three meals a day for a month to bootstrap a startup? Is that right?
+Pretty much. Yep. What is the deal there? Yeah. So me and my buddies were we founded a
+career education website where we went across the country in an RV interviewing people
+about their career paths and documented on these on this website. And so uh to fund this
+RV tour, we looked for sponsors and we got a lot of rejections. We one of the first
+rejections was and this actually ties into the the the Hot Pockets, but we went out to
+LA in the RV that we owned and tried to get on MTV's Pimp My Ride. And I don't know if
+you guys ever have seen that show, heard of it, but got to the final round. All of us
+went to the University of Arizona and we had this big UVA flag in the back. And so the
+whole crew was in there and they were like geeking out on it. They're like, "Oh, we've
+never done an RV before. You know, we're going to put a hot tub on the roof. We're going
+to put put video games here. D get the producer." Producer comes in. He's not as
+excited. And he looks in the back and sees the flag. He's like, "Oh, did you
+
+[00:03:06]
+guys go to UFA?" We're like, "You know what, man? Bear down. We're trying to be all
+excited to get on the show." He's like, "Well, that sucks cuz I went to Arizona State.
+You guys have a good ride home." And so that was the one of the first uh not not one of
+the first, one of the many to to reject us. One of our buddies was the VP of marketing
+for a food company out in LA. So stopped by there and tried to get a get a sponsorship
+from her. She's like, "Look guys, you know, like you're friends with my son. I'd love to
+help you out. We can't write you a check, but we could give you this unlimited supply of
+Hot Pockets." And so we we left there with a a fat stack of food vouchers and you know
+it was at the time where my buddy was living on my couch. We were trying everything that
+we could to get this uh this RV tour on the road. And so we just started eating Hot
+Pockets breakfast, lunch and dinner for for 30 days straight. And it was exactly like
+Superersiz me with McDonald's and uh where the guy eats McDade and ends up in the
+hospital. So my buddy wasn't doing too well. I looked at him and said, "Look, dude, we
+can't do Hot Pockets anymore." And so we uh we ditched that and we probably went through
+about a week long detox of like legit sodium
+
+[00:04:09]
+sweats and the shakes and uh kind of got it out of our system and then we started
+thinking clearly and uh we ended up getting a corporate sponsor that was literally a
+block from our house. Uh it was a a really prominent job board at the time that was
+venturebacked. They bought an RV for us. Uh they sent us out on the road. We went 16,000
+mi, 38 states, interviewed 300 people and wrote a book about it. So uh it was a really
+cool journey. Gosh, I can't even imagine. I mean, I've had my share of hot pockets in
+the taste, but I haven't had one since. I'll bet you have not. Can you even stand to
+walk past them in the grocery stores? I can't I can't even stand to talk about them in
+this in this in the story. You would have had much better results if you guys had found
+Soilent to sponsor you. I think you could get away with that for for 30 days, breakfast,
+lunch, and dinner. Yeah, I doubt you lose some weight, but probably wouldn't have quite
+so much problems with the salt. Right. So that that trip was that was for pursuit the
+passion is that right? Yep. So that was a education startup like you said you were cross
+country interviewing people about uh how they found passion for work. So what were your
+biggest
+
+[00:05:13]
+takeaways from that adventure? I mean all the all the hot pockets and sponsorship stuff
+aside obviously but talking about the people and the process and that that passion. So
+this a long time ago. I think what you know one of the biggest takeaways that still
+informs my work today is that people need a meaningful outlet to share their life's
+expertise and their experience. Not everyone gets to be on SAS that app and doesn't get
+the microphone and you know people need an outlet because you're heads down working
+working working your life away for you know decades and there's no one to really pass
+that knowledge on to and so I think that people always want some sort of outlet to share
+that knowledge to make it meaningful for the people who want to accept it and you know
+that's really informing our work what we're doing today with feature.com with helper
+reporter out where journalists can ask queries and anyone can answer those questions
+questions and have that knowledge be put to good use. So, um it's kind of gone full
+circle ironically, you know, from being on the road in the RV to to where I'm at today.
+Yeah, I was about to say it was it seems to have come back to that. I mean, so long ago
+that that was the idea that you had and you've kind of returned to it
+
+[00:06:14]
+and in the middle you've done a number of other things. The thing that you and I know
+each other from, of course, is is dealing with marketers um and and digital, you know,
+digital marketing like in a general sense. How did you hop through those then to get to
+to get to featured? So you know you start pursuing your passion and then right into
+digital marketing or well so just connecting the dots uh so after the RB tour we went to
+go work for the the corporate sponsor for a number of years. Uh I exited I left uh to go
+start a mobile app company which failed within the first 6 months. So I learned a lot
+about that in terms of the the market size really matters the monetization and the
+margins all all three of those ends can inform your outcomes. So, uh, failed that,
+lucked my way into starting a coffee company with the actor Hugh Jackman. Um, and so
+spent a number of months helping Laughing Man Coffee and Tea get off off the ground and
+get going. That company was ultimately acquired by Kurig. Uh, that was great. And then
+decided to basically launch my own marketing agency. And so
+
+[00:07:16]
+spent a few years uh, working on the site, you know, as a freelancer. Had about, you
+know, six clients or so. And then I got the website to rank on the on page one of Google
+for the term digital marketing company and then decided to actually start a digital
+marketing company. Uh so I was getting calls from all around the world, you know, from
+people who were asking me about the company. It was just me and my dog at the time
+hanging out of the house. And so we scaled that to service more than 500 small
+businesses over the course of 10 years and really just learned that the problem that you
+know again we're we're looking to solve today is how hard is it to to get exposure for
+your business? It's incredibly difficult to connect with your customers online. And the
+thing that small businesses, you know, suffer from is a lack of resources. They don't
+have a ton of time. They don't have a ton of money to devote to something like this, but
+they have a true need to connect with their with their clientele. Um, the thing that
+they have going for them is an abundance of expertise and knowledge about their business
+and about their area of expertise. And so, what we did at Marketers was we created a
+platform that allowed our clients to answer questions. We would take their insights and
+get
+
+[00:08:19]
+them featured in articles and it was incredibly beneficial uh for the businesses. We saw
+many clients scale 25x in the course of a year, you know, in terms of their their SEO
+and organic search presence. And so we said, hey, there's really something to this. And
+the the platform's pace of growth is outpacing what the agency is looking like. So
+that's when I decided to transition from services to to software. Yeah, this actually
+got to be one of my questions. If what at what point did the scales kind of tip in the
+favor of of going the SAS route rather than like you know doubling down or really
+investing more heavily on the marketing aspects of it? Yeah. So my background is in
+accounting and so a lot of a lot of data informs decisions and so it's partially that in
+terms of looking at the growth metrics and looking at what's the month over month growth
+and revenue and user acquisition and then it's also like partly the qualitative uh
+signals. So at the time it was 10 years 10 years I had been doing digital marketing and
+running a an an SEO company. Uh so I think that it was a a healthy time to for me
+personally to make a transition and it's
+
+[00:09:22]
+always you know gut and data informs your best decisions for sure. So featured obviously
+um you know for those that don't know it it automates something that's that's
+traditionally much more human intensive. So you're trying to, you know, match experts
+with publishing opportunities and you built this application around that notion and and
+you know, it keeps authenticity very front and center. Tell us just a little bit more
+about who featured is meant to serve the the the purpose kind of the big broad strokes
+of of featured. Sure. Yeah. So featured.com connects sources with publications to create
+highquality content. And so essentially what happens is experts get exposure and
+publishers get high quality content for their websites. And it's the ultimate win-win.
+And so the experts who use featured are typically PR firms, uh, in-house marketing
+teams, do-it-yourself small business owners that are looking to to build up the
+visibility online. And then on the publisher side, you have journalists, you have
+website owners, uh, you have bloggers, content creators that essentially need expert
+insights to back up the claims that they're making in their articles. And so a publisher
+
+[00:10:25]
+could go to feature.com. They could ask a question. We'll invite vetted experts to
+answer that question and then we'll essentially pass along those best insights over to
+the publisher for them to feature on their website. And so essentially an expert in a
+little as a couple minutes can answer a question and then start to be featured in uh
+more than 2500 different publications who are using featured.com. That's fantastic. So
+like what is the the business model for that? Is it the people who are uh needing
+needing expert sources who are your customers or or do you do you bill in both
+directions or how does how does featured make money? So it's a premium B2B SAS where
+anyone can answer three questions a month at no cost and then if you want unlimited
+submissions then there's paid subscriptions that could support that. So uh publications
+typically don't pay us anything to get these insights and to to get the content. It's
+more so the people who are looking for exposure and looking at at alternatives to get
+their name out there. And so our subscriptions start as little as $19 a month. They go
+up to $99 a month. And so uh it's a pretty affordable way to to do uh some DIY PR.
+
+[00:11:29]
+So from a technical standpoint, what was the what was the hardest part of kind of
+getting this thing off the ground? Was it actually having uh having the pile of experts
+and those that are interested in it? Was it the technical aspects of it? Uh architecting
+the thing? So the the business model is a premium B2B SAS but the way that featured
+operates is more of a marketplace and marketplaces are a nightmare like quite honestly
+they they're very very hard because you've got to have both sides of the marketplace to
+ultimately work. You're constantly trying to find the right ratio. If one ratio is off
+then it disrupts everything and it really slows momentum. So we've been at it for three
+and a half years and you know and very clearly like there's a hard side of the
+marketplace and there's a easier side of the marketplace. For us the easier side of the
+marketplace is the the side that pays us which is the experts. Uh they're the PR firms,
+the the marketing teams, you know, small business owners and then the hard side is
+really these publishers. So how do you create opportunities that are relevant to to you
+know people uh for to get them
+
+[00:12:33]
+featured in the media? And so for us we've tried a lot of different things. uh we've
+tried, you know, being our own publisher we where today we own and operate over 300 uh
+different websites and we're using uh featured as a way to populate those sites with
+content. Uh we also recently just acquired and revived uh helper reporter out or harrow
+and uh we're really excited for that acquisition. Harrow is a legacy um platform in the
+space. It was founded in 2008. journalists are able to get connected with virtually any
+source in the world for uh for to get quotes for their stories. So we revived that about
+eight days ago and it is uh it is far far exceeded my expectations. I vastly
+underestimated how much people missed Harrow in their inbox. So, it's been really
+informative in terms of helping us increase supply on featured and and meeting the
+demand that people have to to get get found online. Yeah. If you don't mind the
+technical ask, what's the what's the stack that it's built in?
+
+[00:13:35]
+What's the technology that you're that your platform is on? We are big fans of Versell
+and Nex.js on TypeScript. So, a lot of it we're basically in the process of bringing
+everything over to Typescript and into Nex.js. So it's uh Verscell is amazing like we
+one of the the biggest advancements that we've seen here you know midway through 2025 is
+the adoption of V0ero uh by Verscell and uh it's basically using prompting to code. So I
+think that the I don't know if it's the proper term but vibe coding is how how I uh
+refer to it and it's uh it's a it's incredible the adoption that we've seen from people
+who are non-technical on our team including myself. We're seeing like four or five vzero
+links a day go into our Slack and now everyone's an entry-level engineer on our team.
+And so you could essentially take this entry-level engineering and take a concept that
+you used to go into Canva, try to mock up, try to explain to an engineering team and
+then get it to
+
+[00:14:39]
+development. Now you can take something like Vzero and give it to, you know, a more
+experienced engineer who knows exactly what they're looking at and they can take it
+across the finish line. So the the pace at which we're able to develop and deploy
+solutions to meet customer needs is really incredible. Yeah, Nex.js JS is a a fantastic
+framework and uh yeah, I love that. Uh I think that's a really great way to use to use
+AI and it's interesting to hear how that's kind of working with your team and and uh
+your non-technical staff are able to get uh really really complete clear pictures to
+your technical staff using using AI which I think is fantastic. Yeah, it's so cool.
+Everybody's using a little bit differently. It's just like the new kid on the block
+almost. You know, everybody's wanting to integrate or work with or in some way leverage
+AI and it's it's always interesting to hear how people are finding ways of doing that
+and having it so close to the core of what it is that you do is is fascinating. I mean,
+I was going to ask you about, you know, how how you're managing from the technical
+perspective scaling this thing as as much as it has scale, but you kind of already
+answered that question. I mean, it's it's almost self-scaling. You can bring people in.
+It's it's almost like you're you're training them as you go with this with
+
+[00:15:41]
+this process and and they're just working their way up because obviously the familiarity
+at that entry level engineer position, you know, you can start to get a lot of
+familiarity very quickly and and move up as you need to scale your team to support the
+the platform. Is that Yeah. And I I think that, you know, in terms of scale, like number
+one, hire some great people. Like I think that that's that's the key to to everything.
+you know, the fact that our team has been together for so many years, we're able to
+communicate really effectively and be able to push things forward that I I've never been
+a part of a team that's had better communication. Um, so that's that's something that
+allows us to move at a really quick pace. And then in addition to that, you know, in
+terms of scale, you mentioned earlier about a milestone that we just achieved, which
+was, you know, the the millionth answer that we've received through feature.com. I think
+we're already on pace to like, you know, probably hit two million here pretty quick.
+What's allowing us to scale with this is not only an incredible team, but an incredible
+community and then also that the technical infrastructure that allows us to do things
+like AI analysis on different uh answers that have been
+
+[00:16:45]
+submitted so that we can connect journalists with the right verified sources and give
+them really high qualified insights. So the AI analysis is you know it's vastly
+improving. We started when it was I think GPT3 and we were one of the first OpenAI
+partners when I think it it was like in 2022 I think that we became a a part of their
+startups program and you know since then we've been a part of uh Nvidia startup program
+with Google for uh Google for startups program with AWS activate program um which all
+afford incredible AI credit resources for startups like ours. It's allowed us to really
+experiment to figure out which models suit us best. Uh which workflows need to flow
+through these different models and how do we really get a leg up on all on on everything
+so that we can scale. So have you have you run into any issues like with the underlying
+system or the platform itself as you're hitting these big milestones. I mean you know
+you hit the million answered. You say you're well on your way to two already. Is there
+is there a concern or have there
+
+[00:17:47]
+been any any concerns with the infrastructure that you're currently on being able to
+continue to scale that fast? not necessarily with the infrastructure, but more so about
+the marketplace ratios of how do you have this this equilibrium of supply and demand and
+how do you consistently have repeatable scalable tactics that allow you to increase
+those numbers and continue to grow the business. So for us, you know, we feel really
+really confident in how we're approaching both of those. the Harrow acquisition has
+given us a lot of momentum, you know, to to and a great lever to pull when it comes to
+increasing supply. So, we're just excited because like, you know, back to the original
+uh comment that we had of, hey, what did you learn from being in a stinky RV with four
+stinky guys for 4 months and the fact that like we all just need to share this
+knowledge? One of the most eye-opening things that h has happened to me on this journey
+was we asked like I I got I got this email from this 94 year old architect in New York
+and he was one of the most decorated architects of his
+
+[00:18:51]
+time. He for 50 years he was like the top architect in in New York and he wrote me and
+was like, "Hey Brett, like I saw a question about architecture. I've spent the last hour
+and a half answering it and I just wanted to make sure that you got it." And like for,
+you know, I'm just picturing this guy who has been out of the workforce for a while,
+still has this need to share this knowledge that he accumulated over, you know, 50 plus
+years as being an architect in NYC. Um, and then just having the opportunity on the
+screen to share that and make it useful for others is something that I just think has a
+a profound connection to to humanity. Yeah, that's that's incredible. And and and what a
+way to be able to reach out to those like him that would have all this expertise and and
+nowhere to really put it anymore. Yeah, just hanging out, hanging out. Go to feature.com
+and boom, there there it is. Yeah, it's it's interesting to me because you're I'm I'm
+thinking through your your history and and dealing with digital marketing, but in
+general services and and in essence, you're still providing services. It's more
+businessto business rather than like individual client relationships,
+
+[00:19:53]
+but it's still all about relationships. You know, you're you're still, you know, the way
+that you will fulfill things is is you're just trying to connect people, right? whether
+it's digital marketing or or it's here you're trying to connect experts and publishers,
+there's still this this inherent human aspect to it. You know, you can't you can't
+really automate that away. Yeah, it's about connection. So, you spoke to having to play
+a little bit of a balancing act and keep the marketplace more or less in equilibrium.
+Sounded like maybe it was a little bit harder to have people who were looking for
+experts than it was to find experts who wanted to pay you for the chance to be featured.
+Uh what are some of the things that you've done aside from trying to find find more
+publications and find more people who are looking to feature others? Like are you also
+like limiting the the supply side or how how is that how is that booked? I don't think
+that there's uh there's any limits that we've placed on it. We've just tried to catch up
+as fast as possible. When we see those uh the marketplace is out of balance, it's like
+what can we do to get it so that it's uh it's peaceful. So, I think one of the craziest
+things that we've done, quite honestly, is decided to be our own
+
+[00:20:55]
+publisher and own and operate over 300 sites and and use featured content as a way to
+populate that. And the thing that we've learned from that is like we've got some crazy
+sites like we've got some, you know, semiconductormagazine.com, logisticsnews.org, like
+you know, some really uh different, you know, publications. And it's because there's not
+a lot of publications that cover that stuff. Like there's only a couple websites that
+are talking in depth about semiconductors and well maybe semiconductors wrong they're a
+little hot right now but but you know there's like every again everyone needs an outlet
+and not everyone gets the microphone. So, you know, having having these sites has given
+us a way to figure out, okay, like what are the shortcomings of featured? Where are we
+falling? You know, where do we need to improve? And then what are the ways that people
+do enjoy being featured? Is it different content types? What do we need to adjust? I
+just think that thinking like your your persona is a great way to further improve your
+product because it's one thing for for me to be on live
+
+[00:22:00]
+chat and in customer support and speaking with our team who's doing that every single
+day and listening to what customers need and making tweaks and things like that. It's a
+different when when the idea origination is coming from you as a result of using your
+own product. So that's one thing I always try to encourage our team to do is like go in
+and answer questions on featured like if you have 3 minutes go to feature.com answer
+just like our users what do you notice what's the friction points how do we make that
+more seamless and smooth and if we can make the product better dayby day then we start
+to win in the marketplace and uh so I think that that's really where the mentality is
+at. Yeah. I just I mean it seems like it's a very stable platform obviously and you're
+you're you're now tuning more than anything else but do you have any big departure
+points like large features or do do you get you know what kind of systems do you have in
+place to get the feedback to do the next thing to make it better you know you're talking
+about little tweaks and changes and people coming up with ideas you know what's that how
+do you form up your road map I think it's always reiterating to people that you're
+available and whether
+
+[00:23:05]
+that's in a live chat and having a little green thing there that initiates and helps
+people feel comfortable to to submit. Whether that's sending personal emails, like we
+try to send a personal email that's not automated to every new subscriber, to every
+cancellation, to every person who's meeting certain milestones so that we can develop
+community. And when the community cares, they let you know about the stuff that you're
+messing up on. They let you know about the stuff that you're succeeding with and their
+opinions can help you form what you need to build. So I think that that's probably one
+of the coolest things about running a service or a software or a platform whatever you
+want to call it for, you know, tens and thousands of, you know, now with Harrow,
+hundreds of thousands of people that all you have to do is listen and let them know that
+you are listening. And one of the most enjoyable things for me and our team is to be
+able to deploy a new feature or a new solution within a couple hours of when someone
+requested it. We had that over the last week with
+
+[00:24:09]
+with help reporter out. Uh journalists had said, "Hey, like is there a way to stop this?
+Like I I have what I need. I'm being bombarded by more and more and more people. Is
+there a way to just press a stop button uh so that I don't keep getting emails when I
+have everything I need for the story? Within two hours, boom, it's there. Like now we
+you've got a I have everything I need button. You can click on that and then you know it
+it it does the the thing that this journalist wanted. It took me longer to tell him that
+this feature existed than for us to deploy the feature. So like having that is um yeah,
+it's really nice. That kind of turnaround time and responsiveness to customers is a
+testament to the good work your tech team has done on deployments and uh staying really
+really lean and mean and the fact you're able to get software like that written and
+deployed in that amount of time is a huge testament to its technological achievement. So
+congratulations on that. It's really cool. Hey, thanks for the reminder cuz you know as
+a as a non-technical founder it's it's that's one of the biggest challenges is like
+
+[00:25:13]
+how do you gauge the the effectiveness of your tech team? How do you ensure that we're
+making progress as a company? And the thing I always come back to is just like trust.
+Like I've been working with these guys for so long um and our team for so long that it's
+like you know some weeks if I don't have the direction I'm like I trust you. Trust you
+bro like go go go off and do something good. And great engineers create great work for
+themselves. And so they know what the problems are like. And so being able to give them
+the freedom and the trust to go deploy a solution make my life and our users lives a
+heck of a lot easier. Yeah, having a great team is absolutely key. And yeah, it's one of
+the great things about my job is I get to work with people I've worked with for 5 years,
+10, in some cases 10 years every day. And we communicate great like you were saying
+earlier with your team and we have a lot of trust going both directions. We know that
+we're going to deliver on the things we commit to. That's very cool. So tell me a little
+bit about Pitch Plus. So, one of the biggest problems uh that we've got is not all
+pitches get featured. So, uh we've have, you know, with a million
+
+[00:26:15]
+plus answers, we haven't had a million plus uh features. And so, one of the and that's a
+really frustrating experience for a user where, you know, you spent all this time
+writing an answer, the 94y old architect, he spent an hour and a half writing this
+thoughtful piece and oh, the story got spiked in the last minute and they couldn't
+feature that. or oh uh I got everything I need and you know I wasn't able to use it this
+time around. So there's really good nuggets of knowledge that exist on featured and
+pitch plus basically gives a second life to answers that were not previously selected.
+And so what we do with pitch plus is it makes all of your not selected answers eligible
+to be pitched to a new question, new publication as those new opportunities come in. And
+so essentially what we do is we'll analyze the answer. We'll try to make matches with
+new and existing questions. And if we feel like there is a match, we'll email the user.
+They could then take a look at the question, look at the answer. They could either
+submit on the spot. They could make an edit or they
+
+[00:27:17]
+could just, you know, discard it and say, "Hey, I'm not interested in that publication."
+And and keep moving on. So it's a way to give answers a second life and at the same time
+give journalists and publishers uh sources and answers on a much quicker basis. I love I
+love that you were able to kind of frame this as it was a sore spot and it was a sore
+spot for people that we're trying to grow our business around. How do we address that
+sore spot? Yeah, that's a terrific approach. I love that. Kind of wrapping up a little
+bit on on feature just in general, but you know, you talked about, you know, the balance
+between the supply and demand effectively, right? Are are there other types of specific
+metrics that you kind of track or guide by that inform the decisions? You know, at the
+top of the call, you and I were talking, you know, kind of jokingly about just making
+sure the chart's always going up and to the right. So, how do you make sure it is? I
+think that for every business, it's different. Every business has kind of a northstar
+metric that founders need to obsessively track and the team needs to obsess over. For
+us, uh it'll sound very very cheesy, but uh it's a metric that we have internally called
+magic moments.
+
+[00:28:20]
+And magic moments is when people get featured in an article. Uh, so we call it magic
+moments because it really feels like that when you email someone and say, "Hey, your
+insights are on Fast Company, your insights are on Inc., your insights are on these
+prominent publications that you've read every day and now uh it's there live." And so
+people freak out about it. And so that's the the metric that we track is how many
+answers insights have we've been able to successfully place because that metric reflects
+our ability to deliver on the job to be done. It reflects on the value proposition of
+why people use our platform. They use us to be featured. And so if we're not tracking
+how many times we have featured people, that's the metric that like if you stripped away
+everything and you just said, "Here's the up into the right graph of how many people
+we've placed month over month." I guarantee that that's going to follow suit with
+revenue, that's going to follow suit with your MPS score, whatever it is. All those
+other metrics just validate what your northstar metric
+
+[00:29:24]
+actually is. So think bigger picture. So businessto business web applications just in a
+general sense but obviously as it specifically can relate to featured and other things
+that you've done. We've alluded to it in several places along the course of our
+conversation here. But would you say then that uh real human knowledge is still probably
+the most important differentiator in businessto business web applications and their
+success? Yes, I think that AI is getting way better and every single day raises the bar
+as to what good looks like and to get above the bar. Picture this a high this is a high
+jump at a track track and field meet. That bar keeps getting raised and raised. your
+knowledge uh needs to exceed that bar. So a good good baseline for it is go to go to
+chatgpt or whatever your favorite AI u platform is ask it a question see what comes back
+and what value on top of
+
+[00:30:27]
+that could you add so when we when we think about how do you unlock some like value in a
+B2B SAS application and is human knowledge the differentiator of this it's very
+comparable to what we talked about earlier about v0ero and now I'm an entry level
+engineer. That's where AI is at, like entry level. You still need the knowledgeable team
+members to decipher whether or not this information is good. And so that's that's really
+where the knowledge uh can kick in. Sure. So, kind of the flip side of that same
+question, what's what would you say is is a mistake or or an issue that other SAS
+founders make or or that run into when they try to automate everything and they need to
+actually inject a human back into the process. There was a one of the very first
+engineers that I ever worked with. I was a very eager founder to to automate everything
+for obvious obvious reasons, you know, better profit and, you know, better efficiencies
+and and all that stuff. And what he really taught me was like, hey, dude, I could
+automate anything, but like you need to manually
+
+[00:31:32]
+do it first. You need to manually figure out what it is that we need to automate. We got
+to figure like work through all the kinks that flush through the SOPs, the standard
+operating procedures and allow me to automate the things that need to be automated. So I
+think that that's the the mistake that a lot of SAS founders might have and probably I
+you know I had initially was being in a rush to automate because you want to have better
+profits, you want to have better efficiencies, you want to reduce expenses, increase
+revenue, but at the same time the automation will do nothing except scale problems
+really fast if you haven't manually jumped into those problems first. Yeah, that's
+absolut ab absolutely brilliant insight. someone who works with with other uh people
+trying to implement technology. We see that a lot where we come people come to us for a
+tech solution to a broad they haven't worked through the actual problem yet and all we
+can do is automate and scale. We can't we can't solve the problem with technology if you
+haven't solved it with your business yet. So that's I think that's insight is absolutely
+spot on. looking back at um maybe people who are kind of coming a
+
+[00:32:37]
+little bit earlier on in their journey or just starting businesses or just getting into
+kind of the B2B SAS space, what what advice or what nuggets of of wisdom have have you
+learned in your journey that you would give to to someone who's a little bit behind you
+and on the path? I mean, look, I'll say the first honest thing and then I'll I'll jump
+into a better answer. My first thought was don't do it. And I'm like really serious with
+that. Like being a SAS founder is probably one of the worst occupations I think
+imaginable. It's really really painful like to to do it. It's not easy. There's a lot of
+reasons why you shouldn't do it. And if the reason to do it is to like get rich, you
+definitely shouldn't do it. Like I think that you know you need to have like a genuine
+uh curiosity for the problem that you're solving and then look at SAS as a potential
+solution for that. And so, you know, the advice is like what problems exist in the world
+that you could spend the next 5 to 10 years tackling, you know. So, for me,
+
+[00:33:39]
+like personally, it took probably well over a decade, you know, maybe 15 years of
+refining what that problem looked like. And now I feel pretty good about, you know,
+waking up every day to work on the solution. So you know I think that it's a similar
+sentiment towards when should you automate something. It's probably a similar sentiment
+to say when should you become a startup founder and when should you act and it's through
+you know lived recognition of a problem and having the enough you know fuel in the tank
+to to tackle it. No, I think I think that's that's a great analysis. And by the way, you
+are not necessarily the first person that that we have heard say the don't do it. What
+red flag warning. I mean there's a lot of reasons to to do it for sure. Like you know I
+don't want to call call myself a hypocrite with it. Like I I love doing it. I do it for
+you know personal reasons where I've got three kids and I want to set a good example for
+them to show what an entrepreneur looks like and and it's like hard. It's hard to, you
+
+[00:34:42]
+know, have a family with a 12-year-old, a nine-year-old, a six-year-old where they went
+to kindergarten all day. They want to play and it's like, bro, I just went through a
+company acquisition today. Like, and I'm freaking tired. Like, let's talk about that,
+you know? So, like, I don't know. It's uh it's a great reminder constantly that as much
+as you care about solving this problem, there's a heck of a lot of other, you know,
+simple problems like where's my tiny turtle toy? you know that stuff like that.
+Fantastic. So Brett, it has it has been a real pleasure. This has been a lot of fun.
+I've enjoyed getting to talk with you again. It's been it's been ages it feels like, but
+uh just hear what you've had going on, what you've been working toward. We just really
+thanks so much for sharing your time and your talents with us here. Yeah, thanks for
+having me on. And uh we'll s that up, y'all. Yes. So we've been talking with Brett
+Faralo, who among other things is the founder and CEO of Featured. Brett, um where and
+how is the best way for people to reach you? You can go to featured.com and you can sign
+up and message us. My email is bredfeatured.com as well. Go to
+
+[00:35:47]
+feature.com, answer some questions, see your name in print. It's good stuff. There you
+go. There you go. Boil it all down. And thanks as always to Justin as well. I appreciate
+you being here, buddy. Always a pleasure, my friend. Always a pleasure. Last but
+certainly not least, uh thanks to our listeners. If you like what you're hearing, have
+ideas for the show, just want to tell us what's on your mind, throw a review our way,
+hit that subscribe button if you're so inclined, and we will see you next time on SAS
+that app. Thanks for cruising along with us on SAS that app. We hope you grabbed some
+insights that were inspiring, actionable, or at least entertaining. If you enjoyed the
+show, don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

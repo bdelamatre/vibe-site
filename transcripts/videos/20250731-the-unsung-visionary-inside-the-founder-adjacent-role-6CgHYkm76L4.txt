@@ -1,0 +1,571 @@
+The Unsung Visionary: Inside the Founder-Adjacent Role
+======================================================
+
+Video ID:  6CgHYkm76L4
+URL:       https://www.youtube.com/watch?v=6CgHYkm76L4
+Published: 2025-07-31
+Duration:  00:38:41
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+If you'd like JavaScript, I think you have a problem. I like Typescript. Typescript is
+tries to make Java, it's all JavaScript underneath, but the usage of the language, the
+strongly typed kind of gets it closer to a a more powerful modern language in my mind.
+>> Welcome to SAS that app building B2B web applications, the podcast where we share
+real world stories, practical advice, and tech insights for those building or thinking
+about starting a tech- enabled business. I am your co-host Aaron Marchbanks and I'm
+Justin Edwards. Each week we bring you the stories, strategies, and insights you need to
+build your SAS or tech enabled business smarter, not harder. Let's dive right in.
+[Music] Hello and welcome back to SAS that app. Today we are excited to have Matthew
+Benzel on the show. Matthew is CTO of Deliver That, the leading catering delivery
+platform with a fleet of over 25,000 drivers across all 50 states. He has a knack for
+turning complex logistical challenges into sleek scalable tech solutions. Uh somewhat
+
+[00:01:03]
+recently uh leading to the launch of deliver that's innovative new driver app
+orchestrating major integrations with platforms like cartwheel and also interestingly
+enough with some deep experience uh in Spotify find away nearly a decade at anosis in
+leadership roles. Matthew brings a unique perspective on building high performing tech
+teams and engineering solutions that power that hyperrowth. Matthew, welcome to the pod.
+>> Thanks for reaching out. Thanks for having me. Glad to glad to be here. Looking
+forward to the conversation. >> Absolutely. And with me as always, my partner in crime,
+Justin Edwards. Uh, and the current debate is, are they donuts or are they vinyl records
+on the shirt? >> Well, color-wise, they look a lot more like donuts, but they've got
+this kind of odd pattern that's not like got a lot of doughut energy going on. So, looks
+kind of more like vinyl. I don't know. >> Could be bagels, I suppose, too. >> Could be.
+But uh anyway, this this is the pattern of the shirt of the day. So >> uh Matthew, so
+your career has taken you from leadership roles at a lot of different places, Spotify,
+Onus, uh you you've been spearheading tech innovation at deliver that obviously. So just
+the
+
+[00:02:06]
+broad strokes looking back, what was what would you say was one of or some of the
+biggest challenges early on that shaped kind of your approach to building these scalable
+uh B2B web applications? >> Yeah, so I think you know starting out in my career, I
+worked at Progressive Insurance, right? just as an entry-level software developer and um
+it's interesting to see like progressive insurance fortune 100 company I think massive
+organization they they'll say they are a tech company that also happens to sell
+insurance you get to see like that was kind of eyeopening from the very beginning like
+when you're learning in college and high school and all this stuff playing around with
+small things and then you get to see enterprise scale that was pretty eye opening for me
+but pretty quickly after that I kind of realized that it's like you I had this this
+want, this need to say, well, how do you get from 0 to one? How do you get from the
+beginning to enterprise scale, right? And it's when you just get shoved right into the
+middle of enterprise scale, there's no context for how you get there, right? I
+
+[00:03:09]
+mean, this they'd been building and building and building for years and years and years
+and massive technology teams. So I think that was pretty foundational for just me and my
+journey to say like at this moment this isn't for me right and then I was on a quest for
+trying to find that that organization that I could learn from uh to try to you know
+engineer that zero to one experience you know I I had experience at godaddy.com a life
+insurance case management platform um and eventually landed for the majority of my
+career at at Onysus and they they were in the online ordering game, restaurant
+technology game and I learned a lot from the still current CTO there, Ryan Yoner. One of
+the smartest guys. He'll he I think he gets embarrassed when I feel this, but one of the
+smartest guys I've ever met and um and it's just and just learned a lot through building
+software at Onysis, you know, and how to, you know, manage small teams and with big
+impact, right? Uh at the
+
+[00:04:13]
+time we were powering the online ordering for Applebee's, uh Outback Steakhouse,
+Kurabas, really big brands, right, that counted on platform and we were a small but
+mighty team and that was that to me kind of felt right to me that ecosystem and then you
+know so I think those were kind of the foundational things for me that really gave me
+kind of that big company experience, small company experience and trying to learn about
+building software from the ground up And finally uh with this opportunity at double matt
+I've been able to kind of execute on all those many years of of experience. >>
+Excellent. Yeah. And I definitely want to get into that justosition or that counterpoint
+of you know the large existing enterprise and and you know the small more scrappy
+startup stuff. One thing I was curious about too is just looking looking through your
+experience and some of the stuff that we had talked about when we spoke last honest you
+know you're obviously you're in the like restaurant digital ordering space for almost 10
+years then little departure into the world of music and and audio
+
+[00:05:16]
+and kind of that industry with find a way and Spotify and then coming back to the food
+service industry. So I guess my question is was there something about your experience or
+your history with food service industry that brought you back into that to to solve a
+particular problem or was that just simply you know an an opportunity and something that
+you were at least a little familiar with to to really kind of cut your teeth on a
+startup? You know, I left when I left Onysis, it I I you know, I received a great offer
+from from find a way to come be the head head of technology and lead a team at the
+moment. Felt like a good shift for me, like something that really removed me out of my
+comfort zone. Um, and it really did. You know, you spend the last you spend 10 years at
+a at a place you it's hard to not be comfortable, right? And I feel like there's just a
+little bit of magic in that being uncomfortable because it really motivates you to
+realize that you don't you know everything there but you don't know everything here. And
+it really it's really motivating. But what I learned so find away was eventually
+
+[00:06:20]
+acquired by Spotify. I find a way powered it was a B2B uh audiobook distributor right uh
+with other facets to it but that's the core component and it powered a lot of audible
+competitors effectively right and so Spotify acquired that uh to power their audiobook
+journey and as you you know you anybody can go and listen to audiobooks now on Spotify
+and the core engine behind that is the find away engine but what I learned in that whole
+experience and even just at find away at Spotify is like you know you don't know this
+until you get into it. I was managing a team of people that had been building something
+for years and my core experience was above the fold and and really like it made it was
+uncomfortable to not know how everything works, right? And so I I really like processed
+that mentally. Um and then what led me back to deliver that really was because one of
+the founders I had met while I worked at Onysis. I had 10 years of experience just not
+only developing software
+
+[00:07:23]
+announcers but the networking, the connections, the operations, the dealing with
+customers that you know rounded me out as I think a professional in the space and uh it
+was familiar but I got to do this new challenge that I've never done before which is hey
+take all of that come back kind of into the restaurant tech world and kind of build from
+scratch effectively right deliver that operating as a profitable, successful company,
+but just kind of stitching together different technologies. Um, and that that felt right
+to me at the time. So, and again, you know, Spotify, great company, great engineering
+organization, thousands of engineers all across the world, global experience, right?
+Truly global company, which is amazing. But again, similar experience kind of to the
+progressive world where it's like I'm just, you know, in the middle of this. Audiobooks
+is just a minor fraction of what Spotify is. I like impact. I like the small world and I
+feel like I can
+
+[00:08:26]
+bring a lot more to this deliver that organization just because of all the other
+experience I have in the industry. So that's kind of you know you know the you know my
+thought process through this whole thing. >> Yeah. So, when we talked about this u last
+time we were on a call, you used a used a term or a phrase that that uh I thought was
+really interesting and I wanted you to unpack a little bit for the listeners. You you
+described yourself coming coming back now into deliver that uh as founder adjacent uh
+which which I thought was a pretty unique way to kind of frame that role. Can can you
+talk a little bit about you know what that means and why why you feel founder adjacent
+uh as as opposed to you know founder or or CTO level? So, I think, you know, this is
+kind of something I, you know, I like to self-reflect a lot and thinking about what am I
+good at, what am I not, and leveraging my strengths if I can, um, and doubling down on
+those. And throughout your career, everybody learns more and more about themselves, what
+roles are good for them. Maybe they overextended themselves. You hear a lot about
+developers that become managers, and they're terrible managers. So, I think for me, what
+I just
+
+[00:09:30]
+self-realization, I've never been a founder, right? I've never founded a company. I've
+always kind of wanted to, but I think I've realized I'm just over the years just risk
+averse, right? I got wife and three kids, right? And it's like, what if this doesn't
+work? Now I've got four other people that depend on me. But I do have valuable skills,
+right? I have valuable skills and a lot of experience and I think I can help. I can be
+adjacent to those risktakers and I can help them along the way, right? And I think
+that's a perfectly valid thing to be for an individual. You don't have to be the
+founder. You can still contribute and and create a lot of success as an adjacent member.
+So the deliver that was founded, you know, many years ago, right? I'm so I'm far removed
+from that, but we're now going into a technology transformation in this company and
+that's where I can add value, right? >> Yeah. Business is absolutely a team sport and I
+think this dynamic emerges a lot of the time where uh you kind of
+
+[00:10:32]
+have people who are a little bit yin and yang kind of counterbalancing each other. Maybe
+one person is foot on the gas and the other person is saying like you know hey we got to
+mitigate risks and kind of control this thing a little bit. Has that played out in your
+experience or is that one of your your um kind of values being founder adjacent is to
+play that role a little bit more. You mentioned you're a little bit conservative. >> I
+mean I think so like you know if you talk to any you a lot of founders right you they
+just want to go go. They're willing to roll the dice. they're willing to try something
+and you know in the tech when you when you're building technology we all know right it's
+like well what about security what about compliance what about uh scalability have we
+thought about all of these things that you know we we yes we can do it however we have
+to consider the other side of the coin right so I like to play devil's advocate and I
+don't want to slow down anybody right I want to go as fast as possible too but I want to
+do it in a controlled a controlled manner Right. >> Go slow to go fast kind of
+methodology. >> Yeah, it's definitely a yin and yang though. There are times when we can
+step on the gas and there are times when it's like this is going to take a little bit
+
+[00:11:35]
+more careful approach. >> So what was your progression between kind of starting off in
+as like a software a developer and moving into increasing more and more leadership and
+management style roles? Was that a pretty natural normal progression or were there
+several big jumps kind of how did that unfold in your career? >> Yeah, so that kind of
+that whole evolution pretty much happened when I worked at Omicus. Um, I started at
+Onysis as a senior software engineer. Within a year, the company was working on selling
+to Living Social and I think the founders, there was three founders and I think they
+were ready to kind of ride off into the sunset as soon as their agreements with the
+transition period ended. So, they were looking for transition plans, right? And I think
+the combination of just the skills I brought from a technical um expertise plus just the
+the management soft skills, communication um uh and and and relationships and whatever
+you need to become a manager. I think they saw in me and they asked me if I wanted a
+management role and I said I mean I I
+
+[00:12:40]
+pretty much said yes immediately, right? cuz I felt like that's more growth, that more
+learning, more that's something new for me and I just want to keep finding that
+something new and it kind of just escalated from there. So I started managing the the
+software development team and then um through that experience now managing all of our
+vendors, right? Like you just progress it over the timeline. Now I'm I'm dealing with at
+the time you're hosted in rack space, right? Uh so managing servers, managing
+environments. So that's kind of how and then I'm doing PCI compliance which is a
+complete nightmare but and then you know but then you start well something's wrong or
+something new feature needs to be added now I'm interfacing with the customer right and
+so I'm getting more and more customer interactions and now we're visiting customers and
+now because I helped build a lot of this now I'm on the sales pitch right and so now I'm
+doing selling and now I'm I'm like the sales engineer and uh and then eventually that
+turned into like I had a title for a moment of chief operating officer as well. So I was
+actually
+
+[00:13:43]
+managing kind of a little bit of both sides of the house, right? Um I was managing our
+client success folks um which were really trying to just deliver good service to our to
+our merchant partners, right? So uh for me it was about just it's a land grab of
+experience. I'm also playing that founder adjacent kind of role here just based on my
+experience. So >> well the nature of the team too you know the the the smallalness
+that's obviously a feature uh you know of of of startups is you almost have to have
+everybody wearing multiple hats and and taking on those different roles in order to be
+successful and it's important who is actually wearing the hats uh as I'm sure that you
+all know. So how how did those conversations get started? I mean just kind of rewinding
+a little bit to the beginnings of of like a startup like deliver that you know obviously
+there's a lot of trust uh between you and the founder to even call yourself founder
+adjacent to be able to allow you these different growth opportunities certainly has to
+be a lot of trust there and and I know that that's something that gets built over time
+but how do those conversations begin you know your
+
+[00:14:46]
+founder comes to you there there is an idea you feel like you can help move the ball
+forward and it started with technology great so back to what Justin was How how do you
+become the one that can successfully get traction? Tapping the brakes a little bit and
+and focusing the attention of the founder where it needs to be to to build something
+that's successful. >> The word you use, trust, it's all about that. Okay. It's it's like
+literally 100% about trust. The founder has, you know, our founders own the majority of
+this business. They had they took small amount of capital in the beginning and pretty
+much bootstrapped it from then on out, right? So they have, you know, a huge huge skin
+in the game, right? And so in order to it's hard when you own something to say here you
+you do this, right? Instead of me do this, right? And I know I understand that challenge
+from the founder perspective, right? So it it really is about building that trust and
+that confidence that I got this, right? I know what I'm doing. You can look at all
+
+[00:15:50]
+my experience. you can talk to anybody in this industry, you should feel confident,
+right? But that takes time. And so, specifically in our scenario here at Deliver that, I
+had just stayed in touch with Aaron Hoffman, one of the founders, um, since we met at at
+Onysis. It started with some coffee here, some coffee there, just meeting and and Aaron
+just picking my brain. And at that point in time, Aaron realized right like we were
+we've capped out with the current use of technology that we have and we he knows we need
+to do something better. He was literally willing to just stop being the CT CEO and start
+being the CTO. He was just going to go teach himself how to code and which he had a
+little bit of experience in and dabbled in, but he was just going to be like, I'm just
+going to do this cuz this is what it requires. this is the new hat I'm going to wear. We
+started talking about that and I think you know uh it just conversations progressed and
+we realized that hey I
+
+[00:16:54]
+can help you at some level. I could prove myself to you and like I actually wrote an
+integration for them contracted on the side that actually semi transformed the revenue
+for the business and that's the trust right he said oh this guy can do that I couldn't
+do that that fast this guy can right so you build trust is earned over and over and over
+and over and over it's a constant thing you build up the trust and then you're able to
+have really open and candid conversations about the company right And it's just
+literally anything that matters can be said. No feelings are going to be hurt. You need
+to have that understanding early on. And if you do, you can have tough conversations
+like that. And because I had over the time here built up that trust when when I say I'm
+concerned about something, they will pump the brakes and be like, "Okay, we got to
+listen." Right? And when I say, "Let's go fast," they're like, "All right, let's go."
+Right? And so, but it is it truly is that yin and yang. It's like we want to drive pace.
+
+[00:17:59]
+We want to go faster, but we want to do it in the most careful way we possibly can.
+Right? I'm a big fan of just, you know, let's just release the MVP. Like, what's the
+minimum viable amount of work we need to do and then we'll iterate because we're going
+to learn something along the way. And so, I I really preach to our team, do not
+overengineer things, right? I don't know if it needs to scale that way yet. Like we'll
+find out. We'll, you know, we'll hit some gray areas where we're going to need to, you
+know, maybe throw in some emergency projects to scale something, right? Better than it
+be scaling now, but we don't know that we need to do that yet. So, let's not do it.
+Let's let's add value to the business incrementally. So >> that's something that we
+preach a lot too is, you know, let let your user base uh, you know, help help drive the
+innovation in the feature set rather than trying to guess what it is you think they're
+going to want, put a lot of time and effort into it, and then you find out, well, that
+wasn't so great, but here you do still have this great feature. So yeah, it's always
+nice to fill that out. So talk to me, you you
+
+[00:19:01]
+mentioned you mentioned your team several times. Um, you know, presumably you did not
+just, you know, land on having a team of engineers and and, you know, marketing people,
+sales people. Well, talk to me just a little bit about uh how you how you approached
+building this team. Was was the idea, you know, engineers first because we want to be
+able to have a solid foundation. Was it was it marketing first so that we could kind of
+get out there, you know, with that MVP and start gathering information? How how do you
+go about building that solid base of a team? You can't overextend yourself. You have to
+the multiple hats things becomes really important. The first people you hire become
+really important. So it started off effectively as I'm joining the team and inheriting a
+junior developer, right? So right off the bat, we don't have senior outside of myself,
+senior development skills. So I'm mentoring all good. Uh Tristan was a is a very good
+learner, very eager learner. And he was I think quintessential what you want as a junior
+developer, somebody hungry, willing to put in the effort, willing to learn and whatever.
+So that was great for the team, right? and he had so much
+
+[00:20:04]
+business knowledge cuz he used to be a dispatcher in the company and everything. So he
+rounded out like the business uh knowledge of our of our team and then it's about as we
+need to do more I'm thinking about first you know a senior developer right I just need
+somebody with full stack experience uh and let me back up one second the technology we
+chose was NodeJS I know there was previous uh podcast episodes throwing shade around on
+around NodeJS but I'm a And >> I didn't realize that I had been public about my disdain
+for Noode.js. I thought that that was >> it's in a podcast. I'll s I'm just raising my
+hand to defend. >> I actually don't hate Node.js. Uh I I dislike when people go into uh
+when they need a relational database. I don't know if you have a take on that. >> Yeah.
+Yeah. I mean I do. So I'll I'll I'll get So we're using Node.js, but I didn't I don't
+like JavaScript per se. I don't know how you can say I like If you'd like JavaScript, I
+think you have a problem. I like TypeScript. Typescript is tries to make Java. It's all
+
+[00:21:06]
+JavaScript underneath, but but the usage of the language, the strongly typed kind of
+gets it closer to a a more uh powerful modern language in my mind. >> Yeah, the Angular
+way of doing things right now, like at least for my limited capacity intellectually is
+the most sensible way to do JavaScript, all these components and how it's organized
+makes sense to to my brain and uh having TypeScript on top of that to enforce some order
+on the crazy mess that's JavaScript is uh is fantastic. Obviously, that's front end, not
+back end, but anyway. >> Right. But I mean, but similar like the whole point is I wanted
+a full like I'm trying to find what's the most economical way to do this considering we
+have to grow profitably and and whatnot. So let's find full stack developers. Okay, so
+let me think about the platform, right? Okay, if I can find people that can do
+Typescript well on the back end and also dabble on React uh and in the future React
+Native on the front end and by the way and and this is I'll get into and so we use
+Postgress relational database. So yes, I like I'm I'm on the same page as you there. Uh
+I come from a bag, you know, every
+
+[00:22:11]
+enterprise platform I'm have ever used is using a relational database kind of behind the
+scenes and then you you sprinkle in your your document NoSQL type databases for very
+specific other use cases around your platform. I feel like we're dealing with
+transactional data like I need I need a relational database. >> Most people do actually.
+It's it's actually the right answer for 95 99 plus percentage of use cases. >> And
+that's actually a question I ask and every time I interview somebody, I ask give them
+your thoughts on versus, you know, relational database. Pick your flavor, right? Um, and
+just kind of just see what they say and see how their thought process works, right? All
+right. So, where was I? Uh, so anyways, trying to build a team, right? And then the next
+hire for me was uh a director of product, somebody I used to work with, his name is Matt
+Pvco at the at at Onysis and he just brings a lot of organization, right? Cuz once now
+you got a bunch of developers and now you have a bunch of work and now you need a bunch
+of requirements and it's like
+
+[00:23:13]
+who's writing all the requirements and who's making sure that we're doing the right
+thing and that it actually what we said we wanted it to do. >> Prioritization at that
+stage all the >> crazy hard. Mhm. So we needed more on that effort, right? So now that
+became our team of four and then it just kind of like more developers, more developers,
+more developers. And eventually I got to the point where I said like I can't do the
+above the fold work as a CTO and do the in the weeds work as as the management at the
+same time. Like the context switching for me is to some people can do that. And so
+that's when I said, "Okay, I need another I need somebody to help me manage the devs."
+Right? >> You sure you're familiar with with Paul Graham's kind of model on this, which
+is maker time and manager time. And for those of us who tend to have a day that's split
+up into 30-minute increments or 1 hour increments, you can't get any real work done in
+that amount of time. So switching between is is horrific. >> Yeah. And there was this
+period of time that I would just literally block out my calendar for the first five
+hours of the day. And I said, "Standup starts at 100 pm, right?" I mean it's like and I
+need
+
+[00:24:16]
+the and every and then after standup you can go ahead and load me up with meetings but
+before that I need a code cuz we need to get stuff out we need to ship it. So I needed
+that focus time and it was actually like got agreement from the founders and everything.
+That's what's beautiful when you can explain the problems to your founder and your
+founder understands what what's going on. Really run interference for you. Right. >>
+That's a beautiful beautiful trick. And uh for for anyone listening who is struggling
+with maker manager time if you can identify chunks of your day and then get buyin from
+management and and from your team to keep those sacred for you. It's a really good way
+to solve that problem. >> Yeah, they talk. So I did this one. Um I I'll talk a about a
+quick exercise that I when I started at at uh the company that I made everybody, you
+know, in the leadership team do, right? And it's really simple. I learned this from a a
+scrum class about context switching. It's really take, you know, there's four names on
+the screen and they all are fourletter names. It's like Adam, Aaron, Mary, whatever,
+right? And just okay, now write those names, but switch between one letter at a time
+between
+
+[00:25:21]
+each name. So, write the M for Mary, write the E for Aaron, write the A for Adam, and
+then see how long it takes you to write all four names down. Okay, next slide. Four new
+names, same, you know, same size words, whatever. Now, try to write them in sequence,
+one name after another. See how fast you can get it done. And it's a sign, it's just a
+microcosm of context switching, right? You can get the four names if you do them all one
+at a time done really fast, seconds. And the other one, it's like three, four times as
+long to like, oh, I got to think about the next letter and I got to write that in. I got
+to think about the next letter and I got to write that in. And I it just it's just a
+microcosm for what focus powers, right? Look how fast I can go if I'm focused on one
+thing for hours on a time. Um, and I think that exercise really clicked. I try to do
+that exercise for anybody unfamiliar to really explain why it's important to to bring
+focus element team. So I don't know if I got through all the all the building of a team
+but we're we're right now we are um a team
+
+[00:26:24]
+of nine. We do have a lot of uh another facet of this is we hired uh a good portion of
+our most of our development team is actually in Brazil. Similar time zone we can all
+work similar hours. everybody's working remotely and so that's I mean that's obviously
+another facet of building a team and like knowing that is this is going to be a remote
+first work force for the uh for the tech team and um dealing with the dynamics of that.
+So you just got to really think about that from the ground up. >> Yeah. Could you speak
+to uh communication uh working with working with folks who are potentially not not
+native English speakers? >> Yeah. So that's obviously if I'm counting on an individual
+and we're a small team that needs to interface with you need to wear all those hats,
+you're going to need to talk to people in the operations team and the sales team,
+whatever. Uh that was a pretty necessary requirement on my side when I was interviewing
+to make sure they could speak good English, right? So I just there was it was required
+in this role
+
+[00:27:27]
+to be able to English. So, >> do you do anything like on an ongoing basis though to uh
+be extra supportive or extra communicative with folks who are not n not native English
+speakers? >> Yeah. So, like we do have some that are a handful of our team. We have like
+some really good ones and they they can speak really good English and some that are
+still, you know, I would say they're fluent but still grasping the um the nuances of the
+English. What I think what I think has been helpful for our team is when we do standups
+and everything especially in the early days there was a lot of the like part of the
+standup was not like hey give me your status whatever but then like we're just here as
+people communicating with each other getting more comfortable with each other and it
+ended up turning into a lot of like cultural nuance between Portuguese and Brazilian
+culture and English and in the United States culture, right? And so like oftentimes
+you'd say a phrase and then you'd think, "Oh crap, they
+
+[00:28:30]
+probably have no idea what that means." We >> you know, some something that's unique to
+us and then but then you get to go pick it apart and explain it to them and then they'll
+do the same thing, right? And so it's this beautiful uh cultural experience in my mind
+that you get to just ex in a safe manner expose your culture and they're exposing their
+culture and it's making us a tighter group along the way and I think that is helping
+there's they're having to they a couple of them have admitted that it's like they're
+fried at the end of the day because they're not used to speaking English all day.
+They're used to speaking Portuguese all day. So like having to sit here and focus on
+English all day long is actually mentally draining, right? And so you acknowledge all
+these things and you're like, "Oh yeah, I guess I never really thought about that cuz I
+actually don't speak Portuguese." We also got to go down in October last year, but we
+brought everybody on our team and went down to Brazil and got everybody together in Rio.
+Just just really like this is the first time we'd been working with
+
+[00:29:33]
+everybody for a while. Never met in person, you know. We stayed right on Copa Cabana
+Beach and just I felt like I had to advocate for that for the founders. I'm like this is
+going to cost a lot of money but this is going to be important for the team. Like we're
+trying to build bonds here and we're trying to make sure that we can all trust each
+other. We're all counting on each other and we're going to build big things together.
+And I think you know as much as we're a remote team and that's cool like there's nothing
+like the human you know face to face contact. >> Absolutely. I am all smiles here, man,
+cuz that's I'm aside from it being a big part of the role that I that I play in our in
+our business. It's just it's something that I have always felt is just of critical
+importance. I mean, it's one thing to be very good at what it is that you do and and be
+oriented and process driven and and task motivated and things along those lines, but I I
+feel it's at the very least equally, if not more important for for the sake of building
+a strong team uh and a resilient team and and some, you know, this this trust that we've
+talked about through the podcast here. It's critical that you know who it is that's on
+your team, what's important to them. And and it could be goofy stuff, fun
+
+[00:30:36]
+stuff, you know, movies that you like, stories that you tell, or or to your point, you
+know, the cultural nuances that have to get explained because a lot of times it even
+makes the person explaining them think about it in a different way, too. And and you
+know, that in that in-person meeting, which of course, you know, co kind of just crushed
+for the longest time. you know, getting to know the person uh on the ground face to
+face, not across a vidc screen is is so important in my mind to building teams that that
+can scale and and that do rely on each other and and provide that support. So, I'm
+really really excited to hear always hear that sort of thing, those sorts of stories. I
+really enjoy those. >> Yeah, I mean, it was a great experience. Um, and we try to do
+like, you know, a little bit of 50/50 where it's like, hey, well, we're in Brazil. Like
+I want to go see Sugarloaf Mountain and the Christ the Redeemer statue and you know go
+to the beach and but like this is a work trip. So like we have to have to you have to
+build that balance here, right? But like who's planning it? >> No one but us, right? So
+it's like I don't know. We don't have an event
+
+[00:31:38]
+coordinator or anything like that. So it's add that onto the hat, right? Event planner,
+right? Like but you know that's just what happens in small teams. And I think it's
+there's there's some there's a lot of fun in in having to take on just some of this
+random odd work that's just not really falling into your purview. >> Kind of a kind of a
+fun anecdote. I spend a lot of time in Mexico and I work with people who speak fluent
+English a lot. But I was uh texting with somebody uh who was working with me on
+something and I said, "Okay, Roger." And he responded, "No, no, this is Eduardo." It's
+like, "Oh, cuz why would I expect that you would know that even though you speak fluent
+English, right? I mean, he spoke perfectly fluent English, but it's just those little
+tiny nuances are are so funny and and and they're they're they're fun to experience
+together and then learn from each other as well. >> So, they that's just it's just so
+fun. It's just and I think it's hard to say like how do you put a number on that for the
+what is that worth to the business? Like I I can't put a number on it, right? I just
+can't I just It's a feeling. It's a gut. It's a you can see
+
+[00:32:40]
+it and you can sense it after the fact. Everybody was so energized on the team just
+coming out of that trip and everybody was like refocused and ready to go. >> But it
+shows up it shows up in weird ways like we don't have turnover. It's hard to put a
+number on the turnover that we didn't have. It's hard to put, you know, our team members
+are happy and they they, you know, are focused and try to do a good job at work and
+they're proactive about bringing up problems and trying to collaborate to solve. Like
+you can't tag a number to that. But when team members are engaged and happy and like one
+another, the intangibles are well, when they're not around you, you notice them and they
+show up in numbers, but when they're there, they're pretty invisible. >> Yeah. And I
+don't want to jinx anything here by recording this as for wordings on the podcast here,
+but like I haven't had any turnover at deliver that. Like no one is on my team has right
+now. It's small small sample size. We're talking about nine total people, but but you
+know, I I feel proud of that. So, and I think it's and to your point, part of it is, you
+know, I think that's a good stat to lean on to say, well, is anybody left
+
+[00:33:43]
+and are we still delivering value to the company and are we getting are we accomplishing
+our milestones and whatnot? Yeah. Well, there's value there. >> Exactly. So, Matthew,
+um, last thing for me, uh, just looking looking ahead, deliver that or or something
+else. uh you know we've we've had a number of guests and and a lot of chatter of course
+in the industry things moving into the space of AI uh microervices higher level and
+higher degrees of integration so so what's next for deliver that any anything in that
+space or something else >> yeah so we do talk a lot about AI I mean I feel like how
+could you not it's everywhere shoved in your face and everything right my general take
+our platform just the technology is still very infant right I mean we've been just been
+building it for the last two and a half years and there's still some foundation
+additional things that like we need to complete. We're working on a very big project
+right now uh related to that and then the balance like the second half of this year is
+going to be feature sets for our customer base right and it's going to really focus on
+on
+
+[00:34:47]
+that right and I would say going into 20 26 that's when it's more about collecting the
+data AI is useless without a good foundational data set right and we we do collect a ton
+of data and we could collect a lot more, right? Are we leveraging the data the way we
+need to right now? No, absolutely not. And I do think there's some really good use cases
+for in in deliver that world for AI around I'm going to say more machine learning than
+AI matchmaking jobs to drivers, right? like actually just given your the the metro that
+you're in, the jobs that are coming in in this metro and the driver pool that you have
+and all the stats related to these drivers and all the all of the, you know, stats
+related to the job. How much does it cost? Like, does this driver have the right
+equipment? We do catering delivery. If this is a $2,000 delivery, like, can you deliver
+that in a Toyota Corolla? Probably not. Um, >> not unless it's caviar, >> right? So
+yeah, so like all of the the
+
+[00:35:51]
+that's to me a machine learning model, right? And but where the the AI piece comes in to
+me is really like I feel like the support element, right? Where it's like where's my
+delivery? Somebody calls on the phone, where's my delivery? It's like, yeah, I can have
+a conversation with you about it. Uh you know, listen to you query whatever it needs to
+do the data set and really help scale our support. I think there's some use cases there.
+Everybody on our team uses cursor for development. Um kind of like AI assist
+development. You know, I've been looking for ways to try to figure out how do we
+shortcut some of the UI development because I think the server side architecture is a
+much more complicated ecosystem to work in than kind of the front-end components. Can we
+build an ecosystem where we could, you know, work more manually on the back end and
+create APIs and have the front end generated for us? Right? Those are the things from
+like from a efficiency standpoint, false force multiplier standpoint that that we're
+looking into and it's just kind of like give a budget
+
+[00:36:53]
+to the team. You want to try a tool, try it just and report back like this is a a
+retrospective thing. Is it working for you? Is it not? Uh so we actually host
+retrospectives on our team every month. We just talk about what's working, what's not
+working. And actually the last retrospective was completely around like are we doing
+enough with AI? Should we try something different? Are we how's everybody's cursor
+experience? What can you maximize? How can you get better usage out of it? So that's
+kind of our AI ML take has its hands right now. >> Well, Matthew, this has been
+extremely informative. Uh thank you so much for sharing your time and your talents with
+us. Uh we've been talking with Matthew Benzel, who's the CTO of Deliver that. Uh
+Matthew, where and how can people reach you? Uh, I would say the best place just I'm on
+LinkedIn. So find me on LinkedIn, chief technology officer at deliver that you'll find
+me. So feel free to connect. >> Hey Matthew, it's been a fantastic pleasure and we'll
+have to have you back on to go a couple rounds about Node.js. >> Yes, >> give it a
+couple months. Uh, >> so yeah, appreciate you guys having me
+
+[00:37:57]
+on. >> The throw is there. Justin, thank you my friend. >> Uh, special thanks as always
+to our listeners. If you like what you're hearing, have ideas for the show, or just want
+to tell us what's on your mind, throw a review our way, uh, hit that subscribe button if
+you are inclined, and we'll see you all next time on SAS that app. Thanks for cruising
+along with us on SAS That App. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to subscribe
+and leave a review. Until next time, keep building, keep growing, and keep those apps
+sassy.

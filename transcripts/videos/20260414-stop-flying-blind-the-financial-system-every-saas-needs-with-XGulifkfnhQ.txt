@@ -1,0 +1,670 @@
+Stop Flying Blind: The Financial System Every SaaS Needs with Anthony Nitsos
+============================================================================
+
+Video ID:  XGulifkfnhQ
+URL:       https://www.youtube.com/watch?v=XGulifkfnhQ
+Published: 2026-04-14
+Duration:  00:42:19
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Startups are not the place for on-the-job training. You don't hire green and
+inexperienced people because we need people who have been doing this for a long time to
+come in. Our clients aren't paying us to experiment, they're paying us to execute. We
+don't have time and we don't have cash. Welcome to SaaS That App, building B2B web
+applications. The podcast where we share real-world stories, practical advice, and tech
+insights for those building or thinking about starting a tech-enabled business. I am
+your co-host, Aaron Marshbanks. And I'm Justin Edwards. Each week we bring you the
+stories, strategies, and insights you need to build your SaaS or tech-enabled business
+smarter, not harder. Let's dive right in. Hello everybody and welcome back to SaaS That
+App. Hope everybody is having a terrific day as I know Justin is now having less of one
+cuz he had to turn his air conditioning off. How's it going, Justin? Hey, I'm doing
+well. The air conditioning is off and you're not going to believe this, but I had to put
+on a jacket. I traveled to this place called Cincinnati over the weekend and I don't
+know if you know this, but they have winter there. So it gets really cold at one point
+during the year. I had no idea. So strange, but I took the
+
+[00:01:03]
+jacket off and put it back in the closet. I'm back in shorts. The AC's off for now, but
+we're good. How are you doing? I'm doing better today actually because we had a
+gorgeous, finally spring, actual spring day, not like fool's spring or second spring
+that falls in between second and third winter, but it was beautiful today. So I had a
+very lovely run this morning and I'm very happy with the weather and I'll take it all
+year round. Perfect. Also joining us today, as you might see on the big screen here, we
+are excited to welcome Anthony Nitsos, who is founder and the lead guru at SaaS Gurus,
+where he helps post-revenue SaaS startups build stronger financial systems and scale
+with confidence. Anthony has spent decades working at the intersection of finance,
+operations, and technology, including leadership roles at companies like Duo Security,
+Llamasoft. Both of those grew rapidly and were ultimately acquired from multi-billion
+dollar exits. Through SaaS Gurus though, Anthony has developed the FinCore methodology,
+helping SaaS founders transform finance from a reporting function into a strategic
+system that supports growth, improves valuations, reduces anxiety, and all of that good
+stuff. He also is at the
+
+[00:02:07]
+forefront of being a fractional CTO. So, we're going to get into all of that today.
+Anthony, welcome to the show. Thank you. I'm so happy to be on. And yes, I'm in Ann
+Arbor. It's cold. Still, yes, it hasn't crept quite into spring there. Yeah, we just
+broke free of the cold. Although, hey, the Wolverines are in the Sweet 16, so we'll see.
+Actually, both the men and the women's basketball teams are in the Sweet 16, so. Yes,
+congrats on that. We did not survive the first round, unfortunately, but you know, we
+made a trip this year, so I'll take it. That's all right. So, Anthony, always the
+hardest question and the first one right out of the shoot is you did not start where you
+have finished. So, how did you get your beginnings here and how did you wind up where
+you're at? You're right. I started off in human medicine of all things. Michael Crichton
+of Jurassic Park fame and I are both medical school dropouts, although he made a lot
+more money, I think, selling books and doing movies than I certainly am doing this
+stuff. How I ended up here is a long and circuitous path that goes through many
+different branches, but you know, what do you do when you're a medical school dropout?
+Well, you're in Michigan, you were in medicine, and there's
+
+[00:03:09]
+manufacturing. So, I guess because they all started with M, I ended up in manufacturing.
+Which, yeah, okay, I'm making a joke out of it, but the parallels between a
+manufacturing organization and a human body and its systems interconnectivity are
+legion. They're many. And so, I was able to take a lot of the training that I got in
+medical school and turn that into basically process reengineering and manufacturing
+optimization. And so, I spent a number of years doing that. And then, I decided, you
+know what, I'm tired of working in factories. You know, I It's fun, don't get me wrong.
+It's kind of cool to wake up at 4:00 in the morning and deal with some jerk on the
+forklift, you know, that just makes my day. But anyway, long and short, in the meantime,
+I was also getting some accounting jobs because my dad, God rest his soul, has said, you
+know, if nothing else, be a professional, they always have work. And since I didn't want
+to be a doctor, I figured, you know what, being an accountant, that's a profession.
+Yeah, I should be able to find some work. Besides, there's a lot of stuff that's going
+on in the accounting side of this company that I don't understand that would be really
+helpful. So, with that combined accounting knowledge and manufacturing
+
+[00:04:13]
+knowledge, the ERP implementers found me. So, this is back before Y2K when everybody and
+their brother and sister was trying to figure out whether their code was going to blow
+up. And as one of the paths they would take is to go out buy, you know, SAP or JD
+Edwards or Baan or any of the other ERP systems that existed back then, and they were
+desperate for people that understood manufacturing and accounting. And I did both. So,
+that's what I did for a number of years was, you know, IT ERP implementations. And
+that's really where the true systems integration came into play was, you've got to deal
+with manufacturing, you got to deal with engineering, you got to deal with finance, you
+got to deal with procurement, you got to deal with HR, you got to deal with accounting,
+you got to deal with all these in one single database. How do you do that and get them
+all to talk to each other without pulling the knives out? And that's where the ERP
+implementers really, you know, made their money and their worth was like figuring out,
+okay, how do we really take what were used to be these siloed systems and bring them all
+into one. But then, 2000 comes along. And about a year before the year 2000 comes
+
+[00:05:16]
+along, the sales in the ERP market start doing this. And they did that because back
+then, you had to spend millions of dollars with on-premise hardware, you had to have
+teams of people on-premise working on these things. It was a long lead time to get these
+systems up and running. It's not like NetSuite and Nintex today where you can get them
+up and running very quickly. Back then, it was like months to years to get these
+systems. And so, the sales were falling off, the projects were falling off. You were
+either had your ERP or you were screwed, or you figured out how to fix your own system.
+So, this is one of my first learning experiences is 2 days before Thanksgiving in the
+year, you know, 2000, I get a phone call that my services would no longer be required
+after the end of the year. And I'm like, you couldn't have waited until after Christmas
+to tell me that. You had to fire me before Thanksgiving. It's like you large corporation
+typical jerks. And by the way, I warned them. I said this was coming. You should get us
+all retrained in supply chain optimization software, which was becoming a big thing back
+then. Speaking of Llamasoft. And they just ignored it. So, they let an
+
+[00:06:19]
+entire practice with probably, I don't know, two or three centuries worth of
+implementation experience just poof in the wind. I never understood large corporations.
+It also informed me that I didn't really want to work for large corporations anymore
+because in some cases they have such blinders on. Like, if you're not right in this
+channel. Yeah, you're not alone in that. Yeah. So, after that, I became my very first
+accounting job, actual accounting job. I got hired into the controller of a Japanese
+subsidiary in Michigan. One of my other trips, you know, had been to Japan. I actually
+spoke the language. I knew somewhat of the culture. And so, with my ERP chops, my
+accounting chops, and some Japanese in the background, they said, "Okay, we're going to
+make you controller of this company." And this was my first scale. We had started off at
+5 million in revenue and ended up at 50 million in 3 years. And they needed somebody to
+come in and build all the systems, the financial core that was going to be needed to
+build that scale. And back then, a lot of it was still on-premise hardware and software.
+But, they pretty
+
+[00:07:22]
+much said, "We're going to move from this building to this building. It's brand new,
+wide open, complete four building in a greenfield implementation. You're in control of
+everything information-wise. Make it work." I'm like, right? I get to design from
+greenfield my own IT system for all the accounting and finance. It was great. I had free
+reign. We implemented, we got everything done so it was automated. We had barcode
+readers on just about everything. All the data was feeding into the system. And by year
+three, I had nothing to do. I was >> bored out of my in mind, right? I don't want to say
+it out loud. I know you guys can edit it. But we got to the point I'm not lying,
+literally. We got to the point where that big growth spurt was happening all in one year
+cuz long term contracts in automotive is how it works. So you know you're going to be
+scaling, but then it's all hits at once. Everybody else was running around with their
+hair on fire, blood on the floor, people quitting left, right, and center because the
+volume was scaling so fast. The accounting and finance team were all
+
+[00:08:23]
+sitting there watching it. We're like We're done. Yeah, I got everything running. It's
+like we're all like, "Oh, you need some help with that?" I was out there helping packing
+crates at one point. Because I had It was like nothing else for me to do. I might as
+well pitch in, right? And besides, I had worked in manufacturing before, so it's not
+like I don't know how to run a forklift. I still had my forklift license, right? So
+like, "Hey, I'm out there." What's the controller doing on the shop floor? He's like,
+"Working." That's fantastic. >> Stuff I did at work. But, you know, when things settled
+down, I was bored out of my mind. I really was. I mean, I could still be there at that
+job, I'm sure, drawing a nice salary to do nothing but read the Wall Street Journal and
+walk out and break things so I'd have something to fix. But, being who I am, I you know,
+I got to that point and I maxed it and I said, "You know what? It's time for me to do
+something else." And I can't go completely in a brand new field, right? I need to do
+something adjacent. And so I started looking at finance. And, you know, for any of your
+listeners out there, finance is not accounting. Accounting is not finance.
+
+[00:09:27]
+They are not the same thing. Accounting is rearward-looking. It looks at history. It
+accounts for and measures what has happened. Finance, by its nature, is predictive. It's
+looking to the future to say, here's what's going to happen and it's also really
+involved in structuring of corporations and financing and you know, the money coming in
+to fund all this stuff. So, I was looking at that and I said, you know, these finance
+guys are making a lot of money doing that. I know how to do accounting and ERP and
+manufacturing and all that. I bet I could do finance. So, I rented my house, got my cat
+fixed up so that he could come with me to the UK and I landed in Scotland at the
+University of St. Andrews to pick up a master's degree in finance. Couple of reasons for
+that. One, it's fast. You can get a master's degree in 1 year and it's a really great
+college. By the way, Adam Smith, who you remember Adam Smith, he's the guy that wrote
+The Wealth of Nations, kind of invented economics. His house is like two straight steps
+down from St. Andrews. So, the Scots really know finance and it was a great program. Was
+it hard getting a degree in a foreign language? Yeah, you're right.
+
+[00:10:32]
+Your listeners didn't hear the earlier conversation we had people who speak Scottish.
+Yeah, and by the way, don't ever say Scotland's part of England. You will they will not
+find your body. Oh, yeah, no. Oh, no. >> No, no, no. I know that much. The Scots are the
+are the Scots, right? And they pride themselves on the fact that they have never been
+successfully conquered. And people are well, Great Britain conquered them. I said, no.
+Actually, that would be King James who became King James the first and the fifth or
+whatever who actually was the King of Scotland who became the King of England. So, no.
+Technically, Scotland has never been Anyway, I digress. I learned that in Scotland, by
+the way. >> I'll bet you did. Yeah, I bet I did, right? Hence, where the King James
+Bible came from. It's that trick. >> yeah. Real quick, this episode is brought to you by
+Delta Systems, which is what Aaron and I do when we're not talking through microphones
+to you, the people of the internet. We've got a really, really great software team here
+and we love to work with cool people on cool projects. So, So sounds like you and you've
+got a problem or you're in some kind of a jam, go to deltasystems.com, grab a time with
+us, we can beat up on
+
+[00:11:36]
+your problem together and if there's a fit there, amazing, we'll help you out. So
+deltasystems.com, grab an appointment and hey, maybe we can work together. Anyway, so I
+finished Scotland, came back to the United States and that's when the fractional career
+really began. So I partnered up with a guy who already had a practice going and we hit
+the ground running with fractional work and you name it, yoga studios, you know, lawn
+care services, small manufacturing companies, it didn't matter. And I was in my element
+because I loved doing that kind of work. I got to see all these different corporations
+and companies and deal with all these CEOs. And then in 2007, we got our first SaaS
+client. And this is before anybody knew what SaaS meant. I didn't even know what the
+term was. It's like, what's SaaS, right? This whole idea of a subscription for software
+and prepaid services and all that and having to reorient our models in terms of how we
+account for this and how we plan working capital for it. That all started back in '07.
+And so fast forward to about 2015, I was
+
+[00:12:39]
+recruited by Duo Security to come in and work for their CFO to basically run the entire
+back office shop for him so he could focus on strategic stuff and that was the first
+unicorn that I worked on. And then right around when that exit happened, I moved over to
+Llamasoft, worked for their CFO basically doing the same thing. And then in 2020, when
+literally I had COVID and COVID was I didn't know it. I had it at the time and COVID was
+starting, that's when I founded SaaS Gurus. Where we do nothing but focus on SaaS
+companies, fractional CFO work on down to the HR benefits and admin, payroll,
+bookkeeping and every stopping between. So there is the long sad story of how I ended up
+from medicine to becoming the doctor of dollars for multiple SaaS startups. That's
+fantastic. I should write a book on that. You should. >> That's amazing. I have people
+calling me all the time saying, "We we want you to write a book." And I'm like, "Oh, why
+why do I need a book, right? Is that something people do now?" Yeah, it's a
+
+[00:13:41]
+huge it's a huge ego piece. You could be an author, too. >> Yeah, my ego's big enough. I
+don't need anything more. Well, I guess tell me a little bit more specifically about
+kind of your work with SaaS Gurus and like who you engage with, what you like to do for
+your clients, and like how does that go? Absolutely. Our clients are actually pre-
+revenue. We don't engage just with post-revenue. We do a lot of pre-revenue work. So,
+pre-revenue usually up to about the B round of investment when they have the money to
+afford a full-time CFO. That's our sweet spot. We deal directly with the CEOs and
+founders, or at least I do. I have an entire team of people that I do the strategic
+finance work. I spend a lot of my time on cash forecasting. That's probably 80% of my
+time specifically is spent as the chief financial officer. It should be called cash flow
+oracle is what that really should stand for. Forecasting cash balances because if you're
+a bootstrapper, you need to know how much working capital you're going to have available
+to reinvest back into the business and pay yourself. And if you're venture-backed, you
+need to know how long your runway is so that you know when you need to go for the next
+round
+
+[00:14:43]
+of investment or where your break-even point is so that you can say, "Hey, we don't need
+any outsiders anymore. We can fly this plane on its own." So, that's the level of work
+that I do. Then I have an entire team that handles everything from the FP&A, financial
+planning and analysis, the controller work, the bookkeeping, the HR, the payroll, all
+that stuff. So, we're really a back office team with the CFO at the head and everything
+else supporting that. I want to kind of taper that and also simultaneously back up to
+something that you had said, which I really like that, you know, accounting being rear-
+looking and finance being predictive. And that aligns very much with other things that I
+have read about you and from you about transforming finance kind of into a more like a
+strategic asset instead of just a reporting utility or reporting function. So, I'm
+curious, what does that actually look like inside of a growing SaaS company? So, what
+that looks like is So, typical example client we're onboarding right now. The first
+thing we need to do is fix their current systems. And by fix their current systems, that
+means if you're a SaaS company, you need to know about five key things. You need to know
+
+[00:15:47]
+obviously what your sales growth is. You need to know what your net revenue is, like
+your churn, your contraction, your expansion. Those are two really critical top-line
+measures. Below that, you need to know what your gross margin is. That's a hugely
+important number for a SaaS company. And being able to classify that correctly, that
+comes from your accounting system, right? Some people like, "Does that belong in cost of
+goods sold or not?" Those kinds of questions that people who did not grow up to be
+accountants, which I didn't, I do have a CPA. I'm Anthony. I'm a recovering CPA, is what
+I like to say. I do have that CPA. I also have a CMA. And I also, you know, I'm a CFO.
+So, I've got all the Cs necessary for money and a few degrees to go along with it. But
+that being able to understand what your CAC is, your cost to acquire a customer, that
+means that your accounting system has to report those marketing and sales dollars
+correctly and other things that go along with it. So, that's kind of like if you've ever
+done yoga or a martial art, having a really strong core is key to success in that. Same
+thing for your finance system, your accounting system has to show financial reports that
+are SaaS
+
+[00:16:50]
+compliant. So, that you can benchmark yourself, so that you have the illumination on
+what's going on to say, "Oh, we're spending way too much money to acquire customers. We
+didn't know that." Or our gross margin really sucks, you know, we need to improve our
+hosting costs or we need to cut down on the open AI bill or whatever it happens to be in
+order to get, you know, the gross margin back up. Or we need to raise prices, right? So,
+what fixing that finance core does is illuminate. That's the biggest thing that it does
+is it shows suddenly a light on every aspect of the organization as a SaaS company that
+you as a CEO need to pay attention to and say, "Oh, we have a problem here. We didn't
+know about that." Or, "We're doing great at that. Let's do more of that." Right? Can be
+both sides. But, after that first initial cleanup of the accounting system, usually the
+meeting is, "Wow, I didn't know that." is a very common answer. It's like, "Oh, I really
+didn't know that." From there, we build all of course all of the SaaS metrics that come
+out of it, the ones I was just talking about before, but more important to me is that
+gives us the basis for the forecasting tool. I need a good strong history to know what
+has been going on
+
+[00:17:54]
+and conversations with the executive team to know what's going to happen and marry those
+two together to come up with that forecast and we call it the financial model. And the
+financial model does two things for us. It shows us what our P&L's going to look like
+out to whatever time frame is and it shows us what our cash balances at the end of each
+month are going to be. And so, that is like you're flying an airplane without any
+instruments in the clouds and you're hoping that you're above the ground. You think
+you're doing fine. You don't know exactly how fast you're going, but you're in the air.
+Now, all of a sudden, we're going to give you an instrument panel and we're going to
+give you the radar and we're going to give you all the pieces that you need to know in
+order to know how the plane is flying and operating, but more important, where you're
+headed and whether you're high enough off the ground to stay out of trouble. And that
+high enough off the ground to stay out of trouble is called your cash balance because,
+baby, you can't spend that income. You can only spend cash. That came from one of my
+professors way back when and I embraced that fully. It's like, "Okay, if you're a SaaS
+company and you're getting prepaid for all your subscriptions,
+
+[00:18:57]
+that's your cash flow coming in. That's different from how you recognize it for income,
+right? That's the GAAP revenue thing." But, those two are not the same thing and I can't
+tell you how many clients have come back to me and said, "Man, I'm glad that we forecast
+cash separately from the income statement cuz you're right, the two are not necessarily
+the same thing. And I said, "No, they never are." There's always this timing difference.
+So, financial statements, those are great, those are useful. That's accounting, that's
+financial reporting. But, marrying that up to a forecast that actually works and shows
+your cash balances going forward, that's what you need to run your company. I don't care
+what business you're in. It doesn't matter if it's software or retail or manufacturing
+or services, it doesn't matter. You need to know where your cash is heading because you
+want to stay out of trouble. So, you mentioned that you work with folks that are pre-
+revenue as well as getting pretty big to where they're going to actually bring on a
+finance person full-time. What advice do you give to folks that are pre-revenue or maybe
+have one or two customers, aren't really sure if they have product market fit? When you
+can calculate these numbers, but in the situation where you don't have a lot of
+
+[00:19:59]
+data, it's kind of like maybe they're not so useful or there's not a lot of signal
+there. Like, how do you coach folks in that position? So, actually the go-to-market
+strategy and tactics are the most common failure points when it comes to startups,
+right? Now, there's kind of two different groups of founders that I think address this
+in different manners. There's the bootstrappers. The bootstrappers tend to be industry
+insiders. It's not if I tend to be, they are. They're industry insiders who say, "I see
+a need for a product. I work in this market. I know the players. I know how the market
+works. I know the sales cycle. I know all that stuff." Because, you know, maybe they're
+an account executive or an executive of some kind, but they know the industry from the
+inside. And they say, "You know what? Wouldn't it be great if we had a product that did
+this?" And so, they go out and they hire a dev team or whatever or they find a friend
+who's willing to do it on speculation and equity. But, they come up with a product and
+then they already know what their go-to-market is because they're in the market. That
+tends to be the bootstrap group. The VC-backed group tends to be engineering types or
+inventor types who've come up with a
+
+[00:21:02]
+really cool AI solution or software solution says, "I bet people will buy this, right?
+Difference, right? I know people will buy this, that's your insider bootstrappers, to I
+bet people will buy this, that's kind of your VC backed. And they convince VCs to invest
+in them. You know, say, yeah, I bet there's a market for that, too. And so you develop a
+prototype, you get a little bit of sales, you find out there is some product market fit,
+but then you got to get to the phase where it's like, okay, is there really a product
+market fit, and more important, does it stick? Right? When I sell it, do they keep it?
+And so that transition point from like the pre-revenue to what I call prototype revenue
+to proof of concept to actual traction, that kind of progression, that's where the VC
+market really plays its high risk, right? Because you're there trying to figure that
+out. I can't tell you what your product market fit is. I can't tell you what your go-to-
+market is, because I'm on the finance side of things. I'm not the product person. I can
+look at it and say, hey, that's cool, right? I bet
+
+[00:22:04]
+there's a market for that, too. But who your ICP is, who the avatars are within the ICP,
+where their watering holes are, where you can get to them, what messaging you need to
+create in order to get their attention, and then what that closed cycle looks like, I
+can't tell you what that is. I can describe like I just did what those steps are, and
+what you need to be paying attention to, but I can't tell you, hey, you know what,
+you're basically account-based marketing, that's how you should be doing your selling as
+opposed to advertise-driven as opposed to product-led. That's all up to really the
+inventors and the CEOs to figure out. I'm there to tell them if they're effective.
+That's really what it comes down to. I'm the guy with the whistle and the stripey shirt
+on the field, making sure that the score is being kept and the players are all playing
+the game correctly. And that's also a big role of what CFOs do is we also make sure
+you're following the rules. Because when you go out for an investment, this is something
+people don't always pay attention to. When you go out for an investment, you're going to
+sign an agreement that has something in it that's called reps and warranties,
+representations and warranties. And what it says is you're
+
+[00:23:07]
+legally binding yourself to say, "Yes, we have filed our taxes. Yes, we do file the
+sales tax rules. Yes, we are registered in all the states we're supposed to be
+registered in. Yes, we do have proper insurance." In other words, yes, we are playing
+the game according to the rules. If you haven't been, that can be grounds for either
+lawsuit or shareholder lawsuit or your reputation is ruined and you're not going to get
+any more funding. So, you do want to play the game by the rules and having somebody who
+understands those rules is an important player on your team, irrespective of all the
+finance and other stuff that we do. Yeah, absolutely. You have to play the game by the
+rules, whether you agree with them or not. It's the game that we play, so. So, you've
+listed a few, but you're advising, whether it's pre or post, I'm just curious, like what
+are some of the most common financial blind spots that founders have once their product
+starts gaining traction and they think, "Hey, I do need somebody to come into this role
+and find out where we actually are and build our instrument panel and things like that."
+You know, you talked about how they're like, "Oh, I didn't know that." But I'm just
+curious, like what are those big glaring blind spots more often than not? Usually it
+comes down to exactly what I
+
+[00:24:11]
+was talking about, which is the CPA set up the chart of accounts. God love tax CPAs, but
+they do not know how to set up a chart of accounts for the life of me. I have never seen
+one. It makes sense for taxes, I guess, but taxes don't make any more sense to me than
+voodoo does. Sorry, tax CPAs out there. They're like, "Oh, yeah, yeah, okay, great. I'm
+glad I have a tax CPA, at a doctor and a lawyer, but I don't want to be any one of
+them." But it's like you'll come into a chart of accounts and you'll see wages in one
+line, right? You won't see customer support broken out. You won't see sales people
+broken out. You won't see marketing people broken out. You won't see the engineers
+broken out. You see wages. Like, right there, as soon as I see that, I can tell you in
+10 seconds whether your chart of accounts is worth anything or not, because they don't
+focus on that. The problems that they run into is what I talked about earlier,
+illumination and visibility. They really don't know how their company's performing. They
+know how their company's performing at an aggregate basis. Like, we're selling, we're
+getting cash in. I have more money at the bank account in the end of the month than I
+did in the beginning. I'm doing fine. But, they don't know why, right? They don't
+necessarily know why, and that's the danger zone. You can be very
+
+[00:25:14]
+successful. You can be highly successful. You got cash coming in all the place, and you
+say, "Ah, what do I need a CFO for?" But, if you really want to know how to optimize it,
+and you really want to know where your hot spots are, either, you know, good hot spots
+or bad hot spots, you need somebody who can go pull all those numbers apart for you and
+put them back together in a way that makes sense to say, "Oh, yeah, you're doing great,
+but you know what? You're losing customers just as fast as you're getting them, right?
+Big churn problem. Or, yeah, you're getting customers, but your sales team is completely
+ineffective. You're doing it all, right?" So, it's, you know, it could be stuff that
+they're very well aware of on a gut level basis, but, you know, gut is opinion, data are
+facts, and that's a big difference between I play with data and facts. I don't play with
+opinion. I'm going to show you exactly what's going on with the numbers, and then you
+make the decisions that you need to make in order to, you know, change the company or
+change course, but you'll be making them based on facts, not opinion. So, that's really
+what, you know, the role of the CFO is, is to say, "Here's
+
+[00:26:17]
+what's really going on and why, and here's where it's going to go if you don't change
+course," and which could be good or bad, but it is really the role of an illuminator
+more than that. You were like a strategic enabler, if you will. We're really helping the
+executive team enable the executive team to make decisions based on information. So, you
+can get to a pretty successful point without it, but I don't see how you can grow beyond
+that without having, you know, the right numbers at the right time. Especially, by the
+way, if you're going to go in front of investors, you're going to need this information.
+You're going to need it. If you bootstrapped yourself, maybe you don't, you know, "I'm
+making a million dollars a month. What do I care? Okay, you're right. What do you care,
+right? But when you start making 800k a month and then 400k a month and you didn't know
+why because you don't have the right financial information, that's the risk you run. For
+sure. Knowing your numbers if you're a SaaS SaaS operator is absolutely key and yeah,
+and it was also just predicting plateaus you can do ahead of time with proper
+forecasting and analysis and people less smarter than me have said it's a lot easier to
+predict your plateau and solve the problem before you reach it than it is
+
+[00:27:19]
+to reach it and then break through it. So, yeah, I as someone who has not done a lot of
+forecasting or those kinds of financial work on companies that I have been involved with
+or worked with, I'm soaking this all in. I'm very happy that you're sharing your wisdom
+with us and I'm like I need to go back and revisit my chart of accounts and figure out
+what I'm doing. I haven't met a chart of accounts yet that I liked other than my own.
+Well, and this isn't mine. Actually, I've done two IPO preps and these are basically SEC
+standard type of financial statements. I think about like the asteroid that killed the
+dinosaurs, right? If there had been somebody paying attention like we do now with our
+telescopes looking out looking for those things, I'd rather find that asteroid when it's
+at the orbit of Pluto than the orbit of the moon. I can do something when it's way out
+there, right? Flip that around and that's what your financial system can do. It can give
+you that visibility to avoid you said that plateau or find that deflection point where
+you can put in the minimal amount of work to change course so that you don't end up with
+an extinction level event. You're kind of in the role of a consultant and have been for
+a long time
+
+[00:28:22]
+and I'm kind of in the role of a consultant and have been for a long time. Do you have
+any jaded consultant stories about someone not following your advice or just a early
+morning black coffee kind of complaint story? Gosh, I don't know. Where do I start,
+right? >> Don't we all? Here's a good one. Hire slow, fire fast, especially when it
+comes to your sales team, right? There are a lot of people out there that claim to be a
+great salesman, right? Or saleswoman, salesperson I should say. And in the end, you need
+somebody who can effectively, you know, prospect, close deals, and turn that into
+revenue. The longer you have them on the payroll that they're not performing, the more
+cash it's draining from your company. I can't tell you how many times I have seen CEOs
+hire sales people that couldn't close a door, let alone a deal. And it's like, why
+didn't you fire this person 6 months ago, right? So, especially when it comes to the
+sales team, you need to be very careful. A, first of all, do not hire anybody in the
+fourth quarter because if they're coming
+
+[00:29:25]
+to you in the fourth quarter, that already tells me that they haven't met their quota
+from their first company. Otherwise, they'd be sticking around to collect their year-end
+kicker, right? Don't hire people in sales people in the fourth quarter. They're probably
+not the sales people that you want. Or you're going to have to pay a lot of money to pay
+them off in order to move them. But, in the sales team in particular, that's just
+crucial. Your marketing team is the other one that you need to be very careful about
+hires and making sure that they're not coming in to experiment with you, they're coming
+in to execute. You, especially as a startup, when your working cash is so precious, and
+you got that $2 million or $5 million round from the investors, and you got to make it
+work, blowing it on marketing teams that don't know what they're doing, that haven't
+done it before, that don't know your industry, pay for the people that have the
+experience in your industry. You're going to say, "Wow, that's a lot of money for
+somebody." I say, "Yeah, but what's the cost of failure, right?" You invest in the right
+people. Startups are not the place for on-the-job training. They're not, right? You
+don't hire green people. You don't hire green and I'm sorry, green and
+
+[00:30:28]
+inexperienced people out there if you're listening. Startups are not the environment for
+you because we need people who have been doing this for a long time to come in and as I
+I tell my team, our clients aren't paying us to experiment, they're paying us to
+execute. We're coming in and saying, "This is how you do it." Not, "Gee, let me figure
+out how to do that." No, that's not how that works. We don't have time and we don't have
+cash. A little bit different when it's a bigger company and you can afford to bring
+somebody in. You reach that 200, 300 employee threshold where now you have some slack in
+the team, you've got some extra capacity where you can bring people on and train them.
+That's different. But when you're 5, 10, 15, 20, 30 people, you don't have time for
+that. So, those are some, you know, I can't give specifics, but war stories of, "Gee,
+you know, I hired X." And it's like, "Do they actually know how to do this?" And then 6
+months later they're still trying to figure it out. Meanwhile, you've wasted all of your
+money on their salary and their benefits and opportunity cost, right? Cuz you've lost
+time. Primarily, yeah. I mean, time is a relentless beast, right? You're given X amount
+of money, you have Y
+
+[00:31:32]
+amount of time to achieve results with it. That Y amount of time doesn't change. You got
+to figure it out. The finance in the area that I deal with, that expertise also is not
+out there where as you would think like not all fractional CFOs are the same. If you're
+working in SaaS, you want a SaaS experienced fractional CFO. Why? Because we know how to
+put your numbers together to make you look good for your investors or put your numbers
+together to say you're not ready to go out for investment because prime example, we come
+into a client, they're a startup, they're bootstrap, their revenue looks like it's
+growing great, it is, but then we find out they have a 50% churn rate. Ruh-roh. Ruh-roh.
+Right? I love Scooby-Doo. Ruh-roh. You got to fix that or you're not going to be
+investable. And that's exactly the problem they ran into is they wanted to go for
+investment, but the investors took a look at those churn numbers and they're like, "You
+haven't figured out how to keep the customers that you have, you're too high risk." So,
+in the early see you talked about how do you figure that go-to-market out or that sales
+part early on. One of the things is don't just sell to somebody because they frost
+
+[00:32:36]
+the glass, right? Oh, they're a customer. Let's sign them up. Right. But, if they're a
+customer and you sign them up and they're not in your ideal company profile, the
+likelihood of their churn is very high. And that's going to come back and bite you in
+the backside. And that's what this company did was they were just selling to everybody
+left, right, and center. Now, to their credit, they had a product that was brand new.
+There was no known market for it, so they didn't know exactly who their ICP was. They
+didn't know exactly what the product market fit. They just knew that it was really
+interesting and cool. And a lot of people were buying it. But, then the companies that
+didn't really fit, they ended up churning quickly or simply trying to get out of their
+contracts, and that created this problem. So, you want to be careful in your early
+stages that you're not just selling in to anybody just cuz you want the sale. I get
+that. You need cash. But, there's a downstream impact to that if you're not careful on
+who you're bringing in the door in the first place. So, having that sales book figured
+out and that sales book tells you how to properly qualify a client before you actually
+sign a contract with them, that's a an important piece of your growth strategy. Yeah,
+and I would argue that that's true
+
+[00:33:38]
+anytime. I mean, it's certainly especially at the startup level, but anytime along the
+way. I mean, Justin and I have talked people out of doing business with us just because
+it wasn't a good fit or it wasn't the right fit or we weren't what they were looking for
+or we weren't going to get them what it is they actually needed or we could see far
+enough down the road to recognize that this was going to be a particularly challenging
+client for X reasons. So, just being able to qualify that even decades into a business,
+I think is still of importance. Yeah, it is. It never changes. I'm just saying it's that
+asteroid analogy in the very early days, that's where it can hurt you really badly.
+It'll hurt you no matter what, but you know, that's where I go back to my ERP days,
+which is having an information technology infrastructure that delivers information to
+people and that data is useless, right? I need it processed and turned into information.
+I need that data to be accurate because that's my input to my information, but the
+information that comes out of it, that's what I use to make decisions. That has to be
+timely, it has to be accurate. And without that, you're flying a plane without any
+instruments.
+
+[00:34:40]
+I better hope you're above the ground. Well, it's quarter one of 2026, so I have to ask
+you, unfortunately, how is AI impacting what you do and how's your team engaging with
+it, if at all? Thank you for asking that. I've never had anybody ask me that recently.
+Every single client that we have signed up in the last 2 years is an AI solution. That's
+number one. We are experiencing a tremendous amount of growth simply from all the SaaS
+AI that's out there. I and myself am using AI tools every day to improve my
+productivity. I use ChatGPT, Perplexity, you know, you name it, they're all becoming
+more commoditized, but I have an amazing dictation tool that in and of itself cut 10 to
+15% of my time during the day that I was wasting on typing. All I have to do is hit a
+button and it does a really good job, right? It's not like the old days where it's like
+you have to constantly correct it. Accounting, WhisperFlow, you know it. Hey, plug
+WhisperFlow, baby. That's I just paid for my premium subscription. 145 bucks well spent
+considering how many hours a day that it saves me.
+
+[00:35:44]
+That's time that is more value added to my clients. I can turn around and give value to
+them and myself. And if you are a technical Linux user or you want something similar you
+don't have to pay for it, there is Open Whisper and a little bit of technical know-how
+you can get it up to running locally. It's an incredibly powerful tool and on top of
+that, if you also want to run your models locally, you can avoid sending all of your
+data off to the cloud if you're a privacy-minded person. So, just to plug that for our
+technical folks. There you go. I have no idea what you just said, but it sounded good.
+You know, and accounting is frankly one of those areas like lower-level programming that
+is going to disappear because of AI because having an AI tool plug transactions into
+accounts once it's learned how to do them, that basically your bookkeeping function it
+all goes away. So, we really heavily rely on rules-based entry of data cuz the data
+entry piece it has to be correct. But, once it's there, it's really the fun starts, you
+know, interpreting the data. So, you know, we as a team are using it. I'm actively
+always looking for more AI tools to increase our productivity for a
+
+[00:36:47]
+number of reasons. It allows us to be, you know, more clients, right? More time with our
+clients, less time with administrative and wrote type of stuff. And then, of course, on
+the flip side, all of our customers coming to us nowadays that's like, "Hey, I have an
+AI solution that does this." And it's like, "That is so cool for me. I'm a science
+fiction fanatic from like day one." I think I came out of my mother with a book science
+fiction book on it, right? I love living what I used to read with science fiction,
+right? This to me is like the best time of my life. It's like, "Wow, I used to read
+about this stuff when I was a kid was going to come." And it's here. Finally, yes.
+Finally, right? I have my Star Trek communicator, right? >> Yes. And tricorder and yeah.
+Yeah. I Well, I'm waiting for the tricorder. So, when this thing actually has, what is
+it? Ultrasound and infrared and diagnostics on it where I can then be McCoy, yeah, then
+maybe I'll go back to medical school. It's not on there as native yet, but they do have
+them. You just have to carry the little extra scanner. I'm a huge Star Trek fan myself.
+I get it. >> Star Trek, thank you, not Wars. Yeah.
+
+[00:37:50]
+For a number of reasons. I do enjoy a good Star Wars story, but Star Trek is where my
+heart's at. Absolutely. I have a friend who's not a nerd really, but he did have a
+podcast about Star Trek for a while. And yeah, he has an interesting take on this, which
+is that Star Wars is actually a fantasy story set in space. And Star Trek is a science
+fiction show. So, he's basically Star Wars is just fantasy. Yes. This was a gift from
+one of my accounting teams. They bought me this. I am Captain Kirk. >> That's fantastic.
+Love it. And to pay homage to the older ones, I do have a robot. Danger. Lost in space.
+Yes, I do. I have props in my office. I love my props. I also have a lot of really good
+single malt whiskey here from my days in Scotland. Oh my gosh, dude, you and I need to
+like hang out. Just Yeah. When are we going to Ann Arbor? Yeah, come on up to Ann Arbor.
+Oh my gosh. Yeah, it's not a terribly long drive for me, so I'll make to get up on that.
+Not terribly. I had to drive back from Cape Girardeau to Ann Arbor when 9/11
+
+[00:38:54]
+happened because ADP was in St. Louis and they were processing our payroll and the
+payroll checks were stuck on the tarmac in a jet and our team needed to get paid and I
+was down there doing an ERP implementation and it's like I had a car rental, so I didn't
+have to get one, but I ended up driving to St. Louis to ADP to pick up the checks and
+drove all the way back to Michigan so that our manufacturing team could get paid. So,
+yes, I know about that drive from Missouri to to Ann Arbor. It's not that short. I lived
+in Cedar Rapids for a number of years and it was very odd to find that I was a 4-hour
+drive from basically anywhere I needed to get to. 4 hours to Kansas City, St. Louis,
+Chicago, South Dakota. I mean, it was just everywhere. Everybody was like, "So, I'm
+here. How long will it take you?" I don't know, probably 4 hours. So It's 4 hours to
+everywhere. Yeah. Yeah. This is getting entirely too Midwestern and I can feel the
+college football or college basketball is about to come up, so I'm going to cut it off
+before we get there. It's getting a little bit too Midwesty. We're coming into the end
+of our time. Anthony, I got to ask you, what is the one thing that I we should have
+asked you that we didn't or what is the wisdom that you have to give that we didn't
+tease out of you? I think we covered it.
+
+[00:39:57]
+I can't really think of anything. I mean, like I said, I can go on for hours on this
+topic, but in the end it all comes down to cash flow, baby. Cash flow, cash flow. It's a
+hugely important thing and knowing where you've been to know where you're going. Yeah,
+if you if you take nothing else away from this podcast, take that one. The finance
+function is not a g- it's a nice to have. No, it's an absolute essential if you're going
+to scale and be really successful. I can't imagine we could wrap it up any better than
+that. That was perfect. Love it. Well, we've been talking to Anthony Nitsos, founder and
+lead guru at SaaS Gurus. Anthony, thank you so much for your time. How is best for
+people to reach you? Well, the nice thing is the last name Nitsos, n i t s o s, is one
+of the rarest on the planet. So, if you Google my name, you're going to find me. Not the
+kid in Melbourne, Australia, by the way, it's me. There's I think there are only two
+Anthony Nitsos in the entire planet. g u r u s, just like it sounds dot io, that's our
+website. There's a contact me page there. I'm on LinkedIn, Anthony Nitsos, easy enough
+to find. Send me an email or
+
+[00:41:00]
+through the contact. It's anthony@saas-gurus.com. I have a different URL for my email so
+that the bots out there can't figure out my email from my website, right? So, yep, I
+pride myself on getting back to people same day if not within 5 minutes of getting an
+email. So, you send me an email and say, "Hey, I'm interested in talking to you." I will
+respond to you. Fantastic. And now, all the Star Wars fans in our audience have a place
+to direct their hate mail. Stop it. I have filters. I have an AI filter that'll take all
+that crud and just kind of put it in the trash where it belongs. Oh, no. Luke Skywalker,
+you don't think so. Oh, no. Live long and prosper, baby. Justin, my friend, thank you so
+much as always. Uh and a special thanks to our listeners. If you like what you're
+hearing, have ideas for the show, or just want to tell us what's on your mind, hit that
+like button, subscribe if you are so inclined, and we've got several different ways that
+you can reach out to us and we'll reach back out to you. Thanks again, and we'll see you
+all next time on saas.app. Cheers. Thanks for cruising along with us on
+
+[00:42:02]
+saas.app. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

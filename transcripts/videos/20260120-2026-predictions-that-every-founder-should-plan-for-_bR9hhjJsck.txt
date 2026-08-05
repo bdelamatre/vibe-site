@@ -1,0 +1,405 @@
+2026 Predictions That Every Founder Should Plan For
+===================================================
+
+Video ID:  _bR9hhjJsck
+URL:       https://www.youtube.com/watch?v=_bR9hhjJsck
+Published: 2026-01-20
+Duration:  00:24:45
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+My prediction is that edge AI is going to become a a big deal. I think we saw a kind of
+a similar thing happen with single page apps and [music] kind of the big players trying
+to offload compute onto the users' devices and away from these big data centers. I'm not
+saying that model [music] is necessarily flawed, but I think there's kind of been a
+trend over time where we have this thing that can only happen in a data center. There's
+like this mainframe concept and then after time it's kind of like, "No, the distributed
+thing actually works pretty well." I also think that like our devices are good enough to
+get useful stuff out of AI. Like we can do a lot of the little things that are
+incredibly useful. Our devices are good enough to do that. >> Welcome to SAS That App,
+building B2B web applications, the podcast where we share real-world stories, practical
+advice, and tech insights for those building or thinking about starting a tech-enabled
+business. I am your co-host, Aaron Marshbanks. And I'm Justin Edwards. Each week we
+bring you the stories, strategies, and insights you need to build your SAS or tech-
+enabled business smarter, not harder. Let's dive right in. Welcome to 2026. Huzzah! We
+made it.
+
+[00:01:08]
+We did it again. >> [laughter] >> Seems like it happens every year. We go around the
+world one more time and one of those numbers clicks up. Right. Yeah. For for for the
+better usually, but you know, it remains to be seen. I guess we're going to talk about
+some of that today. Yeah, the world is maybe the world is always wacky, but the world is
+definitely wacky this year. I've been saying we got a little bit of a different episode
+every episode. So, I'm going to stop saying that. Here's what we're doing today.
+Apparently, every episode is different. The team at Delta and friends family have put
+together some prognostications, some predictions for things we're going to see in 2026
+in the vein mostly of tech, but there's some other things in there as well. So, we've
+got our list and we're going to put put it out there into the ether into into the
+internet that we think the particular things are going to happen in the next year. We're
+going to see how we did. And this may become our first episode every year cuz it's kind
+of a fun idea to to see if your fingers are really on the pulse or if we're just all off
+flying blind here. Yeah, I love it. The uh the percentage we get correct, I'm very
+interested in. Pass pass fail pass fail grade. We'll see if like any of the ones that I
+I have are correct cuz my team is a lot
+
+[00:02:09]
+brighter than I am. So, we'll see how that goes. Another thing we're trying to do for
+2026 is we'd like to feature you folks, assuming anyone is actually hearing this, more
+on the podcast. There's a great way to leave us a voicemail. We will feature you and
+your face and your voice recording on the show. Uh you go to sass.app.com and there's a
+microphone at the very very top of the screen. If you click that, it will direct you to
+a place where you can leave a voicemail. You may leave a comment. You may ask a
+question. Uh whatever you'd like to send. Same thing in the description of all of our
+YouTube videos and in our show notes, there is a link to speakpipe.com/sass.app and you
+can do the same thing there. If you reach out to us, we will feature you. We will talk
+to you. And we'd love to hear from you. So, please do that. It'd be a lot of fun.
+Absolutely. All right, Aaron, so let's get into some predictions. What do the team think
+is going to happen? Let's do it. Well, let's see. Uh should I take them in order? We
+need to number these. I feel like should we should we keep going with the numbers so
+that way we can we can circle back and be like, "Yeah, three was a bust and one was
+good." I think so, yeah. I think we need we need numbers and we need attribution. So,
+we'll see who messed up and how badly. Okay. Well, I think the
+
+[00:03:11]
+first one is yours. I'll let you take it. >> [laughter] >> So, uh the more things that
+you actually predict, the more likely you are to be incorrect and I feel a lot of my
+name shows up a lot on this list. So, that's that's problematic, but yeah, my prediction
+is that edge AI is going to become a big deal. Uh I think we saw a kind of a similar
+thing happen with uh um page apps and kind of the big players trying to offload compute
+onto the onto users' devices and away from these big data centers. I'm not saying that
+model is necessarily flawed, but I think there's kind of been a trend over time where we
+have this thing that can only happen in a data center. There's like this mainframe
+concept and then after time it's kind of like, "No, the distributed thing actually works
+pretty well." Um I also think that like our devices are good enough to get useful stuff
+out of AI. Like we can do a lot of the little things that are incredibly useful. Our
+devices are good enough to do that and I'm I'm just very bullish that like that's going
+to be I'm very very excited for everything the mobile device can do for me on my device
+without shipping all my data off somewhere else. So, I'm hoping we see a lot of trends
+that direction. Yeah, absolutely. And and there's so many I'm not going to call them
+like microservices or or I'll call them versions of AI. There are so many different
+flavors now that that
+
+[00:04:14]
+touch the different types of areas that you might be using on your device anyway. I
+think it's going to get a lot of play. Um and we'll we'll start to see some of those,
+you know, throttle up, throttle back, you know, who's who's going to win and lose in in
+the in the different spaces that they operate in. Super curious to see where that goes.
+Uh the the the list is a little AI heavy, but that's a lot of what's going on in tech
+right now, so it tracks. Yeah, yeah, everybody wants to talk about that and that's fine.
+It's it's a hot topic for sure. So, number two, since we're numbering these, number two
+comes to us from one of our internal folks, whom you have seen on the show several times
+now, Nolan. He is a brilliant developer, of course, in his own right and he's got he's
+got a good pulse on things as well, but one of his notes here on number two is that most
+code will be written by large language models, LLMs. What say you, sir? I think it's a
+fair prediction. I've historically been like a little annoyed when people are like, "80%
+of our code is written by AI." when it's all like boilerplate or code completions. Um
+but this year kind of now for the first time we're actually seeing like it agents go
+away and produce stuff that isn't total garbage. Um that's really relatively new
+
+[00:05:17]
+as much as people have been talking about it for a long time. Uh so, I think uh yeah, I
+mean, we'll see how fast this how fast this uh keeps going, but now I think it's a good
+likelihood that we're going to see more than 50% of our code, so the majority if not
+most uh written by written by AI helpers by the end of the year. Yeah, I think it's
+getting fed enough now and I think it's getting corrected enough now that uh we're
+starting to see more usable stuff and obviously there's going to be some more
+predictions based on that, but yeah, I agree. Let me tag into um just to be maximally
+confusing, I'll separate their numbers so we can validate them independently, but I
+think totally related to this, I had the prediction which is there's going to be a giant
+movement towards type languages because the explicitly typed and text typed languages
+are just very very helpful for AI and AI is better at generating um generating code in
+those languages. So, like things like TypeScript, I think that we're going to see things
+that are not traditionally typed that way are going to start um having mechanisms that
+they don't already. Um especially like in Ruby where we don't typically do that. There
+are some gems out there that lets you kind of annotate or start to do that and I think
+that that stuff is going to enable our machines to be
+
+[00:06:19]
+better. I think we're going to see more of that, which is kind of a weird move. Um so,
+that is number four, which is mine. Nolan had a second one, which is I think very
+related to this one, which is documenting code, testing, and type safety are going to
+become as important or more important than actual programming. And the reason he's
+making that prediction is the exact same thing where it's like these are the things that
+make our tools work better and so that's going to be The documenting and the type safety
+are going to be things that make our tools work better and then the testing is we're not
+writing the stuff ourselves anymore and so we're going to have to validate that the
+machines are giving us good stuff. Yeah, I think I think we're going to start to see
+actual roles emerge um you know, to to that end. So, I think it was noted in one of the
+other ones as well that you know, the the the idea of a junior developer is not
+necessarily going away, but maybe possibly being replaced in in part or in total by uh
+by those that are creating the code in in AI models and then seniors, I'm going to call
+them, are going to be a lot more responsible for making sure what's what's coming out is
+is good. >> There are as as Justin said, a lot of these that are that are very AI
+focused. So, we got another one here. This is this is number five. This is by another
+one of our uh team leads, actually, Kevin. Um who made note of the fact that he
+
+[00:07:24]
+thinks hosting costs are going to increase as these AI-focused companies continue to
+acquire as much hardware and infrastructure as they can. Uh he indicates that we're
+already seeing this as an issue in the consumer-facing markets such as like DRAM demand
+has begun to outpace supplies. We're also I was just listening to the news this morning
+about Nvidia and and GPUs, which which run a lot of this type of stuff, too, and and
+their scarcity and and you know, how that's going to play in as well. So, uh from Kevin,
+hosting costs are going to increase because of all the AI goodies that are coming. Yeah,
+that's a fun prediction. I think it's maybe a little bit contrary to my prediction, too,
+cuz I think if edge AI becomes a bigger deal, then we're going to see less of these
+these build-outs, but maybe they're already committed. Or maybe a plateau type situation
+where we where we will to a point, but then it may may start to drop off once we start
+levelizing the services. Well, we got a couple here that are just really optimistic and
+happy. So, maybe we can clump a few of those really great optimistic ones together. Um
+>> [gasps] >> So, I'll start with uh Daniel and I both independently made the same
+prediction, which is there will be a giant AI-related data breach
+
+[00:08:28]
+uh in 2026. So, we will see we will see some AI company or uh some AI-based exploit uh
+cause a massive data breach sometime in 2026. You heard it here first. There's always
+another data breach. Always. Always another data breach. Seems like there was another
+one on the list that was along those same lines, but yeah. Um we have the the data
+breach. Do you want to take maybe uh eight? Yeah. Or more optimistic? Yeah, since we're
+going the optimistic route, yeah. That's what I was just about to say. So, yes, this one
+actually as Justin said, he's giving to me, but uh that we will see another massive
+internet-destroying outage, the root cause of which will be DNS-related or network layer
+issues. >> [laughter] >> Because, you know, it's an annual occurrence, right? It's just
+it's just who's it going to be. You get to roll the dice. We just hot potato that thing
+around and eventually Yeah. eventually it goes off. Everybody's got to have a turn in
+the in the DNS failure bucket. All right, I'll round out our optimistic uh super happy
+ones here with Daniel's, uh which is
+
+[00:09:31]
+there will be another Boeing disaster caused by a Boeing plane causing another Boeing
+plane model to get grounded. How are you going to say about that? Daniel knows a lot
+more about Boeing and airplanes than I do, but uh my understanding from very far away is
+that there's a lot of dysfunction and has been a lot of dysfunction at Boeing for a long
+time and some of these issues we're seeing at a company that historically has had this
+amazing track record are kind of the the chickens coming home to roost from some of
+their internal org problems. So, if it's Daniel's prediction, I'm not happy about it,
+but it makes me nervous to fly. Yeah, yep. And and making the assumption that that the
+issues that they have had in this year and years past have not actually really been
+addressed or corrected, it stands to reason that another one's going to happen. Awesome.
+And you want to take take the next one? Yeah, another one from Daniel here, who you have
+seen on the show. Uh senior-level salaries will increase, but tech companies will
+decrease head count. So, it's going to be harder for junior-level devs to find entry-
+level jobs and internships. And I I can see that happening. I think this is probably the
+year when when we'll
+
+[00:10:34]
+start to see that corner really get turned. Um we're we're actually starting to see it
+already in a few companies that we work directly with, but in a broad sense, you know,
+everybody's we're we're kind of getting back into that do do more with less mentality.
+Um so, I I think he's probably right on that. And I I think as an extension of that,
+something that that I will throw in there of of my own accord is that the path to get
+from a junior-level or or an entry-level position to a senior-level position is going to
+become a chasm. Um there there there will be a very challenging process to get yourself
+to that point. And I and I think that that may result in some senior-level folks that
+are coming in without necessary skill sets or or experience. And that's that's going to
+be pretty challenging to combat. It calls a lot of things into question when especially
+in the industries where we we focus especially like legal and software development where
+we we very frequently focus on hours. And if hours are not dramatically more productive
+because of tools, then you know, do hourly rates go up or is it now commoditized and so
+they come down or what what effect does that have on um on the output of of
+professionals
+
+[00:11:38]
+specifically like I think of attorneys and and software developers in a similar vein.
+I'm concerned about GLP-1 agonists which are the weight loss drugs that are super
+popular right now, Wegovy and Ozempic and there's a whole I'm not a a medical person,
+but there's a whole different tourism of them. But I think we're going to figure out
+this year that that's not a way to help you lose weight. It's a thing that you take if
+you want to maintain a healthy weight. And they are if not designed to be, which is a
+little too tinfoil hat, they're going to be very hard people not going to use them as a
+as a behavior modification help and it's going to become the thing that you just
+continually are on to stay at that weight. Um and I'm concerned about that. There's
+already been some some studies that people pop off those drugs and regain weight super
+rapidly. And uh anyway, I think we might start falling out of love a little bit with
+GLP-1s uh or at least be a little bit more cautious about them in 2026. Yeah, I think
+the jury's still out on if that's a physiological thing. Um you know, if coming off of
+it just
+
+[00:12:41]
+by itself is what causes the weight gain or if if when you come off of it, the the
+cravings and and desire for food and and amount and portion control that you eat just
+kind of goes out the window and and you're returning to a state that you were before.
+So, yeah, I I uh I kind of agree with you on that one that it's that it's going to
+become something that's more of a maintenance mode sort of a situation rather than get
+down to where you where you really would like to be and and we're going to start turning
+back to diet and exercise, which I'm a big proponent of myself. Well, it's great for all
+of us who are shareholders in Big Pharma cuz it's basically an expensive drug that
+people are going to be on forever, but it may not be the best for uh the pigeons the
+pigeons that they're plucking. Yeah, yeah, yeah. I'll take the next one here. It's mine.
+Um so, not not that I have any inside baseball on this, but but I have managed to raise
+an artist um through through, you know, no no real artistry of my own. But she is she is
+a quite an amazing writer in in poetry and creative literature and fiction. And she is
+an incredible
+
+[00:13:44]
+um artist for for painting and and sculpting and things like that. So, this one
+technically comes from her or maybe it's more precise that it's my observations of how
+she behaves around it, but um I'm I'm saying that AI is going to pretty much run just
+roughshod over the arts with like little to no guardrails or repercussions. Um you're
+going to see things like in the style of being one of the most frequently used prompts
+for creating AI-generated music and literature and art. Uh it's it's already started.
+We're we're already seeing it as a matter of fact. Uh Steve posted one in our Slack
+today. He's like, "Look at this." And it's like, "Yep, that is AI-generated in the style
+of Eminem." It's like, so we're already seeing it. She She my daughter uh she she goes
+so far as to almost boycott AI because of how furious that she is of what it has done to
+the to the arts in general. Um and so I think that that's probably only going to
+throttle up as it becomes more accessible and things become faster at being able to be
+created. And I I can absolutely see where she's coming from because
+
+[00:14:46]
+attribution is a critical importance. And right now there is nobody guarding that. Yeah,
+I mean I I think this needs to be this needs to be litigated or there needs to be
+writings to come out of this. I'm sure there there are people who are more familiar with
+the law, but uh AI and copyright where it's like you use these copyrighted materials as
+part of your training set and then your AI produces things that are very similar to the
+copyrighted things you consumed. And what is what is the law? What is attribution? What
+are the requirements? And and a lot of these AIs um are black boxes. So, even proving
+that this was the source material is is dubious. And it's a it's a big mess which is
+going to take us a long time to figure out at a idealistic level and certainly much
+longer to actually like litigate and have rules and a way to a framework for thinking
+about it in place. Mhm. Yeah, that's hugely concerning. And the finest AI music and is
+it's good. Like it's enjoyable and fun to listen to. And there are ton tons of AI
+artists who are like, you know, ranking and and on the on the charts and uh yeah, it
+does call into some questions about the source material and attribution and these these
+kinds of things.
+
+[00:15:49]
+Yeah. All right. I'm going to pick up my my favorite one from Steve's. I have two from
+Steve I really like. But pick out my favorite one to do next, which is uh AI fatigue
+will become a thing. And for me when he said AI fatigue, I thought he was talking about
+the condition that I have where I'm fatigued of talking about it. Uh here I am uh
+screaming screaming into the crowd about AI and then complaining that I'm tired of
+talking about it. Both of which are true. Uh but he means a little bit differently. He
+says he's going to say people are just going to get tired of of AI hallucinating and
+just all the sloppy answers and how how maybe everything between the lines, but how like
+obsequious and annoying it can be. And uh yeah, there's going to be kind of like this
+this general like I'm just so fatigued by talking to these to these LLMs. You may as
+well take your second one too cuz I think I know what it is. I'm going with Grandma AI,
+which probably probably wasn't the one you thought. Okay, all right. Steve's like,
+"Grandma AI." I'm like, "Steve, what does that even mean?" We got to get Steve back on
+the show, man. Yeah. But he's he's so fun. But I never I never really thought about
+this. But yeah, you see you see it in
+
+[00:16:51]
+LLM with a whole bunch of memories and information and content hopefully from from a
+dead relative. And then you can chat with Grandma after Grandma's not here anymore and
+have, you know, responses that are you know, uh plausible or, you know, maybe complicate
+a grieving process or yeah, just a really a really cool idea that you could uh achieve
+some level of immortality or some level of of retained contact with your loved one
+through to the use of of one of these LLMs that's kind of seeded and built trained with
+their you know, with with the contents of their brain and their writing and all of that.
+And even Yeah, I mean he did talk to he talked to your also in his in his prediction
+about like some integrations with like Google Maps and different Google Photos things
+and and having AI basically be aware of like experiences that you had together so that
+your loved one could kind of reference that without you having to seed it which being
+like, "Well, yeah, here's a picture. This is my mom. And this is a picture of us in
+Costa Rica." And you know, you could talk to her about the time we were in Costa Rica
+and where we stayed and we went zip lining or whatever. So, I thought I thought it was
+really cool idea. And uh I'll be curious to see. I don't know if
+
+[00:17:52]
+anyone's doing that yet, but it's it's a cool idea. And yeah, I'm that's one I'm kind of
+excited for, honestly. Yeah, yeah, I saw that. And it's like I I hadn't I hadn't really
+thought about that approach. I thought it was fantastic idea. I I think the care of
+course has to be taken that this is not that person. Uh I I I can see um just because we
+we are seeing some of that now. And there there actually a number of papers that are
+coming out about it. Uh reliance on uh whatever LLM that you are using to fill a
+personal need from another person. Um you know, science fiction being what it is, I mean
+this is this is not something that's that's necessarily new. And I'm thinking
+immediately of there's a movie called I think it was Her. You know, kind of the same
+type of thing where, you know, your your desire to to be in a relationship with someone
+else uh not necessarily materializing in the real world, why why not in the digital
+world? And so, finding those types of connections, you know, is that is that going to be
+destructive? Is it going to be constructive? Um will it just be something that's a
+novelty? Uh jury's
+
+[00:18:55]
+out on all of that stuff, but the Grandma AI specifically, I thought that that approach
+was was really interesting from Steve. And to your point about, you know, the the
+grieving process, I could I could see that potentially being quite useful. But at the
+same time, care must be taken for sure. So, this is the second time I thought about this
+podcast interview that I saw or I heard on this episode. So, I wanted to mention it and
+I'll put a link to it. But um Paula Pan from Afford Anything just interviewed Zach Kass,
+who is a former OpenAI exec and um giants I gather in the space. His interview with her
+was was fantastic. And he talked about two main things we should be concerned about with
+AI. And it's not about job displacement or anything like that. But one of the ones that
+he talked about was exactly this this kind of like are we going to have problems where
+our our screen addiction and our reliance on our devices goes much further than it
+already is, which is already causing problems. And then uh you know, do we need to have
+policies that AIs can't pretend to be people and that there's kind of some hard short
+circuit where AI's have to acknowledge that they're not human beings and and to avoid
+like the the her effect if you
+
+[00:19:57]
+will. Um his treatment of his talk to bottom was was fantastic. He talked about um the
+principle that the amount of work that you have expands to fill the space that you have
+for it. And he says if you apply that to the AI efficiencies as humans are just going to
+come up with more stuff to do because we have more space and so we'll we'll create and
+find more work. The other thing that he mentioned was really uh problematic was we tie
+our identities to our jobs so much. So thinking about a post work world where it's not
+exactly necessary to have a job but you're still going to be able to eat and feed
+yourself and play the ukulele or whatever it is that you're into. Uh how do you how do
+we derive meaning? How do we find out who we are? And that's the other big risk coming
+from AI not this thing where no one's going to have a job and people are going to have
+some dystopian uh like unemployment situation. Anyway, I'll provide a link to that in
+the down below. The podcast has nothing to do with entrepreneurship exactly but Paul is
+awesome and that interview was about very related to this one and super good so I'll
+share I'll share that. This one also comes from Steve. Um but but we'll call it a
+collective because I think anybody who has worked with the large language model AI's
+particularly chat GPT either have sensed this frustration or have already put in the
+prompt. Uh and that people will
+
+[00:21:00]
+learn to end their prompts with "Do not add hyphens to your answer. Humans don't use
+them." >> [laughter] >> I recall very early on uh going into chat GPT and just you know
+testing out some different things and and I did notice that uh that it really really did
+like uh semicolons and hyphens. And it's like "That's amazing. I would never have said
+that or written it that way." "Please please do that less." I think there is actually a
+setting now in the in the panel for GPT. I haven't played with it but I think there is
+actually literally a a dash setting on or off. Uh so the other one is like it tries to
+litter my stuff with the motor cons all the time. Oh. I I haven't run into that yet. Oh
+yeah, all everything that I do especially if I ask it to to write like an outline or a
+blog post or something it's all just like happy and balloons and ta-das and I'm like
+"Have you Do you know me?" We've been talking for years. Like balloons? No, I'm I'm on
+the circumstance circumstance side of pomp and circumstance. We give the pomp to you.
+
+[00:22:05]
+Maybe it it knows that it's just trying to bring it into your life Justin. Yeah, it
+could be. Maybe maybe it's it's tired of being my therapist or maybe it's tired of how
+grumpy I am at it and it wants to to lift me up so it doesn't have to deal with me.
+There you go. See? >> [laughter] >> I think there was one on the list that we missed and
+I wanted to get it cuz it was another one of Steve's but it was um he's saying we're
+going to and this is kind of related to Daniel and my data data breach but he's
+basically saying we're going to see a coordinated automated AI based botnet attack where
+there's AI agents that are are coordinating it and making these uh uh dedicated denial
+of service attacks and these botnet attacks even harder to uh to defend against. I think
+that's probably pretty likely. Hopefully somebody else has that idea so we didn't give
+it to them but um Way to go Justin. You're you're arming them. Yeah, I hate to
+prognosticate about great attack vectors but um and also attribution to Steve. I didn't
+come up with that. That's true. That's true. So it's it's now Steve's fault and I think
+that we should we should make sure that that's clear. When US East 1 goes down again if
+it's result of a botnet attack with
+
+[00:23:09]
+coordinated AI Steve Steve's your guy, Steve Powell. I'll give you his number. He's the
+first one to call. He he did it. Yeah. Yep. Yep. Awesome. Well, this was super fun
+Aaron. Yeah. Got to prognosticate. It'll be fun to come back a year from now and uh see
+how we did. Uh see if things went completely different direction or uh if we're even
+still here. Maybe the the world will end between now and then. Um Yes. Or or or we will
+be AI generated and and thus just editing content after the fact. You never know. Yeah,
+this it's not 100% that I'm a real person so AI's gotten very good recently. Well, I've
+never said that so. >> [laughter] >> Cool guys. Well, welcome to 2026. Please We'd love
+to hear from you so uh contact us. We got the the voice recording set up. There's a link
+below. It's on the website sass.that.app.com. We'd love to hear from you and uh feature
+any questions or any comments you have on the show. Welcome to 2026. We made it and uh
+we got more content coming for you. We're going to have a great year here. As always,
+it's a pleasure Justin and thank you all for for joining us on this uh
+
+[00:24:11]
+kind of wacky adventure that we've now find ourselves almost a year into. Hope that you
+stick with us for another one. Cheers friends. Thanks for cruising along with us on
+sass.that.app. We hope you grabbed some insights that were inspiring, actionable or at
+least entertaining. If you enjoyed the show, don't forget to subscribe and leave a
+review. Until next time keep building, keep growing and keep those apps sassy.

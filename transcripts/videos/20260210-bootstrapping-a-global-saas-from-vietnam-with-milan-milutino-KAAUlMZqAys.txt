@@ -1,0 +1,772 @@
+Bootstrapping a Global SaaS from Vietnam with Milan Milutinovic
+===============================================================
+
+Video ID:  KAAUlMZqAys
+URL:       https://www.youtube.com/watch?v=KAAUlMZqAys
+Published: 2026-02-10
+Duration:  00:48:39
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+Steve Jobs didn't want the app store initially. He wanted everything to be a web app.
+You know that. But in those days, the web was not there. But now the web can do the
+fancy animations. It can do all of that stuff. Like I look at native apps now cuz I
+spent so much time building this progressive web app. And I'm like, what do they really
+have over a progressive web app? Welcome to SAS that app building B2B web applications.
+The podcast where we share real world stories, practical advice, and tech insights for
+those building or thinking about starting a [music] tech enabled business. I am your co-
+host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we bring you the stories,
+strategies, and insights you need to build your SAS or tech enabled business smarter,
+not harder. Let's dive right in. >> Hey, happy Friday, Aaron. How you doing? >> I'm
+doing well. Love me some Friday. always seems to like the catch-up day of the week when
+it's the one day I could guard against meetings and actually get some stuff done. If I
+have any contribution to company culture, it's that we phone in Fridays, baby. I love
+it. However, this Friday, we're not phoned
+
+[00:01:04]
+in because it is the earliest we have ever recorded a podcast. It is 900 a.m. US time.
+And the reason we are here quite so early at the golden hour in the morning is that we
+are talking to someone who is located in beautiful, wonderful Vietnam. Our guest today
+is Milan Milinovich. He informs me he is 100% Serbian. And for our student listeners, if
+you thought that it was the former president of Serbia, it's not. It's a different Milan
+Milinovich. Uh he hails from Australia. He's 100% Serbian as well, but he lives
+everywhere. He spent many years on the road as a touring blues musician. He does vocals
+and guitar, which is awesome. And he's been living as a digital nomad for over six
+years. He pivoted into tech sometime after his musician stint and at this point has
+started a app that helps people with live events and maybe online events too, but a
+conference companion app. Elan, welcome to the pod. >> Hey, thank you so much and great
+intro and good job on the name. So, I salute you. Thank you very much. >> Chad GPT and I
+spent some time together like I think it's this and how do you pronounce the S? I'm sure
+I didn't do
+
+[00:02:06]
+very well. But >> I used to do so much radio and they'd always ask me before the show
+like, "Is it like this?" And then we'd get on air like Milan. It's just Milan. They'd
+struggle with it. >> Keep it simple. [laughter] >> Yeah, >> it's Eminem, right? That's
+the >> Eminem, baby. Let's go. I wasn't a rapper. [laughter] >> I can't spit any rhymes.
+>> Not a rapper. Not the former president of Serbia, but I promise you won't be a
+disappointment. [laughter] Wait a second. Who did we book? >> Like, could you tell
+people just a little bit of your background and your journey? And yeah, just quick
+summary. >> Yeah, I mean I guess you touched on the point all the Serbian stuff and I
+don't sound very Serbian. It's because I grew up in Australia. So my parents grew up in
+Serbia and they migrated to Australia in the late '8s. So I grew up in Melbourne in
+Australia actually, but we spoke Serbian at home. We would visit Serbia from time to
+time. And my dad was also a software guy, so the code has been running through the
+blood. My uncle is a software developer. It's kind of it's a family profession, I guess.
+But before that, I didn't really like school
+
+[00:03:08]
+when I was growing up. I just I didn't really like rules. I didn't really like people
+telling me what to do. And I just fell in love with music. And that was kind of a way to
+be creative. It was a way to be free. So, I started playing guitar. Got really inspired
+by bands like the Beatles, the Doors, just your kind of classic rock and roll, Nirvana.
+And then I just got more and more into the blues, that deep blues, that real deep
+Mississippi type blues, you know, and [snorts] just fell in love with artists like Howen
+Wolf, John Lee Hooker, even further back like Sun House, Robert Johnson, Charlie Patton.
+I just thought there was some magic in the blues that inspired me somehow. And so I kind
+of started a blues band instead of going to university. I did about 6 months at school
+and I was like, "No, I want to be a rock star. I don't know about that. [laughter] Kind
+of a ridiculous thing to say. And my parents weren't very happy with it. [laughter]
+Thought I was a bit crazy, but you know, started performing and I've always enjoyed the
+stage. I've always enjoyed stage craft and watching a great
+
+[00:04:12]
+performance and I've always loved creativity and people expressing themselves. So, I had
+a band. It was called The New Savages. We recorded four albums. I wrote a ton of songs.
+They're on Spotify and YouTube if you really want to look it up. I had like a big afro
+and I look a bit funny and you can hear me sing and I this deep voice. We used to
+introduce ourselves as a mix between Jim Morrison and Johnny Cash and if they had a baby
+and it was made by the blues or something like that and uh >> that's awesome. >> So it
+was great and it I lived on the road basically. I mean in our best year I think we did a
+100 shows in one one year all across Australia. We would drive from Melbourne to Sydney.
+It's like a 10-hour drive and we drive there on Thursday to play Thursday night show.
+And they were like, "All right, we're in another state. Let's go to like Port McQuary or
+somewhere else. We'd go to like another little city somewhere else." And then we drive
+back and we kind of went all over Australia. We went through the whole country. And then
+during co the music career kind of ended abruptly overnight, but it was kind of
+
+[00:05:14]
+getting there. I was kind of burnt out from music. It's kind of the hardest thing in the
+world to make a living from. And I was giving it my absolute best. I was living like a
+starving iron. I was just getting by. The dream keeps you alive and the little bits of
+money that come in here and there and just the lifestyle, the road keeps you alive. And
+then that kind of ended during the pandemic and stuff. But I've been flirting with
+programming while I was a musician. And I hated programming at school as well. I just
+didn't like being told what to do. But I got into programming because my band needed a
+website. >> Haha. Necessity. >> Yeah, it was necessity. And it was something like I
+think it was I want to say 2014 was solid 12 years ago now or something like that. And
+even then there was Wix. Wix has been around for a million years maybe. It's pretty
+historic. There was WordPress obviously and there was all these platforms. And I was
+like, well maybe I'll just like learn this HTML code. I had a friend who was he was a
+web developer and he worked
+
+[00:06:19]
+for himself. I think I was about 18 or 19 and he was a bit older than me. He was like 10
+years old. He was 27. And I remember we would go out and have drinks and I'm like,
+"We're drinking. It's late. You got to get up early in the morning." He's like, "No, I
+work for myself. It's okay. I can wake up a bit later." I was like, "Whoa, okay." I'm
+like, "What do you do?" And he's like, "I'm in tech, you know, I'm a developer." I'm
+like, "Whoa, that sounds like you're like a professional." And I'm like, "Did you go to
+university?" He's like, "No." I'm like, "Great. If you could do it, so can I. You're
+checking all the boxes. >> You got money to be out drinking. You don't have to get up in
+the morning or you didn't go to school. Tell me more about this. >> I was like, this is
+like rock and roll, man. That's the dream, right? That's what [laughter] I thought
+that's what music was for, right? You know, maybe you've got a good path as well. And I
+was like, okay, that's pretty cool. And my dad was convinced that I would never learn
+how to be a programmer just from like YouTube and self-eing. So, I kind of had someone
+to prove wrong as well, which is good. I think having a bit of a chip on your shoulder
+can push you far in this life. Like I was watching tutorials on YouTube about HTML and
+CSS at YouTube University. That was my
+
+[00:07:23]
+university. I just lived on YouTube. I fell in love with it so quickly. And I felt that
+like programming was just so natural to me in a way that like I just remember like
+trying to learn how to play guitar and singing and to like dance while I've got a guitar
+in my hand. It just I was like, man, I'm not this cool. This is so much harder. But I'm
+like, "Oh, that code, it just makes sense. It just like it somehow I just felt so
+comfortable in that space very quickly." And I kind of fell in love with it as well. But
+I was like in the middle of like I had a band that seemed to have some potential. I was
+23. I mean, don't we all want to be rock stars then? It's so much more glamorous then to
+be rich and famous and all that. It's funny when you get older like I don't know about
+that. It's actually pretty good to be anonymous. >> Rich seems good. Fame is great. >>
+Yeah, fame sucks. Like I admired the Beatles so much and I still do. I mean it's great
+music but like they kind of were prisoners of that fame. Like I can't just walk around
+Vietnam. Imagine you're that famous and people like running at you and all that stuff.
+So it's kind of worked out well in the end. And that was a little side hustle thing
+
+[00:08:27]
+was like I would make websites for other artists. I'd make them WordPress websites and
+stuff that they could edit and things like that. And so that was some a little bit of
+side hustle money. I was trying to get some money together to keep the band going. And
+then when we started getting a bit more steam, I kind of left the programming on the
+side for a little bit, but it was still in there. And then there was some time, I want
+to say in 2019 or so, I was kind of getting burnt out from music, just living on the
+road, all the performing, all the pressure. It was so much writing my own music and like
+trying to make people love me and all this stuff and whatever. Like, it's such a
+difficult thing to do. It was kind of just getting to me. And I just kind of wanted to
+get back into programming right before co I was really starting to get back into
+learning how to program and everything and I was like I'd set up WordPress sites and
+everything but I was like oh you can like edit the admin interface and I could like I
+was really understanding how the platform worked which I found really exciting. I was
+like oh you can do anything like wow you this is like a blank canvas but even better
+like
+
+[00:09:30]
+WordPress like your guitar or something and it's like a whole instrument. It's pretty
+cool right? And I was like, I this is just going to be such an easier way to make money
+and to survive in this world and to like live basically. And then during COVID and the
+pandemic, the music career kind of ended. And so I'd just gotten this kind of part-time
+gig doing a couple hours a week. It was fully remote. And then I was like, "Okay, let me
+just go full in on this." It was a great company called Evergreen Connect in Australia.
+It was like a vertical SAS for like plant nurseries basically. It's like inventory
+management software and all this stuff. And it was a small team and they would kind of
+let me build interfaces and run wild. And I had a great relationship with my product
+manager. And it was cool. Like we were building things like we built a platform that
+people could like buy and sell plants and it would do like $100 million a year. And I
+was like, "Wow, I like built that. That's like crazy." And I remember when I was
+building it, you know, I'm just in a room by myself in a laptop, you know, fully remote
+team. And I'm working on
+
+[00:10:33]
+this thing for like three months. I'm like, are they going to fire me? Like, is anyone
+going to use this thing? Like, they've just kind of let me build this entire product.
+They've kind of let me run wild with guidance, of course, but like, you know, I had a
+lot of creative freedom and I built this thing and like they gave me a call at the end
+and I was like, "Fuck, they're going to fire me. Like, he's just been in your room
+coding away for 3 months. There's no way." And they're like, "Yo, we want to give you a
+raise." I'm like, "Oh my god, amazing." [laughter] like I genuinely was like that and I
+was like, "Oh, this is cool." And then I stayed with them. I would pick up some other
+kind of freelance work from time to time, but that job allowed me to travel the world.
+So, I kind of moved to Serbia. Real quick, this episode is brought to you by Delta
+Systems, which is what Aaron and I do when we're not talking through microphones to you,
+the people of the internet. We've got a really, really great software team here, and we
+love to work with cool people on cool projects. So, if that sounds like you and you've
+got a problem or you're in some kind of a jam, go to deltasystems.com, grab a time with
+us, we can beat up on your problem together and if there's a fit there, amazing,
+
+[00:11:35]
+we'll help you out. So, deltasystems.com, grab an appointment and hey, maybe we can work
+together. When I moved to Serbia, I inherited a house in Serbia in Nish. So, I kind of
+got stuck with this old abandoned house that my dad grew up in. And so it's all the
+stories of the my dad programming and my dad learned how to code before it was code. You
+know, we were saying this off air before at the university to go and they'd have punch
+cards and all this stuff and told me all these stories. So I kind of always wanted to go
+to niche in Serbia and kind of see like that life that my dad lived and my parents lived
+there in that city. That's where they met. I just kind of wanted to have that context,
+understand who I am as well. And I'm going to speak the language. I'm a citizen. I'm
+like, "Yeah, why not? Let's check it out." There's a really strong engineering culture
+in that city and I think the whole Balkans in general like I think there's a lot of
+talent, a lot of smart people. You know, if you [snorts] go and play chess in the park
+in Serbia, you better be ready for it. Like some of these old men are going to [ __ ]
+they're going to do some damage to you. You know what I mean? [laughter] So once I
+started traveling and from
+
+[00:12:40]
+Serbia, I was looking for community and looking for people to connect with. I was quite
+lonely at the beginning and when I started attending conferences and kind of like
+organized events I was like these are great places to meet people great places to meet
+my people you know and so there was a festival in uh Bulgaria so in Bulgaria there's
+this festival called Bansow Nomad Fest and it's about 3 hours away from Nish and I went
+there once cuz I was just typing like I'm like what am I like Australian Serbian who who
+am I like what am I and I was just like Oh, I'm a digital nomad. Maybe I'm a digital
+nomad. I'm like working remotely. Like, who am I in this world? Like, I'm not a musician
+anymore. I had this identity crisis and everything. And I was like, "Oh, this thing
+looks amazing." And it was all like freedom and like travel the world and you're a
+nomad. I was like, "Oh, this is cool, man." Like, these are my people. And I went to the
+event and it kind of opened my eyes to so many things. And I met so many people that are
+living this lifestyle and so many professions, but kind of that nomadic way of life. And
+I was like, "Ah, like I'm not the only one that wants to live
+
+[00:13:43]
+on the road." Like I've always wanted to be on the road. That was kind of the whole
+point of being in a band was to just go on the road, you know? I was like, when touring
+Australia, the dream was to do the world tour. It's like we're sold out shows in Japan
+and everything, you know what I mean? Yeah. And then I started attending these kind of
+events. And then in Serbia as well, like I started going to conferences in the Serbian
+language. I speak Serbian. It was like I met a lot of great people there as well. And I
+was like, "Oh, this is cool." like this is really important. If people have these kind
+of events, it opened up the city for me. It would open up a whole destination for me cuz
+I'd meet all these people at the conference there. I'd go to them socially, but also I'd
+just be picking up, okay, he does that, she does that. You're meeting quality people in
+various fields of life. And I was like, I'm building like a professional network. This
+is really cool. But I was always disappointed by the apps. there would always be an
+event app or something that ostensibly there to connect us and half the time the people
+would forget about it on the second day or something or that they'd be muttering that
+it's not very good or
+
+[00:14:45]
+anything and I just always thought like throw me in a cave for 3 months and I did it
+before and maybe I can make something I can build a product and and take it to market
+cuz I was kind of really missing that feeling of also like when you're a musician on the
+road like you're an entrepreneur really. I kind of quit cuz I got burnt out of doing
+sales. Everybody kept saying to me, they're like, "Oh, but you're doing what you love
+and all that." I'm like, "All I'm doing is calling festival organizers, trying to pitch
+them to book my band. I'm like calling up venues." Like the amount of cold calls I used
+to do. I'll be on that phone. I was hustling those blues festivals in Australia. It was
+amazing. [laughter] And I thought, well, okay, this like if I built a product for a
+conference, it'd be kind of the same thing. Like I I did it once. I got on the phones
+and I called them all. I could do it for software. And then I looked at like some of the
+competing players in the market and I saw what the organizers were paying for these apps
+and I was like this is amazing. Like I'll build this build this for free. I'll do this
+just to have a great time just to build something just to express my soul and my spirit.
+Put it in a product. And I had
+
+[00:15:50]
+the idea brewing in me for a while and attended a lot of events. Nomad Cruise was like a
+life-changing event for me. It was like a cruise ship. 12 days conference on a cruise
+ship. 300 digital nomads sailing from Spain all the way to Brazil. So you start in Spain
+in Tenneref, you wake up in Brazil, 300 people. You've made it's like this sense of it's
+like we went to school together or something. We're like alumni. It's like we're on this
+amazing adventure together. And then it continued and we went on down Brazil and we made
+it all the way to Argentina. And I lived in Argentina for I booked a week and I stayed
+there for four I think 3 or 4 months. I didn't want to leave ever. It was amazing. I
+just loved it. And I started learning how to speak Spanish. And that was really
+important for me cuz I was like I speak Serbian and English. I had this identity crisis,
+third culture type thing. And I'm like, well, join another language and see what
+happens. I like learn that Spanish. And then I'm like, oh, Spanish is kind of similar to
+Serbian as well. Like I
+
+[00:16:52]
+wasn't expecting that. There's still like a Latin root in Slavic languages. Kind of
+interesting. >> We did our intro call and I told you where I live that you started
+speaking Spanish to me. I was like, "Wow, holy cow, it's pretty awesome." >> Yeah. No, I
+love Spanish, man. Beautiful language. It's so cool. Like, we grew up in the English-
+speakaking world, but there's so much beautiful music, especially in Serbia. It's such
+amazing music that kind of doesn't get that far out of the Balkans. I mean, cuz you
+don't understand the words, but it's beautiful. Beautiful. I mean, Serbian music, it's a
+bit like the blues really as well. This goes back to all the name of the company and
+everything. Conference cowboy. A bit of a silly name. Where does Conference Cowboy come
+from? Actually, before the app, I was going to launch this like singer songwriter
+project in Serbia called Cowboy Toma. Thomas Dravkovich is like Serbia's Johnny Cash and
+he's he writes these like sad songs and he sings and he's amazing and he's like a
+national icon over there. And I was like, "Oh, I could do him with the guitar and a
+cowboy hat. You know, I'm from Australia or something and that would be like a
+
+[00:17:55]
+quite an interesting show. Like people would pay tickets for that." That never happened.
+It may well happen at some point in the future. But this cowboy thing kind of floating
+in my head that I was like, "Cowboys are fun. You know, the blues is a bit sad. Let's
+like cowboys are fun. Let's be more entertaining or something." And this stuff was
+brewing, but I didn't have the time to to lock into this thing. And then after I'd
+attended enough of these nomad events, I decided to put on a conference in Serbia called
+the Nish Nomad Weekend. So we brought digital nomads to Serbia and we had a great time
+there. We were there for about 4 days, I think. And so I felt that pain of the
+organizer. I was like I wanted to I just wanted to feel the pain. I don't know. I just I
+wanted to know what it's like, how much it hurts to organize. I wanted to feel it to
+understand my customer really. So I went through that and that was great. And then I
+just I didn't know what to do and I quit my job and I bought a plane ticket at a friend
+in Thailand owned a resort. I didn't know what to do. I just started working out every
+day at his resort. Just every day we started working out. We're filming
+
+[00:18:58]
+it. It's on Instagram. We're doing this like workout challenge. I was like, "Oh my god."
+And I actually lost like 10 kilos in like 2 months. It was amazing. We were like
+drinking the fresh juice at his resort was Tiki Beach Resort in Copenyang in Thailand.
+Sorry, it's almost 25 for our metrically disabled listeners. >> Sorry, you guys are
+American. [laughter] No, you're good. It's just as Americans who do the pound thing. >>
+Yeah, 20. [laughter] >> No, I know. It's 2.2 pounds for 1 kilo. That's the math I work
+with here. So, after Copenyang and all this working out and everything and not having a
+job and not being a developer and now I'm an influencer on in I'm like a weight loss
+influencer now or what am I doing like with my life? What is going on? How did this
+happen? doing this challenge. It's kind of fun. But after about two months, my visa was
+expiring and I was like, "All right, time to hit the road again." And I came to Vietnam
+in Daang and I just this city I remember getting off the plane and I was just like, I'm
+home. I don't know what happened. I just I walk out and I'm walking to find the
+
+[00:20:01]
+grab driver like the taxi driver, Uber equivalent here in in Southeast Asia. And he's
+driving just through the city and I'm like, I just love this place. It's like what is
+love? What is love? Who am I? Like this is love. Love at first sight. You know what I
+mean? So I just immediately felt this amazing energy. I felt that in Buenos Iris as
+well. These two cities have really inspired me a lot. I learned how to speak Spanish in
+a few months in Buenosirus just and I remember I got off that plane in Buenosiris and
+the sun set so late. It was like 10:00 p.m. or something and it was like the sun was in
+the sky. I was like what is this place? The sun never sets up Buenosiris. What an
+amazing city. Came to Daang and Daang is the highest value of money city in the world.
+Like for pound for pound your dollar is going to go it cannot possibly go further than
+it goes here. I mean the quality of the food, the accommodation. Like I'm staying in a
+four-star hotel. It's less than $600 American dollars a month. You know what I mean?
+They got
+
+[00:21:03]
+like clean sheets every day. I got fresh towels every day. I got a gym upstairs. I got a
+pool. You know what I mean? It's like I can focus as a founder, do all I need to do cuz
+I'm kind of in this. I have some friends helping me here and there, but it's by and
+large it's a oneman show for now and it's a lot to build a product to market it to sell
+it. I mean, as anyone can know, so it's so important. I'm like, look at that fresh
+towel. You know what I mean? It's like do that workout like I know I got that pool to
+jump into. I can focus my mental bandwidth can stay very much in this to make sure we
+can execute this as we need to execute it. And so I started building it. It's always fun
+talking to people who haven't traveled in Southeast Asia where I explain like what the
+accommodations are like and how things are and they're like, "Oh, but I don't have that
+kind of money." I'm like, "Yeah, you do. That is cheaper than staying at a Days in the
+States." Of course, it's crazy. >> There's a hotel I love in Bangkok. It's called the
+Grand Shard in Sukumit. It's right on sukum feed in the middle of Bangkok. But they
+literally have a jazz club on the second floor if you're like a member or whatever. You
+have like the piano happy hour. Everything's included
+
+[00:22:05]
+with the stay. And then if you're there for the piano happy hour, you get to stay and
+you can get your best seats that you want for the jazz share which they have every
+night. They have curtains and they just wrote the whole thing off. They have amazing
+jazz acts through there. And it's just like, oh, that's got to cost like a million
+dollars. It's like, no, it's like 150 bucks a night. It's nothing. It's truly
+incredible. And when I left Australia, went to Serbia. Serbia was also much I was like,
+okay, I'm much wealthier than I realize if I stay in some of these countries. Like I
+have a lot of leverage here from the geo arbitrage. And it's like, what's your runway?
+All these like companies are raising all this money and they're worried about their
+runway. I'm like, dude, I never die. I'm like, I'm just here forever. You know, I can
+scrape a couple thousand dollar a month. That's all I need to live incredibly well here.
+I I'll find it. It'll find me. We just had a guest on a couple episodes ago, Jonathan
+Mandanza, but the episode title it was basically cockroach mode, but it's exactly what
+you're saying where it's just like you can't kill me. Like, don't die. There [laughter]
+was I would love to know who I could attribute this to, but there was some podcast I
+listened to a couple of months ago, and it was some guy and he was just like I can't
+even remember what industry he was in, but he said he just
+
+[00:23:09]
+kept showing up everywhere talking to everybody, all of his customers. A lot of people
+skeptical, a lot of people didn't want to know him, but he just didn't die. and they'd
+all eventually oh what are you like show me what you're working on you know what I mean
+it's don't die find your customers and just stay around them and the great thing for me
+is I just get to go to conferences I can go to any conference and my customers there can
+just go to the barber shop conference for barbers it's like anything hairdressers like
+all of them everyone needs an event if the conference is big enough my market is any
+group of people who might get together and gather it's a pretty broad market and it's
+pretty easy to find those folks just look for a large gathering of people and then be
+there. So yeah, if I could throw myself in there, I've got a reason to be there. Tell me
+a little bit about your product, how people engage with it, what problem it solves, how
+does it work. >> Yeah, so the products are ostensibly it's B2B. So the conference
+organizer is my customer. So they'll purchase and I'm still figuring out it's still
+early days. It's been a year in total from first line of code written. MVP was launched
+in March last year. The first
+
+[00:24:13]
+event was Vietnam Nomad Fest here. It was the digital nomad festival and conference here
+in Vietnam. So that was the home of the app as well. So the organizer is my customer and
+then it's basically like a little social network in itself for the conference. So
+especially these nomad events, they'll last a week, maybe 2 weeks. They'll have events
+pop up all over the city. People who are attending will create their own meetups and
+things like that. we call them unconference sessions, but it's basically just like
+attendees will make their own events and stuff like that. And so like it was so
+complicated to follow these schedules and all this stuff. And I was like, it would be
+great if we had a tool there and you could see who else is at the conference. And the
+product has like an interactive map. It's very easy for people to add venues there and
+to attach events there. And so like during this period where you've got hundreds of
+people in one space that are really ready to connect and creating all of these amazing
+events, having an app just keeps everyone on the same page.
+
+[00:25:16]
+It's such a communications nightmare to put on an event for a whole city with events
+happening all over. And it's like events are created in the moment as well. So it's very
+important just be able to boom Adam on the phone in there. You know what I mean? And
+it's important to have a vehicle that does that. So it's like your classic kind of
+events app as well. You have like attendee profiles. It also handles ticketing as well
+which is very interesting. I think a lot of the other event apps don't handle ticketing
+in app because I think Apple app store is quite hostile to app purchases. So it's
+actually a progressive web app as well which is finally becoming a kind of firstass app
+in itself. It really feels like native and the browser is able to do so much more now.
+The browser can render so much quicker now. So, it's actually a progressive web app
+native app which I haven't seen any other products out there that are PWA first, but I
+want to fight the fight for the open web, you know what I mean? As well, but it gives
+you these kind of tools like ticketing and things like that. You can sell
+
+[00:26:20]
+ticket upgrades within the app itself. So it's kind of I'm trying to eventually I would
+like to build an event management operating system so that like all aspects of tech can
+be consolidated in one space for the event you know and that people can like look up all
+the talks and that they could be in the app itself like it's just it's a repository of
+so much information all the conversations that people have. It's like there's a forum in
+the app that people can leave threads and talk to each other like leave comments on
+people's talks and things like that. So, it's a place that people can connect and it's
+amazing. It's incredible. >> Let me highlight a couple of things you said there. So, the
+PWA for folks who are familiar, it's progressive web app and basically what it is is
+it's like a very ambitious website. So, it kind of looks and feels like you're
+installing an app, but it's just a website. Why that's important is it removes Apple and
+Android from the discussion. They don't get the cut of the money and they don't get to
+determine who's allowed to put what on your phone, who's allowed to do what. So it it is
+basically it's taking away gatekeepers and anyone who is IFFF digital freedom minded
+very excited about PWA because it basically gets rid
+
+[00:27:23]
+of these gatekeepers and people who are causing problems and it's not an indefensible
+point of view. I mean Apple was scraping 30% from people for on all purchases. >> Yeah,
+they're Uncle Sam. They're Uncle Sam number two. They're taking 30%. It's crazy. Well,
+then the court told them they can't do that anymore and so they complied with that by
+not really changing anything and then the court smacked them down again and sanctioned
+them and they said they did malicious compliance by following the letter of the order
+and not the spirit of it. So yeah, Apple is not not a hero by any stretch. They're
+horrible to work with from the app side. So super happy to see people pushing PWAs out.
+>> Well, and the walls of the garden continue to get higher and thicker around all of
+them and Android's not terribly far behind and some of that's out of necessity. >> You
+know what's interesting? The Steve Jobs didn't want the app store initially. He wanted
+everything to be a web app. You know that. But in those days, the web was not there. But
+now the web can do the fancy animations. It can do all of that stuff. Like I look at
+native apps now cuz I spent so much time building this progressive web app and I'm like,
+what do they really have over a progressive web app? Well, okay, maybe
+
+[00:28:27]
+a slightly cleaner install experience on iPhone because because Apple makes it hard to
+to use them. Yeah, >> they're really trying to make it as hard as they can, but like
+they're slowly relenting on everything. Like they're allowing push notifications so you
+can send push notifications and they can be branded. So the this is what is really cool
+and innovative about Conference Cowboy. It's a fully white labelled experience for the
+organizer. cuz I used to think, well, every conference, every festival has to have its
+own website. Well, they should all have their own app as well, and this should become
+like a platform to then create one for this festival and this one here. And that was
+kind of the spirit of what I was built. I was like, oh, is this going to be like an
+open- source project or something or I don't know. But then I was like, maybe it could
+be in the future. I don't know. It was but decided to ask people for money. The problem
+with open source, the problem with doing things for free is people just want you to do
+more and more and more and more of it. and it's not ideal, but there's a lot of amazing
+open source software, but that's a I guess there are businesses, too. It's just a
+business model I don't really
+
+[00:29:29]
+understand. >> What's your monetization model for a conference cowboy? You just It's a
+direct sale to a conference organizer. >> Yeah, so right now it's basically that. And
+I'm still figuring out all the pricing as we speak. I go back and forth. I just redesign
+the whole kind of marketing page and the imagery. And we have a mascot even. His name is
+Banjo. He's a cowboy yeti. >> Fantastic. [laughter] >> Our neighbors had a dog named
+Banjo. So >> Oh, really? It's a lovable name, right? >> A beagle. A very, very large
+beagle named Banjo. >> I gave him a backstory. He plays a banjo cuz his name is Banjo.
+And it's conference cowboy, you know, and he's like a cowboy yeti. And I just thought
+give him some funny little backstory. He's from Australia. He's like a singer
+songwriter. He's me in this little mascot kind of thing. That was like some founder law
+I thought I'd throw in there if you're like paying attention on the marketing side. >>
+Love it. >> And [laughter] >> so the pricing model for now is like it's kind of a setup
+fee and then I charge per attendee, but I'm expanding
+
+[00:30:33]
+all of the ticketing platform now. So like the way we did it in the events past, it's
+been in production now I think at I want to say nine events maybe since March and we're
+recording this in January. That's about 10 months of being in production. The largest
+event that it's serviced is that Bonso Nomad Fest. So that was about 800 people. I
+remember 2 days before Bansco Nomad Fest, I only jumped in a river and I was like, "What
+am I doing? What what have I done? This people could kill me." Like there's so many
+people like, you know, it was just the freak out. It was like getting on the big stage
+the first time. You know, I remember when the first time I played to an audience of
+3,000 people, I remember the first like 15 minutes, I'm like, I'm an absolute rock star.
+This is just, oh my god, you made it, man. You made it. And then having the fear of God
+put in me and I just had this like insane panic attack and like the rest of the show I'm
+just like, Mhm. No, you you're still cool. You're still cool, man. This is still rock
+and roll, dude. Like I just it was like that kind of
+
+[00:31:37]
+pressure. So I was like, okay, that's kind of why I got into this. I kind of miss that
+pressure of being on stage and the events is just such a so much energy around events
+and things like that. So yeah, Bonsar Nomad Fest, we have I have a similar kind of
+experience. We have an app right now. We've gotund and a lot of users, but they use the
+thing all day every day. It's how they do their job and it's like, oh yeah, well we
+patch if there's a problem we know patch, wait five minutes like near anything like
+we're good. That's great. >> Yeah. >> So yeah, have having that kind of scrutiny. Yeah,
+having 800 people they will give you some notes on things they like to see work better.
+>> Oh my Oh my god, they everybody telling me everything. It was great. A lot I got a
+lot of and I felt grateful that people would felt comfortable giving me negative
+feedback as well. Not that there was anything that went wrong at all. The product is
+amazing and perfect. Don't tell anyone. It's perfect. Rob Walling has a categorization
+for the incoming user request and one of them is like, "Oh yeah, a suggestion. It makes
+perfect sense. Put it on the road map. That's exactly what we want to He's like, and
+then there's like the bottom 10% which is just like your app should
+
+[00:32:40]
+generate wind power. What are you talking about? Like take the tin foil off of your
+head. And there's the messy middle 80% in the middle where you actually have to, you
+know, think about it. But [laughter] yeah, know what's cool about this is like it's a
+conference app, but it's like I'm servicing one general broader community of
+conferences. So, it's kind of the same faces are seeing it. So, I'm getting a lot of in-
+depth user product feedback and things like that. And I mean the good thing about it is
+that people actually like it and it's good but they kind of want it to do everything as
+well. This thing can't like do your house laundry for you can it? You know what I mean?
+It can't clean your room. It can't do everything can it really? But like I feel like
+there is some gestation of product market fit there coming like I kind of feel it. I get
+a lot of signal. I mean I consider you guys a bit of signal for um taking me on the
+podcast. I feel very flattered to do an interview with you guys and talk about the
+product. It's the first time I've spoken about it on air like this. So, like I'm
+grateful to have you guys with me. And you guys are musicians, too.
+
+[00:33:42]
+>> I don't want to disparage my standards, but I will talk to any founder. >> I love
+founders. I love No, I'm kidding. I'm giving you a hard time. [laughter] >> I was biging
+you up, Justin. >> I know. I didn't care. I had to tear myself back down. I got altitude
+altitude fears. >> No, no, but no, you guys are great. >> I really like the pricing
+model, though. Like, per attendee. I think that's a really good value metric for a
+conference organizer because they're going to get tickets, they get paid per attendee.
+So if you make more money, when they make more money, that makes tons of sense. For
+people who continue to want more things though, maybe there's also a packaging play for
+you where like you can have like different tiers of packaging where you charge a
+different onboarding and a different like per attendee price. I know what your pricing
+is like, but if people keep wanting you to do more and more and more things like this is
+modules and add-ons, which is just extra pricing, extra tiers. >> Yeah. And I mean the
+problem is if you just leave me alone, I start I just keep building stuff anyway. So,
+the problem is I just love working on it and I just love continually building our new
+features and stuff. Like I just finally built the like community events so like anyone
+at the event can add events and that's been like a big thing that like we don't need the
+administrator. Oh, here's another funny thing. The reason I
+
+[00:34:45]
+made the conference cowboy thing actually we don't call the administrators of the app
+admins. We call them sheriffs cuz the sheriff's in charge. It's conference cowboy baby.
+Let's go. The sheriff's in charge. [laughter] >> Stay with the brand. I love it. >> Stay
+with the brand all the way. And well, because I thought you listen to a lot of podcasts
+on marketing. I listen to a lot of podcasts on everything. And one thing that always
+stayed with me is people kept saying like a product should be a transformational
+experience if someone buys it, right? And so if I have this funny little mythology of
+cowboys and stuff, it's like you're kind of entering this world and then this product
+can transform your event. And it's like the other thing is events are so high pressure,
+right? People screaming at each other, people losing their minds, a lot of people, a lot
+of falling outs at conference. A lot of people, a lot of friendships break, you know
+what I mean? I just figured like imagine the sheriff's in charge and you're going to
+scream at somebody for being the sheriff of the app and they made a mistake. It's like
+just relax, the show will go on. You can't scream at a sheriff. It's so ridiculous. That
+was some kind of thinking there. So, there's
+
+[00:35:48]
+a bit of that kind of thinking in there. But another thing as well is I think cowboys
+and code kind of has a bad connotation there. Like this is cowboy code or people aren't
+running things correctly. Like who are these cowboys? I kind of thought if you lean into
+that and you show them this is really a quality product. We can even change their
+association with these negative terms on cowboys. That's part of the transformation.
+We've shown you what it means to be a cowboy or something like that. You know what I
+mean? >> I like that it puts you out on the frontier. You're on the fringe of society.
+You're you're an explorer. You're Yeah. Yeah. I like it a lot. The H1 on the website is
+the frontier of event apps. >> Yeah. As soon as Justin because I got the website up,
+it's like, yep, it's right there. >> Beautiful. Beautiful. >> I got one more question
+for you because this is something that always interests me. So, you've gotten something
+off the ground. You're starting to get some traction. You've had some sales and so
+you're now getting into, as you said, that area where people are providing you feedback
+and you're you're sussing out what you want to do. One of the things that drives me
+crazy about good software or software that starts out really good is it then does try to
+become everything
+
+[00:36:53]
+like way outside of its lane, way outside of its boundaries and it's at that point the
+stuff just starts to fall apart. The core of the service starts to degrade and it just
+drives me crazy because I have seen it happen on software that we have used as a company
+that we've moved away from because of that. So my question to you is what is your mental
+process or where are your mental guard rails for yes this is something that I am going
+to consider it probably will eventually be a feature but yet it still keeps me in my
+lane versus this is a totally different piece of software I need to just go build
+something else. >> Yes. Yes. I'm kind of feeling that pull right now because it is
+having success in this space. Like I have real paying customers and like I'm signing new
+contracts and like the trains move but there's a pull from a lot of the customers. They
+wanted to be a community management platform kind of like circle. So me and Justin, we
+met on circle. There's a micro circle community. That's kind of why I joined the
+community. I was like, I need to get on a circle app. I'm like, oh, I know about
+microconf. Let me join that. Kind of makes sense. Let me get comfortable with some
+community management software. And I
+
+[00:37:56]
+look at it, I'm like, okay, this is different than an event app. Because the event app
+is it's for that time period. And there's a natural like people, you know, a month after
+that event, it feels that like this community should not continually live on and live on
+and live on. If it's going to live on, there should be another real life conference and
+another event app for that one. And there's some pregame before the conference, some
+postgame. But I think like if you try and consolidate a community platform and a
+conference app that that might be kind of what you're saying of like you're trying to do
+too many things and then cuz I'm seeing my domain like with my internal domain as I'm
+mapping what I'm building and I'm like it seems natural and like all the conference
+organizers wanted I mean they want their they sold all these tickets and everybody tells
+you to have a community and just continue selling to them and all of that and it's like
+then they want to do events year round to that community. Maybe there's a way to do it,
+but I think it's a very touchy thing. And I think when customers think of things,
+everything looks so much
+
+[00:39:00]
+simpler than it is. And the more complicated the software gets, adding things on, he's
+like, "Oh, is this going to break something over here? I got to be more careful." There
+is a lot of value in being I think the only engineer and kind of a solo founder is like
+I kind of keep all the context in my head. There are no meetings. The only meetings are
+sales meetings. is like there's no product discussion or product discussion happens
+directly with the customer. I'm very aware of that Aaron. I don't want it I don't want
+to try and build the app that ends all apps. You know what I mean? It doesn't need to
+end the world. But maybe I would love to hear you elaborate on upon that cuz you said
+you even used some software professionally and then you saw them go other way. Like I
+would love to hear that story if you could share. >> Yeah. So, I don't want to name
+names or call anybody out from school, but a lot of what we do as a consultancy is we
+have to manage people and we have to manage our time. We have to manage our projects.
+So, there's like a core set of things that we need to be able to do. And there's a lot
+of software out there that does that. And the problem that we kept running into oddly in
+different ways is that we would get piece of
+
+[00:40:03]
+software that does that core set of functionality for us. I can create users. I can
+track their time. I can create projects and tasks. Cool. But then suddenly it tries to
+do more things. It's like oh well let's give you like a space where you can just like
+freethink and freewrite. So we'll give you like a notepad or a whiteboard or something
+like that. And then well you need to also be able to push this to other systems. So
+let's go out here and let's integrate with all the existing project management systems
+that are already in place. And oh you should probably want to be able to invoice your
+clients. So let's build an invoicing management system. And all the time the core of the
+system that I need is getting no attention and it's just rotting on the vine >> and then
+they want to charge me more for it because they have other features I don't want. >>
+Exactly. Something that we've never asked for. And so it finally got to the point where
+it's just like you know what scratch all this we're just going to go and get one piece
+of software for each of the things that we want to do. And since we have done that or as
+we have done that over time everything is has improved because these softwares at least
+so far have managed to stay mainly in their lanes. So we have something
+
+[00:41:05]
+that tracks time. It does integrate a couple of ways and very specifically and that's
+perfect. It doesn't try to be more than that. >> If we want to name names in a positive
+way, Harvest. Harvest is killer. That's what we use for our time tracking. Who is
+Harvest? It's a time tracking software for people who manage their time hourly. It does
+invoicing. It does like four things. It's done exactly four things for like a decade. It
+does it amazingly well. And like yeah, I mean I've been annoyed at the fact that I can't
+get some things done that I need done that I've been requesting for a decade, but they
+don't add a ton of features and they don't charge unreasonably. It's like they know what
+their product does and it's very good at it. >> That's very interesting. >> And it's
+happened like just at different times over the years and it always seems to follow the
+same path. It's like cool, there's a core and then suddenly some years later it's like
+it's just ballooned into something that's totally unusable and doesn't even work for us
+anymore. So it's scratch that, let's pick another one and here's the new shiny thing
+with better workflows. that stays small and then it gets big. But we've had so much
+better luck with picking these things that stay focused, can integrate with one another.
+That's great. But they stay in their lane and they do such a good job. Interfaces
+
+[00:42:09]
+don't suffer for it. New features on the daily. I don't need a sixth way to filter this
+thing. Whatever. The next time Atlassian redo their UI, I'm going to lose my mind. The
+harvest UI has been the same for a decade or more. Harvest now. I'm super curious. I'm
+writing that down. be doing some research on them. >> That's my story there. I don't
+like to see that. I understand the pull. I totally get it and it does make sense. And
+it's so easy to just start inching in those direction and by then you're a mile down the
+road and now you're 2 miles down. It's like there's no turning back. >> I'm realizing
+this as well and it's like there's a lot of great ideas and maybe I'll build something
+and then I'm like, do I have to like keep supporting this kind of feature? Does this
+thing have to go like you said the invoicing as well? Like I built that into there as
+well cuz like like it was needed like two customers asked for it. I'm like okay like
+sure spend couple days grinding. I it's pretty fairly simple invoicing interface. But
+yeah I mean it's like you scare me on that because I know the more stuff that gets in
+there. But the other
+
+[00:43:11]
+thing about event apps is like you need it to be a little social network. It's like a
+little wechathat just for that event. Like that's kind of the goal of the organizer.
+They want to put you in their world. So, it kind of does need to like handle payments.
+The heart of the event app is the schedule. I've never seen any event app do this. I
+feel like none of them open you in the schedule. Conference cowboy, you click the button
+for the app, it takes you to the schedule and it takes you to what's happening right now
+because there's a million things going on. I want to know that when I click this button,
+I get value as the attendee. Oh, the schedule. It's right here. Great. What's happening
+now? Great. and it tells him the little event card is a little green. and it says
+happening now a bit friendly and it's the organizer can brand it their way but it looks
+nice and it takes you straight there cuz the amount of I go to events and I'm like I'm
+just scrolling like for days and I'm here and there I'm running into someone I know I'm
+trying to network with somebody I'm feeling shy and all this stuff I want it just give
+me value boom okay thank you and that's really I think why a lot of people like
+
+[00:44:14]
+it is that it just gives you value as the attendee immediately one of my pet peeves with
+conferences is when I'm looking at a conference to go to and I pull up the landing page
+and I don't know when it is. I don't know where it is. And like there's about to be a
+micro comp in Portland. For all my friends who are going to Portland, I will see you
+there. We will be there. But the if you go to the microcom landing page, it says April
+12th to 14 Portland, Oregon. It's above the fold. It's right at the top, you know. And
+for you, it's exactly the exact thing with the app. It's like if I'm at the conference
+and I'm using this app, it's probably because I want to know where the hell I'm supposed
+to be. I want to know what's going on. I want I want to know who's here. I want to know
+what the hell's going on. I want to know who this speaker is. I want the speaker to be
+able to edit his own profile or her profile. Maybe she wants to change something. Maybe
+they want to maybe the LinkedIn that they sent to the organizer was their old one or
+something or now they've got an Instagram they want to promote or whatever. They can
+like they can put all of that in there like every profile has a link tree. And I've
+tried to keep that kind of domain as simple as possible with those Lego blocks. So like
+
+[00:45:18]
+people can become speakers, they can become sponsors, they can be like I'm trying to
+build out the frame of thinking about how these people are related to each other to be
+extensible. Some places you need exhibitors, some places you don't. Some places,
+sometimes works so that the organizer can really create the app so it feels like their
+own. It's got their own logo on the home screen. They need to feel like it's theirs as
+well. And yeah, it drives me insane the amount of conferences I used to go and I just
+scrolling. I'm just scrolling, scrolling, scrolling. Especially if it's like days long
+event. Nomad Cruise 11 days. Glad to say they're a customer now. Looking for the next
+production run for Conference Cowboy will be in a couple of weeks. 14th of February to
+the 25th of February. We've got a Nomad Cruise 16. >> Are you going on the boat? >> Me,
+of course. I'll live on that boat. [laughter] This is the world tour I wanted. The app
+is my band now. I get to tour the world with it. Of course, I'm going on the boat. It's
+amazing. Life-changing events and use conference cowboy for affiliate code discount if
+you want to look up
+
+[00:46:22]
+Nomad Cruise. I can just keep selling my product or you can cut me off. I'm kidding. I
+can keep I can talk about this thing forever, but this thing has consumed my life, but
+in such a positive way. Like, it's such fulfilling work. A friend of mine told me the
+other day that my company's worthless cuz, you know, I've turned about $10,000. let's
+say for a year and he's like that's worthless company. I said it's a priceless company.
+This is what a priceless company looks like. It feeds my soul. This is what you're
+supposed to do with your life. I found it. I'm lucky. This is great. We can connect
+people. If you get joy from the process and joy from the doing, then that's going to
+give you the staying power to get the growth that you need. Patience is a killer. A lot
+of businesses. >> Living cost to Southeast Asia. I never die. You cannot kill me. I'm in
+a four-star hotel for a great price. You cannot get rid >> and almost getting paid to
+live there. It's pretty great. >> [laughter] >> It's great. >> Milan, it's been a great
+pleasure. I will definitely look you up when I find myself in Vietnam, which may or may
+not happen this year. We will see. But thank you for coming on the pod. Thanks for
+sharing your wisdom, background, experience. Where can folks connect with you if they'd
+like to get a hold of you? Yeah, I mean, I'm active on Instagram. If you type in Milan
+Militinovich_92,
+
+[00:47:27]
+that's me. You'll see I've got a cowboy hat. You can find me on LinkedIn as well, Milan
+Militinovich, or you can look up conference cowboy. You can go on conferencecowboy.app.
+That's so you can see our landing page there. You can learn a bit more about the product
+and there's even some YouTube videos of me with the MVP. You can see I'm kind of keeping
+a historical record of the product as it's evolving as well. So that like in 5 years I
+can do like an anthology series of conference cowboy. It's like the Beatles anthology or
+something like a retrospective documentary and I'm like sitting behind a camera. You
+guys can be interviewing me and I'm like this is where this happened in tell some great
+stories. So, I'm trying to document the process and some of that goes public and some of
+it's in the archive as well. >> Fantastic. Thanks so much for being here. Pleasure to
+get to meet you, get to chat with you, Erin. Always a pleasure. Thanks for cruising
+along with us. You bet. And we'll see you next time around. Thanks. >> Appreciate it.
+Love your work, guys. >> Thanks for cruising along with us on SAS that app. We hope you
+[music] grabbed some insights that were inspiring, actionable, or at least entertaining.
+If you enjoyed the show, don't forget to
+
+[00:48:30]
+subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

@@ -1,0 +1,592 @@
+Burn it Down and Start Over: When is it Time to Rewrite?
+========================================================
+
+Video ID:  n1f9M6iMO0o
+URL:       https://www.youtube.com/watch?v=n1f9M6iMO0o
+Published: 2025-09-09
+Duration:  00:34:51
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+scalability becomes a concern when you're huge and and when you reach that point it's
+going to be a very convenient problem to have. So, so, so buckle up, get to your first
+thousand users, 100,000 users, then we can start talking about real scalability. I don't
+think we've ever done a rewrite specifically for the purpose of scalability. I don't
+think that has ever once come up. We've done rewrites for the purpose of
+unmaintainability where that this codebase is no longer working. But straight up
+scalability has never come up in my career that I can recall. Welcome to SAS that app
+building B2B web applications, the podcast where we share real world stories, practical
+advice, and tech insights for those building or thinking about starting a tech enabled
+business. I am your co-host Aaron Marchbanks. >> And I'm Justin Edwards. Each week, we
+bring you the stories, strategies, and insights you need to build your SAS or tech
+enabled business smarter, not harder. Let's dive right in. Hello everybody and welcome
+to SAS.app.
+
+[00:01:06]
+My usual co-host Aaron has flown the coupe for today. So I'm joined here by our chief
+innovation officer Daniel Kane here at Delta and our number one developer extraordinaire
+Nolan Alamante. Every SAS founder or if not every many SAS founders in the course of
+their journey asked themselves the question, is what I built worthwhile? Is it a
+steaming pile of garbage? Should I kill it with fire and rewrite it? There's a lot of
+things to consider in the decision to make a to rewrite your software. There's a lot of
+things to consider. Uh and the answer is often not straightforward. So to unpack that, I
+brought on my favorite two folks and we're going to have an interesting discussion today
+where we cover rewrites and why to do them and maybe even tell some stories about
+rewrites we've done that went well and maybe some that didn't. So Daniel, Nolan, welcome
+to the pod. >> Hey, how's it going? Always good to be here. >> Yeah, absolutely. So I
+guess from from your experience, when are some times what are some things you guys
+consider when advising a client to do a rewrite? Yeah, I mean challenge um developers
+have a tendency of coming into a project and always wanting to rewrite it. No developer
+likes other developers code. We all think everybody
+
+[00:02:09]
+else's code stinks and our and our and our our code don't stink so to so to speak. Um I
+think in a lot of cases it's actually not the right call from a business perspective. Um
+but it really depends. I I think you know some of the things I consider is like a how
+how bad is the code base? Like is this a disaster? Uh, two, how much additional feature
+development are you doing? Are we just in a maintenance phase or are you planning to
+build something massive and brand new? Because if you're going to build something
+massive and brand new, you probably want a really good foundation upon which to build
+it. Um, and you know, and then third is like are are you doing any kind of a major
+pivot? You know, is there is there something where you're kind of completely changing
+direction with things? you know, maybe you started building this thing as a a direct
+mail service app and now it's going to be a phone call app and it's like, okay, well,
+you're doing something completely different. So, now rewrite makes sense because it's
+not even the same thing that you want. You shouldn't try to make a whatever square block
+fitting around peg. Is that the is that the expression? Square peg fit around hole.
+There we go. Um, so I think those are kind of the the three things that I
+
+[00:03:12]
+would would consider. >> Do you have anything to to add to that, Nolan, or cases you've
+seen where the rewrite was the right thing to to bite off? Yeah, I mean I think Daniel's
+statement that like a developer try kind of generally wants to start from scratch is
+probably true and like that is usually my instinct and I usually have to like make a
+concerted effort to kind of check that and not do that. It's a lot easier for us
+generally to kind of think about problem solving with a clean slate rather than like try
+to account for all the garbage that came before us. Um, but yeah, I think the the
+business case for a rewrite is like pretty pretty unique and I think there like are a
+lot of requirements that need to be met before you actually even kind of go down that
+path of consideration. Um, it seems like uh we do often have clients who kind of have a
+V1 of an app that V1 was like kind of completed and then left unchanged for a couple
+years, but in that time the business has continued to grow and and and maybe even
+evolve. And at a certain point that V1 of the application just becomes kind of stale and
+doesn't really meet their needs anymore. We've done a lot of rewrites specifically for
+those business users and that usually winds up being very
+
+[00:04:15]
+successful because we can kind of factor in all of the lessons learned for V1 while
+still like adding on all these new enhancements and features and we wind up with an
+application that both serves like the old business use cases as well as all the new
+ones. >> Yeah, absolutely. I think that that's that's my favorite time to do a rewrite
+is when there's an existing application that's working okay but there's either a big
+pivot going on or uh we want to change the fundamental technology for some reason to
+enable some new business thing like a good example would be adding a mobile app where we
+have a kind of a bespoke web application that was never set up with API functionality in
+mind and adding adding one on is going to be a huge lift we can take the existing app
+which is good and does what it needs to do it's great as a developer because you have
+these beautiful use cases of exactly how everything is supposed to work. So you don't it
+really cuts down on communication time at the client and then you can kind of create a
+new application that meets the old application, migrate the data over and then also this
+new thing that uh caused you to to bite off the rewrite. So we've had a couple clients
+in that um in that vein. I think another issue or another case I've seen where rewrite
+does make
+
+[00:05:16]
+sense and all of this is with the statement that you rewriting is usually not the right
+call. It's it's the exception. uh the fact that your code is clunky and people don't
+like working with it is uh inconvenient and it doesn't make you feel great as a
+developer. But u there's not a business case to to clean up your code most of the time.
+Um but another case where it can make sense is if you have something that hasn't been
+maintained and it's so dated now that the um work you're going to have to do to bring
+that up to speed and get it rehosted and I'm thinking about updating off of something
+like VB or you have an application that's been doing its job for 20 years and no one's
+ever touched it. It's like, well, yeah, we can bring that up to speed before you get
+kicked off your hosting. But the amount of work to do that is going to be very similar
+to a rewrite. So, let's take this as a fresh beginning and we can install new
+technologies. We can kind of bring the thing up to date in something that's a little bit
+more modern and it's a similar amount of work to what you'd be paying to maintain an
+existing system. I have had a couple clients in that vein in in my career, not too many.
+I think I can think of I guess one notable one. So, for um I guess SCA scaling and not
+being able to scale is also a reason potentially for
+
+[00:06:20]
+doing a rewrite, I guess. Can you think of an instance of seeing that uh in the wild?
+Daniel >> scaling I mean yeah I mean I mean so that's something we we always tell to uh
+to startups when they they uh come and work with us you know especially small early
+stage startups often times they're very concerned about scalability scalability
+scalability and we need to build this in Scola it's got scalable right in the name um
+you know examples like that and usually what we tell them is you're you're too small to
+worry about scalability scalability becomes a concern when you're when you're huge huge
+and and when you reach that point, it's going to be a very convenient problem to have.
+So, so, so buckle up, get to your first, you know, thousand users, 100 thousand users,
+then we can start talking about real scalability. Um, I don't think we've ever done a
+rewrite specifically for the purpose of scalability. I don't think that has ever once
+come up. We've done rewrites for the purpose of unmaintainability, you know, where that
+this codebase is no longer working. But straight up scalability has never come up in my
+career that I can recall. Have you have
+
+[00:07:24]
+you had anything like that, Nolan? >> I don't think so. Um I've definitely encountered
+projects where the urge is strong because like so many bat patterns and inefficiencies
+are like so fundamentally baked into the code that like sometimes I do wonder like would
+it just be faster to kind of scrap this and like pick out the various pieces that I want
+to bring forward but rewrite those those inefficiencies from scratch. But we've never
+actually moved forward on that. Um I I think that would be like a really really rare
+kind of scenario. >> I think we have done micro rewrites where we've completely blew up
+and rearchitected a component of an app or an area of an app. But blowing up an entire
+application for scalability. >> Yeah. Even a front end, right? We've we've moved we've
+migrated across like component libraries or or or um kind of style frameworks and like
+sometimes that feels kind of like a rewrite in at least in the front end but still
+fundamentally it's the same code base usually. >> Yeah. I had one client who was in the
+IoT space where the initial architecture that was decided upon just was not going to
+operate at the scale that they needed to move quickly into uh this is related to a co
+pivot where they were going from uh something that wasn't contact tracing into contact
+tracing and uh the amount
+
+[00:08:27]
+of interactivity between um their IoT devices was just so much more than they
+anticipated and we had to kind of re completely blow up what was existing and rewrite
+mostly all of it but that wasn't their entire application it was just that kind of
+communication piece so I can think for that. So I guess you guys have both mentioned
+kind of as developers we come in and we have this tendency to want to rewrite because
+code is bad and it's not our code. So inherently by definition it's bad um in these and
+these kinds of things. I think one reason that where you might actually want to rewrite
+because of code quality issues is um if you are either spending so much money on writing
+each individual feature because of bad patterns that it's kind of like uh making a big
+investment early on to avoid the death of a thousand cuts later. That can be a good
+decision. Uh, I also think that kind of another thing that that would go into that is if
+you're having a really hard time keeping talent around because your code base is so
+dated or it's in a bad piece of tech that people don't want to work in or it's just
+miserable to work on. If you're actually having developer turnurn because your codebase
+is so bad, that's
+
+[00:09:30]
+that may be one of the better reasons to do a rewrite. And I think that's maybe a little
+bit hard because it's difficult to tell um kind of if that's if that's the cause of
+developer turn or if it's something else. >> Well, yeah. I mean, when um when a code
+base is bad, there are a bunch of reasons for that. I mean, oftentimes it is just
+straight up bad developers. There are a lot of bad developers out there in the wild. I
+I've been shocked uh throughout my career how many just awful awful awful developers
+I've worked with. There is no licensing and bonding process for a developer. Anybody can
+call themselves a developer, throw up a flag, get hired to do that, and and you would be
+amazed. you know, you wouldn't let you wouldn't let somebody work on your your house's
+electrical system who doesn't know how electricity works, but people do it all the time
+with software for their company. They spend hundreds of thousands of dollars and it's
+it's a mess. So, one is that developers, there are a lot of bad developers out there.
+Um, but another really common cause is a lack of clear vision and clear plan when
+building this thing out originally. And so, I think this is one where you as a founder
+really need to sit back and think about what is going to be different this time. you
+know, what has
+
+[00:10:33]
+actually changed. If we're doing a rewrite and we're doing the same thing that we did
+last time, you're going to end up in the same pickle that you're you're already in. And
+um you know, without naming names, uh we we have a client who we kind of went through
+this. They came to us with a mess of a code base, horrible codebase. Um I mean, it's
+just absolutely unmaintainable. And we basically rewrote the codebase. And then after
+doing the full rewrite, it was pivot this way, pivot that way, pivot, pivot, pivot,
+pivot, pivot. and it becomes a tangle a tangled mess, you know, and it's really hard to
+stay on top of, especially if you're not going to allocate um the budget to do the
+maintenance to to clean up the technical debt, you know, which is what we call uh kind
+of problems that you create while programming. It's a very normal thing where it's you
+call this technical debt. We're going to put it off for the for the future, but you have
+to allocate budget to actually deal with that. And so, we have a project right now that
+we did this full rewrite on and it's now kind of turned into a tangled mess. I mean,
+it's I still think it's maintainable. I wouldn't rewrite it, but they're now off working
+with a different team and they're rewriting it and they're going in a totally different
+direction. Like their company has completely shifted and they're doing something else
+and it's um you know it's
+
+[00:11:36]
+unfortunate when you see that that happen. Um but you know it's I think you do have to
+look at yourself as as a founder and say am I the problem or is it my developer who's
+the problem? Because I I say it's almost like a 50-50 thing. Sometimes it really is just
+a lack of vision. I do I think that's a super important point is that a rewrite is not
+going to solve uh debt at the product level. Like if you're still not sure what your
+product should be or if there's still those types of questions that need to be answered.
+A rewrite is not going to solve those problems for you. Like the rewrite is strictly a
+technical solution, right? Like or or a maintainability solution like maybe cost saving.
+But if you're carrying over baggage from a product that is like not solidified or that
+is still kind of in flux, like you're just going to bring all those same problems into
+your codebase and you're going to hit the same issues. >> 100%. And I mean, I think you
+need to decide, have you found product market fit? You know, because that's not
+something that a rewrite's going to solve. If if people don't want to buy, I mean, you'd
+be amazed. People will buy awful products that are technically terrible. Um, but, you
+know, they'll show up and pay for it. And so, if you if you see that, if you have people
+paying to use your product, well, maybe it actually is a software problem and you need
+to rewrite the software. But if if nobody's showing up to buy it, if you
+
+[00:12:39]
+don't have people knocking down your door being like, "We want to use this thing, but it
+doesn't work right." Uh, you probably need to reevaluate the product case. Do you have a
+product market fit problem? The most successful rewrites we've had were projects where
+the client knew exactly what they needed. There was no ambiguity about what the output
+should be and we built exactly what they asked us for initially and there was very
+little kind of scope creep or pivot within that process and those those rewrites always
+wind up being great. >> I think that's one of kind of the sub cases of when rewriting is
+great. So maybe you were maybe you were find still finding product market fit with a
+product and using a development team to do it which is probably good to avoid but maybe
+you didn't avoid it. And so now you've had one codebase that's been five different
+things as you've gone through a series of pivots and really tried to kind of get your
+business figured out. Um that codebase is probably not going to be very nice to work in
+because you can't you can't start off with a a company that's supposed to do one thing
+and then pivot six times and have it doing something else. If you've gone through a
+series of pivots like that and you've had a piece of software while you did it, you're
+more likely to be a good candidate for a rewrite because your developers had to make,
+you know, they had to bubble gum
+
+[00:13:41]
+and paperclipip the software and to do like 10 different things. it wasn't designed and
+all that kind of cruff got dragged along with it. I think if you've arrived at a point
+where you have product market fit and you're not floundering anymore, wait a while,
+assess if your business case is still changing. And if it's not, that's a great time to
+say like this is the new product that we need and let's go ahead and clean up all this
+mess that I created trying to get to this point uh at this time now that we're kind of
+not floundering any longer. I also think it's really important to consider when you're
+doing that rewrite what the what the mission is at the outset. like are you going to
+replace it with exactly what you have but better or is this like a vision shift? Are you
+doing something new with it? Because I've had this a lot of times where you you embark
+on the rewrite and the the gold standard is the application that exists and we're going
+to basically create a new application that's exactly the same as the old one, does all
+the same things, it just does it better. Um because that's a very different kind of
+rewrite than the whole we're going to redesign it and reimagine it. And when you get
+confused about that in the middle of the project, it creates all sorts of problems. You
+know, is this the gold standard or is this not the
+
+[00:14:44]
+gold standard? Are we going in a different direction? And if we're going in a different
+direction, what is that direction? >> Yeah, I think maybe that speaks to like if you're
+rewriting, you should rewrite with a purpose. You shouldn't just rewrite because it
+sounds like an initiative to have for this quarter or for this year. We're rewriting our
+codebase because we can't scale it correctly or we're rewriting our codebase because
+we're going to get kicked off of our hosting and it's going to be more expensive to
+update our codebase than reimplement it in something more modern. or we're rewriting
+because we can't keep a developer on staff because our code base is so miserable. Those
+are all great reasons to embark upon a rewriter if you're going to. But I don't
+rewriting for rewriting sake is uh maybe a great thing to do if you have many staff
+developers that are bored. But um they'll they'll be happy with it, but it may not make
+a lot of sense for your business. Another important thing to consider is that especially
+when kind of moving a project across teams is that uh even though a a codebase may be
+extremely like gross and kind of ugly to deal with as a new developer, sometimes those
+like really gross edges carry like hard one lessons about the the business logic and
+that like even though I want to rewrite that and and start that from
+
+[00:15:46]
+scratch, there might actually be a really good reason that it is so ugly and kind of
+gross to work with. And by rewriting it with a new team, you lose all that historical
+knowledge and they may just make the same decisions that the previous team made and you
+might wind up kind of in a similar situation. Oh, I think I think that is a a great
+point and you know, we have a couple of these systems that have extremely complicated
+business logic and often times that business logic is not really documented. The
+documentation for it is the code. It is this gross, gnarly, awful query that somebody
+wrote that you look at as a developer. You're like, "Blow that up. Let's write it
+again." But the reality is you don't actually understand what the query is doing. And
+there are definitely parts of some code bases that are just we just we just leave them
+in their sacrosanked little little hvel and we don't touch them because when you touch
+them bad things happen like that. There are code faces that are like that. >> Yeah. We
+have a very um a very messy piece of code that we maintain that relates to monthly
+billing for a subscription service and every single month that thing charges six figures
+worth of credit cards. I don't touch that code. It's not the prettiest codebase on the
+world. We try to
+
+[00:16:48]
+maintain it and stuff, but that's like you were saying, Daniel, this kind of like holy
+grail. It's like this is doing $100,000 a month in credit card transactions. The code is
+a mess and we're just going to let it mellow until uh until something breaks and we have
+to fix it. But I'm not proactively trying to maintain that because I don't want the I
+don't want to break something that's been working for many years uh in the name of code
+quality. They don't they don't have a business reason. The client doesn't have a
+business reason to change that. So, just leave it alone. >> I'd say that is another huge
+reason to reconsider a rewrite. And don't do a re don't do a rewrite. If you have a
+piece of software that's generating a lot of revenue and it's got a lot of users, it's
+going to be really hard to do the rewrite. Uh the rewrites are very easy if nobody's
+using the damn thing. That's that's really easy. It's like great, blow it up, start
+again. We we'll rebuild it. But when you're in that situation where you need to
+transition people from the old software to the new software, especially when they're
+processing hundreds of thousands of dollars of credit card transactions every month,
+this becomes a huge headache that has to be planned for very carefully. And often times
+in those cases, even though it's very unsatisfying, the right answer is to go in and try
+to plug the holes in the dam
+
+[00:17:51]
+and get the thing working as opposed to trying to blow it up and replace it. >> As a
+technical aside here, we're going to get a little bit nerdy for just a minute. Daniel
+and Nolan and I were all involved in a rewrite where there were a lot of users and it
+was in a elevated security compliance situation. Um, and we also made the determination
+that a rewrite was 100% necessary for uh reasons of scalability, reasons of
+maintainability and a fundamental problem with how the initial implementation was done.
+So for a bunch of reasons we needed to uh kind of from that establishing a new
+foundation to launch a lot of new features was also a component. We actually built a
+transitional API. There's also a mobile app and played it. We were not rewriting at the
+same time. We built a transitional API which literally just sat between the mobile app
+and the uh existing application and passed requests back back and forth. Then we set up
+a new piece of software which was the new rebuild, the rewrite. Then little by little we
+started cleaving functionality out of the old system into the new system and then
+updating that transition API to send requests to the new system instead of the old
+system. It was
+
+[00:18:54]
+extremely messy and it added a ton of expense to the client, but they got to keep their
+system online earning money and working the whole time and it never went down, including
+their mobile app, same users, same mobile app, same experience. So, it was the right
+thing to do, but uh just to Daniel's point that um it added a ton of expense to their
+rewrite project. >> Cool. So, guys, on the um more positive front or or to be a little
+bit more like proactive, like what are some tips you would give to to founders to help
+them avoid being in a position where they're considering a rewrite? Yeah, I mean I think
+I think the point that like the rewrite is strictly a technical solution, a technical
+problems like keeping that kind of in the forefront of your mind is super important as
+as a as a you know an entrepreneur or somebody who's building a product. The rewrite is
+not going to solve fundamental problems about the software that you want to build and
+it's not going to like correct decisions that you know you've you've made bad decisions
+on in in the in the in the past. Um so like approaching every problem as if it rewriting
+is going to solve it is not the right move. >> Totally agreed. You know I think uh a
+
+[00:19:58]
+rewrite should never be your plan A. You should never you should never go out and build
+software with the plan that we're going to rewrite this in 5 years. Um you know that
+said you also don't want to dramatically overbuild it. So there's kind of a a pros and
+cons. Um you know I think generally the strategy to avoid a rewrite is to keep track of
+your technical debt. And if you're not doing that, if you're working with a developer,
+ask your developer, what's the technical debt? What's hanging out there? What are the
+what are the the nasty things that you're doing? Because we all do nasty stuff in the in
+the the further ends of making things happen. We create this this technical debt, which
+are things that need to be refactored in the future. Queries that we know are going to
+be slow, but they work now with this data, but once actual users are in there, it's
+probably going to run really slow. A lot of things get deferred to the future like
+pageionation, you know, so when you have a a table, um you know, when you're working
+with test data, you've got 10 things in the table and it runs really quick and it
+doesn't take very long. And so you might make a note, hey, we're going to need to
+pageionate this at some point. Uh because once you get up to 100,000 things in that
+table, now the table just doesn't even load. So you pageionate it, meaning you break it
+up into small little chunks so people
+
+[00:20:59]
+can go through page by page by page. These are things that will need to be done at some
+point. So keep track of those as you're building it out. Keep it in a spreadsheet. keep
+it in Jira, uh, keep it somewhere and allocate time in every single sprint to be like,
+hey, let's tackle a little bit of technical debt as we go. And it's not going to feel
+super fun at the times. You're like, why am I allocating 10 hours a week to to go and
+solve things, fix things that are already working? In fact, I'm probably going to break
+things in the process of fixing this technical debt. So, it's going to feel very
+counterproductive at the time. But what doesn't happen is if you don't stay on top of
+this technical debt, it accumulates. It accumulates, it accumulates, it accumulates. And
+then one day you're stuck in a situation of, oh, I can't even deploy this application
+anymore because there's no, you know, modern operating system that will be able to run
+it. Uh, or you have a massive security breach or or who knows what. It's kind of like
+not maintaining your house and then one day during a rainstorm, your entire house
+floods, you know. So, you don't want that to happen. So, stay on top of it. As you have
+a little leak, you got to patch the leak. >> Yeah. So I guess I I have three three main
+recommendations for folks to avoid
+
+[00:22:01]
+ever needing to do a rewrite. And I I think they actually riff one and two riff riff off
+of what Nolan and Daniel said in order. So the first one is don't find don't find
+product market fit with a codebase. Find it with a prototype. Find it with a put
+together solution to prototype something you're going to throw away because developers
+are expensive and having a piece of software that you pivot and pivot and pivot in the
+actual software like that's to be avoided if if you can. Uh so be really sure that you
+got product market fit before you launch into a product launch. Even even for like an
+MVP. Um it's just expensive to iterate in software. It's much better to iterate in Figma
+or XD or whatever whatever you're using. Uh the second thing is maintain your code. Um
+it's kind of to Daniel's point. You can't stop spending on your software. You can go
+down to a maintenance budget. You can cut the amount of money that you're spending, but
+you do have to continue to put money behind um maintaining and developing your software.
+unit that's just running up just to keep the lights on. You know, we every every year,
+every couple quarters, we go through and we find everybody who's out of date. We let
+them know like, hey, you're about to fall off of
+
+[00:23:03]
+end of life and we need to kind of update stuff. So, we need to get you to get some
+money together to pay us to keep your software up to date. And if you're running a piece
+of software and you're not getting that message, you don't have an active development
+team, dig into that now because uh it's only the pain's only going to get worse and you
+may end up in the spot where it's like it's better to rewrite the software than it is to
+upgrade it, which you want to avoid. And then the last thing that I would say is
+especially if you have a regular development team is give them time to pay down
+technical debt. It's going to make your developers happy. It's going to make your
+codebase more maintainable. We didn't talk about that specifically yet, but I think if
+you do cleave off a small budget to let developers take care of the the dragons in the
+codebase to pay down that technical debt, you just really kind of true up that
+foundation and that base and uh it it leaves you a better place to kind of launch from
+and even be open to the fact that that might cause bugs for real users that you have to
+then pay to fix. It's it's it's worth the investment just to get that code base into a
+stable spot. All right, guys. So, story time. What you What's your favorite rewrite?
+Kind of uh tell me about it a little bit. Run me through it. >> Um, sure. I had to think
+on it. What's my favorite rewrite? >> Oh, I mean, we've had we've had some
+
+[00:24:07]
+good ones. We've had some really good ones. Um, I guess there's there's one that we're
+we're doing right now. Um, I don't know if it's if it's my favorite rewrite, but I think
+it's one of the more impactful rewrites that we've done. It's also one of the more
+complicated rewrites that we've done. Um, so this was an an application um that was
+built for uh a school system. Um, I won't name any names here, but it's built for a
+school system and it handles a lot of their internal processes and their internal
+processes are deceptively complicated. You think ah school district, how hard could this
+be? We do stuff that's fintech, we do stuff that's healthcare, uh, how hard could could
+a school district be? Um and and so they came to us with uh with this application that
+was kind of in shambles. It wasn't really working. Um people were able to do what they
+needed to do, but but not well. And um you know, we we worked with it for a little bit
+and we're eventually just like guys, this is not going to be long-term sustainable. I
+don't even know how to update the PHP version on this at this point. I mean, it's it's a
+miracle
+
+[00:25:11]
+this thing is still limping along on the server that it's running on. And I don't even
+know necessarily how we're going to pull the code off and get it running somewhere else.
+I mean, it was one of these kind of bad situations. Um, so we, you know, they they got
+some money together and we started working with us on on a rewrite and I I think we've
+got them in a much better place than they they were before. Um, everybody's we got just
+rave reviews from people when we initially rolled this thing out about how much better
+it was. Um, but that said, it was not exactly the the smoothest process. It was not as
+smooth as I I had hoped. Um, and a lot of that was just because we did not understand
+the the complexity of the business logic. You know, some of the things we talked about
+before where it's like, oh, there's this query and it looks gnarly and awful. Let's blow
+that up and start over. Yeah, sometimes there are reasons that this thing is so
+complicated. Um, we also had a really big challenge during this uh rewrite that one of
+the people who was kind of the primary visionary for this uh project left. So she left
+the organization mid-rewrite and it left us with somebody new coming
+
+[00:26:14]
+in. And the new person who came in had brilliant ideas about how to do things better and
+and was was excellent to work with, but it led to us rewriting things that we had
+rewritten in the middle of the project. Um the budget spiraled out of control. They
+figured out how to how to come up with funding for it, but it certainly wasn't our our
+ideal thing. you know, this thing wound up costing about three times what we originally
+estimated, and we're usually pretty on the point with our with our estimates. And, you
+know, kind of the the reasons for that was, you know, this this change that happened in
+the in the middle of the of the project, and just the the complexity of the logic, which
+was not uh immediately apparent when we when we started on the rewrite. It's been a
+journey. Um, I think we've got them in a really good place. I think the rewrite was
+absolutely the right decision. I think they're they're very happy with it, but it was
+not a it was not a smooth and seamless process by by any means. And especially when
+you're dealing with a large organization, uh especially a large organization of people
+who are not particularly technically inclined, it can be very challenging to roll out
+
+[00:27:17]
+something new and be like, "Hey, you're going to have to use this new system." And then
+you get support emails like, "Hey, my four-letter password is no longer working." Like,
+"Yeah, we actually require you to have a seven character password now." This is like
+very very very minimum requirements. >> Cool. How about you Nolan? What was your what's
+your favorite reat you've worked on? >> My favorites are always the one where that's the
+successful ones obviously. Uh and I think the most successful one we've had was uh a
+company that is in the kind of meal service and like catering industry. Um, this was an
+instance where I think they had a legacy app that was largely unmaintained for years and
+then they kind of came to us, talked about extending it and enhancing it and we wind up
+decide we wound up deciding that a rewrite probably just made more sense. The client
+knew exactly what they needed. They had learned a lot of lessons with that legacy app
+and we we were able to build a v2 that I think works a lot better that the client enjoys
+using and um I think it's probably one of the more the more successful rewrites we've
+done. Uh and I and I I chalk that out mostly to just the client understanding what they
+needed up front um and really having a clear vision of what the application
+
+[00:28:20]
+should be. >> Yeah, the um person we had an opportunity to work with on that project was
+uh very very good and he was a new member of the organization uh between uh the original
+buildout happened that was being hosted with us. I came into the project when uh
+basically were trying to get off of our hosting and figure out how to transfer data and
+get things out of our ecosystem into theirs. Um and I stepped in and I said, "Yeah,
+absolutely. We can help you with that. here's the steps 1 2 3 4 5 here's the process
+here's how we do it and uh that person was just like would you guys like to rewrite this
+for us because we're going to work with somebody else to rewrite it and said well I'll
+certainly take a bit at it we know how the system works we already have the data so
+that'll make those parts simpler uh but that that person was new to their team when uh
+when we started working with him and he just had a lot of clarity about what that
+product was supposed to do and what it was supposed to be uh including seeing very far
+into the future for things that have actually come to fruition subsequently this is from
+years back that person saw what where this was going and was like this is we need to be
+able to support this in the future. We need to be able to support this in the future. Um
+and they just added a brand new line of business and they would not have been able to do
+that in the old
+
+[00:29:24]
+system. The new system was built in such a way that this bolting this new line of
+business on to the existing application in a way that was like seamless and made sense
+was relatively easy. Uh which is mostly a testament to to Nolan's architecture but uh
+also to that to that gentleman's vision and in terms of where his where his company was
+going. Trying to think of other uh other rewrites that have interesting stories. Um, we
+did do right for a person who had a business with a full product and it wasn't it didn't
+have any users and it wasn't very successful and they wanted to fundamentally reimagine
+how their product worked and how people engage with it and also add a mobile app to it
+and it didn't make sense to bolt a mobile app or API on API onto their existing uh
+codebase. So we took the opportunity to kind of lift and shift out of something older
+and then build something that had an API from the start so we could work with mobile
+apps and uh the web version of it ended up being just an admin admin interface and the
+whole kind of way the users engage with the app is via mobile apps. So I think that was
+I think I gave that kind of example earlier but it didn't make sense to try to bolt an
+API out of this legacy system. You just wanted to pull the data over and reorganize and
+and bolt an API
+
+[00:30:26]
+onto it at that point. So that was actually an example of a rewrite that I I loved um
+because it was a total reimagining and um you know it was like a we got to replace
+something that was bad that was poorly implemented but b we also got to come up with
+something that was like beautiful. I mean that is a gorgeous gorgeous app and it was not
+gorgeous before and so that was actually a really fun process. uh you know we got to
+work with the designer and we got to ideulate on it and go back and forth and come up
+with themes and new logos and new user flows and you know and at the end of it I think
+we wound up with with an app that was way better than there was before. So it wasn't
+just a rewrite it was a complete repositioning of the app and it was a lot of fun. So
+that was that was actually I think an example of of a rewrite that I enjoyed. Most
+rewrites are a little gnarly but that one was actually a lot of fun. >> I love I love
+rewriting. I think it's I think it's a lot of fun because you get to kind of fix all the
+mistakes that were made and take all of your learnings and kind of roll it all up into
+like one new shiny product and say like, you know, after everything we've been through,
+we have this and I really appreciate that. To your point, Daniel, I think that that may
+be our most
+
+[00:31:30]
+beautiful mobile app we've ever worked on in terms of just visually it's it's a very
+attractive app and the user uh user experience on it is pretty pretty decent. um at some
+point they have to collect a lot of data so that it's hard to make that engaging and fun
+but um it's a beautiful app and it works really well. So yeah, that was that was a fun
+one to work on also. >> Awesome. Well, I think that we've kind of kind of covered a
+bunch of uh reasons to rewrite or things to think about when you're considering one.
+Talked about some steps to avoid being in the pos position where you need to do a
+rewrite. Told a couple of war stories from the trenches. Uh do you guys have anything
+else to add before we uh we sign off for the for the day? No, I guess I'll just
+reiterate, you know, I don't think a rewrite is usually the right answer. And if you if
+you come to me and I tell you that you need to rewrite it, it's it's bad. You need to
+rewrite it, it's it's usually it's usually in pretty bad shape. Um, you know, I think
+the big things to consider when you're doing a rewrite, uh, you know, are like how bad
+is this application? Is it really that bad? How painful is this rewrite going to be? And
+really press your developer for honest,
+
+[00:32:32]
+truthful answers. Um, because developers are going to want a rewrite. And so you need
+to, you know, really get down to brass tax of what is going to be involved not only in
+the re-implementation and the rewrite, but in the roll out. What kinds of processes are
+going to be involved to migrate our existing users, migrate our data, migrate our
+payment systems, you know, all of that kind of stuff could wind up being way more costly
+and timeconuming than the the rewrite itself. So get get clarity on that from the get-go
+and have a good vision through the through the rewrite. Have a good reason why you're
+rewriting and stick to that vision and come back to it. you know, when you're six months
+into the rewrite, don't all of a sudden change your mind. Go back to like what was our
+what was our game plan? Why are we doing this? Let's stay the course. >> Yeah, I think
+that's super solid. Like, fundamentally understand why you are rewriting and be certain
+that that is the correct solution. Your your users don't see the code, right? So, they
+don't care what it's written in. So, like uh I mean, you really need to be certain that
+the rewrite is the right choice if you're going to go down that path. >> Yep. I think
+that fundamentally like if a rewrite is the right call, it's going to be showing up on
+your bottom line in
+
+[00:33:35]
+some way. Um, if they turn if your app is going to be turned off, that's going to hit
+your revenues. If you can't keep a developer on staff, that's going to hit your revenues
+at some point. Um, if you can't scale, that's going to be a problem for growing your
+revenues. So, I guess maybe that's a little bit of a dry business stick way of looking
+at it. But, uh, yeah, at some point like biting off a rewrite is a large expensive
+endeavor and you need to have a fun like a solid business reason for for even
+considering it. So, if that's you and you are considering a rewrite, they're my favorite
+project. So, please give us a call. >> We're really good at it. I I hate it. So, call
+them. Call them. I like I like dealing with the messy, grungy. Awesome. Well, that's
+been rewriting when to do it, when not to do it. U It's been another great week and fun
+time on SAS.app. Thank you, Daniel and Nolan, for joining us, and we will catch you guys
+next week in the next episode. Cheers. Thanks for cruising along with us on SAS that
+app. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and
+
+[00:34:37]
+keep those apps sassy.

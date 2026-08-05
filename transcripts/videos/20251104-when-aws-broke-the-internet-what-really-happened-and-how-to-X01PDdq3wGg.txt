@@ -1,0 +1,594 @@
+When AWS Broke the Internet: What Really Happened and How to Prepare
+====================================================================
+
+Video ID:  X01PDdq3wGg
+URL:       https://www.youtube.com/watch?v=X01PDdq3wGg
+Published: 2025-11-04
+Duration:  00:35:59
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+I think there's a tendency for when things are really intense and services are offline
+and and if you in the case of someone like Facebook, I mean, you could be using you are
+losing many, many millions of dollars, certainly an hour, maybe a minute, is a huge
+panic situation where it's like I've I've got to get this thing back online. And it's
+actually better to pause and figure out what's wrong cuz those kinds of under the gun
+decisions you end up deleting something or or making a bad situation worse. Welcome to
+SaaS That App, building B2B web applications, the podcast where we share real-world
+stories, practical advice, and tech insights for those building or thinking about
+starting a tech-enabled business. I'm your co-host, Aaron Marshbanks. And I'm Justin
+Edwards. Each week we bring you the stories, strategies, and insights you need to build
+your SaaS or tech-enabled business smarter, not harder. Let's dive right in. [Music]
+Hello and welcome back to SaaS That App. Something a little bit different for you
+
+[00:01:02]
+today. We had a catastrophe last week in the land of AWS and uh uh the three of us here
+thought we might uh jump on and and give it a whirl and a little talk through about uh
+what happened and and uh why it's important and things to think about. So, joining me as
+always, my co-host, co-pilot, uh guy in charge, Justin Edwards. Good to see you, my
+friend. Hey, good to see you, too. Sorry for the uh temporary digs, but uh my life
+continues in chaos for the for the moment. >> That's all right. I'm happy to be the
+anchor here. And we have joining us again, of course, uh Daniel Cannon. Uh Daniel's
+going to be bringing a lot of tech insight here as well. Daniel, good to see you, my
+friend. Hey, how's it going? I'm also coming to you from the land of chaos, as you can
+probably tell by my fabulous Airbnb uh decor behind me. >> That's right. It's the
+perfect time to do a podcast during chaos. >> to do a podcast. Absolutely. Absolutely. I
+think we're going to be talk talking about this a little bit on the next one. Uh the
+joys of remodeling your house and squatting in the Airbnb's while it's going on. I like
+your new background. It's got this real kind of air of like piety and like yeah. Right,
+right, right. Are you finding your center?
+
+[00:02:07]
+All right, gang. Well, let's just kind of jump right in. Uh probably most everybody
+that's listening is at least aware of what happened with uh AWS last week and the the
+major outage that was occurring. Uh and so, here to kind of uh set the stage and shed
+some light and and kind of dive us into this topic a little bit, uh Mr. Justin Edwards
+is going to kind of set the set the stage and set the foundation and we're going to get
+into some of the ins and outs of the specifics of what happened. Uh but then also um you
+know, lessons learned, uh things to be looking to uh as you were building out your SaaS,
+you're structuring things for scaling, and and those sorts of things, and then also also
+how to come back at the end and uh kind of recap, you know, what happened. AWS is very
+good about this. They they typically have these these post-event releases that they talk
+about what happened, why it happened, what they did, how they're doing it better the
+next time, and it's just a good general practice. So, for folks who work on the
+internet, uh last last week we had every single site and every service that we used
+basically went down. I mean, every every major big company was offline, which is kind of
+crazy and they all went offline at the same time. And
+
+[00:03:11]
+the there's a reason for that. One of them is that AWS is the world's largest cloud, and
+many, many services that you know and love are entirely in AWS. The other piece of that
+is there is a very old, very large uh region in AWS called US East 1. So, in AWS we have
+different they're called regions, and it's a collection of data centers around the
+country, around the world. And um they're kind of uh aligned geographically with
+different places. And so, US East 1 is really old and it's the biggest, and so
+everything is in it. Almost everything is in it. So, fortunately, we deploy all of our
+stuff to US West 2, so our customers didn't have any downtime while this was going on.
+But Netflix and Spotify and other companies you may have heard of did have downtime and
+it's all related to this this US East 1 issue. I'll give you a little bit come to the
+crux of what what happened. Um the actual thing that caused the downtime is pretty
+boring, but the spillover at like the post of it is more interesting. Uh so,
+essentially, there is a worker inside of Amazon's ecosystem that its job is to write DNS
+records,
+
+[00:04:13]
+which is basically where we tell our applications how to get to a service. The
+particular service for this DNS record was DynamoDB, which is a document store. I'll
+save that rant for another time, but uh there's a document store uh database and uh all
+the services in AWS in the US East 1 region depend on these uh workers to write these
+DNS records to be able to get to those services. Uh what happened is they made a new
+version of the DNS rules, and they dispatched a worker, and the worker checked and made
+sure that it was supposed to overwrite these rules, and then it wrote off into the
+distance to do that, uh and it encountered a delay. And the rules didn't get written.
+Then what happened is a second worker got dispatched. It checked to make sure that it
+was supposed to do it what it was supposed to do, and it wrote off in the distance, and
+it didn't encounter a delay. And that had the most up-to-date version of the DNS
+records. So, worker two ran all the way there and wrote the records. And then worker
+one, because the check happened before the delay and not as it should have happened
+immediately before writing the records, overwrote the proper records. And this doesn't
+happen very often. And these these kinds of jobs happen all the
+
+[00:05:16]
+time, but this concurrency issue and the weird delay of a worker one basically meant
+that worker one went in and trashed the DNS records, so no one in the entire region of
+US East 1 could get to this DynamoDB. And that's bad, uh but it's even worse than bad,
+because all of AWS, half of AWS, a huge amount of the actual AWS services that power our
+applications rely on DynamoDB, EC2 instances, IAM credentials, I mean, just everything
+lives in in DynamoDB for the actual AWS services. And thus, the internet came crashing
+down. So, the uh resolution for the actual issue was pretty quick. AWS got after it in a
+couple hours, um and that resolved. Uh but the other uh issue is that there were several
+hours of downtime, which kind of built up. And one of the things that DynamoDB gets used
+for uh is batching job processing. What happened is that all these jobs, workers, and
+processes, and things that needed to happen built up over uh the span of the the hours
+of downtime. And then when the service came back, all these
+
+[00:06:19]
+services cranked up to 100, 120%, 150% just trying to blast through this backlog of of
+jobs and issues that got that got left behind. Uh So, that's why even though the initial
+kind of AWS resolution of the issue happened relatively quickly within a couple hours,
+there was fallout for a day related to job processing and all these kinds of issues. So,
+not exactly a cascading failure, uh just just the one failure caused backup somewhere
+else, right? So, uh perhaps closer to a more closely akin to a race condition sort of
+situation or something like that. >> Yeah, so the the initial issue uh was a race
+condition, which happened in the context of these cloud processes. So, the those kinds
+of things are easy to write and hard to track down. Uh the fact that all these
+underlying services relied on the service that went down um is kind of like the the
+longer fallout, the one that all the issues that persisted past the first couple hours
+related to that. Uh less than time for DNS to update and those kinds of things. Uh so,
+anyway, it's it's kind of uh one issue that figured down for the entire region. So, even
+people who are doing the right thing and deploying in multiple availability zones, uh
+they still went down because the whole region was down. Uh and so, you had to actually
+have a multi-region deployment, which is
+
+[00:07:21]
+not standard for most of us in in the cloud deployment world. And yeah, another kind of
+serves as a reminder that the the cloud's not magic. Like, it's it's just someone else's
+computer. So, there's data centers and servers and all these things. So, yeah, that
+that's kind of uh the crux of the issue. And then um all of us immediately spun into
+this uh frenzy of just like, "Oh, is this my fault? Is my application down? Or is it
+some other provider?" And the answer in this case was it was this other provider. Uh a
+lot of people spent a lot of time A, trying to figure out if it was their their system
+that was down. And then B, uh because of this we introduced a delay into a system that
+usually operates pretty well, and that exposes all sorts of other bugs of like, "Oh,
+well, our our service is not robust to having 5,000 jobs queue up and then have to take
+them all on at the same time." That that kind of thing. >> So, to be clear, the the the
+software itself, I mean, the the the different applications and the in the various
+companies and organizations that were affected, they weren't directly affected. It was
+more of an addressing, you know, I the service is still there, you just don't know how
+to get to it, or the systems don't know how to get to it, or just simply can't get to
+it. That's exactly right. Where it basically is you take there's a big architecture and
+all these systems coordinate and come together,
+
+[00:08:23]
+and you basically subtract out one of the pieces and take it offline, and now we see how
+the system has the system been designed properly to function with the with the service
+offline, how robust has it been programmed kind of issue. And then like we don't it
+depends on on how rigorous your software process is, but we don't typically just for for
+like for our our small business business web applications, we don't consider the use
+case where the service is just offline sometimes. Um When you're Netflix when you're
+Netflix or Spotify, you probably should, but um yeah, our our customers to the most part
+are not interested in paying for that kind of robustness. Uh there's also there's also
+always a trade-off with with those kinds of with being that robust. You're always giving
+something up as well, right? >> So, getting into uh the the the results that and and you
+know, Amazon, of course, took care of of their portion of it. You know, the fallout was
+all of the catch-up that was happening after the fact. Once we get there, everything
+we're to the other side, and Amazon releases their their statements. Everybody's kind of
+figured out what the issue is and have have worked through their processes. Take us
+through a little bit about what other pieces of this that it exposed for for
+
+[00:09:26]
+AWS, Justin, cuz it was it was, of course, the the DNS issue that was the the impetus
+for the problem. But as you said, it starts to highlight other cracks or or other faults
+or other things, you know, they they could be edge cases, they could be actually very
+specific use cases. So, how do how do they or how have they so far gone about combating
+some of those other things that have come to light because of this particular issue?
+Yeah, I'm Daniel and I could probably riff on this a little bit, but there's um there's
+kind of like a hardening process that you go through when when you have an incident like
+this or you have downtime. And so, obviously, fixing the immediate cause is where you
+start. Uh Uh so these workers need to be robust to one of them might experience a delay
+at some point. And then you just kind of move down into the the downstream effects. So
+like maybe we need to like for the the issue where all these jobs built up and all these
+services went crazy trying to catch up and process them, you know, maybe we need to
+build some kind of like slow acceleration or or you know here's a system where something
+introduced a delay into the system. Do we go and tweak all these other services to make
+them be able to accommodate the delay? Like we we've had clients who've
+
+[00:10:29]
+had downtime which doesn't happen all all that often. Uh we kind of have like a
+immediate thing that we want to do is we want to understand what's going on and we
+actually try to figure out what's going on before we try to get to a resolution. So I
+think there's a tendency for when things are really intense and services are offline and
+in the in the case of someone like Facebook, I mean you could be using you you are
+losing many many millions of dollars, you know, certainly an hour maybe a minute is a
+huge panic situation where it's like I've got to I've got to get this thing back online
+and it's actually better to pause and figure out what's wrong cuz those kinds of under
+the gun decisions you end up deleting something or making a bad situation worse. That
+happens kind of the same time there's like a a communication piece that happens. So you
+should reach out to your customers and let them know that hey, we're we're something's
+not right. Even though it's difficult and challenging you try to have like calmer heads
+prevail basically of just trying to like stay calm, be methodical, go through your
+debugging steps and try to figure out what the what the issue is. After you kind of
+arrive at that you can let everyone know what the issue is and then you move into phase
+two which is finding a fix for it that is going to be robust and and get everyone back
+online.
+
+[00:11:32]
+Um I don't know the inner workings of AWS. Presumably they did a pretty good job on
+this. This is kind of an obscure issue and they got it back online in a couple hours. So
+fair play to them. I'm sure they're still doing retros and stuff on this to figure out
+what else what else they need to change. Well, like you played out at the top of the
+call, I mean organization of that size and scale and and and certainly even to the
+lesser extent the services that rely on that like the Netflixes and Spotifys and and
+Facebooks of the world uh I I'm imagining that most of what they are dealing with
+whenever there are issues are edge cases. They're they're large enough, they're robust
+enough, they've been around for long enough. They probably seen most many a lot of the
+issues that could potentially arise and they've already got uh processes or fixes or or
+things to to address those in place and then you run into one of these edge cases that
+you know, maybe you manage or flies under the radar or just hasn't ever happened and so
+you don't necessarily think about it occurring because it's, you know, very very low
+likelihood that it's going to occur. But then it happens and so then you have to deal
+with it. And I think and Daniel I'm going to throw this over to you. I want to pick your
+project manager brain a little bit. You know, when we're when we're talking to clients
+in general
+
+[00:12:34]
+about projects, uh you know, whether it's hosting related or actual software development
+related, there's always a tipping point. I mean there's always a give. Like you know, we
+can we can harden this or we can make this effective or we can make this good for pick a
+number, 80% 85% 90% of your users and you know, we're going to stay on time, we're going
+to stay on budget, it's going to take care of this. And then though, you know, what do
+you want to do with that last 10%? Is it something that we're going to plan for, road
+map for? Is it going to be something that we're just going to deal with organically? If
+or when it ever arises, we'll deal with the use case at that point. So how do you advise
+clients? How do you talk to clients about maybe not AWS specifically, but in general
+dealing with the largest set of potential issues versus these these edge cases that that
+could pop up or that maybe aren't even foreseen? Sure. Yeah, I mean in the context of
+the AWS thing, I mean I don't know how I don't know how I would advise somebody to do
+something different there as as a client. I'm like, yeah, AWS is a very solid hosting
+provider if you're looking for uptime, you know, they make a five
+
+[00:13:38]
+nines guarantee. So that's 99.999% uptime. That's that's pretty darn good. It's pretty
+pretty hard to beat. And you know, and and they do have outages and you know, it it
+always actually kind of makes me I you know, maybe a little gives me a little bit of
+Schadenfreude I suppose to be like, oh, a company like Amazon can't even keep their
+servers online, you know, and it's like, well, you know, our little our little
+consulting company we we do a pretty good job keeping things online and and you know,
+not introducing bugs like this and so you know, but when you see something like this
+from Amazon it's kind of a little bit of a a nice reminder that even the the smartest
+guys in the room can't solve this problem necessarily. And you know, I so I think you
+know, talking about uptime, you know, for for someone like Amazon, you know, I think
+there are always kind of tradeoffs with every single one of these issues. You know, you
+you kind of are you optimizing for robustness? Are you optimizing for speed? Are you
+optimizing for cost? You know, there's always tradeoffs. Amazon makes these tradeoffs
+and you know, we we make these these decisions between tradeoffs
+
+[00:14:43]
+too. And you know, there there could be an argument if uptime is your number one thing,
+you can go buy your own data center and and have a whole dedicated team working around
+the clock to to keep it online, you know, or if you want a cheaper solution, you can go
+with go with Amazon and have them host it for you. And I'm obviously there's a lot of a
+lot of benefit to it. So um yeah, I don't know. That was my rambling response to your
+question. How did I do? Yeah, no, that's fine. I mean the point is everything that we
+do, I mean especially at our level is heavily reliant on these foundational services and
+organizations. So I mean like you said, you you could have your own dedicated cluster. I
+mean people used to do that all the time. You know, they would colo their own their own
+box, their own actual hardware somewhere, but even that colo setup requires that
+wherever you have a colo be secure uh be stable in their environments. You know, you
+want to take the box and put it in a closet. I kid you not, we have had clients who
+literally ran their infrastructure off of a off of a desktop machine that was, you know,
+in a closet. Uh sure you can do that, but all all
+
+[00:15:46]
+you're doing is just pulling that thing in closer and closer to something that is less
+and less stable and less and less secure or certain. So yeah, at a certain point you got
+to bite the bullet. You know, you you have to are you going to scale? Are you going to
+allow this to be something that's outside of your office building? You know, where do
+you want to go? And and that reliability and that uptime is important, but it's not the
+end all be all and however many nines you want to put on there, it's not ever going to
+be zeros. I mean you're you're not going to get a hundred. It doesn't exist and Amazon
+shows us this and and so do the other services, but that many nines, that's a lot of
+stability and a lot of reliability. Yeah, I mean this is just a tradeoff and I think
+this like all things you just kind of approach this with a a practical framework. So how
+big of a deal is it that we have some downtime? Like, well, I'm people who can't do
+their jobs logging calls with customers while the system is down. Yeah, that's
+disruptive if people have paper and I mean we don't want to have downtime, but like it's
+not a big deal. Whereas like Facebook version where it's like, oh yeah, we lose millions
+and millions and millions of dollars every minute of of downtime or
+
+[00:16:49]
+labor hour of downtime. Facebook should invest all the time and money and energy to
+never being down because have how advertising works and how many continuous users they
+have, like that makes perfect sense. They should spend a lot of money to be robust and
+Facebook has very little downtime. I mean they had an incident a few years ago famously,
+but it's 20 year old company and they've had, you know, hours of downtime in 20 years.
+It's it's pretty good, but I guarantee you it's because they pay a lot of money and
+their their systems their backup systems come online frequently. I promise you. You
+know, customers who are powering a little a little consulting firm or logging time or
+logging phone calls or whatever. It's like, well, if the system's down for a couple
+hours, it's disruptive to your day, but it's probably not worth $10,000 or $20,000 a
+year to make sure that we don't you know, encounter that little bit of downtime. I've
+talked to some some clients and and not just our own, but just people in general you
+know, projects and things along those lines that you know, the the the knee-jerk
+reaction for people who don't necessarily know the inner workings and and and some of
+this higher level architecture and and how things are set up. Like you said, this this
+was a particular region in AWS. If you explain it to the client,
+
+[00:17:53]
+you know, I I have heard the reaction of, well, can we just like copy over our
+application in a region that's not affected and then it'll work again? Uh Daniel, tell
+tell me about how you might approach that that particular client or question. >> Yeah, I
+mean there are definitely a lot of companies that actually have, you know, multi-region
+multi-availability zone setups and and you can do that. That's that's a whole thing for
+sure. I it's very expensive. It's it's very expensive to do. Um if you're not set up for
+it before the incident happens, um it's it's pretty hard to deal with. I mean if your if
+your database is unaffected, okay, maybe we can copy the application server over to a
+different region and then update the DNS to go and talk to that new region. I mean there
+are ways that you can work around this, but it's it's very hard to do. It's much easier
+to do if you're set up for it in advance. Um you know, and for some things that are
+super high criticality, super high volume applications, I mean folks do set up
+deployments where they will have servers in US West, they'll have US East,
+
+[00:18:57]
+they'll set stuff up in Google Cloud, they'll have their own on-prem stuff. I mean you
+can build in multiple layers of redundancy. Um you know, I think one thing though that
+is always worth bearing in mind is that if you're adding all this redundancy and it all
+depends upon the same underlying piece of infrastructure, you don't actually really have
+that much redundancy and you sort of think of it as this you know, house of cards that's
+built up where you've got all of this all of this stuff at the top that's super secure,
+but if you if you remove, you know, or maybe jangle whatever, I don't you really remove
+stuff from the bottom, the whole thing comes toppling toppling down. Um and so, you
+know, like I think back I don't know if you remember this happened 10 years ago, but
+there was was an issue in Texas. I won't remember the full thing that happened, but it
+was like there was a a heat wave and because of the heat wave everybody started running
+their air conditioning because everybody was running the the air conditioning, it
+overwhelmed um the power grid and and it caused this whole cascade of failures. And, you
+know, it's like we had all of these redundant systems in place, but they all had this
+they're all kind of correlated. The
+
+[00:20:01]
+failures are all correlated and they all hit the same underlying infrastructure. And so,
+like with the internet, um, you know, you have the you have like DNS, for example, which
+is your routing, how you find the server when you go to google.com, what server do I
+talk to? And if DNS goes down, that's it. That's the internet. The internet's gone. You
+know, if you if you happen to know the IP address of this the machine you want to talk
+to, okay, you can probably find your way around it, but your typical user is not going
+to have that experience. And and it's going to cause, you know, cascades. It's going to
+cause cascading failures where everything in the entire internet just collapses and you
+know, and that's actually not what happened here. It's not like we had, you know, DNS as
+a whole go down, but it but it is a huge vulnerability. And DNS is is redundant, you
+know, there's lots of DNS servers all distributed across the world. There's a lot of
+redundancies been built in that system as well, but, you know, pick pick whatever system
+you want and I'm you know, like power as an example. Like if you just power in the
+world, well, there's everything's gone, you know, now now nothing works. So, um, so I so
+I think it's important when you when you're trying to build in redundancy thinking about
+what are the correlated risks, what are the shared dependencies between these things and
+
+[00:21:03]
+like are you actually adding redundancy by doing this or are you just setting a lot of
+money on fire to to feel like it's going to be more robust. Yeah, I think that Dan made
+a bunch of really good points there. But yeah, the reliance on a single point of
+failure. Like if you take any system that is still has a single point of failure that
+you don't have a lot of robustness cuz as soon as that one thing goes down, the whole
+system goes down and that's a little bit of what happened here or even for like when we
+think about like setting up high availability high availability stuff for clients. And
+we do have customers with high availability setups like well, I don't typically have a
+failover key value store for Redis or whatever is being used for that or like, you know,
+there are still these services or like there you know, we're not robust S3 being down.
+Like our our our services are still going to fail if S3 stops working. And are we going
+to go through the process of like setting up a second object file store and then have
+application logic to failover to sticking stuff into Google instead of S3 and then
+having a truer process where we do all this. I mean, but it depends how much money and
+and what the criticality is, but I mean, the
+
+[00:22:06]
+answer our case has always been no so far. So, let's talk for just a second then about
+about transparency and about communications. So, I I feel and again, it is no surprise.
+I mean, AWS is an industry leader here. I feel like they do an excellent job of
+communication. You know, obviously recognizing what the issue is, but certainly
+initially recognizing that there was an issue and making sure that people who rely on
+those services in in as much as they can are communicated with that there is this
+particular issue and that they are combating it. And then at various steps along the
+way, you know, we have identified the issue. Here's what's going on. Okay, now we are
+combating the issue and here's what we have done. Okay, the issue has reached resolution
+for our part, but now we are you know, this this this race condition or the in in this
+particular case, you know, these these systems that have stacked up are now clearing
+themselves. Not really anything we can do about that at the moment because they just
+need to clear. So, everybody just kind of hang on. I I feel like that that's very
+comforting to a client. I I feel like it's very comforting to an organization to know
+
+[00:23:09]
+that whoever is providing you with this service is aware, is doing what they can to make
+sure it's remedied, is communicating in a clear and effective way that this is what's
+happened, this is what we've done, this is how it's reached a resolution. And then at
+the very end, I also very much appreciate on on the technical aspect that that AWS
+releases these big these these larger kind of post analyses. You know, they're not
+always very lengthy. They don't they don't often have to be, but it's it's kind of like
+a publicly available postmortem on these. And so, that's great for them. And and I think
+there's a lot that we could do to follow that lead, but I want to get both of your all's
+opinions on, you know, at at what point do we as people who are very far down this
+ladder removed from AWS, but of course rely at ultimately on some of their services,
+communicate to our clients who may not be aware and and may not be in the loop of of
+this level of technology and what has happened. They've just heard that that the
+internet is down and nobody can get anything done. And holy cow, what do we what what's
+going on? You know, how how do we how do we do that for our clients
+
+[00:24:11]
+who aren't tuned in to AWS land? Yeah, absolutely. Yeah, I think, you know,
+communicating is very key with your customers, with your users. I think there's a real
+tendency, especially among startup founders, to try to sweep things under the rug and
+not own their failures, not own their outages. And I mean, especially in a case like
+this where it's like, you know, this is Amazon's fault. You know, you you you can pass
+the bag, but it's it for the most part your users don't really want to hear blame or or
+whose fault it is or anything like that. You know, what they want to hear is uh, your
+data's fine, nothing's been lost. That's all I always lead with that as number one. Like
+there hasn't been any data corruption, there hasn't been a data breach, it's not
+ransomware. Like don't worry about this. Um, and then number two, uh, we are working on
+a resolution, you know, and if you can provide an estimate for like this is when things
+are going to be online, here are the steps that we're taking. You know, I think getting
+that communication out as soon as possible is is very important and I think doing them
+you know, doing the retrospective after the fact is also super helpful. Communicating
+back to folks, hey, we had
+
+[00:25:14]
+an outage yesterday. Here's what's happened. Uh, here are the steps that we proactively
+took. I mean, I think in that you would probably acknowledge to your users that, uh, you
+know, Amazon had this issue and that's why everything went down. And like, hey, by the
+way, half the internet was was offline. It wasn't just us. You know, you can you can
+kind of, you know, include that, you know, kind of stab the knife in just a little bit
+there. But you know, you can include that in the the messaging, but you know, I I again
+I would say like when you're talking to users, they don't really want to hear blame,
+they don't want to hear fault. They just want to hear that everything's okay,
+everything's handled, and here are the steps that we're we're taking to prevent this
+kind of thing from happening again in the future. Yeah, we had a customer a while back
+who was moving on to our service and the person they were hosting with previously had an
+incident where they were were down for like 3 days. I mean, just sites offline. This is
+an old data center, not a modern cloud. And all the messaging from the provider was
+like, well, you know, our data center is, you know, down and so someone in our data
+center messed up. So, just, you know, the data center is where it's where stuff is. So,
+you know, can't really do anything cuz the data center is down.
+
+[00:26:16]
+And in this particular I mean, in the it just wasn't good. The messaging was not well
+done and they they were actually right that it wasn't their fault, but the customer
+doesn't really care. Like and and it was in some sense their fault because they picked
+that data center and they worked with that provider and I I like the idea of just being
+transparent and even if it's not necessarily your fault owning the blame about it. Just
+like, hey, our data partner is having a really big problem and like we selected them.
+We've been working with them for a long time. This outage is is happening in their data
+center and like we haven't had this happen before, you know, whatever. Pick your
+narrative, but I think it's better to be transparent than to come off as like some some
+smug blame passing. All right, this time the whole internet's down, so what who cares
+about your site? You think the people at Spotify aren't worried right now or about, you
+know, it. So, and a lot of times I mean, you can you can pivot back. Like, well, look,
+you know, I didn't I didn't pitch you on being a multi-cloud application cuz I didn't
+figure you'd want to pay more than double the hosting cost and pay me a boatload of
+money to set up your application to work in both ways. So, we made this decision
+together kind of
+
+[00:27:19]
+and maybe I made it for you without telling you about it, but you know, it's the right
+call for you especially, you know, again back to that framework about how important how
+critical is downtime. Yeah, and I think that speaks to trust, too. I mean, we are, you
+know, the the three of us certainly and many people who are in the industry are
+consultants at the end of the day. And a very big part of being successful in that
+regard is, yes, being transparent, but also being trustworthy. And so, you know, for
+clients to be able to come to you and and have this concern and have this care and and
+you know, to Justin's point, be able to say, yes, we we recognize that this is an issue.
+There are things that we decided during the course of building this application or this
+process that would not have done anything to mitigate this particular instance. However,
+there are things that we can now see that we couldn't before that might help going
+forward. Here are some ideas and the costs and timelines that are associated with it.
+You, business person, uh, you know, what do you want to do? Because we can we can
+absolutely do this and it will mitigate this particular instance in this circumstance or
+these use cases,
+
+[00:28:22]
+uh, but it may not necessarily catch this other stuff and it would not have caught
+anything with this. How do you how do you want to combat that? And so, you you you build
+that trust with that partnership. You you grow, you know, their their business with them
+and help them understand what are the risks, you know, where where might I have cracks
+in my my hardening or my infrastructure, you know, what is it that can be done with my
+technology partners vis-a-vis us or or or whomever their consultants are, um, to be able
+to address these. And and I've always felt like that trust is just absolutely crucial.
+And it's so easy, you know, to to let it go. You know, as both of you have highlighted,
+just to simply pass the buck because it's it's not a good day for us either, but it's
+not our fault. I I think it's better to be to be more, you know, to to recognize the
+pain that may be involved with someone who's losing money, you know, every every minute
+or every hour or every day that we're down. And and help them to to see that this has
+happened. Here are some things that we can do to to take care of that. And a lot of a
+lot of times our customers just want to know what to tell their customers or what to
+tell their
+
+[00:29:24]
+employees. And that's where that communication clarity really It's like, here's what you
+can here's even we can suggest what to what to tell them. Um, you know, phrase it how
+you'd like. Justin uses the term narrative. Build build your own narrative around that,
+but here is what's going on. And we would advise letting your clients know that this is
+an issue. Um, especially in this age of data security. If it's a security issue, it
+becomes very scary for a lot of reasons. I Yeah, I was just going to say, I mean, this
+is a conversation I've had to have with many clients over the years who have a security
+issue, maybe a minor one, you know, not something where data was compromised, but where
+it's like there was an issue that went into production that could have potentially been
+exploited by by an intruder. We don't have evidence of that happening. In fact, we even
+have logs indicating that nothing has happened, but this vulnerability was there. And I
+think most startups their instinct is oh, brush it under the rug, you know, no harm, no
+foul. Let's let's move on. And my argument is always that actually builds trust with
+your users if you step up and own that, you know, send them that email and be like,
+"Hey, we had a security incident." And again, number
+
+[00:30:27]
+one, your data is fine, nothing's been compromised, you know, nothing like nothing bad
+has happened. If you can say that honestly, then then say that. Um, but I I think
+stepping up and owning that and saying, "Hey, we had a security issue." actually builds
+trust with people. It's like, "Wow, these guys, you know, they had a security issue,
+they identified it on their own, they fixed it, they let us know about it." It makes me
+trust the company a lot more. This is kind of pivoting a little bit into the retro, but
+I I think the final communication on kind of when you sign off with the incidents it
+should explain your next steps for why this isn't going to happen again. So, I uh I
+guarantee you that you can tell you that the little uh race condition uh afraid of US
+has been resolved already. They're not going to have an issue with that particular thing
+again. There there will be more There will be another giant AWS outage. Don't know when.
+It's coming. Software goes down. It's just the It's just the nature of software. But uh
+it's not going to be from that probably, for sure. So, Justin, you want to put a bow on
+this for us? Oh, sure. Um, yes. So, again, I think uh Daniel made this point too, but I
+think all the work that you could do up front before you have a downtime or security
+incident, uh the better. So, you know, wargame this, figure out what your
+vulnerabilities are, think about
+
+[00:31:29]
+likely causes of downtime. And this AWS one was a real weirdo issue. Um, but uh there
+are, especially for smaller applications that aren't dealing on this kind of scale,
+there are more um more common issues. So, like wargame those and figure out like what
+what would we do if this service went offline or what would we do if this downtime
+happens. Um, and then you can do ahead of time to kind of set yourself up. And if we
+start doing this wargame exercise and you realize that this is an absolute nonstarter
+for business reasons, like that that's a great time to get your high availability or
+multi-cloud, get all that stuff set up then. So, you when when this issue happens, you
+can laugh at the people who are just stuck on US East 1 and be like, "Oh, we're on 1 and
+2." Or we're on 1 and Google or or whatever. Um, yeah. As you go through the incident,
+if if you end up going through one, stay calm, get the information about what actually
+went wrong. Don't just throw a patch onto it to fix it up cuz you're panicking that
+you're down. Um, it's important to get to get that right, both for honesty and
+communication and so you can actually learn from it because if you don't ever understand
+what the issue is, then you you rob yourself of the learning. You don't actually
+improve. Um,
+
+[00:32:30]
+afterwards, I think you need to work, you know, do a retrospective, figure out what went
+wrong, why it went wrong, identify any processes within your organization that led to
+this kind of issue becoming a thing, if that's applicable. If not, figure out, you know,
+why it's not going to happen again. And then as we talked about the downstream effects a
+little bit, if these kinds of issues like jobs piling up or likely to retries getting
+crazier likely to happen again, maybe you look into those other systems so that, you
+know, there's a concentric concentric circles of robustness and security. And so, maybe
+you you you pick out that big outer one, but then maybe you identify two inner ones that
+you also want to be just a little protected against in the future. And then communicate
+with your folks about the fact that you're doing your best and the downtime happens. And
+uh I think throwing yourself under the bus where you deserve to be, be honest,
+forthright, and uh also like you can get If you can get people the information they're
+looking for, especially like in our case where people just want to know what to tell
+their customers, like write write that for them or explain to them exactly what's going
+on so they can pass that on. That's what I got, Daniel. Did you Did I Did I miss
+anything you want to you want to highlight? >> I think the big takeaway is you just have
+to host everything in US West. I mean, come on. Problem solved. Tupac,
+
+[00:33:35]
+baby. Um, [Laughter] No, I mean, I think I think the the big takeaway for for me on this
+is uh don't just walk away from this and pretend like it didn't happen and pretend like
+everything's be good in the future. Uh yeah, what Justin just said, Amazon will go down
+again. Or if it's not Amazon, something else will go down. And that's, you know, when
+the when when a house burns down, they go and sift through the rubble to try to figure
+out what started the fire. They try to figure out how do we stop this from happening
+again in the future. Um, you should be doing the same with your company and you
+shouldn't even be saying, "Hey, pass the buck to Amazon. It's Amazon's fault." You
+should come up with a plan. What what happens when Amazon goes down? How do we respond
+to that? What are critical systems that simply can't go offline? What are ones that
+we're more okay with? And and how much money are we willing to invest in this? How are
+we communicating with people when these things happen? Uh yeah, and so on. So, I would
+say don't don't just move past this and say, "Hey, Amazon's fault, everything's good."
+Come up with a plan. You know, we're we're doing that on our side for sure. You know,
+we're we're learning a lot from this from this incident and um figuring out how to bring
+that into practice in
+
+[00:34:38]
+the future. Fantastic. Guys, thanks so much. As as always, it is a pleasure getting to
+talk to you guys, especially when we get to dig into some of the the tech fun and and
+things that are you know, very present in our world that maybe not everybody realize can
+or will happen again. So, Justin, thank you, my good friend. Thank you, Aaron. To
+anybody who's listening, if you went down cuz you were in US East 1, give us a call. We
+will be happy to stick you into US West 2. We have the technology. We can do it.
+[Laughter] You heard it here first. Well, maybe probably not first. All right. Uh thanks
+as always to our listeners. Uh really appreciate it. If you are so inclined, uh please
+give us a like or subscribe. Uh send us your your comments, information that you might
+like to see on a future episode of the podcast. We thought this was a pretty timely one.
+I wanted to throw it your way. Uh again, thanks to my guest, Daniel, and uh thanks to my
+co-host, Justin, and we will see you all next time on SaaS That App. Thanks for cruising
+along with us on SaaS That App. We hope you grabbed some insights that were inspiring,
+actionable, or at least entertaining. If you enjoyed the show, don't forget to
+
+[00:35:41]
+subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

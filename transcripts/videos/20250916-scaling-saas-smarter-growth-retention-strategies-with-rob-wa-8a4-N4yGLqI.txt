@@ -1,0 +1,758 @@
+Scaling SaaS Smarter: Growth & Retention Strategies with Rob Walling
+====================================================================
+
+Video ID:  8a4-N4yGLqI
+URL:       https://www.youtube.com/watch?v=8a4-N4yGLqI
+Published: 2025-09-16
+Duration:  00:45:02
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+85% of companies have at least a technical developer on the team which kind of makes
+sense that's broader ecosystem of SAS that's what it is SAS is complicated but of the
+15% who don't have that technical founder they hire a developer or they hire an agency
+right they hire a development partner to do it but here's the thing they often then
+outsource the product they say okay I want to build a product for lawn maintenance or
+for electricians or for whatever and they're like go do that that's what you do right
+you're a developer or you're an agency or whatever and it's like product and engineering
+engineering being writing the code and making things work and on servers and making it
+function. Product and engineering are two different departments. They're not the same.
+>> Welcome to SAS that app. Building B2B web applications, the podcast where we share
+real world stories, practical advice, and tech insights for those building or thinking
+about starting a tech- enabled business. I am your co-host, Aaron Marchbanks, and I'm
+Justin Edwards. Each week, we bring you the stories, strategies, and insights you need
+to build your SAS or tech- enabled business smarter, not harder. Let's dive right in.
+Hello everyone and welcome to SAS.app. I had the
+
+[00:01:03]
+opportunity to see today's guest speak several times and I'm super eager to have him on
+the show. But before I intro our guest, I am joined here in virtual space by my favorite
+ultramarathon and crazy person and co-host Aaron Marchbanks. How are things in the
+American middle west, my friend? >> Not too bad. A little bit smoky. A little
+challenging on the morning run this morning with the uh conditions, but you know, you
+got to get out and do it anyway. >> I know how it goes. All right. Well, our guest today
+is Rob Walling. Rob has published five books, founded six companies, invested in more
+than 200 startups via his accelerator. He's also the host of the very successful
+Startups for the Rest of Us podcast. Alongside his vast experience starting and scaling
+his own companies, Rob organizes Micro Comp, which is a community for SAS founders and
+runs the Tiny Seed Startup Accelerator, which injects both money and expertise into
+wonderful businesses that aren't necessarily a great fit for the traditional VC model.
+It is my great honor to say, Rob, welcome to the pod. >> It is my pleasure to be here.
+That is one of the best, most succinct intro bios I've ever heard. Did you write that
+yourself? >> I wrote that 100% without chatbt. I'm pleased to say. So, thank you for the
+compliment.
+
+[00:02:05]
+>> I knew when you used the word injects that it was not like taken from my website cuz
+that's not there. So, I was thinking I wonder if an LLM. Thanks so much, Justin. That
+was really, really nice. >> Well, thanks. I appreciate it. Well, to kick us off, can you
+let anyone who is not familiar with your journey and how you got started and how we got
+to now? >> Yeah, sure. So, I I came out of college and I was a construction worker. I
+was an electrician. That was my kind of my family's business. They didn't own it, but my
+dad worked construction for 42 years and my brother still is in that business. And I
+really didn't enjoy it. It's a it's a not fun business if if you want to do in my
+opinion as someone who grew up that you know, you can always make fun of your own
+family, but don't make fun of the other like construction just wasn't what I wanted to
+do. It wasn't the people I wanted to be around and it wasn't that interesting. So, I was
+heading to the library nights and weekends. I taught myself Pearl and HTML and ASP. >>
+Pearl. >> Yeah, I know. Well, this was 1999. It was CGI scripts and so it was early
+webdev. >> Yeah. >> And so I became a developer, which was fun for a few years. And then
+I realized, man, I really want to do my
+
+[00:03:08]
+own thing. How do I start a startup at the time, right? There was no SAS. That term
+didn't exist until, I don't know, 08, 09 maybe. And so it took me um five, six, seven
+years of working of nights and weekends as I had day jobs. So I I worked a day job as a
+developer and then nights and weekends I was building products trying to escape the
+grind and eventually had a few successes got into SAS. My big swan song I'll say in SAS
+was a building and selling drip and I built that from 2012 to 2016 and and sold it then.
+So, and then, you know, moving forward, had a podcast, have a community, and uh that's
+kind of become my focus these days cuz it turns out sometimes talking on YouTube and
+doing podcasting is is more fun than actually running a SAS company. >> Sometimes
+sometime depends on the day. >> I'll tell you that that's why I'm here. If you promise
+not to tell my boss. >> Yeah, exactly. >> Yeah. He's not going to listen to this at all,
+Justin. No worries. >> All right, cool. Well, that's awesome. I know that you work with
+aspiring SAS founders. You invest in a lot of SASS and you have seen a lot of mistakes
+and
+
+[00:04:10]
+pitfalls and plateaus and things that kind of interrupt people as they're coming along
+the path. So like what are some of those pitfalls and mistakes especially for folks who
+are like super early on in ideulating or maybe they've gotten like their first little
+traction in project market fit? >> Yeah, I mean there's there's a lot right? There's a
+lot of ways to do it wrong. There are a few ways to do it right and there are a lot of
+ways to do it wrong. So, I think a lot of the most common things I see are people going
+about building, putting a lot of money, time, effort, energy into building something
+that they believe the world needs that they just haven't talked to anyone about. Haven't
+done any type of validation. And I I can put validation in quotes. It's like I've heard
+people say, "Well, you can't you can't validate anything. Like, validation is worthless
+cuz I went and validated and then no one bought it." And it's like, you know,
+validation, it's not 100%. You cannot validate an idea 100%. It never happens. And so
+going into validation, doing like a little bit of keyword research in Google to say
+like, well, is anyone searching for anything like this? It's going into uh what I call
+hangouts, which are just like Facebook groups, Slack groups, online communities, online
+
+[00:05:14]
+forums, private forums of like your potential customer, not of other indie hackers, not
+of other people wanting to build SAS, but who is your ultimate customer and figuring out
+do they actually have a problem? It's going to Capterara and going to a category of
+software and being like, "Well, I want to build a CRM, so I'm going to go look at the
+reviews of CRM and see what everyone's mad about. What is everyone pissed off at all the
+CRM about?" And then maybe that'll be a core part of my feature set. Just a bit of
+research, right? It doesn't take much time. And then starting to market and getting in a
+few conversations before you really get in and launch and build things. Like that's how
+I would do it these days. I mean, that's how I did Drip. Drip was my last startup. It
+wasn't foolproof. I still launched and hit a plateau and the validation wasn't 100% but
+I knew at least a few people needed it because I do hear folks say well I need this so
+therefore it's validated and it's like no you validated that you will sell one copy to
+yourself that's what you validated everything else is is a hunch so that might be the
+biggest early stage mistake >> with drip what were some of the things you identified as
+kind of a gap in the
+
+[00:06:16]
+marketplace or like based off the validation and questions you were asking what did you
+decide to like start with? Yeah. So what happened is I had a prior SAS app and I wanted
+this is 2011 2012 and all I wanted gentlemen was a very simple JavaScript popup widget.
+I wanted to drop it just one line of JavaScript and I wanted when you hit the website
+for it to be like bing subscribe to our email address download this free ebook to blah
+blah blah. And I wanted that across all 200 pages of this SAS apps marketing website.
+That did not exist in 2012. There was no opt-in monster sumo.com or king you know
+whatever sumo built I don't know there's a bunch of them now right there's write message
+there drip was one and a lot of email service providers have them now they didn't exist
+so I hired a developer and it took him 40 hours of it was all not dev time granted he
+wrote the email sequences too and wired it up into Mailchimp into an email sequence and
+spent 10 or 20 hours with an open source JavaScript framework to basically build this
+pop-up widget and I was like Well,
+
+[00:07:19]
+we validated that I needed it, but would anyone else? So, that's the next thing I did
+then. I started sending emails to people to founders that I knew. And this was a long
+time ago. I had a much smaller audience and much less personal brand than I do today.
+But I emailed some founders that I knew and said, "Hey, if I built that, like, do you
+have this problem? Like, do you want to capture emails across your whole site and
+control it from one place and pump them into email sequences?" And people were like,
+"Generally, yeah." Uh, so I think I sent 17 emails and I got like 10 or 11 who were
+like, I would be willing to try that and if it works, would I pay $50 a month for the
+whole shebang? Yeah, probably. And that to me was enough. I I was trying to get to 10
+yeses. And did all 10 of those buy or 11 of those buy? They actually didn't. Five of
+them in the end became customers. So this is what I'm saying. The validation was not
+100%. And in fact, I built up a big email launch list, right? cuz I was clamoring and
+talking about it and doing my Rob marketing thing and I got 3,400 people on an email
+list and I got the app up to $800 or $9,000 after launch 8 or 9,000 of MR which was
+great. That was a really quite solid launch but then it
+
+[00:08:21]
+just plateaued hard. Had a lot of churn very very weak product market fit basically and
+that was then starting the whole next leg of the journey. And that's I think what
+entrepreneurs should take away if they're listening to this is just having a good idea
+and or validating that gets you to like step number three of 500. you know, and then
+step number five is launching. And then step number seven is getting to 1K MR. And then
+step, you know what I mean? And each of these steps has pitfalls and complexities around
+it. There is very rarely a straight shot to like, whoa, we're going to hit a million,
+you know, next year because we just made all the right choices. Like it just doesn't
+work like that. >> Yeah. In the SAS playbook, you kind of talk about this notion of
+mastermind groups and peer support. This the validation process feels a lot like the
+very early stages of building your mastermind group. Is that kind of the natural arc of
+things or >> expand on that because a mastermind group is like a peer group of friends
+who are supporting you, right? >> Yeah. Yeah. So, I mean, is this the place where you
+start? You know, in this particular instance, you're talking about sending out an email
+to some group of people to kind of see is this a good idea, you know, before it even
+goes out to a broader audience? Is this something
+
+[00:09:23]
+that's that's meaningful? And then what kind of criteria do you use for building up
+those groups? >> That's a good point. So, I wouldn't actually equate like your
+mastermind group with this step usually because I I'm in mastermind groups with other
+SAS founders. And if other SAS founders are your ideal customer, then maybe you could
+ask folks in your mastermind. But most SAS that's built, the end customer of that is not
+a SAS founder. You know, the end customer is the owner of a dry cleaner or the owner of
+a construction firm or the owner of, you know what I mean? So, you have to go out to
+them. Now, you might have someone like that in your network. If I was going to start SAS
+in the early 2000s, it probably would have been for electrical construction because that
+was my family business. Again, they didn't own it, but >> yeah, you had experience and
+expertise in that >> big network experience, all of that. So, I at least could have had
+conversations. You can do this cold. You can do it with a landing page, driving traffic,
+taking out ads, going and talking about it on Reddit and, you know, and Facebook groups
+and this and that. It's better if you have some type of warm network or warm reach so
+that people will at least give you an honest answer. And that's
+
+[00:10:25]
+what you want to ask for is an honest answer, right? You don't want the nice answer of,
+"Oh, yeah, sure." Cuz that's actually a false Yeah, it's a false signal. It's a problem.
+Don't pull punches. Yeah. Does that come a lot of times with asking for a payment or
+asking for a credit card or is that something you recommend? >> It depends. I've seen it
+done all the ways. I did not ask for payment or a credit card. I've seen people accept
+say write me a check and I won't cash it until you're ready. Write me a check for the
+first 3 months or 6 months and I won't cash it. So I run tiny seed I think you mentioned
+it the startup accelerator for B2B SAS founders and we have a company in there called
+senior place and they took prepayment and cash the check and they said they would refund
+it if they didn't ship their app and I I don't remember it was prepayment for like 6
+months or I don't think it was a year but so they've done that. I've totally seen a oh
+credit card thing to put down. You know, if I would have done it, it probably would have
+been $50 a month for three months, put down $150. That's a signal for me since everybody
+knew me and knew I would deliver it. I think I would have gotten a lot of people who
+paid that 150 and then maybe didn't really need it. There is a curse of the audience or
+a curse of a worm network where they want to be nice and and do you a favor. So, I could
+see it
+
+[00:11:27]
+both ways. I've never taken prepayment myself, but I have, you know, there are
+definitely people out there who do it. >> So, you'd mentioned, you know, hitting these
+various plateaus. I'm curious. How do you help others via tiny seed identify these
+plateaus? Break through the plateaus or already kind of have your sight set. You're
+going to hit one. Be ready. Here's how you can kind of get past that. >> Yeah, that's a
+good question. And so I have four stages of product market fit in my I have this little
+framework that I haven't released publicly yet, but it's like no product market fit,
+early product market fit, weak product market fit, and strong, I think, is kind of the
+four that I have. And so until you get up to strong, there's a bunch of reasons why
+you'll plateau, right? Usually it's like high churn. no one, you know, you can't drive
+enough traffic, blah, blah, blah. So, there's like three that I've identified after
+strong product market fit. There's seven. Seven and only seven. I have literally not
+found an eighth. I give a talk on it at Microconf in New Orleans a few months ago and
+also in Croatia last year. And that talk will be out on our YouTube channel in a few
+months and I keep asking when I do the talk. If I've missed one, if you know of a
+plateau I've not identified, please tell me because I actually want to add it. I want to
+have the complete
+
+[00:12:29]
+bootstrap B2B SAS, you know, or not even bootstrapped, it's just B2B SAS plateau list
+because right now I have seven in this talk. And so obviously we don't have time to go
+through all seven here and folks can go watch the talk when it comes out. It'll be free
+in next month or two. But realistically, Aaron, what you called out is the the key is to
+try to predict them. It's just a formula, right? It's the new MR you're adding in every
+given month on average divided by your churn. You know, so if you're adding $3,000 of MR
+and you have 5% churn, then it's 3,000 divided by 0.05, which we could do quick math on
+the internet. I believe that is $60,000 of MR is where you will I just did that in my
+head, so I could be off, but that is 60,000 of MR. And it's like, well, that's a good
+business, but you either need to add more MR or you need to lower your turn or you will
+plateau there. And the hardest thing to do is hit a plateau and then get past it. You
+really want to be thinking ahead. And the way to think ahead about it is well what's
+working today? Can you do more of what's working or do you need to add another channel
+usually to drive more traffic? Or is it a question of your funnel? Like is your
+
+[00:13:33]
+funnel kind of leaky? You know, meaning you're not getting a lot of trial signups or
+your trials don't con convert to paid or your paid don't stick around and they churn.
+And the way you know if your funnel's healthy or not are some rules of thumb that again
+we don't have time to go do here, but I think I give some rules of thumb in the SAS
+playbook. I think I give rules of thumb for almost the entire funnel in SAS playbook and
+I definitely give them in this talk. >> Yeah. You talk about like low touch and high
+touch. >> Yeah. Like conversion rates and and churn and all that stuff. And I've had
+people kind of give me crap on social media or whatever. I remember listing some rules
+of thumb for ranges of where you should be. if you're asking for credit card upfront
+with a free trial or not asking for credit card these are the kind of percentages I
+would expect and someone was like oh this is BS this is just rules of thumb is common
+knowledge and if it's common knowledge it's worthless and blah blah and I was like no
+sir smart person on the internet headon 6969 I think his username was rules of thumb are
+actually helpful for exactly this reason is that if you were to show me a SAS funnel and
+every step of that funnel show me the percentages and tell me if they had a credit card
+or not or whatever I could say oh that's
+
+[00:14:36]
+healthy or that's your problem right there. I could tell you which exact number is
+outside of my mental range, you know, because all SAS is not the same, but they do share
+a lot of common attributes, especially numerically. >> And having those kind of rough
+metrics on different stages of the funnel is super helpful if you're trying to self
+diagnose. If we can read your material and see your material and look at, oh, hey, this
+number is way outside of what Rob thinks is reasonable with his experience, like, cool.
+Let's let's focus in on why this part of our funnel is not working correctly. Try to get
+people to stick around a little better. >> That's right. And sometimes you will be
+wildly outside of it and there's a good reason for it and the rule of thumb doesn't
+apply. I get a few too many founders saying, "Oh no, but my business is so snowflaky and
+different, you know, and it's like probably not maybe, but probably not." >> Okay. Yeah.
+Awesome. I don't remember which book of yours it was, but there's one book where you go
+you go heavy on cheat codes and talk about like some of the fun things you can install
+that really kind of turn it up to 11 on businesses. Can you talk about like some of your
+favorite cheat codes and maybe give a example of a some applications of them you've seen
+that that really rocked? >> Heck yes. That's the SAS playbook. And uh don't I have four
+cheat codes in
+
+[00:15:39]
+there? I I often have to refer to my you know on purpose I write these things and then I
+uh expansion revenue. >> That's my personal favorite. So >> I love it. And then virality
+dual funnels. Expansion revenue is probably my favorite. And that's when I started Drip
+which started as just the email capture widget, right? Turns out no one really needed
+that. And so it became an email service provider competing with Mailchimp and then it
+eventually became a marketing automation platform. So it was like Mailchimp with
+automations and stuff. I didn't realize the power of expansion revenue. And expansion
+revenue, if folks are listening and don't know, is when as your existing customers get
+more value from your product that they automatically pay you more. So think about being
+a Mailchimp customer and when you have 2,000 subscribers, I think their free plan goes
+up to maybe 2500. I don't even know. But let's just say their free plan goes to 2500. So
+at 2,000 it's free. At 2500 you pay them $20 a month. At 3500 you pay them $40 a month.
+And that's expansion revenue, right? More subscribers, more value to you, more
+
+[00:16:42]
+money to Mailchimp. That is 100% a SAS G-code. And what it means is you can have a month
+where you are completely flat in terms you add zero customers net, but you still grow
+your MR. And that is absolutely mind-blowing to see. And that and in the end, Drip did
+have that about eight or nine months of of the year. 8 or 9 months out of 12. And uh
+expansion revenue leads to net negative turn which is just this huge snowball in the
+best possible way. This is why pricing is so important. >> Yeah, pricing is incredibly
+important. And Michael Rivera spoke at Microconf New Orleans and his talk was amazing
+and his book was also amazing. So, thanks for exposing me to him. But can you kind of
+define that negative churn and explain how that works? Some people look at it logo as
+logo turn like the number of customers that churn divided by the number of customers you
+had at the beginning of the month. But I like to look at revenue turnurn because it's
+slightly more important and accurate. So it's the amount of MR that you lose in a given
+month divided by the MR at the start of that month. And what happens is your gross turn
+is like the people the
+
+[00:17:46]
+credit cards that didn't go through the people that canceled and left. It's all the
+folks that are no longer paying you the next month. But then you can also have people
+who come back and resign up and that makes your churn negative like it's negative
+against that number. And you can have people who have expansion revenue like I said and
+that will be negative against your churn number. And so if you get your churn low enough
+where it's like oh I'm only churning 2 or 3% gross per month but then you get that
+expansion revenue of 2.1 or 3.1%. You can literally have a negative churn of 0.1 or you
+know whatever percent. And I've seen businesses, I mean they also call it the opposite
+of churn is retention, right? I've seen businesses with net negative churn or net
+retention is the same thing of like 10 or 12% in a month. And that is bananas to see a
+business run like that because you just I won't say you don't have to work that hard to
+grow it, but it grows 10% a month if you do nothing. Like it's so imagine if you're
+actually driving new customer. Like it's crazy. It's crazy to see. Now that's an
+outlier. I'm not
+
+[00:18:48]
+saying Drip was not like that. Drip did not have 10%. I think it was a couple like two
+to four or something in its best months. But yeah, talk about a cheat code and that's
+one of the best. >> Well, including that one and the other cheat codes as well. Would
+you say that there's any sort of like a threshold or or a different level of application
+depending on different size organizations or or different type of SAS or is it pretty
+much this rule kind of rules them all? >> Each of these cheat codes cuz there's
+virality, there's expansion revenue. I actually forget what my third one was. I do have
+four in that book. like virality is not possible in all SAS businesses. It just isn't.
+There are certain types that they just aren't super conducive to it. Net negative turn
+or expansion revenue is also not possible in all SAS companies cuz there are some
+pricing structures where the best one and the one that works doesn't have that value
+metric like subscribers that count up. It more has feature gates, feature gating, right?
+Where it's like well the cheap plan has this features and the middle plan has the big
+one and the you know more has more features or the the bigger one has more features.
+those are notoriously poor at expansion revenue, but sometimes it's it's the right
+
+[00:19:51]
+choice. It's just the optimal choice. And so the other SAS cheat code is dual funnels
+where you have a lowpriced funnel and it's self-s serve and then you have a higher price
+kind of enterprise funnel and it's 23 $5,000 a month and you have both of those is quite
+powerful and we can go into that or not if you want to but each of these is awesome and
+desirable but they are not available for all SAS companies. It just depends on your
+pricing and your customer type. If you're like there is no net negative churn if you're
+catering to consumers or proumers like you'll never because your churn will always be
+super high, right? So the higher the price point and the more sticky your app is,
+meaning usually it's like someone's running their entire business on it. You know, I
+often call it the if you're an operating system for a business, meaning like, hey, the
+gyms and martial arts dojoos that use you, like everything is there, then you're going
+to probably have net negative churn. But if you're a nice little utility that like
+converts a PDF into like a JPEG or it's like do they really really need that? You know,
+you're not gonna have that negative trend. >> Yeah. And it seems like they might also
+lean one toward the other between like a low touch and a high touch sort of a
+
+[00:20:54]
+funnel. I would think that especially early on there might not be resources or or
+staffing or really inclination to try to support both of those funnels simultaneously.
+>> It's quite possible. Yep. As well as like virality and expansion revenue. You don't
+know that when you start. Your numbers are all fuzzy, right? your numbers are all over
+the place. You don't have the volume and you just can't tell. I mean, we interviewed
+some companies for tiny seed that are doing 3K 4K MR and we asked their churn and
+they're kind of like I don't know. It was like 12% last month and it's 2% this month
+because the numbers are so small, you know, and that is just the way it is early on. Or
+sometimes it's like we have zero churn because we just we only have eight customers and
+each of them is paying us 500 bucks a month and we're at 4,000 MR but we have zero
+churn. They won't have zero trend forever, but at this point, the numbers are small. It
+all applies always, but you can't tell early on. Usually, you can't really tell you have
+virality until you have hundreds of customers and then you start seeing the loop. >> I
+imagine the same caveat would apply if you have a relatively small number of very high
+dollar customers and maybe you you have $100,000 a month, but you have 10 customers at
+10K a month. It's like,
+
+[00:21:57]
+well, >> totally >> I have 10 customers. So, >> yeah. And then you're not going to have
+virality usually and you're not, you know, expansion revenue. Hopefully, you have that.
+If they're paying you that much, then it's probably annual expansion and you need to
+have that worked into a contract and you won't have a dual funnel unless you launch a
+self-s served version, you know. Yeah. Each of these that's where it depends. >> Mhm.
+Awesome. Well, I wanted to pivot a little bit. We have guest after guest come on to this
+podcast and we talk about like what are your tips for people who are getting into SAS
+early on and the first thing they say is don't do it. Absolutely don't get into it. It
+is horrible the sacrifice. >> Do they really? I worked a thousand hours a day >> almost
+invariably. >> I sacrificed my family. I'll never get the time back. >> I've been there,
+done that. All these things are resonate. It's like I've never felt so seen as you're
+saying these things. >> But at the end of it, you will also ask them, "So, was it worth
+it?" And almost every one of them say, "Well, yeah." >> Yeah. >> But it's because
+they're on the other side of this great idea, a great organization. >> Yeah. So,
+obviously, you have a book titled The Entrepreneurs Guide to Keeping Your Together. Exit
+Strategy, which you wrote with Dr. Sher Walling, deals heavily with psychology related
+to exiting. Do you have a
+
+[00:22:59]
+reaction to that? Do you agree with that sentiment or do you think it's a little tongue
+and cheek? >> It is challenging. It is. I hate to say it's hard because I worked
+construction. That was hard. This is not hard, guys. Like, let's just really I know guys
+who drive trucks for a living. That's hard work. >> So, let's just super level set that.
+Okay. But in the scheme of sitting at a computer and typing and listening to music all
+day, let's let's say is being a SAS founder harder than like being a developer at a big
+company? Yeah, it is. It's a grind and it is ups and downs and is very emotionally
+draining for sure. It's not physically draining, but it it's a lot harder than most
+people think. And this is why I tell most people if you are not technical, you are not a
+developer, consider either co-founding with a developer or building some smaller things
+first. I have this thing called the stairstep method of entrepreneurship. And if you go
+and build a Shopify app or an add-on to, you know, Salesforce or HubSpot, any of these
+app stores, and are these going to get you to a million dollars in ARR? No. None.
+Probably none of them. But can they teach you the ropes, get you the
+
+[00:24:02]
+experience, the knowledge, the confidence, and some revenue? Yeah, they can with a lot
+less work because you don't have to worry about all the stuff because building SAS is
+complicated. Launching SAS is complicated, marketing it, supporting it, learning what
+features to build. I mean all this stuff is too many moving parts. Imagine SAS as a
+business is an entire agency business consulting firm whatever and then you have this
+software that you have to build write maintain and guess what people want. It's like two
+complete different businesses that are t it's very complicated. So that's where I say
+hey maybe start a little small build something smaller get to 510k MR. you're going to
+plateau with an app ecosystem add-on, but at least then you have that knowledge of like,
+ah, I've talked to customers, I know what this is like, and then you can look at doing a
+I call like a full-blown or a standalone SAS. It's not the only path. It's just a path I
+recommend for people because to me, a standalone sass is kind of like to use a baseball
+metaphor. It's like I've never played little league baseball, but I want to go play in
+the major leagues tomorrow because I saw XYZ person do you know who's doing it? Heat and
+Shot,
+
+[00:25:05]
+Jason Cohen, Darm Shot, Rob Walling, you know, we can name people who do the big. So I
+want to be like them. It's like so do you know that I started building SAS in 2005 and
+it took me 11 years until 2016 before I sold Drip. You know what I mean? It's like you
+don't see that whole leg of the journey and I started and and built small and got bigger
+and so did the rest of the folks I mentioned. >> Yeah, I think that that's super
+informative. People don't see, you know, I guess the tongue and cheek saying is it's an
+overnight success 20 years in the making, right? >> Yeah, that's right. >> So, yeah, I
+like the stairstepping advice in terms of starting slow and kind of developing that
+confidence. Do you have anything else you recommend to folks who are getting into this
+to kind of set expectations to get things straight between their ears from the start? I
+mean, I would say I've already said it, but like building the product is technically
+complicated, but it's also hard to know what to build and how to build it. Like folks,
+we have uh with Tiny Seed, 204 B2B SAS investments, and 85% of them have at least one
+technical founder. So 85% of companies have at least a technical found developer on the
+team, which kind of makes sense. That's
+
+[00:26:07]
+broader ecosystem of SAS. That's what it is. SAS is complicated. But of the 15% who
+don't have that technical founder, they hire a developer or they hire an agency, right?
+They hire a development partner to do it. But here's the thing, they often then
+outsource the product. They say, "Okay, I want to build a product for lawn maintenance
+or for electricians or for whatever." And they're like, "Go do that. That's what you do,
+right? You're a developer or you're an agency or whatever." And it's like, yeah, kind
+of. You know that like product and engineering, engineering being writing the code and
+making things work and on servers and making it function. product and engineering are
+two different departments. They're not the same. Like just because you can write code
+doesn't mean you can build a good SAS company, right? So that's the thing I think it
+helps for people to understand. There's even developers that start SAS that don't
+realize those two things are different. Like the decisions of what am I actually going
+to put into this app? Like what are the features? What are they going to look like? What
+order are we going to build them in? How are we going to respond when customers ask?
+Like all of that is a product role. And that is something that I think is kind of
+invisible in most s and most people don't understand that that's probably the hardest
+part of it especially with AI these days and no
+
+[00:27:09]
+code and stuff like it's not easy. It's not easy to technically build but you know you
+can get there faster these days but knowing what to build and how to build it is
+actually very very difficult. >> So I'm curious where your failures came in there. You
+had mentioned as we were doing some back and forth. I've been there. I have messed that
+up. Tell me about the mess ups. Oh, I mean the messups were just underestimating how
+hard it was all going to be. And then there was a point where I was like, I know how to
+do this. So, I'm gonna start the my next SAS app like start drip and I'm going to be so
+good at it from the start. I'm going to hit product market fit on day one cuz I'm super
+smart. I know exactly what people need. And then launching it plateauing and almost
+running out of money like almost having to fire three developers cuz we were just
+plateaued for so long. And I kept saying like looking in the mirror like I thought you
+knew how to do this man. Like you've written two books on this topic. you have, you
+know, this is back in 2012, like you're supposed to know how to do this, but it turns
+out even those who know how to do it, the second, third, fourth time is still quite
+hard. I've talked about this with Heat and Shaw, who's done like four or five SAS apps.
+Most have been successful. Talked about it with Jason Cohen, who I think has done four,
+three or four, and WP
+
+[00:28:13]
+Engine is now a unicorn. Talked about it with David Canel who has had five exits for
+cash and is on his sixth startup. And uh you drift and he was like, "Oh no." He's like,
+"It barely gets easier." He said, "The only thing that gets easier is I can raise a lot
+of money right away cuz everyone has confidence in me, but the grind is still the
+grind." Like, it takes me years to get that right. So, that's I think a big mistake that
+I made is that it's hard the first time and it's slightly easier each time, but it's not
+that much easier. It's not as easy as you would think. >> Sure. As like the numbers go
+up, as things do improve, as you hit a plateau, pass a plateau, would you say that like
+the psychology gets easier as those numbers get bigger or does it actually get harder?
+>> I'd say it gets easier if you're handling yourself well. Here's the thing. Being a
+founder, most of it is managing your own psychology. That's what I found. And the folks
+who really enjoy it, there are folks I know who do the whole SAS thing. And they're
+like, you know what? It was hard in the beginning, but by the time we hit a million or
+two million, I had enough resources. I hired people to take the hard things off my
+plate, the things I didn't want to do. And they do it really well. And they manage their
+anxiety. They manage their potential dep, you
+
+[00:29:15]
+know, whatever creeps in on each of us. Each of us has these kind of demons or these
+Achilles heels. I do know some folks who do that and the majority struggle including me
+like I as I was building drip and we were you know adding 10k of MR every month. It was
+this incredible build rocket ship business. I was like this is amazing. I was so
+stressed and so anxious. I went into work every day thinking oh my god what is going to
+happen today and is this business going to implode? Cuz just everything felt like it was
+going wrong on the inside but from the outside people are like this is a great business.
+So, it's managing your psychology and having either a mastermind group, well, I'd say a
+mastermind group plus probably a therapist. Like, I am now in in therapy. And I say that
+very healthily. Like, I'm in it because it allows me to be healthy. I'm not trying to
+I'm not broken inside and need to be repaired. You know, there's no I have no stigma
+around this word, but a mastermind, therapist, potentially a a coach if you can afford
+it, who's doing more businessy stuff with you. So, you have a place to vent and to level
+set. And so you're not in your own head all the time
+
+[00:30:18]
+because that's the that's my problem is I stayed in my own head too much and I didn't
+talk to smart people who could be like, "Hey, wake up. This is really fun and this
+should be fun and you're actually having the success you've always wanted. Why are you
+so unhappy?" And I see a lot of folks doing that. >> Yeah. So, you know, things are
+going well. Great. You're passing plateaus, things are looking good. You mentioned it
+already, but you're talking about looking into exit strategy, and your book Exit
+Strategy recently came out. Curious how that book kind of came about. Was that something
+you and Dr. Walling plan to collaborate on from the beginning. Was this something that
+was birthed from some experience or or like just a message you felt like needed to get
+out there? >> It was a lot of that. It was really the latter where so my wife Dr. Sher
+Walling is she was a clinical psychologist. She has a PhD in psychology and she is now
+effectively a coach for high functioning CEOs, executives and founders. and half of her
+practice, half of her clientele, folks who are thinking about exiting in the process of
+an exit or have exited and are like trying to recover from it cuz it's like a little bit
+of PTSD. And so she came to me and said, "I'm telling
+
+[00:31:23]
+a lot of these people the same thing over and over, you know, I'm saying the same
+things. I feel like I'm going to write something." She'd written a book and then she and
+I co-wrote a book together. So, she'd written two, I had written four by this time. So,
+it's kind of natural we're probably going to write more books. And so, she's like, I
+think I want to write a book about selling. And there are already great books about
+selling. Like, before the exit is a great book by Dan Andrews, kind of thought
+experiments. And then John Warlow has written three books on it. Finish big. There's
+several really good books about selling. But I've read all of them. And there was a gap.
+And the gap is the psychology of it and the managing your own psychology before, during,
+and after the exit. and figuring out should I sell, how should I think about this, who
+should I tell when, how do I deal with this incredible pressure cooker that is due
+diligence and and selling my life's work, my entire net worth tied up in this thing. And
+so she came to me and said, I'm thinking about doing this and I was like, you know, I
+certainly have my own tales to tell of I've had a couple exits, drip being much bigger
+than the other one, but also now that I've invested in all these companies, there's been
+literally dozens of them now that I've walked alongside the founders through the exit. I
+also
+
+[00:32:26]
+had kind of anecdata as well as you know my own stories. And so the thing was like well
+let's sit down and try to write a table of contents to see is there meat here. Is this
+an ebook? Is it a podcast episode? Is it and then it's just like you know is seven pages
+of like bullets and we're like oh this is this is going to be 300 pages you know of of
+books. So that's how it came about and it's being really well received because it does
+shoot that gap of knowledge. I think we kind of identified a gap in the market. So what
+would you say is like okay you've got seven pages of bullets right so I'm going to ask
+you to just pull one out of your hat here but what is like a key one can you give us
+like an example key one >> the book is broken into three sections so the first section
+is before the exit like thinking through whether you should sell or not factors that
+come into play right and the middle is going through the exit and the last one is kind
+of afterwards and working for the acquirer as well as looking at what to do next I think
+there's a really good point a couple good points in the first section about thinking
+about when to L and we have a whole list of questions. This is probably what I would
+look at is a whole
+
+[00:33:29]
+list of questions to ask yourself when you're thinking about it and it's like why are
+you selling? Are there internal or external factors? Has your life changed or has the
+lives of your loved ones changed? Has the business changed? Has have you outgrown the
+business? Has the business outgrown you? You know, there's all these like pretty in-
+depth questions along with quotes from because we interviewed we didn't just go on our
+own knowledge. We interviewed I think almost 20 folks that have sold and it's not all
+SAS. It's only like of the 20 maybe like four or five are SAS. The rest are brick and
+mortar and agencies and and a trapeze school and you know we tried to generalize it. And
+so I think that thought process cuz a lot of people think I'm thinking about selling but
+I just have no idea how do I do this? I have no idea where to start. We have an entire
+chapter dedicated to that that I think is is worthwhile. Is this something that you
+found people who did it successfully set themselves up for it many years in advance had
+some notion earlier on or maybe in a middle phase somewhere that that's where they were
+going to go with it or are the better approaches to get to a certain point and then have
+those conversations with yourself.
+
+[00:34:30]
+>> It does depend, but I think preparing probably 6 to 12 months before you exit is what
+I would recommend at least. I mean, some people think about it for years, and that's
+okay as long as it's not stressful or bothering you of like I'm agonizing over it for
+years. Like, don't do that. But there's an emotional preparation involved. Like a
+technical bookkeeping, accounting preparation could be involved of like my books are
+kind of messed up. Oh, remember that one stripe in that PayPal account that we had with
+that other product in it? It's like all that stuff is a mess. Oh, remember that IP
+agreements we never sent to that one contractor who wrote a bunch of code on it, right?
+All of this stuff is going to come up. So this that's where if I were to sit down and do
+it and we do talk about it in the book is like get your house in order and that can take
+6 or 12 months because I mean you could maybe crash course and do it in a month or
+whatever but you're also trying to run a company during this you know so you're doing it
+alongside that and doing the mental work and the and the think the thinking it through I
+think is important. I mean I know is important and you don't want to rush that part
+because what you don't want to do is sell the business and decide that you regret it.
+You don't want to do that. It's a one-way door. you're never
+
+[00:35:33]
+going to have that business again. And so you want to be really, really sure. So from
+the first email that I got from my acquirer of DREP until the day it closed, it was 13
+months. And that gave me 13 months to think about it and noodle on it and take my I
+think I had an umbrella LLC with a bunch of products in and I had to fork drip out into
+an escorp and you know is all this stuff that had to happen. And I'm not saying it has
+to be 13 months, but even 6 months would have felt kind of tight for me. I also had to
+come to the conclusion of like, oh, I'm okay selling this. Am I? I don't know. Am I?
+Today I am. Tomorrow I'm not. Today I am. Tomorrow I'm not. And over time, you want that
+to kind of even itself out, right? And be like, yeah, okay. If they pay me X, if I get
+enough money, I never have to work again or whatever your number is. >> So, can you talk
+a little bit about your selection criteria for Tiny Seed and anything founders maybe
+find surprising when they're chatting with you about that? Yeah, I can tell you about
+the selection criteria for sure. I can tell you about my selection criteria. So, there
+are four of us that and we each have our own, but realistically we look at the first
+pass through. There's an
+
+[00:36:36]
+application. We look at numbers. I mean, because you can tell a lot by churn, MR growth
+over 6 months, lifetime value, average revenue per account per month, all that stuff.
+So, the first pass is usually is this a healthy business based on my rules of thumb of
+what the numbers should look like? And oftent times I won't even look at like the URL or
+what vertical or what the app is for a while. Like I'll be looking through the
+application and just being like I can get a sense of like oh this is a great wow that's
+some growth low. Oh my gosh there better be some red flags or I'm funding these guys
+tomorrow. You know that will happen right? But most businesses are somewhere in between
+right? There's the amazing yes I want to fund those and that might be you know a couple
+or a few each application process and we get hundreds and hundreds of applications. We
+fund about right now we're funding about 10 or 12 every 6 months and then there's a
+group where I start looking and I'm like ooh it's totally flat or it's declining or wow
+their turn is 22% per month you know and then I'm like >> yeah that's not a healthy
+business like so then I start digging of like is there a reason for these things that I
+can
+
+[00:37:39]
+maybe overlook or can we tweak it oh I see they're early maybe we can coach them into
+improving that but often times that's really it's really hard to fix that it's not
+impossible but it is difficult and then there's a bunch of inbetweens you you know,
+where it's like, oh, they're growing a little bit, the turn's okay, it's like 9%. Like,
+that's not great, but like I bet we can help them with that. Oh, the pricing's off, but
+that's totally coachable. Like, pricing is the biggest lever, and I can give advice on
+that. So, that's kind of the criteria. Like, it's numeric, but then it is uh spaces. I
+like I tend to like vertical apps that are going after niches rather than horizontal
+ones that go after every company in the world. There's a bunch of reasons for that.
+Usually, retention is higher and it's less competition, etc., etc. Do you have like Tim
+size criteria for total addressable market for >> I mean not really because we're not
+traditional venture capitalists, right? Venture capitalists want a billion dollar
+company. If a company sells for $20 million that we've invested in, we all do pretty
+well. And so what does a TAM need to be to get to 20 million? Not even no 20 million
+exit price. So what do you need to get to 3 or 4 million maybe 5 million tops of actual
+ARR? So what does my TAM need to be? 10 20 like So I have criteria but it's not that
+
+[00:38:41]
+much. You know what I mean? It's like if you're in low eight figures, TAM that's small,
+but like I can work with that. And the other thing is if the business has really good
+fundamentals, let's say your TAM is tiny. TAM is 5 million, right? And you're doing 10K
+MR right now. But the fundamentals are amazing and we talk to the founders and we're
+like, these folks are super smart. I bet on the founders and I will say my bet is that
+you will I'll tell them in in our interview call, we do 20-minute interview and then we
+decide if we fund it or not. And I will tell them I'm going to make a bet on you. I
+think you'll figure this out. your TAM is too small to get where we need it to. And they
+usually know that. They always know that actually. But I'm betting that you're either
+gonna figure out a way to expand the TAM by going into other verticals or something
+else. Dot dot dot profit. Like you'll figure it out. And in every batch of 10 or 20
+founders we've backed, there's usually three or four companies where the business is
+okay, but the founders are awesome. And we make the bet on the founders. you know that
+that like we believe they'll make it a great business with our help, with our advice and
+and money and stuff. And then there's three or four that are
+
+[00:39:44]
+amazing businesses and we're like these guys are rocket ships and sometimes we're right
+and sometimes we're not on those like we think they are. And then there's a handful that
+are kind of like bets where we're like I don't know these might be flyers, you know, and
+then there's a handful that are in the middle. So >> yeah, I love the betting on the
+people part. We've heard that a couple of times and and that seems to be a little bit of
+a trend of I support the person, their value system, their approach to business, you
+know, how they've done things. And I think that that's fantastic that that is a kind of
+an investment criteria for you. So if someone is debating between taking tiny seed style
+funding or tiny seed specifically funding or staying solo, maybe bootstrapping for
+longer, what kind of questions do they need to be asking themselves? >> Yeah, that's a
+really good question. So first of all, we fund companies. It's B2B SAS only and the low
+end is about $1,000 of MR. So they have to at least get there and our sweet spot is
+between 1,000 and say 40,000 of MR above that we have a syndicate and we can help you
+raise. But if you really want to come into the accelerator program which is it is one of
+the best if I don't want to claim it's the best but I kind of think it is but it's one
+of the best SAS
+
+[00:40:46]
+accelerators in the world period. Like we hear this over and over and over and I built
+it very intentionally. I don't halfass anything and I want anything I do I want to be
+great. So the questions you want to think about are you know will money advice and
+community help you get there faster? Do you think it will? Because we'll invest between
+120 and about 120 and 220 US and $220,000 sometimes up to 250 but 250 was somebody was
+doing like 80k of MR. So if you're there, please apply. You know, can you use that money
+plus the advice of me and our we have 30 or 40 mentors plus the community now is super
+super strong, right? We have 204 companies, very smart, ambitious founders. Do you think
+that's going to get you there faster? Will that save you 6 months on your journey? Will
+that save you a year on your journey? And are you willing to give up equity? Right? We
+buy 10 to 12% equity. Ask yourself that. And if you don't know, then you know, sign up
+for our email list and come to our we do like a webinar where we have questions and you
+can ask us questions about it. Some people don't want to give up any
+
+[00:41:48]
+equity. And also, oh, here's the other thing. I should say this. We want companies to
+get to millions of annual recurring revenue. So, if you don't want, if you want a great
+lifestyle business and you're like, I want to work on five different things at once and
+I want to build them each to 100,000 AR, you know, or whatever, like that's not a fit
+for us. We want you to focus on a single thing and we want it to get to at least a
+million of ARR. And if you don't want to, that's cool. I've had businesses like that.
+They're great, but they're not a fit for Tiny Seed, right? We want them to get to 1 to
+20 million AR R typically, and we want them to sell for 10 and 100 million exit value.
+So, it's not venture in the traditional sense. Like, you don't have to go big. We have
+folks who grow to a few million and have these great exit multiples and their team never
+gets bigger than 10 people and they sell. So, it's not like you have to go crazy gang
+busters, but you do have to be, you know, ambitious. If you just want to build a
+lifestyle business, that's great, but that's not a fit for us. >> I love that that
+exists somewhere in the middle. We have more VC focused folks on who are kind of like
+these are criteria and you've got to have this huge addressable market and you've got to
+
+[00:42:49]
+have a plan to get there in 5 years and if not, we're going to kill your business trying
+to get it there. And so, I love that there's something that's not complete
+bootstrapping, but that's also not trying to force people into model that either they
+don't want to be in or that their business won't work in. >> That's why we started it.
+Yeah. It was something I wished had existed when I started Drip. I needed the money and
+I didn't have it. I never raised funding. You know, I started five bootstrap companies
+and I kind of wish like bootstrapping is great and you keep control, but it's hard mode.
+Now that I have raised money for Tiny Seed and we had this big budget, relatively
+speaking, I'm like gosh, why didn't I raise funding for everything I ever did? And it's
+like cuz you couldn't have. You didn't know anybody, you know? >> Well, we're kind of
+winding down on time here. I wanted to say, is there anything that we should have asked
+you about that we didn't that's super important or anything you want to say to our
+audience before we close out? Well, I think if they're interested in this topic of like
+actually growing a SAS company, and again, whether it's you want to grow $100,000 a year
+business or a $5 million a year business, I talk about this stuff in this fashion every
+week. And I have for 15 years, 780 episodes. Wow. And startups for the rest of us.com.
+And if you're into this show, you'll probably be into that. >> Fantastic. Rob, it has
+been just an absolute honor to have you on the pod.
+
+[00:43:53]
+We have been talking with Rob Wallally, author of the SAS playbook among others.
+Founder, investor, podcaster, micro comp organizer, the list goes on and on. Rob, it has
+just been fantastic to have you here. Where and how are the best ways for folks to
+connect with you. >> Yeah. So, as I mentioned the podcast earlier, startups with the
+rest of us. If folks are more into the YouTube thing, you can head to
+microcomf.com/youtube. I also release two YouTube videos a month that are separate from
+the podcast. then I'm on X at RobWalling. >> Fantastic. >> We'll make sure to link up to
+all that stuff in the description and show notes and all those kinds of things. So,
+thanks so much for being on, Rob. Really appreciate it. >> It's my pleasure. >> Justin,
+thanks so much. Special thanks also as always to our listeners. If you like what you're
+hearing, have ideas for the show, or just want to tell us what's on your mind, throw a
+review our way and subscribe if you're so inclined. And we will see you all next time on
+SAS that app. Thanks for cruising along with us on SAS that app. We hope you grabbed
+some insights that were inspiring, actionable, or at least entertaining. If you enjoyed
+the show, don't forget to subscribe and leave a review. Until next time, keep building,
+keep growing, and
+
+[00:44:58]
+keep those apps sassy.

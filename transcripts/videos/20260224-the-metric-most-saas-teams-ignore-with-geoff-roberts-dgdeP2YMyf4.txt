@@ -1,0 +1,602 @@
+The Metric Most SaaS Teams Ignore with Geoff Roberts
+====================================================
+
+Video ID:  dgdeP2YMyf4
+URL:       https://www.youtube.com/watch?v=dgdeP2YMyf4
+Published: 2026-02-24
+Duration:  00:37:19
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+All of these SAS businesses need the same core tools. They need payments. They need
+authentication. They need transactional emails. They need a CRM. They need a help desk.
+And at one point, he just kind of threw his hands up and he was like, I'm spending more
+time integrating software than I am building our actual product. Why isn't there sort of
+like a Shopify for SAS? Welcome to SAS that app building B2B web applications. The
+podcast where we share real world stories, practical advice, and tech insights for those
+building or thinking about starting a tech- enabled business. I am your co-host, Aaron
+Marchbanks, and I'm Justin Edwards. Each week, we bring you the stories, strategies, and
+insights you need to build your SAS or tech enabled business smarter, not harder. Let's
+dive right in. How is it going? We're back for another fantastic episode of SAS that
+app. I'm joined here today as always, most always from my friend who's residing in the
+frigid frozen north. How is it going, my my chilly snowman of a co-host? It's going
+well. We're getting some actual snow melt now and I can set foot
+
+[00:01:03]
+outside and pound the pavement just a little bit, but it's still cold. However, they're
+saying by Friday it's going to be 50s. And so, true to the Midwest, I'm going to wake up
+today and and it's 20 and I'm going to wake up Friday and it's going to be 50. So, here
+we go. If you don't live in the Midwest, you just bite off having crazy weather. It just
+comes with the territory. So, yeah. Cool. Well, let's kick us off. We have an awesome
+guest today. I'm super excited for the conversation. After getting his formal education,
+he kind of rolled directly into growing Buildium, which sold to Real Page for an
+eyepopping $580 million. That's million with an M. At that point, he moved to Rambi,
+which is another company he helped grow and scale, and that sold eventually to SAP. At
+that point, Jeff pivoted into Outsetta, starting his own his own SAS, his own company,
+as well as doing some consulting or he's worked in that context with literally hundreds
+of startups. I'm super curious to learn from his learnings related to that. He's got a
+lot of really really interesting insights about like life and company design. He's got a
+really interesting take on compensation, which we're going to get into for sure. It's
+going to be a fascinating conversation. Jeeoff, I can't wait to dig into your story.
+Welcome to the pod. >> Justin, Erin, thank you for having me. I appreciate it. So tell
+us a little bit
+
+[00:02:06]
+about early Jeff getting started and getting into this crazy business world. >> Yeah, I
+found my way into the world of SAS startups very accidentally. I actually went to
+college and was a a writing major and I graduated in 2008 kind of as the economy was
+tanking and said, "Man, it's going to be tough to make it as a a newspaper writer or a
+professional blogger or something like that." So I went back to school, went to business
+school, got out of business school, had trouble finding a job and frankly it just
+happened to be a SAS startup that sort of gave me my first shot. Without knowing it, I
+walked into sort of a great situation. I joined a company where I was employee I think
+six or seven, something like that, that was very engineering driven. They had found
+product market fit, but they sort of hadn't made a marketing push yet. And they they
+said to me, "Hey, you young guy, go figure out how to market this thing." And I I just
+had a great experience and fell in love with startups more than anything is what I tell
+people. SAS is kind of the industry that I've been in ever since. But it's the startup
+bug that really caught me. >> Was your second company also something
+
+[00:03:09]
+that was smaller like that where you were like one of the first few employees or was
+your second gig larger when you joined? >> The second one was kind of the opposite. So
+this is Riby I think you're referring to. Romi was a sequoia backed company that had
+been a darling company for at least their early years and then sort of fell on hard
+times and needed something of a turnaround. So after being at Buildium where sort of
+everything went right frankly I walked into an environment with a lot more
+responsibility where everything was going wrong. So when I kind of think back on the
+early experiences in my career, that's how I I classify those. And you you sort of learn
+very different things in those environments and I think part of what I learned was just
+the power of being in a great market that's underserved versus being in a a market that
+has sort of turned against you a little bit. Now, >> so when you say everything was
+going wrong, I'm super curious to unpack that a little bit. You know, obviously going
+into an ideal situation is like the you know, the first shot right out is always nice
+because it kind of sets you up. It's like, okay, I'm feeling some success. But tell me
+what you mean by
+
+[00:04:11]
+like everything was going wrong. >> Yeah. So not everything went wrong. I mean Rome when
+I was there I forget exactly but it was it was something like a $10 million a year
+company. So they had built a you know a substantial business and I don't want to
+discredit that but they got Sequoia on board because they were one of the first
+companies that tried to build data visualization tools specifically for the iPhone. So
+the iPhone came out and the founder sort of saw this thing that was going to be in your
+pocket and an opportunity and all sorts of use cases to do fancy data visualization on
+an iPhone and I think they were right in seeing that opportunity and Sequoia saw that
+opportunity and gave them a bunch of funding and those sorts of things but they
+struggled to find the right target customer. where they ended up going very very
+enterprise and burning a lot of money on enterprise sales reps and fancy PR agencies and
+those sorts of things at a time where I think sort of traditional inbound marketing
+would have suited them better. So they always had this product that was sort of amazing
+from a user experience perspective but never really
+
+[00:05:16]
+quite figured out who the right customer was. And by the time I came around, I was
+basically tasked with coming in and saying, "We need a completely different go to market
+strategy. We need to move away from this enterprise sales stuff and with a lot less cash
+because they had burned a lot of cash sort of kicked this business back into gear." We
+did that, I think, to an extent. I mean, enough that SAP eventually came and sort of was
+a soft landing for the company, but certainly a very different environment than I had at
+at Buildium. So both of those companies exited while you were working there or with
+them. What were the differences? Exiting were something that went kind of crazy and grew
+and scaled and then sold kind of on this upswing versus you just described it as a soft
+landing for Rome B. Like what was the the difference between those two exits? >> Yeah,
+the difference was huge. I mean at Billium everybody involved in the company from the
+employees to the investors to the founders made money most of them for the first time
+this was just startup exit where cash hit their bank accounts and building got an 11x
+revenue multiple so it was a big win
+
+[00:06:19]
+across the board for everybody roy ended up in a good spot but it was more of a
+situation where the employees certainly and and none of the investors either made money
+but the IP and a lot of the team ended up in nice positions at SAP and carried on from
+there. So they sort of made the most of the opportunity that they had at that point. >>
+Okay. But that wasn't your story. You did not go to SAP. So what happened next for you
+then? At that point >> I did not go to SAP. I looked around. I started doing some
+consulting, worked a couple other gigs and very shortly thereafter started Outa. So at
+that point my previous boss from Outetta, his name is Dimmitri was kind of looking
+around. He was ready to step away from building them and go sink his teeth into
+something new. And he came to me with the idea for Outsetta, which is basically all of
+these SAS businesses need the same core tools. They need payments. They need
+authentication. They need transactional emails. They need a CRM. They need a help desk.
+And in the early days of building, I was kind of the annoying business user pulling on
+his shirt sleeves saying, "Hey,
+
+[00:07:21]
+Dimmitri, we need to get Stripe and HubSpot and Zenesk and integrate all this stuff."
+And at one point he just kind of threw his hands up and he was like, "I'm spending more
+time integrating software than I am building our actual product. Why isn't there sort of
+like a Shopify for SAS?" That was in short sort of the idea behind the company when we
+started and still very much what we are today. But that's where it all came from. I had
+sort of lived that problem firsthand. So I I said, "Yeah, I think an integrated solution
+is in fact better. It's just going to take a long time to build that and build it to the
+point where it's it's kind of good enough to compete with the point solutions that are
+out there. But we're now 9 years into doing just that. >> That's awesome. I I always
+find that the best ideas just it's the whole, you know, necessity is the mother of
+invention thing, right? Is like you say, you live in the problem so the solution becomes
+more clear to you more quickly and then that you got the means and and the skill set and
+and the talent to go out and and actually solve the problem or work toward the solution.
+I think it's fantastic. >> For sure. It's interesting, too. Buildium was actually the
+same. So, Buildium was a property management software product, but my co-founder
+
+[00:08:24]
+Dimmitri, he literally had like a duplex and he got tired of cashing checks when his
+tenants sent in their rent every month. So, he built a little software product that
+allowed his tenants to deposit rent online. 15 years later, he had a, you know, a 500
+plus million dollar exit. So, a lot to be said for scratching your own itch. >>
+Absolutely. No, that's super super cool. So, give me a little bit of the pitch. Like if
+I maybe I have like a a small SAS. I've just maybe starting to find some project market
+fit. I have like 10 $50,000 in ARR and I'm just kind of like growing and scaling like
+how do I integrate with Outset? Like what can Outset do for my SAS? We grow two ways,
+but we try to pick up customers as early as possible in their life cycle. If we can get
+to you before you even have sort of software systems in place, fantastic. But what
+actually drives our growth is is migrations more than anything where customers are
+bringing payment processing revenue onto our platform. But it's basically all of what we
+call like the business management layer required to run a SAS. So at its core, it's a
+payments and authentication tool. You guys have launched SAS products. You've probably
+integrated Stripe with
+
+[00:09:27]
+some sort of O provider. That becomes kind of the foundation of your go to market engine
+and how people log into your product and all that. So that's the use case people
+initially buy for. We've just kind of then taken that and first of all we've connected
+the off and payment dots for you. But then we've wrapped it with the other tools. we
+sort of know that you'll inevitably need. So that's CRM, that's your emails, everything
+from automated emails to transactional emails to email broadcasts, help desk tools,
+docs, those sorts of things. So it's really a sort of a simplified one-stop shop
+approach to running a SAS business as opposed to piece mailing all these different tools
+together. I readily admit particularly with a technical audience and one of our
+learnings from building this company in general is developers like to piece me things
+together that is in their nature. So this is certainly not for everybody. But what we
+have seen is there is a buyer persona and maybe it's a smaller section of the market
+that does like this sort of integrated nature of the product. And also in developer
+circles, it's become
+
+[00:10:30]
+very popular with people that launch products frequently and are sort of looking for
+speed to market. Those are areas where the product does really well. >> Yes, we have a
+developer on our team who has tons of micro projects and he launches stuff all the time
+and like some of it fizzles, some of it gets some traction or whatever. But I I was
+definitely thinking of him for this just like yeah cuz especially he's more of a
+developer than like a business administration guy. So it's like, oh yeah, if he could
+just plug in with this one tool and get a better experience for users as he's trying to
+find product market fit with this new like hobby project, that seems really cool. Yeah,
+I went through this recently myself and it's like, yeah, we have like six different
+things we made to piece meal together and I needed to have all these pieces, but it
+didn't exactly do my heart joy to spend all this time writing these integrations. So I
+love that. I think it's really cool. >> Thank you. >> Real quick, this episode is
+brought to you by Delta Systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here and we love to work with cool people on cool projects. So, if that
+sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab the time with us. We can beat up on your problem together and if
+there's a fit there, amazing.
+
+[00:11:33]
+We'll help you out. So, deltasystems.com, grab an appointment and hey, maybe we can work
+together. So, you talked about a smaller market segment or an area of people who this
+works for. I mean is that heavily tied up with no code low code founders or can you
+speak a little bit to that? >> Yeah, so we we've had a super interesting journey
+figuring out who our customer is and should be. We launched the tool very specifically
+focusing on developers. Our target customer was a SAS founder and we did that and sort
+of ran in that direction for four years hard. I would say we learned two things. We
+learned one what I already mentioned which is developers like to piece meal together all
+these pieces. Second, we just learned how much time it was going to take to build sort
+of each of our feature sets to the point where it was truly competitive with what was
+out there. So, our first four years were rough and lean. After that, we sort of got
+discovered organically, I pretty organically by what I'll call the no code, low code
+movement or people building with web flow and those sorts
+
+[00:12:35]
+of things. And what we realized pretty quickly there was the value of what we had built
+was probably more valuable to this less technical buyer who didn't know how to integrate
+all this stuff. So all of a sudden that was really the first inflection point in the
+company and we started signing up all of these less technical customers and not just
+helping them build SAS but helping them build like protected content, membership type
+websites, courses, those sorts of things. anything where you need to charge for access
+to some sort of digital content essentially. >> Yeah, that's actually going to be one of
+my questions. It seems like a really natural fit for people that are running like any
+sort of a membership driven system just subscription-based. Yeah, >> 100%. So to the
+extent if you look at our website today like the headline is membership software and we
+can talk about that. That is sort of an imperfect description of what we do but it's the
+category that we fall into I guess most neatly. But today we have a customer base that
+honestly is like almost right down the middle split between developers building SAS
+products and less technical people building membership sites. And we
+
+[00:13:39]
+have thought long and hard for years about whether we need to move in one direction or
+the other. And everyone says look at your data. Who's the clearly better customer? We
+don't have a clearly better customer. And now the market is evolving again. We've been
+doing this long enough. We sort of lived through these evolutions, but now we're seeing
+both our non-technical and technical customers increasingly use AI tools. We have sort
+of this infrastructure layer for all these different types of digital businesses. How do
+we fit into the AI landscape and enable people building with cloud or cursor to use
+outside? So that's kind of the topic of the day internally for us now. >> Yeah, it makes
+sense. the first last few months is kind of the first time that I've thought that some
+AI code generation tool was actually ready for prime time and I didn't have an
+opportunity to demo some of the more expensive ones and around for longer but yeah now
+it's it's definitely in the mainstream and I think that that's a good question to be
+answering I think that we're going to see software development software engineering
+change dramatically this year as we did a predictions episode earlier in the year in
+January and that was one of the things is just like this is going to be the first year
+where the majority of code out there in the landscape is written by an LLM and not by a
+person.
+
+[00:14:42]
+>> I think that's right. We've always had sort of an interesting position on this topic
+because we have this mixture of customers that's technical and nontechnical. And even
+amongst the technical customers, a awful lot of the people that were skeptics are
+starting to transition towards using these tools in a bigger way, at least from what
+we're seeing. >> Is anything factoring into your decision-m on these two like slightly
+different or or maybe widely different buckets to like forking the product? >> Yes. So,
+one of the things we're generally concerned about and always have been is we kind of
+create this confusion and you can see some ways on our website where we've tried to deal
+with this. But if we're using membership software language and no code language that is
+pretty different from what a developer would look for if they wanted to use outetta and
+build a SAS product and we're kind of talking out of both sides of our mouths and we
+know that there is some cost to that and aside from that there are pretty dramatic
+differences. Most of our low code customers are using clientside content protection.
+It's super easy to set up. There's no
+
+[00:15:44]
+back-end database. We're just gating content with JavaScript. And that's certainly
+something people that are building a membership site that needs to be more secure or
+people building SAS do not want. So, how do we differentiate and lead people down the
+right path both from a marketing perspective, but also from a documentation perspective?
+And I'd say we we haven't totally figured that out yet. But as we're talking about not
+just how to bridge that gap with humans, but also with LLMs, the conversation is pretty
+quickly coming to we need sort of a fork in the road relatively early where you
+selfidentify who you are and then we can point you down the path best suited for you. >>
+All right. So this is where I think we move to the philosophy section of the call
+because you have you have some really interesting ideas and I'm curious to have a
+discussion about it. So you talk about like a people friendly approach and it be kind of
+marrying profitability in a way that's not exactly like monetary versus I mean you have
+thoughts on this. Give me something I'm very curious. >> Yeah. So the phrase that I'll
+latch on to is not mine. It's a a guy named Ad Pangar who's a South African SAS founder
+
+[00:16:47]
+but he uses the word life profitability and he sort of put language to something I'd
+been thinking about for a long time. But the idea is when it comes to the financial
+performance of our companies, you can pull any founder off the street and they know how
+many free trials they're getting, how much MR they're doing, you know, how much revenue
+they made last year down to like the dollar. But that's only one method of sort of
+accounting for your company's performance. And another one that I think is very worthy
+and certainly the reason I became an entrepreneur is is your company and your work
+actually benefiting your life and enriching your life in some way. And I think most
+people that's part of the reason why they start companies or get into entrepreneurship.
+Sure, there's the financial piece as well, but they're looking for some degree of
+freedom. And that was certainly true of me and there isn't a way to quantify that but I
+certainly view a huge part of my reason for starting out and much of my goals at outside
+are around enabling a work environment where for myself and for the
+
+[00:17:49]
+other people on our team they have sort of maximum life profitability and we enable them
+to do the things with their life that they want to outside of work. So that's the
+concept in short. >> What means do you use for that enablement? So I think there's a lot
+of things. Certainly cash is part of it, right? Money is sort of the lifeblood of daily
+life and you need enough of it to feel like you're able to breathe and pursue the things
+that you want to do. So compensation and building a successful business is part of it. A
+lot of it is just flexibility and a lot of it is enabling a work environment where
+people work very autonomously. Part of the reason we run the company the way we do,
+which I'm sure we'll get into in a minute, is we kind of looked around and said nobody
+wants to be bossed around. Nobody wants to be told what to do. Particularly if you're a
+little bit later in your career and you're a competent person. It's very attractive, I
+think, to most people to want to work autonomously and have minimal engagements and
+things like that. So yeah, if you show up and work at outside, it's a super flexible
+work environment, which I'll hit on in a
+
+[00:18:51]
+minute. But we could care less when you work, where you work, how you work. As long as
+you're doing good work, we're happy. And that's what our model's all about. >> I say
+that all the time in job interviews when I'm interviewing candidates because we're our
+philosophy is the exact same way. We don't go, you have some different ideas that we
+don't do, which I'm curious to dig into. But yeah, that's the same way. It's like you're
+a programmer, you're a professional, I need to be able to meet with you, but other than
+that, like where you work, when you work, it's it's very much up to you as long as like
+you can be available to be part of a team when you need to be part of a team. I think
+it's a good way to treat professionals. I like that you're doing that. Before we get
+into compensation, can you speak a little bit to having a non- hierarchal company and
+how you kind of have like a more democratized like business administration philosophy?
+>> Yeah. So there's a book called reinventing organizations by a guy named Frederick
+Lulu just to give you something concrete to latch on to that introduces this concept
+called self-management. And it basically makes a case for you can run a business without
+traditional top- down hierarchy. If you build the business in a way where you have
+processes to deal with the things that traditional top- down management typically does.
+He makes a pretty extensive case and gives lots of
+
+[00:19:54]
+examples of companies that are doing this at scale. So, I think there are are a lot more
+examples of companies doing this at scale than people think. I'm pretty forthcoming and
+I think this only really works in smaller teams, but we sort of want to operate our
+company as a smaller team. So, it it works great for us. But basically, the idea is we
+are hiring the best people we possibly can and we sort of just set them free to
+contribute in the areas where they're most able to contribute to the company. So in
+short, a lot of what I think has to happen for this to work is just transparent sharing
+of information. Everybody needs to know everything about our business. Like what we're
+trying to accomplish, what our financials look like. We all have to be very aligned on
+sort of what the path to get there looks like. But if everybody has all the information
+and we'll get into the structure in a minute, but everybody is very aligned by our
+incentive structure, then everybody is naturally going to sort of row in the same
+direction more easily than you might expect. So that's the the concept in short. I love
+that it hits on two things that are very key for
+
+[00:20:57]
+me, which is, you know, surround yourself with very smart people and do your best to not
+get in their way. And then two, I've been here at the company that we're working at now
+for almost 20 years now. And the gentleman who hired me is is still one of the owners of
+the company. And when I came in, it was a much smaller team, about the quarter the size
+of what it is now. And I asked him that question of, you know, where do you see me
+folding into this organization? What is your structure look like? And he got out a piece
+of paper and just drew a circle and put the word workers in the middle. >> It's like I
+can work here. This is great. >> Cool. That's awesome. It's a good story. >> So with
+this very flat non- hierarchical organization, you have a compensation structure and an
+incentive structure that's nontraditional or very different than how we normally think
+about that. Could you speak a little bit about what Outset is doing for that and why? >>
+Yeah, so we call it our choose your own adventure compensation model. I'll give you sort
+of the three pillars of it, but before I get there, this wasn't like let's sit down and
+come up with a funky compensation model. We started from a place of we want to build an
+ambitious software product with a team that's as small as possible and retain people on
+
+[00:22:00]
+the team in perpetuity essentially. Like that was the thing that we latched on to. We
+said we do not want to be a big company. We want to see how far we can go with a small
+team of really committed people. How do we make that happen? So then we we moved into
+okay what does compensation have to look like? And there's sort of three parts of our
+model. The first is everyone is paid the same. So a full-time salary set of today is
+$210,000 a year. There's no magic to that number. That is just a number that we said is
+a pretty healthy salary commensurate with hiring good senior people. That's literally
+all there is to it. The second bit was we looked around and we said there's so many
+talented people out there that have their own startup projects or other things that
+they're working on part-time. We would much rather have somebody awesome 2 days a week
+than somebody, you know, lesser 5 days a week. So, we wanted to create an environment
+where people can work as much or as little on Outleta as they wanted. And we said, okay,
+we're going to allow anyone to work anywhere from 1 to 5 days per week. So, if you work
+one day per week, you make $42,000 per year.
+
+[00:23:03]
+If you work two days a week, you make $84,000 a year all the way up to the $210,000
+salary. Then the third piece was really the most important piece and this was how do we
+get people on this team for the long haul and also just looking out at the landscape of
+how things typically go when tech companies have exits. Everybody knows it's like the
+founders and the investors that make out like bandits. And a lot of times even when
+there's a successful exit, employees don't do so well. So we said we want to spread the
+wealth around should this thing go well. What does that look like? And we basically said
+we're going to give everybody the exact same opportunity to earn equity in the company
+as the founders and everybody else. And we're not going to raise money from investors.
+So our investors will be talented people who have decided to devote some of their time
+to working on Outetta in exchange for equity. So what does that actually mean? Let's say
+all time amongst all of our employees a 100 days people have elected to work for equity.
+So anyone on our team can say I want to work one day a week for equity. I want to work
+two days a week for
+
+[00:24:05]
+equity whatever it might be. If a 100 days have been worked all time for equity and I
+have worked 20 of those I own 20% of the business and we have done this since we
+started. So we literally have a spreadsheet that's just like how many days all time has
+each employee devoted to working for equity and everybody's equity stake is exactly
+representative of sort of how much sacrifice they have made for equity in the business.
+So the result is today we're a company of seven. My co-founder Dave owns I think 28% of
+the business at this point and our shortest tenure employee owns like 2 and a half% of
+the company but everyone else is somewhere in the middle. So like where did this idea
+come from? Did this your brainchild just from having a brainstorming session or did this
+what was the origin material of this? It's a really cool idea. >> Yeah, it was literally
+just what's a salary that we think is healthy. We sort of knew that we wanted to hire
+all people of I don't want to say similar caliber but more senior level employees. And
+we sort of knew that by standardizing the salary people would
+
+[00:25:07]
+select in or select out. I mean, if your goal is to go work at Meta and make $600,000
+per year, you're not going to want to work at Outside anyways. So, we felt like it would
+attract the right caliber of person who was interested in the type of flexibility and
+working style that we wanted. And then from an alignment perspective, really, the equity
+is the key thing. I mean, when everybody has the amount of skin in the game that they
+have at Outa, it's like if you're not showing up every day and busting your butt and
+working hard, you're only shooting yourself in the foot. And you know, a lot of other
+startups issue stock options, but to the vast majority of employees, those stock options
+are immaterial or not that exciting. To everybody on our team, the stock options are are
+a big deal. I say all the time, if you want people to act like owners, there's no better
+way to make that happen than to give people ownership. So that's the idea in short. >> I
+love that. That's a great quote. What are your future plans for Outsetta in terms of
+like what is and I realize it's not your thing exclusively but do you guys have like a
+5y year 10 year plan for like looking at an acquisition or you just doing what you're
+doing like
+
+[00:26:09]
+>> Yeah. So we said at the outset that we were going to build this thing for 15 years
+and we chose the idea as well because we were like this is a big meaty enough idea that
+it's going to hold our attention for 15 years. And when I say that I feel exhausted and
+boy did we get what we wished for. But the point is I think realistically like we are
+looking at this through the lens of we're going to work on it for six more years and
+there's nothing magic about 15 of course but we're going to look up and sort of see
+where we're at at that point. But we're also at an interesting I don't want to say a
+point of transition in the company stay but the company is successful it's profitable.
+It's stable. It grew 55% last year. So so things are are good but we kind of feel like
+we know the path that we're on. It is sort of slow and steady growth and and that is
+fine. We are not necessarily like empire builders internally I would say but we also
+feel particularly like with the emergence of AI and with the amount of infrastructure
+that we sort of can give you in a single
+
+[00:27:12]
+package there is an opportunity for us to go bigger go faster and maybe have some more
+sort of exponential upside. I think there's a lot of different routes we could go, but
+we know that we need to make a more bold and focused decision around our product
+strategy going forward. And that's a major topic of conversation internally right now.
+Like what is our appetite for risk? What does that look like? What's the bet that we
+wanted to make if we wanted to make a much riskier bet sort of based on what we've
+already got. So that's the soup dour at outside today. >> Nice. Yeah, I read something
+that you wrote, I think it was middle of last year or something that, you know, what
+keeps you up at night is the possibility of thinking too small and missing an
+opportunity. And I think that's a tremendous statement and that seems to be what's
+motivating and and moving you all in the right direction. It is. It is. And I don't want
+to discount it. It took us a long time to get this business to the point where it was
+profitable and doing well and all that kind of stuff. So, it almost feels easy to be
+somewhat
+
+[00:28:14]
+complacent, but we're also looking at it through the lens of we've got something that we
+think is an asset. we've already put nine years of effort into this. Like, let's squeeze
+the juice out of the orange and and figure out how to do so. So, fun conversations
+internally on what that looks like. Sorry, I also wanted to mention because I think that
+I read you you also have a 50% profit share program in addition to your compensation and
+equity option. So, you take 50% of your of your profits and that gets distributed out
+among the people on the team. >> That's correct. To be fair, we have not done that yet.
+We have chosen every year to reinvest the profits back into the growth of the business.
+This year we talked about at the end of the year. This year is going to be the first
+year that we distribute profits. So we're excited about that, too. >> Very cool. I think
+that's awesome. I think it's cool there. There's a council of folks who get to vote on
+that, too. You have your group of people who decide. >> Yeah. People are always shocked
+by this. We have some like decision-m processes internally because there isn't a a CEO
+or a hierarchy to handle some of these things. But when it comes to the biggest
+decisions a company could face, like are we going to sell or whatnot, we
+
+[00:29:18]
+literally vote. It's a democracy. We need a twothirds majority to make a decision, but
+we have a voting structure in place to make those decisions. >> It's fascinating. It's
+not something I've ever heard of before. So, I'm really glad you came on to tell us
+about it. You've given me a lot to think about and a couple books to read. So, I always
+appreciate that. I want to kind of pivot back a little bit out of philosophy and into
+some more practical stuff. We have a lot of listeners who are working on SAS's software
+enabled companies. You've done a lot of consulting with SAS and product founders. What
+are some of the trends of things you see people making mistakes on? What are some like
+big lifts that you you see across all the people you've worked with? Recommendations,
+advice you'd give. >> The answer that I always give, but it's the the truthful answer.
+It is a sort of framework for advising SAS startups that comes from Mark Robers, who was
+the initial CRO of HubSpot. He says you need to focus on customer success first, unit
+economics second, and then growth third. And the basic idea is before you do anything,
+you have to figure out how to make people successful with your product. And until you do
+that, nothing else matters. It doesn't have to be
+
+[00:30:22]
+profitable. You just need to figure out how to help people achieve whatever it is
+they're trying to achieve. Only after you've gotten really good at that do you say,
+"Okay, we need to do this profitably now. We need to make our customer acquisition costs
+reasonable. we need to turn this into a machine that actually makes money and you put a
+dollar in and you get $2 out. And only once you've done that should you actually focus
+on growth. And that sounds so obvious and so simple, but nobody takes that to heart to
+the extent that they should. I think particularly in early stage startups. So he really
+advocates for like being very slow and really rigorous about identifying when you've
+figured out customer success, when you've got the unit economics where they need to be
+and and then focusing on growth. What you see in most companies, you launch an MVP and
+then you just immediately hit the marketing button and and try to grow and you haven't
+figured out how to make customers successful yet and your cat gets out of whack and
+customers churn and basically all problems in SAS, not all problems in SAS
+
+[00:31:26]
+but a huge percentage of problems in SAS can tie back to those things not being done in
+order and I think that is so so true. So that is something I have always tried to preach
+from a consulting perspective. It is amazing. You know, my background is in marketing,
+so I've been in plenty of organizations where I have preached that. And you can get CEOs
+nodding and saying that makes sense, but at the end of the day, they don't follow that
+advice. They just want to go do marketing and spend money and think that they're going
+to sort of market their way out of fundamental issues in their business model or
+whatever it might be. So, that's the big one. The other one that comes to mind
+immediately is I'm a huge advocate for the market you choose dictates your success to a
+a large extent. That doesn't mean execution isn't important. That doesn't mean, you
+know, all the other things that go into building a SAS aren't important. But if you're
+in a good market, everything feels easy. If you're in a bad market, everything feels
+hard. And more people should think long and hard about that early on. We've had a few
+guests on and and it's not a universal truth, but I'm
+
+[00:32:30]
+just going to say the vast majority of the time it's, you know, situations more similar
+to yours where it's, you know, you've you've lived in a problem, you understand what the
+solution should be, and you work to solve that problem, find success much more quickly
+or or at all versus not even as you say kind of like testing the market as it were. It's
+like I had an idea and then we just, you know, tried to go to town on that. We're not
+seeing success. Well, why is that? It's almost invariably we didn't solve the right
+problem or we were the only ones with the problem. Y >> and so they see less success on
+that road and it's just interesting to hear you know they call it a failing but you know
+I'm a firm believer in it's not so much a failure as it is a learning opportunity but
+they learn from that and then the very next thing that they talk about is so we took
+what we learned and we did this and now it's so much better and it's just always such an
+interesting interesting curve for me. >> I would tell you point blank it's the oldest
+lesson in the book and I had heard it a million times before we started out and whatnot
+but I will never start another company that sells to startups. It's something we're it's
+something we're doing today. It's just a fundamental truth. It's like if you sell to the
+smallest of small businesses,
+
+[00:33:32]
+they're going to turn at a high rate. We've figured out how to keep our customer
+acquisition costs extraordinarily low and operate the business in a lot of ways that are
+very very lean to make the economics work. But we have a a huge tailwind blowing in our
+face all the time compared to say like a podcast hosting company where you know people
+continue to pay for podcast hosting years after they've ever recorded a podcast episode.
+So a lesson learned the hard way. Yeah, we had a great guest on early in the show named
+Joe Kowalsski and his customers were people who ran like carpet cleaning, rug cleaning
+businesses. And so he had this churn number which is higher than he wanted. He started
+doing some investigating into it and he's like, "Oh, well 3% of this is people who just
+aren't doing that business anymore. They were last year and they're not this year. So
+this is my this is my organic baseline churn and there's nothing I can do to save these
+customers because they're not in business anymore." And I imagine you have a similar
+thing as well. Working with a lot of startups. >> 100%. >> That makes sense. Working
+with startups is really rewarding but also really hard. For sure. >> I love the the
+three-step process as well. If you don't have customer success, you have an idea, not a
+business. And you need unit economics to
+
+[00:34:35]
+make sense before you can scale because if you lose money on every deal, you can't make
+it up in volume. So, that makes sense. Awesome. Well, is there anything that we should
+have asked you about that we didn't? Is there anything we really missed here that would
+be a shame not to get into? >> I don't think so. We we kind of hit the greatest hits in
+terms of the technical, non-technical stuff, and then life, profitability, and our our
+org design. Those are the things I like to talk about. So thanks for coming prepared and
+asking good questions. >> No, absolutely. Thanks for sharing. This has been a really
+interesting chat and especially with like or structure, confructure, you give me a lot
+to think about because I I talk with a lot of small companies and I've been known to
+start one or two of my own and I'm very curious about some of these ideas. >> Yeah, one
+final thought there. I have no attachment to our particular compensation model or
+running a flat organization or or anything like that. Those are specific elements of the
+way that we chose to operate this business and I am definitely an advocate for I I think
+our structure is one of our strengths and sort of a strategic advantage. But I just want
+to see more people think about this stuff and be willing to innovate on how they build
+
+[00:35:38]
+companies. Like the tech industry is obsessed with tech innovation, but there's so
+little innovation around how companies are built and managed and structured and all that
+stuff. And the truth is, I hear so much trepidation on these topics about like legal
+structures and lawyers aren't going to be familiar with this stuff. It doesn't matter.
+You you can do whatever you want for the most part if you're willing to put on your
+creative thinking cap. And I think there's a lot of benefit to doing so. So that's what
+I would like to encourage. >> Yeah. Love that. That's a great last thought. >> Yeah.
+People get hung up with like, no, it's the job of the lawyer to protect us and to take
+our will and put it into paperwork and make it defensible. It's our job to define what's
+going on. Anytime you go through a negotiation with someone who thinks their lawyer is
+part of the negotiations, it's like, no, that's not how this works. We reach an
+agreement, then the lawyer makes it in writing and makes makes it enforceable. Like, I
+don't want to talk to your lawyer about the terms of the deal. He's not involved between
+you and me, and it's always irritating. Anyway, awesome. Well, where can people connect
+with you? Where would you like to send people who find you interesting and want to see
+more of your stuff? >> Yeah, I'd love for people just to go to outset.com. It's the word
+outset with an a slapped on the end just to make it
+
+[00:36:41]
+sound startupy. and I'm on Twitter, Blue Sky, LinkedIn, most social channels. I am a
+Goff. It's Geo FF Jeffs, but I'll chat with anyone there. >> Awesome. Thanks so much for
+being on. It was a great conversation, Erin. Always good to see you. Thanks everyone for
+hanging out and we'll see you next time. Thanks so much for having me, guys. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

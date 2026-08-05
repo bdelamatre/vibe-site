@@ -1,0 +1,699 @@
+How Strong Culture Built a Stronger SaaS
+========================================
+
+Video ID:  C4B4ogs7EvE
+URL:       https://www.youtube.com/watch?v=C4B4ogs7EvE
+Published: 2025-04-23
+Duration:  00:45:02
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Here I am sitting in a building that I own at a company that I started surrounded by
+people that I employ and I'm afraid to ask a question and the response I'd get back was,
+"Dude, you're the CEO of the company. How do you not know that?" Or, "That's a dumb
+question." Now, today I would never show up that way. Today, I'd show up and go, I would
+have a ton of questions. And if you look at me and go, that's a stupid question. That's
+not my issue. Welcome to SAS that app building B2B web applications. The podcast where
+we share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host Aaron Marchbanks and
+I'm Justin Edwards. Each week, we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. All right, welcome everybody. Across the camera from me is my co-host Justin
+Edwards, CIO of Delta Systems among many other things. Good morning, Justin. Hey, good
+morning. Also joining us today is
+
+[00:01:03]
+our guest TK Herman who among his many credits is an entrepreneur having been president
+and co-founder of Aptterra and as that evolved co-founder of factor AE which is an
+architecture and engineering firm management platform I believe uh being used now uh by
+over like 150 companies across the US about 300 a little over 300 300 now fantastic
+growing like crazy TK is also an accomplished pilot um mentor tour and coach and I
+believe may know more than a little bit about uh pickle ball and trampolines. So, we may
+have to get into that. So, TK, thanks for sharing some time with us. Welcome to the pod.
+Yeah, thanks so much for having me. I really really appreciate the invite. Uh for sure
+excited to see um uh where the conversation goes. Absolutely. So, let's just kind of
+jump right in with uh I know it's been a while, but how did you get your start in
+technology? So, back in uh in the fifth grade, which dates me, this was in the 80s,
+early 80s, um I uh I would sit around when the Apple 2e first came out, I would program,
+you know, I'd stay in for recess, myself and
+
+[00:02:06]
+a couple other kids, and we would play around the Apple 2e. So, I've always been kind of
+attracted to technology and gadgets and so forth. But, um you know, I got fired my first
+two jobs, which which you know, Steve Jobs has that famous commencement speech that you
+can never uh connect the dots looking forward. You can only connect them looking
+backwards. And as I look back, everything that happened in my career happened for a
+reason. Um, but I quit my last job that I got a paycheck from. I quit I was I think 26
+years old. I'm 53 today. And I knew that when I quit my job that that there was no going
+back. I didn't know what I was going to do longterm wise. You know, I knew I was
+quitting my job to basically start working for myself. But if that didn't work out, I
+didn't know what I was going to do because there's no way. I knew that once I crossed
+that threshold of being an employee to to being an entrepreneur um that there was no
+going back and um you know I'm very fortunate very blessed to say that it's I've had
+some success in my life. I've had some failures also along the way too and you know
+those are certainly big opportunities to to learn lessons along the way but um my my as
+they mentioned
+
+[00:03:08]
+the company you mentioned was appra that was my main business uh we had um we started
+that company in 2003 myself and uh and my business partner um I was the CEO for the
+duration of the business and uh we grew from just the two of us to about 120 people
+maybe a little over when we sold the business in the summer of 2021 and then along the
+way mentioning the trampolines. I've always had side gigs. You know, at one point I had
+a photography business um back in the early days of our software company. And then I I
+should go back too and also add um that factor which is the the SAS product you
+mentioned uh that was a product of of our sales. So we had been working on and
+developing this product uh for for a few years. And when the sale opportunity of our
+consulting business came up, part of the negotiation was because we were just getting
+ready to market the product and then and the company that bought us didn't care at all
+about the SAS product. Um, so part of our negotiation was we got to keep the product and
+then pick five employees to go with us. So we rolled that into a separate company in
+
+[00:04:11]
+uh the summer of 2020 2021. So, we started that up like July, early August officially in
+a new office and um we've got I think we've got uh maybe 12 people today and looking to
+add a few more. But, uh lots of great growth, lots of uh lots of opportunity in the
+industry that we're in for sure. And and it's it's fun um uh I guess sort of being back
+on the game if that makes sense really from an entrepreneurial perspective. Yeah, for
+sure. I mean, and that that plays right into, you know, what I was going to ask you
+next, which is about being an entrepreneur, and you've had that mindset for a long time,
+it seems, you know, being able to just kind of step away, not sure where you're going to
+go exactly, but having some idea of a goal in mind. Um, that's that's very cool. So, I
+I'm I'm curious about uh you said that the the the purchasing company or the acquiring
+company wasn't interested in the application. Yeah. So, what they were really interested
+in was the consulting business that we had. So Appar's primary focus was developing web
+apps, mobile apps and web design or web development for enterprise enterprise level
+solutions and companies. So we
+
+[00:05:15]
+were doing you know big projects for big companies you know really on a global scale and
+uh and that's what they were primarily focused on was was that business. uh we were part
+of a private equity rollup strategy and so um there's a whole conversation we can go
+down we don't have enough time to get into that but I've learned I've learned more
+honestly more in the last three four years since we sold the business than I did in the
+previous 20 of entrepreneurship uh for a variety of reasons I've just I've learned a ton
+and I and I've I've also I've always been the kind of person that that I want to be the
+low man on the totem pole right so if I I realized a long long time ago if I find myself
+in a room where I'm the one that's being asked the most questions, right? Then it's that
+that's a that's a good ego stroke, but that's not how you grow. And so, uh, if I find
+myself in that spot, it's time to find a new room. And so, when after we sold our
+business, um, I got involved in, um, in like a peer-based business group that has really
+really challenged me in in a super positive way. Surrounded myself with some extremely
+successful people.
+
+[00:06:18]
+And I think there's two big takeaways that I've taken away from being in this group. and
+these these people are extremely successful is that number one it really opened my eyes
+up to how small I thought um and then as a result of that how small I played in our
+business. You say this group in particular kind of opened your eyes to to thinking small
+or how small that you thought. Give me give me an example of like what you would
+consider a small thought that just wasn't going to fly with this group. Oh, just just
+for for example, I would say combine the the experience going through the exit with the
+private equity firm and then also com so combine that with just uh some knowledge I've
+gained from being in this group. The idea of us our company having been the platform
+company for the rollup strategy and then me going out and finding investors to help fund
+that strategy. That wasn't even something I even considered or even thought of. And in
+in in hindsight, if I could go back, um I would have done exactly that. We we I I think
+that we could have executed on in that with that
+
+[00:07:23]
+playbook probably in actually a much more successful way. And I say that because the
+company that acquired us, uh we had 120 people when we sold the business. Um and there's
+maybe five people left. And uh that's that's it's honestly sad for me to see because we
+we' spent a long time building up just an amazing culture. That was the one thing that
+um really stood out. In fact, when the PE firm came uh knocking and we were talking with
+them and they got into their due diligence, they were shocked at how low of turnover we
+had in our business and then did not offer financial incentives. So, we didn't have we
+did not have a financial bonus program, but we had extremely low turnover. And they they
+couldn't believe it. Like, how do you do that? And and I kept telling them, well, it's
+not about the money, right? It's about how we treat people. you know, I truly like if
+one of you worked for us, this is, you know, um how I always operated. I cared more
+about you as just a human being and you know doing whatever I can as the
+
+[00:08:26]
+employer and the entrepreneur to help you live a happy, lovefilled, joyful life, right?
+And my my belief was that if I focused on those areas or we as a company, you know, at
+the leadership level focused on those areas that karma would take care of the rest that
+you'll work your butt off uh for us how for however long you're you're with our company.
+You know, I'm a firm believer that uh that anybody that walks through the door or hops
+on a Zoom in a company that's an employee, you know, they want to feel wanted, needed,
+and appreciated. And the more that you can provide that for them, the better your
+culture is ultimately going to be. Absolutely fantastic. And uh we have a lot of we've
+always run our business with a lot of similar ideas and we always uh wanted to make
+sense for the employees, wanted to be a groovy place to work. We wanted people to feel
+appreciated and uh it's awesome to hear someone who who scaled something to to that size
+kind of having the same philosophy that that that idea of just treating people with
+respect and and trying to advance everybody who works for you is scalable and can lead
+to success is is super cool. Stepping back like way back to earlier in this
+conversation, you said you talked about being 26 and moving out of your last gig
+
+[00:09:30]
+you put in your notice or quit your your last uh actual job and then kind of moved into
+this new company. Like what what made like who gave you permission for that or what
+moved that into the adjacent possible for you where you you saw this path of
+entrepreneurship or this way to go down? I've always been the kind of person that I want
+to be in charge of my own destiny. Um and if it's if it's if I'm successful, great. if
+I'm if I fail, I'll take responsibility for it, you know. And then I would say also
+early on when uh when I started working for myself and then uh and then as we started
+hiring employees, you know, I'm not the smartest guy by any stretch. I'm a BNC student
+uh in high school and college and u I learned pretty no I have I have a fairly rich
+development background. I used to write code. I haven't written code in 20 years. Um but
+um that's not true. probably probably wrote code last maybe yeah probably 20 years
+probably 20 2005 but um but I was fairly technical I I did a bunch of work at Microsoft
+over the years I would speak at conferences and different things um but I was not a
+stellar
+
+[00:10:33]
+developer by any stretch um you know my my forte and my gift and my zone of genius
+really is is probably just more the people skills the the business building the
+visionary uh you know I guess skill if you will but um I so I learned early on that I
+better hire people that are smarter than me or I'm in big trouble, you know. And I was
+super fortunate to, you know, I've I've had business partners in every business that
+I've been in. Um, and there's a there's a really good book called by Gino Wickman called
+Rocket Fuel that I read many years ago. And in Rocket Fuel, they talk about how um in a
+business there is a visionary and there's an implementer. Uh, all right. Or I would call
+visionary and an operator. And I recognize today like I am not an operator. um you know
+now I can do those roles but it's it's like square peg round hole so I can do it it's
+just it just creates in my opinion unnecessary stress you know for me um and so I've
+always it started I never cognitively or consciously knew this when I started out but
+the business partner that I had
+
+[00:11:35]
+throughout the life of of a ter we actually worked together a few years before that in a
+in a in a previous company that I had um but he he was the operator you know and we're
+it's like ying and yang and uh and I look back at a ter go Okay, if you had two of me in
+the business, I I know it wouldn't work. And I like to think if we had two of him, it
+wouldn't work. Also, it was the combination of the two. And I will say that um that
+again, I had that in my in my trampoline business too. My business partner, she was an
+operator. Um even though we were equal partners, she was the operator dayto day. And and
+then in the pickle ball business, I did not have that. I had a business partner who was
+not an operator. And people are wired in different ways. I'm not an operator. I thought
+he was going to be. He wasn't. And as a as a result of that, I I was doing a lot of the
+operator roles, just a lot of behind the-scenes stuff you have to do when we have a
+business. And again, I knew how to do that. I've done it all before, but uh it was just
+not fun at all. And and again, it was just it caused extra stress that I just didn't
+want to have at that point in my life. No, that makes total sense. Yeah, it's
+interesting that you have that that
+
+[00:12:38]
+that yin and yang uh seems to follow along also in terms of businesses who do have great
+culture who people do want to go and and you know show up to work for and and the great
+ideas really do get pushed a lot further down the road like you said you know two idea
+people uh necessarily cancel each other out but so so along that that line you know on
+on a terra um I I think I had read somewhere that that there was kind of a light bulb
+moment uh you know where you're getting into you know the the development of the
+software, it was it was an internal use sort of a tool, you know, necessity being the
+mother of invention, what have you. But you or someone had said, you know, wow, we could
+use something like that. Yeah. Okay. So, so the story behind factor, so that's the
+company we have today. Um it's it's a factor app Inc. is the u name of the company. Uh
+but um anyways if you um if you go way back so we actually started developing the
+software or the the basis of what the software is in in in concept form in 2003 but when
+we started our consulting business almost out of the gate again
+
+[00:13:40]
+this is 2003 there there was no cloud you know web-based apps really weren't in
+existence at that point where this is just past the dot bubble so when we started a
+terra uh just with the two of us we hired our first person about three months in. Second
+was about six months in. But we started writing a package, if you will, for us to keep
+track of our time because as we're working on projects, we need to keep track of our
+time and our projects. And so we started writing this uh this this product and we ended
+up calling it scorecard back then. And uh and then my my college roommate is an
+architect. He's actually a landscape architect and owns a firm in Columbus, Ohio. And I
+just had a random conversation with him uh you know, maybe six months after we started
+Appar. I was telling him again just a total random conversation that we were that we
+were writing this software to keep track of our time and he's like man I could use
+something like that and so we started talking about his business and realized pretty
+quickly that um that how you run and operate a custom software development company and
+manage the projects and how you manage projects in
+
+[00:14:42]
+an architecture engineering or landscape architecture firm it's all the same thing
+different deliverables at the end there are some different nuanced you know terminology
+technology and that kind of stuff, but for the most part, it's all is all the same. So,
+we decided we were going to actually market this and bring some clients on board. And
+again, this is a web-based app. We rented server space from Rackspace again because
+there was no AWS, there was no Azure, uh there there was no cloud services like that.
+And so, uh we signed on our first client in January of 2004, who was actually still a
+client today. Um but uh this is another good example of me just not having the vision or
+the foresight to see what we had because as we started we started growing that we
+started growing our client base and I was literally I was the sales guy and I was
+traveling around uh convincing people I was having to convince people it was okay not to
+have your data stored on a server in your office, right? And and I I came up with all
+these analogies um to to help them become comfortable with that concept. And so as we
+started growing the the the scorecard and the
+
+[00:15:46]
+client base of the scorecard, our consulting business also started growing at the same
+time. And so we found ourselves circa 2007 or eight going, okay, you know, we really
+have our feet, you know, on two sides of a net, right? We've got one foot on one side,
+one foot on the other side. You know, it's custom development and then it's it's a
+product. We need to we need to decide. We need to pick a path because at this point
+we're becoming jack of all trades, master of none. And uh and so at that point in time,
+we decided to pick the consulting business because that's that was my background. That
+was my business partner's background. That's what we knew the best, right? So then time
+went on. So from 2008 to 2010, we literally did zero development on the product.
+Nothing. I mean, it got to be it got to be sort of a sad joke uh right around the
+office, especially with my business partner and me because he ultimately became the only
+person that knew how to even support the product. It was it had gone that far, right? We
+had we did no updates in 10 years. Um we really we really let our service and our
+support go. So if somebody has sent a question
+
+[00:16:51]
+in, you might get a reply in a month maybe. It was bad, right? But we we were we were so
+focused on developing and building out our consulting business, we just sort of left
+that there to the side. But we also we had conversations along the way like, you know,
+we probably should just get rid of this. It wasn't it was we we were making money off
+it. Not a lot. But but the problem was we like we felt bad because uh we had a number of
+I mean these companies ran their business on this like if we go away what are they going
+to do? And so finally around 2008 I'm sorry 2018. We were still using uh the scorecard
+we called it to manage our software company and our software company had grown
+significantly. Now at this point we're probably over a hundred people. We're doing you
+know multi-million dollar projects. we're just it's a whole different ballgame. And so
+the the scorecard was not really doing us uh a good service. And so we said, you know,
+we really need to either just get rid of the scorecard personally for our company and
+then go find some off-the-shelf products or we could start from scratch because we we
+knew we we
+
+[00:17:54]
+always kept our eye on the architecture and engineering world and there's still a
+tremendous amount of opportunity even 10 years later in that space. And so we said, you
+know what, we could really go back into it. But now let's start what if we started from
+scratch like total green field let's start from scratch and rewrite the software from
+the ground up and and using the skill set that we have today. So now at this point in
+time I mean we had business analysts we had project managers we had QA people we had
+UIUX designers you know we had we had just I mean some hardcore like really really top-
+notch you know developers working for us. So let's let's let's do it that way. So, we
+decided to uh my business, my business partner and I said, "Okay, let's invest some
+money in this." So, we spent about $3 million of our money putting into the product,
+developing it over probably a a year and a half or two year period. And uh we we
+probably didn't actually start until around 2019 or so. And then uh we were just getting
+to the point where we were going to start marketing it in early 2021. And that's when
+the sale opportunity in the consulting business
+
+[00:18:56]
+came up. And at that point in time, you know, from a personal perspective, the
+scorecard, I'm sorry, we we we renamed it factor, but factor was actually a little more
+was more interesting than than our consulting business to me just because our consulting
+business had grown to the size where we had a leadership team. We had four guys that
+were really really making the majority of the decisions, you know, just being confirmed
+or affirmed uh with my business partner and me and um and the idea of of having like
+more of an entrepreneurial project, you know, was was very appealing to me. So again,
+that's part of our deal when we like I said, when we negotiated the sale of the
+consulting business, we got to keep the product and pick five people to go with us.
+Yeah. I mean speaking from my own experience as well and Justin can probably back me up
+on this too but it does seem to be a common fork in the road for for organizations who
+are in the development space. I mean you either are building andor supporting you know a
+product or a suite of products or you are as you say kind of a jack of all trades.
+You're looking to help people solve problems you know find solutions uh integrate this
+with that or the other
+
+[00:19:58]
+thing you know and and that either one of those are great business models but you know
+trying to match them together does become pretty challenging. So I'm I'm just kind of
+curious, you know, as you're as you're building this up, you know, from Scorecard, yes,
+time tracking, but what elements of that, you know, for these companies who took it up
+became like the differentiation? Why did they latch on to this bit of software? Was it
+at the time? Because there wasn't anything else that did that or other things that
+didn't do it back in the scorecard days or or factor currently? Back in the scorecard
+days and then building to factor. Yeah, I mean back then most of the people we talked to
+did not have a formal package to track anything in their business. I mean, again, this
+was, you know, I'm old enough to remember when computers came into the workplace. You
+know, laptops had black and white screens. We were past that point, but uh most
+businesses, as I recall, we're running things on Excel spreadsheets, which is amazing
+because a lot of people still do that today. It's wild, isn't it? Yeah. Yeah. But, uh,
+so there were there was really nothing out there and certainly I shouldn't say that.
+there were solutions out there, but they were big big
+
+[00:21:00]
+monolithic products, right? So like there like like in our space specifically, there's
+an 800 pound gorilla that that's got a a huge system, has a ton of customers in it, but
+also it's it's software is a little older. Uh it's very complicated to use and our focus
+has always been on like small to midsize firms, you know, and so the expense alone was
+not was not going to be something that a small to mid-size firm would use. Um so tons of
+green field existed then. uh it still exists today in a very very significant way. But
+it's interesting again going back to being able to connect the dots and look backwards.
+As I look back on what we had built back then I mean I I had no I didn't have the vision
+or the foresight to see what we really had right. We we were at the front end of SAS
+products. U SAS wasn't even a word you know back then. And uh and I look back now I'm
+like, man, if if I had if I had had the vision or the foresight, I'd probably be doing
+this interview from a boat, you know, in the Caribbean or something. Um but uh but at
+the same time, I mean, you know, everything
+
+[00:22:03]
+happens the way it's supposed to happen and and lots of lessons learned along the way.
+For sure. That's outstanding. Uh just kind of as as a a question, um you talked about
+the sales opportunity coming along. Uh was that something where you were actively
+marketing and looking for a buyer or was it serendipity? I know you talked about it
+being kind of a PE rollup project. Um, so yeah, I guess can you speak a little bit to to
+how that came about and kind of what going through the process was like? Yeah, for sure.
+Yeah, so again, we'd had the business uh for 18 years. My business partner and I had
+never had a conversation up until about six months prior to the sale opportunity coming
+up. We'd never had a conversation about selling the business at all. And and so one day
+he and I were talking and I just said, you know, kind like what's your number? like
+what's what's the number you'd want to you know just because I was I started thinking
+I'm like you know I was 49 at the time I'm like you know we probably should start
+thinking about this you know at some point down the road obviously there needs to be an
+exit I mean I had everything everything that I I had net worthwise was tied up in this
+business and uh so we had just had that conversation and then we we were very friendly
+with a handful of
+
+[00:23:06]
+companies over the years and one of which it's it's primarily people that I met at
+conferences um and one of which uh was a business very similar to us and they sold their
+business uh probably around 2013 or 14. So I remember talking with that owner and CEO
+and I I'm still friends with him today. Talk to him probably, you know, a couple times a
+year, but I remember talking with him about his his exit and what he looked for and and
+then he put me in touch with the the M&A guy for the publicly traded company that that
+acquired them. And so I was having conversations with this particular M&A guy uh for
+probably three years. Every six months I would do a check-in call with him basically to
+check in and go how's the market like what's the market look for? What are you looking
+for in businesses? Just so that I understood what a buyer would be looking for and then
+we could at least tailor things up, you know, to make sure that a you know, are we on
+the right track? is this something that would be attractive to people or or also just
+just looking for insight and seeing well we're seeing XYZ in the market you know
+
+[00:24:09]
+should we consider pivoting you know to something um and so uh it just so happened that
+one of the other companies that we were very friendly with out of Wisconsin they were
+slightly slightly bigger than us um they had announced in February of 21 that they were
+acquired and we knew that they were looking uh to sell and the CEO they were they were
+an ESOP they employee owned and the CEO was you know I is maybe 60, early 60s and he was
+looking to kind of move on and uh but but we didn't realize that they they were that
+close. So they announced and they sold and like of course we called him like hey
+congratulations that's awesome super happy for you and then in March he calls us and
+said hey I know that you're not interested at this stage in the game or right now but um
+the company that acquired us is looking for one more uh company to bring into the fold.
+Would you be interested in a conversation? And my philosophy is always I'll talk to
+anybody about anything. And uh and so at that point in time, we had a a couple
+conversations and that got the ball sort of, you know, uh spinning in my mind at least
+like,
+
+[00:25:11]
+okay, what would this look like? And we knew early on that they weren't interested in
+factor. Um so like, okay, this is kind of interesting, you know. Then we had a number
+and we had a number in mind and we we we also knew like I knew exactly what the value of
+our business was and that wasn't enough you know for us but they came up pretty
+substantially in their offer and it was enough to the point where it's like okay then my
+business partner and I kind of talking to one another like okay again this was you know
+this was early 2021 coming out of co where we're still really really still in the mix of
+co um and uh and like you know what happens you know if the company if the country goes
+into a recession, you know, if the country goes into a recession, um, you know, hey,
+we're in this now for five to seven more years for sure, right? And at the time, I was I
+was going to be 50 that year. My partner is a couple years older than me, and I'm like,
+I don't want to do this when I'm 60, right? And so, uh, and so we saw it as a way to
+take some chips off the table, you know, and and me not worry about having everything
+that I had rolled up into into one business. um and then be able
+
+[00:26:14]
+to start kind of fresh with uh with Factor. And so we decided to take the take the
+opportunity uh to do that. And again, tons of lessons learned along the way there. Um uh
+the company actually we were the last piece of the puzzle. So I knew the private equity
+firm was looking to uh flip the whole thing probably in 12 to 24 months. Well, we closed
+the middle of June of 21 and the middle of December of 21. So, uh, less than six months
+later, six months later, uh, they flipped the whole thing, uh, to another business. And
+there's again a whole story behind that, which ended up being great because we had we
+had some equity in it. So, we we were able to get a little bit of a second bite to the
+apple of the apple. Uh, the prim most of our deal was was cash. Um, and it's so funny,
+too, because going into like say Octoberish, there were just some things that were
+happening in the business that I didn't agree with. And uh, and I I did never did this,
+but I wanted to call him up and say, "Just give me my stock back. Give me the give me
+the give me the money that you gave me in stock. I don't want the stock anymore. And
+then six weeks later, the stock appreciated
+
+[00:27:17]
+significantly. And then I'm thinking I should have taken the whole deal in stock. Those
+are the kind of thoughts that go through your head. But again, it's been very very
+interesting. Yeah, that's fantastic. I think not that many people have have gone through
+uh M&As, so it's always always interesting to hear the details of that. How or when do
+you make that determination that you know, okay, we're going to we're going to rebuild
+this from scratch. is going to become the core part of this company. We're going to get
+rid of the rest. This is where our focus is going to go. Now, talk to me a little bit
+about that kind of idea evolution and process evolution to to make that departure from
+consulting to to supporting the singular product and then exploding this product to be,
+you know, what I know your goal is, which is to be number one software in that category.
+Yeah. So, so it wasn't really like a super hard decision because the other business was
+acquired, right? So, the other business went away on uh the day we closed the business.
+They closed the sale of the business was literally the last time anybody ever asked me a
+question about the business. Um, even though I had a a contract to stay on board with
+them for for six months. And so, at that point, it was it was a pivot shift and said,
+"Okay, let's
+
+[00:28:19]
+move forward all in on this." I did say to my business partner, though, I'm like, "I
+don't want to be president and CEO anymore. I just want to be an investor." Um and so he
+he leads the business day-to-day now and has done an outstanding job of um just again
+building the team up, building the product. Our product was rock solid. We are over the
+top when it comes to customer support and and and delivering a good experience because I
+believe I believe being successful in business really isn't that hard. I mean obviously
+it's hard work. It's risk-taking. It's it's stressful. All that's true. But to me it's
+about to me being successful in business is about delivering a good experience to two
+different camps. one is your customers and one is your employees. And if you can focus
+on delivering just an outstanding experience to those two camps, you have a far far
+better than not chance of being successful. I mean, you're going to be successful um in
+doing so. And so for us, we just we obviously made that natural pivot because we sold
+the business. And it's been interesting too really over the last uh so basically we he
+and I put a million dollars in uh for the um uh right right right right right right
+right right right right right
+
+[00:29:20]
+right out of the gate and said okay let's put a million bucks in and we'll we'll fund
+this and we'll see how it goes and if it seems like it's going to get some traction and
+some legs underneath it then we'll go out and raise some money and so um uh we we we put
+the million dollars in uh things started going at that point in time again we had the
+other product called Scorecard that but we lost customers over the the 10 years we did
+So, we were down to probably seven companies that were still using it, which is which is
+amazing because they had all been ported over by this time to factor, right? But it's
+pretty amazing that we've had people, you know, working with us, you know, on basically
+the same type of software since 2003. Um and even today we have extremely low turnover
+in in our in our customers and very very low churn for us like lower than than what's
+average or even even good in the industry because we take such good care of our clients
+and our product is solid. Um so we put we put the million dollars in and then decided we
+were going to raise uh some money through friends and family. So, we raised um a little
+over like two and a half million, a little
+
+[00:30:21]
+little more than that, uh just through some friends and family uh round and and we've
+grown to where we're at at this point in time. Again, we about 300 a little over 300
+firms and uh you know, over 3,000 users using the product right now. And so, we're we're
+at this pivot point now where it's like, okay, well, we could keep growing the way we're
+growing now or we could go out and raise some real money. We understand our sales
+process. We understand the marketing side. we we know all these things. Um we understand
+how to take care of the customers. We understand you know the product development. We
+understand all of this and now it's time to really let's go out and this these are the
+conversations we're having now. Let's go out and really raise some real money and uh and
+really put you know throw some fuel in the fire. Uh so we're excited about this this
+next stage of the growth for us. And I I really think it's going to take us, you know,
+from again a little over 300 customers to, you know, our goals, you know, two or three
+thousand customers here in the next 3 years. So for folks who are working on that
+scaling piece and you're talking about pulling in pulling in some capital and deploying
+it, is that is that primarily towards sales and marketing efforts because you know your
+numbers
+
+[00:31:24]
+and you just have a you have a system with an ROI that you need to scale or is that a
+product or a mix or kind of what is your Yeah, it's a it's it's a mix of all the above.
+Yeah, because right now you know we we are very small in terms of headcount. Um, and so
+people are wearing a lot of different hats. Um, and we've been able to grow this far or
+this to this point with the team that we have, but uh, to get to the next level, we've
+got a whole plan in place, uh, for how we would spend even if we r, you know, anywhere
+from 5 to$15 million, whatever we end up deciding we're going to raise, we have we have
+a plan in place and how we're going to grow that and what that looks like over the next
+three to five years in terms of headcount. So, it's there there's there's a mix for
+sure, a big piece of sales and marketing and support. Uh, but then obviously there's a
+development component to it as well because we're constantly um not only maintaining
+things uh within the system, but also looking at what features we can add to improve you
+know our user experience. What is what is your tech stack if you don't mind asking?
+Primarily netbased. Okay, cool. Yeah. And we've always been in our in our consulting
+business, we were a do we were a Microsoft shop along
+
+[00:32:28]
+the way. So, and if you ask me much deeper than that, I'm going to say I don't know the
+answer because I've hired people a lot smarter than me. Well, we heard we heard last
+last line of code 2005. I'm not going to hold you to it. I know obviously there's React
+on the front end, but uh uh I couldn't give you the litany of of all the different
+things we use behind the scenes. Yeah. Yeah. So, but yeah, .NET probably MVC, so that
+that makes sense. Super modern, well supported tech stack. Yeah, absolutely. Uh, I was
+going to ask just in terms of on the development side, you know, since we're since we're
+now landing on it. Thank you, Justin. Um, do you I'm assuming that there is of course a
+roadmap that you're wanting to follow. Is that is that roadmap driven by what you
+yourself or the the company kind of internally are seeing as trends in the marketplace
+or or places you want to go or is that primarily driven by your user base? Uh, you know,
+we'll just call it the super low tech of hey, I'd like to see this feature. What's the
+likelihood of getting it sort of approach? Yeah, that that's a good question. I would
+say it's probably a mixture of both. You know, clearly our users, and again, I don't, in
+full transparency, I don't work in the business dayto-day. I sit sort of between a day-
+to-day uh employee
+
+[00:33:31]
+that's getting a paycheck from the company and a board member, right? So, my my business
+partner runs the business dayto-day. So, he's way more involved in these decisions and
+the decisions ultimately land on him. But, I do know that we're we're constantly uh
+looking at at two sides. one is what kind of feedback are we getting from our customers,
+you know, and what are they asking for? Um, we're also careful not to if somebody says,
+I I need this that we we hurry up and go over and tweak this over here because we did
+that before in the original version um of the product called Scorecard way back in the
+day. Again, we were so green and new to this that anybody said anybody any anytime
+somebody said I need this feature, we would go off and we would do it. And not realizing
+that that that creates a challenge, right, in the long run just from a maintenance
+perspective. And then also that idea of adding features when customers ask for them is a
+balance between is this a feature that's really necessary in in the business and is is
+it useful for other companies as well? Right? Okay, so if we're going to do it, is it
+something
+
+[00:34:32]
+that other companies would would want and need and find useful? Um, or the opposite
+could be is it more changing a business process on the company's back end, right?
+Because there there are many many times when companies come to us and say, I've got to
+have feature XYZ. And we're like, well, why is that? And they start asking questions and
+they start to realize that it's not it's not about the feature, it's about how they're
+how they're running their business. And then we're able to come in with really a level
+of expertise that's unique because we work with so many companies and go here basically
+in quotes here's why you don't need this here's a better way to do it right and so so I
+would say to answer your question again it's a combination of us listening to our
+customers seeing what or hearing what they're saying and what they're wanting making
+those decisions and then also looking at the industry and the trends and the
+technologies you know that are coming down the pipe and so forth and and really making
+the determination, okay, well, what features do we feel like we could add, you know,
+that that might be of value as well. I think
+
+[00:35:35]
+looking at your customers and asking them why three or four times to figure out what
+what they actually need versus what they're asking for is the most consulting thing you
+could you could possibly have said because that's so much of what we do as consultants,
+right? Yeah. And I'll tell you too, you know, us having a deep background and and our
+business having, you know, deep roots in the consulting business. Um, that's that those
+are easy things for us to really think through because you guys know when you do custom
+development work, I mean, everyone's asking for the world and and you can deliver that
+to them, but you really want to get to the root of why they're asking for that. uh
+because there there's probably more often than not there's a whole bunch of spiderweb
+answers as to why they're asking for that that that might not even require technology to
+solve. Yeah. Some of our favorite customers are people we've never done business with
+because they they had a big expensive software project and we said why don't you just
+use this and they said thanks so much talk to you later. Looking ahead a little bit, you
+know, next 5 to 10 years and the things that you have learned in your past 5 to 10
+years, what kind of advice, you know, just thinking in terms of, like I said, putting
+yourself on the other side of the table. Uh, what kind
+
+[00:36:38]
+of advice would you would you have? You know, just some bullets for someone that's kind
+of maybe early in their journey. Um, you know, when they're trying to find a mentor,
+they're trying to find their way, they're trying to find their their place in the space
+of a SAS system or a consultancy. Uh, what what would you tell them now? Uh I'll give
+you three things that come to my mind. Um first and foremost, I think the three keys um
+to to building a business are number one f find and hire the the most passionate, loyal,
+dedicated, smart people you can possibly find, you know, and even if you just find one
+of those, you know, then start leveraging, well, who do you know? Who do you know? Who
+do you know? because smart motivated talented people tend to around hang around with
+smart motivated talented people. So find find the absolute best and the best people that
+you can find and bring them into the fold. Number two in that in this process is is
+point them in the direction that you want them to go. Right? And the more rifle approach
+versus shotgun you can get the better. Right? So the more focus you can get the
+
+[00:37:41]
+better. So point them in the direction you want to go. But the lynch pin like like
+because none of this is rocket science, right? And those two those first two things
+people like yeah I get that. But the lynch pin and where I think a lot of entrepreneurs
+uh struggle is the third piece is get out of their way. Right? That's the key because
+you know as an entrepreneur you have and it's your business right you have this this u
+feeling that it's got to be this way we're going to go down this path and and if you
+don't understand kind of where your zone of sort of zone of genius is right and then
+allow people to fill in those gaps you're always going to struggle again so it's it's
+it's hire the absolute best of the best people point the direction you want to go and
+then get out of the way the second takeway away would be there's a phrase that I use all
+the time um is don't let perfect ruin good um you know it's not I didn't come up with
+the phrase um at all but um I can give you example after example after example of that
+in my entrepreneurial career where
+
+[00:38:45]
+you know one one example it's it's a stupid example it doesn't even matter the details
+behind it because it was very uh that is not a big deal but we were sitting in a meeting
+one day and there's there's a group of people in the meeting and we're talking about
+doing something and I remember sitting in the meeting think and in my head I'm thinking
+this is the dumbest idea I've ever heard but I wasn't going to say that out loud no way
+I'm saying that out loud but I thought that and then I sat there and I thought okay well
+I can say something and they will course correct or or redirect on this idea if I say
+something but I was sort of doing the the mental calculation that if it is not
+successful is it what's the impact in the business and the impact was virtually nero,
+right? And so it's like, okay, well, let's try this because it was going to be something
+we could try and and sort of identify did it work or not very quickly. Let's try it and
+see cuz I could be wrong. I don't have all the answers. Like I'm not the smartest guy in
+the room, right? And uh and so they they tried it and it was it didn't work. It was a
+disaster. And and then we had like a post-mortem afterwards around
+
+[00:39:49]
+it. and listening to the people talk about what they learned in the process was so
+infinitely more valuable than me chiming in and changing that direction you know from
+the get-go. So uh again I was just listened to a video recently uh I can't remember who
+it was a very successful entrepreneur was talking about how you should be the last
+person like as as the owner of the business you should be the last person in the meeting
+to to give your opinion and you should start with the most junior person right because
+you have you even if you like I try to create an environment where I'm I'm like hey give
+me feedback I take the gloves off you can punch me in the face I I'm here for that but I
+also know there. You'll never get honest feedback like truly raw honest feedback because
+you write you sign the paychecks. It's your business, right? So, I know that um even to
+the point where like I had we had one per person at one point in time that um was our HR
+manager a long time ago and he was somebody that he would
+
+[00:40:52]
+and I would have like deep conversations and he would really give me honest raw feedback
+and so he was my go-to person because I would say, "Okay, well, tell me what people are
+saying or what they're thinking." Because he would give it to me. But I always knew that
+even he would have some measure of toning things down a bit, right? Even though I asked
+him not to. So that was, you know, it was definitely an observation I made over the
+years. So again, the first one is again the right people, point the direction, get out
+of the way. Two is uh build a perfect ruin good. And I think the third piece and I
+believe the absolute most important piece is as the entrepreneur, as the founder of the
+business, as the CEO, you have to be have to be willing to look in the mirror. I guess
+you don't have to be. If you want to grow your business, you need to look in the mirror
+and really dig into your own head trap. Flows around in your mind because we all have
+stories. You know, my stories are um I'm not good enough. I'm not smart enough. I'm
+lazy. I'm an imposttor, right? And I and I've done the work over the last 10 plus years
+to really draw lines and
+
+[00:41:53]
+understand where those stories came from. And I also understand very clearly how
+whatever your stories are, everyone's are different. Whatever your stories are, your
+subconscious will go find evidence to support those beliefs that you have in your head,
+right? And so you need to get to an understanding that they're just stories that live in
+your head. Um because I'm I firmly believe firmly believe that a company will never
+outperform the the internal subconscious self-image of the CEO. So the more work that
+you're willing to do, you know, on yourself, the greater opportunity you have to grow
+the business to to levels that you didn't expect were possible. So, as I'm doing this
+course in sort of in the middle of it, um I was in I was sitting in a meeting uh at our
+at our company one day and uh in our conference room. There's probably 10 people in the
+meeting and I I have I I sat down at the head of the conference room table just because
+I sat there for no particular reason. I wasn't like leading the meeting and uh and I'm
+sitting there. I'm listening to this conversation going on around me and um but I'm
+paying attention to the student the thoughts
+
+[00:42:56]
+that are in my head at the same time. So, I'm I'm very cognizant of what this what's
+going on in my head. And I found myself wanting to ask questions. And I realized the
+reason I wasn't asking the questions was I was afraid. I was afraid that I was going to
+ask a question. And the an the response I'd get back was, "Dude, you're the CEO of the
+company. How do you not know that?" Or, "That's a dumb question." You know, or I can't
+believe you don't know that. Right? But I didn't know like I I don't I don't know
+everything. I didn't know. And here's the here's the insanity of these stories that live
+in our head and how they drive the bus. Here I am sitting in a building that I own at a
+company that I started surrounded by people that I employ and I'm afraid to ask a
+question in a meeting. Right now today I would never show up that way. Today I'd show up
+and go I would have a ton of questions and if you look at me and go that's a stupid
+question. That's not my issue, right? Um but it but it's it's so interesting how how
+things like that
+
+[00:44:01]
+like you don't even realize how those kind of things hold you back. TK, it has been an
+absolute pleasure, my friend. Uh really really appreciate all the insights and just kind
+of showing up for us today and talking through all this different stuff. It's it's been
+fantastic. Um yeah, thank you so much. Yeah, thank you again for having me on. I really
+appreciate uh you guys inviting you on. You bet. So where and how can people connect
+with you if they need to? Yeah. Uh, probably I'm on LinkedIn. So, LinkedIn is just TK
+Herman. No, no periods, just TK Han. All right. Well, everybody, that wraps us up for
+today. Uh, thank you as always to my partner in crime here, Justin. And, uh, also
+special thanks to our guest, TK Herman. Really appreciate the insights, guys. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

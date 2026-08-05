@@ -1,0 +1,706 @@
+Drones, Django, and Saying No to Bad Clients with Brian Stinar
+==============================================================
+
+Video ID:  PNCwW-I8YQc
+URL:       https://www.youtube.com/watch?v=PNCwW-I8YQc
+Published: 2025-06-03
+Duration:  00:43:51
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The one thing that I notice is is customers that have just a very well- definfined need.
+If they can say, "Here's what I've been doing in Excel. It's taking me and my people so
+much time. I know we can build a program for this." That's like my perfect customer
+because it's something that they're doing by hand that they don't want to be doing by
+hand anymore. Welcome to SAS that app building B2B web applications. The podcast where
+we share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host, Aaron Marchbanks,
+and I'm Justin Edwards. Each week, we bring you the stories, strategies, and insights
+you need to build your SAS or tech- enabled business smarter, not harder. Let's dive
+right in. Hey, welcome to SAS that app. As always, I'm joined by my witty, bearded, and
+much better spoken co-host, Aaron Marshbanks. How are you doing today, Erin? Doing well,
+thanks Justin. Hey, today we're joined by a guy from my old stomping grounds. Brian
+Steiner did his
+
+[00:01:03]
+computer science work at New Mexico Tech and his masters at my alamant UNM. After brief
+experience with employment, Brian started Aventum Custom Software where he's been
+working on a wide variety of problems for a wide variety of businesses for like over 12
+years now. So super excited to learn a bit about what you've been up to since I left the
+tech scene in the land of enchantment and welcome to the show. How are you doing today?
+Good. Good. Thank you, Aaron. Thank you, Justin. You know, I'm happy to be here. So
+things are going pretty well. How about how about you guys? You having a good day? Yeah,
+not too bad for a a you know, not Monday. Mondays are always super meeting heavy. We
+talked about that. But uh yeah, Tuesdays only are usually pretty fun. I actually get
+stuff done. No, never better. We're uh hitting nice weather here. It's like not super
+super hot yet. We're like low 80s. So, uh, it's it's a nice time to be on the beach
+here. So, cool. Would you want to give us a little bit like introduce folks to who you
+are? Give a little bit of your background and your story. I try to intro fort intro it
+for you a little bit, but yeah. So, we do a lot of Django app development. That's like
+our core. Um, we're probably about 80% Well, we are about 80% software engineering
+mostly in Django. We have a uh Java Spring, not Spring Boot application, a
+
+[00:02:07]
+legacy Java Spring app that we maintain. Uh, that's our our second big one. And then a
+lot of random stuff, you know, we do a lot of PHP. Uh, you know, other than the 80%
+software engineering, about 20% of what we do would be basic marketing sites, WordPress
+standups, WordPress buildouts. We've developed that pretty well because, you know, we're
+not a design company. We're a bunch of engineers. So, getting something that looks good
+that we go through with our design process that the different designers present to the
+client, the client can see, and then once it gets done with that, the implementation's
+easy. WordPress is not a difficult environment to work in. If you're used to MVC types
+of um you know PHP frameworks or Python frameworks, it's it's not bad. Probably the
+worst thing is just all the legacy API calls that you can't really mess with. So
+awesome. So on the Django front, are you using like DRF with a front-end application or
+are you mostly like core Jeno or how does that work? Yeah. So most of the time what we
+do is every single page load and every single entity is like you know it it it's making
+a
+
+[00:03:09]
+query. So it's just the stock Django uh which for the vast majority of our clients is
+fast enough. If we get a really big listing screen that has to move a lot of data will
+create um API calls for that and then load it up with data tables using either
+pageionation or some other mechanism. But the vast majority of our applications aren't
+so busy that that page refresh on everything is like a killer. And just, you know, being
+able to go monolithic and just crank through stuff like that means it's really really
+easy. We have had a couple of clients that have used Flask or Django backend and then we
+create the API calls. So it's like maybe the admins are using Django and then all the
+users are using like React or something like that on the front end. So it it can go a
+lot faster, but the additional buildout associated with that is usually not worth it
+until the application is pretty successful. And it's the same idea with building out an
+Android app, an iOS app, a web app, and then having a backend to manage them all unless
+somebody is either, you know, backed by a lot of VC money or they just want to build it
+like I almost always
+
+[00:04:12]
+prefer let's build the web app. Let's work through all those problems and then we can
+add that stuff as needed. We get a lot of uh shade because we we're primarily a Ruby on
+Rails comp shop company. That's where I normally stick people is into Ruby on Rails and
+uh there's been a lot of speculation about whether or not you know Rails is relevant and
+uh everyone wants to do kind of this this hot new thing. But uh for small businesses and
+those types of business customers we work with who are trying to solve a real problem
+for real people. Same thing monolithic Rails app is just very often the right case. So
+yeah, I mean you know we see that with um one of our clients that I'll try not to name.
+uh they have the the Java backends and then they have a really old framework. It's like
+backbone.js. It was like pre-react, pre- anything. And so they've got this front-end
+framework and then it's talking to an elastic search like cache. So it's got a MongoDB
+document store that could be used by a front end in readonly mode or in replication
+mode, but for some reason they added elastic search and then everything's cing the
+elastic search front end. And it kind of makes sense to have the web do it because those
+guys
+
+[00:05:15]
+are busy. They're getting a million hits a day. They're they're busy enough that that
+would kind of make sense for the web. But for everything else, it's just all mixed
+together. I just call it ruméd driven development. You're like, how many cool modern new
+things can I throw in here to make this so that my next job is way more fun? And you're
+like, what what is this? So inheriting one of those is like not my favorite thing in the
+world. Well, how did you just curious in terms of consultancy? You know, a lot of times
+you have to make decisions. you have to make calls or forks in the road as you're as
+you're moving along. Did you did you pick like Django and WordPress as the horses to
+ride or did they kind of fall in your lap and you built expertise around them? How did
+you get there? Well, I mean I would say both of those we actually have different
+answers, right? So WordPress, it just fell in my lap. People that need help with
+marketing sites. It's a good choice. There's so many ways that people can get going with
+WordPress pretty quickly. It's like 60% of the internet now in terms of number of sites.
+It's huge. So it's just this giant ecosystem. And like I had WordPress clients before I
+even knew WordPress, right? Because they needed to help and they knew that I could
+figure it out. Um because they could throw random tech stuff at me and
+
+[00:06:17]
+we and I would figure it out when it was just me. So WordPress did just fall in my lap.
+For Django, no. I mean, we had built apps, you know, when I started meeting Justin, we
+were doing a lot of Cake PHP, Zen PHP, a lot of these PHP frameworks, you know, I'd done
+a little bit of Java web app development. I'd done these different things, but like
+individually like my Python used to be strong. Like I was good at Python and like I'd
+always come up with these Python programs to help people to do like small tasks. Like
+Python's a good glue. Uh and when it came time to build a new web application from the
+ground up, one of my developers, because at that time I had hired people, he had enough
+Python proficiency from these random Python glue projects that he he picked Django
+because it had a lot of modules. It had a lot of the benefits that WordPress has where
+you have you know four different oothoff modules that you can choose from. You have six
+different you know data tables like frontends for uh presenting you know t tabular data
+like all these different packages that you can just select and use and open source
+ecosystem that make it really easy. So so we chose Django
+
+[00:07:20]
+based upon a Python proficiency and I'm not I'm not good at Django. think I did one
+Django commit because by the time we started making those choices, I had been doing less
+and less programming and more and more podcast interview sales management. Did you
+remember to fill out your time sheet type of work? That's why we got our computer
+science degree so we can use their time sheets. We use content management systems so the
+clients can pay us to manage their content. Right. Well, cool. I know that you kind of
+have been a New Mexico based dude and a New Mexico New Mexico new Mexico based firm kind
+of like since inception. I know you're with New Mexico Tech Council and I think we met
+at 1 million cups there at Fatpipe a million years ago uh in Albuquerque, but uh yeah, I
+guess what uh how has like the Mexico tech ecosystem changed in the last like five or
+six years? And like what's uh are your clients primarily New Mexican? Are your
+developers primarily New Mexican? So, you know, five years ago, the answer used to be
+yes, that everything was mostly based here, but that's no longer the case. You know, we
+have a big client called uh you know, Geeks Who Drink that do pub quizzes across the
+whole country and they had
+
+[00:08:22]
+international quizzes. They're everywhere. Um so, you know, mainly they're based out of
+Denver. Uh that's where most of my contacts are. We have another essential oils
+wholesale retail client that used to be based in Santa Fe, but she moved to Tucson. And
+our number three is um a company that's headquartered in Texas but incorporated in like
+you know Delaware and they have people all over the place grants that um just pay them
+for anything. So they're happy to work uh at extremely low rates and you know after
+eight weeks of training it's not the same as a fouryear degree or four plus two with a
+master's or 10 plus for a PhD. So those rates can be lower. Uh the work it can be good
+and it can be bad because you know if we inherit one if we inherit a site that they mess
+up the requirements are very clear. The customer knows what they need. They've they've
+gone through all this work to figure out what they have to do and it's just the person
+that has eight weeks worth of training can't do it. So from that perspective it's good.
+Um you know it can be bad because you
+
+[00:09:26]
+you used to just be able to hold out your hands and collect the money. It would rain
+down. So you have to work a little bit more. So yeah, a lot of changes, but I mean those
+those tend to be I I think overall good changes as long as you can adapt and adjust. So
+yeah, I think the the boot camp thing is interesting. I think in as much as it's helped
+people who didn't have access to get into tech, I think that that's an awesome thing.
+And I've seen boot camp people who went on to be successful um you know, our uh our
+favorite developer, my he's my best friend, so I'm biased, but uh you know, I've been
+working with this guy for 10 years, more than 10 years. And yeah, he I don't think ever
+finished his formal degree. So, but he's he's a way better programmer than I am. He's a
+crazy hacker and he doesn't have that that credential. So, I'm not uh hung up on the
+credentials. I just find that if if he had gotten his start and exposure through a boot
+camp, he would still be amazing. And if he got it through a computer science program, he
+would still be amazing. Um, so I think that uh I think that's interesting, but I do
+remember uh especially with like New Mexico lo local government stuff, there was a lot
+of I don't know if there still is, but there was a lot of boot camp related uh people
+and activity. I mean, I think one of the the best guys,
+
+[00:10:28]
+he he said, "Hey, Brian, let me take you out to lunch. I just graduated my boot camp and
+I want to pick your brain because you're at a good place." And I said, "Sure, Elliot.
+You know, I I'll pay though because you just graduated and you know, you don't have to
+pay for my lunch, but I appreciate it." Very nice of you. Yeah. And uh and he said,
+'What do you think? And I said, ' Elliot, you're you you have your degree. You know,
+you're doing great, but don't let this stop you, right? The boot camp shouldn't be the
+end. You like see all these possibilities. Like, don't stop learning. Don't stop
+growing. If you can get a scholarship to pay for a master's in computer science, take
+it. You know, you can get an internship at these places and make good money. Um just
+keep going, keep learning. And you know, he ended up renting an apartment from me cuz he
+was like, "Oh, you have any apartments that are available?" And working on his master's
+degree. and you know the guy got his masters and he's making a ton of cash now for some
+company. So like as long as it's like the first step like anybody that stops learning
+like I don't care if it's from a boot camp or a CS program if you stop learning like
+it's obvious you can just see the technology where somebody oified and they're like done
+right and like oh I'm not learning anymore I've been doing
+
+[00:11:30]
+this for 10 years it's good enough for me and you're like that is a bad approach right
+and I think I think the way that the boot camps are sold it's like oh take this camp get
+a great job and then that's kind of the end right like I I I don't know I mean you know
+I'm not Sure. Like if I were measuring the effectiveness of those, I'd have everyone
+sign up and I'd look at their previous 5 years tax returns and then they'd authorize me
+to look at their next 5year tax returns and then I make data, you know, driven
+statements about how effective the boot camps are. And I think what you would find is
+that you'd find a group of people that are really taking this to the next level and use
+it as a springboard. And then you'd use other and you'd find a group of other people
+that parents forced them to do this and they were going to take away their car and not
+support them anymore after they graduate the boot camp. They're basically about where
+they started. So I I I think if you did some classification and some grouping, you'd
+find those interesting clusters. I also think that they're probably not going to do that
+because in order to do that right, you'd also have to have a control group of people
+that you reject from your boot camp that would have to be close enough to your cohort
+that you can make meaningful comparisons. But that's
+
+[00:12:34]
+that's what I would like to see when people are talking about boot camps. Yeah, I have
+have in my experience seen economic development and government money spending be uh kind
+of allergic to science and metrics. Uh so I don't support that, but it's just a trend
+that I've observed. So I think you're probably right that we we won't see that. It's
+called narrative driven analysis, right? Oh, here's here's a story of a success. Well,
+what about all the failures? What about all like this is not statistically meaningful.
+Brian, you you'll find if you look in the dictionary that the plural of anecdote is
+indeed data. Um, so yeah, I have my own my own take on that stuff. Um, I I do think it's
+interesting that uh kind of our company at that time and your company kind of took a
+very similar in terms of getting very nationwide and we didn't like necessarily abandon
+our our Albuquerque roots. We still always hired there and hired there and things like
+that. But uh yeah, we got we got very spread out and very remote kind of before COVID
+and then CO just kind of poured fuel on that fire. Well, what about your Spanish, right?
+Like has that helped a lot? I mean, do you have any Spanish- speaking developers that
+you're managing or how
+
+[00:13:36]
+how's that work? I don't work with anyone who speaks Spanish directly. I have worked
+with uh other developers for customers where we spoke Spanish together at work, which is
+a great way to learn Spanish and you get paid for it. So, no complaints there. But um
+no, I um yeah, I'm super super open to it. It's uh we tend to work on a lot of projects
+that uh people want uh US-based people who for for compliance reasons, security reasons.
+Um and that's it is what it is. But I don't have any kind of uh bias against uh I don't
+have any kind of bias against working with with folks who are not US US American based
+or fluent English speakers uh necessarily. Well, we're talking about the the boot camp
+stuff too, Brian, and Justin, to your point about it being I think the idea is sound the
+the company I used to work for like a hundred years ago, so we'll call it another
+lifetime ago. I I did training and we actually did before boot camp was really a thing.
+We kind of did basically what were boot camps and this was in uh St. Louis, Missouri at
+the time. And we put this program together for um companies that were having major
+layoffs at the time and who
+
+[00:14:38]
+were needing to transition to new skill sets. you know, they were uh, you know, middle-
+aged or older. They were in a career that they had been in their whole lives. They
+didn't know anything else. But going through these these different types of boot camps,
+and we had some that were very, very basic, you know, getting you into computer systems,
+operating systems, you know, software, just just productivity sorts of things. But we
+also had this other bucket of people who were more technical and wanted to be more
+technical that were ultimately going to take routes like, you know, Microsoft
+certification, Novel, Cisco, uh, that sort of thing. And then Brian, I think that that's
+where we started we started getting actually a lot of a lot of really good data as to
+those buckets that people fell into because we could follow through with them and that
+was actually part of the program was one you had to get accepted into it. Granted, the
+bar was low, but we didn't take everybody. And then on the other side of it, there were
+also follow-ups that that had to occur. And part of the end process was finding some
+level of work for these people as well, whether that was an internship or resume
+building or things along those lines. And it was always part of the program on the on
+the role of the instructors, which I was one of, to encourage people, as you say, to
+
+[00:15:40]
+continue learning. This is this is quick, fast, and in a hurry. you're going to get
+enough stuff to kind of get your arms around a few things, get you in a door somewhere,
+but you're not going to know everything that you need to know to do this stuff. Um, and
+so, you know, the continued education, the continued earing uh learning is extremely
+important, but it was a good it was a good jumping off point. Yeah. And that's how I
+view it. And like I mean, I I tend to be like, "Hey, here's what we need to do. Here's
+some tutorials. Here are three people you can ask questions to. Go." And the person has
+to figure it out, right? Because that's I mean that's ultimately I I have a great
+theoretical base, but that's that's what I had to do. And if somebody's motivated and
+they want to figure something out, I mean you you can't stop them. You might be able to
+kill them, but you can't actually stop them, right? It's impossible. And just like if
+they're not motivated, it's almost impossible to motivate them. If you think about the
+extremes of this, it's just amazing what people can do with very limited resources if
+they're properly motivated versus the kind of resources that get squandered when they're
+not. Yeah. Daniel, I was always had kind of a piffy saying that it's a
+
+[00:16:43]
+little tongue and cheek, but it's like, yeah, learn how to program in 10 years as
+opposed to eight weeks, right? Like that's the Yeah, I mean, that's a good one.
+Admittedly, signups for our boot camp were low, but um but uh I think it's the state
+funding wasn't there either, right? No. So investments that take 10 years to pay off
+sizable commitment. It was aizable commitment. No, I mean that's good, right? I mean
+it's like when somebody Aristotle or Plato asked the oracle at Delphi who's the wisest
+man in all of Greece and they said you and he's like no I'm not wise I don't know
+anything and he realized that it was this search for knowledge and admitting that he had
+a lot to learn that made him wise and like say oh you're going to have all the answers
+in eight weeks uh oh no you're not I think the other side of uh kind of the other side
+of of that of that learning or something also like you talked about like motivation and
+responsibility like being a business owner with a technical consultancy. Uh you don't
+have a lot you don't have the ability to put your hands up and say I don't know. Uh I
+mean you could admit you don't know the answer
+
+[00:17:46]
+right now but the buck kind of stops with you. So like an employee puts something on my
+desk not not so much so now since I'm basically just a talking head but back when I had
+technical ability people put something on my desk I didn't have the option to be like
+that's hard I don't know have someone else deal with it because it's like well the
+client if I don't solve that for the client they're not going to want to pay their
+invoice and I have to make payroll and jail time and those kinds of things. So I think
+that uh that that can be a big a big motivator. Yeah, I think so. I mean I try to
+empower my people to always, you know, search for an answer and sometimes they don't
+exist. Occasionally clients will ask you for things that require you to either predict
+the future or factor large numbers into their prime components or efficiently find a
+path among all the cities to deliver things. So uh you know knowing like limitations is
+also good but but in a way that that you can prove them. you can say this is impossible
+and here's why right and if you the person can't read and doesn't want to understand you
+just do the best you can but occasionally that does happen and that's that's pretty
+interesting when it does when you get asked to do you know six impossible things before
+breakfast
+
+[00:18:50]
+and then you're confident in your team that you can pull that off maybe even half of
+them right I can only can only I can only take care of three impossible things right now
+but but I'll put the other three on the back burner is it hourly or is it a
+subscription-based impossible thing there you So hourly impossible we can work hourly if
+we can do it. Yeah. So talk talking about your team. Uh you said you're a team of eight
+right now. We're as large as 11. What generally what is what is your kind of approach to
+to growth for for the company people projects products? How do you how do you approach
+growing or or do you kind of just rely on the organic nature of it? So I mean my my goal
+right is to focus more on a scalable product. Right now, I would say that we've
+productized a lot of our services so that we have these monthly support agreements where
+we get recurring revenue. We offer people a certain level of support, right? And even
+for the hourly stuff where it flexes, they've committed to a minimum baseline, right?
+And then for the other ones that, you know, we don't have the flex, they've they've
+agreed to a ceiling and we just hit the ceiling
+
+[00:19:52]
+every month, right? So that is how we've turned, you know, WordPress development, Django
+development, Java development into something that is like monthly recurring revenue. So
+that's what we've done. And I was really proud when I looked maybe 3, four years ago, it
+was all projectbased, you know, hourly fixedpric consulting. And it's hard because you
+just have to be selling nonstop. And if you can get this recurring revenue to flow in,
+you're like not hustling to make your payroll in the way that Justin joked about but is
+ultimately true, right? Like that's like a problem with hourly consulting. So if you
+focus on these support agreements, if you focus on these larger fixed price deliverables
+that have monthly milestones, monthly deliverables, monthly commitments, and then every
+single one of our projects has a monthly component baked in. If we launch a WordPress
+site, there's a monthly component to manage it. If we launch a Django app, there's a
+monthly component to manage and to expand it, right? And people have the flexibility to
+go up and down unless they jerk me around and cancel and start and cancel and start. I I
+let them cancel their monthly agreement, but when they do, the
+
+[00:20:55]
+rate goes up, the availability goes down. If the person has a problem, when they're not
+under support, I don't jump because like the whole reason of these support agreements is
+to proactively fix these problems before they become problems. Right? if we do a good
+job and we're proactive and we're making this stuff better. We're not up at night when
+your crap breaks because nobody updated your dependencies in the last four years, right?
+Like that's like what I want it. So that's what we're doing. What I want to do is take
+that to a scalable product, right? I want to build out products that can scale. So
+instead of doing a Java application, a Django application, WordPress stuff, custom
+plugins, this that and the other, a Python script to analyze a CSV file to push it into
+Tableau, random random whatever you need. If we just focus on one thing that scales that
+we've, you know, found a pot of money and mind it, I think that should be easier, but
+it's harder to build that, right? Like we've tried and we failed about three or four
+times, right? And I realize I don't have the skills that are needed to do that by
+myself. So what am I doing? I'm I'm working with people that have industry expertise.
+I'm working with different
+
+[00:21:57]
+salespeople, different people that are skilled at those things in an attempt to do that.
+I'm also taking, you know, equity deals. We have another client, Equis. They do horse
+genetic sequencing. We rebuilt their entire tech stack. They were running this custom
+PHP application, no MVC framework, nothing. Anytime they wanted to change a user model,
+they had to go in and add a new user permission and update the users. It was crazy. I
+mean it was actually not bad for what it was but it was done by someone that was very
+smart that had never used a framework right so we replaced the whole thing with Django
+on for the genetic test management and then uh WordPress for the marketing and the
+e-commerce because that's a a pretty good combination we came up with a uh JWT sharing
+mechanism so when they log into WordPress uh Django recognizes that authentication token
+and they don't have to log in again to Django when a user is created in WordPress a
+corresponding ing users created in Django. So it's this cross login system. So people
+normal humans can log in and view their horse genetic test results after they purchase
+it through WCommerce and WordPress. They
+
+[00:23:00]
+log in and then they can see. So it's a way to bind those things because WordPress
+really isn't a good choice when you have like more than like two or three tables and
+more than like one or two form keys. You just don't want to do that. That's it gets
+messy real quick. Um and you know I I gave them a discount. I like working with them and
+and we own a percentage of their company because that kind of biotech thing, right? If
+it takes off with their seven or 12 different genetic sequencing patents, right, and
+they get acquired by a big biotech company, that'll be that'll be our product, right?
+It's not enough to make it's not FU money, but it would be like life-changing money. So,
+I you know, I take more of those risks than I might be able to do otherwise because I
+know I'm not going to build a horse genetic sequencing company. What I can do is help
+them with their website. I can help them with their database. I can help them with their
+business needs that they need. I can talk to them about, hey, let's get these genetic
+sequencing chips and then we can just directly talk to the chip from the lab. Wouldn't
+that be cool to create these APIs that the chip can just upload the results to? Yeah,
+but up we got to be running a thousand tests a week before the chip manufacturers will
+talk to us.
+
+[00:24:03]
+So, it's, you know, it's a it's a nice way in the interim to work towards that. But long
+term, like I don't see myself and I have a lot of energy. I have a lot of energy, but I
+I don't think I can run a consultancy forever. It's exhausting. So, I need to get I need
+to get a product. I need to scale this out because we have the technical team, but we
+don't have, you know, the business expertise, um the subject matter expertise. There
+there are places that we're missing and I'm I'm trying to partner with that. So, maybe
+I'm growing the consultancy a little bit slower because I'm focused on some of these
+other things and and they're working out okay. We're not losing money, but you know,
+it's not like I am ready to gift you both um wonderful Teslas or pick you up in my
+private jet yet. Yeah, it feels like it feels like a very similar arc, you know,
+consultancy into products and and things like that. And I I saw I'm trying to think
+where exactly it was either on your website or your profile, but you had a statement
+about, you know, products scale better than consulting and contracting, but they take
+longer. And and I think that that's a that is an accurate statement. Yeah. And they're
+riskier, right? So they take longer and there's way more risk. But I mean, you
+
+[00:25:05]
+you go for these hockey shaped hockey stick shaped growth curves that you see in every
+single ridiculous business presentation ever. But I mean, there's some reality to that
+if you can do it right, my team could manage. I mean, we have I've individually managed
+an application that had 15 million check-ins a day. I mean, it was very stressful
+upgrading it, but um you know, one one guy, you know, Andrew Stone from here in New
+Mexico, he built his millions on Twitter, a Twitter aggregator app for the iPhones 15
+years ago. you know, he's one person can build a business that's life-changing. That's
+that's FU money as one of my friends likes likes to say because after that doesn't
+matter. Yeah, that's uh for the uninitiated that's an acronym for freedom unlimited,
+right? Just so you know, not to Yeah, it's good to have freedom unlimited money. Yeah,
+unlimited money. Thanks, Justin. Yeah, just wanted to help out for for folks who don't
+know the industry jargon use acronyms too much jargon
+
+[00:26:07]
+but uh so uh I don't know maybe this may be in the same vein or maybe it's a different
+vein but I got uh was kind of doing some uh some prep in advance of interviewing you.
+It's been a little while since we talked last and uh seen a lot of stuff about drones
+and agriculture and like you also have like a a housing a housing product. So man,
+what's going on with that stuff? So both of those are are some of the moves. Uh we have
+an application that a nonprofit paid for us to build out called uh roofs. And if you're
+a nonprofit and you're helping homeless people get into houses, they're they're at the
+tail end. I didn't know used to know so much about homelessness, but you know, you and I
+and everyone here is kind of at one spectrum where you you own your own house and you're
+you're in a place and it's working out great. And then the other extreme is like I'm on
+the streets and I'm using drugs, right? And uh between those two points, there are a lot
+of different gradations. And and the one that we helped out with is, hey, I, you know,
+I'm not addicted to drugs. I don't have mental health problems. I don't have um, you
+know, a bunch of problems with the criminal justice system. I just don't make enough to
+pay my rent. Right? So, the city of
+
+[00:27:10]
+Albuquerque and lots of places offer these permanent supportive housing vouchers and and
+for the permanent ones, the people are disabled. So, and they they do work, but or some,
+just not enough to to pay their rent. So, they can get a grant to not be homeless. Uh
+but that grant requires a tremendous amount of paperwork. The the nonprofit that's
+administering the grant has to inspect the house every year. They have to run income
+certifications on the person at least every year. You know, they have to do all these
+things and then they have to make sure that the lease has standard provisions in it so
+it's not you know above a certain amount or taking advantage like all these things. So
+it's a lot of administrative work to administer these these housing programs. And the
+federal government has guidelines, the state has guidelines, the county has guidelines,
+and the city has guidelines. So with our product, you know, these housing coordinators
+were able to handle about 70 70 people a month. And without our product, the same job,
+same organization, the people were handling 30. So the executive director was like,
+"Hey, why is your department so much more efficient?" And you know, our champion said,
+"Because you invested
+
+[00:28:13]
+hundreds of thousands of dollars in this system and it's paying off now." He said,
+"Let's roll it out to the whole company." and you're promoted. And that's what we did.
+The drone, that one was funded by a New Zealand rancher. In New Zealand, they get fined
+if the percentage of weeds gets above a certain point on their ranch. So, the
+governments are very aggressive about pushing against invasive weeds. Um, so we built a
+drone with a computer vision system that can fly around and identify a weed and spray
+it. But the prototype is really small, right? It's tiny. So, it's got a little Raspberry
+Pi here. It's got a computer, a camera that's hanging off here because it's not really
+super well attached. And it's got two little tanks. So, it's got maybe a liter liter and
+a half of load capacity, but it works. We need to take this thing up to 25 L per acre in
+New Mexico and 50 liters an acre in New Zealand. So, we need to build a way bigger
+drone. Uh, we want to make it so that it reloads, too, that the batteries can get
+swapped out, that the poison can get topped off, and then I think this will be viable.
+Right now, it's a research project. We haven't
+
+[00:29:16]
+even gotten to the sales part yet. Uh the New Zealand rancher was backing it. He always
+crashed his drones. Everybody crashes their drone if you fly it with a joystick. We
+don't even have a joystick. We write a program to fly our drone. So we've never crashed
+it. Um so his drones were constantly crashed, constantly in service. So we're we're
+building a bigger drone. We've got to do that before we can actually sell this. I ran an
+AM radio ad, got a rancher in New Mexico interested. We went out to test. We're going to
+go out and test in the spring. We have to build a bigger drone. That's what's next
+there. Very cool. So, those are some examples of like, you know, I'm trying, right? It's
+it's not like I lost money on on the homeless application or well, I may have lost money
+on the drone, but drones are pretty cool, but not very much, right? The drone is I I
+think we're either slightly ahead or close to neutral. We're not even building the
+bigger drone if if if it works, we'll we'll do we'll do very well because the in New
+Mexico the the ranch productivity just goes down and they lose cows. The guy can lose
+100 150 200,000 a year if he loses, you know, 20 25 cows because if they're
+
+[00:30:22]
+full, they're ready to give birth, they're big, you know, he it it can be real bad. So
+there's a big problem there. It's just the labor shortages. Like it's crazy. It's
+impossible to get people to work, you know, in the sun in these chem spraying weeds 4
+hours away from a city. No doubt. Seems like a uh task that's right for automation and
+for some mechanization. So yeah, we'll see. We'll see if we can do it. I think we can.
+So yeah, seems like it's in the adjacent possible. I think most I guess the image
+recognition stuff is probably at least from the outside that seems to be the hardest
+because even though you're going to have a drone with a load, it's not a a swinging
+load. It's not suspended. So you should be able to to stabilize those things pretty
+pretty well because the weight's going to be some somewhat consistent and then as you
+get rid of fuel or not fuel but poison that's going to deplete in a a predictable way
+and the flight computers are really good about that like from our point of view right
+like we have we're running on a general purpose processor Raspberry Pi there but it's
+integrating with the flight computer and the flight computer takes instructions like fly
+to this point right at this speed and
+
+[00:31:26]
+that's it like we don't have to adjust the rotor based upon the decreased load or you
+know if the battery starts going low it returns home. We don't have to increase you know
+how much we're pulling because it's it's going less. Those flight flight controllers are
+really good. So from our perspective the software thing that's been difficult has been
+well what about different lighting conditions? What about different plant life cycles?
+They look a lot different if they're blooming and they have a flower versus no flower
+versus kind of wilted and almost dead in the the fall time. Like those are the types of
+tech issues that we've been dealing with, but even then, I mean, I own a software
+company and Oleg's super smart. Like there are solutions for that. The hard part for us
+has been the hardware. We're not hardware guys. So, I, you know, I'm partnering with a
+guy that is a hardware guy that's really interested. He's helpful, but he's got a
+different full-time job. You know, he's not he's not my hardware guy. He's a hardware
+guy that wants to help when he can, and he's doing great work, but we're just we're slow
+on the hardware, and I I need to build and and we have to build it. We can't buy it
+unless we get a massive amount of VC funding or some backing
+
+[00:32:30]
+because it's just going to be too expensive and it's going to be broken all the time.
+Like that's the thing. If you buy a commercial drone and you don't know how to fix it,
+you're just waiting. You're waiting for parts. I'm uh super eager to uh to follow up on
+this in a couple years. Curious to see where this lands because it's a that's a that's a
+super cool project. It's fun. That's one of the reasons that I'm like, "Okay, I I'm not
+super concerned that it's making me tons of money because I mean, if it does, it'll be a
+home run. And if it doesn't, who cares? It's fun. We can build image recognition systems
+for anything now. Do you see uh Silicon Valley? Have you watched that show? No. Oh, you
+got to see it. It's super funny. The guy builds a hot dog recognition system for just
+hot dogs and he sells it for like millions of dollars. And like that's kind of what we
+built for weeds is a weed recognition system. I think Snoop Dogg probably has one of
+those as well. Yeah. Cool. I really wanted to kind of tear when I thought about having
+you on. I really wanted to chat with you about um the right kind of business uh to who
+can benefit from working with a consultancy uh when it's a good fit, when it's not a
+
+[00:33:32]
+good fit, and then kind of like maybe I can riff with you a little bit on tips for folks
+who were thinking about working with a consultancy as to how to get like the most out of
+that partnership. Yeah. So, the one thing that I noticed is is customers that have just
+a very well- definfined need, if they can say, "Here's what I've been doing in Excel.
+It's taking me and my people so much time. I know we can build a program for this.
+That's like my perfect customer. And we're talking with a law firm that's representing
+um communities that have been hit by wildfires. And I never really realized it, but it
+makes sense that, you know, after a fire goes through a northern New Mexico community,
+those community members can go for, you know, federal FEMA money, or they they used to
+be able to, right? So, they can go after FEMA. um they can get money from the state,
+they can get money from their insurance company. And if the fire is like liable, then
+they can go after whoever like started the fire, like the the electrical company or the
+Forest Service if it's a controlled burn that went out of control. And there might be
+settlement funds. And all of these places have different rules for applying for money
+and timelines and distribution
+
+[00:34:36]
+things and proof. And like the lawyer company is is doing this for like 2 to 5,000
+people. You know, the fire goes through and burns MOA in northern New Mexico. you know,
+there might be 5,000 homes that were impacted and the ranch productivity might be down
+for a lot of them. So, you know, pushing these different people through is taking them a
+long time and they have the Excel spreadsheet of doom. So, you know, when I'm when I'm
+talking to them and I'm working with them and I'm seeing these connections and I'm
+asking them if they have pivot tables and how it works, like they have pretty good
+requirements because it's something that they're doing by hand that they don't want to
+be doing by hand anymore, right? So that's that's like my favorite is like here's the
+business need. Here's the problem. Here's how I'm solving it inefficiently. Here's how
+I'd like a program to solve this. And I say great, this sounds wonderful, right? And and
+that's pretty cool. Like the other one is like here's what I'd like to do. Here's here's
+where I would like to go. I don't really know if there's a business need, but I'm
+willing to explore this, right? And those those guys are are okay, too. They're not I I
+don't like them quite as much as the first set, but you know, it can be nice. And and
+that's how that's
+
+[00:35:39]
+how everybody that's how humans find new things is by by messing around and trying and
+seeing if it works or not. Even if it's maybe it doesn't work, maybe it does work,
+right? So that would be like number two of of good on the bad end, right? Would be the
+person that has fired three different developers, right? Not not consultancies, but
+individual developers that they thought they could work with, that they thought they
+could manage, right? And then they're telling me about all the cool tech stack things
+that they want to include. it needs to use AI and it needs to use Bitcoin and I need
+this database because it can scale really well. And I'm like, what do you mean? You have
+like five half-done projects. Like none of this makes any sense. What are you talking
+about? And they're like, no, it has to be this way. And then I have to ask myself, do I
+want to take their money and like have a bad outcome because I because I need money or
+do I want to walk away? Right? And and the position that I need to be in is that I can
+always walk away, right? that I don't make these bad choices because I have bills to
+pay, right? Because that leads to like unhappy outcomes, bad people. And you can just
+see it right at
+
+[00:36:42]
+the beginning, you know, like when they're like, "Hey, you know what? I tried this. I
+tried this. It didn't work. I think I'm ready to do it." Right? Right. What do you
+think? How would you approach this? And they say, "Here's what I tried. It didn't work.
+I think I need somebody that can think at a higher level." Right? That's like the
+horrible guy that like had the epiphany and now is willing to be good. Right? So, which
+occasionally happens one of the clients that we handed to you. I I think that sort of
+happened. Maybe not completely, but you know, it was it was a a wake up and and face
+Jesus moment when you don't fire the developers, but they fire you. And and you have to
+look and you have to say, "Hey, why am I doing this?" Like, "What are the reasons? What
+do I want to accomplish? What what are my goals?" Not just something cool because I have
+money to spend, right? Like that's that's not good. So it's like working with you as a
+business partner to to accomplish something. Yes. Exactly that. It's like if you uh know
+all the tech things you want and you're you know technically competent and all that and
+you just need developer support then hire a developer and work with that person. Hire a
+developer on contract. You don't pay
+
+[00:37:44]
+guys like us because we can program. I mean we can't even program anymore. Not anymore.
+I've rusted. We've rusted. That's not our value ad is that I can put my fingers on a
+keyboard and make a Ruby app do something. I mean, I do occasionally do that, but uh you
+know, we can talk to you about scalability when you need to care about it. You and I are
+both entrepreneurs. I can say, "Hey, why don't we get this in front of people as a
+clickable prototype, which costs no money, and you can see if anyone cares about this
+thing that you want to build, and we can do that for $10,000 instead of $100,000 for
+round one." And having people work with you as a partner is like that's that's where
+someone can work with a consultant successfully. Yeah. I just know I one of my clients
+gave me a good compliment. She said, "Brian, you're always asking like if this is going
+to move the needle, like what will be the benefit to my business if we do this right?"
+And like a lot of developers, they just they just run the clock. Yes, sir. I'll do it.
+And it's like, if you don't ask those questions, you can Yeah. waste a ton of money and
+a ton of time. And and what's even worse is just the opportunity. Like, why not help
+them be successful and be successful along the way because you're too busy doing what
+they told you, right? Like that's
+
+[00:38:47]
+because you're madly in love with writing code that no one ever uses. Yeah. I mean
+there's just there's there's no benefit to anybody because you made bad life choices and
+you have bills to pay, right? Like unfortunately that's oftentimes it. So just position
+yourself to be in a position where you you don't have to take somebody's money if if you
+don't think the outcome's going to be good. Yeah. Abs. Absolutely. And I think it's one
+of the cool things as consultants consultants we get to do is we get to push back on
+people and ask them who actually vetted out this idea. And yeah, one of our clients
+really wanted to do an iOS app. No one was using the web app. No one. Like I was like,
+"No, I I mean, I think if this is it, if you're hearing we need better mobile responsib
+and and they said, "Yeah, let's do it." And I mean I I feel like on the one hand, you
+know, I could have drugged them out for another four, six months of development work at
+a higher
+
+[00:39:49]
+rate, but on the other hand, I feel like, you know, that's those are the kinds of things
+that strengthen that partnership. You know, you you gain trust when people say here's
+the right thing to do, not here's the easy thing to do or here's what would be right for
+me and wrong for you. Right. That's that erodess trust. Yeah. helping helping that
+perspective like just just from the outset, you know, we talk ourselves out of as much
+business as we talk ourselves into it because sometimes a solution already exists.
+Sometimes there there is something that's better, easier, faster than what you're doing
+and it doesn't necessarily need to be built. But at the same time, if it does need to be
+built and you're already coming in the door with no this has, like you said, has to be
+on iOS, has to leverage AI, it's like, well, why? What's the goal? It's also like this
+is a very expensive way to find product market fit. Yeah. Right. you know that the
+reason that that nobody wants to use your app is probably not because we wrote it in
+Angular instead of React maybe but like it's you probably like we can't apply technical
+solutions to business problems you know we can solve business problems with tech
+
+[00:40:52]
+but you know the tech itself is not a solution or the tech itself is not like a solution
+to a business problem like we have to we have to apply technology in a way that that
+solves a business problem it's actually a real problem and if no one cares about your
+product Probably not because of the tech. Probably. Yeah. I always joke around with one
+of my buddies at Google that uh you know, a lot of people that lack religion, they find
+it in things like uh specific algorithms such as blockchain or AI and they have a a
+religious experience when it comes to choosing the proper data structure solution that
+has nothing to do with reality and it's based on their religious beliefs. And he laughs.
+So, you know, it's just joking around. I mean, everybody uses the Xfinity website, and
+I'm here to tell you that is not a pleasure. Not a pleasure in any way, shape, or form.
+So, uh, but we need we need something that it does. So, we use it, right? So, put your
+business in the same position and then hire us to build it so it doesn't suck as bad as
+the Xfinity website. So, I'll give you a chance to plug uh some stuff for you, Brian.
+Yeah. Yeah. So, I mean, if anyone
+
+[00:41:55]
+needs help with a custom application, custom database, custom reporting, you know, or if
+they have a WordPress site they want to take to the next level, those are our two main
+lines of business, you know, we're here for a long time. So, there's always a
+subscription component, right? That's that's part of what we do just to make sure that
+it makes sense long term. So, you know, hit me up if you need any development efforts or
+if you want a drone based computer vision system to do something awesome. That would be
+really fun. So, those are the the kind of things that that I'd love to help with and get
+some more business on. What's the best way to get a hold of you? Yeah, so you can call
+me 5057501169. People can email brian@novventum. us or they can go to our website, you
+know, noventum. us and submit a contact request. So, those are kind of the three ways
+that are normal. And people can always come by my office and bring some donuts if
+they're in Albuquerque. But with the, you know, international and national level of
+business, that one's a little bit more rough. But, uh, yeah, I'm around. So, if you need
+a WordPress site or some technical consulting help or you're a far a farmer who
+struggles with weeds,
+
+[00:43:00]
+Brian's your guy. Yeah, those are or if you need some new tired or you need a vest or,
+you know, you want to buy you want to buy some Amway. No, I'm just just joking about
+those. But that's sometimes what I feel like for the tech equivalent, you know, just
+these wildly different offerings. Well, thanks for joining us for another fun-filled
+episode of SAS.app. Thanks to Aaron for co-hosting with me, Brian. Thanks for coming on.
+And yeah, thanks guys. I had a fun time. Thank you very much. Take care. Thanks for
+cruising along with us on SAS that app. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

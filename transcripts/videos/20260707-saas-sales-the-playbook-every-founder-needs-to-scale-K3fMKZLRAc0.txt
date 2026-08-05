@@ -1,0 +1,725 @@
+SaaS Sales: The Playbook Every Founder Needs to Scale
+=====================================================
+
+Video ID:  K3fMKZLRAc0
+URL:       https://www.youtube.com/watch?v=K3fMKZLRAc0
+Published: 2026-07-07
+Duration:  00:47:12
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+If you're looking at it that your rep and your company is speaking the most and the
+customer isn't, especially at the very beginning front, you're doing it wrong. Like you
+want to get the whole thing is get that customer talking. Get them to explain to you the
+pain points. [music] And if you're talking the most, I'm like, that's not going to it's
+not going to end well. Welcome to SAS that app building B2B web applications, the
+podcast where we share real world stories, practical advice, and tech insights for those
+building or thinking about starting a tech enabled business. I am your co-host Aaron
+Marchbanks and I'm Justin Edwards. Each week we bring you the stories, strategies, and
+insights you need to build your SAS or tech enabled business smarter, not harder. Let's
+dive right in. Hello everyone and welcome back to SAS that app. So glad to see you
+again. With me as always across the microphone and in the heated environment of Mexico
+is Justin Edwards. How you doing, Justin? >> Doing pretty well. We're supposed to be
+
+[00:01:03]
+95 this afternoon and uh somewhere like 80 80 plus% humidity. >> Oh, so it's cooled off.
+>> Sweater weather. Looking forward to fall. >> We're getting all of the thunderstorms
+that are being shoved this way due to that sort of weather. So it's been inside for me
+for a while now, but uh it's it's at least pleasant. So, I'll I'll take the overcast and
+rain and decent temperature uh for the time being. Also, uh joining us today, we are
+excited to welcome Tom Sterns, who is the founder of Sterns Consulting, and Peter Clary,
+who's the senior manager at Akami Technologies. They also happen to be the co-authors of
+Graphic Sales: How to Build a Prospecting Playbook. That'd be this guy right here, where
+they argue that most companies don't actually have a prospecting problem, they have a
+playbook problem. We're going to get into some of that today and many other things. But
+gentlemen, thank you so much for joining the pod. >> Thank you for having us. Great to
+be here. >> Absolutely. So, first thing is is for Tom. Uh I I I think I'm noting this
+correctly that you have a degree in or at least studied fine arts. >> Yes, I have a
+degree in fine arts from St. Ansom College and uh yeah, and
+
+[00:02:08]
+Peter's a got a history major and yet we're both in sales. You know, it's a common path.
+I myself have have a degree in uh in fine arts, vocal music performance specifically,
+which really really set me on the path for computer technologies. >> Well, I could tell
+your voice is something special, Aaron. You've got a great voice, so I can see where it
+came from. >> Did you have like a specific area of study there? Uh just fine arts in
+general or >> Yeah, so fine arts was a blend of like basically art history and studio
+arts. So I did a lot of drawing, painting, graphic design. I did take some extra graphic
+design courses because I thought that might be where I could find a career and it's
+actually where I started and then drifted through marketing and into sales and now here
+we are 30 years later. >> Amazing. Yeah. My my daughter also is is an she is an actual
+artist. So she is legit like you painting and drawing and mixed mediums and all that
+kind of stuff. She's uh she is studying that as well. So I am I too am getting an
+education in that because mine is all on the musical side of things.
+
+[00:03:12]
+So you guys have uh and Tom, you specifically have spent a lot of time helping SAS
+companies over the years kind of figure out what's working and what's not working in
+their in their go to market strategies. So just kind of diving right in from your
+experience, how how often would you say the real issue is something that uh the company
+accidentally built into its go to marketing strategy when they maybe didn't really mean
+to or went about it the wrong way? >> I'd say most of the time, Aaron. Yeah, they
+they've kind of fallen into their ways of doing things and uh and it's often a
+deconstruction that we do when I work with clients starting with the ideal customer
+profile and and setting the groundwork which is sort of where the idea for the book came
+is that's a lot of the work we do is strip it down and build put the building blocks
+together properly and uh and then accelerate from there. Yeah, I think um in in the book
+we always open up with Eli Stone is a the graphic is the artist who who draws the stuff,
+but Tom and I these are real life experiences. We try to use the comics as the uh as the
+this
+
+[00:04:15]
+is what not to do, right? This is real life things that happened and you shouldn't do
+this. And one of the things Tom and you know we talked about we wrote a story uh based
+off of some of the the interactions but one thing I knew like when I was running so for
+I worked for a company called level three and I was a sales engineering director for the
+um for the northeast you'd have new people you know new presence come in and like we're
+going to increase sales so let's sell down market or let's sell this and I'm like you
+can't just say that the the product set and who we're buying to it's there's a whole
+there there's a science to what we're going after and each time somebody would do that
+like we failed and they would but we would tell them like you're going to fail because
+you don't have the product set we don't have the marketing material we don't the
+training hasn't been there the you haven't hired the right people to go after this
+marketplace so there's so many different pieces that were missing but people were
+looking at the numbers and like hey if we sold down market we could pick up our sales we
+could pick up our shares of that marketplace I'm like it's not as simple as doing that
+there's you have to you know that's why you know Tom and I talk about the playbook is
+you really have to
+
+[00:05:17]
+think about this is a science science of how to set this thing up properly to make sure
+that you can be successful. >> Yeah. You spend a lot of time in the book and in a lot of
+your posts you're talking about, you know, more activity does not equal more sales. I
+mean, that's that's kind of a fundamental principle, right? And and that used to be more
+the case. You know, it did used to be, you know, the whole the whole spray and prey of
+shotgun approach to to sales. You know, if I if I if I do a lot, I'm going to at least
+get a little, right? So, so talk to me about how that that approach has shifted over the
+years and into what it is that you are centering some of your messaging around where
+it's it's not so much the case anymore. It does need to be much more focused and how do
+you get to that focus? >> Yeah. So, I think depending on the size company, right? So, if
+you look at the smaller SAS companies, the startups, the scaleups, you know, the founder
+or the founding team, they understand the customer like deeply. They really understand
+they built the product for them. like they're deep in the uh the understanding and and
+what what we often find is that as the companies scale, the understanding of the
+customer gets
+
+[00:06:22]
+further and further away and that you're bringing in more salespeople and like Peter
+said, sometimes you're just saying, "Hey, we need a bigger total addressable market.
+Maybe we'll go after this vertical, this industry." Uh or, you know, we just need to do
+more of this. and they're missing the uh what was intrinsic to what the founder knew.
+They're missing the science of deconstructing that and saying no, these are the
+attributes of the company, the the buyer that like we solve the problems for and they're
+not just verticalbased. They're often like like deeply embedded in your data. So when
+you get big enough like you have to mine the data and say hey these four or five
+attributes are really what matter and that's your building block of like okay this is
+this is their world and then you have to teach your sales team uh how to you know how to
+understand that world how to target that world and that's not of I mean it can become
+volume over time but
+
+[00:07:27]
+at first it has to be like uh that deep knowledge Uh, and that's why it's the first
+chapter in our book, Aaron, the ideal customer profile and and uh, you know, Peter
+paints a picture in the with a story there of of how it was often like done poorly, you
+know, and uh, yeah, so that's where that's where we try to go with it. When I first
+started out in sales, you know, uh, that's the sales director, one of the things was
+like five after 5. go knock the door at least five doors after five o'clock because five
+o'clock is when the assistant left the secretary left so you can get to the decision
+like that's how old I am right there [laughter] we had to go there but because it was
+like volume volume volume and as Tom mentioned what's changed is the customer is more
+educated right so they got the internet they're doing a lot more research so just
+calling people and introduce yourself and saying I could do something different customer
+you really have to attack it what what you need to know what their business problems are
+because the customer does the customer's looking. They know what the business problem
+are and they've already done the research in the looking for it. So, you have to be on
+your game when you talk to
+
+[00:08:30]
+them and get them live. It's not just, hey, would you be interested hearing about me
+because I can solve your CRM issues or what whatever they are. You have to like here's
+what your problem is uh in your industry or you might have I saw this like you have to
+do a lot more research to have a lot more educational conversation with the customer
+because the customer is better educated themselves. So, you're kind of going you're
+starting a deeper conversation. And so when we when when I was growing up, you know, it
+was knocking the door and introducing yourself and introduce something new because the
+customer didn't know anything about it. The prospect didn't know anything about it. Now
+they do. So you're you're leaprogging past that point and saying, "I need to know more
+about this customer even before I talk to them." And so that's that's where the the
+change has happened is that you're you're now a lot more knowledgeable uh uh prospecting
+base. So you have to be better at your at your targeting calls. >> Yeah. And and I would
+say that that's that's paid off in in spades at least with people like, you know,
+myself. I mean, I too I could date myself. I won't, but you know, the the whole notion
+of I I have a solution that I'm bringing to you and I'm going to make it fit to whatever
+problem that you're having instead of working in the other
+
+[00:09:32]
+direction. And that that always was a huge turnoff to me because, as you say, they don't
+know what my actual problems are. I get that you have a product or a thing or whatever
+it happens to be and you're trying to make it fit to me. What I need to know is that you
+understand my problem and that your solution does actually fit. And over the years, I
+I've talked myself out of probably as much business as we brought in just because I I
+prefer that approach and I like being honest with, you know, with our clients and
+saying, you know, we're we're not a good fit for you and what you're trying to do here
+or have you thought about it this way that doesn't really include us, but I don't know
+that you've really considered this approach or this this sort of a thing. And so I I
+really appreciate the the approach of get to know your client, get to know their issues
+and then work backwards from there and the answer might be it's not us and everybody
+being okay with that. That's a that's a huge point that we talk about too is like I hate
+the term fail fast but understand if the situation quickly and move on and if you do the
+right thing by customers they
+
+[00:10:34]
+could call you down the road. I mean that's what the great thing about sales is how many
+times you just got to call out the blue like holy cow this is because you set the
+foundation before. But the the other point I want to make there is so again how old I am
+transitioning the mentality and and we had this whole program we we have a comic about
+it called I used to call it target account profile kind of like the ICP but the big part
+of that education to the salesforce and to my engineers was stop talking about products
+talk about the solution so if you're I'm like you are not allowed to mention product
+name to the customer for their first meeting at all you have to find out the solution
+and so your every question so we had this the slide deck built and But and we had this
+guy in the corner that was a customer saying what's in it for me. I'm like you
+everything has to be toward towards finding out what the business thing is and what this
+is solution for. Stop talking about product sets. And I got to tell you that was just
+hammering people constantly because they just love telling about the products can do.
+They love telling you what we can do for people. Like find out what the pain point is.
+Real quick, this episode is brought to you by Delta Systems which is what Aaron and I do
+when we're not talking through
+
+[00:11:37]
+microphones to [music] you the people of the internet. We've got a really, really great
+software team here and we love to work with cool people on cool [music] projects. So, if
+that sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab a time with us. We can beat up on your problem together and if
+there's a fit there, amazing. We'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. Do you find that comes up a lot with
+founders where they're just so in love with product, it's their baby that they built and
+they just want to show off a gajillion features and all the cool stuff that their their
+little baby does and they don't focus on why the customer would care about and what it
+does for them. >> There's a cartoon in there uh we're a meeting with Fidelity and we
+brought in uh the CTO u who'd been with the company from the from the start and he spent
+so much time talking about building the fiber. So level three is a a fiber network
+provider building the fiber networks. They're telling stories about building this huge
+infrastructure and how great it was and sitting down and I remember looking at the the
+Fidelity people like they have no idea what it has to do with anything that they're
+
+[00:12:39]
+we're talking about. Like he was just so excited to talk about how he built the company,
+how great it was and how the things I'm like but it has no relevance to what they're
+trying to solve for this. So when he sat down and he actually that the funny thing in
+the comic is because he then opened up a USA network and started reading and didn't pay
+attention to anything else. I'm like, "Yeah, you just wanted to talk about what you
+loved about what you did with a company and it has no relevance on what the what this
+customer wants." So, yes, it does happen. It does happen. Yeah. I work with, you know,
+small companies to to enterprise and the small ones, the founders are like the they're
+the biggest asset to the sales team, right? You love when you can get the founder, the
+CEO, but typically, you know, they are they're going to demo every feature, right?
+They're gonna they're gonna talk about everything. And I'll often the deconstruction
+process will be I've got salespeople and I'm like why why is there was an hour meeting
+with a customer and 45 minutes of you were demoing features and they're like oh yeah we
+we were taught we had to hit every single feature and I'm like well we got to we got to
+get rid of
+
+[00:13:42]
+that. >> Please know >> right. Yeah. We need to find three problems and then demonstrate
+three solutions to those problems. That's all we need to do in a demo if we need to do a
+demo at all. So yeah, a lot of founders are >> I'm I am a founder. I'd love for you guys
+to workshop this with me uh as well because like this is the structure of our demo
+calls. I think maybe we're doing okay. But uh so we book a 30-minute demo. I try to get
+the customer to talk for about 25 minutes of that. How do you bring people in? What is
+your process? What are your pain points today? What are the things that you're spending
+a lot of time on? And just basically get me to tell them their story and everything
+that's going on with them. Then at the last 5 minutes or so, we pop open and demo two or
+three things that exactly explain how our product might solve the things that they've
+been telling me about and their pain points and problems. Is that pretty close to what
+you recommend for folks? What tweaks would you make? >> Spot on. Absolutely. And and
+depending on how much time, you might need more time for the demo. So you can always
+book the next meeting from that. >> Mhm. >> Um but yeah, it's exploration. I like the
+only thing I would tweak in that Justin is try to focus on their aspiration
+
+[00:14:44]
+first. It's like, hey, where do you want to be? Like to if if you had the ideal solution
+for what you're trying to solve 6 months from now, what would look that look like? So,
+you put them in a positive mindset and then they they will take you through all the
+reasons they can't do that today, which are all the problems you're getting, but you get
+to leave them with like that, hey, this person's going to fix my problems. They get we
+think about the positive as opposed to like tell me everything that's not working. It's
+a slight tweak. It's a nuance, but >> yeah, it's smart because it puts you it puts them
+on the road of like, hey, I can get to where I want to be. You this person is going to
+allow me to to to do that. So, that's great. But the other thing to think about, Tom is
+um Tom brings a lot of tools into like helping people understand their things. And I
+know that Tom, I think you might have shared it on LinkedIn or I saw it one before, but
+you can see on these conversations how much who's speaking. And if you're if you're
+looking at that your rep and your your company is speaking the most and the customer
+isn't, especially at the very beginning front, you're doing it wrong. Like you want to
+get the whole thing is get that
+
+[00:15:46]
+customer talking. Get them to explain to you the pain points. And if you're talking the
+most, I'm like, it's not that's not going to it's not going to end well. >> Yeah. Yeah.
+Look for the talk time. a lot of the the tools today. Yeah, I don't know if you used
+Fathom or any kind of meeting record, but they'll give you a visual of the of the call.
+I'll just look at visuals to assess a sales team. And they all have there's a
+complexion. Of course, there are exceptions, but yeah, like Peter said, you want to see
+like a little bit of of you at the beginning and then you want to see like a long bar of
+the customer talking, which it sounds like you're doing, Justin, and a couple blips in
+there where you're asking follow-up questions. And then if I see that, it's like, okay,
+great. we've learned a lot. So then by the time we're talking about the solution, we've
+got a full picture. And that's what you want to do because if you jump into
+demonstrating early with a little bit of information, you may have missed big points
+that really matter and then the customers now they're going to fight you back on you're
+like, "Oh, but but this is what's different here, you know." So yeah, whole whole sort
+of uh visualization helps. Um for me anyways, I do a lot of
+
+[00:16:49]
+call coaching. >> Super famous book came out I think in the 1920s, maybe older than
+that. basic basically this is the natural flow of that which is how to win friends and
+influence people right so why are like it's been a hundred years like what do you have
+do you have a take as to why we're still like having to beat home this lesson is it just
+anti-human nature I we just we talk about this it's it's been my whole career and it's
+like the answer is always the same >> well first off in a hundred years people mention
+about a graphic novel so they they'll mention our book the same [laughter] >> there's
+that aspiration right >> there's that as [laughter] Yeah, Peter has a lot of unfulfilled
+aspirations, but um and yeah, so I would uh I would it's funny Todd Capone's the sales
+historian and he's he's always writing about like the 20s the 30s and how yeah most of
+selling hasn't really changed because it's just human nature and for some reason we keep
+like falling back into all the bad habits and you know one of the things with technology
+I think we like to talk about is that you
+
+[00:17:53]
+know AI will accelerate your bad habits right um but if you get build a good foundation
+and now like I AI is wonderful I think for like the research aspect so if you know right
+if you've done the work on this is these are the attributes of my my target account
+profile my ideal customer profile and you know those well enough you extracted what the
+founder really meant you know really understood now you can use these tools to find the
+right companies with the right signals and attributes and then you can so you can take
+some of the research away from the rep. But if you've done a poor job there and now
+you've got AI pulling the wrong data points pointing you in the wrong direction at scale
+and then some companies are using fully automated outbound email and you know you know
+really destroying their reputation because they got the foundation wrong. So powerful
+tools, powerful mistakes. It's no different with AI in my experience. >> So I think also
+one of the big things is
+
+[00:18:55]
+Tom and I talked about this a lot. There's a misconception about sales as an art versus
+sales as a science, right? So I think all these books are telling you is there's some
+art to this, but there's a science and and the playbook is a perfect example of like
+listen, you know, a lot of people think that you have to be an extrovert and you know,
+you can sell, you know, the the the the um popsicle to the woman with white gloves or a
+chocolate popsicle white like that. this is like people are born to be sales people that
+is not the case and I think that's why there's these books and these things still are
+out there is because we really educating you know people are getting into sales like
+this you can learn and this is science to this and there's data here and and it does
+certain things help you become a better salesperson but you do not have to be this super
+extroverted salesy person to be successful you just need to follow and be intelligent
+and due diligent about it and there's a statement I always say about sales sales is one
+of the easiest, hardest jobs you can do. What I mean about that is if you follow the
+it's very hard to follow the day in dayout scripting of what you need to do. But what
+you need to do is pretty
+
+[00:19:59]
+simple. Like it is laid out there for you. You follow these things. I'm like, I know
+what I need to do. It's just doing it is hard. Getting a rejection 100 times a day.
+That's hard. But you will be successful if you follow the science behind this stuff. So
+I think to your point, the reason why there's so many books written about this is cuz
+people's mentality and thought process of sales is that it is very art specific and you
+have to have some type of magic that you're born with to do this stuff. Uh but you don't
+you can be t sales is a very teachable uh uh skill set. Well, I think the other thing
+too is that you know people find people who do find some success early with the approach
+of I I have actually spent the time to do some research. I do have an ICP. I am in a
+vertical that I deeply understand and you know there there is a particular approach to
+those clients at that point in time but as the ball moves down the field that approach
+is not enough or it's not right anymore. So, you know, now you you've reached, you know,
+you've gotten some traction. You've reached a
+
+[00:21:01]
+point where you're where you're trying to scale. Uh, you know, I won't say that you've
+exhausted your your vertical or or your, you know, potential client base or whatever
+that happens to be, but you now have to shift the emphasis into Peter what you were
+saying into the data. And so, let's say that we are now that far down the field. So
+especially for the founders who are listening but just people in general what are the
+types of practical data points or or what are what are some practical things that people
+should shift or do as a sales team as a go to marketing approach at that point that
+differs from what you've done before but get you further down the field now
+successfully. >> Yeah. I I think uh depending so often and correct me here if I'm wrong,
+Maron, but often like we've got a a founder that's that's doing a lot of the selling and
+then they're getting too big to they can't do the selling anymore, right? They have a
+team and they need to back away from that. Is that a fair context for a stage in a
+company? Yeah. I think what what needs to happen there is that the you know what the
+founder knows has
+
+[00:22:06]
+to be extracted starting with the ideal customer profile. So that would be a clear
+definition of what companies buy from us and why what are the datadriven driven
+attributes. So the founder might know but what can be done very easily if you're
+tracking any of this is you know using AI or just reporting on what are the four to five
+attributes that make that company a great customer of ours and they can be a multitude
+of things. So those need to be extracted and so they can be modeled against the total
+addressable market right which sounds simple but when say a founder now gets investment
+they get uh a series A and they've got to scale up how narrow can we make that ideal
+customer profile because what I often see is that they look they don't really look at
+the four to five attributes or they look at them and they're like oh that's every
+company in America or that's like these 12 and it's millions of companies. So, you have
+
+[00:23:10]
+to try to narrow the focus down because the salespeople that are going to come in, you
+need to make them as expert as possible as quickly as possible and that takes time. So,
+if you can narrow and say, you know what, we actually can sell to these four different
+verticals or these five different verticals, but each vertical is massive. How can we
+narrow that to say like this vertical with these attributes is only a thousand accounts
+or 2,000 accounts and they're really a good fit because of X Y and Z. Now you have the
+ability to simplify, you know, teaching that rep what they need to know about the end
+user and the buyer and you can point them in one direction. They be can become expert.
+what what took you maybe your life to become a founder and build these solutions for
+this particular company. Think of someone walking off the street that's never sold your
+product before. You know, how much do they have to learn? So, like I do this
+
+[00:24:15]
+with every client is like, how do we narrow that field as much as possible? There might
+be other verticals is certainly appropriate. >> Yeah, that's kind of that's kind of my
+question. How do we get to those how do you how do you get your potential sales team to
+those data points? >> Yeah. Well, you you try to extract the the uh you know what makes
+you know a company the ideal for you and then you model it against uh the rest of the
+market and see like how can we take a segment of the market that's similar. I'm using
+vertical or an industry because they often uh they're they're similar like language used
+within a vertical often people will move from one company to another within the same
+vertical when you so when you think about a target audience say banking hey we can sell
+to banks and we can also sell to insurance uh well let's start with banks because people
+that worked at one bank for five years might work somewhere else it's likely another
+bank. So, we've sold to one bank and they might know someone at another bank. So, it
+makes your targeting uh a little bit
+
+[00:25:19]
+easier to, you know, expand upon and like build your network into that. Uh and it's
+easier to teach a rep like the language of a bank versus bank insurance is different.
+Might have the same problems, but it let's start with what's similar so we can become
+more expert. Call in similar titles. people know each other and then you can build into
+a team into insurance, you know, in six months. The um there's a couple probably two two
+high-end things. So, how to expand it is and I kind of mentioned it before. A lot of
+times you're going to go off the rails by the top dictating to the the sales team. There
+has to be a flow of knowledge coming up that the there's many times we've expanded um a
+different areas because the field has seen the pain of the customers and said hey we
+have the capability of doing this over here which we didn't think about before and it's
+a repeatable simple you know product set we can do that's within our capability we might
+not offer today but we can do it. So there was when NS again dating myself how old I am
+when NS first
+
+[00:26:22]
+came outuh to versus uh VPN NS came out and it was taking over everybody was buying this
+Cisco was pushing equipment everybody was talking about switching over to this NS and
+fortunately my team we were looking at talking to customers and the customers really
+were confused about do they need to go to this or not and when we started to get into
+the pain points in the direction they were going it was they would need more bandwidth
+to meet more locations and we actually uncovered that private lines would be better for
+them. It was just too expensive. So, we were able to create a product set that met this
+uh that met the needs that from a pricing standpoint as well as the throughput solving
+the problem. And that product ended up being for the next five years the top product
+that everybody was selling. And we kind of by sitting listening to customers and then
+having our CEO listen to us. He flew to Boston because we we came up with this design
+and he's like, "This is really good. Let's tweak this." And they kept on building upon
+it. But he was listening to the field tell us we can make this is a market. This is
+where the direction is going. This is the pain points the customers are seeing. This is
+
+[00:27:25]
+what we need to do. So that bottom up is really important to expanding your your
+presence because if you're like I said before if you're saying we want to go down market
+but you don't have the product set there well you're not going to be successful and and
+the sales teams are not going to understand why they're selling it what the what the
+point is. Mhm. >> So that's really important is to listen from the from the top up. The
+second is and this is where it becomes uh that that top down problem is the entrepreneur
+the guy the the the founders tend to become bespoked and they like to customize. Yes, we
+can do that for you. We just need to do this. >> I don't know what you're talking about.
+That doesn't sound right at all. [laughter] So you have to focus on repeatable process
+and simple like you can't you cannot customize and that's one of the founders problems
+is we can do this this is business we want to win so let's do this for this one customer
+and then let's do this for this like if you wanted to success you have to be able to
+bulk load this and bulk sell this and it has to be repeatable simple process and and
+that so those two things are huge. Yeah. Do you have any tips or or
+
+[00:28:26]
+frameworks for trying to identify if this is a gap like our product probably should do
+this but it doesn't and we're losing sales because we're missing a feature that our ICP
+actually wants versus oh this customer wants every you know everything in a bag of
+potato chips is asking us to customize and pollute our product offering. I mean how do
+how does how do you think about that as a company who who wants to win a business and
+wants to bring in the cash flow? It's it's a complicated answer and the reason it's
+complicated answer is because if you go down many roads your CRM tool is being used
+wrong, right? So sales people hate to fill it out because you know it's being used to
+judge to them or they hit the sales number so not filling out certain things. You want
+to have that knowledge from the field. So it's basically how do I get there? How do I
+understand that and and I'm use a real company. How do I understand that? I cannot break
+into AMA because AMA I'm not solving their problem, but I keep on telling product what
+we need to do to win them, but it's just I it's not resonating and I'm not getting it
+into the right people. So, you have to have a way for the field people to be able to put
+that information succinctly into a
+
+[00:29:32]
+tool Salesforce or CRM or whatever to be able to then have people uh flush it out and
+look at it in in Simply. So that's the biggest problem is people open up Jira tickets
+because of bug issues but you don't really know what the big problem is. So you have to
+have a way to have the field communicating what they're seeing and listen to them
+because that's that's you get sales frustration engineers those folks they get
+frustrated because we know what the customers and pain points are but we're not going
+the right direction is because those the engineering teams the whatever teams are not
+really listening to the field and and the field is going to tell you what the customers
+are feeling. >> Yeah. I I think there's a loop there too. I mean it's like one thing I
+tell sales teams is sell what's available today right you know you can collect what the
+field is asking right but your job is not to customize anything right that could we
+don't have we don't have the uh resources to customize so but but like Peter said
+capture the information you know and analyze it hey we've got 34 requests in the last
+six months for this
+
+[00:30:35]
+feature and so now product is like well maybe we should build that but we also have
+these other so how many requests but then also maybe some outside analysis like let's
+let's do a survey to the broader market to see if that really matters so I think Justin
+is like as much data as you can collect both through those conversations the broader
+market and analyze it and what it would cost to to do I have a client right now
+Swimtopia they're a a small company growing and they have this problem all the time and
+there's a lot of discussion collection of data points And sometimes it's like an
+educated ultimately an educated guess. >> Here's a really quick u um story. So Tom and I
+have a good friend who was a CRO of a of a medium-sized C company and he tells the story
+of they had tremendous amount of growth and success because they brought in a sales rep
+who was having good success and John basically started looking into his numbers and like
+oh you're selling to a different vertical than we had before and then he wanted to meet
+with a couple of those customers to find out why did they buy
+
+[00:31:37]
+from us? like what do do we solve for you? What and then then he built the whole program
+around what that sales rep does and promoted that person to run the hey this is how
+we're going to attack this marketplace. So it's just having the wherewithal to say let
+me pay attention to what what's the positives that's happen out there and see if there's
+different ways we can do this and experiment like it's it's but experiment quickly like
+don't push it and say we have to do this let's test it out did it work and let's why
+didn't it work and then expand upon it. We've had a couple situations recently where
+there's like a feature sometimes they're kind of big features where it's like while it's
+on the road map. It's something we want to add. We want the product to do that. It's
+been part of the vision since the beginning and this customer is not going to close
+unless we add it and we can move fast enough to add it for that customer and that
+customer is bringing a good chunk of money which we need to keep our business alive. And
+so that those are like the no-brainer decisions where it's like, okay, cool. This is on
+the road map. I can close a deal, you know. So those are easy, but then we have other
+customers who come in where it's like, well, it would be cool to win that business, but
+uh I don't know how I feel about this feature top to bottom. It's not really on the road
+map. And um yeah, I think trying to avoid especially as a creator and a technical person
+that uh falling
+
+[00:32:42]
+down the the rabbit hole and I can always bespoke, I can always customize because I like
+to build things and uh I think it trying not to fall down that fall into that trap so
+that you have something like you like you said that's repeatable and sellable uh in a
+way that's package like a package. I have a guy I work with within my company with an
+accomm his his whole team they're very very intelligent people and they do some great
+things for some really large customers and I constantly one month every month we meet
+because I'm like what are you doing [laughter] every like it's great that you solve this
+and the customer's happy now everybody wants to solve it and now I don't know how do we
+going to support this stuff this is so this is it's great you've won us all kinds of
+business how do we repeat this this is you've done some great work that probably should
+have stayed in the lab but yeah >> I would say too this is maybe slightly different
+topic but in my experience there are like companies go through stages obviously right
+your startup and then you're you know series A you're scaling and I find that there are
+different needs and there are different uh stage operators if you will like if
+
+[00:33:47]
+you're in if you're founder and now you're hiring your first salesperson right you don't
+need to build like massive amounts of infrastructure all that need a type of person that
+can work in that environment. But then where I'm often brought in in my business is that
+series B or a mid-market or enterprise that's got a division that's broken and we what
+we need to do is build this to scale. So this is again the playbook came out of writing
+a lot of playbooks the last couple years where we had to fix a couple of teams. So we
+had to narrow the focus, right? What are we selling? How do we make it simple? Who are
+we going after? How do we make it simple? Maybe we have different teams for different
+segments of the market, right? Because my goal is that to to to get good fast, it's uh
+simplify simplify simplify. And that's what you know, if if you were a founder, it's
+like, hey, you don't you can't afford to keep personalizing or customizing your product,
+right? You need a salesperson
+
+[00:34:49]
+maybe that you screen if they're the first salesperson. say, "Look, do you have
+experience, you know, selling in this environment?" And then also quiz them on like did
+they need to did could they control the customer's conversation so it wasn't a reaction
+and like oh yeah we can customize right we want a salesperson that one can wear a lot of
+hats but also has the discipline to say no and to sell what's available today. Uh so
+it's a lot of skill set you know depending on your stage those operators if you're like
+hiring right look for operators that have performed in the stage you're in for what >>
+is a maybe a good way to to help combat that like hey maybe you get stuck in Justin
+right because you now you're talking to the customer and the sales guy's like hey
+they're not going to buy if they don't have all these features and it's like is that
+really the customer that's demanding it or is it the salesperson that is just saying yes
+to everything versus showing them the the the the problem what we'll solve and how much
+value it brings with what we
+
+[00:35:53]
+have today. Yeah, we might do that in a year from now, but like get in now. We're a
+great price. We're going to solve 90% of your problems. We'll add that what next thing
+maybe next year, but you know, that's it's hard. That's it. >> No, but totally sort of
+related to this is like the customer is always right is like kind of a trope, right? But
+it's also like the customer is one organization. My customers are 2,000 organizations. I
+have over a thousand other examples of how people are solving this problem and maybe I
+can blend like my history of building a product in the space where I'm seeing the scale
+and I'm seeing the different problems in all these different organizations. You actually
+need me to advise you a little bit that what you're asking for doesn't make any sense
+and I'm here in the sales process to educate you that what you're doing a it's causing a
+problem. it's making my product not the right product for you and maybe it's just
+unnecessary and bad for your organization because I have a thousand other people who are
+successful who aren't doing that and uh trying to pipe that expertise back into a sales
+process especially if you're in a new space I is is challenging because you risk
+overplaying your hand right >> but you are the adviser right that's your you're the
+expert and I love that example is uh you know like we we can we
+
+[00:36:57]
+can show you how everyone else is doing it that puts you in the center of their universe
+and they're like okay now we'll trust you to tell us what we should do. That's ideal. >>
+We have that sometimes at Delta where people show up and they want to tell me how to run
+a software project. And I'm like, you may be better at running a software project than I
+am. I'm not even saying that you're not, but you need to go hire someone for your team
+that's going to run the project how you want to run a project. Like here at Delta, we we
+do things differently, and you're going to have to lean on I know how to work with my
+team, and I've done a lot more of these projects than you have. So like let's learn
+learn from me suggest how we can work together better and all that but you're not going
+to come in and dictate how how we engage with clients. It just I can't scale that for
+one and B it's probably just not the right northstar anyway. You >> got to work with the
+customer and it's it's going to be a partnership. If it's not a partnership it's not
+going to it's going to work out. There's a story in New York when I was in my New York
+team the GM was really good. We just introduced this target account profile. So um we
+called the ICP target account profile pro profile because I didn't know ICP existed. So
+we created this to put up profile and the story behind it
+
+[00:37:59]
+and how we want to talk to them and basically I had really prescriptive I'm like these
+are the questions and things you want to talk and ask and so they had this opportunity
+they wanted to close but they were having a tough time closing it so they brought they
+brought me in to say okay show us what you mean by this new approach and so when I talk
+with got with the the uh the CEO we're talking about their business and I and I brought
+up like okay how many applications so this is again how old I am like how many
+applications are you running over your network the guy goes three and I'm I don't think
+it's three. I go, I think there's more. You have this bandwidth demands. You got latency
+issues. He goes, we're only running three. He's like, I know my business. And I said, I
+I'm sure I'm sure you understand what you need to know, but I'm positive you're running
+more than three applications between all of your locations. And so he's like, okay, I'm
+going to call, he got really said. He's like, I'm going to call my my, you know, chief
+engineer and he's going to come in and tell us. And so a guy comes in and the CEO goes,
+how many applications are we running between all of our office? And he's like, I don't
+know, 60, 70. it there's everything and the CEO goes like what he goes yeah everything
+is running over this network he goes oh and they go
+
+[00:39:03]
+so I go he might be good to sit in this meeting and let's have a and so that
+conversation completely changed and the CEO is like I had no idea I'm like but that's
+and the learning lesson after the meeting to the team's like this is the conversation we
+want to have with the customer I go the customer might think he knows and he's going to
+tell you and if you just take that knowledge and walk away we would have we would have
+failed them if they won the business because they wouldn't set it properly you you kind
+of h you you have to push the customer into the right direction. Um and it's you don't
+just have to say yes and believe them. You actually have to question and let them lead
+them down to an educational standpoint. Actually, several things that I would love to
+come back to and touch on, but we're going to run out of time. So, let let me get into
+the question part of where I was going to go. It it was something that I think Tom, you
+said, but it just you just kind of glossed right over and it's a it's a big thing for us
+as well is having more information is better. Now, that statement in and of itself, I
+100% agree with it's how you act on that information and something that we haven't
+gotten into, but where I want to go with kind of my last question in a little bit of
+time that we have left based on having more information, which I agree is critical. Feed
+that CRM, you
+
+[00:40:06]
+know, take those take those call notes. Um, I happen to be opposed to metricing people
+based on that sort of stuff, uh, for a lot of reasons, partly because they just don't
+want to enter that stuff in. But once you get that information, it is going to be a lot,
+especially in this day and age, and that's good. But this is something where I think AI
+can step in and help you. You said it, Tom, earlier in the call, you know, a AI is not
+going to fix a weak foundation. It's going to make a weak foundation weaker. It it's
+going to amplify what it is that you already have. But saying that we fundamentally have
+uh, you know, a decent foundation and we do introduce AI at a critical time where we are
+gathering all of this information. I I'm curious what you all have seen out there as
+some of one the mistakes that people are making at that point where they're throwing
+information and AI and and on the flip side of that some successes that you have seen
+with a similar approach pointing AI whether it's you know something that you're building
+yourself or there are tools out there and have been for a number of years by the way
+well before AI there were a lot
+
+[00:41:09]
+of tools that would look at the CRM study the you know most most sales teams have sales
+processes stages and you know conversations at certain stages. So, a lot of the stuff is
+logged automatically, right? At least like emails get logged and meetings get logged
+like you said and I not every rep is good at it, but if you can point your analysis tool
+at at your CRM with any kind of like base level of of sales deals in a year, you
+probably need a year's worth of data at least. It's going to tell you things like, "Oh,
+we we lost 30% of the deals when the CFO wasn't involved in the conversation by now." We
+uh find that deals accelerate more quickly when an enduser joins a demo here, right? So,
+these are the data points I think we're looking for to understand what's really going
+on. And so a lot of reps can tell you what they
+
+[00:42:14]
+think. That's one that's the oldfashioned way. I still do that. Like, hey, tell me what
+a deal looks like. Work from the backwards forward. I do that like when I interview a
+rep to see how they moved it. Um, there used to be software that would you give you
+strike zones and scorecards of like, hey, this deal is at risk because there's been no
+activity and there's only one person involved in this and you've got it to close in 30
+days. it's statistically impossible based on your last year's sales deals. So like all
+that analysis so AI now you could just you know point claude at your CRM and you know
+give it some prompts to be like tell me what deals and slice and dice that so that I
+think it's you still take it with a grain of salt. You still talk to the reps after to
+verify this, but any manager that's got a year's worth of sales data in the CRM can
+start to do this analysis and look for patterns then theories and then verify those and
+then run tests against them. That's sort of my favorite use case of like using AI
+properly. And I see a lot of companies do that and have done it. I used a tool
+
+[00:43:18]
+back in 2012 that was uh that is still around, MediFly. It's changed a lot. It used to
+be called inside squared and anyways it did that before AI and now AI you can just do
+this yourself with cloud. Um so that's my my favorite use case. I see a lot of companies
+doing that all the time. >> Trust but verify still works. >> There's two things when
+especially you talk about the tools and stuff and um one thing I'm always hammering my
+teams about is start with the outcome. What what is the outcome that you want to come
+from using this tool? So define that what we're going to measure. So, and why do we want
+to measure that? The [clears throat] story I'm telling, and I use story because I think,
+you know, guys, founders, you know, you have to tell, you got to get the story down,
+right? That that makes sense. The story that I'm kind of leaning into with AI is that
+AI, what AI does for me is it localizes my information and it localizes my my
+development. What I mean by that is before we had a CRM tool that that company looked at
+and they wanted certain specific outcomes. I can change that now and I can show benefit
+to me as the as the individual user. So I can use
+
+[00:44:22]
+AI to give me information specific to my business while other people are getting other
+information from it. So I want to use my CRM differently because AI is going to tell me
+okay how many calls did I make or I can build it to give me the information that I need
+but I don't have to go to it to develop it. So I there's a so within my team we now
+focus on that mentality like hey before I had to do a business case to save me two hours
+of doing some type of work and I'd have to send it to it and it would take a look at it
+in two months and say it's not a priority because it's just for you. Well now I can do
+it just for me. Now I can actually have this work done just for me. It took me 15
+minutes right to to have a script from cloud to to tell me how to do it and I'm done.
+Answer your question. it is capturing the information is really important and there is
+an abundance of information but you can start creating gems and little scripts and and
+AI tools to feed what you want as long as you're defining what you want the outcome to
+be then you can start measuring that and using AI to pull the data specific to me as an
+individual and I think that's huge and that's a big change where what I uh AI is taking
+us is allowing me to build
+
+[00:45:27]
+something for me my business specifically. >> Absolutely. Yeah. And it's a whole can of
+worms now. I would love to be able to get into, but we are at time and so I I hate to
+say it, but I got to wrap this up here. Everybody, we have been talking with uh Tom
+Sterns and Peter Clearary uh among other things. They are the co-authors of Graphic
+Sales: How to Build a Prospecting Playbook. Guys, how can people get in touch with you?
+And any closing words for our audience? >> Sure. You can find us both on LinkedIn, um
+the book's on Amazon, globally, and any other digital uh book seller. And uh my website
+is sterns.io. >> And as we said during the call, this book is so much better than win
+friends and influence. How to win friends and influence people. So buy buy this book
+instead of that one. [laughter] >> Yeah. Don't pick up that rag. >> Yeah. And it's so
+old. It's definitely out of date, right? >> I think my granddad read kind of dusty copy
+in an attic. No. Pick up a graphic novel, man. Do the right thing. [laughter] >>
+Awesome. Justin, thank you. as always as well. Uh, always a pleasure and always
+
+[00:46:30]
+fun. >> So much fun, guys. Thank you. >> Thanks as always to our audience if you like
+what you're hearing. Uh, send us a note, shoot us a comment, let us know if there's
+other things that you want to talk about and we will catch everybody next time on SAS
+that app. Thanks all. Thanks for cruising along with us on [music] SAS that app. We hope
+you grabbed some insights that were inspiring, actionable, or at least entertaining. If
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

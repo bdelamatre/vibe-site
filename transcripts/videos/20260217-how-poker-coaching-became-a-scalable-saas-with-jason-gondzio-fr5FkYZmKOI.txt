@@ -1,0 +1,521 @@
+How Poker Coaching Became a Scalable SaaS with Jason Gondziola
+==============================================================
+
+Video ID:  fr5FkYZmKOI
+URL:       https://www.youtube.com/watch?v=fr5FkYZmKOI
+Published: 2026-02-17
+Duration:  00:32:26
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:01]
+Assessment is known across multiple domains, but certainly within poker to be the best
+path, the best way to articulate improvement, degradation, trend lines, spot where
+interventions are needed. Yet, we see this sort of resistant environment that's holding
+it up. So, I'm hoping to solve, at least in this little micro niche, a bit of that
+assessment paradox by deburdening coaches, deburening players. Welcome to SAS that app
+building B2B web applications. The podcast where we share real world stories, practical
+advice, and tech insights for those building or thinking about starting a tech- enabled
+business. I am your co-host, Aaron Marchbanks, and I'm Justin Edwards. Each week, we
+bring you the stories, strategies, and insights you need to build your SAS or tech-
+enabled business smarter, not harder. Let's dive right in. Yo, how is it going? We're
+back for yet another episode. Aaron, my bow tied companion. How are we doing? >> Doing
+well. I have added the sweater to the entire today because it is freaking freezing here
+and out next to two beautiful windows which love to leech
+
+[00:01:05]
+the cold into my room. >> Oh yeah. What is your wind chill currently? >> Currently it's
+not awful. Windchill's around like 6 or 8, but this weekend super looking forward to
+windchill of like -7 for my long run. And yeah, really not looking forward to that at
+all. >> Yeah. Well, I got two folks here in cold climates and I'm enjoying the 80 degree
+weather down here. So, that is what it is. Our guest today has a degree in philosophy.
+He has an MBA. He is a software developer, a data manager, and more importantly today's
+conversation, he is also a poker player, and a founder. Jason, welcome to the podcast.
+This is Jason Gonzola. >> Thanks, fellas. I'm really glad to be here. >> So, just to
+start off with the product that you're bringing, you have a product that's about to
+launch or pre-launch. tell us a little bit more about Strategim. >> Yeah, so Strategim
+is I believe the world's first dedicated poker learning management system and it seeks
+to in sort of the first iteration solve some problems that poker coaches face around
+
+[00:02:07]
+repetitive tasks, lack of clear assessment and tracking of their players outcomes and
+handling some of the administrative burden that they might face. Poker coaching does not
+seem to me to be like an obvious businessto business niche. I'm super curious how you
+landed upon it. >> Yeah, it's definitely very nichy niche. In my other life, I am a
+studied serious poker hobbyist. I play intermittently. As my friend puts it, I have
+poker seasons. So, in the past, once I realized that the strategies I cultivated circa
+2006 just didn't work anymore, I wound up seeking coaching. and in the process of doing
+that discovered that there's no real clear shared rigorous approach to how player data
+player analytics are collected, analyzed and shared by coaches. So I sought to start to
+do a little feeling around on that. I know a bunch of people from the scene. I started
+to reach out to them, talk to some professionals, talk to some coaches and get a feeling
+for is anything like this out there?
+
+[00:03:11]
+What are you using? What's your workflow? And based on that kind of started doing a very
+deep customer validation process where we evolved a set of features that I think would
+suit poker coaches well and that has led to again the first iteration of the product. >>
+So for folks who maybe aren't super familiar with poker who maybe feel as like a game of
+chance or just gambling can you speak a little bit to kind of like why someone would
+engage with a poker coach like is the game winnable? >> It's definitely beatable. It is
+consistently the only beatable game in a casino. Blackjack, you could say, at times, is
+beatable depending on what the house rules are. But poker is unique in that you're not
+playing against the house. You're playing against other players. So, in the words of a
+poker pro friend of mine, his job every morning is to wake up and find the eight dumbest
+people who are playing cards in Los Angeles and get at a table with them, you know, and
+there obviously is that kind of sharky predatory vibe about it. you are effectively
+taking the place of the house in a good poker game by saying, "I'm going to lay you odds
+that are actually bad for you, but you're going to call because you're not thinking
+deeply enough about what you
+
+[00:04:14]
+should be doing here." So, there's that element of it for sure. Definitely poker is a
+beatable game. >> The application such that you've developed, does it have or does it
+include components of teaching of lessons outside of just here's information for you to
+be able to absorb and do with as you will? So the foundational thesis of what I'm doing
+with the strategim system is poker right now has a large glut of knowledge creation and
+that's in the form typically of things that are coming out of solvers which are
+basically computer algorithms that play against each other and find these optimum lines.
+There's a saturation of that kind of information. What we're really lacking is knowledge
+management. So the system is actually very infrastructural. It's not there coming pre-
+populated with a bunch of lessons. It's there for poker knowledge capers, typically
+coaches, to come and input what they have for their students so that their students can
+through reinforcement learning algorithms, through different kinds of range exploration
+pick up on elements of the game that the coach has identified as being their weak
+points. >> Can you give an example of like
+
+[00:05:16]
+something that maybe someone's going to work on and how they would kind of engage with
+their coach on that problem and then how the platform would enable them to kind of drill
+that thing that's a weak point in their game? >> Yeah, definitely. So for instance, one
+of the coaches that I'm working with, you have a situation with his player pool where
+they are going to be sitting in live tournaments a lot where somebody completes the
+small blind. So what that means is they don't raise, they just call the blind. So it's a
+very weak passive play. And the optimal strategy in that situation is honestly to raise
+probably any two cards. So what you could do is set up that scenario within strategim
+and set up a series of drills for the player to drill that and you can actually be
+intelligent about it by blending that scenario in with other types of situations that
+they would encounter so that it's not just obvious force feeding of I know rays I know
+raise the platform will mix in the study hands with other randomized parts of the game
+so that you're giving a chance to reinforce that learning outcome in a more contextually
+appropriate or
+
+[00:06:20]
+realistic environment. >> Okay. And then so then they get to drill that and it's not
+just the same hand over and over. Blends in different kinds of hands, but then they get
+to identify the situation when it comes up and then take the correct action. And then
+there's a feedback piece after that where they get rated on kind of did they raise
+enough or >> Yeah, definitely. So there's an analytics dashboard that collects data from
+a number of different elements of the players behavior within the platform. Obviously,
+that's the simple one is did you bet the right hand that was in the right part of your
+range at that point in time. That's going to be a check mark. But we're also tracking
+about 10 other different analytic markers that the coach can use to intuitit further
+details on where the player is going wrong. There's another element to the platform as
+well in that one of the pain points we're trying to solve administratively is poker
+coaching right now from like an application perspective is this distributed web of
+different activities with different pieces of software. So we're unifying elements of
+that coaching practice into a single UI. A perfect example would be
+
+[00:07:23]
+hand histories. So most online players are collecting their hand histories. They're
+probably using software like Poker Tracker to track that and review. They can then
+export those hands. And generally what they would do is they go into Poker Tracker,
+export the hands, go into their email, attach it, send it to the coach. The coach then
+downloads it, opens it in Poker Tracker, goes back and email and annotates it. That
+entire workflow is collapsed into our system now so that you can upload hands. Coaches
+can review them, tag them directly on it, and cue them for review at your next session
+as well. So trying to really simplify and smooth out these tiny little fractional 2
+minutes there, 3 minutes there for these high hourly rate individuals, service providers
+so that you know it's going to be worth the price as it were. >> Talk a little bit about
+the pricing model that you've either got in mind or you've sort of already implemented.
+I'm curious, is this like a pretty standard service model? Is it like a monthly fee? Is
+it a per user sort of thing? Or is there like tiering for various skill sets of coaches?
+So, the pricing model currently is going to be somewhat of a
+
+[00:08:26]
+blend of a monthly subscription cost for coaches. Players who are working with a coach
+will have access to a suite of functions within the tool for free, but if they want to
+sort of go a bit further, a bit deeper, they can add on a sort of a higher tier for
+coaches as well. We're also looking at case load as a benchmark. So the coach who has,
+you know, 3 to five players is going to have a different price point from the coach who
+has 15. The other sort of market that I'm really looking at with a lot of interest is
+the coaching for profits or staking market. So right now, I mean this might frighten
+people away from sitting down at online tables, but basically there are groups of people
+doing mass data analytics on player tendencies within different player pools and they're
+aggregating that data and then using that to evolve a non-game theory optimal
+exploitative strategy where they're kind of poking at the places where you're weak and
+where you're maybe not defending enough or maybe you're over bluffing. They're using
+that data to send their players out in the field. And that is a market I'm very
+interested in approaching
+
+[00:09:30]
+because we can actually aggregate the entire player pool data of their staked players
+and use that to evaluate performance. >> Let me just put a couple of definitions for
+folks who aren't involved in the poker world. So game theory optimal is the idea there's
+kind of the appropriate way to play mathematically. And sometimes when you're playing
+against a person who's not playing optimally, there are mistakes versus what's game
+theory optimal, but they're actually the best way to play against that player. So, and
+correct me if I'm wrong, Jason, but you're basically saying that there's people who are
+analyzing player behaviors and then playing different than the optimal game in order to
+exploit things that they think those players are doing wrong. Is that right? >> Yeah,
+exactly that. Yeah, that would be called an exploitative strategy. And that leaves you
+open to exploitation, but that's okay. That's the trade-off that you're making because
+your hourly or your return on investment is going to be higher as a player. >> Well, and
+there you're playing the player, not the game. >> That's right. Exactly that. Yeah. Real
+quick, this episode is brought to you by Delta Systems, which is what Aaron and I do
+when we're not talking through microphones to you, the people of the internet. We've got
+a really, really great software team here, and we love to work with cool people on cool
+projects. So, if that sounds like you
+
+[00:10:32]
+and you've got a problem or you're in some kind of a jam, go to deltasystems.com, grab a
+time with us, we can beat up on your problem together, and if there's a fit there,
+amazing. We'll help you out. So, deltasystems.com, grab an appointment, and hey, maybe
+we can work together. Does any part of your analytics involve video components, facial
+recognition, ticks, tells, things along those lines, or is that something maybe that's
+way down the road on a road map? There are a number of people out there who are already
+doing a lot of work with analytics on tells on timings. There's actually an individual
+that has made a large data set of timing tells. So, what that means is you took this
+long in a pot this size and you bet this much. How many of times was that a bluff and
+how many times was that value? And I'm very interested in talking to those people who
+are holding these data sets more on the basis of an integration model of saying look we
+can use your data on a subscription basis for certain users who want to pay that extra
+premium and aggregate it in even just via a strict API call like I don't have to hold
+your
+
+[00:11:35]
+data to make this successful. But I do think like having a centralized venue to annotate
+poker knowledge is maybe another way to look at the play that I'm trying to make here.
+>> Sure. And obviously, you know, AI is very hot these days and is only going to become
+more so. I'm assuming that there is some component of that's leveraged within your
+system or to help build it or to build out these data sets or No, I'd say that the AI
+involvement in Strategy certainly on the development side. I'm in a very AI enabled
+development environment within the system. I'm definitely looking to do some natural
+language processing where you basically speak a hand history and it will translate it to
+a schema that my system understands for storage. That's a real pain point. Again, live
+poker coaches have addressed is, hey, how do I get these live hands in quickly? I'm in
+the middle of something. Well, if you could just speak it into a recorder directly into
+the app, we would then transcribe it into a notation that the system understands. other
+elements maybe I sort of really want to be mindful to walk the line and not end up
+delivering the poison pills poker coaching right like I actually think I'm a bit of a
+traditionalist even though I'm a highly
+
+[00:12:37]
+technical person that I really think humanto human contact is important I think humans
+are very good at contextualizing and sort of some of these more intuitive type of
+analyses and I want to make sure that there's always space for that within the market so
+at this point I'm not really looking at like highly AI enabled strategies that are going
+to end up replacing the human judgment. I'm actually trying to use this as a streamlined
+way to get the clutter out of the way when you need a human in the loop. >> All right.
+So, you're technical, so I guess it dig in. What's your text stack? What' you write this
+thing in? >> It's on a PostgreSQL database with a node API layer react on top inside of
+my IDE. I'm using VS Code. And let me back the truck up. It's always been in VS Code,
+but I started writing this thing back when chat GPT3 and then 3.5 were the models. So,
+it was like I don't know if you were developing using those tools at the time, but like
+you're shuttling stuff out of one window into another. Finally, someone said, "Hey, why
+don't we just make the II live in your IDE?" And it was like, "Thank you for that."
+
+[00:13:38]
+So, I had like massive sets of rules and ongoing documentation and self-documenting
+agents and different sort of tasks or commands that can be called within it. I've
+actually written in the process of this a whole other piece of software that I might end
+up sort of marketing, but it's like a work management system that sort of hybridizes
+views between a cananban style board and sort of interactive node graph to show you
+dependencies. That kind of stuff is what I'm using to develop it because I am flying
+solo. Like I'm completely bootstrapped. I wake up at 5:00 a.m. every day. This is what I
+do. I wake up and do this for a few hours, get my kid on the bus, go do my bike ride,
+come back in and do another hour and a half until my workday starts, and then fit in any
+other time that I can. So the LLM enabled coding environments have been I couldn't have
+done it without it 100%. I just wouldn't have had the time or the bankroll. >> Yeah. And
+I want to continue to bring more content that's specific to how people are engaging with
+AI and how people are using it. We had a guest very recently who spent a long time
+talking about his AI coding environment. He's a little bit different than mine, but very
+
+[00:14:40]
+cool. And yeah, I think there's not a ton of content out there about people discussing
+the pros and cons of their different ways of engaging with AI, specifically in the
+development process, which as of like this year, late last year, early this year, has
+actually been a game changer. The changes we've seen in the last 6 months are
+remarkable. Before that, I was ready to say I don't think this is exactly ready yet. And
+now I'm becoming convinced that we're here and that's the way that everything is moving.
+So love to have you back on for that if you want to share more more specifics about your
+setup with a group of folks. >> Yeah, I would. And maybe just one quick comment on that.
+I think one of the interesting differences that has changed as we've sort of crossed
+that six-month horizon where you do have these agents that are very capable is you as a
+developer get to think at this higher level of abstraction and you almost think almost
+more like a product owner might. You're sort of thinking about these sort of feature
+sets. You can deliver things in plain English. You can also as a developer spot and say,
+"Hey, I notice you're reinventing the wheel here, direct your attention to this
+component, which will actually do what we're trying to do here already." So, it's not
+quite at the place where you can take your hands off the wheel. I'm
+
+[00:15:42]
+still watching all the outputs because plenty of times reinventing the wheel is a real
+I'd say that's a real sort of tendency of the LLM environment right now. Yes, they're
+extremely great at generating content and they don't actually have a lot of attention to
+proper organization and they tend to bias towards creating their own stuff and I've um
+very similar to you though I specifically interrupt my agents a lot and be like hey I'm
+already doing that in this service please just lift and shift that thing that I'm
+already doing like don't write this again. >> Yeah. Yeah. Or make this component
+generalizable so many of the consumers can now use it instead of basically writing it
+three extra times. And please don't put emojis into comments into my file. [laughter] >>
+No emojis. It's one of my rules. Listen, >> haven't we all checked that box by now?
+[laughter] No, that one at no hyphens. I checked that one very quickly. >> Oh, that
+hurts me though. I was a professional writer for many years. I love the M dash and I
+feel like I'm at I'm just watching it die and it's I feel so sheepish now when I use it
+cuz I know people are looking being like, "Hey, what is this AI generator?" I'm like,
+"No, the M dash is awesome." >> No, no, no argument there. I really
+
+[00:16:45]
+appreciate punctuation in all of its forms. I just can't stand the overuse or misuse. >>
+That drives me absolutely crazy. >> Yes. >> Yeah. [laughter] >> Where are my semicolons?
+I'm all about that. You know, bring that stuff on. Please don't take away my Oxford
+comma. You know, >> never. >> So, things like this. Well, back on the tech side, you had
+mentioned you're closing in on a beta. Is that right? >> Yeah. >> That was going to be
+my first question is how close are you? What's that looking like? >> We are, I would
+say, 14 days away from beta at this point. I have all of the major screens and
+interfaces done obviously all the backend and analytics and all that and I'm just
+locking up that sort of version one of the loop like how do you enter what is your
+screen look like what do you keep returning to as a user and I've actually got an
+instructional design consultant who's going to be looking at that tomorrow specifically
+with that view particularly also because one of the things I really want to do is take
+good strong pedagogical concepts and effectively abstract them into the UI so that it
+forces the coach to behave in the best practices of learning and learning management
+because the reality is poker coaches are they're not that is
+
+[00:17:49]
+generally you generally don't have a lot of teachers who end up going into poker
+coaching. So if your UI can actually guide them towards best practice their coaching
+practice is going to be better for it. >> Yeah, I completely agree with that. I'm a
+former instructor in several ways myself and I really appreciate good adult learning
+process and was trained in several different ways myself and that only improved what I
+was actually trying to teach in the first place. So you know my mentor always said I can
+teach you the process by which you go about this to make your make your learning models
+better help you you know engage better where you need to come in is on the skill. So you
+know in that particular case it was on technical stuff you know how to Microsoft Word
+and Excel and Noville networks and things like that. So you know I had all of that I
+just need to know how to put that forward better. So I appreciate that aspect very much
+of what it is that you're trying to do. Those best practices mean a lot. >> Awesome. And
+that means a lot just hearing that because I think that's one of these untested ideas
+that haven't been tested in the field yet on my product. I mean I I know in lived
+experience of others but you know to take that and apply it into particularly the poker
+coaching niche to see how that how's that going to go. >> Yeah. And in a general sense
+adult learning is very different than when
+
+[00:18:52]
+you're younger. You know the process by which we learn as adults is very different than
+when you're younger. The curves are at different points along the way to say the least.
+But that sort of stuff very much interests me. I'm always excited about that. My mother
+was a teacher. My mother-in-law is a teacher. I was raised by educators and so that's
+always been something that's very near and dear to my heart. So I appreciate that. >>
+Yeah, my sister's a teacher too. Yeah, I a lot of respect. >> Yeah, I think having
+learning science inform product, especially when the product is supposed to teach
+something, it just makes a it makes a ton of sense. It shouldn't be as novel as it is,
+but hats off to you for doing that. I think it's exactly right. One question I had which
+is a little bit more for your customers but are you actually doing analysis versus like
+game theory optimal on hand histories in order to help coaches just to flag for them
+what the leaks in the game are or is that's largely dependent on them or how does your
+platform enable coaches to figure out what to focus on? >> Yeah, that's a really good
+question. So there's already very good products on the market that are providing that
+take my hand and compare it to the baseline GTO approach. If a coach wants to input GTO
+theories into Strategim and run that
+
+[00:19:56]
+analysis, 100% that will happen. But that may not be the most expedient place to come
+from as an educator or as a coach where they're concerned. They might actually be
+interested more and that earlier example of just raise any two cards. I know that's not
+exactly GTO. GTO might have you sort of mixing or folding some degree, but for where
+you're at in your learning journey in this particular spot where small blind limps, you
+need to just blast them. And until you can kind of repeatedly do that, we're not going
+to get into the nuance of how you develop a well- balanced range for that particular
+moment. It's going to be very much we're going to brute force this till you get it and
+then get a little more sophisticated. >> Oh, another question which is more of a poker
+question than a software question, but like for my typical game, I'm a no limit player
+when I play. So, I'm playing small stakes no limit 2512. I played 510 once. Let's not
+talk about that. But it was a lot of money that went away really quick anyway. But my
+typical small stakes, it's just like I'm raising pretty wide. I'm c betting at 90%. And
+that's my game. I mean, it's exploitable, but there's a few people
+
+[00:20:59]
+like depending on who's in the hand, I'll be like, I don't want to play a hand with that
+guy. And so, like, I won't see on him if he's the only one left in the hangs. I know
+it'll play back at me or whatever. But for the most part, I'm just sitting there and
+very rarely do I get to showdown. And if I do, it's like I have a really good hand and
+I'm basically at the flop being like, I'm going to the river on this hand and my goal
+now is to get all my chips into the middle. Like that's the level of so really like
+that's pretty much most hands that I play. So it's a huge amount of preamble. But is
+there like an adaptation that happens as you bump stakes and the average player at your
+table is actually not going to be beaten by a C bet or you know bomb every flop and then
+see bet? >> Yes. Rewind in time to circa 2015. When I came back I took almost 10 years
+off of poker and when I came back I had the exact same strategy. Raise wide seed almost
+every time. People just folded. It was like printing money. I'm playing online mostly,
+partly because I live in a rural area, partly because my preferred game, Limit Holde,
+really isn't spread anywhere except for places very far from where I live. So, as a
+result, I end up playing this kind of nichy game. What I walked into in the mid2010s was
+a player pool that was much
+
+[00:22:04]
+more sophisticated than the one I left. And so, now you need to start thinking a little
+more advanced. So when you end up in these situations where you have a higher degree of
+sophistication where your opponents are basically tougher, you start to get into all
+these leveling wars where you're coming into a spot and you're like, I'm sebetting wide.
+They know I'm sebetting wide. Therefore, I'm going to re-er not super wide, but with a
+balanced range that does include some bluffs or semibluffs so that when certain cards
+come up on the next street, I can represent something or keep barreling as though they
+think I made my hand on the first street. So yes, to answer your question, it does get
+more and more complicated as you go up in stakes and those counter strategies become
+more and more nuanced because you are now taking a wider set of behaviors into
+consideration where the ranges of those behaviors are balanced. So somebody who's coming
+back at you is going to be bluffing some of the time. Whereas when you're playing small
+stakes, the guy who reres you probably almost always has it. So it's an easy fold. >>
+That makes sense. So, you're kind of essentially trying to polarize your
+
+[00:23:07]
+range where you're either holding the best thing ever or something that's not too great.
+And on the earlier streets, if you're holding something that's not too great, that might
+turn into something pretty good. You're more inclined to play those hands from the
+crappy part of your range there. >> Yeah. And your sebetting frequency on those early
+streets, your continuation bet is going to contain cards that are likely to improve on
+later streets. So if you hold cards in your hand and there is no backdoor flush draw for
+instance, you're probably not even going to bother seabbetting them in some cases
+because you're going to get blown off your hand every time the person raises. So within
+your system, are there mechanisms for showing that to players? Like you know, you've
+improved this much. We're going to move you into like a new tier or your coach in some
+way rewards you with, I'll just call them points, you know, something to indicate that
+you have moved into another level or something where you can take in a wider amount of
+variables in a given situation. >> Yeah. I mean, you just gave me an idea maybe for a
+feature where a coach can suggest a stake level that you might be ready for. Right now,
+the way it goes is, yeah, you do get feedback, your coach gets feedback. It doesn't
+necessarily aggregate that into saying,
+
+[00:24:10]
+hey, based on your behavior, you'd be really good at this level, but it does give you
+sort of feedback. And again, back to my earlier point about these different inference
+mechanisms, which are going to collect other data points based on your behavior. All of
+that can kind of be aggregated into a more complete picture. The version one beta is
+going to be really straightforward. It's honestly much more based on like right wrong
+heat maps and stuff like that. But again, as we collect data, we can start to mine it.
+We can use machine learning to basically spot out where somebody's improving or
+degrading based on a much broader set than just right and wrong. >> Yeah. So that that
+actually leads me to another question that I actually had earlier, but this I think is a
+better spot for it. So from a technical standpoint, from a software development
+standpoint, you've got this beta that you've worked up, you're about to release. So
+stepping back just a little bit, how do you as the owner and builder of this product,
+how do you demarcate we are at beta. This is good enough for me to release. I've hit a
+certain set of features that I'm happy with. Is it I want to do these 10 things, but I
+know when I get to thing three or four, I'm ready to release. What's your process
+
+[00:25:13]
+there for deciding this is good enough to release for now and the rest goes on a road
+map? You know, I think a lot of that really does come down to the customer validation
+and pre-planning that went into this where I am really trying to check boxes off in
+terms of solving different pain points that I'm hearing. So, as I'm coming to the end of
+that first round of pain points, I'm saying, okay, I'm confident that this is going to
+solve them. And the other piece of that is I'm confident that there's a workflow within
+this that the user can follow to solve those pain points. that I've got enough screens
+in the way and it's not having to do three clicks to get over here that everything kind
+of flows and dumps into each other. >> So, I'd love to know a little bit about your plan
+for marketing this. Is there like a user only tier where people are going to start using
+this at that level without a coach? Is it just for coaches? Like what's your plans for
+your role as you get into your beta? You know, I think the real underlying thesis of the
+product is I know I'm calling it a poker learning management system, but it's actually a
+poker data storage and annotation system. It's more truly a knowledge management system
+that's just
+
+[00:26:16]
+been skinned as an LMS. So, as a result, where I really think that there's some room
+here is this tool can be used to capture and describe hands from, I believe right now,
+something like 19 poker variants. So, I'm not just doing hold them. You can do deuce to
+seven low ball. You can do bedgi. You can do archie or ace to five. Like there's all
+sorts of games that are really atypical that are kind of fun because they haven't been
+solved. So one particular very organic marketing direction I'm really curious about is
+can a tool like this be used on forums or even as its own simple social forum of here's
+this weird hand in this weird game you've never heard of. Up thumb down thumb for each
+action on the node of this game tree. right here like what decision would you take? So I
+think that there's an element of that that could be interesting. I think the other part
+of my marketing strategy is to just put it out there what people have told me is I'm
+pretty atypical as far as poker and poker software devs go. I have a really diverse
+background that includes a lot
+
+[00:27:19]
+of community- based consultation work and building systems that suit and that's across
+like mental health. It's a First Nations language reclamation is a area that I've done
+extensive work in. I think for me to come out and maybe talk a bit about some of the
+behind thescenes thinking and frameworks that I'm using to develop this might provide
+some interesting content and to sort of maybe challenge the community to think a little
+less siloed and in a little more of an integrated way. So the Cole's notes on how I'd
+put it, I'd say it's sort of like this category creation, thought leadership sort of
+play because coaching has lasted 20 years with no real software backbone. And I'm also a
+certified change management professional. So I recognize very clearly this is going to
+be a change management problem, maybe even more than anything else. So I think part of
+it is making the case, making content that's going to illustrate it, encouraging people
+to play within it. So, I think from a marketing perspective, it's sort of this somewhat
+of a spaghetti mess, but there's an octopus at the middle of all those tentacles, if you
+will. >> Yeah. I think that you're again, I just
+
+[00:28:21]
+I'm going to keep coming back to it because I just really appreciate that you're
+approaching this from the angle of teaching or being taught and learning. I mean,
+there's obviously just truckloads of stuff out there about the game of poker. I did
+actually get through the book of Super System and things like that, you know, back in
+the day. But I find it very refreshing that you're taking a place where there is
+obviously this wealth of knowledge and there is certainly an enormous following and it
+has had no systematized approach to teaching people how to get there other than those
+who like pick up a book or know the you know same five people that wind up at the table
+every single time. So I really very much appreciate that. My question that I was going
+to have from the very beginning of this, and you've already kind of answered it, is is
+your lean more toward creating a learning management tool or system that could be
+leveraged for other games, or is this to create something for the world of poker that
+also happens to have the advantage of being a learning management system? I'd say
+initially it's probably more the latter where this is really poker centric, but a lot of
+the sort of abstraction techniques and object transformations at the game tree level
+certainly would be applicable to any other complete or incomplete
+
+[00:29:24]
+information game. The principles of reinforcement learning and space repetition
+algorithms, right? Like those types of background mechanisms are useful for any type of
+learning, but for the next few years, I would imagine it's going to be very pokerentric.
+But you never know. Well, I mean, sometimes some weird pivot opportunity comes up, you
+know, like I I know a developer that was working on a tool and he immediately thought,
+hey, you know what? This might be really good for chess. And it's like, sure. I mean,
+yes, >> that's where my head was going. Yep. >> Back gaming chess. Yeah. >> Yeah.
+Anything that really lends itself well to a sort of node-based tree where you can
+recurse down, calculate values, minimize regret. Like, that's what solvers do. So,
+there's plenty of games that do that. Well, is there anything we should have asked you
+about Strategy, about your journey that that we didn't that's too good to let go? >> If
+I was going to sum it up, I'd say that there's this really interesting I've kind of
+taken to calling it the assessment paradox in poker. And it's interesting this happens
+in mental health as well. There's 20 years of evidence behind measurement based care,
+which is in my day job. I just finished running a large provincial project across, you
+know, 39 different sites
+
+[00:30:27]
+trying to get frontline providers to use rigorous ongoing measurement. And that was also
+a change management challenge. And I think we have this interesting sort of paradox
+where assessment is known across multiple domains but certainly within poker to be the
+best path, the best way to articulate improvement, degradation, trend lines, spot where
+interventions are needed. Yet we see this sort of resistant environment that's holding
+it up. So I'm hoping to solve at least in this little micro niche a bit of that
+assessment paradox by deburdening coaches, deburdening players, and sort of allowing
+that free flowing of information so that they can do the work that's actually in their
+domain. They don't have to be office admins. They don't have to shoot from the hip and
+come at this from an intuitive perspective, you know. So I think that's maybe if I was
+going to sum it up, the real vision of what I'm trying to do here. >> Absolutely. Well
+said. I think that's probably a great place to clip it. Where can folks connect with
+you? Where can folks sign up for the beta? >> Yeah, head on over to strategim. St r a t
+a g- e m.poker. There's a wait list sign up there. You can email me at
+
+[00:31:32]
+info@strategim.poker. Our socials are all down there. We've got a Discord sign up. Just
+scroll down to the footer. It's all there. Oh, and blogs. I've got a blog at
+labs.strategim.poker as well if you're interested. >> We will link to all of that in the
+doobly-doo. I think the YouTube people say in the show notes for podcast folks. I'm bad
+at social media. Cool. Well, thanks so much for flying along with us, Jason. It was
+awesome to meet you. It was awesome to learn about Strategy. >> Thanks for mopping me.
+>> Aaron, always a pleasure to see you, my friend. >> Indeed. Indeed. Love the session.
+>> Thanks so much. And good luck to all of our poker players out there. >> Yeah. >>
+Byebye. >> Take care. Thanks. >> Thanks for cruising along with us on SAS that app. We
+hope you grabbed some insights that were inspiring, actionable, or [music] at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

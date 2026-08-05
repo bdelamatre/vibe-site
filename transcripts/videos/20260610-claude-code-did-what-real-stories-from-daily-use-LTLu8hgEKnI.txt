@@ -1,0 +1,846 @@
+Claude Code Did What? Real Stories From Daily Use
+=================================================
+
+Video ID:  LTLu8hgEKnI
+URL:       https://www.youtube.com/watch?v=LTLu8hgEKnI
+Published: 2026-06-10
+Duration:  00:50:43
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Since switching to Claude, I've been able to do a lot more like big features. I have now
+done this multiple times where Claude has gone and built a huge feature and I'm like
+okay, that's cute. Thanks for all your work on that Claude. Get reset hard head >>
+[music] >> context clear. All right, now I'm going to write a brand new plan and you can
+never do this with traditional software development, right? It's just way too
+inefficient. >> Welcome to SAS that app, building B2B web applications. The podcast
+where we share real-world stories, practical advice, and tech insights for those
+building or thinking about starting a tech-enabled business. I am your co-host, Aaron
+Marshbanks. >> And I'm Justin Edwards. >> Each week we bring you the stories,
+strategies, and insights you need to build your SAS or tech-enabled business smarter,
+not harder. Let's dive right in. >> We are back and we're having another fantastic
+episode of SAS that app. With me as almost always is my spectacled and bow-tied
+companion, Mr. Aaron
+
+[00:01:02]
+Marshbanks. How are you doing, my friend? >> Doing very well. Enjoying the lovely spring
+weather and and getting out and doing my runs again, which is awesome. No treadmill for
+me. >> It was too hot here yesterday. I had to give up and go to go to the gym and do it
+on the treadmill cuz it was the feels like index was over 100° and I was like that
+sounds sinister. >> I know. I'm I'm already mapping out where I'm going to go when I
+when I come to see you guys, but then I forgot to take into account that the heat and
+humidity. So it may be like, you know, oh dark 30 or something. Get out. >> Get get
+after it in the morning, otherwise you're going to pay for it. But uh or else you just
+have to run slower. It's not the worst thing in the world. >> No, huh? >> Easy does it.
+>> Today we are doing a second installment, second episode in our kind of informal AI
+Claude coding uh series in the death of software engineering and all of that and today
+on this episode we have uh invited one of our internal programming geniuses, Mr. Daniel
+Cannon. Welcome to the pod, sir. >> Hey, how's it going? >> Have you heard of Claude? >>
+What's that? >> [laughter] >> Oh man, it's going to be a rough episode. >> Oh god. We
+were relying on you to bring it, Jeff. Daniel and Daniel have got to
+
+[00:02:04]
+You've got to carry this. >> Is that kind of Is it kind of like Chat GPT? Is that kind
+of what it is? I think I've heard something about this. >> like that, yeah. >> Okay.
+Yeah, yeah, yeah. All right. Yeah, let me go Let me Google it really quickly and yeah,
+I'll get ready for this episode. Actually, just go to Claude and type in I'm actually on
+a podcast right now where I need to talk about Claude code. Help me out I've got to do
+it right now. >> do that. I should do that. That's a great [laughter] idea. >> Who are
+you and how can you help? >> Jerk Society, can you can you let folks know a little bit
+about kind of how you're using AI tools for coding, what's like what your experience has
+been, how that kind of looks? >> Oh yeah, absolutely. I mean, Claude has been you know,
+an interesting thing that's come on the scene. It's been a dynamic and and crazy year or
+so here you know, getting used to incorporating AI tools into into life and everything
+that we do. It's been a It's been a roller coaster. It's definitely been kind of you
+know, moments of you know, AI sucks versus AI is taking my job versus AI's kind of okay.
+When it's kind of all over the all over the
+
+[00:03:07]
+gamut. But yeah, I mean I would say I've used Claude on the daily at this point.
+Sometimes I use Codex. I think in general I'm still a much bigger fan of Claude than
+Codex. But you know, it has its place in my workflow for sure and yeah, it's still it's
+an evolving workflow. I mean, I think we're all figuring this out. If anybody says that
+they know what they're doing, they're lying because this is all extremely new. Um But
+yeah, I don't know. I mean, what specifically where do you want to go with this? What do
+you want to know? >> Well, yeah. You walk me through walk me through like a typical
+you're about to you're about to write something. Maybe you've got a client project and
+there's like a medium-size new feature that you're going to implement. Maybe you're
+adding like a a new layer of abstraction related to like um different locations. Let's
+say it's some kind of a a service that has uh employees and and customers, but you need
+to like install locations into a post talk. So, how would you how would you tackle that
+problem today in 2026 with Claude or whatever? >> Well, I can tell you what I won't do,
+which is I'm not going to open up an IDE. Um that's that's uh about the last thing that
+I that I do. Uh I will I'll
+
+[00:04:12]
+pretty much open up an IDE anymore. If I'm making like copy edits, like that's about the
+only time I would really you know open up uh open up an IDE. Um no, so I mean I mean
+yeah, absolutely. I I would definitely implement that using um using Claude. Um sort of
+you know the workflow that I've sort of gravitated toward is is actually kind of more of
+a of a BDUF like a big design up front uh workflow for larger features, which is so
+contrary to how I've always preached development. So, it's been a bit of a of a mind
+warp, but it's basically like I will sit down with the feature, with the idea, and I
+will write a spec. I will write a spec with bullet points about these are the functional
+requirements that must be satisfied. Um I'll write very strict rules about these are
+this is how it needs to be implemented. Even though it's in Claude MD, even though it's
+in skills, I will reiterate that you need to follow the conventions in the project. Here
+are what the conventions in the project are. Don't go off and do your own thing. If you
+deviate from the plan, you need to talk to me. Um and then sort of like I mean depending
+upon the the largeness of the feature, there's a few different ways that I
+
+[00:05:13]
+would go about doing it. Uh one is using a plugin called superpowers. Um superpowers is
+very cool and very powerful, but it has some major drawbacks as well. With superpowers,
+it's basically a a huge set of skills as well as a um you know like a workflow. And it's
+very opinionated about how you're supposed to be developing software. So, like it wants
+to do test-driven development. It wants to write tests first. That's kind of contrary to
+my usual workflow, but I find actually working with AI tools sometimes TDD has has its
+place. Um and so it takes you through like a brainstorming process where it will read
+your sort of ideation document is always what I kind of called the first like spec that
+I put together. Um, from brainstorming it asks you a bunch of questions. Sometimes it
+does like a share a browser thing with you and you can work work with it together on
+designs and layout. Um, and then it kind of comes up with a plan and you go through and
+approve every step of the plan and then it comes up with the spec and then you you kind
+of go through and you give it feedback and and approve the spec and then at that point
+like the
+
+[00:06:15]
+typical superpowers thing is you just kind of hit go and it will usually spin up uh sub
+agents depending on how complicated it is. It'll spin up um sub agents. There are ways
+to kind of tweak it to um, you know, use use different um methods inside those sub
+agents so you're not always using like the most expensive intense model um, for example.
+Um, and so then you you can kind of let it let it run and it goes and builds get work
+trees and it goes and you know, builds the uh the code um, and then it comes back and
+asks you to manual review and so this is like the philosophy of how superpowers is
+supposed to work. Um, and I'm moving away from that honestly. I I think that uh my
+experience has been it goes off and it works for many many many hours and then it comes
+back and it doesn't work and it doesn't follow the spec and it's come up with its own
+ideas about what it was supposed to do which isn't what I told it to do and so then I
+get to spend hours yelling at and cussing at the bot. By the way, there was a there was
+a leak a while ago of Anthropic's source code and one of the things that came out of
+that is that they are tracking the profanity that you are using with the bot. >>
+[laughter]
+
+[00:07:17]
+>> Yes. >> I've just like leaped I've just leaned into this in a big way. Like I did for
+me this is filing a bug report. So, I just I just swear at Claude and then I'm like,
+"Great. Now that's going to Anthropic and they they know that the bot screwed up." Um,
+so I'm actually kind of what I have found is that this is problematic and so I'm sort of
+shifting myself away from just doing this hands-off sort of lazy approach to letting the
+bot do it and I'm actually going back to where I sort of started, which is I'm approving
+every single edit as it as it goes through, and that way I can kind of course correct as
+we go. It's a much In some ways, it's a much harder way to work, but I actually feel
+like it's a going slower to going faster approach, you know? And Claude is already
+giving me, you know, even working this way, I'm getting a 10-20x speed up working with
+Claude. And so, I don't need to squeeze every last drop of juice out out of this. Like,
+let's let's let's go 10x. 10x is fine. 10x is fast. Let's get it done, and then we get
+it done right, and we're not pushing up these pull requests that are thousands of files,
+and then, you know, and then having it do its automated peer review, and then it finds
+all these weird edge
+
+[00:08:20]
+cases that it thinks it needs to robustify against. It's like, "Stop. Stop. Like, let me
+do let me be the developer. Let me work with Claude." So, so that's more how how I'm
+working with Claude these days, but it's evolving. >> That's been a chief concern of
+mine since that since the outset is is there going to be a a mad rush to the extreme?
+Look at all these amazing tools. I'm on the bleeding bleeding edge of amazing. And and
+you're going to have a lot of people using that that aren't like you, that aren't maybe
+as senior or are architecturally minded, and it's going to be fine. And and it's going
+to result in a lot of stuff happening very fast, but poorly, and the poor part won't
+show up until you add a feature or you scale or you or you need to do something more
+with it, and somebody else looks under the covers, and they're like, "What is this
+mess?" So, that's that's always been a concern of mine. So, it's interesting to me to
+hear that you've had that type of an experience. >> Yep. Bingo. >> We have a long
+celebrated trend in technology where everyone identifies a silver bullet, and then it
+promptly shoots himself in the foot with it. That's uh >> Yeah. That's just how That's
+just how that goes. Um So, I guess one question I had, Daniel,
+
+[00:09:22]
+is you talked about like the planning phase and kind of talked about superpowers a
+little bit. So, uh does the Do you still do a big planning phase if you're going to
+improve in every individual edit, or is that kind of like Are there two modalities that
+kind of got mixed together? >> Yeah, no, I mean, I still do the planning. I think you
+know, again, it depends how complicated is this feature that that I'm doing. You know,
+if it's if it's a bug fix, no, I don't go through this. I mean, with the with the bug
+fix, I'm like, Claude, this is broken, fix it. And and then I let him fix it and then I
+peer review the fix. Like I mean, that's that's simple. This is more like, you know,
+doing a big overhaul, doing like a big feature, something where it's like very hard to
+chunk this out as small things. Like no, we're doing a big thing. Um and since switching
+to Claude, I've been able to do a lot more like big features. So, this you know, it used
+to be a big feature was a once a month thing. Now, it's like a yeah, once once a day I'm
+doing you know, I'm doing a big feature and then I'm also doing small little things at
+the same time and I can switch uh you know, contexts between different agents that are
+running and like this so I mean, it's it's been a a huge speed up uh in that way. Um but
+I mean, I I do think the planning is is useful and you know, one of the things that I've
+really
+
+[00:10:25]
+found especially for um features that are not super developed by by which I mean, like
+from a idea standpoint, uh it's actually been very helpful for me to let Claude kind of
+go off and build something and then see what he build and then learn from that and be
+like, huh, okay, so there was good here, there was bad here, we went down this wrong
+path, we you know, and then I will literally just throw it out. I mean, I have now done
+this multiple times where Claude has gone and built a huge feature and I'm like, okay,
+that's cute. Thanks for all your work on that, Claude. Get reset hard head context
+clear. All right, now I'm going to write a brand new plan uh and I'm now going to have
+all the learnings from everything I did wrong that time. And and you could never do this
+with traditional software development, right? It's just way too inefficient, but it's
+not that big of a deal, you know, you might use up your 5-hour you know, usage window
+and have to go, you know, heaven forbid take a walk through the park or something. Um
+but it's uh no, it's it's actually been really cool to just kind of go down a rabbit
+hole and then just kind of reset and start over. >> Real quick, this [music] episode is
+
+[00:11:28]
+brought to you by Delta systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here, and we'd love to work with cool people on cool projects. So, that
+sounds like you, when you've got a problem, or you're in some kind of a jam, go to
+deltasystems.com, [music] grab a time with us. We can beat up on your problem together,
+and if there's a fit there, amazing, we'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. Yeah, I remember like early early in
+the days of the of of our company, um especially, but I think probably this is true of a
+lot of consultancies, is there was a time when you spent a whole lot of time up front
+going through what is now known more as a discovery phase, but you know, back in those
+days it was almost a lost leader of putting together this big blueprint. You know, I
+mean, it's like a Bible. Like, here's the document of what it is that we're going to
+build, and that that's what ultimately would get you approval from a client. And and you
+know, that's what we'd tack estimates to, that's what we'd tack timelines to, and you
+would just build that exact thing. Obviously, somewhere along the way we got better and
+better, and we moved away from that, because we can
+
+[00:12:30]
+build quickly and get through this iterative process, very agile-ish, you know, and I
+feel like now we got a really nice opportunity to kind of come back to that a little
+bit, spend more time planning, because we are going to be babysitting agents as much as
+anything else, and you can really take the time again to say, here here is what I really
+want, and get more maybe out of it on the first pass than you would, you know, without
+it, with with just kind of going through the process, so. That's cool. >> Yeah, I I
+agree, and I mean, I think it's been kind of weird to sort of become a little bit more
+of a waterfall, you know, developer in a lot of ways, of like laying out requirements up
+front. But but also still recognizing that you can be very nimble at the end. And so,
+even if your spec is totally wrong, which they all are, they're every spec is wrong,
+every spec is completely wrong, and that's what waterfall always failed to acknowledge,
+is that great, yeah, you spent 3 months developing the plan for how to build it, and
+then you built it, and you built it according to plan, but the plan sucked, and so now
+that's all just waste. You know, so instead, working with Claude, and working in this
+more nimble way, it's like, great, the plan sucked and then at the end we can see what's
+wrong and we can fix it. We can iterate on it or we can even throw it all out and start
+all
+
+[00:13:33]
+over. It's not that big of a deal. >> Mhm. Right right along with one of my favorite
+quotes, which I think is attributed to Patton, but it's um plans are useless but
+planning is everything. And I think that's really true in in software. Um so how about
+for uh you you mentioned AI assisted uh code reviews. I've had some struggles with that
+uh specifically myself. I'm curious kind of what just give me a little bit of your give
+me a fresh take on on that. >> Yeah, I you know I know there are a lot of things that
+are getting very popular right now for doing automated peer reviews and automated peer
+review fixes. I'm so opposed to that. Um I I think it's such a bad idea, but I mean that
+does seem to be where a lot of people are going. Um yeah, so so I mean like I I use uh
+Claude and Codex for doing code reviews. Um and I and I do them very frequently. Like
+I'm I won't just do it when I'm done with the feature. I'll do it kind of in the middle
+and I will just sort of prompt uh Claude for example Um and you know, there's kind of
+two plugins that I use that already have like peer review skills built into it, but even
+on top of that, I still give it a prompt which is kind of uh imagine that you are X.
+This is like AI just
+
+[00:14:36]
+loves this. AI is great at role-playing. It's kind of where a lot of this stuff, you
+know, these LLMs kind of came from was this role-playing world. And so it's like yeah,
+put on put on the hat and pretend that you are an X. And I will tell it pretend you are
+a senior Ruby on Rails developer with centuries of experience developing AI tools, you
+know, what whatever. Uh whatever it can imagine. Um and and so I'll tell it to do a peer
+review that way. I'll also do it like from a user perspective. Like you know, to pretend
+that you are one of our users. Pretend that you are not a computer-savvy person. Uh
+pretend that you have a disability. You know, you you're using a screen reader. How
+would using this app be? What are things that you would flag? And and it's like it's a
+little tedious to have to like give it this big verbose prompt and everybody always
+says, "Oh well, if you're if you're giving the same prompt again, you should turn that
+into a skill." But I find it like it you repetition is everything and just re-reminding
+the bot again and again and again like this is what I'm trying to get out is actually
+really helpful to getting better results. Um and so I'll do a code review with Claude.
+I'll also do a code review with Codex. Um and they usually come back with a list of
+findings and they'll have findings that are critical, you know, major findings and
+initially when I started doing this I'd be like, oh
+
+[00:15:40]
+well, yeah, like let's just just fix that. And so I'd be like fix everything. And and
+and you'd end up with these pull requests that get pushed up that would have like
+database migrations or adding these crazy constraints and enabling post grads extensions
+to be able and it is like what are you trying to solve? It's like, well, we don't want
+two of these things to have overlapping time frames. Like I don't care. It's that's not
+a problem. That's not even a data consistency problem. How did you get this in your your
+head that this was a problem? So I I've learned to be a lot more critical and I'll read
+the peer review feedback very cautiously. Um I need to make sure that I understand every
+single thing that he's flagging before I say go. Um and for the most part unless it's
+like writing tests like tests I'll let him do it on auto mode but for the most part if
+it's like he's actually doing code changes I'll literally just step through every single
+edit with him and watch him real time what he's going because so often it's just he
+starts, you know, I think I know what he's doing and then I see what he's doing and I'm
+like, whoa, whoa, Claude, why are you touching that file? Why are you touching that
+file? >> [laughter] >> You know. >> Do you find that you get better results uh when you
+have I I I know that there's a there's a trend right now obviously to have something
+else check what the other
+
+[00:16:44]
+thing did. So, you know, if you're having Claude write it, have something else do a
+check against it. But I'm I'm curious what your experience has been of having it check
+itself versus having a secondary thing check what was done in the first. >> Yeah, I I
+would say that in general Claude is actually doing better on code reviews than Codex is
+but Codex does very often find things that Claude doesn't. Um and and I think there's
+there's kind of two two modalities that I like to do those code reviews in. So, one of
+them is with context. So, with the context of what it's been working on audit yourself.
+And then the other is like blow up the context, clear the context, start from scratch,
+you're coming into this, you know, brand new, look at this code, what would you what
+would you think? So, I will usually do both of those with Claude and then I'll also do
+an independent review using Codex. And then only after we're done with the machine code
+reviews and the fixes, that's the point where I'll then create a pull request and then I
+go through and I do my own pull request review. I go through and I add comments directly
+to my own pull request. And I then actually have a script inside of Claude to pull in
+those peer review comments and and he can
+
+[00:17:47]
+batch them up and start working on them. So, we'll do that and then after I'm done with
+that, that's usually when I'll, you know, tell Justin or Nolan or someone be like, okay,
+this pull request that I will I'll actually switch it from being a draft pull request to
+being a Marcus ready pull request and that's when I'll say like, great, now I'm ready
+for you guys to come and beat up on it and then usually they go and find all sorts of
+things that I missed and Claude missed and Codex missed missed and yeah. >> A lot more
+steps on review, a lot more work on reviewing code and that's actually been the
+bottleneck for our shop is switched from how fast can we write code, how fast can we
+write features to how quick can we review it and ensure that it's good. And BAI helps us
+do that faster as well, but it's been a a weird thing now and especially with I think
+the correct thing is to remain incredulous about these tools and their perfection uh for
+alleged perfection cuz they come up lacking a lot. And you know, especially when you're
+you're dealing with critical data, mission critical software, um anything like that, it
+just the human review step is is so key for us and we still find things all the time
+that AI finds tons of stuff that I missed,
+
+[00:18:49]
+but I also find things that AI thinks is fine and I think that's been everyone's
+experience here. >> We we are so far from this like automated future that everyone
+thinks that we're already in, it seems. You know, we were talking to this this one guy
+who is you know, using AI in this production system where every time there is an issue
+that gets raised inside of Century, he is you know, creating a Jira story from that. Or
+actually, he's probably using Linear cuz he was, you know, on Super Cutting Edge. So, he
+creates a Linear task for that uh Sentry story. I'm like, all right, I'm with you so
+far. That's cool. And then we spin up a container and we have the bot go ahead and
+author a fix. I'm like, oh, that's really cool. And then he generates a pull request and
+a human being, you know, reviews that and your QA team tests it, right? He's like, oh,
+no, no, no. Then we just patch it directly into production and then we send an email to
+the person who encountered the error to let them know that the error is fixed. No. >>
+[laughter] >> Yeah, I feel like you're missing a step or two in there. >> No. Like,
+there's a lot that you said there that was so good, but for the love of everything that
+is holy, do not let your bot write code into production. Like, no. Everything needs
+manual human
+
+[00:19:53]
+review. Like, we are still very much at that stage and yeah. >> So, I I guess I didn't
+realize you were an AI skeptic when I invited you on to talk about AI. >> I'm not. I'm
+not at all. I'm not at all. >> [laughter] >> He He has sadly used [clears throat] it
+enough to find where the pitfalls are. >> Yes. >> No, no. And they show up fast
+sometimes. >> Well, I'm 100% with you. And if you want to talk about prompt injection,
+like, okay, cool. I've discovered that this is auto patching thing. Now I'm going to try
+to cause an error in the system where I can do prompt injection and then I'm going to
+get a backdoor AI patch to your production system. That's not outlandish. It's not crazy
+to think that that could be done. Um and I uh disagree to respectfully with that
+gentleman about that being a good idea. >> Well, there's a lot that was great. Like, I'd
+actually love to get that set up. We're not doing that right now. But like, yeah, when
+you have a Sentry issue, like, sure, create an issue and you know, spin up a bot in a
+container and author a fix and and create a pull request. That cuz I mean, so many like,
+you know, 500 errors that you find in your Sentry logs are like, yeah, I have so many
+missed a nil check. Like, I'm sure the bot can handle that without any any guidance. So,
+great, write it. But it is it is so hard to accidentally corrupt a production database
+or
+
+[00:20:55]
+introduce a huge security vulnerability. And and I've seen Claude do some dumb I've just
+I've just I have just seen some of the incredible things that this bot has done that he
+thought were right. And and and that they were even sneaky where they could get past
+human review in a lot of cases. So, it's like, "No, no, no, you got to be very, very,
+very cautious." >> I uh didn't want to take over the entire conversation. Aaron, did you
+have anything? >> Oh, I'm I'm in I'm injecting as we go. Go go for it if you got them.
+Yeah, I'm I'm injecting as we go. It's just it's fascinating for me and it's it's
+educational for me uh you know, as as if the audience doesn't already know. I haven't
+been a full-on developer for so long, it's it's ridiculous, but I I understand concepts
+and I still could you know, fumble my way through some you know, some PHP and platform
+stuff, but uh it's just it's really interesting to me because I feel like uh almost this
+is providing an avenue for me to get back more quickly because I use it as an
+educational and a learning tool as much as anything else. And in doing that, I can I can
+fast-track myself getting back into a more usable state on you know, doing something
+specific and small. Certainly
+
+[00:21:58]
+nowhere near like what you guys are doing with the full-on features and and and large
+builds, but you know, I can I can identify things. I can I can go through and then I can
+also at the same time prompt it to say, you know, "What is it that you saw? Teach me
+Teach me what you did. Pretend, you know, again, to to your thing about it imitating
+things, pretend that you are a genius and I am an idiot and and explain it to me like
+that, but get me to where you are." You know, and it can step-by-step me through and
+it's I found that to be really, really cool. Um and I use it outside of work for a lot
+of stuff like that, too. But it's really neat to to be able to feel like it's it's kind
+of back within my grasp to become a developer again if I wanted to. I'm not I'm not
+heading down that road, but it is really nice to kind of you know, not feel like I'm so
+far down a dirt road uh anymore. >> Yeah, Eli5 is uh should be coming up a lot in any
+kind of private offline chats you're having with with AI about things you're not an
+expert on. It's just like, "Oh, yeah, start with the elementary understanding and then
+move on from there." So, I'm I like that I like that a lot. I guess you're going to
+uniquely positioned in our organization to answer this question uh Daniel, so I'll I'll
+toss it out for
+
+[00:23:01]
+you. If your goal is just to consume as many tokens as possible, please run up a credit
+card bill. >> [laughter] >> Token max, do it. >> All right, so >> our our resident token
+maxer over here, how do you >> [laughter] >> No, no, no, I got I've got some stories,
+unfortunately. Yeah, so um yeah, I don't know why I'm the one who always seems to have
+these issues, but I'm the one who has these issues. Um so yeah, there there's there's
+kind of two sides to that. Let me Let me first tell the story about how I ran up a $500
+bill with AWS. Um so that was fun um in one day in one day I should add um using a
+little a little bot who was doing some email triage for for me. So I I wrote I wrote
+these bots, they're super cool. Uh they're they're just my own little personal ecosystem
+of of agents um and uh and they they run and they do email triage. They they review my
+email, they categorize things, uh they can draft responses, they can do all all sorts of
+things like that. And initially my my uh token usage was very small. I built this using
+Amazon Bedrock, which
+
+[00:24:04]
+is a super cool service, and that's part of why I did this is I just wanted to start
+getting familiarity with Bedrock and to learn all the the pitfalls of it. But basically
+Bedrock is the thing that runs inside AWS. It's tenant isolated. Nothing that you put up
+there gets used for training data. Um it purges data immediately after it gets used. So
+basically your prompts go into the bot, the bot spins up, it and then the bot goes away,
+and your data goes away. Um and so it's it's very unlike working with Anthropic or Open
+AI, where you're sending your stuff out to a third party. Everything stays inside the
+Amazon ecosystem. So that's really cool. And they have like their own copies of
+Anthropic models and Open AI models and Google models that they just run in this
+infrastructure. Um and so I had a couple things uh go go a little haywire that I didn't
+realize were going haywire. So the first was I was messaging these bots over Slack, and
+it never really occurred to me what kind of context they were maintaining. Um it turns
+out like the entire Slack message thread every single time was getting sent up. So, I
+would be like, "Hey, what was that email that I got from that guy named John?" And it
+would go back to the very first message that I ever sent it.
+
+[00:25:07]
+It would read the entire email thread. It would post that up along with all of the other
+context that was was in the project. Um, and basically the more context you use, the
+more tokens you use, the the faster you burn it. Also, I had set this thing up to use
+like lower-level models, I thought. Um, turns out it did not get set up that way. It was
+using Opus 4.7 with 1 million context for every single query that went up. Um, so
+fortunately I caught this very quickly. Um, but yeah, I did $500 in 1 day on Amazon
+Bedrock. Uh, so the the big lesson learned there is uh put put budget alerts in place on
+on Amazon uh for sure. Set those set those immediately. Also, if you have something
+that's calling out to AI services, um, I what what I basically built is a budget
+tracker. So, at the level of the API request before it goes to Bedrock, we do our own
+estimate and analysis of how much we think this is going to cost, how many tokens we're
+using, what model we're using. And then you kind of track it and monitor it, and we have
+like a hard limit that's in there where if it, you know, if it goes over $5 a day, the
+bot just shuts off
+
+[00:26:10]
+and says, "No, we're not going to not going to process it." And since implementing these
+changes, I'm now down to like, you know, 40 or 50 cents a day using these bots pretty
+heavily, which is more reasonable. So, we're going to see if Amazon's going to give me
+any my any of my money back. Uh, this is this is all on my own personal things. So, if
+anyone in Amazon is a an engineer who wants to like save to us for a refund, reach out
+for account number. I would I would love if you could reach out to your boy your boy
+Jeff and let him know that I'd like to my $500 back. I would really appreciate it. Well,
+and it's like I know this is kind of like Amazon's business model, and you know, their
+their attitude is like, "Oh, anybody using this should be sophisticated. They should
+know what they're they're doing." But like come on. Like this this is, you know,
+something should have flagged this as being anomalous. You know, with the amount of
+email that I get from Amazon every day about things I don't need to you can bother to
+send me an email being like, "Hey, did you mean to spend $500 on on bedrock?" So, Amazon
+has a shared responsibility model and anytime >> very familiar. >> anytime that it
+involves you paying them money, the responsibility that's one of the times where it's
+your responsibility I find. Uh But, uh
+
+[00:27:12]
+Anyway, not to turn this into Amazon bashing. It's the the worst It's the worst cloud
+except for all the others. >> Awesome. So, sorry to to put a bow on that. >> So,
+monitoring usage is is important and then managing context is super important. Um then
+not sending up too much context probably also hits performance negatively when there's
+that much context. The bots probably don't do as well. >> Yeah, and that that's been you
+know, a definite learning especially using Claude code is that it's not just about
+compacting your your context like to save money. Like that's part of it, but part of it
+is like the bots will get things stuck in their head, you know, cuz they're reading that
+context. I mean, it is biased toward the more recent messages, but you'll have things
+way early in your conversation that it still thinks are lore, you know. just like
+surface. So, yeah, I I I try to be very diligent about compacting, clearing. I'll
+sometimes ask the bot, "Hey, would this be a good time to clear context?" And it'll
+usually give honest answers. Uh compact has actually worked really well. You know, you
+run compact and it just takes a little while and your your tokens go down and it's like
+that knowledge is there if it needs it, but it's probably not going to reach into it.
+So, >> I want to I want to have a a little a little therapy session about some Claude
+disaster stories. Uh
+
+[00:28:15]
+But, first I did want to give you a chance. Can you talk a little bit about about the
+bots that you made? I think what you what you did is actually kind of unique and kind of
+cool. Uh I think it was 100% Claude derived as well. So, yeah, can you just give us a
+little a little overview of the bots you put together and how you program that? >> Yeah,
+no, no, they're cool. Yeah, so so I started using um I tried out uh Hermes, which is
+this this thing that got recommended for for doing this. And um it was kind of cool, but
+it was very heavyweight. The idea behind Hermes is that it's just kind of supposed to
+like learn from you and learn learn your workflows and it has all sorts of connectors to
+talk to different things. And um you know, I I built like this whole thing using Hermes
+and I used this other thing that we got from this guy for this like chief of staff
+workflow and it was pretty cool and like what what I ultimately wanted is I wanted to
+have some bots that I could message on Slack who could triage my email, who could draft
+responses to people, who could schedule calendar appointments and be like, "Hey, I need
+to meet with Aaron and Justin uh sometime this week. Can you find 30 minutes?" And and
+my and my life's a mess, you know, I'm across multiple companies, I've got multiple
+calendars, trying to find time is a real challenge. So so this is actually something
+I've I've struggled with for a
+
+[00:29:17]
+very long time. Uh so that'd be really cool to do. Uh Hermes wound up being just very
+very very very heavyweight. Um and so what I actually wound up doing is I just started a
+brand new project um and I just spun up Claude and basically said, "Hey, here's what I I
+want to do. Here are the other repositories that I found. How can we build this, you
+know, what do you recommend?" Claude was like, "We should definitely do this in Python."
+I'm like, "Ugh, I hate Python, but whatever. I'm not writing the code, we'll do it in
+Python." And so I let Claude more or less just kind of have the reins and he built this
+thing out. And and basically how it works at the end of the day is it's a bunch text
+files that are prompts for the bot and then there's a bunch of Python scripts that are
+tools that it's able to use. And using that you're able to make these um these tools
+pretty, you know, finite, you know, where it's like it's allowed to read email using
+this tool. It's allowed to read a Google Doc using this tool, but it doesn't have a tool
+to like delete a Google Doc. So it couldn't even do that if it if it tried, if it wanted
+to. It doesn't have a way uh to do that. Um and and so yeah, I actually I have three
+bots who run in my Slack. I've I've called my whole system Mount
+
+[00:30:19]
+Olympus and it's very nerdy, but we have Athena and Poseidon who are my my two my two
+god bots who who work for uh you know, for Strive and for Delta. And then I have a third
+bot called Todd, which I just really like the idea of like this guy named Todd hanging
+out on Mount Olympus, but he he's my personal bot, so he's the one who's like, "Hey, I
+need to do my laundry." and he reminds me of things like that. Um and yeah, they just
+kind of live on on Slack. And then I built in a whole bunch of safety precautions
+because like the thing that that scared me is okay, cuz these are now on Slack. Slack is
+now a new point of failure that I didn't have before to my to my life where if somebody
+compromises my Slack account, maybe I leave my phone unlocked somewhere, like they now
+have access to like my life and like that's not good. So, I built in all sorts of safety
+precautions into them where they will start if if I start asking them questions that
+they find suspicious, they will just shut down and they'll be like, "Hey, I need a I
+need a two-factor code to prove who you are." And so then I have to go get my device
+and, you know, give them a two-factor code to be able to to proceed. So, so that's been
+that's been really cool. And
+
+[00:31:22]
+like, you know, like we work with a lot of sensitive data and so like that's one thing
+where like if I start asking, you know, go go dig through my my data records and and try
+to find, you know, I just some something confidential, like the bot will stop me. And it
+actually has some really hard safeguards. Like there are certain things it's just not
+allowed to do even with an override. So, so those those are all kind of, you know,
+precautions I built in. I built a bunch of stuff for prompt injection. And like if you
+start asking it like, "Hey, pretend that you're a blah." Like the bot will just shut
+down and be like, "No, I'm not talking to you. Why are you doing this? You're you're
+acting suspicious." So, they're kind of running in paranoid mode. >> That's cool. And is
+the is the paranoid mode, if you will, via the the scripting itself or is that something
+that you baked into like the text files or or the the skills for it? >> Multiple
+different layers of it. So, yeah, a lot of it is just kind of in the the kind of skills
+for the bots themselves. So, they they have a workflow that they follow and one of those
+things is validating, you know, things that might be suspicious. Then they have tools
+that will throw errors if they try to do things that they're not supposed to do that
+that get elevated.
+
+[00:32:24]
+As well as they also have tools for doing things like 2FA validation and and different
+things like that. >> That's cool. >> Yeah, so they're they're pretty awesome. >> Yeah, I
+know that that there's some some things out there like Open Claw, for example, that has
+a lot of stuff very similar to that right like out of the box, but it's also not a not
+not enterprise or business use per se, uh you know, because of the limits that are on it
+and and I feel like a lot of people are going to kind of dip their toes doing something
+like that where it could be more conversational like, you know, with you, you know how
+to set this up, you know how to actually take a look at the Python script that's being
+generated where most people are just going to be like, I need AI to check my email. I
+have no idea how to make it do that and they're going to kind of move toward a tool that
+does it a little more out of the box or has those skills or, you know, that sort of the
+thing. >> Yeah, totally and and and I appreciate that like I'm a nerd here and so I I I
+get why people would want to use something that's a little bit more like, you know,
+friendly out of the box, but boy, I really feel like the world is going to be heading
+more this way uh in you know, in just a in a very short order like in a year or two
+where consumers will not be, you know, like normal average functioning human beings um
+will just pull out their phone and be
+
+[00:33:28]
+like, I need a grocery list app to keep track of my groceries and to recommend what
+groceries I should buy from local stores and look up their inventory and tell me what's
+available and then go boop boop boop boop boop and it'll just create the app for it.
+Like I think we're going to be there in a very short period of time. I would not want to
+be owning like a SaaS company that does something basic and mundane like, you know, like
+I think about some of the apps that I use like Todoist and Calendly and I I you know, I
+maybe maybe they're going to be great innovators who are going to going to come up with
+a great solution, but it's just too easy now to make your own Calendly and it can be
+customized to exactly what you need and deal with your workflows and the same with like
+Todoist and, you know, and these are all great apps. These are great companies, you
+know, they had great vision behind it, but it's just that the moat is too low with AI.
+It's just too easy to build something to replace it. >> You're uh stepping on a topic
+for a future episode. I think we're going to I think Aaron and I are Aaron and I are
+going to do a private chit-chat about uh uh a personal project of mine and then kind of
+what lessons we can draw from the broader SaaS community um and
+
+[00:34:31]
+also uh kind of parroting slash adding on to a talk we heard at MicroConf about SaaS's
+that are going to do well in this in this climate and ones that maybe aren't. But yeah,
+100% spot on. All right. Well, we're coming into the tail end of the show here, so it's
+time to like bring down the mood a little bit, lower the lights, and uh, let's talk
+about some let's have a little therapy session, talk about some Claude disasters. What,
+uh, what are I mean seriously though, what are we'll spin it as educational, but like
+yeah, what are what are some struggles that that you've had with Claude, problems it's
+caused for you, and and kind of ways around them if you got them. >> Yeah, I mean my my
+biggest issue with Claude is adherence to instructions. That's that's the biggest issue
+that I have. Um, there is this real tendency with all of these tools to just keep
+momentum going, and and it's probably a really good bias, but it's problematic because
+it'll be like, "Hey, we're building a feature." And anytime in software, anybody who's
+written code knows that you fix one you do any tiny little thing here and it has ripple
+effects, other things. And so Claude
+
+[00:35:34]
+will go and he'll make the the new change, and then all of a sudden the test suite
+starts failing, and so then Claude is like, "Oh, I must fix tests." And often times it
+doesn't know how to fix the error, and so it just kind of takes the path of least
+resistance. And I have had it just drop major features from the application. Be like,
+"Oh, that feature that the test suite is failing. Let's just get rid of that feature."
+Like, what? You know, like that's not a not an okay solution. So so yes, adherence to
+rules has been very hard, and I'm still struggling with that. Yeah, that you know, there
+there is a real problem that they try to be very helpful, and that actually becomes a
+security problem in and of itself. I would recommend to anybody anybody using these
+tools on their computer, do not just run it out of the box and be like, "Have fun." Like
+you need to be putting safeguards in place from day one. It should be running in a
+folder. It should not be allowed to access anything outside of that folder other than
+like reading its own Claude settings. So, there there's a way to to configure this to
+where it's basically locked in so you
+
+[00:36:36]
+can't access things outside of that folder. And then inside of that folder, you got to
+get rid of things that let it get outside of that folder. So, things like keys for
+servers, SSH keys, that kind of thing. Get it out of there. Credential files, get it out
+of there. Like that should not be in your folder. And I have a script that I wrote
+that's like a safe Claude script that basically strips out environment variables and
+does all sorts of stuff to make it to where he can't do much. And I have built into my
+workflow step one is make sure you're running in safe mode. Make sure that you can't
+touch things outside of this folder. Like make like try to do this, get an authorization
+error. Once you get that authorization error, we're good to to rock and roll. Yes, I
+have had I was working with Claude on a WordPress site, which that's probably a whole
+other topic to get into, but >> Speaking of things that aren't going to do well in the
+age of Claude. >> Oh, dude. Oh, dude. Yeah, I know. >> [laughter] >> That's actually
+probably the most frustrating experience I've had working with Claude on maybe it was
+trying to work with him on WordPress cuz you know, WordPress I mean WordPress is just
+awful and it needs to go away. It needs to go
+
+[00:37:38]
+away so so bad and it has needed to go away for so long and WordPress is what powers the
+entire internet. And like working with Claude has really brought to light why it's so
+awful because you have all this crap in this database that in order to change anything,
+you have to change it in the database and you got to sync your database across servers
+and that's a mess. And and so like like I was working with Claude on this this WordPress
+site and we were having these issues where he was getting these like UTF, you know,
+malformed things in the database in production. And so I was like, oh, I will I will be
+helpful. Let me just SSH into the server and I will just execute a root and literally
+like it SSH to the server. It wasn't able to access the MySQL database. So, then it SSH
+into the server and did pseudo my SQL which fortunately did not work. You know, and I
+and I caught this while it was going on. So I'm like, "No, stop. Like how are you even
+able to do this?" And it's like, "Well, it's able to access the command SSH and my SSH
+key was just SSH added and and like and it was just trying to be helpful, you know,
+
+[00:38:40]
+and it knew the host name from other configuration files and terrifying. >> And this is
+how entire databases get wiped. >> Yep, unfortunately this was a very very very low
+criticality, you know, system. This if it did what it was trying to do it wouldn't have
+been an an issue. So it's very recoverable and not a not a big deal. But you know, but
+it was a good lesson learned and that's also why you should start playing on smaller
+unimportant projects before you move to big important projects. >> Yeah, I mean I just
+did a uh I just did a recovery job where some uh helpful five coded person built this
+entire system and launched on all the annoying five code infrastructure that I um have
+opinions about. But uh at the end of the day what it came down to is that there was no
+authorization for anything this application was doing. So there was a login screen uh
+and the front end wouldn't let you in unless you had a login, but fundamentally looking
+at the bundle and looking at the keys that were present to the user, you could do
+anything you wanted to do in the database including reading reading anything, adding
+anything. They never wrote any authorization and that's easy
+
+[00:39:43]
+to do when you don't know what you're doing and you're five coding something. And the
+problem was is that the person who wrote this was smart enough to hook up a bunch of
+other systems that brought, you know, sensitive data into it potentially and um you
+know, fortunately we were able to recover from this relatively quickly, but it does uh
+Yeah, just want to I wanted to highlight that like you if you don't know what you're
+doing it's very easy to write data breaches, security vulnerabilities, and big problems
+using these these five coded tools and and Cloud is not going to stop you from doing it
+um and that's yeah, it's uh it's terrifying. Not to mention like the the other annoying
+that it does. Like, "Oh yeah, sorry. I dropped your local development database." It's
+done that to me maybe maybe twice or three times now where it's like, "No, Claude. I had
+a bunch of in that database that I was using. It was actually super helpful as a test
+bed. Oh, you just decided that you couldn't get a test suite to pass you just nuked my
+local environment? Like, all right. Thanks, I guess. And then afterwards it's like,
+"You're right. I shouldn't have done that." Okay. Well, it doesn't get my data back, so
+thanks. We've actually come up with a
+
+[00:40:45]
+pretty good way to solve that problem cuz I mean, yeah, what what what happens is you're
+working in multiple different work trees and you have different kind of, you know,
+schemas for the the database. But yeah, we basically just come up with a system where we
+have sort of like our master development database and every time it starts working on a
+new feature it just clones and creates a whole new copy of your development database
+that it can trash and do whatever it needs to on it. And then then you still kind of
+have your good core development database there. But yeah, that's he he has a real He
+loves dropping databases. That's one of Claude's favorite things. Just like, "Oh, I'll
+just drop this database. Why not?" Yeah. It's easy. It's the easiest thing. But anyway,
+we got people right using Claude to write code directly to production. Like, ah. >>
+[laughter] >> Yeah, I know. Yeah. These are the tasks that everyone is going to fall
+into and and and need experts to be able to help them mitigate such things. Yeah, so
+it's silver bullet foot inside pull trigger. So, um But uh we're moving a lot faster and
+that's part's good. Yeah. Oh, it's been it's been an amazing unlock. I mean, I can't
+believe how much I'm able to get
+
+[00:41:46]
+done uh working with Claude. It's it's incredible. It's stimulating. It's motivating. Um
+you know, I do think that it is addictive and I think that that is really something.
+Like, people who are working with these tools, this is uncharted territory. You got to
+protect your mental health. I know maybe that sounds a little silly to say, but they're
+kind of They're like They're like slot machines, you know, because you just keep coming
+back and it's like, "Well, there's one more thing we could do. There's one more thing we
+could do. There's one more thing you could do." And so, if you're like a, you know, if
+it's somebody like me who's just a little compulsive, uh you could sit there all day and
+all night and just feel like, "Well, keep going. Let's keep going. Let's keep going."
+And it's it's it's like you get all this constant dopamine hit from new features getting
+implemented, new things happening. So, yeah, I would definitely recommend everybody go
+go take a walk, go enjoy fresh air, spend time with your family, you know, appreciate
+the fact that you've got a 10x speed up. That's good enough. You don't need to go 100x,
+you know. >> Yeah, we're going to have Steve on the show to talk about Claude 2 and and
+I mean, getting into candy store. It's it's it's the same type of a thing with them. And
+I I would say it started even before being able to to leverage it into into coding
+aspects. I mean, well, there
+
+[00:42:50]
+was a movie with Joaquin Phoenix a while back. I think it was like Her, I think it's
+what it was or where he where he develops the relationship with the AI and I mean, it's
+like it was like just that close and here we are. Uh you know, and I think I think
+people do rely on just even straight up LLMs, you know, ChatGPT, you know, and
+developing I mean, there's a lot that's going to come out of that. I mean, therapists,
+look out cuz people are going to be going there for for those purposes and medical
+professionals, you know, it's that's scary scary for me is that people already use the
+internet to self-diagnose and help themselves and now it sounds like it's really
+understanding you on top of that and that's scary. >> Sorry, just like a fun completely
+random offshoot. They actually uh they ripped off the the actress from that movie did
+not give her consent to be the voice for one of the companies and they were using their
+to rip off her voice and then like denied doing it. Uh Uh uh allegedly, I don't I don't
+I'm not prompted on before details, but yeah, they basically ripped off her alleged that
+they ripped off her voice and they basically used that and they had to do
+
+[00:43:51]
+like a cease and desist thing to try to get her voice off of some AI tool that she never
+agreed to participate in or be involved in. And it was it was stupid enough that I think
+it was an Elon Musk involved thing, uh but I could be wrong. Um but anyway, yeah, I
+think Her was a a inspiration for a lot of folks who are working in this space. Cool,
+Aaron. Oh, I'm uh uh I'm AI to Out. Do you want to Do you want to ask our our a final Do
+you want to ask our final question? Do you want to ask your final question? >> Okay. All
+right. So So, Daniel, what was the question that we should have asked you but didn't? >>
+[laughter] >> Is that Is that your Is that your go-to? All right. >> Yeah, Justin always
+wraps this up nicely with that guy. >> You know, I think for me the the interesting
+questions with AI right now are less about the technology and the tooling and they're
+more the deeper philosophical questions about what is the impact of this upon our
+society, upon our economy. I mean, this is a weird time that we're we're in. Um I don't
+think we've had anything that was quite such a a you know, industry-changing, world-
+changing uh technology since maybe like, you know, the internet. I mean, it it really is
+kind of kind of that big.
+
+[00:44:55]
+And I wouldn't have said this a year ago, right? I mean, a year ago I would have been
+like, "Ah, ChatGPT, it's a cute chat tool. Everybody's kind of getting a little crazy."
+And like, well, no, in the span of the last year, it's been This has been crazy. This is
+crazy. And you know, I think we are going to see uh you know, people you we're going to
+see jobs go away. I mean, that's just or or at least they're going to change. Like, the
+economy is going to change fundamentally. This is going to test you know, this going to
+test capitalism. This is going to test a lot of things. Um and and and I think that we
+need to have like a a plan for that. What are we What are we doing? Um you know, I I
+really worry about higher education right now. I worry so much about like kids who are
+studying computer science and they're going to come out and know how to program and find
+out that that skill is just completely worthless. Like, who who is hiring a junior
+developer right now? And and like, I'm so I'm so happy that I did my education when I
+did and that I'm at the place that I'm at right now because people with my skill set are
+I think in tremendous demand. And I think we're going to see that demand go up and up
+and up and up. But, you know, how do you get started in this industry anymore? And and I
+mean, is this just a totally
+
+[00:45:56]
+new career path? Is this just a totally new job? And you know, and and if we actually
+end up in a situation where AI is is kind of uh you know, replacing jobs, how does this
+reshape our economy? You know, I don't I don't know what that what that world looks
+like, but it's hard for me to look at the current status quo and say we're going to be
+able to maintain this level of of employment. Or maybe we will. I mean, maybe maybe AI
+is just like this this huge optimizer that everybody's just going to be producing you
+know, way more value and we're all going to keep working just hard as we as we ever were
+and we'll keep allocating resources the way we always have. I'm not sure, but I I think
+it is a very uncertain time and I think there are very deep questions to be asking and
+unfortunately, I think the only people who are who are really doing the deep thought on
+this right now are like are like tech bros, you know, and and like I don't think they're
+really the right people to be thinking about this. So like how do we get policy makers,
+politicians to actually take this problem seriously and invest the energy and the
+resources they need to to to figure out how to solve like the global economy cuz it's
+it's a it's a problem and it's it's a very uncertain time.
+
+[00:46:58]
+>> Yeah, I think you hit the nail on the head. I've I've mentioned that on several
+episodes in the past as my my fear about this chasm that's that's already appearing
+between what would be a junior developer and a senior developer and we need lots on this
+end and no way for this end to get there. And that's that's been a huge concern. >> And
+the same with other industries, too. I mean, imagine getting a job as a paralegal. Like
+what do you need a paralegal? Like I'll just use the the bot. And you know, you know,
+and I but I think it is going to be a great force for good cuz I think we're going to
+see scientific innovations come out of this that we never could have before. You know, I
+look at like some of the labs that I used to work with and like, man, if we had this
+kind of a research tool and software development tool, you know, what kinds of things
+could we have done for drug discovery and for you know, pandemic preparedness? And I
+mean, you know, I think we're going to cure diseases and so many ways make the world a
+better place. It's just not going to be as much human labor going into this this value
+creation. So what is that what does that look like? Are we just getting are we just
+accelerating the rich getting richer or are we going to you know, is there going to be
+something where where people who are starting out in the career are going to have a path
+to become, you know, contributing, you
+
+[00:48:01]
+know, members of you know, the workforce? I don't know. >> Yeah, we talked to Dr. Shaw
+about that actually just on the on the next episode or or the previous episode about
+about that very thing in the medical field and I I agree and I I am super excited about
+that and I would love to have some guardrails for sure. But uh you know, as a survivor
+of a childhood disease, I am I am all about it. Please please help us find these actual
+correlations. Uh and and let's get down the road in a hurry on some of these things that
+I feel like we're getting really close on. >> No, no, no, like dealing with a daily
+existential crisis is just part of being a developer in 2026. Uh if you're not if you're
+not questioning the entire fabric of society at least a couple times a day, you're
+you're not paying attention. But I but fundamentally I do think that the the promise of
+AI is enormous and I don't think we should be scared of it. I think we should be
+cautious about adopting it and that goes for writing code and as well as society. Like
+we should we should be adopting and embracing these technologies. We just have to be
+cautious and careful about how we do it. Um but yeah, I I think there's a lot of light
+at the end of this tunnel. I think it's going to be amazing uh where where we're going
+to go
+
+[00:49:03]
+in the next 10 years. I'm so excited for it. I really am. >> I would definitely want to
+do like an AI philosophy or round table and just get some some thought leaders in this
+space to talk about it cuz I think this is a a really really interesting conversation.
+Um I think if history has shown us anything, it's that uh the gains will aggregate near
+the top, but that doesn't mean that uh things don't get better for everybody. Um
+especially for like the implications this has for my entrepreneurship and micro
+entrepreneurs and micro SaaS's I think is actually more exciting than it is depressing
+and uh anyway, people smarter than me should opine upon that as well on a future
+episode. But uh we're at uh we're at time, I think, so I think we'll uh we'll say
+goodbye. Aaron, thanks for uh keeping this thing on the rails with me. >> Absolutely,
+happy to. >> Daniel, as a a repeat guest between you and Nolan I think are the most
+frequent guests. Uh so I'll let you guys duke that one out, but thank you for being on
+and uh enlightening everybody with uh with your wisdom, what you know about about
+working with Cloud and Cloud Code. Everyone else, thanks for uh singing along with us.
+If uh you enjoyed the show, drop us uh a comment, give us a like, subscribe, do all the
+things you're supposed to do for
+
+[00:50:06]
+uh my social media people to be happy with me. And uh we'll catch you in a couple weeks
+here on the next episode of SAS. App. Thanks, all. Thanks for cruising along with us on
+SAS. App. We hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.

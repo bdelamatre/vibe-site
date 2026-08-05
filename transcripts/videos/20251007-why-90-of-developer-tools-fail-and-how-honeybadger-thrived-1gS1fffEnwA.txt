@@ -1,0 +1,657 @@
+Why 90% of Developer Tools Fail and How Honeybadger Thrived
+===========================================================
+
+Video ID:  1gS1fffEnwA
+URL:       https://www.youtube.com/watch?v=1gS1fffEnwA
+Published: 2025-10-07
+Duration:  00:41:35
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+We spent a lot of time in our in our hiring process to try and figure that out about
+each candidate, but they'd be a good fit in that environment because for some people
+it's a great fit and for some people it just isn't. And one of the the red flags that we
+will take a look at closely is we look at the work history. What has their environment
+been to date? Have they been in on-site every job? Have they never done remote work
+before? That's a big red flag and we'll we'll talk about that quite a bit. And we we're
+100% honest with people. We bring out the downsides to 100% remote. Like, hey, it can be
+very lonely. >> Welcome to SAS that app, building B2B web applications, the podcast
+where we share real world stories, practical advice, and tech insights for those
+building or thinking about starting a tech- enabled business. I am your co-host, Aaron
+Marchbanks, and I'm Justin Edwards. Each week, we bring you the stories, strategies, and
+insights you need to build your SAS or tech enabled business smarter, not harder. Let's
+dive right in. Hello and welcome back to SAS that app
+
+[00:01:10]
+once again. I am without my co-pilot here. Uh Justin is is still traveling the world. I
+believe he's in Southeast Asia still. Uh but you're just stuck with me. Uh Aaron
+Marchbanks as always. But I am joined today uh by Ben Curtis. We're welcoming him to the
+show. He is the co-founder of honeybadger.io which is a standout application monitoring
+service that helps developers fix errors, optimize performance, maintain reliable
+products for their customers. We're going to get into that some today. He is also uh
+serving as president of Tesla Inc. uh helping business owners create custom web and
+mobile applications. He is the founder of catch the best uh which streamlines
+recruitment processes for hiring managers. So in general deep technical background,
+passion for helping teams scale. Ben is an expert in turning ideas into successful tech
+products as well. So, Ben, welcome to the pod. >> Thanks. Happy to be here. >> So, I
+just uh I'm always interested in in how people get to where they're at. Uh you know,
+what their what their uh what their background is, kind of the the the course that
+they've taken. So, you you've obviously done a lot of different things in the course of
+your
+
+[00:02:12]
+career, a lot of roles, co-founding Honey Badger, obviously advising business owners
+with Tesla, developing tools with Catch the Best. What sparked your journey into tech
+entrepreneurship in this space? >> A TRS80 when I was 8 years old sparked my journey. >>
+Oh my gosh. Yes. >> I think that's that's common amongst our generation. Uh but yeah,
+you know, copying programs out of those computer magazines and seeing them. Yeah, that's
+what got me started. Uh I'm a self-taught developer. I just love technology and uh
+really been been doing it since then. I grew up on the BBS scene and loved that. And uh
+yeah, just been doing technology ever since I was a kid. And as I got into college, I I
+went uh went went to computer science. I thought that was going to be what I wanted to
+do. And then I decided that I really hated math. So So I I I did what a lot of college
+uh college science uh uh dropouts to do and went to the business school instead and I
+got a got an information systems degree. And uh that actually turned out really well
+because I got uh you know I
+
+[00:03:15]
+got the accounting and the econ and all the businessy stuff from my undergrad and then I
+did the technology stuff on my own. You know that was selftaught. So uh it's a pretty
+good combo. It's worked out for me and then worked for a bunch of startups and did my
+own done my own things for now oh about uh let's see about 20 some odd years. So it's
+been it's been a fun ride. >> That's awesome. Yeah. I I have a similar journey although
+I didn't go the business route. I went the music route. So yeah. Yeah. I started in the
+computer science but but felt better about learning and doing that on my own and uh
+because I'm a a theater person also uh I had so many credits in music. It's like you
+know what I'm just going to bang out a music degree here because I I I love it and then
+I can do the tech stuff uh you know as I'm going along. So it seems it seems to be a
+very common thing like you said for for everybody kind of going through that that
+computer science process uh and and finding other interests that actually uh may help
+them even better. Uh, and the technology is always going to be there to learn. So, >>
+switch your preferred instrument. >> I I am a vocalist by by trade, but I also uh I also
+play piano, guitar,
+
+[00:04:18]
+little alto saxophone. Uh, mainly I accompany my amazing vocalists uh which are my wife
+and my daughter. They're just like top tier. So, you know, I'm I'm I'm at best like
+fourth in the house behind the dog in terms of the the talent level there. But, I do
+enjoy getting to do it. And uh yeah, it's super fun. I actually had initially thought I
+was going to do uh education. Um so so music education and I hadn't really uh gone much
+further down that path, but I but I have directed some choirs and things like that. And
+so that's that's been a fun use of that in addition to just the personal stuff. So I
+want to get into uh Honeybadger just right at the top. I know it's the most current
+thing. It's what you're you're most involved in right now. Um I am I'm interested to
+know several things about it but initially uh what was the what was the issue or the
+problem or or the approach that you were trying to solve with Honeybadger? >> Yeah. Well
+Honeybadger wasn't you know this brand new idea that came out of nothing. Uh there were
+other other products on the market that were doing what Honeybadger does and that's
+really
+
+[00:05:20]
+what started Honeybadger. So we were using airreak uh star and I we were working uh we
+were building a rails app and we were using airreak like a lot of rails developers did
+back in those days and uh the the the problem was that airreak had been sold thought bot
+had created it and then sold it to some investors who were just you know running it as a
+as a cash machine basically weren't putting a whole lot of effort into it and it was
+just broken in a few different ways and uh one day I just got I got frustrated with it
+and I'm like I turned a star and I said, "You know what? We can do better and we deserve
+better as developers. We should have awesome tools, right?" And so that was really the
+genesis for their products is like we knew that we could build something like that, but
+we also knew that we could provide an awesome customer experience that we weren't
+getting and that was that was really what we wanted to focus on. So, uh, yeah, so nights
+and weekends started writing the code and, uh, got got started and within a few months
+had had it launched and got, you know, customers right off the bat. So, that was that
+was
+
+[00:06:22]
+cool. U, but it's been really awesome to be able to support developers like us, you
+know, having having a better day than we had that day >> for sure. What did that MVP
+look like? What did that first iteration look like? Yeah, it was really just exception
+tracking and it was, you know, we we in fact we borrowed the air brake gem because, you
+know, it's open source and so we're like, hey, why don't we just make our endpoint the
+same and accept the same payloads and you so you could just plug the air brake gem and
+just change the endpoint to honey badger and yeah, it took in an error and then it
+grouped it and gave you back an exception and gave you notification and then that was
+that was that like straight straight into the database. No cues, no scaling is like one
+server, you know. It was uh yeah, it was definitely a a duct tape uh kind of solution.
+Um just getting us started, but uh we figured if we had something that worked for us,
+then other people would also like it. And so we we did definitely built it for
+ourselves. And when it got to the point where we were using it on the daily basis, then
+we thought, oh, let's bring some friends and family in and uh yeah, just went from
+there.
+
+[00:07:24]
+>> So on the business side of that, I mean, what was the what was the the the guiding
+principle or the guiding value for, you know, you're you're obviously adding this as a
+service. you're wanting to to have really great customer service. You're you're trying
+to fill a gap in in some technology, you know, something that's that's a little bit more
+meaningful. Um, so when you get into like, you know, ideas of pricing structure and and
+the service model itself, talk to me a little bit about that decision process in terms
+of how you brought people on initially, what that how that led you to where you are now
+in terms of the service model or the cost model. >> Yeah. So, Honeybadger has been since
+the beginning usage based billing. So it's how however much volume you send. We actually
+launched with unlimited traffic. You could send as many exceptions as you wanted. And uh
+we we decided to do the pricing based on the number of projects uh that you would have.
+Uh because one of the one of the the things that kind of bugged us about the current
+pricing models of competitors at the time was that they were they were based on like on
+a per minute throttle. And so as soon as your app blows up with a bunch of errors, all
+
+[00:08:28]
+of a sudden you're hitting API limits from your error catching service, right? And we
+thought, well, that doesn't help me, right? And I'm having a bad day. I I want my
+service to not stop on me, right? Um so we thought, okay, let's let's take a different
+approach. Let's build based on number of projects rather than based on the number of
+errors coming in. And uh we found out there's a reason why you bill on the number of
+errors coming in because we quickly got uh customers who were sending way way too much
+data for us to be able to handle in a in a in a reasonable way. Um and so yeah, it
+didn't take us long for us to figure out that we had to change that pricing model. Uh
+and uh when we did that definitely changed the the curve, the revenue curve. Um so yeah,
+that that was one of those ah okay I see why they did it that way. And um but what we
+ended up we it did inform our eventual pricing which was to to not do API limits based
+on like a per minute or per hour thing but to kind of send it out to a month. And again
+back to that customer service thing even if we had customers who hit their monthly
+limits we built in like plenty of warnings around hey you're
+
+[00:09:32]
+getting close to your limits and and then we allowed for them to go over. So we didn't
+stop at 100%. We we just we just limited started throttling at 100% and let them go to
+125%. And then even if a customer got to that point and and like emailed us and said,
+"Oh, look, I had a really bad day, but now it's gotten back to normal. Can I can I have
+a break on my quota this month?" I mean, 99% of the time, we would say, "Yeah, sure. No
+problem." We would just turn off the the quota checks for them for that month. So,
+that's part of like our philosophy, like we want to support you as a developer. Uh if
+you're having a bad day, we don't want to add to that badness by turning off your error
+tracking, right? Uh we don't want to give you a hard time about that. So, that's worked
+out pretty well. I think people really respond to that. Um you they can reach out and
+get get a person and usually get one of the co-founders to respond. Um and and that's
+that's been good. Yeah. >> Fantastic. Well, in addition to the error tracking, uh you
+also do like APM work, application performance monitoring, things along those lines. Was
+that um was that like a conscious decision? Was that something you kind of backed into
+or was that like on the road map all along? >> So we've we've decided that we wanted to
+
+[00:10:35]
+build the tool that we want. like that's how we started and that's how we've kept
+operating uh you know in the past 13 years and uh we wanted that kind of tool along with
+exception monitoring we we we felt like there's a value in having everything you need in
+one app like you don't have to plug in a bunch of different things you don't have to be
+switching from app to app and so that's why we you know over time we added the uptime
+monitoring we added the cron monitoring and most more recently the application
+monitoring the log monitoring is because it felt like you know you you want to be uh in
+in one app where you can see all of things related to the health of your application. So
+if you're a developer, you can know, hey, I can just go to Honeybounder and I get
+everything I need to see about how my app's doing in production. So it was really about
+that's what we wanted and uh bonus points. We you had customers that actually want that
+too. So that worked out. >> It's always nice when when you let the the customers and the
+clients kind of drive it, too. So kind of beyond the monitoring, what kind of other
+tools or or processes do you see you know product focused dev teams using to just ensure
+that their applications are remaining reliable and performant and are and are
+
+[00:11:38]
+keeping their customers happy. >> Yeah, we totally see uh our customers using us along
+with you know data dog or new relic or other of those you know tools that have a bit
+more on the APM side like we don't want to replace them but that's not what we want to
+be doing. So, but some of them find those kind of tools overwhelming or maybe it's their
+ops team that's really heavily using those tools and and they're just kind of got got
+drug along. So, we we're trying to provide like what's what is maybe a data dog light or
+a new like light like what are the you know the basic tools that the charts and whatever
+kind of logging stuff that you you could use that won't feel overwhelming won't feel
+like you're getting buried by bare charts that sort of thing. So we find like a lot of
+our customers are are like that combo uh like using us with them and they get a lot of
+the performance stuff from those apps and then come back to us for seeing like what's a
+hot issue right now. You know maybe they're reviewing the charts over there every once
+in a while but in their day-to-day workflow when something blows up they're looking at
+Honeybadger and and seeing how they can help their customers. >> That's awesome. Are
+there are there any plans for for Honeybadger to leverage uh
+
+[00:12:42]
+AI? Uh it's I know it's very very hot topic these days for for integration if nothing
+else but a lot of people are incorporating into applications. You you have visions for
+that and you know what kind of ways would you see that happening? >> Yeah, we've we've
+had some fun uh experimenting with AI on our side and using it to help us build our app
+and uh yeah we have some ideas for how we could do some more integration with AI inside
+the app. uh re a few weeks ago we we launched an MCP server so that if you're sitting in
+your editor and you've got a question about an error that happened you can actually ask
+you know the AI hey go tell me about the context of this error and and help me solve
+this error right that's that's a lot of fun that's really cool you can just you know
+pull that right into your editor um and we also want to do some more server side stuff
+but we have to be very careful because there's a lot of sensitive data that people send
+with their exceptions you know there's there's their own customer data is coming in or
+you know uh things like that. And so we don't obviously don't want to be like sending
+data to whatever random AI machine that you don't know about, right? Um so yeah, we're
+taking a a measured approach, but
+
+[00:13:46]
+we do think there's there are ways that we can bring in some custom models and and train
+them on your data and give you some suggestions on how you can resolve the errors that
+you're encountering. >> Fantastic. Well, thinking about the compliance and data privacy
+and things like that, obviously big trends emerging all over the place relating to AI
+certainly, but just in general data privacy and infrastructure and and that sort of
+thing. Um, I I I think I'm correct that you all recently launched like an EU data region
+uh just to help with GDPR compliance and things like that. Um, you know, what what have
+you learned from that or or what what other things are you doing here to better align
+with the EU stuff? Yeah, I think some of the things we've learned is, you know, there
+there there are different use cases for why you might have a a data locality preference,
+right? Uh for there might be issues around, well, we don't want our data to be touched
+by anybody in the US for, you know, political reasons, right? And so in that case, a an
+EU stack by an American company like us may not be sufficient for that kind of use case,
+right?
+
+[00:14:48]
+Because they don't want any kind of possibility that it's going to touch US oil, right?
+Um, but for some customers it's like, well, I just want the proximity. I want the faster
+response time or it's okay for me. It's enough of a guarantee for me to have my data
+based in the EU even if the company that runs this instance is in the US or we're hosted
+on Amazon, right? So, it's also a US company. Um, so it's it's interesting. What I've
+learned is that there there are these fine grain details that some people care about
+this thing and some people care about that thing. And so, you know, it's not a it's not
+a panacea to have a a separate stack that's running in the EU if you're a US-based
+company. Uh, but it does help, you know, for certain use cases. And we find that
+customers have really enjoyed that. They've we have um a number of our customers who
+have been around for a long long time and they're like, "Oh, as soon as we launch the
+EU, they're excited to jump over and and to have their data there." Um, but the but
+overall, it's been a pretty I I would say a pretty smooth process. like GDPR hasn't been
+a huge deal for us because we are so uh concerned about you know privacy and maintaining
+our customers
+
+[00:15:51]
+data in in a secure way. You know we've we've spent a lot of time again we're hosted
+with AWS. They have some very strong guarantees around their systems and their services
+and uh you know we've spent a lot of time you know becoming sock 2 compliant and going
+through all that kind of stuff to you know to reassure our customers that hey we're
+treating your data well. So >> interesting. Well um I want to teeter into uh Tesla a
+little bit. Um, obviously you've done a lot of work there helping entrepreneurs, you
+know, turn their ideas into something successful, you know, whether it's a business or
+or a mobile application or things along those lines. And we've had a number of of uh
+guests on the show that um like to talk a lot about values, you know, company values and
+and alignment with the team and those values and alignment with the product or products
+and those values. So I'm I'm curious how you approach taking a founder uh getting them
+to a vision or or helping to understand what their vision is and then translating that
+into the technical feasibility while also still maintaining like what you have this high
+quality experience for users
+
+[00:16:54]
+in a production environment. >> Yeah, that was that's that's a great question. Um I I
+encountered a lot of founders who, you know, they're not technical. They're looking to
+get from zero to one. They have an idea and they they want to see that idea become a
+reality and they they really have no preconceived notions about a technology stack or an
+implementation. They just there's a thing they want to see in the world and they need
+someone to help them bring that vision to reality. And so they'll come to me usually
+when they're considering h how do I even get started with this? Like what what do I do?
+Like what's what's my next step? and uh they may they may have had friends tell them oh
+you know you get some team in India to build your thing for you and you don't have to
+worry about it or they may have had someone tell them oh you need to get a co-founder
+who can help you uh take care of all that technology stuff and so usually what I like to
+do is sit down with someone and see where they are on that spectrum like what what kind
+of options are they considering what what have they been told and and what are they what
+are they thinking about and then help them evaluate the different options like from
+where they are what
+
+[00:17:57]
+their experience is and how much they want to get involved you know, some some uh
+entrepreneurs, they want to learn the code, right? Hey, I want to I want to get in there
+and I want to I want to build it myself. I'm like, okay, well, there there that's fine.
+There there's a certain path for that. Uh yeah, it might take a little bit longer than
+you're thinking. Um but and I think sitting down and helping understand what someone's
+motivations are, what their goals are is really what what my job is. And then from
+there, we can say, okay, how do how do we move forward with this? Do we hire an agency
+who has a readymade group of people who are ready to go and can build your app for you?
+Do we go with that outsource team in India because of other whatever you know maybe the
+scale of what you're trying to build or whatever reasons you have or yeah do we do we
+start a CTO search right and find you know that that person for you that can really be
+with you through the whole the whole thing. Uh, I think I think most people when they
+get off, you know, that first call with me, they think, "Oh, okay. This this guy
+actually like is concerned about me being successful and not just, you know, taking
+taking my money and and and building something, right?" Uh, so I I I
+
+[00:19:02]
+love that. I love that process. I love helping entrepreneurs find, you know, the way to
+get their passion in to made into reality. Do you find that the that founders and
+obviously I know that this will depend heavily on you know are they a more technical
+founder or are they are they coming from just like an idea entrepreneurship type
+background but do you find that almost regardless of that that founders tend to focus or
+or be more concerned about the technology and and basically like the end result or MVP
+versus customer experience? Do you or do you find that the customer experience is the
+guiding force and the rest I don't really care so much about. I just wanted to hit these
+hit these experience marks uh for my clients and how do you kind of guide them to to one
+or the other where where the importance really does lie. >> Yeah, I'd say it's probably
+more the latter. It's like I I want this experience. Uh and I don't really care about so
+much about the technology choices. You know, of course there's always, well, it's got to
+run on on an Apple device. I've got to be be on my iPhone, right? But but if it's a web
+app, like I don't care if it's Django or
+
+[00:20:05]
+Rails ornet. It doesn't it doesn't matter to me, you know? Um, and it and it really
+shouldn't because all technologies can can get you there, you know, for for for most
+apps. And usually what I do is I sit down with the person and say, "Well, depending on
+what kind of approach you want to take, like if we're going to go with an agency or solo
+freelancer or whatever, uh, if you're going to hand off that that responsibility to that
+person or people, just trust them enough to do whatever they say." Right? If if you pick
+an agency and you you were thinking, "Oh, I want a Rails app." and the agency's like,
+"Well, we we build Elixir and that's all we do." And you like this agency. Well, then
+you're you're going to you should let them build you an Elixir app. Don't, you know,
+insist they build you a Rails app because you heard that Rails is cool, right? Um,
+that's that's what I try to focus on. It's like uh the people really drive the process,
+not a particular technology. >> I love that. Yeah. I I and I and I I've heard it both
+ways. I hear more toward the side that you're you're kind of advocating for um where
+it's it's more about the user experience and the end result and and if you find a team
+or a
+
+[00:21:07]
+company or or a hireer or a CTO that you like, go with where that expertise is because
+that's what's going to give you the best experience in the end anyway. Uh but I think
+that that's fantastic advice. So looking at kind of balancing then these technical
+solutions with uh with the business product itself, how do you help coach the these
+founders, these entrepreneurs in balancing the solution that they're given in whatever
+technology or stack it happens to be and ensuring that the business and the product
+outcome also is good uh with the give and take that has to come with those. >> Yeah,
+that's that's that's a tougher one. uh bec because typically they're going to come with
+very little experience on what it means to run uh a business uh to to to to shepherd a
+product uh and they may may have had some project management experience uh oftent times
+but but product management is kind of a different story and I think I spend some of my
+time educating them on uh how to be flexible right uh especially when working with a
+team where you don't understand the technology as much uh there's a give and take there
+right you might say well I
+
+[00:22:10]
+want to have the world and I want it ready in two weeks. It's like, okay, well, let me
+introduce you to the iron triangle. >> Yes. >> You know, >> the triangle is the best >>
+and and then and then we and we walk through that like where where where are your
+priorities? Where can you give up some, you know, versus what has what what are things
+that that have to be? And then also walk through, okay, once you have this app or this
+this product, um it's it's going to take some maintenance. It's going to take some love
+and TLC, right? keep you can't it's not just one and done kind of thing. I I read this
+uh this I can't remember where I saw this recently but it was great. It was talking
+about how uh software like some people say like software rots, you know, it just it gets
+old and it breaks. And this person said, "No, no, that's not quite right. It doesn't
+really rot. It's like it's more like a book where it just gets out of date." Right? The
+book doesn't change. the content in the book doesn't change but the world around the
+book changes and maybe makes it obsolete or you know not quite uh current and uh I
+really like that idea like uh that
+
+[00:23:13]
+software is also like a book right you you get it out there but it's the world around it
+is always changing and so sorry that's a long long way of saying like hey it's not just
+a you know shoot it out there and forget about it it's it's this is going to be
+something that's ongoing and that you know of course also impacts do you choose the CTO
+versus the agency versus the freelancer blah blah blah blah Um, so it's it's it's a lot.
+I think my my job is to help just be that expert and hey, I've been there. I've done
+that and here are some things that you should watch out for and some things you should
+consider as you embark upon this road of, you know, online entrepreneurship. >> In that
+vein, what would you say is is the the piece of advice you give the most in that regard?
+Like what is what is the number one, you know, let's call it pitfall to avoid or or
+thing that you want to impart to one of these people who are just starting this out? So,
+I I always like to remind people it's going to take longer and cost more than you
+expect. >> It's a good thing to get out of the way right up front. >> Yeah. And nobody
+nobody wants to hear that, right? But yeah, if you get that out up front, then at least
+they're prepared for Okay, I I realize that if I
+
+[00:24:17]
+ask for the world, it's going to And my my favorite phrase is anything is possible. Give
+it enough time and money, right? Because the the client comes to you, hey, can we do
+this? Can we do that? Can we other thing? Yeah. Yeah. Yes. we can do all those things,
+you know, but how much time and money do I have to do all those things? So, that's
+that's the key. Um, so yeah, I think that's that's the important uh get that out of the
+way first. Um, and then help them understand why like why do things take longer and cost
+more than I think they should, you know, why is it not just a Jify Lou visit to get some
+oil changed, right? >> Nice. Oh, that's great. We're past the founder now. We've got
+something that's off the ground. It's an MVP. Maybe it's a little even more mature. Uh,
+you know, and we're shifting into kind of like team building now at this point, right?
+Okay, so this thing is getting some legs. Maybe you're at the point of debating between
+hiring uh you know development staff or or a development team inhouse um versus you know
+utilizing a third party uh or maybe you are you know at the point where you do need to
+bring on another owner, another founder, another another top tier talent or something
+along those lines. So I I know that you've done some of this at
+
+[00:25:20]
+like at like like catch the best, you know, you built and scale teams, but what would
+you say then to those founders or to those entrepreneurs who are kind of at that point
+in their development or life cycle of the product who are considering hire in-house or
+continue to go with a third party and then what do you help coach them on what to look
+for in developers who are going to be strong at keeping this good customer experience
+and keeping these these systems reliable? >> Yeah, I would want to evaluate where they
+like spending their time. You know, if if you feel like as a founder, you are a people
+person and you love the idea of managing teams, then, you know, that can lean towards
+hiring for sure. But if you're the kind of founder that doesn't want to be dealing with
+that, that wants to be out there selling, you know, and pushing the product, then maybe
+it makes more sense to have that team that's independent, who's managed for you by that
+agency lead or whatever. Uh, I've I've seen it work well both ways. I don't think
+there's a there's a right answer. It really just whatever suits I think the personality
+of of the people involved. Uh you know if you have if you have a great technical co-
+founder it's so much easier to have that
+
+[00:26:23]
+in-house team because that technical co-founder can manage you know them and can manage
+the quality of the product. Um but if you don't have that then that kind of pushes you
+towards the agency is probably better way to go for you right because you want to have
+that expertise have someone on top of that for you. So, I think it really depends on
+what, you know, play to your strengths. Don't don't try to don't try to be what you're
+not just realize what you're good at and and double down on that. >> So, looking at
+then, you know, whether whether it's outsourced or or insourced as as it were. Uh,
+obviously, we're we're in a much more globally connected world right now. Remote work is
+is the norm and probably has been since well before it was cool. I'm thinking like, you
+know, pre-COVID days. I know I know the company that I work for, we've been remote, and
+that's usually what I say is since well before it was cool. uh you know fully remote but
+that's that's a lot of these days especially when you're hiring new talent or young
+talent uh people who are coming up it's almost a requirement you know I want to be able
+to live where I want to live and work for you and still do the things that I do and I'm
+curious what you've run into in terms of like recruiting that that
+
+[00:27:28]
+type of team or that type of talent again whether it be you know an agency or someone
+internally uh with with kind of this this norm as it has become now. Yeah, I've done it
+both ways. Uh where I've been I managed a team that's all we're all in the same room and
+Honeybadger is the opposite where we've been 100% remote for the entire life of the
+business. And both have their advantages and both have their disadvantages. And I think
+it uh you need to think about the composition of your team. Are you are you looking to
+to hire people that have deep experience and who work well independently and um are
+really motivated you know to to accomplish like the product like you know they're
+they're self motivated I guess have the intrinsic motivation that's a great situation
+for remote right uh they can work independently and we've loved that honeybger like we
+can go off and spend days in our whole you know building stuff it helps that we're a
+developer tool right So it's you know we're building uh stuff for developers by
+developers. Um but if you uh really
+
+[00:28:32]
+thrive on the the community of people working working together if you are dealing with
+uh you want to hire more junior level people I've seen that be very difficult in the
+remote thing where it's much better to go look you know keep everyone in the same room
+for that because if you're trying to bring up someone who doesn't have as much
+experience they need that interaction on a on a regular basis. You don't want them going
+off for a few days, you know, getting lost in the weeds, uh, where they just feel like
+they don't know what's going on, right? Um, and the the the collaboration thing is is
+real. There's there's a real benefit to being around the whiteboard, there's definitely
+a quickness. So, you know, if your if your product is like, hey, we're we're trying to
+beat five other competitors to for world domination and we got to go go go. Well, you
+know, that's that's a good use case for having people in the same room because they get
+things done much faster, right? Um, so I think again it depends on the on the situation
+and the people involved, but um, you also have to again play to what you like, right?
+Uh, I I like being in my own office, having everything quiet
+
+[00:29:34]
+and not having a bunch of interruptions. So, a remote company works for me. >> Yeah. my
+my balancing act is I mean so much of what I do in I'm going to call it my day job uh
+which sadly is not podcasting um uh revolves around you know managing of teams and
+helping people making sure that people are unblocked they have the tools that they need
+they have you know whatever it is that that makes them feel like they enjoy what it is
+that they're doing but also the people that they're doing it with and then trying to
+attack that from the angle of everybody's remote I mean you know more often than not the
+closest thing that you get is is a very fun you know Google meet with like 10 people in
+it or or even four people in it, you know, so that you don't feel like you're in a silo.
+But you had talked about uh you know, Honeybadger, the company culture there with with
+being remote since the start. Uh you know, I'm just kind of curious what what do you
+what do you look for when you're trying to assess a new hire, a new developer, somebody
+who's wanting to come in, likes the company, is interested in the culture, loves the
+remote work, but you already know, you know, there are certain things that that I'm
+going to have to be able to count on about you.
+
+[00:30:36]
+you know that it takes a certain amount of discipline. Um you know it takes a certain
+amount of skill to be able to do that and it still does take a certain amount of
+checking in and and meeting with team members. So how do you go about uh one attracting
+you know the right kind of talent that you're looking for and two assessing it when it
+shows up at your doorstep? >> Yeah, we we spend a lot of time in our in our hiring
+process to try and and figure that out about each candidate. like would they be a good
+fit in that environment? Because for some people it's a great fit and for some people it
+just isn't. And one of one of the the red flags that we will take a look at closely is
+we look at the work history one like what what has their environment been to date? Uh
+have they been in on-site every every job? Have they never done remote work before?
+That's that's a big red flag and we'll we'll talk about that quite a bit. And we we
+we're 100% honest with people. Uh we we we bring out the the downsides to 100% remote
+like hey it can be very lonely. Uh you might you might find that you're not talking
+you're not getting out of the
+
+[00:31:38]
+house. You're not talking to anybody like and we ask like you know you're not supposed
+to ask you know certain questions about people but we say but we say things like do you
+have a community of people that you're talking to like in person on a regular basis
+whether it be church or family or friends or whatever whatever it is. I don't care what
+it is, but you know, do you have some connection with humans outside of work, right? Uh
+and if not, okay, that's that's a red flag because I I don't want someone who gets into
+this not knowing what to expect and realizing, oh, what? Now I'm majorly depressed
+because I'm just looking at the four walls and haven't showered in four days, right? Um
+so we we talk a lot about that uh during the hiring process. But, you know, for people
+who have done it, who have been working remotely for a long time, they get it. They
+already know it. they've already built their systems for coping with that kind of
+isolation or potential and so it's like okay we can we can gloss over that that's fine
+but the same is true I think for relative size of a of a company right if we're hiring
+some looking to hire someone who has been working at a you know huge
+
+[00:32:41]
+business maybe hundreds or thousands of employees and we are four employees that's
+that's a very big difference right and are are you going to fit well in that scenario we
+we have had bad hires we didn't pay as close attention to that and they had a lot of
+support in their previous very large organization and when they got to us they're like
+oh I don't know how to do anything because I don't have you know 20 people I can rely on
+to do all the various things right so I think it's you got to take a lot of time during
+a hiring process to really talk to people and uh we also spend time not talking to them
+but just interacting via email and we have like a often times have a test project where
+we want to see what the writing is like like Can you communicate via the written word?
+Because a lot of our communication is via the written word, right? So, we just want to
+get a feel for would you feel comfortable in this environment? How would you do there?
+>> We even have like little uh you know, little tests almost that we kind of go through
+and obviously we we're interested in your technical skills, a background and things like
+that. But, but a lot of things like that and that's where I get to kind of step in and
+and
+
+[00:33:43]
+talk about here's what your day is going to look like. You know, what does your day look
+like now? Is it anywhere close to this? How do we bridge that gap? Is that is that
+something that you're interested in doing? And we actually have had some really good
+hires who very much want to move to that type of situation from a large corporate
+environment or things like that. Um, which I always find very interesting too. Um, but
+yeah. Yeah, because they can be they can be incubation pods for, you know, really great
+talent and somebody that wants to wants to stand out a little bit more, have more more
+input into the creative or or the next step or the direction of a company and they need
+to get out from underneath the hundred other people that are around them. Um, and so I
+always find that very fascinating. So um keeping an eye on time here but but also kind
+of coming back around full circle uh obviously there is uh a big push uh in in our work
+but in in just about every industry for you know tools to become essential uh to what it
+is that you are doing and in our environment it's it's you know things that you want to
+put in your developers toolkit you know what what type of what kind of tool set or you
+know what is what does your IDE look like uh right and that's one of the questions I
+even ask in interviews you know what what
+
+[00:34:44]
+what does your ideal ID look like and so I know that this is an old question because of
+stuff like that but it's becoming relevant again because of the advent of all these new
+tools like Honeybadger and certainly with with AI coming on the scene. Are we in any way
+you think creating a culture where dev teams are currently or could be soon relying on
+these third party tools for monitoring or error tracking or code completion or whatever
+instead of honing their own problem solving skills. Yeah, it's something that I've been
+thinking about with, you know, AI as a development, uh, over the past several months as,
+you know, the models have gotten better. My IDE setup, I use I use cursor, uh, and of
+course with the the Vim extension installed because I can never give up my Vim key
+bindings. >> Oh my goodness, >> you remind me so much of a developer. I mean, it was
+like you can have it when you pry up for my cold dead hands. I will be I will be in Vim.
+>> Totally. Totally. But it but there definitely is uh it's it's an we're in an
+interesting inflection point I think and uh I think it's too early to say
+
+[00:35:47]
+which way it's going to go. Uh which makes it which makes it interesting. Uh but you
+could definitely find yourself in a situation as a developer where you you previously
+were used to writing code all day long and that's what really brought you joy and that
+was great. uh to now you're like a project manager of AI agents and you're just
+reviewing code and you're just uh trying to merge in all these disperate, you know,
+things. And uh one of those may be more fun than the other. Uh but uh but one of the
+things I'm really interested in is is skill atrophy. Like do do you get to a point you
+become dependent on these things and you don't even try anymore? And and I've seen this
+as I've like just done some experiments. It's like, okay, build me a thing. Like, I want
+to do this task and and I'm going to let the egg go do it. And uh does it get to the
+point that I'm now not as curious? Am I not learning as much because back to that TRS80,
+you know, when you were typing in those commands from the magazine, like you understood
+very quickly what the difference between a
+
+[00:36:49]
+zero and an O was, right? Because one worked and one didn't, right? And that that was a
+learning process for you. And so you're like, "Oh, okay. It matters, right?" Or if you
+if you missed a character, then you're like, "Okay, I I have to be very exact in this
+thing." But, you know, you multiply that by a million and these are the little things
+that we learn as part of our professional development over the years of of building
+stuff. And do we have a regression if we're not having to pay as close attention to
+detail? Because, oh, the AI will just generate the stuff that I need. And if it doesn't
+get it right the first time, I'll just tell it, hey, go fix the thing and it'll it'll
+iterate enough and eventually it'll get to the right point and then I can just throw it
+out there and that's all good. Like um I that's a concern of mine uh because because I
+concern because because I love quote quality, right? I love that book code complete, you
+know, and um yeah, I think there's just there's a joy that comes from building something
+and building it well, just like a woodworker or a good machinist, right? Um, and so I I
+get a little concerned that we're we're giving up some of that uh for this
+
+[00:37:53]
+this potential uh potential benefit of productivity, right? >> So, how do we combat
+that? How have you combed that? >> What I've what I've done is I've kind of just checked
+myself. I'm like, "Hey, am I am I checking out of this process here? Am I letting it run
+the show or am I still running the show?" Right? as as I work on these tasks. Uh I've
+I've actually dialed back a little bit of my AI usage. Uh so if I have a new task in
+front of me, I might say, "Hey, do I do I really want to throw this at the AI or should
+I just just do this, right? Do the do the work myself, right? Do the do the do the
+reps." And and sometimes the answer is, "Yeah, I'm just going to I'm just going to do
+the reps." In fact, I was doing that yesterday. I was wr writing some code converting
+from one language to another, which is great use of AI, right? Uh, and so I actually
+asked the guy to do it and it spit out a whole bunch of code and I'm like, okay, that's
+a lot. Uh, let me go and let me put that aside for a minute and let me just go do it
+myself and then I can compare notes, right? And just, you know, again, putting those
+reps, I think remembering to do that, having that
+
+[00:38:55]
+discipline to do that. It's just like writing notes out by hand, right? It's a different
+experience than if you type in notes on a keyboard. Uh, it's there's different
+connections made in the brain. I'm convinced anyway. Maybe there's no science for that,
+but I'm convinced. Uh, so I think, you know, just just doing the work, putting in the
+reps is is valuable still. And, uh, remembering to do that and sometimes saying, "Okay,
+I'm going to not go into easy mode here. I'm going to keep it in hard mode for a little
+while." I like that. Easy mode, hard mode. So, u, we're kind of coming up on our time.
+Ben, what is next for you? What is next for you, Honeybadger, the the the different
+things that you're working on? >> You know, I again been doing Honeybadger for 13 years.
+I think I could do it for another 13 years. Uh, >> that's great to hear. >> It's fun.
+You know, when you when you're doing a thing that you love, why why would you stop doing
+it? Um, >> well, I guess if there was a if there was a life-changing amount of money on
+the table, I guess that that that could be a reason why. But >> no, I love >> I'm going
+to keep doing what I'm doing. Uh, keep building code. Uh, keep trying
+
+[00:39:58]
+to make developers happy. Uh, because I am a developer, so that works out for me too,
+right? >> Indeed. >> Um, but keep keep building. uh and keep trying to run a great
+business. I love entrepreneurship. That's really who I am. That's one of the core pieces
+of who I am. And I'm not necessarily the best at it, you know. I'm not uh I'm not
+Rockefeller. I'm not Cargi or anything. U but my own little slice of the world. I I like
+what I do and I I get I get paid well to do it. So, I'm keep I'm keep doing that. >>
+Awesome. Ben, it's been super informative. I really appreciate the breadth. I know we've
+kind of gone over all over the map a little bit here, but really appreciate you sharing
+your time and your insights on all these different topics. Thank you. >> Oh, my
+pleasure. >> So, we've been talking with Ben Curtis, co-founder of Honeybadger, among
+many other things. Ben, where and how can people reach you? >> Well, definitely check
+out honeybger.io. If you go to the about us page, you can see all my socials there. I
+got LinkedIn, Blue Sky, whatever you prefer. Um, that's yeah, probably the best way to
+keep track of me. >> Uh, special thanks as always to our listeners. If you do like what
+you're hearing, you've got ideas for the show,
+
+[00:40:59]
+or just want to tell us what's on your mind, throw a review our way. Uh, hit subscribe
+if you are so inclined, and we will see you all next time on SAS That App. Thanks for
+cruising along with us on SAS That App. We hope you grabbed some insights that were
+inspiring, actionable, or at least entertaining. If you enjoyed the show, don't forget
+to subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

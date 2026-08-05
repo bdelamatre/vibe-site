@@ -1,0 +1,1038 @@
+Behind Schedule, Over-budget, and... Happy?
+===========================================
+
+Video ID:  KXfY0Ctt0l4
+URL:       https://www.youtube.com/watch?v=KXfY0Ctt0l4
+Published: 2025-11-11
+Duration:  01:00:52
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+It's possible to be behind schedule and overbudget and happy. Like all three are kind of
+okay sometimes and if you can arrange your budget, your finances, and your life in such
+a way that you can iterate and work collaboratively and agilely on a remodel project,
+you might end up with something better than if you have these really rigid kind of fixed
+speed requirements. Welcome to SaaS That App, building B2B web applications, the podcast
+where we share real-world stories, practical advice, and tech insights for those
+building or thinking about starting a tech-enabled business. I am your co-host, Aaron
+Marshbanks. And I'm Justin Edwards. Each week we bring you the stories, strategies, and
+insights you need to build your SaaS or tech-enabled business smarter, not harder. Let's
+dive right in. Hello and welcome back to SaaS That App. Welcome to the friendly
+neighborhood confines of good discussion that's going to be had here with with our
+friends
+
+[00:01:02]
+across the mic and across the screen, Mr. Justin Edwards, as always. How are you doing,
+my friend? Hey, never better. Crashing in another Airbnb for yet another day. And in a
+very similar boat, our friend also across the way, Mr. Daniel Cannon. How are you doing,
+Daniel? Hey, doing well. Greetings from Greetings from the Airbnb. Is it though? I mean,
+you know, if if if if not sleeping is your cup of tea because the air conditioner
+doesn't work and the bed's uncomfortable, yeah, it's it's great. It's great. So, sorry
+to be a little sleep deprived. >> That's okay. Well, that actually plays into into the
+theme of the day. So, today we've got another another kind of an interesting topic that
+the three of us on this call for certain have have been through very recently and also
+many times in the past and also I'd imagine a number of you out there in in the
+listening land have also been through and that has to do with home projects, home
+remodels, building of homes, and frankly how that relates oddly closely to software
+consulting and the software consulting business. So, today's kind of a hot take on on
+how how working through those home projects and
+
+[00:02:06]
+home renovations and home remodels have informed software consulting and what it has
+taught us and then by the same token what software consulting has taught us about good
+approaches and best approaches for for home remodels and things like that. So, yeah,
+we're going to we're going to kind of run the gamut here of of talking about scope and
+expectations on things, certainly budget versus reality, you know, communication,
+definitely going to get into like quality and ownership and and just some big
+overarching concepts as it relates to the software development life cycle life cycle and
+and how how the analogy just kind of taps right over it to into the home. So, Justin or
+Daniel want to kick us off with a with a good story? I think Daniel's probably best
+situated to tell our current home remodel journey, as it were. I'm happy to dig in. So,
+yeah, remodels are a lot of fun. A lot of fun. I'm actually I'm super excited for this
+for this episode, honestly, because yeah, the parallels between software and home
+remodels have become very starkly clear in the past 6 months 7 months. How many months
+are we at?
+
+[00:03:10]
+It's supposed to be a couple months. So, that's, you know, lesson lesson one of a
+remodel is that's going to go way over budget, way over timeline. And you know, everyone
+everyone kind of prepared me in advance like, yeah, prepare for that thing to take twice
+as long as they say. Underestimate. Prepare for it to go double over budget.
+Underestimate. No, it's it's it's it's bad. So, yeah, I mean, I guess just to tell a
+little bit of of the journey on the remodeling front, we live in Puerto Vallarta, Mexico
+and we've been here for about 3 years and earlier this year we bought a house and we
+bought a house which we knew needed a lot of work. We got a really good price on it, but
+we're like, yeah, it's probably going to need quite a bit of work to to do. We found an
+amazing architect. We found an amazing crew. And it was like, okay, this is great. We're
+going to finally be able to build our build our dream house, you know, and I had huge
+dreams. I want to have this amazing kitchen. I love to cook and I want to have like a
+crazy kitchen with just like an insane stove and you know, all the all the stuff that
+you would have in like a commercial kitchen, but I wanted in my personal kitchen. And
+so, I got I got to work and I designed this whole like kitchen layout and and and we
+
+[00:04:14]
+kicked off the the whole project. And you know, very very early on in the project it
+became clear that a lot of what I had envisioned was not going to work. And then there
+were fundamental engineering and physical realities of the universe as well as supply
+chain realities. A lot of this stuff that I wanted to buy, you just couldn't get here in
+Mexico. And so, we had to make some compromises and make some make some changes. And
+then, you know, as they start digging into the house and start cutting open walls, we
+discover all sorts of lovely things like the upstairs bathroom was never plumbed to the
+sewer. Instead, they just ran the line into the garden. So, you know, I guess they
+assumed everyone knew the let it yellow let it yellow let it mellow if it's yellow roll
+whatever. >> [laughter] >> And I was like, oh man, this is Yeah, upstairs upstairs was
+number one only. But there's a couple a couple tie-backs in the software here. So, the
+first one is clients will show up with dreams. Sometimes the dreams are things that just
+can't be done or aren't feasible or it's like, I could build that for you. You don't
+want that. Let me explain to you why you don't want that. Um
+
+[00:05:16]
+and then I think also especially as we deal with projects that have been previously
+written by more questionable actors, if you will. It's very very hard to anticipate
+costs on this up front because we sometimes uh kind of start pulling the rubber bands
+out of the golf ball or whatever and it's it's a big a big scary mess. Well, let's start
+at the top then. So, you know, Daniel's Daniel's kind of already mentioned this and as
+many of you are probably already fully aware, you generally don't go into these sorts of
+situations without some sort of an idea, you know, ever how high, 30,000 foot view is is
+a good place to start as any on what you want this this end result or this goal or or
+this idea to be what you kind of brought it to fruition. And you know, the idea of
+course is to get from 30,000 feet down to something that you can actually start putting
+together and start building. So, you know, in the software business we we call this
+typically something like scoping or discovery or architecting. You know, so getting
+together with all the stakeholders, whoever those might be, and actually kind of battle
+planning this thing out. And and traditionally, you know, in early early software
+development and and this of course is
+
+[00:06:18]
+going back many many years now, you know, that was that was a grand process. You would
+spend a whole lot of time in meetings and calls up front. You would spend a whole lot of
+time doing documentation you know, during discovery. I mean, point where you are
+completely mapping out a database, you are mapping out screen to screen, you are mapping
+out fields and workflows, and you have this this bible basically that you are building
+that we're all going to agree is the end result. This is the thing. We are building
+this. Now, how much will that cost? And then you spend just about as much time going
+through every single page of that and itemizing it and putting together the cost
+structure to try to get as close as you can to a fixed cost as possible for the client
+so that you can put a price tag on it and the client can say, yes, build me this for
+this and we are done. However, >> [laughter] >> Justin is about to jump in there. I'll
+give him the however. There's always a however. No, so I think we did basically that.
+So, we went over there. We said, look, this bathroom needs a little bit of updating. We
+want the work on the upstairs apartment area is a mess. So, just we know it's going to
+have to get
+
+[00:07:20]
+completely redone. There's a lot of shotty crap with like all the systems of the house.
+Digging into that, let us know what it's going to be. I don't want to have weird
+electrical plumbing issues. Like if this stuff needs to be replaced, let's do it now
+before we move in. And then finally, we want this crazy kitchen. And so, that was kind
+of the initial scope that we had with them. And like any good entrepreneur, salesperson,
+and and expert, and person with passion about what they do, our contractor basically
+identified the Cadillac version of things that we needed and wanted and basically set
+out to create like the best possible house that he could build for some amount of money.
+And he came back to us with a budget and it was we really liked the idea we were getting
+kind of more stuff than we had initially asked for and a lot of his investigation into
+things that we needed to fix was just revealed a lot of problems. And I've done that
+with customers too, where I got hired to write a feature on like, look, so we can write
+the feature, but it's still not going to work correctly because the entire mechanism
+that powers it is is flawed. And so, we had a lot Yeah, I mean, I would say so. I think
+I mean, honestly, this this brings up for
+
+[00:08:23]
+me a beautiful parallel with working with a software developer because no software
+developer We talked about this on a previous episode, but no software has ever talked in
+No software developer has ever walked into a piece of code, a software system that was
+written by somebody else and has not immediately been just like rewrite rewrite rewrite,
+you know? And I think like our contractor did the same thing. He came and looked at the
+house and he was like, this is all awful. We need to rip it all out. And you know, and
+then there's also like this this balance between you want to tell the customer redo it
+all, rip it all out, but then at the same time when you come in as a consultant, you
+immediately have this perception that oh, he's just here trying to drive up costs. He's
+not actually trying to advise us, you know? And so, like with our guy, we started with a
+very small project and we started build trust from there. He did kind of the upstairs
+sort of in-law suite thing and we sort of built trust and eventually we're like, okay,
+maybe this guy actually knows what he's doing and he's not just trying to not just
+trying to screw us, you know? And then we've gradually come to accept his advice more
+and more and I really think that he's actually advocating for us. But boy, that that's a
+hard thing to
+
+[00:09:25]
+a hard thing to do at the beginning. And because I mean, I I imagine that he probably
+has the same attitude toward most houses, kind of the same as developers have. And it's
+really hard to kind of weigh like, is this guy advocating for like perfection or is he
+actually advocating for me? Or is he advocating to run up run up the tab, run up the
+budget? So, yeah, that's that could be hard to hard to sort out. Let me Let me put a bow
+on that, too. So, I think one one thing he spoke to was just trusting your team that you
+work with, trusting the guy that you work with and developing that. I mean, I have so
+many customers now that just trust me and I advocate for them and I I try to lay out
+options and pros and cons and things like that, but uh for folks who are just coming in
+and kind of winning that initial piece of work in that like initial bid, like clients
+don't know who to trust and and after we get to a place where where people trust me and
+realize that I'm going to do a good job, you know, by them and advocate for them, it
+gets everything else gets a lot easier um and we kind of had the same experience in this
+where like after the kind of initial project went really well and we were really pleased
+with it, it was like, "Okay, yeah, I this guy knows what he's doing and he actually
+really wants to make a beautiful house and he's actually really excited and passionate
+about it."
+
+[00:10:27]
+Like I sometimes want to be like, "So, you realize you're not going to get to live here,
+right? Like this is going to be our house." And I would also say like it's a lot easier
+in our circumstance working with him um it's it's a lot better because we're we're
+actually much more on the side of we want to have a beautiful brilliant house as opposed
+to like we have this really fixed budget that we're trying to hit. I don't think he
+would be a good fit for somebody who's coming in and saying, "Hey, I've got $10,000.
+That's my budget and I need to redo my kitchen." You know, he he's not your guy cuz he's
+going to go through and yank everything out and want to redo everything um and you know,
+he he's been great to work with, but I think I think there's a a parallel in software as
+well where it's like if you are operating on a on a fixed budget, you need to find
+somebody who's willing to willing to meet you there and there are a lot of shops who
+will you know, will will come up and tell you like if it's a $10,000 project, I'm not
+touching it. Like that's just not even worth my while to to deal with and so you need
+you need you need to hear those hear the hear that loud and clear. And you know, I I
+think there's also with with a home remodel and also with the software project, you step
+into and you don't even really have a sense of what the budget should be, you know, and
+you're
+
+[00:11:30]
+kind of looking for someone else to inform you on that and and that's that's a real
+challenge. I know it was very scary for me on the on the remodel where it's like
+especially doing a remodel here in Mexico, what do things cost, you know, labor is a
+very different uh ball game here in Mexico as are supplies and raw materials and so
+yeah, I mean, I walked in this having no idea what it was going to cost, having never
+even done this in the US. Now I'm doing it in Mexico and you know, so we went and got a
+got a bunch of quotes from a bunch of people and um you know, we wanted to make our
+decision not solely based upon price, but it was it was definitely a factor. The whole
+point at the beginning is is to get you to the end, right? I mean, it sounds kind of
+silly, but jumping over the middle parts which we'll come back to and catch in a minute,
+you want to start with the goal in mind. You know, and and to Justin's point about
+building trust, part of the way that you do that, at least in in in in my opinion having
+worked through some of this with with clients, but also in in home projects, you do have
+to start with a reasonable understanding that this person probably does for better or
+worse know more about this than I do. And and at the very least what I need to try to
+understand is is an order of
+
+[00:12:33]
+magnitude that I'm talking about, but based on my goal and not necessarily based on you
+know, that Bible I referenced at the beginning. You know, really really being able to
+bring that out in a client and say, "You know what what is the mission here? What what
+is the goal? What is it you're trying to accomplish? What are what problem are you
+trying to solve?" And then once you have that understanding, say, "Okay, what are what
+are the have to haves?" Like you know, there there obviously are are going to be some
+tent poles here. What are those tent poles? And then let's let's work on you know,
+what's going to happen between those to get you to the thing that you want in a
+reasonable amount of time, thus for a reasonable budget. But again, working clients
+through the understanding that software these days especially uh it's not a fixed bid
+proposition. You know, we're I'm I'm going to say gone are the days, but I'll I'll use
+that phraseology cuz I like it. Gone are the days where you know, you're going to go to
+the store and buy off-the-shelf software product that you're going to install on your
+computer and that's how much it costs and it will do all of these things. Now, you can
+still do that to a certain extent with you know, operating systems and and certain
+softwares and things
+
+[00:13:35]
+like that, but when you're building something that either doesn't exist or you are
+augmenting something that does so that it works better than it did and with other things
+that it didn't before, you're in uncharted territory. And so you have to rely on those
+experts. You have to have reasonable goals and you have to both have an understanding
+that we're not both going to get what we want. We want to build a really great system.
+We know how to do that. You want to get your goals met in at a reasonable time and
+budget. You're probably not going to get that either. So, how do we meet each other in
+the middle? And those are the conversations. You you set that sandwich up and then the
+middle can kind of take care of itself a little better. Yeah, I mean, there are very
+real like budgetary like money and timeline constraints that do exist, but most of them
+are softer than we think that they are and I think in general people could use to soften
+up on them. If your goal like if your goal is you wake up in Q1 you're like, "I'm going
+to spend $175,000 on software this year." That's a really crappy goal. Like your goal
+should be what do I need to do? What do I want to build? And then like what is what is
+that actually going to cost? And if it if it's going to cost a quarter of a million
+dollars, then the answer should you know, the question should become how do I get the
+extra money or how do I close the gap or
+
+[00:14:37]
+whatever, but um having the budgetary number drive the what you're building is just it's
+kind of backwards um and the timeline also, I mean, there are sometimes real deadlines,
+but you want to be efficient, you want to work as well as you can, but I think that
+having this really if your goal like if you have three constraints and one of them is
+like how good the job is and then the budget and then the timeline, if if you have to
+give up on on one of those, if you got to give up on one, man, extend the budget and
+extend the timeline. Like have something that's good. That makes sense to me. I think we
+try to tackle those with our customers. We didn't really have this option for our house
+cuz we want to live in it, but like we can we can set a monthly cadence that people so
+businesses can cash flow what their software lift is going to be and then we work
+towards like an overall general idea of what a budget's going to be. Yeah, I think what
+happens and this happened to us at at at with our house is that uh we walk into this
+really really beautiful totally redesigned modern apartment up top. I look out at these
+crappy roof tiles that are covered in like grime and and nonsense and it's like, "Well,
+I didn't notice how ugly that was
+
+[00:15:39]
+before, but now that I'm standing in this beautiful pristine piece of you know, uh
+apartment, I don't want to look out at these crappy roof tiles. So, give me a quote to
+change those." And that was one example of scope creep and we see that all the time in
+software. It happens both with developers who are working in some gnarly scary place in
+the code and then they move to a different place where they're like, "Oh, can't we just
+bring some of those patterns back over here?" Uh and then customers as well, sometimes
+you design a a new page for a customer and uh they see that and they're like, "Man, I
+really wish the rest of the site looked like this page." Yeah, and you you kind of have
+to work work people out of the you know, your eyes being bigger than your stomach uh
+sort of a situation, too. Um you know, I'm I'm a do-it-yourselfer more than a higher a
+contractor, but the same rules are going to apply. I mean, there are still, you know,
+budget considerations, there are still outcome considerations and while I am a I am the
+do-it part of the do-it-yourselfer, uh my wife is the visionary, my daughter. They they
+can see these things that they want to do. It's like, you know, I I I'm not that guy,
+but I am the guy that can get that thing done. And so it's it's an interesting marriage
+in that way uh because you know, uh very recently prior to my recent move, we were
+remodeling uh the bathroom.
+
+[00:16:43]
+And so, you know, you walk in the door and and my wife goes right into goal mode. It's
+like, "We're going to replace the tub and the shower surround. I want to replace the
+vanity, but I want to keep the same footprint. However, I want two sinks instead of one.
+The toilet's okay where it's at. It might be nice if we could get another one." So,
+she's already kind of mentally, you know, going through, you know, the checklist, but
+also to her credit, she's going through where there's room to give. You know, I just I
+want a different vanity, but the same footprint at least, you know, two sinks, but I
+don't care what the material is. The toilet's fine, you know, it would be good if we
+could replace it, but we don't have to. But the tub and the surround absolutely have to
+go. They're old and they you know, the caulk's running out. So then, you know, me as the
+as the expert in who's going to get it done has to step in there and be like, "Okay, one
+of those things I've never done and all of those things I haven't done in this house.
+So, here's where we start from. I could do this. I have 100% confidence in my ability to
+do that. I have 90% confidence in my ability to do this and about 50% confidence in my
+ability to do
+
+[00:17:46]
+this. We can go and start picking things out, but we got to measure for certain things,
+you know, that that the budget's going to be an issue. And then, you know, fast forward
+into the project and walls are open because plumbing has to be redone for the double
+sink and it's like, "Oh, wow, they didn't vent the original sink correctly." Wasn't
+planning on that. However, this is going to be behind a new vanity. Uh do you want me to
+cover up that wall? But you're not going to see it because it's going to be covered with
+the vanity. Do you want sheetrock? No sheetrock. Would you like sheetrock but not
+finished? So, you start getting into some of this give and take at these various
+checkpoints. You know, the vanity came out, all looked well. The wall came out, now it
+doesn't look so good. You know, so now now where can where can we give? We're not going
+to be able to get that toilet now. That's right out the window. But you know, and so
+working your way through that in software also is something that's very important. I
+mean, you have to be able to have these these check-ins and these checkpoints. We all
+have a goal we're working toward. That's the remodeled bathroom or you know, in this
+particular case, it's it's this new piece of software or new feature that we want to
+build out. But when we start peeling the layers back, there's going
+
+[00:18:49]
+to be some crap in there, there's going to be some things that we actually out and out
+have to replace. There's going to be stuff that's a piece of cake that we have a lot of
+expertise in. So, I I love that you're you're talking about getting updates early and
+often and showing progress and just kind of checking in and having common touchpoints.
+Like I think if there's one one big mistake that we made on this project is we uh we had
+this big Asian trip in the middle of it. And so we were off time zone sync and obviously
+not going to pop by the house. Um I think during that time a lot of progress slowed
+because there's the perception of like the pressure being off. Um and I think for folks
+working with consultancies and and contractors even employees, like I think the fact
+that you have a regular cadence whereby you're reviewing work and checking in and seeing
+progress and all that is very motivating for the people who are doing the work, whether
+that's a consultant or an employee or or anyone else. We talked about the Bible, the
+master plan early on and kind of that waterfall style of consulting which we uh don't
+ever push anybody towards cuz it's uh a recipe for disappointment, but that big thing of
+like give me a million dollars and I'm going to come back in a year with a piece of
+software that isn't what you want. Um I I that you can also do that not a a home
+
+[00:19:51]
+remodel and uh Like some of the best ideas come up mid-project. Like we have a we have
+several examples of things that just kind of changed out of the blue kind of while we're
+working. And yeah, that added to the budget, but I mean some of those some of those
+ideas were just really cool. I think you're just spot-on, Justin. The the regular
+cadence, the regular touchpoint is so important. And I think that's something that
+people get wrong in software projects all the time is you have to be very active and
+very involved. You are not just going to hire a team and say make me a software and then
+expect it to come together. Just like with the home remodel, you need to be over there
+meeting with the contractor week in week out. And sure, we had a plan, we came up with
+designs. Things change, you know, the contractor's going to find things that are wrong,
+you're going to have to make decisions. You're going to get so tired of figuring out
+what color of handles you're going to do and what kind of wood and is it an engineered
+product or is it real wood and so on and so forth. But if you're not involved making
+those decisions, they will make those decisions for you and they will be wrong. You will
+come back at the end and find out this isn't the house that I wanted to build. At the
+same time, while being super involved in it, you also need to recognize that they are
+experts and
+
+[00:20:54]
+trust them. You know, you hired these people specifically because they know these
+things. And so when you go to them and say I want to have a marble countertop, you know,
+what you're telling them is I want a marble countertop. A good expert should push back
+and then be like, "Hold up, marble's actually really not a very good material for a
+countertop and here are the reasons." You know, you can still overrule them at that
+point if it's super important to you, but I would say defer to their expertise and try
+to lay out the vision. You know, this is what I want. I want a nice beautiful bathroom
+and it needs to have a double sink. And and when you start going in there and being
+like, "I want to put the toilet there and I want to put the shower there and I want to
+blah blah blah blah blah blah blah." You know, you know, one thing you'll learn in a in
+a remodel, uh moving moving drains, super expensive, super expensive, super hard. If
+you're not redoing all the plumbing, it's a nightmare to move a toilet over there. Super
+easy to do in AutoCAD, really hard to do uh in practice. So that And you know, we have
+this all the time with software where it's like, "I want to have this thing." And so
+listen to your expert when they come back and say, "That's expensive. That's really hard
+to do." And and instead I would say try to spell out, "This is the vision. This is what
+the app should do."
+
+[00:21:57]
+Be involved. Don't overrule unless it's really important to you uh and try to, you know,
+collaborate and work together, I think is the is the real key. And the timing of that
+matters, too. I love the analogy of of plumbing. In fact, one of the best piece of
+advice I ever got was never ever start a plumbing project on a weekend when plumbing
+stores are closed. You will flood your house. Yeah, one of the one of the first things a
+very good plumbers, you know, should ask and almost always do is is the wall that I'm
+working in closed? Because that's going to dramatically change the price and the amount
+of time that is going to take. You know, with with the with putting in that double
+vanity that I mentioned, had the wall already been open, I would have known about the
+venting problem. And also I would not have had to demo the wall and start cutting in
+2x4s and things like that. You know, you If if this is a decision though that got made
+after I'd already put the vanity in and and installed the plumbing and then it was, "You
+know, a double sink would be nice." Okay. That is really really bad time to make that
+decision and have that conversation, but an expert would know that decision is coming
+down the line and can back that question way up to
+
+[00:22:59]
+earlier in the process. And so that's that's another thing about, you know, relying and
+trusting your experts is because they're going to ask you questions generally at the
+right time that will save you money and time down the road. And fair game, answer could
+change. Sure, over the course of a project that's going to happen. But someone who knows
+it's coming is going to do a better job at guiding the process and helping you get there
+uh with more efficiency and less cost and less time than one who is not. You know, you
+will have had that that conversation. I I love that that you have your wife who comes in
+with this really like fixed vision of kind of what she's interested in and then you you
+can it sounds like you kind of bring some of the technical, "Well, this is hard, this is
+easy." and like kind of uh you guys kind of operate between the the the street and this
+the clouds in that way. So we would contractor we worked with, we sent them a lot of
+examples of things that we liked and we sent things that we wanted to have and then we
+sent them the blueprint of the house. And we said "Come back to us with some ideas." And
+so we got like two or three options for every um for two or three options like
+
+[00:24:02]
+for every room and everything we were think we were thinking about. And uh like the best
+one of the best designers I ever worked with, uh she had this very like firm thing.
+She's like, "It's always three options. Anytime you do anything for a client, give them
+three options and not more." And she was like very and she had her reasons for this and
+actually wrote a a really cool article about it, but I think getting three options on
+each room is fine because one of them is going to invariably be close enough that you
+can start the iterating. And I love this. But what's not great is this this this this
+and this. And uh we were able to end up with like we never would have thought of these
+things because we don't have a career of doing home remodels and construction. So it's
+like leaning leaning on your experts properly and I I do occasionally work with clients
+that are not operating that way that I wish would would be a little bit more of like,
+"No, no, you you this is an architecture choice. Like happy to bring you through why I'm
+recommending it this way, happy to present you with a couple options and give you the
+trade-offs." Just did it today on an AWS architecture thing where I'm like, "What is
+your goal with this cloud thing you're doing because if you're trying to save money,
+this is the way to do it. If you want something more robust, this is the way to do it."
+Um but but being that role of educator and and then if you're a client or if someone's
+hiring a contractor, you're
+
+[00:25:04]
+hiring a software shop putting them in that role of advise me. I need options, I need to
+understand, but you anyone you're working with on that, you should feel like they're
+educating you. Same thing with an attorney or an accountant. I want to say when I go
+visit my attorney and talk to them about a contract, I want to be learning the law. I
+want them to be explaining to me what I don't know or don't understand. >> is in
+session. Just going to kind of move us on down the road a little bit. You know, we're
+talking about communication and and transparency and things like that. And you know, I
+think I think the general consensus here is, you know, having those helps to eliminate
+surprise. You know, I I think that translates to pretty much any any job, any anything
+that you're doing. And you know, I I I tell I tell our team all the time, you know, if
+you're hearing something from me for the first time like in a in a annual review, I have
+I have failed you. You know, I don't I don't like surprises. I'm going to assume that
+nobody else likes surprises. And so we're going to talk about things along the way. And
+and being able to have those you know, those those touchpoints periodically and and
+again, it just it continues to build that trust. So so this now gets us into a little
+bit discussion about, you know, why the goal is a moving target. Uh I guess I guess is a
+good way to put
+
+[00:26:07]
+that. You know, we we entered into this. We're we're wanting to, you know, the idea was
+build me a house, right? But a million decisions later and and, you know, is it anywhere
+close to that? Did we want it to actually be close to that? Or or did rightly the goal
+actually change over the course of this thing? And and most of the time I find the
+answer to be yes if it's a well-managed project. The the times that you get no and you
+get lots of pushback and the, you know, what is happening and I'm getting these invoices
+is when you skip all those steps, when there's not any communication when the client is
+not involved in the decision-making process, when they are not being educated to
+Justin's point. Um you know, when when they don't feel like they actually are a
+stakeholder in this process and instead have just been "Here's $50,000. Months months
+months months months. Here is your product. Okay, now I'm not happy and I don't want to
+pay for it." You know, that that kind of a thing. Um you know, so addressing some of
+that and kind of and kind of speaking to that that goalpost moving, but why that's not a
+bad thing. Uh you know, and a lot of times it
+
+[00:27:09]
+actually winds up with a with a happier client. Um to touch on that a little bit,
+Daniel, Justin. Yeah, I mean absolutely. I mean the goalpost is always moving in both in
+software and in construction projects. So I would say at least going through this
+remodel, we keep moving the goalpost uh you know, quite a bit. I think one of the big
+differences between software and uh a home remodel or construction project is that the
+construction project is physical and in many ways simpler. I I mean, not to say that one
+of these is harder than the the other, but in terms of just the complexity of the
+system, there's not that much going on in a house versus what's going on in a piece of
+software. A piece of software is wildly complicated and, you know, if if you look at
+like a program running on your computer, there is no single human alive who can explain
+to you every single step of the process all the way down to silicon. I mean, broad
+strokes, absolutely. But if you start talking about somebody who understands how a
+transistor works, how transistors work together to create a RAM, how those work together
+to create a CPU, how that works
+
+[00:28:12]
+together to make the box, how the operating system works, you know, and take that all
+the way up like you you forget about it. Forget about it. Whereas I think with
+construction, it's a lot easier for one person to actually understand uh plumbing and
+air conditioning and electricity and carpentry. I mean, they might not be experts at all
+of this, but they probably at least understand it. So so I think that there's a a a huge
+difference between uh building software, which is a very complex system, versus building
+a house, which is in many ways a a simpler system. And so like when you're doing a
+construction project, you usually use what's called the waterfall method, which is
+basically we sit down and we spec out all the requirements and we do this big design up
+front where we have a CAD drawing and we say, "Hey, this is what we're building. Here's
+where we're ordering the parts." And you get pretty much done with the design before you
+even kick the thing off. You also will usually set a budget. It's usually a fixed a
+fixed bid kind of project where you say, "Hey, I am spending $35,000 on this kitchen.
+Here's the designs for the kitchen. Here's all the parts. Here's the man-hours. Here's
+my Gantt charts of how the thing's going to be built. And then, you know, by May we'll
+have it done." Usually the project
+
+[00:29:14]
+still even goes off the rails, you know, at that point. But that's the plan. And we say,
+"Great, we're going to we're going to implement it." And that works so great for
+construction and it works terrible for software. It works absolutely terrible. And it's
+so bad in fact that like the only people who use waterfall in software are like
+government and big companies. Anybody who's working on anything smaller than that uh is
+going to use a more iterative approach, which we call an agile approach, which is
+basically we don't do this big design up front. Instead, we kind of lay out, "Here's the
+vision for what we're we're building." We define some sort of broad ethics of
+development, and then we work in a super iterative way. We're like, every week we have a
+check-in, we say, "This is what's going on. This is what's on the backlog that needs to
+be done. How do we want to prioritize? How do we want to change direction?" Uh in a lot
+of ways, it's more, you know, expensive and all of that, but it's really the only way
+that it works in software. I don't know how else to put it. Yeah, and I I would say,
+Daniel, that even for uh governments and larger companies that you mentioned, they uh
+legally and procurement-wise run a waterfall operation, but the folks who
+
+[00:30:17]
+are working on those teams, who are smart folks, who want to get software written,
+that's all like, yeah, we we discussed it, this is how the legal component of this
+project works, but then we're on the phone all the time to figure out what needs to
+change, and then if you get somebody really efficacious inside, then they will sign off
+on things. It's like, "Actually, we didn't put a check mark in that check box, but there
+are five other check boxes that we did put a check mark in, and we understand the
+software doesn't operate this way." So, even in context where working in this waterfall
+in uh in software, it's not it's not really that way uh for the most part. >> Well, and
+I think I think complexity needs to enter into the equation at some point, too. I mean,
+is there a place in software for waterfall? And I would argue that there is. But, you're
+talking about the end of the spectrum, where there are very few decisions that actually
+have to be made uh you know, during the during the ongoing process. You know, if I if I
+were to come to a a software development shop, uh and I'm going to use them in a broad
+sense, who who might also, you know, be covering building websites, let's say. And you
+know, I all all I'm looking for is a four-page marketing website. I need a home page,
+about us, you know, list of team members, and and like a contact page. Um
+
+[00:31:20]
+I I I I don't really care too terribly much about design. It doesn't need to be like
+overly functional, just something that looks nice, has our logo, branded with our
+colors, you know, these these sorts of things. And you know, I've got $10,000 to spend
+on that. That's something that you can pretty quickly match up. You know, there's
+there's there's nothing I I don't want to say uninteresting, but it's a pretty
+straightforward, and I'll call it boring, type of a project. You know, there's there's
+no functionality to be built out, there's no integrations to be had, there's no real
+user interfaces, per se. Uh you know, it's it's content-driven. You know, so you can get
+a you can get away with that. >> Totally. I mean, my my take on that, Aaron, would be
+that's like painting. If you hire a guy to if you hire a guy to paint your house, it
+better come out the color that you agreed that he was going to paint it. >> You got it.
+Where the more complex systems, obviously, that the more you swing toward the other
+side, where the pendulum is going across, the more that Agile just has to be the way to
+do it. You know, you have to take these iterative approaches. You are you're not just
+because of issues that you're going to run into, but everybody's everybody's notion of
+done or everybody's notion of a complete feature is so vastly different, and it even
+changes over the course of time. Uh you know, as I think both of you have said, kind of
+earlier
+
+[00:32:23]
+in this call, some of the best ideas and notions happen during the course of the
+project, and you need to be able to pivot and shift as that project happens to some of
+these new requirements. And and you can't really do that with waterfall. It's no, you
+gave me this amount of money, this is what we agreed that we're going to do, and this is
+exactly what we're going to do. We cannot deviate from that, or the timeline fails, the
+architecture fails, etc. etc. Totally. And and and like in cons in construction, you
+know, if I hired somebody to paint my house, and I tell them to paint it blue, and I
+show up and the house is red, I'd be like, "Hey, dude, I told you to paint it blue, you
+know, re- repaint it." Um or in construction, if, you know, I hire somebody to um you
+know, to to install the hot and cold water sink, and I and I go in the house and I turn
+the hot water and cold water comes out, and I turn on the cold faucet and hot water
+comes out, I call the plumber and be like, "Hey, dude, you installed this backwards,
+come come fix it." And they will, and they're not going to charge you for that. That's
+just kind of implied. And so then you carry that into software, and I can't tell you how
+many times I've had to have this this conversation with people about, "Why should we pay
+for bugs? You guys wrote a bug. Why why would why would we pay for the bug when you
+wrote
+
+[00:33:25]
+it?" And you know, early on in my career, it was super hard for me to make that
+argument, you know, because, yeah, like if I hired you to to install my hot water, and
+you installed it backwards, you know, you should definitely cover that cost. And you
+know, my my my early answer was like, "Oh, well, you know, it's industry standard, blah
+blah blah blah." That didn't really go over all that all that well with folks, uh to be
+completely honest. And and I mean, I understand where they're where they're coming from.
+You know, and I think though the real issue in in software is that it is so hard to
+define what a defect is. One person's bug is another person's feature. And, you know,
+when there are things where like, you know, yeah, I don't even I don't even really quite
+know how to how to unpack that fully. I don't know, Justin, do you have you have a
+better answer for this? Cuz I'm going to run it over to you. Well, the I mean, the the
+universe of possible things is just so hard to to to track down. So, like, you know, the
+inputs to a hot water and cold water faucet are a rotation. It's pretty limited number
+of things. The inputs to a text field is it right to left? Is it support Unicode
+characters? Can I put symbols into it? What is the valid The number of ways that you Oh,
+uh we're working with uh people who aren't from the US
+
+[00:34:27]
+American context, and their names are routinely 75 or 80 characters long. Um and not not
+that any of these are real-world examples. Um so, is a name field that only supports
+names that are 50 characters long done? Is that a defect? It wasn't listed in the
+requirements that names needed to be 120 characters. So, I would say it's not a defect,
+cuz I wasn't given the requirement. But, to you, you wanted people to be able to put
+their names in, so maybe to you it is a defect. And uh much more productive than having
+that conversation uh and fighting about what is and isn't a defect is just to have a way
+to get to resolution quickly. And I think the world is kind of coming around to
+understanding that's kind of kind of how software has to be built. >> No such thing as
+bug-free software. I mean, that's the first statement usually that comes out of the
+mouth. But, to Daniel's point, you know, uh calling it a bug has a negative connotation
+to it. You know, it's like it's like some sort of an intentional oversight or or a
+slight that needs to be repaired or or whatever. It could just simply be, you know, to
+Justin's point, something that wasn't talked about or decided upon. And so, you leave it
+up to the person who's implementing it to implement it a certain way. But,
+
+[00:35:29]
+also, going back to Daniel's example, you know, if I get my right and left or or my my
+hot and cold water switched around or whatever, okay, that's one thing. But, in the
+context of a house, when you are dealing with well, oddly, it had to actually happen
+that way, because in order to do that, in order to get them on the correct side, I would
+actually had to cut the plumbing here. We are crossing these studs, where there actually
+happens to be an electrical conduit, so we can't really actually get around that. You
+start working through these complexities, and and sometimes you find it's not actually a
+bug, uh it's it's something that actually had to be structured in a particular way
+because of existing infrastructure that was already there. Or you start pushing out into
+these edge cases. It's like, "Well, that's not even something we've remotely considered.
+It's not a bug, this was never a consideration, and was never really brought up in
+testing or anything like that." And now it's out in the wild, and the best testers in
+the world are people. They will they will find that that issue or or whatever, and the
+best software ever written in the world iterates through updates. I mean, pick your
+
+[00:36:30]
+Microsofts and Apples of the world, they release updates constantly, because stuff gets
+found out, and workarounds have to be resolved, and things that were done poorly are now
+done better. Yeah, I think that's a great way to put it. I love it, where it's like it's
+not it's not so much we wrote a bug, it's more that there is a continuous proc- there's
+process toward perfection, and bugs are kind of a step along that. And it's, yeah, with
+maybe the thing doesn't quite support right to left right out the gate. That's not a
+bug, we've we've added we've made progress. There's now a text box. It doesn't do all
+the things the text box is supposed to do. So, come work with me, and we'll we'll
+improve it and make it better together. But, it's not a it's not a situation where you
+can step up to a counter and say, "One software, please." Uh sorry, "One one non-
+defects-having software, please." That's not that's not really how software works. Well,
+it just again goes back to complexity. Real quick, this episode is brought to you by
+Delta Systems, which is what Aaron and I do when we're not talking through microphones
+to you, the people of the internet. We've got a really, really great software team here,
+and we'd love to work with cool people on cool projects. So, if that sounds like you,
+and you've got a problem, or you're in some kind of
+
+[00:37:32]
+a jam, go to deltasystems.com, grab [music] a time with us. We can beat up on your
+problem together, and if there's a fit there, amazing, we'll help you out. So,
+deltasystems.com, grab an appointment, and hey, maybe we can work together. If I go into
+the grocery store, and I want to buy a bag of chips, you you better believe I'm going to
+be able to look at all the chips, see the prices, take it to the front, and be charged
+that amount of money. But, if I go back to the meat counter, and I say, "I'd like to
+have that ribeye, please." They don't say, "Cool, that's $10." They put it on a scale.
+You already have your first little bit of variability that's going to change the price
+of that meat. You don't go up there and say, "I want that one, that's $10." He says,
+"Well, I don't know that that's $10. It could be 11, or it could be nine. I I need to
+weigh that." You know, so I mean, even there, you have just the smallest amount of
+variability, which is going to change cost, it's going to change the fact that now a
+butcher is the one that has to cut it. You know, it's not buy it off the shelf. You
+know, you're not back in in the Microsoft Word days, where I can go buy it off the
+shelf. You're you're wanting to get something that is that thing right there. I really
+like that.
+
+[00:38:34]
+How much is that? Well, I don't know. I I actually think that jumps into another thing
+that I find really fascinating about going through a home remodel, which is
+prefabrication. Ah, yes. When you are building a house, uh you can save a lot of money
+by using prefabricated components, as opposed to using custom bespoke There we go, not
+bespoke, bespoke components. And so, like, that that to me is really interesting, cuz I
+actually feel like in software, it's the opposite. And I've had to have this
+conversation a lot of times, you know, like when you're when you're building a house,
+you install a sink, you know, if you want to have this custom-built cabinets, it's going
+to be very expensive, it's going to take a really long time uh to build the sink. But,
+the cool thing is you're able to get like exactly what you want. It fits perfectly in
+the space, it's all the materials you want, it's really great, but it costs you a lot
+more, and it takes a lot more time. And the same can be true in software. There's a lot
+of times where you find an off-the-shelf solution that does exactly what you need, and
+is usually a lot cheaper and a lot faster to just buy that off-the-shelf uh solution.
+But, for the most part, if you're at the point of writing software, there ain't no off-
+the-shelf solution that does what
+
+[00:39:36]
+you need. And in my experience, it adds way more time, and more complexity, and way more
+cost to go and try to pick and choose other people's components. And like, you know, I
+don't want to drop names, but I've used a bunch of different third-party tools that
+clients insisted, "Oh, this is going to save a lot of money." And the problem is it
+always gets you like 80% of the way there, and then that last 20% ends up being so much
+more work that you end up having to completely rebuild the thing from the get-go. And
+so, I don't know what that is. Like, why is that that in software this off-the-shelf
+approach tends to work very poorly, whereas in your your house prefabricated components
+work great. Do you guys have an answer for that? >> I think complexity is a is a huge
+part of the answer. A kitchen counter is basically a kitchen counter. It's a standard
+height. It's got some options, but fun fundamentally it needs to be structured in a way
+that has drawers and could do the things it needs to do. It needs to support weight and
+take a countertop or whatever. It's just it's a you know, it's a relatively easy thing
+to kind of encapsulate as to everything that this thing has to be and what it has to do.
+The requirements are are short and relatively easy to understand. Uh somebody's
+business, the the software that powers somebody's business, it it's it's it just ain't
+the same, and
+
+[00:40:40]
+I know we talk from software as a as a science and all those brilliant folks, but uh it
+they say all businesses kind of taste like chicken, and that's true. And and they do. Uh
+so, everything kind of tastes like chicken, but there's a big difference between llama
+and iguana, even though they both kind of taste like chicken. And I think that that
+everyone's use case, even though businesses are very similar, very much the same,
+everyone's use case is just a bit different. >> And there are there are exceptions.
+Like, you know, if you're if you're a generic e-commerce uh site, you know, Shopify,
+great. It it solves it solves your need. I mean, in in 95% of those like e-cases where
+it's like, "I sell you know, I I sell baseball hats online or I sell Pokémon cards
+online or something." What whatever, you know. Really anything at all that's not
+firearms. Yeah, firearms don't do don't do firearms on Shopify. >> [laughter] >> Do you
+have more of that on that? >> I I think I just broke Aaron. Oh my god, I have so much I
+have so much to say about that. All right, we'll save that for another episode. >> that
+on this podcast, my friend. >> [laughter] >> Moving on. Moving on. Well, you know, I I I
+I like I like
+
+[00:41:44]
+also, Daniel, you brought up the point of kind of the the off-the-shelf solutions as
+they exist in software land, too. Um you know, there there are lots of ways that you can
+cobble together complete solutions, and when I say complete, I mean meet the major
+requirements of the project set out before you. That could be 75 or 80% of the way, and
+I think having that conversation with the client very much up front and saying, you
+know, I can provide you with a solution that will get you 75 to 80% of the way there. It
+will happen much more quickly and vastly less cost, but here's the 20 to 25% that it's
+going to be missing. Now, if you are okay with that, and you don't think we're going to
+be invading that, that's that's great, you know, this will work for you. And taking that
+then back to the house analogy, yeah, prefabricated stuff is great, but there are trade-
+offs. You will get something that is a countertop to Justin's point. You know, it is a
+cabinet, it does have a countertop on it, there are doors and drawers, but guess what?
+It is every one of them you get the same exact size and shape. And not everybody's
+kitchen is the same size and shape. So, when that thing comes in there, it's like,
+"Okay, we can do this. It will be faster and cheaper,
+
+[00:42:47]
+but it's also going to be 3 in too short from the wall on this side." If you're okay
+with that, then we can do that. But if that 3 in really matters to you, there is a
+custom solution. It will be a little more expensive, or well, sometimes much more
+expensive, and it will take a little bit longer because we have to build it, and it's
+got to be fitted in there. So, the call is yours. Maybe in this back to my do-it-
+yourself when you know, maybe maybe at that particular point in time this was not the
+answer, but it could have been. But my wife would have said, "You know what? No, the
+toilet has to change. Keep the single sink." You know, you make those kind of trade-offs
+because I couldn't just go to the store and get the double sink that fit in the space
+that was the same footprint, but I could do that with the toilet, you know. It's those
+kinds of those kinds of trade-offs, but but you got to have those conversations with the
+client so that later when they say, "Well, this doesn't do 100% of what I wanted," you
+can say, "No, we we talked about this. It's going to be 75 to 80%, and you were going to
+be cool with that. We all made that decision together. We all knew what the shortcomings
+were going to be. We can still fill that gap, but now it's going to be way more
+expensive and
+
+[00:43:50]
+time-consuming." And sometimes these use cases just work great. And like I I mean, at
+the at the risk of running the the metaphor too far, uh like if you're going to close
+the gap because you're going to have a counter and a backsplash piece extend a little
+bit further. So, yeah, the the wall is not square, and so the cabinets don't fit
+exactly, but you can kind of cover that up, and you have a plan for doing that at the
+time. You're like, "Look, this is only going to give us 75 75% of the way there, but
+this is how we're going to close the gap to get you 100% that you need. Are you cool
+with this approach, even though it's maybe not exactly ideal?" And that's that's great.
+The issue in software, I don't know how to turn this back into home remodel, is that
+sometimes that that use case changes, and now our little span that's going to cover 3 in
+needs to cover 20 ft, and we can't cancel a lever counter for 20 ft. So, now all this
+prefab all this prefab stuff that you bought is just trash, and we're going to do the
+whole expensive project from the start now. And so, we try to avoid having clients end
+up in that situation if their use case is likely to to change. Yeah, well, and it's it's
+kind of like oftentimes we use the prefab stuff as a bit of a stopgap, which doesn't
+really make sense in construction, right? Like, I'm not going to build this like wonky
+prefab kitchen with the plan of replacing it 6 months
+
+[00:44:54]
+later, but you see that all the time in software. And then sometimes it's even the right
+solution, honestly. If you just need to get across a hurdle of like, "We need to have
+reporting, you know, we need to be able to run these reports before the end of the year,
+and building this whole custom reporting thing is going to be a nightmare." Great, hook
+up hook up Tableau, you know, or whatever, and then you can use Tableau, and we realize
+it's not perfect, but it gets you 60% of the way there. But then realize that in January
+we're ripping out the entire kitchen and we're installing a brand new kitchen cuz
+Tableau ain't getting you what you need. As long as that project can be done on time
+before Tableau charges us a licensing fee. [laughter] You see, well, there you go. There
+you go. Yeah. And sometimes it's enough, you know, Well, no, I was just going to say
+that back back to that, it's really great you don't have to live in software projects
+while they're being built. >> Yeah. Whereas >> [laughter] >> honestly, I think you might
+do more of that on a on a home if it wasn't so miserable to live in a construction site.
+Yeah. No, it's a great example. It's like, yeah, I live in the house and it's being
+remodeled, and I need I need a toilet, and I need a sink. So, go down to Home Depot and
+buy whatever. I don't care. Put it in the house. I need a toilet. And then, you know,
+with the plan that 6 months later we're going to rip it out and put in something else
+that's nicer. Yeah, it is kind of like a
+
+[00:45:55]
+software, people are living in the house while you're building the house. So, that's why
+these decisions get made. That's why it's different. >> And sometimes you have the final
+say. You know, if you're in a an MVP sort of a situation on the software side where, you
+know, I've got an idea. I need just enough of it to be real that I can, you know, go
+take this out and and and take it for a spin and get feedback from people who are going
+to use it. And and does it fill that need? And is there a gap? And, you know, letting
+them educate you on what the next steps need to be instead of spending all this time and
+money up front on what you think it is. You know, finding out what the what the people
+who actually are going to use it. There's there's not a really great way to tie that
+back into a house necessarily other than the people who are going to live in it. But
+that is kind of the final say, but you know, in the land of software, uh where it is a
+little different than a house, you can have something that's stubbed out in many ways
+and shows enough progress that people can then go get funding to build it out further,
+or you know, uh things along those lines. And so, it's it's setting it's again going
+back to those original goals. You know, what what is it what is the mission here? Is the
+is the mission to build an
+
+[00:46:59]
+amazon.com-level e-commerce system for you? Or do we need to maybe just start with
+selling the one small product that you have? And then and then see where we go from
+there because one of those is going to cost you more than you will ever make on your
+sales. Uh and the other one will probably turn a profit within a year. One thing that I
+think is super scary uh when you're building a house and going through this right now is
+that it looks so incomplete while they're doing all the plumbing and the fixtures and
+all that. It feels like it's taken forever, and you're not seeing any progress. You're
+not seeing any progress at all. And I you I remember I remember living next door uh in
+Chicago, living next door to the skyscraper that they were building, which I got to
+listen to for months and months and months, and just being like, "Oh my god, no progress
+is happening on this thing. Nothing is happening." And then like one afternoon, they
+went and they installed this veneer on the side of the building, and I was like, "Oh,
+the building is done. This looks beautiful. This looks fabulous." And, you know, there
+was like a year's worth of work to build up to that, but then it's like, yeah, they put
+on the
+
+[00:48:00]
+windows, they put on the doors, they put on the veneer, it looked fabulous. And the the
+same thing is going on with my my remodel right now, where it's just like it's just
+concrete chaos, and it's just pipes and cables and everything. And then one day they go
+through and they stuck all the cables behind the behind the wall, and they put the the
+the marble tile on the side of the wall, and I'm like, "Oh, it's beautiful. It's done."
+And we have this all the time in software, where it's like you as as a product owner,
+you can't understand the work that goes into the plumbing. And you have your developers
+showing you this screen that's like, "Look, it's printing out JSON." And you're like, "I
+don't know what JSON is. What Why are there just random characters on the screen?" Like,
+"No, it's so cool. The data's there." And like and then what happens is one one of these
+days the front-end developer gets in there, and they write a style sheet, and now all of
+a sudden there's fonts, and there's colors, and there's images, and it just looks so
+done. It looks so polished and pretty and beautiful. And I think developers actually
+fall into a really unfortunate trap that I think is something to be very scared about
+when when you're working with somebody is you don't want to set them up to constantly
+have this like demo and get really attached to
+
+[00:49:03]
+pretty things because it's real easy to make pretty things. It's real hard to make the
+plumbing work. You know, it's so hard. And but I've been I've been stuck in this as a
+developer, where it's like the client wants to see something pretty. So, every week I've
+got to have something new and flashy to demo them, and it's not satisfying to show up
+and be like, "Well, yeah, now we have this process that talks to this process, and it's
+able to update the database, and it does it all in one transaction. That's pretty cool,
+right?" Cuz the client doesn't get it. And yeah, and I and I I mean, I I feel so bad for
+people who are embarking upon this project of of building a software without
+understanding what a software is and like how scary that's got to be that like I have no
+idea what this developer is doing and all I can interact with the tangible things, the
+buttons. Those are the only things I can really give feedback on. I don't know how to
+give feedback on the rest of it. I feel that way with my with my house, you know. Like I
+like that all the do do do do do stuff is good and I notice that there's a smudge on the
+tile so could we do that? And it's got to be very frustrating just like I'm frustrated
+with with clients who are doing that kind of thing and it's just like no you fool I have
+a petabyte in the sky. Why are we talking about this and uh
+
+[00:50:09]
+I will summon everything with AWS and clients are just like I don't I just see a bunch
+of characters dude. Can you move on with something that I care about? I'm like all
+right, noted. >> I know I I do the same thing when I go over to the house and I start
+like poking at stuff and I'm like these things don't really like line up and you can
+just watch this guy's eyes roll like oh my god, really? Are we really talking like we're
+going to put in still it's going to line up. But did you see that like the the plumbing
+works? You can flush the toilet now. That's pretty cool. Like I have no idea. Never mind
+the the two weeks of electrical rerouting that we did to ensure that your your cool
+kitchen now has like sufficient outlets and power to run all of the things that you
+wanted to put in there and install. You're bothered because your stove is offset 2 in to
+the left or whatever. >> feels a little loose. Can we tighten up that handle? It's
+because it's something I can see or feel is tangible and I you know take some ownership
+of that. We we just had this too where they got done with a huge amount of work out
+front and like the driveway area and I was like oh hey did I mention that I think we
+should put 220 by the driveway just in case or anyone else ever wants to have an
+electric electric car and they're like Sorry. Sorry I'm the worst. It's
+
+[00:51:13]
+happened late now so it's going to be more expensive. If it had happened when the wall
+was open. I don't have a segue for this so I'm unlikely to drive myself off of a cliff
+which is fortunate. But your your software product will look as much like the clickable
+prototype as our house looks like of the renders we received. Like you get these renders
+and that there's good and bad with them and in some ways they over promise and in some
+ways they look terrible and I think that clickable prototypes are kind of the same way
+like it's it's this lovely toy use cases where everything is designed and everyone's
+name is the right number of characters and nobody has missing data and then you put real
+data into the system and clients are like what the hell this looks nothing like the
+prototype and it's like um no it's it's the same design it's just this is what real data
+looks like. I'm always so conflicted doing this with clients on software projects
+because again everyone is so attached to visual things and I think having designs is
+super helpful. It just really helps people visualize it and get what you're doing. But
+it is like too easy to design something that's just not implemental. You know,
+implementable. Sorry, it just can't be
+
+[00:52:15]
+built. You know, and so I I've I've struggled with this quite a bit of like do we even
+do a clickable prototype? Do we even do designs? You know, like if I'm just building the
+software project like for myself, I'm going to build it. We're going to start with nasty
+gross Times New Roman Arial stuff and then at some point in the future we'll bring in a
+designer to make it beautiful. You know, and I I I think big design up front is is
+problematic in the same way that waterfall is problematic and I I've had this too many
+times where we sit down and we design the whole thing in Adobe and then 6 months down
+the road it doesn't look like what we did in Adobe. I was like well the requirements
+changed and actually what was in Adobe didn't make any sense to begin with. Where I will
+come out swinging for the clickable prototype is when you're trying to find a product
+market fit when you're not dragging a software product behind it and you're basically
+just trying to put it in front of people and get mark I mean it's basically market
+research at that point. Then yeah do a clickable prototype all along just do a clickable
+prototype. For better or worse it does help to guide early conversations with the client
+so that you can actually say visually, you know, you can say things like okay do you see
+the set of buttons over here and that there are four of them? We can do it that way and
+this looks
+
+[00:53:17]
+really great and it's going to take about this amount of time or what have you or we can
+turn those four buttons into one button and it's going to take much longer but there are
+way fewer clicks now for your clients to be able to to to kind of you know go through
+this process. And so I think this is where it's super handy to have on your team a a UI
+UX person an expert if you will who also has some fundamental understanding of
+programming because they're not going to build something that's going to be out of some
+degree of scope for a developer to be able to put together. They're going to know you
+know, in a general sense these are things that are on the table. This type of a layout
+is what's going to work best. These sorts of workflows and here's where we can kind of
+push pull and do maybe some interesting things but I'm not going to hand this off to my
+development team and them go awesome and throw it in the trash because they can't
+possibly build it. And so having someone on that engineering team, you know, very much
+like having someone you know, on a construction team, you know, an an architect someone
+who who understands what the rules are that govern electrical and plumbing and layout
+and things like that. You're going to get something that's much more usable, more
+
+[00:54:20]
+akin and closer to what it is that you're trying to get without having to have so much
+reworking and so much rewrite and also kind of placate the the end person, you know, you
+guys, me, whoever's house it is and and know, you know, that a reasonable amount of
+adjustment that this is probably what it's going to look like. No, I I I think I think
+that's spot on. I think it's so important if you're going to do that you got to have
+somebody technical in the room and you also just have to stay focused. You have to stay
+focused on the big vision of what it is you're trying to accomplish and don't get
+sidetracked. There's this wonderful parable about the bike shed at the the nuclear plant
+where this committee was tasked with like designing a nuclear power plant and a few of
+the people on the committee got really obsessed and dialed in to like we need to have
+this employee bike shed. We're going to build this bike shed on the side of it where the
+employees can store their bikes and then they got obsessed with the colors of it and
+what shape we're going to do it and they were these like super loud voices who were just
+obsessed with it and it was also like this really tangible, you know, visual thing that
+we could focus energy on and that everybody could understand. I think was the other the
+other big problem there is like well everyone understands
+
+[00:55:23]
+how a bike shed works. So let's focus on that as opposed to focusing on this nuclear
+nuclear reactor which is really complicated and we don't really get how that works. So,
+you know, I think a similar thing happens in in software and happens when you when you
+do big design up front that you know, people get really focused on the visual elements,
+the tangible elements and then they lose sight of the bigger picture of like how is this
+solving our business use case? At the end of the day we need this thing to generate
+power. Awesome. Well, we're kind of getting to the end of our time here. I don't know if
+everyone needs to kind of give a a big takeaway from from experience and history of kind
+of tying into like the remodeling versus like software. Uh I'll go first not to put
+anyone on the spot. Yeah, so I think like you it's possible to be behind schedule and
+over budget and happy. Like all three are kind of okay sometimes and if you can arrange
+your budget, your finances in your life in such a way that you can iterate and work
+collaboratively and agilely on a remodel project you might you might end up with
+something better than if you have these really rigid kind of fixed free requirements. So
+yeah, maybe be open to it if you can arrange it. On one hand I'm really happy to not be
+living in my software project. On the
+
+[00:56:26]
+other hand I I think there's actually some real value in it to kind of stretch the
+metaphor a little bit. You should be using your software product as it's being built and
+and not just kind of in this really casual superficial way. Like no, pretend that you're
+living in your software project. Just like pretend you're living in your house and give
+feedback constantly. Meet constantly with your with your team. You know, I I think it's
+is actually going to be going to be really key and really important. Yeah, I think
+having really good communication and trusting your experts, you know, trusting them,
+telling them big picture what it is you want and not getting too obsessed with
+micromanaging all the little details. I think we've hit a lot of a lot of great points
+that that will relate to both home ownership and and home projects and and also software
+and I think I think it all starts with having those realistic goals that you talk about
+with your trusted experts at the outset. Um yes the goal posts are going to move. Yes
+the budget is going to change and yes the schedule is going to be different. And if you
+enter into any project and I will I will stretch this out to like anything in the world
+
+[00:57:28]
+that you plan to spend time and money on if you cannot be sufficiently flexible within
+those three areas then you have actually no business pursuing that. You know, goals
+can't be fixed and therefore price and time can't be fixed. If you are actually going to
+have a north star that north star is going to be the overarching goal of the project.
+You need to be open to the solutions that can present themselves over the course of the
+project through these regular touch points and and communication that you know, to
+Danny's point you should be having very regularly to make sure that we're all rowing in
+the same direction. Uh you know, we may need to swap out oars periodically or you know,
+whatever analogy you want to use there. But you want to make sure you still have that
+guiding star and that the tradeoffs being made everybody is a part of that decision
+making process. And when you get to the end of this, you know, being able to say this is
+not done. You know, even with a house, with software, with vehicles, you're never done.
+There's going to be maintenance that needs to happen. There's going to be build outs of
+features that you're still going to want to have. You are going to decide
+
+[00:58:31]
+that you want dimmers on all of your light switches. You took we did that one, yep.
+Exactly, exactly. But whether or not you thought you were going to get that out of the
+outset, you are here at the done end point and you don't have them and life is good.
+Everything is fine. And you now can tackle those things. You know, maybe nobody in your
+in your family likes to have dimmers and boy aren't you glad you did not make that
+decision early. You know, so I think those are those are big takeaways for me are just
+those those overarching goals that that are your north star guiding principles and then
+the flexibility within those goals, the budget and the timeline are just they're just
+crucial to being able to have success and a good experience with any contractor or
+consultancy that you're working with. I think one big thing to bear in mind with the
+software project and with the house remodel is that you don't have to solve all the
+problems at the outset. You can solve them as you go. You can solve them as you go and I
+think it's actually probably better to solve them as you go as opposed to trying to
+design at the outset and feel pressure of is that going to be the right dimmer switch?
+Is that going to be the right light bulb? Doesn't matter. You can solve all that as you
+go. We've taking this metaphor
+
+[00:59:33]
+about as far as it will go. I think that there's a huge number of of of uh similarities
+and analogs across dog and I I I do think it's kind of it's worthwhile pumping some
+software ideology into doing a home remodel. And I also think it's worth learning
+something about software from from the home remodel as well. So, I really appreciate you
+guys coming on and just kind of like beating up having a chat. It was kind of a fun
+episode. So, uh hope this is enjoyable to uh to everyone and yeah, thank you guys so
+much for uh for coming on. Software is a house, I love it. Thank you uh to uh Daniel
+Gannon who was kind enough to join us again today for our little round table discussion.
+Of course, great to be here. Thanks. Thank you to my co-host as always as well, Mr.
+Justin Edwards. Thanks to all the listeners for joining our group therapy session. >> If
+you did like it, hit that subscribe button. Uh feel free to send us some some comments
+uh on the episode or if you got ideas for other things that you'd like to hear on the
+show. Uh and as always, thank you so much for listening and we'll see you next time.
+I'll sass that out. Thanks for cruising along with us on sass that app. We hope you
+grabbed some insights that were inspiring, actionable, or at least entertaining. If you
+enjoyed the show, don't forget to subscribe and leave a review. Until next
+
+[01:00:36]
+time, keep building, keep growing, and keep those apps sassy.

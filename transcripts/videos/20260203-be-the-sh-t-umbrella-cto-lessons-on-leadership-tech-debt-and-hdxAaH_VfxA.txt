@@ -1,0 +1,627 @@
+Be the “Sh*t Umbrella”: CTO Lessons on Leadership, Tech Debt, and Exits
+=======================================================================
+
+Video ID:  hdxAaH_VfxA
+URL:       https://www.youtube.com/watch?v=hdxAaH_VfxA
+Published: 2026-02-03
+Duration:  00:39:38
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:02]
+Management skills aren't just managing a team. There's they also include things like
+politics and communication. Find the shittiest company you can in terms of that event
+and work there, right? And what we'll find is like if you do your job right, you'll be a
+umbrella for everybody underneath you. And then you try to work your way up. Welcome to
+SAS that app building B2B web applications. [music] The podcast where we share real
+world stories, practical advice, and tech insights for those building or thinking about
+starting a tech- enabled business. I am your co-host, Aaron Marchbanks, and I'm Justin
+Edwards. Each week, we bring you the stories, strategies, and insights you need to build
+your SAS or tech enabled business smarter, not harder. Let's dive right in. Hello
+everyone and welcome back to SAS that app. I am your host, Aaron Marchbanks, and with me
+as always, Mr. Justin Edwards. >> Almost always. Hey, how you doing, man? >> Doing well.
+I just noticed the white headphones. Are those new? >> No, I've only had those for about
+3 years. >> I think maybe there's just so much white
+
+[00:01:04]
+now in your background and and on the shirt, it's like you've got this really cool black
+and white theme going on. >> Yeah, maybe I've just baldled it sufficiently that it
+really makes the headphones pop. >> Well, and our guest today also has the white cap, so
+I guess I'm the only one that didn't get the memo about there needs to be some light
+action. I got the door, so we'll go with that. Well, with us today we do have Rishi
+Ramsh who is the CTO at Sling. This is a shift scheduling and workforce communication
+platform used by tens of thousands of businesses keeping operations running smoothly. Uh
+he comes to us with about 20 years of experience across all kinds of different systems
+enterprise level mobile platforms tooling large scale web applications. So just a whole
+mess of fun stuff and is focused currently on kind of evolving this mission critical
+businessto business platform and actively reducing technical debt scaling systems that
+real businesses depend on every day. And so we're going to dive into a whole lot of
+that. Rishi, welcome to the show. >> Thanks Aaron. Correction, former CTO Sling. >>
+Okay. Former CTO. Okay. I'm going to have to ask about that. >> Yeah. Yeah. We actually
+sold the company several years ago.
+
+[00:02:07]
+>> Okay. And Sling is still out there. >> Oh man, that opens up all the postacquisition
+chats now. We can talk about we can talk about exits. That's my favorite topic. So
+awesome. >> You've made Justin's day. [laughter] >> Well, Rishi, just kind of jumping
+way back into your history. You know, your resume reads like a pretty traditional path
+that that a lot of us take, you know, intern, web developer, consultant, senior
+developer, server administrator, you know, and and then all the way up here to the CTO.
+So, going all the way back, tell us a little bit about how you got involved in
+technology. what uh what got you to where you're at? >> Yeah, for sure. I was actually
+there's there's a bit of a secret history of the internet here. Okay. >> I was a demo
+singer back in the day back in high school. >> Okay. >> So, I don't know if you all
+remember the demo scene, but the demo scene came out of the IRC botnet wars where a
+bunch of those hackers would create demos instead of like, you know, modding Diablo to
+give you memory hacks and stuff like that. And that's kind of where I joined in. And
+that was in high school, a while
+
+[00:03:10]
+ago. and I wrote a whole bunch of OpenGL apps and discovered very quickly that I was
+terrible at designing games, which was what I was originally trying to do. But I was
+great with physics and implementing code. So I just kept at it all throughout high
+school and university. By the time I got to university, I had an article published in
+Game Programming Gems, I think it was five, on simulating the physics of grass and
+leaves and whatnot. And that sort of brought me through all my internships in in
+university. I went to University of Wateroo doing just 3D graphics. But then I also
+discovered that like not a fan of the desktop software world. So my focus shifted again
+and the discovery was along the lines of like I wanted to know how my impact was
+actually making money and it's difficult to measure if you're doing like 3D rendering
+and whatnot. So the the stuff that I enjoyed working on the most I actually did some
+work on Maya and did a lot of the technical debt work on Maya at one point. So then
+after that, let's see, I went into SAS, I guess, worked at a number of companies
+
+[00:04:12]
+and then just scaled up like you said. At one point I was working at a DNS company. I
+attempted several startups along the way. So I sort of knew inherently at the start that
+like the point of this was going to be was going to be a startup of some sort. And back
+in my demo singing days, I actually ran into ANNN's. So like the way that I chose my
+university career was pretty pretty interesting. I force ranked all of the curriculums
+of all of the courses that I was interested in taking by whether or not they offered AI.
+And the two that came up tops were like uft had a a software engineering degree that had
+an AI component and systems design engineering at U Wateroo had an AI component, but it
+was also the rest of engineering. So I felt that doing a a computer science degree was
+redundant because I had already learned a lot of computer science up to that point. And
+then so I studied AI in in university and the thing that I learned about AI was pretty
+simple. If you don't have data and you can't train it, it's not worth anything
+[laughter] else. >> It sounds familiar. >> So I was like, well, I'm not going to make
+money selling AI because it's a
+
+[00:05:16]
+hard sale. I might make money using AI, but I didn't expect it to be like nearly like 20
+years later. >> But the other thing I learned in that process was like if you are a AI
+vendor, you're competing with all the other AI vendors. Whereas if you're an AI user,
+you're just reaping the benefits of that competition. So that's sort of like catching up
+with my career today. It's kind of interesting to see it launch to see it happen. Yeah.
+After that, I joined Sling. Sling was a remote company and I I was a remote employee
+when it was novel for all of several months before the pandemic hit. >> I while I was at
+Sling, I got promoted to CTO. >> Cool. We started our consulting firm. We were like, we
+like to work from home and all of our people are going to work from home, too. there's
+no we don't have to pay for an office. We don't have to do any of that. It's going to be
+great. We're going to save money. And after the fourth developer desk showed up in my
+living room cuz people wanted to have an office to work from, we bought an office and
+moved out. But yeah, then magically during the pandemic, nobody ever after the pandemic
+was over, nobody ever came back to the office and we got rid of it. It's kind of funny
+that it's like we told you guys to do this four years ago.
+
+[00:06:19]
+Why did it take a global pandemic for you to work from home? [laughter] Yeah, we took
+the took the longer approach where we had we had an office and and and finally had one
+person was like, I still want to work here, but I don't want to live here. It's like,
+you know, we'll test balloon that. This is this has been like 15 16 years ago or more.
+So, way before it was cool and certainly before necessary, but that's kind of how we got
+into it. And then after that, it it was just like, you know, snowball rolling down the
+hill. It's like, oh well, I I want to I want to live here or, you know, my my family
+wants to move there. And it's like suddenly we had two people in an office. It's like
+this is pointless. We need to we need to not do this. So yeah, >> it was a pleasure to
+actually encourage people to like go have a social life outside of the office as well.
+It's kind of funny how that worked out because like especially during the pandemic, you
+had a lot of social isolation. My overall experience with management has been something
+like if you hire the right person, you don't often have to tell them like how to do
+their job. >> Yes. Not only do they know how to do their job, they kind of have a rough
+plan of where it's going to go. And what
+
+[00:07:22]
+you need to help them negotiate is like the different parts of their life with their job
+to make sure that like the exchange there is voluntary in both directions and generally
+guide them through getting to the next level of progression, right? In terms of
+communications and interactions with the rest of the business. Beyond that, it's like,
+you know, if I hire the right person, I don't have to teach you how to code. You already
+know how to code. >> Yeah. I've uh hire smart or manage hard has always been our mantra
+and I don't like to manage particularly very much. So hire smart's been key. So nice to
+hear someone else someone else say that. So you you signed on with Sling and you were
+remote from from the onset or is how did Sling have a remote program >> from from day
+one actually. So I I came into Sling when Sling was relatively mature and we had offices
+at the time in Poland. We had no office in Iceland. We had an office in New York. I was
+the office in Canada. It was just my little my little apartment. And we had an office in
+in Australia for a short period of time as well. And it was great for operations because
+there was usually
+
+[00:08:26]
+somebody always awake that could handle issues that happened. But, you know, the way
+that we kept cohesion in the company was that we would all do off-site. So, every year,
+you know, you do two trips, pick a big city, and you you go out there. If if you like
+acquisition stories, I've got to tell you about the last offsite where I was doing the
+diligence for the acquisition while I was rushing to the boarding line on the plane. >>
+Yeah, we we've got to get into that for sure. Grabbing my notes here real quick. Yeah.
+So, before we do get into the acquisition and exit because I know that that Justin's
+going to chop it up the bit for that that sort of thing. What is it that you're working
+on now if not Slim? >> I am actually still working for Toast. Still working on my exit.
+There are things that I'm working on. can't really talk too much about them publicly,
+but that being said, I mean, the acquisition's been great. I love working with people
+that I work with day-to-day. So, >> yeah. So, take us back then to you mentioned that
+you've been kind of through this process at least a little bit or in varying degrees of
+of, you know, getting a startup off the ground, you know, successful, not successful,
+that sort of thing. So, tell tell us a
+
+[00:09:28]
+little bit about about some of these first experiences that you had trying to get
+startups off and going and some of the bumps that you ran into. >> Yeah, for sure. I've
+done let's see this would be third or fourth sling was my fourth startup I believe the
+first one was in college just trying to get something off the ground in my dorm room
+didn't work out obviously >> then I graduated and there was four of us that were like
+okay let's not get a job let's actually try to do a startup I graduated around 2008 2009
+and I was the tech lead but we also had people who had different functions so if you are
+going to partner with somebody make sure that they have complimentary skills not the
+same ones >> that fell apart After about the first year, we actually had a pilot
+customer there and like we couldn't come to terms on like how we were going to structure
+our business. So, step one, agree on that. Then about a couple years after I was
+working, I had this idea for a product that I wanted to try and it was sort of about the
+right time. Quit my job, sold my house, moved back to moving parents and >> hardcore.
+That's awesome. >> Yeah.
+
+[00:10:29]
+>> Yeah. Just tried to do the startup. It was literally 12 to 16 hours a day of just
+coding. And after about a year and a half, I kind of burnt myself out. And this was like
+right at the time when Docker was becoming a thing, >> a lot of the containerization and
+like terraforming of infrastructure was becoming a thing. >> So I spent the bulk of my
+time in that period just fighting with these operational issues that would just be
+completely automated several years later. >> I didn't know it. And I concluded as a
+result of that that like I'm a terrible manager. So the next thing I need to do is
+figure out my management skills because I can't just hire somebody to do that for me.
+That's a function of my own personal development. So that was sort of like the next
+career goal. And then >> what did you do to to develop and hone your kind of your
+management abilities? Like how did you dig into that? >> Yeah. So my my original intent
+was to just get a small gig that I could work several days a week and then continue
+working on my project. So I got this one gig. It was for six months. I was like, "Great.
+Six months, I'm in and out and I can go back to my thing." They were
+
+[00:11:32]
+like, "No, you can't leave. How about you work like four days a week?" I'm like, "Sure,
+great. I'll work four days a week." And the company that I I joined was not the best in
+terms of management. So, if you're going to learn your management skills, management
+skills aren't just managing a team. There's they also include things like politics and
+communication. Find the shittiest company you can in terms of management and work them,
+right? And what we'll find is like if you do your job right, you'll be a umbrella for
+everybody underneath you [laughter] and then you try to work your way up. So the way
+that company worked was like every time there was an issue, uh they would start at the
+top and then work their way down the org tree to figure out who to blame. So my my
+strategy there was pretty simple. It was like, okay, well you can blame me. Anything you
+want, take your pick. As long as I get to the work and I get the credit for it, you can
+blame me. And every time things were going, you know, issues would happen, I would get
+in front of it and make sure I communicated with everybody so that they at least knew
+something might happen. And I told them, if it did happen, call me. We'll
+
+[00:12:34]
+figure it out. >> I became a relatively popular manager, work under, and I got a bunch
+of teams underneath me, and you know, things went pretty well. >> And I now have a new
+term, I love umbrella. I think I think that that's going to have to go like on the
+LinkedIn somewhere. >> And the race is on. The race is on because it looks like
+umbrella.com is not registered. So >> Oh no, [laughter] >> we'll see who gets to it
+first. >> No, I love that term. That's amazing. Yeah. >> Real quick, this episode is
+brought to you by Delta Systems, which is what Aaron and I do when we're not talking
+through microphones to you, the people of the internet. We've got a really, really great
+software team here, and we love to work with cool people on cool projects. So, if that
+sounds like you and you've got a problem or you're in some kind of a jam, go to
+deltasystems.com, grab the time with us, we can beat up on your problem together and if
+there's a fit there, amazing, we'll help you out. So, deltasystems.com, grab an
+appointment, and hey, maybe we can work together. So, that worked out brilliantly well.
+Gave me a lot of really good political skills because to survive in a in a
+
+[00:13:38]
+situation like that, you have to know how to deflect blame and whatnot. And basically I
+just took the the Jesus route which is like you know all of your sins are mine >> and
+I'll I'll help you figure it out. And we did we did did some good good work. The funny
+thing as well that like in retrospect looking back was like that time where I took that
+year and a half to try to build my own product was probably the quickest advancement I
+ever had to any of my technical skills because all of the technical problems were my
+responsibility. And one of the the nice things that I developed in that process was like
+this idea that like there really aren't any technical things that I couldn't address at
+some layer. And I I knew while I was going through that process that I became a terrible
+manager of that process was when I was like making commits to Python web, which is like
+this incredibly low-level HTTP protocol processing thing. I was like, I'm trying to
+build an application for users. Why am I modifying code this low? So that's when I was
+like, "Okay, maybe I should get a different job and be somewhere else." But yeah, it
+certainly gave me the technical chops to be able to do a lot of the things that came
+
+[00:14:40]
+after. >> I love that idea that like if if the buck stops here and if you're a company
+of one, it stops with you. Everything is your responsibility. You don't enjoy a pressure
+relief valve. You have to you have to solve the problem or you have to quit and go home.
+And that's very stressful and very hard, but it does make you grow a lot. >> Yeah. I I
+was gonna ask you all like I had a similar conversation about career, trajectory, and
+path with somebody else and most of their questions were actually centered around like
+why I did the things I did because I'm at a point in my career now where I I guess I
+don't have to work if I don't have to. But you know, the question came up it's like well
+why do you keep working? And the answer for me has always been consistently the same
+which is like it's an avenue to growth is the short way to say it. But the other way to
+say it was like when I was a kid, I looked up to technologists, you know, people I saw
+in documentaries that were doing all these incredible things. Also, in the sports that I
+do, it's like the people who were jumping off mountains and whatnot. Those are the
+people that I looked up to. And I always wondered what it took to be able to do things
+like that. And I concluded that like the only way I'm going to figure that out is if I
+
+[00:15:41]
+actually just tried to do them. And that's always been the core motivator going forward.
+And it's the thing that sort of keeps me on track. what's sort of like come along on the
+side sort of like the side cart of this whole process is the value of the relationships
+that I develop and my mentorships with other people that help them grow in their own
+careers as well. >> Yeah, absolutely agree. I'm sure that Justin has that's he's got his
+own answers and and they're probably not too dissimilar, but you know that's I I always
+say that I'm I'm still here because I love what I do and I love who I do it with. You
+know, I'm I'm I'm a product of, you know, an old school generation of, you know, there
+was there's loyalty to the company or a company person. I've worked I've worked in this
+organization now for over 20 years, which, you know, in this day and age is like unheard
+of. Actually, people always are raising their eyebrows. They're like, what are you still
+doing there? It's like I I like what I do and I like who I do it with. And if I'm going
+to spend the majority of my time in a situation where I need to, you know, earn money or
+whatever, those are the things that I want to do. And so, you know, it's Yes, you do.
+You get to grow, you get to learn. I feel like I have developed just truckloads over the
+
+[00:16:45]
+course of that time period. Even though it's been in the same organization, I've had a
+lot of different roles and done a lot of different things. But at the end of the day, at
+every step of the way, I've enjoyed what I've done and who I've done it with. And to me,
+that's that's one of the biggest motivating factors for me. I just I like to be around
+people. I like to help people. I like for people to be able to count on me, you know,
+and you know, if I'm going to be spending eight plus hours a day looking at like this
+guy here and talking with him, I want to make sure it's an enjoyable experience. And
+here we are. So that's Yeah, that's that's where I'm at. >> You've developed a talent
+for lying of talking to me for eight hours a day is an enjoyable [laughter] experience
+for you. >> No, no, I didn't say like just you for eight straight hours. I mean, that's
+you know, we got to temper that a little bit, but [laughter] >> got to bring on someone
+who smiles and makes a joke once in a while, huh? No, absolutely. Business is a is a
+team sport and working on tech is is fun. It's more fun in groups and yeah, I think this
+we a lot getting better in developing and growing is like hugely satisfying to to me. I
+think to most people who actually have legitimate real skills or in sport or in tech or
+in business or whatever. It's like oh
+
+[00:17:49]
+because they love the game. Like it's the joy is in the process. The joy is in the doing
+which I can see from your big smile that that resonates with you. [laughter] The funny
+thing is is like it doesn't matter who I talk to in terms of high achievers. They're all
+built the same way. It's like they legitimately enjoy what they're doing. It's like, and
+for me, it goes back to my story about being in high school. I was awake till like 4
+a.m. every night just writing code. You know, my parents thought I was playing video
+games, but but I was like digging through, you know, MFC manuals and OpenGL APIs and
+stuff like that. It was it was fun. I also think that you're a really fun counter
+example because we Daniel and I both enjoyed hazing computer science students back in
+college who had interest in video games and we're like I know you love video games but
+this is computer science. Do you love math? And I thought you was great for the graphics
+and enjoyed it. That's that's the opposite of what we usually what we usually saw. >> Oh
+yeah. Yeah. Yeah. The math oddly enough still stays with me. Like there's a there's this
+odd perverse part of me that loves the feeling of like getting ready for an exam or an
+assignment or
+
+[00:18:53]
+like working on something incredibly complex just for the sake of the complexity and the
+math is just right there with it. And the odd thing is is like it's been more than a
+decade since university. I understand the math now better than I did back then and I
+don't know how that works exactly. >> Well, the real world application you you're able
+to actually, you know, where the rubber meets the road, you can actually put it down
+there. >> Oh, yeah. Yeah. >> Yeah. Philosophically like the language and vocabulary that
+you have to some extent informs the thoughts that you're capable of having. And when you
+understand these mathematical concepts, you find analoges all day every day in life and
+it's like oh this is like an iggon vector. The number of times and like oh we're just
+optimizing on this line or or you know like you see that stuff pop out and it's like oh
+because I know the fun foundations I can I have this metaphor that's really apt and
+helpful and the kinds of thoughts that I can have. So, I I love math and I think we
+learn it not because it's important to know how to do math, but it it makes us smarter
+and gives us these kinds of of like building blocks for vocabulary. So, anyway. >> Yep.
+Yep. >> Amazing. So, I have a a question that I'm not really sure how to ask, so I'm
+just going to ask it. What do you do when you're like the CTO of a really big company
+that has teams across like the
+
+[00:19:56]
+entire globe? Like, what what is your day-to-day job? >> Oh, that's actually a good
+question. Actually before I jumped on the podcast, one of the things I was doing was
+going through a lot of the people who I felt mentored me and like Ray Dalio is actually
+at the top of the list. So I was actually physically writing out all my principles. One
+of my principles for management on the CTO side at least for the scale of organizations
+that I specialize in is you protect the revenue stream as priority one, you support your
+people as priority two, and then you create competitive advantages as priority three.
+Right? It's like in order, right? So any threats to the revenue stream, priority one.
+Anything that could disrupt the workflow, the work, the work environment, priority two.
+And then priority three is competitive advantages, right? You know, addressing that tech
+debt, you know, making sure that you can scale up as you grow, that sort of thing. >> Do
+you think that that changes substantially if you get a lot smaller? >> Substantially,
+no. But the distribution of that work will change. So, what I mean by that is like I
+guess sort of to explain the the verticals that I
+
+[00:20:59]
+specialize in. Actually, I'll grab the whiteboard right [laughter] now. This is useful.
+>> Get your books. We're going to school. >> Yes. [laughter] >> All right. So, I'm sure
+there's a good portion of your audience that's read Jeffrey Moore Cross in the chasm.
+Okay. Technology adoption life cycle percent of market and then your typically this is
+called TAM I think in the product space, but this is basically your total market. It's a
+Gaussian curve for most businesses, but in tech, there's a chasm. Not just tech, but it
+gets pronounced the most in tech. It looks something like this. All right, so remember
+this is adoption across the market. Here's your startup. Most companies fail to even
+make it to this point. At this point, you got revenue, right? That's sort of like the
+biggest milestone. I don't think I'll ever do another startup that isn't already
+generating revenue. Just way too hard. Not I'm not built for it. >> Then you scale up.
+This is all technical debt right here, right? It's like you've got a small handful of
+customers. You're tailoring your product specifically to meet those needs and you're
+growing. The problem that Jeffrey points out in his book is that the people who live
+here
+
+[00:22:04]
+and buy your product are very different in terms of their values than people who live
+here. The people who live here are looking for a competitive advantage. The people who
+live here are looking for a standard solution. So, I usually come in somewhere hereish
+and then try to get you here. And usually hereish somewhere is your exit. And the way
+that this plays out in the technology is that you get sort of two things when it comes
+to the technical side of the technical debt you've incurred because you've been trying
+to service a whole bunch of very different individual clients that are forming this
+portion of the curve. So you've got to get that all straightened out so that it is
+maintainable. And then the second part of that is scaling it to a larger scale. Right?
+So when I took over as CTO of Sling the scaling portion well and also the technical debt
+portion were things that I had to address and then eventually if your product scales
+works well for a large group of people you get to this portion of the market right the
+closer you get to this side the more risk you're taking so the more your reward but also
+the closer you get to this side the more responsibilities
+
+[00:23:06]
+you've got and the more of a generalist you have to be. Does that make sense? >> Makes a
+ton of sense. You're looking at >> Cool. We work with a lot of people who have teams >>
+Get rid of the whiteboard here. >> We work with a lot of people who have teams of of two
+and three and five people. And then we work with people who have teams of 70 and 80 and
+100 people. And yeah, there's I'm always impressed by how general small team small
+company founders are. They're just um I've told this a couple times on the podcast, but
+I was in a a great conference talk and had someone ask a question of of the presenter
+saying, "What do you call someone who can like write the product and do the marketing
+and and just listed off a whole myriad of things like knows the finances and it's like a
+founder? you call that person founder, no one else can do it. [laughter] >> So, >>
+exactly. >> Yeah. >> The other thing that happened while I was CTO, right, as we're
+addressing all of the technical debt that, you know, sort of inherited as I as I got
+into the role was co >> and so part of my job was to make a strategy, a recommended
+strategy for our CEO. And so, like my hypothesis going into CO was pretty simple. It's
+like this will probably be a catalyst for inflation. So my responsibility to the to the
+business was to try to keep our
+
+[00:24:11]
+headcount static as we grew, right? Which is sort of the challenge of being in that
+particular situation because the company's trying to grow and grow and grow and you're
+going to hit bottleneck after bottleneck and you've got to grow past it without having
+to hire teams into these verticals to keep you alive. That's why it's such a fun
+technical challenge to actually go through that that process. And that's what we did.
+And you know, we put all of our additional revenue that we were able to generate profits
+into finding more revenue, building out a sales team, right? And basically just trying
+to grow. And that way, no matter what happened at the end of that process, we had a
+better chance of survival. A because our overhead was minimized, right, in terms of
+labor, but also B because our revenues were going to be higher. So I'm I'm curious from
+from like a technical aspect. How is it that you in this specific instance, but also in
+general handle that technical debt, you know, to get you across that chasm, you know,
+there's I mean there's there's any number of of of pitfalls that you could you could
+fall into. It's like I want to add more features. I want to f future proof this thing. I
+want to rewrite the whole shebang. I I want a different front end. I want more people.
+
+[00:25:14]
+So how how did you in this particular case, but then again in general handle the
+technical debt portion once you get to that that jumping off point? Yeah, I think the
+two answers that come to mind are that the general answer is like you hired the right
+people for one. [clears throat] I think ultimately like the thing that impacts the long
+term of your success as a as an executive is your ability to hire correctly and fire
+quickly. But secondly, we were lucky in general. I'd rather be lucky than effective. And
+in this case, we were very lucky because my prior job dealt a lot with databases in
+Postgress in particular. So I had the experience there's there's a bit of this was so
+there's a story got on boarded as as CTO and basically it was infield promotion it's
+like here you go you got to fix this and I had to diagnose the problem from my cursory
+look at the the code base like the previous engineers thought that the major bottlenecks
+were in the code because that's where the bulk of their experience was so there were a
+lot of like optimizations in the code for things that really didn't matter.
+
+[00:26:17]
+And the things that were bottlenecks were actually more on the datab side. So well step
+one I was like okay let's after dealing with a lot of you know potential increase in
+IOPS and whatnot and trying to play with resources it's like let's upgrade the database
+and let's see what happens. So coincidentally that coincided with a trip that I had
+where I was taking a a road trip from Guadalajar to Bise. I had my laptop. I was writing
+code while we were driving on the road and I wrote a process that allowed us to
+basically without any downtime upgrade major versions of the database. One of the nice
+side effects of that is that it repacked all of the tpples and all the indexes in the
+database. Then all of a sudden we had all this capacity and we're like where did this
+come from? [laughter] Coincidentally one of the best prior I ever made got the same
+time. So me and him went down this journey of like figuring out the operations for this
+specific database and we nailed it and it still scales very well today. So we reviewed
+all of our internal operational procedures, made sure we had the correct
+
+[00:27:20]
+processes in place for everything and it ends up that we didn't have to go out and hire
+a huge operational team to keep our system alert. >> That's excellent. So optimization
+is the first stop basically. It's >> Yeah. And like you know there's things that you
+don't know you don't know. So go do some research and modern era you've got chat GPT or
+whatever AI you choose. Ask it questions. Yeah. Measure first. Right. Premature opt
+optimization being the root of all evil. >> Right. >> Yes. My as my father-in-law always
+said I've cut this board three times and it's still too short. [laughter] >> Yeah. The
+the biggest performance increase your program will ever experience is going from non-
+workinging to working. Y love that. [laughter] >> So talk to me now about you're
+addressing the technical debt. I know that you said there was an exit point that was
+just on the other side, but talk to me now about the other side of that chasm. So you
+got your sales team or you're gearing towards sales. You stabilize your at least address
+the technical debt. However, you made your way across the chasm. Now you're now you're
+kind of ready to go. You're going to add fuel to the fire. What what
+
+[00:28:23]
+happens there? Yeah, I mean a lot of it was the bulk of it up to the exit was actually a
+lot of just technical improvements. But then beyond the initial optimization, I knew
+that my objective was to keep the headcount static, right? Like because now that I've
+seen, you know, the rubber hit the road in this case where we avoided having to hire
+five people to maintain the operations because we could do it ourselves, I just
+extrapolated. So there was a time where like half of my month was just one ones and I
+was training people and coaching people to adopt the highest level of responsibility for
+their position that they could and we had like juniors submitting performance
+optimizations to the clients. Right. So just treat teaching and training as quickly as I
+could. Yeah. Yeah. And at the end of it, we were just firing on all fours, you know,
+producing, you know, not only new systems, but like almost completely new products for
+potential shift into different vertical, stuff like that. >> Cool. Very cool. >> Yeah.
+
+[00:29:24]
+>> And is is Sling the one and only place that you've done that entire spectrum of
+things or is that something that that you have you duplicated in other places or or have
+you just like jumped in and out at various points in other organizations? >> I've done a
+peace meal for various organizations. So, one useful thing and that's if you're if
+you're in an internship and you have the luxury of switching employers, do it because
+you're going to learn stuff as you switch positions and you're going to get different
+parts of the whole thing. >> Obviously, I didn't do much of the leadership stuff while I
+was an intern, but at different companies, I've done different portions of that curve as
+we grow. You know, you're going to see the same sort of growth chart as you release, for
+example, a new product within the same company. It's going to have similar requirements.
+>> Yeah. And you you kind of have to know not know but you there's an element to
+leadership that you kind of learn not just from the tech but from doing extracurricular
+activities like my sports and whatnot are a great catalyst for learning those leadership
+skills. And the process is is just like I described in terms of like training somebody.
+It's like you know I'm going
+
+[00:30:28]
+to teach you to be a scuba diver. Well there's a difference between somebody who has
+like one dive and somebody who's got a hundred. >> Yeah there is. >> Right. [laughter]
+and and you can make that go faster, right? You know, the 20 years doing the same thing
+over and over again is just one year of experience repeated 20 times, right? So it takes
+skill to learn how to be able to take somebody who's got, you know, very little
+experience at doing something, boring down the steps so that there are distinct cues
+that they can look at as they go from step to step and then giving them the leeway to
+try things that are risky but make sure that it doesn't hurt them. Right? So if you're
+scuba diving, getting hurt means like getting hurt scuba diving. But if you're in the
+office and you're writing code, getting hurt might mean, you know, getting chewed out in
+front of everybody by an executive or, you know, you giving some something to somebody
+who's too junior who doesn't have like the clout in the company to be able to defend
+their decisions for against criticism. So you have to measure, engage, and allow people
+to progress. And I would
+
+[00:31:32]
+say that like the biggest cultural change that we had at Sling came when we went from
+when you know the rule of thumb became it's okay to try and fail, but it's not okay to
+not try. And then once we got past that hurdle, everybody was just like submitting
+performance optimizations and everybody was seeing their own personal growth and we were
+tracking it like monthto month. Here's what you did here and here's where where the
+outcomes led. >> That's grippy. >> I think it's the same with it's the same thing with
+weight training, right? You want to put yourself in a position where you're struggling
+and the very very limits of what you can do, but not so much that you get hurt and then
+what you can do expands as you push yourself that way. And then of course back it up
+with data, you got to track it. So like [laughter] you had the tracking piece, too. So
+>> y >> all right. >> Yeah. And I I would also add like to the one ones, 101 ones are
+very very useful tools, but I would say that the bulk of the industry teaches like uses
+it as a way of holding somebody accountable. And that's not the way I look at it. like
+every adult relationship that you have, no matter what the relationship is, is a
+voluntary relationship inherently, and that includes the relationship that you
+
+[00:32:34]
+have with with your employer. So, one of the things that I was forthright with everybody
+once we start our 101 ones was like, it's like this situation has to work as well for me
+as it does for you. So, I'm carving out an hour of my time every month so that we can do
+things for your own sake and on your own terms. And a lot of it is almost like the
+process is you listen to them and then you give them your honest opinion and explain how
+that opinion fits in the overall picture, right? >> And you know often like if you do
+your job right, people will come for you for advice outside of work. And then more
+importantly, it's like I've always been clear to people who I've hired that if there's a
+better opportunity out in the world for you, then the best thing I can do for you is
+help you get that opportunity. >> Yeah, I love that. And I it's a big part of my my
+weekly routine is is one-on- ones with the staff as well. And it's it's something that I
+cherish for a lot of different reasons, but I Yeah, I look at it that same way, too.
+It's a connection point. It's time. It's dedicated time that you get my attention and I
+get yours. There's not there's not
+
+[00:33:38]
+any noise. we we can filter out all the stuff. Yes, we talk business. You know, there
+are certain things you always have to touch point with metrics and things like that, but
+at the end of the at the end of the call, it's like, you know, if two or three months go
+by and you're hearing something that's huge from me for the first time, we have failed
+in our one-on ones. >> Absolutely. >> So, that's Yeah, that's something that I I really
+really love getting to do with the team. >> So, I got to know I've been we buried the
+lead lead hard and I want to [laughter] close I want to close the loop. So, you got to
+tell me about this exit story. >> Oh, yeah. Yeah. Let's see where to start. There are
+limits on what I can talk about honestly with every exit. >> The exit was good. I mean
+like every exit is going to be slightly different and there are good parts and bad
+parts. I think this one was handled fairly well. But the funny story was like so like I
+said every year we're doing these trips to different countries and it's like you pick a
+city everybody wants to go to. Everybody's pumped about it. you go on, you do this trip
+and you come back and the potential for an acquisition was still somewhat nent in the
+company. So, you don't want that information spreading across everybody.
+
+[00:34:41]
+You want to, you know, a make sure that like that acquisition makes sense for the equity
+holders and then for you person like for your team and so forth and and set up a plan
+before you broadcast it to everybody. So doing the diligence, the technical diligence
+while we're in the off-site in Barcelona and so we're in the offsite on occasion I'm
+back at the back in my apartment just like working away and then you know finally I get
+everything prepared but like I've got to go catch a plane and so I've got to go navigate
+a maze at an airport. My computer is just nearly dead. I get to the gate while the
+plane's starting to board and I serendipitously find just a outlet on the ground, plug
+my laptop in and I'm sitting there going and like, you know, trying to connect to the
+internet. I've got the documents ready. I just have to hit send. >> Last person gets on
+the plane, I hit enter, it's uploading. It's like final call for boarding, uploaded,
+grab it, run to the plane. It's like don't leave without me. [laughter]
+
+[00:35:44]
+and then fly back. I forgot how long the flight was, but then when I landed, I was I was
+seeing responses to the email. It's like the documents are great. I'm like, thank God
+cuz I was in the [laughter] air. >> You're you're literally exiting. It's like >> Oh, it
+was Yeah, it was it was fun times. Yeah, but you know, like I said, the exit was was
+well planned. We we actually got to do an offsite with the new team out in Poland. First
+time I visited Krakco. Excellent. I got to I got to tease my future boss a bit because
+he's he's a bit timish with with with heights. And in Krakow, if you go there, there's a
+hot air balloon that's a weather station, but they've rigged it so that you can walk on
+a gondola underneath it. And it's on a tether, so you can go up. And somehow we were
+managed, we were able to like convince him to go up this balloon. He goes up to the top
+and he he's just like in depth gripping on the wire, right? And I'm like, I have
+experience with altitude sports. And he knows that from work. Are you okay? And he's
+like, yeah, I'm good. And he's like, are you nervous about? So
+
+[00:36:48]
+I'm just trying to figure out where he's at. And he's like, yeah, I'm a bit nervous. I'm
+like, what if I did this? [clears throat] [laughter] >> Yeah. But we got the ground.
+Yeah, it was a good time. >> Does this make you more or less nervous? How about this?
+More or less nervous? [laughter] >> Yeah, that's a lot of fun. I I will say though what
+like to your point Justin that like doing startups is emotionally very very difficult
+and like one of the things that's helped me quite a lot in the process is actually
+learning how to deal with emotionally very difficult things. So you know find something
+you're afraid of and go do it. It's like if you've never did a skydive before, go do a
+skydive. That'll prepare you in the very least for some of the emotional difficulties
+that come with it because then you you have a touch point. The touch point is like you
+go to a board meeting or whatnot and people chew you out and you're like, "Yeah, but you
+know, you're not as intimidating as the shark that I saw." Yeah. You know, at 60 Mexico,
+>> I jumped out of a perfectly good airplane. This is okay. [laughter] >> Yeah. >> Yeah.
+I think the volume gets turned down on that stuff on that stuff a lot. Like once you
+have some experience and Yeah. I noticed that like as as I got
+
+[00:37:52]
+some business experience, went through some bigger deals and things like personal life
+stuff. It used to be really stressful and really hard. The volume just gets turned down
+so much cuz you're like, "Well, yeah. I mean, it's it's not like there's a, you know,
+million-dollar deal hanging in the balance here. It's just like I'm having some static
+with my dad or, you know, whatever it happens to be. Like, it's >> Yeah, we grow, right?
+We we push ourselves and we grow. It's just another It's that theme emerging again. >>
+Well, that pretty much brings us to a close. Rishi, I really appreciate your time. This
+has been super fun. It's not at all where I thought we might go, but this has been
+terrific, man. It's really cool. >> It's been a pleasure. >> How can people reach you? I
+am mostly on LinkedIn. I tend not to have too many social media accounts. There's just
+not enough time in the world. But you can find me on LinkedIn. Feel free to add me and
+send me a message. >> Sounds good. Justin, closing thoughts? >> I agree. He should come
+back. >> I agree. I agree. We'll have to put him on the list unless we get off here and
+he's like, "Okay, these guys are No, no, I'm not coming back." Fingers crossed that's
+not the case. >> No, you guys are awesome. >> Well, thanks again, Rey. Justin, thank you
+as always and certainly thank you to
+
+[00:38:55]
+our listeners. We hope that you're enjoying the show and if you have any ideas,
+thoughts, suggestions, things that you'd like to throw our way, please feel free to pop
+in some comments, hit the subscribe button down there if you are so inclined and I've
+mentioned it before, but stay on the lookout for some new and interactive ways that
+we're going to be talking and working with you all, our our audience over the course of
+this year. Thank you all very much and we'll see you next time on SAS that app. >>
+Thanks. Cheers. Thanks for cruising along with us on SAS that app. We hope you grabbed
+some insights that were inspiring, actionable, or at least entertaining. If you enjoyed
+the show, don't forget to subscribe and leave a review. Until next time, keep building,
+keep growing, and keep those apps sassy.

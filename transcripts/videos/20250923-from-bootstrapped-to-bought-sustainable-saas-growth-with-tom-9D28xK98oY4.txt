@@ -1,0 +1,786 @@
+From Bootstrapped to Bought: Sustainable SaaS Growth with Tom Buchok
+====================================================================
+
+Video ID:  9D28xK98oY4
+URL:       https://www.youtube.com/watch?v=9D28xK98oY4
+Published: 2025-09-23
+Duration:  00:55:20
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+Well, if we don't have to be really hands-on support, we can do stuff like have a 4-day
+work week. I wanted to do a 4-day work week, so I was pretty sure the team did as well.
+And it worked out splendidly for us, and there was really no material difference between
+the progress we made and the growth that we had when we just focused on those 4 days and
+enjoyed the rest of our time. Welcome to SaaS That App, building B2B web applications,
+the podcast where we share real-world stories, practical advice, and tech insights for
+those building or thinking about starting a tech-enabled business. I'm your co-host,
+Aaron Marshbanks. And I'm Justin Edwards. Each week we bring you the stories,
+strategies, and insights you need to build your SaaS or tech-enabled business smarter,
+not harder. Let's dive right in. Hello and welcome back to SaaS That App. Uh with me,
+little less frequently these days as as we keep uh keep being like
+
+[00:01:02]
+ships passing is uh my my partner in crime here, Justin Edwards. Justin, how's it going,
+man? I'm just here so I don't get fined. Revving up for the big the big Asia trip. Doing
+very well, very uh very ready to be uh on a beach somewhere in Thailand. So, uh but
+yeah, happy to be here and uh I don't know if you noticed, but this is a different shirt
+you haven't seen before, shirt number six for the collection. I love it. I love it. And
+I and I love the uh the nicknames that are that are our editors have have come up with
+for us, Mr. Statement Shirt. Statement shirt. Bow tie and statement shirt. Uh and today
+we are also welcoming to the show Tom Bouwerchak. Tom is a SaaS entrepreneur, expert in
+scaling businesses, obviously in the tech space. Uh he is principal at Reach Frequency,
+where he advises and coaches business-to-business SaaS founders on leadership and growth
+strategies and all kinds of stuff like that. Uh also the former CEO and co-founder of
+MailCharts, uh which is a platform that revolutionized the way e-commerce marketers
+optimize email campaigns. So, after kind of guiding Mailchimp through
+
+[00:02:05]
+uh well, like a decade or more of growth innovation, Tom led the company to a successful
+acquisition by Validity Inc. in I believe 2022. Uh and from bootstrapping that product
+to leading a successful exit, Tom uh has a lot of experience and and lessons of of the
+road, if you will. So, we're excited to have him. Tom, welcome to the pod. Thanks, guys.
+Thanks, Aaron. Thanks, Justin. Happy to be here. Good deal. So, we'll just kind of jump
+right in. Uh obviously, your career's long. Uh it spans from well before Mailchimp, but
+also up to currently coaching SaaS founders today. So, what what kind of sparked your
+journey into the world of SaaS? And what keeps you passionate about it and helping
+people in that space today? You know, I think in terms of passion, one of the things
+that these particularly a bootstrapped SaaS business provides is the ability to focus on
+I think on the personal side of things that matter to you in life. And um that doesn't
+mean that it's easy or always smooth sailing, but um when you combine technical skills,
+marketing know-how, um whether that's with a
+
+[00:03:07]
+co-founder or the founder themselves is able to slowly build a business, we're also able
+to really nurture other parts of our lives. And um time and time again, I've kind of
+gravitated towards um that way of operating. It doesn't It's not necessarily the best
+way, but um it's a way that uh certainly for me has been fulfilling uh to be able to
+spend time with people that I care about as well as do stuff um that's been really
+interesting, intriguing, um intellectually stimulating. And uh so, it's you know, I I I
+think the time and the place that we've all had our careers that SaaS and and being able
+to, you know, start a business with such little capital um has has uh just really I'm
+I'm really grateful for it and it's been really rewarding. Awesome. Is there Was there
+something in particular that kind of tipped the scales away from actually being in or
+developing or were you in a SaaS to helping other people who are trying to work through
+that space? Was that just like a natural evolution or was it just like, "Yeah, I'm kind
+of
+
+[00:04:10]
+tired of dealing with the building side and I want to work more on the people side?"
+Most definitely being tired. I think as I said it easy or smooth sailing are not words
+that I would describe to running even a even a great business that founders love and
+then love running. I think that I have a lot of appreciation and respect for those of us
+but those who are continuing to to run their businesses and after as you mentioned
+almost a decade with MailCharts, my next step wasn't immediately to jump into the next
+product idea or business. I think I've heard David Heinemeier Hansson say, "Our my best
+idea that I have today is Basecamp. How could I I don't know what else I would work on
+so why would I not work on Basecamp?" For me, I bring that up to say that I don't have a
+best next idea. What I do want to do is stay involved with the other parts that I
+mentioned that make starting, founding, running, scaling a business so rewarding. And
+for me, I had a really great coach
+
+[00:05:14]
+through most of those years at MailCharts. His name was Clive Crooks. And Clive played
+an absolutely essential role in helping me keep my head on straight and kind of solving
+those battles between the ears and between our heads. So being available and being a
+companion or a resource for founders in a similar space is something that I really enjoy
+doing and it also fits kind of the type of work that I want to do. So did you start on
+like a more traditional like having a job early on in your career and then move into
+MailCharts or were you directly was that kind of where your your journey started? Yeah,
+that's a good question. So, I was a producer at in as in an ad agency. So, I was an
+interactive producer. And one of the things I I think we can get kind of technical or
+kind of have some fun with the technical side of things on this, but is uh one of the
+things as a producer is at the time a deliverable for us with clients was banner ads. Uh
+and that through flash banner ads, I would
+
+[00:06:16]
+learn how to do a little bit of programming at the backing language for flash was
+something called action script. >> I remember it well. Yeah, that's right. And and uh
+later through uh I started I left that job and but I continued being um kind of a
+freelance producer, but also being able to tackle some smaller projects. Um I got an
+opportunity to work um at an ad tech company. So, I was no longer building banner ads,
+but I was helping build tooling that um produced those banner ads. Um if that makes
+sense. And um a really important uh boss of mine at the time, so I did have a job
+throughout this, Justin, is um was a man named Anthony Yamm. And Anthony um kind of let
+me learn how to program and that was action script. Something that happened um in that
+uh time period is Node.js emerged um as a platform that you'd have to be able to do um
+you know, you'd be able to control the computer and run a server um and do kind of
+
+[00:07:19]
+system programming. Not low-level system, but um be able to use JavaScript or ECMAScript
+um to do things that you certainly couldn't do with flash. Uh and so, my skills there
+were able to translate over to something that was pretty hot and interesting at the
+time. That kind of ended up um transitioning into freelancing and doing um as much Node
+work as I could handle Um and it was a really fulfilling time for me and then that skill
+set led me to have the confidence to be able to be the technical founder of MailCharts
+and build that platform and and a lot of the stuff that we wrote as we all kind of know
+if someone better didn't come along and write it it was kind of humming along and there
+but we we continued to use JavaScript throughout the kind of the life of MailCharts so
+had a job but then really learned how to program as a freelancer got some really good
+opportunities and then started MailCharts What was the what was the kind of impetus for
+for MailCharts were
+
+[00:08:22]
+you had you run into stuff in your career or a problem that you were trying to solve or
+did someone kind of lay this problem at your feet and you got to work through a
+solution? It remains a really cool best described as a writer's retreat for programmers
+in New York City it's called the Recurse Center and they give programmers of all levels
+and all experiences between 6 and 12 weeks time to explore what's interesting to them I
+was involved in that program at at the time it was called Hacker School and at Hacker
+School my co-founder Karl said we were working on some stuff and we both kind of said
+wouldn't it be cool if there was a way back machine for emails and I found some packages
+that let us spin up an SMTP server and start to stuff and then parse out I guess SMTP
+messages into JSON and we said well let's sign up for some brands emails and see if we
+can store them and that was really the the main thing
+
+[00:09:25]
+is a way back machine for emails and and then from there we received those emails it
+kind of worked and then we kind of more matured that business or that platform Um, and
+so will "Well, pay for it." And then kind of continued that. Let's try and see how it
+works. Being starting our company um, kind of within the walls of Hacker School, one of
+their core ethos is never graduate. And what they mean by that is always be learning,
+always be tinkering, always be exploring. Um, and we carried that with us as through on
+the technical side of the business. And we're we were open to, "Hey, let's see if this
+works. Let's Let's explore. Let's Let's push the boundaries." And um, so that was really
+kind of how the business started rolling. That's very cool. So, what what were like very
+early on? Obviously, it's a you know, it was it was kind of your all's idea and and you
+kind of birthed it from, you know, being able to like I said, spin up some SMTP servers
+and such. But, what would you say was it a thing early on where you were like, "Okay,
+this is actually going to get some traction. This is going to be a cool idea. We are
+going to be able to, you know, perhaps sell this as a service
+
+[00:10:27]
+in some way. Were there Was that kind of like always the plan? Or was it more you know,
+a a kind of an educational task? Like, "Can Can we do it? Let's just see if we can do
+it." Probably more the latter. Like, we were we were interested to say like, "Can we do
+this? Wouldn't it be cool if um, And I I deal this with this with my clients today.
+People often frequently start business say, "Wouldn't it be cool if I could pay my rent
+with this?" I mean, that's really powerful and and I think a testament to a lot of hard
+work. If somebody can be making whatever rent is a few grand or something. But, then you
+say, "Wouldn't it be cool if like this was my full-time job and it could pay my salary?
+I mean, I'd spin a lot of plates, but I'd work for myself." Um, and so you kind of set
+these milestones um, in your head. And so for us, we followed that. My work generally
+hinges on as business owners get past wouldn't it be cool if we not only paid our rent,
+not only had our salary, not only hit financial milestones, then they go they didn't
+
+[00:11:29]
+have a next milestone. They go, "Okay, I don't I didn't even think far ahead." So, we
+kind of start to unpack that feeling and and explore, well, let's let's set some
+meaningful goals for ourselves because without those goals, we can feel a little bit
+bereft. Um but for us, and again, as I said, I had uh coaching when that happened to us
+and you say like, "Oh, what are we what are we going to do next?" Uh but for us, there
+was a there was a very uh let's see how this goes and and let's set some plans, but also
+be um I think really appreciative of of how difficult it is to to make this stuff work
+out um from the financial side. Aaron, on the educational side, I mean, 10 out of 10. If
+you build your own products, you can you can learn a lot real quick. If you don't learn
+a lot real quick, you're in trouble. I Yeah, I think so. Or or there's things that uh I
+mean, you do things wrong and then you figure out why and then you start to have really,
+you know, strong opinions that are based on, you know, real-world like, I need to do
+this for this reason, so. Absolutely. Experience is a fantastic teacher and uh feedback
+from customers
+
+[00:12:32]
+is uh direct. So, makes a lot of sense. So, it's kind of interesting, it sounds like uh
+I won't say it's like stumbled your way into accidental, but you kind of fell into into
+Mailchimp's over time and then like building those milestones of like, oh, if like for
+anybody like, can I play around with this or can I um like, does this become my full-
+time job? Can I free my my partner to join the business full-time as well and kind of
+like stepping through that uh stair step? I mean, did you always have a timeline to move
+through that progression for for you and for for Mailchimp's? I want to say like three-
+year chunks. So, each kind of every two to three years, you're able to really kind of
+get past I mean, I don't want to use the term plateau, but like the stair steps might be
+a couple of years in in a two to three years apart. Um which, I mean, if you look back
+on it, seems kind of quick. When you're when you're in the moment, uh it feels really
+slow. I mean, relative to consulting and I don't know how much
+
+[00:13:34]
+of the listeners may have a contractor consulting piece of it where you're getting
+client work. There's a big rush as you renew, earn new business, ship a new project um
+that is hard to compare with some of the slow burn um the former CEO of Constant Contact
+Gail I forget her last name uh Goodman maybe had the comment of the slow long slow ramp
+of SAS death and and we loved that because it was so much slower to grow your business
+at these like small MRR numbers, you know, 99 bucks, 150 bucks, 39 bucks. Um and you
+don't get a real rush from it. But uh that over the time it compresses and that's where
+those two to three years you look back and you go, "Oh, wow, like we're at a new at a
+new level raw on the ladder so to speak." In a way that um kind of chasing that hamster
+wheel of consulting, you might have a big year but then you got to kind of wind up and
+do it again. So, I think for many of us
+
+[00:14:37]
+that start businesses that that resonates and um that can be a compelling force to say,
+"Let's see if this works. Wouldn't it be great? Not only would it be great if we could
+pay you but it'd be great to just kind of change the uh perspective of of how I'm able
+to pay the bills and you know, save a little bit and go on vacation and stuff. I really
+like the point that you make about um the different business models between consulting
+and building and running a SAS where consulting kind of feels like running around
+lighting bottle rockets where you you light it and then it has its moment and it's done.
+Whereas uh building a SAS is more like uh getting a flywheel spinning or starting an
+engine or something where it's like you're kind of building the machine that keeps
+running. You don't have to continue to run around and light bottle rockets. And you
+don't have to. I mean, you do but you don't and I and I think um again kind of the I I
+don't want to say there's a loneliness when you no longer have any bottle rockets to
+light, but you miss them. And you understand that there's kind of there's a definitely a
+little bit of a grass is greener. I don't mean to say that I would trade a profitable
+SaaS business for a um agency, but I also would say that it's
+
+[00:15:39]
+not quite as clear and there are some there are some differences that work better for
+some folks than other depending on just how you're built and and how you think. >> see
+people who get hooked on the rush of being important and who get hooked on the rush of
+landing the next contract and doing something that's a little bit like slower is is hard
+for them to just to switch into? I think it's when things So, like when things aren't
+going well on your SaaS business, there's feels like there's less levers to pull and
+that would be something that's a many people struggle with. So, if they have a if there
+happens to be and I can speak from experience, if you have a month or two of contraction
+or an extended period of contraction, there's not really this like quick thing that you
+can do to build pipeline um without I mean, we were a product led PLG company. It's very
+difficult to just turn turn things around or build pipeline really quickly because it
+takes time to to to navigate or to kind of point the ship in the new direction. That can
+be I think for not just some people, I think for everybody when that
+
+[00:16:42]
+happens, um that can be like um a bit of a, you know, punch in the gut and you're you
+miss the days of being able to drive new business quickly, maybe even change your
+service offering or how you talk about yourself. Uh the compelling part of a SaaS
+business, the resilience of it, um is also means that the resilience is a byproduct of
+slow growth and strong wood grows slow kind of mentality. When you are in a stressful
+situation where you want things to change more rapidly, I think you miss the the
+consulting piece. We see that a lot too. I mean, it's it's nice to have the the I'll
+I'll call it more steady, stable income that that a product can support, but you also
+miss a lot of the things that that can be fun or educational or interesting about
+consultancy work where, you know, it's one-off projects. But that that brings its own
+stresses. I'm guessing also that there's probably I mean, part of just the slowness in
+the nature of of dealing with a product-based organization is, too, you got to when that
+happens, you know, you
+
+[00:17:44]
+get your retraction or you get some some hiccup or bump in the road, you also then have
+to spend a good amount of time trying to identify why. You know, are are we are we being
+beaten on our offering? Are we have we priced ourselves out? Are people not as
+interested? Is this more of a seasonal thing that I thought it was going to be or or
+something like that? And and then I'm assuming once that then you've identified, then
+you can make that next step forward or or course correct, like you say, but it's it
+seems like a longer, slower process. It's longer and slower. I I think like you Yeah,
+you I mean, being able to identify the source of of churn or I mean, let's use churn as
+that example, can be a variety of factors. And frequently, there's like a variety It's
+like death by a thousand paper cuts and rather than some big item like, "Oh, we just
+need to change pricing here." There's a variety of a kind of go-to-market all-
+encompassing things that do take time and attention. And
+
+[00:18:47]
+between founders, like our favorite thing is even this is across any type of business,
+business partners talking about pricing and how to price contracts or price your
+software is like this highly intellectual comment back and forth, like feels like
+there's never a conclusion discussion. And in some ways, I you relish it, but in other
+ways, part of that is because there's just so many factors that can go into it. Uh if
+there is one thing that, you know, I've learned and and, you know, I try to share onward
+in my coaching is that frequently our focus on that kind of the term we all use now is
+ICP or ideal customer profile and um that ruthless focus um on who matters and and why
+that rolls up into business sense can have really the enduring impact on regrowing the
+business. Um when we start to get too scattered or or don't commit that time and and sow
+the seeds, really marketing, merchandising, sales, if you have a sales team, uh and
+being focused on it is where we
+
+[00:19:49]
+see, you know, the best ways to escape that kind of plateau or that contraction. I want
+to turn into something you said just a moment ago. We just had uh Tom Hunt from Fame,
+who's our production company for this podcast, on and his uh his episode was just very
+heavily focused on product-led growth or PLG. Could you uh talk a little bit speak a
+little bit to how you you use PLG and kind of I I guess how uh Mailchimp used it and
+then kind of how you conceptualize that? Yeah, so for me, just to make sure that
+definitions are lining up, um product-led growth for us meant that we were able to get
+users to come inbound and then the product itself would convert users to customers. And
+many people may do that through a trial and there's a some window of time and then they
+convert. For us, it was a freemium model where there was a free tier and then you would
+get blocked functionally from doing the paid the paid feature or the paid part of the
+application. Um and so, assuming that that definition works for PLG, we made a really
+conscious effort to to be a PLG company.
+
+[00:20:55]
+Part of it was personal. Um we really believed in the pathway the slower growth pathway
+of PLG um in some cases, but because we wanted to have less support tickets rather than
+more. And if we have a sales team that is pushing deals, which is great, revenue is
+great, we may find that we have to manage to make sure what sold is compatible with
+what's built. And if we if there's some dissonance there, oftentimes that will get
+compressed onto the support team who helps smooth that over. Salespeople do a really
+great job with that, and the best salespeople are able to find a way to sell the thing
+that exists to the new customer without increasing support burdens, but it's not always
+the case. So, for us, PLG represented an opportunity for us to be really good at product
+in such a way that people could upgrade from it. They could try it indefinitely through
+the freemium, and really reduce our reliance on needing a lot of support. And so, for
+us, that was a huge benefit. We also
+
+[00:21:59]
+wanted to be able to focus more of our time on marketing than sales. And when I say
+time, I kind of mean money. So, I wanted to see my P&L with a heavier marketing budget
+on acquisition, but without having to really get into the nitty-gritty of sales. I do
+feel, Justin, one of the things I believe is at some point a PLG company introduces a
+sales-led model or becomes a sales-led model. There's some like that's part of the
+future. And for us, we did have a tier that you could talk to me and and buy it, but we
+over time ramped that up more expensive, more expensive, more expensive to limit the
+amount of hands-on time that any of us needed to to handle. Why do we want to do that?
+Well, if we don't have to be really hands-on support, we can do stuff like have a four-
+day work week. I wanted to do a four-day work week, so I was pretty sure the team did as
+well. And it worked out splendidly for us and there was really no material
+
+[00:23:04]
+difference between you know, the progress we made and the growth that we had when we
+just focused on those four days and enjoyed the rest of our time. That gets a little bit
+trickier when we've got, you know, timelines and deals that are out of our control and
+we would want to really respect um if you got sellers who um have skin in the game for
+deals to close, if you've got renewals that are on a specific time frame, um you really
+want to do well by your customer. So for us to model it in that particular way um
+allowed us to do I bristle a little bit at the term lifestyle business, but it is what
+it is to have a little bit more of a lifestyle component. So in exchange we had, you
+know, we would be doing little things like trying to find those um seams in the
+application where there'd be the best chance for an upgrade, understanding like minutia
+about the customers and it frequently wasn't the craziest feature that we would latest
+release. It was something small like, "Oh, charge for when they want to download an
+exported image rather than like I mean we spent a lot of times building The name of the
+company is
+
+[00:24:06]
+MailCharts and we wanted to have good charts, good reports." For us uh we noticed that
+access to the data the raw data um was probably um much more valuable than the hard I
+mean the hard work um that we that we did on uh the charts was secondary to, you know, a
+PNG uh that the customers maybe weren't able to get a I don't know 500 pixel length PNG
+cuz it's just trickier to do full image unless you know some scripting or something. So,
+does that make sense? It does. Wanted to put a highlight on something you said which is
+that like if we have a lot of people I'm going to say it that way. I'll say that there's
+a trope uh or kind of like a a thing that everybody knows about launching a software
+company and being an entrepreneur where you need to you need to have an entire team who
+are all working 100 hours a week and you got to be moving as fast as possible and a
+breakneck pace and once you get to your big break then you can take time to relax and I
+just love having someone come on and talk about um building something with a focus that
+wasn't that. It's like, "No, we wanted to have a sustainable we wanted to uh not have a
+lifestyle component, but like just have it be more with a focus to creating a
+
+[00:25:09]
+chill place to work that people wanted to hang out at as an addition to also building
+something great." So, um I love that. Other thing is this year pricing is a big topic
+for me and uh kind of a research area for me. Um so, you just said a bunch of stuff that
+really made me interested, one of which is it sounds like you had a dual funnel. Uh so,
+there was a tier where someone could have this more kind of hand-holdy experience for a
+different price point. And then you also said that there's a freemium model. And so, the
+two questions I had which did you have a very clear distinction between the who is going
+to be a great free forever customer and then who is going to leave freemium and move
+into like was that a different population of people that you was easy to identify? And
+the second question is if my classification of a dual funnel is reasonable, kind of how
+what was the different characteristics between the the people who kind of did the self-
+onboarding lower-touch sales process versus the ones who could access like you, for
+example? Good question. I can answer that, but I want to say that like we weren't
+particularly focused on that enterprise level. So, it would be it would make us sound
+more like I guess better than we were to say the dual
+
+[00:26:11]
+funnel. We were really focused on that self-serve customer and we created the enterprise
+tier just to to to be more focused on the self-serve customer. Identifying a someone
+that signs up with like a Gmail app uh or Gmail, excuse me, a Gmail domain and
+discounting them as not a, you know, good fit prospect is really difficult to do. My
+experience was that you could probably know if somebody signed up with like you know,
+madeofmoney.com that they're going to whatever, toms.icp that would work for you, but it
+turns out that like that's someone to target is what I mean. It turns out that there's
+like a really valuable rich long tail that could be stuff that you don't that's just
+completely unknown and in the digital marketing world in particular there's like a
+little bit of I think a sobering realization is like even though we can track everything
+we still don't know like we have to have faith and we have to do good marketing. We want
+to be responsible and prudent but there is a
+
+[00:27:14]
+piece of the old saying you know I know 50% of my marketing or advertising's working I
+just don't know which 50% even in digital we track stuff. So my experience was I could
+we could have people coming in bound who ended up being really great customers that I
+had no idea. So I think that's your first question is like did I know the difference
+between someone who was a free forever maybe a student and and yeah I guess you can kind
+of tell but it was less clear than than we thought when you put together you know we did
+the which is very common for bootstrap SAS founder we started doing lead lead scoring
+and lead classification and determining who is who and working really hard on it. Our
+results and maybe we were bad at it which is fine but we worked hard at it and the
+results weren't any better than if we just treated everybody as a great prospect for our
+model and how we did it. Again if you're doing a very rigorous kind of account based
+marketing model to very high ticket
+
+[00:28:16]
+items that's a different story but for us in the way that we were doing it Justin you
+asked about if there was some way to determine who was going to be a self-service
+customer or an enterprise customer this is where I say that a sales led motion is in
+every company's future depend I mean if they're going to get big enough bigger companies
+buy in different ways and there's more checks and balances and I don't know if you guys
+see this but and I'm assuming you do is when companies start talking about SOC 2, when
+they start looking at any type of specific back and forth feedback that couldn't
+conceivably be done in a self-service model. And this is just on the infosec side of
+things. That speaks to you and you say, "Well, this company this customer is going to
+buy in a different way than the self-service customer." And that happens. There's not
+even a discussion about encryption of a SSL connection and how that is still secure and
+this is it's just a very wrote like these is the this is the
+
+[00:29:19]
+documentation that we need to have. So, that customer is going to be you're going to
+treat them differently. Teams are going to buy differently. When you're as your customer
+starts to be distanced further and further from your actual consumer. So, the there's a
+team using the app, but then the boss's boss's boss has the budget and is and is
+authorizing it. You know, talented and well-managed sales teams will understand that
+process, understand how to make the buyer good and while, you know, kind of expanding
+and understand and presenting to the people who actually use it. Those are probably just
+two examples, but how they're used to buying software and how that process typically
+looks for large organizations who have more seats or have bigger needs, their buying
+behavior is going to become much different. Not always, but in certain cases to that
+self-service customer. And you can see it again on like the security audit or the it
+comes up right away and if you and I if the three of us have a business
+
+[00:30:21]
+and we're charging 149 bucks a month to a team that we've never spoken to and a team
+that we've got a do a SOC 2 thing for, we can it becomes pretty clear. And again, that's
+just one example, but And sorry for asking you to repeat the questions there, but I got
+one more to do you in on and then I'll let you get yours in. Uh Uh, so, I really like
+what you said about making the buyer feel good and then having a product that people who
+actually use it love. Do you have any, uh, tips, tricks, recommendations for folks who
+are in that situation? Um, maybe folks who are uh, working in a situation where they're
+going to be marketing exclusively to people where the buyer is not the user of the
+product? Oh, that's a good question. Um, I don't work or think very much about that
+scenario, um, today or with, um, Mailchimp, my previous business. And again, this is
+where there the the collateral material is a is a bit different. So, when we talk about,
+uh, you know, features and benefits and try to sell the product, um, that potentially
+speaks more to the to the user of the application. Um,
+
+[00:31:24]
+when we start looking at the buyer itself, it it depends a bit more, but I I think the
+just that I don't have a specific one-size-fits-all recommendation of that. I think when
+we see that scenario, understanding that um, those are two different audiences, um, is
+is important. A lot of times that manager who's not using the application, their goals
+are to streamline their their teams, whether it's direct reports or something further
+down the staffs. They want to streamline their their workflow. And then they're also
+going to have, um, specific budget, um, constraints or budget opportunities for, uh, a a
+your a given company to explore and to understand. And so, there can be contraction or
+expansion at that level, um, that's going to come from showing how the consumers have
+used how the users, but the staff is using the app, um, their reliance upon it. So, if
+the staff is relying on it to do
+
+[00:32:27]
+their job, it makes your, um, renewal or your upgrade to a paid plan much, much, much
+more straight line because software is going to be far cheaper um than people. And um
+managers absolutely understand that. And so if we're making the job easier for human
+resources, human people, I mean I don't pe- people are human. They're like cool, normal.
+It sounds weird to say this, but software software is a is a really powerful lever for
+productivity and for people to do a great job. And so if if you're providing that
+solution and a manager is able to understand that, um it becomes a pretty clear um ROI
+positive when they when they look at the the resourcing for their budgets or what have
+you. I hope that is at least somewhat of an answer for you. No, no, it's great. It's a
+very tricky, very self-serving question. I'm working with a project right now where the
+buyer is not the person who uses it and so the marketing for this, it's I feel like I'm
+talking to two completely distinct
+
+[00:33:29]
+people, both of which have skin in the game and that makes your marketing kind of
+bifurcated. And yeah, it's um I'm not a marketer or I don't have that background, so
+it's been it's been challenging to provide advice and to do a good job. So it's a a
+self-serving question. Thank you for the answer. I I do appreciate it. Yeah, always
+always working at that level like you said with those managers, it's it's almost always
+goes straight to value proposition for them more than in even the the usage, you know,
+is this an easy tool for me to use? Like you say, maybe less so or they may not be using
+it at all, but if the value proposition is, you know, it saves my team X amount of time
+a week or X amount of effort or it saves me this amount of time you know, generating
+these reports or whatever, that's that's always a good place to attack and uh in a
+previous life when I was a corporate trainer, we actually had uh a number of people that
+would come through that had that type of approach and that type of background where uh
+you know, they were more sales and marketing oriented. So that they could see that, but
+they lacked the the the software backing or the software skills. That's why they came
+through us, but it was always really interesting because I learned as much from them as
+they they from me
+
+[00:34:31]
+uh in those aspects and and understanding how to position value propositions and uh and
+ROI and talk talk in those terms um I always found really interesting. One of the things
+I wanted to come back to um because I really actually I I I love this this notion of
+your your I'm going to call them main line customers, you know, your your the the
+freemium models, the ones that may take a step up or two in tier or something like that
+but still remain more low touch but low touch because you made a good product as easy to
+use and and they don't have a lot of questions or support needs necessarily. That that
+stage your focus and and it feels to me if I'm if I'm understanding you correctly that
+has stayed your focus or that stayed your focus throughout your time there and anyone
+who was else, so enterprise level, upper level, large organizations, larger teams, you
+kind of treated as exceptions. And so there wasn't necessarily this I'm going to call it
+a script or anything that you went through with them. It's you treated them like one-
+offs. It's like, "Okay, this is a unique situation but it is an enterprise level client.
+We want to give them some attention but our focus and vision as a company is to
+
+[00:35:34]
+really treat the bulk of our customers really well and we'll pull these guys to the side
+and and give them some special treatment because of their size or or their approach or
+their needs." Is that is that right? My understanding that right? Yeah. I I just I find
+that really cool because a number of people that we have interviewed and that I've
+talked to they reach they reach a point where uh you know, assuming that things are
+becoming successful and they're going well and they're starting to see larger clients
+come in the door there's the a decision point where do we ignore them because they're
+not our main line client or do we entirely shift focus to that because it's more
+lucrative or generates new features or gives us a longer tail or like you, do we peel
+them off and just kind of treat them differently and and we have now some divergent
+path. So I'm I'm curious when that point came for you all, you know, you got your first
+enterprise client or or you started to see this as a possibility. Was there like a sit-
+down type of a decision process of how do we want to treat these so it doesn't mess this
+other stuff up? Do we
+
+[00:36:36]
+want to shift to those? So, I yeah, I'm I'm just curious what that looked like at the
+point where where you got there with with the larger client the the first time or maybe
+the first couple. Probably we asked we started this uh chat talking about like how do
+you hitting those levels of business growth and for us kind of the early days there was
+a lot of hand-holding and there was a lot of what I think we would call like selling or
+customization in the contracts um and later I would have called an enterprise deal.
+Anything that's on paper that I have to actually um send an invoice and then deposit a
+check to me was something I learned over time that I didn't want to do. Um and so your
+question was like how did that evolution happen? And um if we had a sit-down when we
+would do annual planning, we would look at the bigger the bigger contracts, the non-kind
+of MRR businesses or the non-self-service business. And we would say and we would
+
+[00:37:39]
+have these kind of like heady discussions on actually writing down some of their value
+just based on like do we think they're going to renew? And it was like they always
+renewed but or they they renewed at a acceptable rate but it was kind of like
+frustrating because we were just dealing with this stuff. It's like I don't know and and
+they represented I don't not and it wasn't an alarming percentage of the total take but
+it was like so we're like planning against this thing writing it down. And I think for
+us our experience was like what if we could just replace this income with more small
+ongoing business and like and that happened naturally over time. I think um that
+experience was a little bit of like, you know, there's some little there's some scars
+and just like I don't want to emotional scars like I just don't want to have these
+conversations anymore. I'd rather have something that just feels a little bit more
+predictable. A, B, the, you know, just like renegotiation, COVID hits and everybody
+wants to read the everybody's finance team wants to
+
+[00:38:41]
+renegotiate. Um some people never came back, some people were really good um and it was
+just what happened and we realized with our self-service credit card business that that
+was a much stronger uh piece of business and we got to the point where um even some of
+our larger accounts that we were able to just tell them we weren't going to renew. Why
+would we do that? Well, most of our team, Aaron, like the important detail here is I
+said I would handle the enterprise stuff. So, that means everyone else, a half dozen
+people, is only focusing on um our self-service business. Well, the signal that I send
+when we bring on somebody new and we've got to maybe spend a day a month working on a
+kind of like somewhat adjacent, somewhat not uh customer was not a really good signal.
+A, B, if everyone's working in lockstep and in unison, I'm able to repeat like have a
+repeatable business that can compound and grow versus a one-off thing that's
+
+[00:39:44]
+pulling me away from that. And so, when we turned down some clients, we were able to
+grow the business in quick time because the team was focused on it and there was nothing
+no distractions. Even though there was revenue attached to it, positive revenue, there
+was negative distraction. Um and when we put like, you know, our effort towards the
+things that we wanted to do, the business really improved. So, we moved further away
+from the enterprise based on some experiences as well as the ways that we run of the
+business. That doesn't mean that going in and having bigger contracts or people want to
+talk to you in a certain way, um is wrong. As I said, I think it's important to
+acknowledge that eventually, um fig- figuring out where that fit in our go-to-market, um
+as we saturated our you know, our opportunities, um was definitely something that was on
+the horizon. We just weren't didn't get to that point. Interesting. So cool. Um I know
+Justin's got a couple of other questions, but just I I I guess one more kind of general
+sweeping thing for me. Um and we we've been teetering away from MailCharts and more into
+your
+
+[00:40:48]
+work with like reach frequency and and coaching and things like that already. But just
+in a general sense, you know, we've kind of talked through the the process and the
+spectrum. The one thing that we haven't really talked about is uh the sale. So, you
+know, here here at the end, your exit with with MailCharts. I I'm interested in what
+that process looked like for you personally, but but the business in general. And in
+what sense? So, I mean, for you, I kind of I I feel like I kind of have an understanding
+of of where you got to with the business and what you wanted to do next and things that
+were interesting to you. I I may be off on that, but I would love to hear those words
+from you. Um but but in general, had the business reach a particular point that it was
+time to hand it off to someone else? Uh was there just something attractive that came in
+on a particular offer with validity? Uh was it something they were very interested in
+just taking and running with and growing? I mean, what what were kind of the decision
+factors and you grow this amazing business, it's gone through a decade of of amazing
+growth, and you've built this great company. What happened there at the end that made it
+the end for you? It made you said amazing company and amazing
+
+[00:41:50]
+growth. We had a nice company and and we were able to Well, I say that because there's a
+vast percentage of SaaS that one, don't even make it off the ground, but but then if
+they do, they just kind of wither. So, it's an incredibly small percentage. So, it's
+quite amazing, you know, that the ones that succeed. People that are out there making a
+couple grand a month, um that's hard to do. And and and I said that earlier, but I
+really mean it. And and you're absolutely right, Aaron, is it's really really hard to
+do. So, in that sense, yes, that we I am really grateful and thankful and feel very
+lucky for that amazing part of it. Um but I also want to a big part of what I do and and
+how we ran the business is kind of the antithesis of the of the news you see out there,
+the influencers about how things are, you know, lightning in a bottle or this is
+everything works out so rosy and if you just do these three tricks, things are going to
+work. Like that wasn't our Ours was like do these three things and they all fail and
+then like decide what we're going to do and have to do another one. And right, it's like
+um it was it was real work and it was real honest and I was a Not that those
+
+[00:42:52]
+were dishonest, but it was like it was a real business that took time and energy and um
+felt slow a lot of the time and didn't feel like um the things we'd read about. And we'd
+always wonder like I'm either crazy or the things I'm reading are crazy, but it can only
+be one of the two. And so I had tried that just let let sit and say like it's still
+there's still um some realities to running these businesses that I have a lot of respect
+for. Um So, we were making all of these decisions um to really optimize the business.
+And when we look at something like exit planning, they talk about uh standard operating
+procedures, they talk about clean books, they talk about um having a clear org chart, uh
+various levels of responsibility. And I was doing that at Mailchimp because it made
+running the business better. So, it turns out that the more efficient your business is,
+the more attractive it theoretically could be um
+
+[00:43:55]
+you know, to a potential buyer. Many people who run businesses similar to mine, um
+clients of mine included, buyers come knocking frequently. And some of them are more
+well-polished than others. Um I think it's more common that you get a tire kicker and
+you learn after a few of oh my god, this could be it uh that you learn that most of
+these people are not serious or if they are they're trying to uh get you to lock into
+100% private stock with earnouts and it's probably not a good um opportunity. My
+experience was exactly that and I got I started to build muscle memory to say, "Hey,
+thanks for the opportunity. We're not for sale." Um the team at Validity is uh very
+professional, very serious. We knew of them because they were customer of MailCharts, so
+we had a relationship with um some members of their team. Um and they responded back to
+my reply that, you know, we're happy doing our
+
+[00:44:59]
+thing and we're not look we're looking to grow this company on our terms and not sell
+it. And uh the team over there said, "Why you should Let's just have a conversation."
+And um they were from start to finish uh very prepared, very serious. They You hear
+horror stories about um due diligence being extremely painful. You hear horror stories
+about people re-trading on deals. You hear stories of any number of things. I don't
+share any of that. I was very fortunate to be working with um a partner on the deal that
+um was aware of things that I might need, um was very in tune and sensitive to um how I
+felt about the team culture. The process went quick. I can tell you just from my end I
+didn't believe that it was going to happen most of the time. Um I was like it was better
+emotionally to just hedge on this isn't reality. The best advice I can give to anybody
+running a business is that helps you quite a bit during um an acquisition
+
+[00:46:04]
+process because for me the status quo was running my company and if that was what I
+continued to do, I had put myself in a position I really enjoyed it. So, you after you
+sell a company, you know, the one thing they don't tell you is you don't have a company
+anymore. I guess they do tell you that, but like they don't tell you you don't have and
+and I miss that and and I think that speaks to why I'm doing what I'm doing now is I get
+to um work with folks who have a company and and can use a little bit of advice or a
+little bit of a um you know, shoulder to lean on, but functionally um they've got
+companies and and I really want to let them know how much I enjoyed that, loved that,
+cherished it. Um but again, for me it was um I felt pretty good about my plan B, which
+was to keep doing the thing that I loved and the Validity team um was aware of that and
+was um again did not There wasn't a lot of any confusion and it was it was a very
+serious uh very professional, very well um
+
+[00:47:07]
+well-run as far as I can tell operation on on the buyer side as well. They're in They
+were germane to our world. Um we had They had They've rolled up a number of uh companies
+in the email marketing space um and so uh it for them to be interested and and motivated
+um to bring MailCharts into their family um over the years is something that we were
+like, "Wow, that's that's pretty crazy." Um and so hopefully that answers the question.
+That's fantastic. That's really cool. It's a dream for a future Goodbye Podcast is to
+have exit an exit episode where we're bringing a bunch of people who've sold and tell
+our stories and compare notes. Uh so, I'd love to love to have you back for that if
+you're open to it. Yeah, absolutely. People love the I mean, I say like people love the
+exit side. For me, the biggest thrill was running the team and seeing people succeed. It
+was like uh you know, you'll hear Rob Walling, I mean he his ta- his talk he gives is
+like he uh when he sold Drip, it's like the bank account number was bigger with
+
+[00:48:09]
+everything else was kind of that was the only thing that was different. It was just a
+number. It was an integer. I think that can come across as a little bit um confusing for
+folks. Uh But the point being like emotionally um as as people, it doesn't really um
+it's not quite as thrilling as some of the other parts of running a business or having a
+company. Yeah, I think that's one of the reasons I'm I'm interested in it is like
+there's just not a terrible ton of people who've been through that and then I think like
+there's a lot of people who are chasing that moment and I think talking to people who've
+been there and and can kind of shed some light on it. It's It's just uh it's interesting
+take Exit Strategy which just came out from Rob Walling and and his wife Sherry Dr.
+Sherry Walling uh fantastic. Just finished reading that a few weeks ago. Um and uh wish
+I had read that before going through my my own journey. So, it's uh I wish wish the book
+had been written at that time. But uh Oh, yeah. Yeah, you all the stuff you learn
+afterwards. Yeah. Along with pricing the the exit and setting up for exits and the
+emotions related to post exit are all top of mind for me this year just as in my own
+
+[00:49:11]
+personal series of autodidactness. Since you brought up Rob Walling and we're coming to
+the end of our time here, I did want to mention we kind of got connected via MicroConf
+where we were both members and participate in that. Could you speak a little bit to kind
+of what being part of MicroConf has been like and I don't know if you want to go to
+conferences or any of that, but I don't know. Do you have a Do you have a take on
+MicroConf? I do. I mean, I wish there was more MicroConf people or more MicroConf
+events. I don't have a ton of exposure to the kind of the other side of the SaaS world,
+the more funded uh churn and burn and see how fast you can go. Um I've been largely
+either working for myself or had bootstrapped company. I had another small one um prior
+to Mailchimp, but uh in seeing the work that the MicroConf team does to be a resource,
+be a community, inspire, and provide guidance to bootstrap founders is really important.
+I found them really late when I was running Mailchimp. It didn't have much of an impact
+on that,
+
+[00:50:15]
+and it's only been since that I I'll read something or I'll listen to a podcast
+occasionally, and I find myself just nodding my head and saying like, "Yeah, that was my
+experience." Like, there's things that could be quantified and explained through
+numbers. There's other things that any of the speakers, the guests on the show, or
+people that in the community can talk about that's more of a qualified just feeling. And
+I say like, "Yeah, that is that is true, too." So, that's a place that I like to hang
+out. I like to see people doing great work. I just sent a note today to someone that I
+think um is going full-time on their on their gig. It was kind of a side hustle, or it
+was the they were growing it while they had their full-time gig. And that's the type of
+energy that I'm really excited to see. So, I've been to a few events. I'm actually going
+to be going out to depending on when this pod is released, there's a MicroConf Europe in
+in Istanbul at the Are you guys going? I would love to. Unfortunately, no. Okay. I had a
+different trip booked when
+
+[00:51:19]
+they released or at least when I became aware of when when and where it was going to be.
+I was already on a different trip to Asia, actually. But yeah, Istanbul's going to be
+amazing, and yeah, I'm I'm super excited to to go to my next one the coming year. Yeah,
+it's I'm trying to bone up on like 23, you know, 3,000, 5,000 years of history to make
+sure I make the most out of my Istanbul trip. But yeah, in terms of community, it's
+difficult to find people building you know, largely bootstrap product like software
+businesses. Other communities I'm in, there are really nice um founder-led companies,
+but don't carry some of the same some of those same attributes, and you'll find out it's
+a content farm, or it's a agency, or it's It's nice to be around um product founders,
+and and and that's been my huge massive part of my career, and so I like I said, I wish
+there was there was more of it. And as I'm a coach now, and I want to work with them,
+it's like this is like the place to find people, and you don't just want to show up to
+MicroConf, but Being at a MicroConf
+
+[00:52:21]
+event, you never have better discussions over cocktails than I've ever had at a more in
+a group or at a conference. I've never had a more genuine sense of like, I'm among my
+people. This This is like These people get me, and I get these people, and everyone I
+talk to has something some interesting story and some interesting background, and that
+shouldn't be as rare as it is, but MicroConf is a an absolute gem for for providing
+that. And I'm I'm with you, I think there should be more of it. You notice it when
+you're not around it, I think is is where it's um Uh we were talking in the pre-show
+about like learning to scuba dive in a really amazing scuba dive place, but you didn't
+know it cuz you were just learning, and then you look back, and you're like oh, that is
+a great place. Same thing with MicroConf. You're in that community, and then maybe
+you'll go somewhere else, and you'll realize, oh, this this doesn't have the same
+feeling. I want to go back to amazing MicroConf, and and where it's more you know,
+again, all those words I said, nurturing, um educational, um focused, supportive, um for
+the things that matter. Rob starts most conf Every conference I've been at with a
+picture of his family, and um I think it's a full circle. You guys asked kind of why did
+we start Why did I start this?
+
+[00:53:23]
+It wasn't lip service to that photo that Rob does. It was the other way around. It was
+quite literally I wanted to start a company that allowed me to see friends and family,
+and embrace that part of my life. MicroConf says, "Hey, you're going to learn a lot
+here, but before we start, I want you to know like this is why a lot of us do it." And
+and I think that that's unique and that's worth saying every time um that they start
+those because that's a big deal for the types of folks that go there. So, I hope that I
+hope that makes sense. Absolutely. I I couldn't uh couldn't agree with you said more.
+And uh big fan of MicroConf. So, I'm glad to get a connection with you via that. Um
+wanted to thank you for being on the pod. You've been absolutely insightful. We've gone
+over our time because the conversation was so good, which is just great. So, thank you
+for being here. Where can people connect with you and your coaching and your services if
+they want to? Uh my website is bouchok.com spelled b u c h o k.com. Uh it's bouchok.com.
+Or you can email me, which is tom@bouchok.com. t o m @buchok.com. Don't really spend too
+much time on LinkedIn um or the X Blue Skies of the
+
+[00:54:28]
+world. Um so, directly that way is best. Amazing. Thanks Thanks so much for joining us
+uh Tom. And excited that uh it's super excited to have you on. It's really great
+conversation. Thanks, gentlemen. Absolutely. And a special thanks as always to our
+listeners. If you like what you're hearing, have ideas for the show, or just want to
+tell us what's on your mind, throw a review our way. Subscribe if you are so inclined,
+and we will see you all next time on sass.that.app. Thanks for cruising along with us on
+sass.that.app. We hope you grabbed some insights that were inspiring, actionable, or at
+least entertaining. If you enjoyed the show, don't forget to subscribe and leave a
+review. Until next time, keep building, keep growing, and keep those apps sassy.

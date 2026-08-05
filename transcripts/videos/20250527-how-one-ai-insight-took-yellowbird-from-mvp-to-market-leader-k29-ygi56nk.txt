@@ -1,0 +1,646 @@
+How One AI Insight Took YellowBird from MVP to Market Leader
+============================================================
+
+Video ID:  k29-ygi56nk
+URL:       https://www.youtube.com/watch?v=k29-ygi56nk
+Published: 2025-05-27
+Duration:  00:47:11
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+We are focused as an organization on what we call wisdom enabled AI. So it's basically
+taking your tribal knowledge, all your background, all your experience and making it
+applicable to the given scenario. Welcome to SAS that app building B2B web applications.
+The podcast where we share real world stories, practical advice, and tech insights for
+those building or thinking about starting a tech enabled business. I am your co-host
+Aaron Marchbanks and I'm Justin Edwards. Each week we bring you the stories, strategies,
+and insights you need to build your SAS or tech enabled business smarter, not harder.
+Let's dive right [Music] in. Hello everyone and welcome to SAS that app. I am your co-
+host Aaron March Bakes and with me as always across the microphone and screen and uh
+many states is my partner in crime uh Justin Edwards CIO of Delta Systems. Welcome as
+always
+
+[00:01:04]
+Justin. Howdy. Uh our guest today is Michael Zale founder and CEO of Yellowbird which is
+an AI powered SAS platform that is currently transforming how businesses and insurance
+providers manage workplace safety and risk. Um, my understanding is that under Michael's
+leadership, Yellowbird has grown into an Inc. 5000 company uh that does help
+organizations of a lot of different uh verticals and varieties to connect with EHS
+professionals uh in a very short amount of time. Um he's had a lot of success with this,
+not exactly where he got started, but where he is currently. Um, and like a lot of
+businessto business, uh, SAS stories, um, Yellowbird didn't necessarily start with the
+perfect tech stack, but it started with a great idea and and has built from there. So,
+uh, obviously like many early days come with hard lessons and and we always want to give
+a lean toward how how things can be scalable even at early stages. So, we're going to
+spend a lot of time talking with Michael today about uh, driving that MVP all the way to
+the scalable success that it has right now.
+
+[00:02:08]
+So, Michael, welcome to the show. Thank you for having me. I'm very pleased to be here.
+Yeah. So, I'm just going to kind of jump right in. I know you got a lot of history in in
+the world of tech and it didn't start with Yellowbird. So, tell us a little bit about
+how it is that you did get started in tech and uh what eventually led you to Yellowbird.
+I uh Thank you. Thank you for giving me that opportunity. I I started in technology in a
+very unusual way. I was in high school and I my very my very first job uh in the I don't
+want to tell you the year that it was but it was a long long time ago. Um uh my very
+first job was actually at a movie theater and this gentleman offered me a position to
+sell computers uh because I had a gift of gab and I maybe looked a little older than
+than I was. I was only 16 15 years old and of course I convinced him that I knew
+everything that there was to know about computers. I knew nothing. Um, and it started me
+on the journey where I was selling computers in high school and uh, by 199 and you could
+probably do the
+
+[00:03:11]
+math. Uh by 1993 I I was uh graduating and I ended up um getting into the first
+foundations of the internet and uh right place, right time and um really very blessed to
+frankly be in uh Southern California at that time and and have the opportunity to to
+start my career. Awesome. Yeah, it's a it's a familiar story actually that that mirrors
+a lot of of my growth path as well and uh not to give my age away but similar years. So
+totally understand that. So uh turning us over to uh Yellowbird a little bit um just for
+our listening audience who uh may not be familiar with your services or what it is that
+Yellowbird does, kind of give us the the nutshell version of of Yellow Bird. Absolutely.
+So the nutshell version is is that we have become something that is still aligned with
+where we started. And we started as a um um basically a safety marketplace focused on
+health and safety experts uh with the intent of kind of
+
+[00:04:14]
+using that gig economy type of a model where you have subject matter expertise in
+different places that you have needs and you're always trying to chase people around.
+And I said, you know, I don't like the idea of the commoditized driver or the
+commoditized meal uh delivery person. I think it takes the human the human skills and
+talents out. But what I do love about this it about the Uberes or Match.com or all of
+these marketplace uh uh models was the ability to use tech to match better. And so that
+was the original thesis and we went into first revenue in January of 2020 just in time
+for a global pandemic. Yeah. It timing. Yes. Uh you know I say it's actually kind of a
+blessing to be honest because we hadn't started to scale yet. Um I was fortunate I had
+sold a business and I had the ability to keep us going and figure it out. You know a
+couple years later it could have been devastating. So that being said, we figured it out
+and uh we decided to
+
+[00:05:18]
+scale more rapidly than we ant anticipated purely because we didn't know what we were
+going to do and health and safety and co kind of go hand in hand and Sure. that was the
+beginning of our of our journey in early 2000. You're fantastic. So talk to me a little
+bit more about um the the specific problems the the the specific things that you were
+seeking to solve with this. I mean, you mentioned a little bit about it already and kind
+of a little bit about the goal, but yeah, you you see a need. What's the need and what's
+the problem that you that you were seeking to solve at the outset? And it's still the
+same problem that we're seeking to solve. We're just doing it in a better a better way.
+The the problem is is as you run an operation in today's world, whether it be in
+construction or manufacturing or in trucking, you tend to have different compliance
+requirements. you tend to have different risk. You'll be informed that if you open an
+office in California, you have to abide by a whole bunch of laws and regulations that
+you don't have to abide by in say Texas or in Missouri. And so the different
+
+[00:06:21]
+understanding of all these various things, there's usually one or two people responsible
+for all of it. And so what I found early in my my career is you once you trust somebody
+that they're smart enough to figure it out, they become your person and you have one or
+two resources and you fly them all over the country and you try to get them, you know,
+they become your your your guy or gal. The problem is is that there's no possible way
+with the 150,000 regulations that we are a that we deal with that person is going to be
+the right person. nor can they scale at a level where you need that person to be
+duplicated. And so what we are solving initially and we're still solving is right person
+with the right skills and how do you know that they're going to be successful and that's
+the that is where right place right time with technology we've really kind of backed
+into it but it just started with hey if you have these skills register on our platform
+and if we have a job for you uh we'll tell you about it and you can uh make a few extra
+bucks and that
+
+[00:07:24]
+was the original concept was that no that's terrific. Yeah, many many of these that are
+that are so successful of course have have very specific problems that they're trying to
+solve. They see it. You work in the industry, you work in the vertical and you you can
+identify those problems pretty quickly, but not necessarily everybody starts putting
+together and connecting the dots of how can we how can we eliminate some of these steps
+or how can we make some of these problems go away. And uh I I noted here that that part
+of and it may be a little card before the horse, but uh in your current iteration of the
+system, you are leveraging some AI components. And so I'm I'm kind of curious, you know,
+and we'll we'll back into you know, early days as well, but I'm just kind of curious at
+this particular point. Have you found that that AI component, which is super
+interesting, to help the problem, hinder the problem? Is it just making what the problem
+used to be more automated? Tell me a little bit about the the AI aspect of the platform.
+It's I I speak on this a fair amount and I actually just got back from
+
+[00:08:27]
+an event in Miami. Um see folks in today's world because AI is just a buzz so many
+buzzwords. Oh yeah, I'm using AI. I'm using AI. They don't they don't really dissect it.
+You know, I I'm very fortunate that I have a team of people here, you know, ex Googlers
+and ex, you know, people who who definitely understand how today it's being utilized.
+Backing up, it all starts with data and what data do you have access to and then how is
+it structured or unstructured and then how do you use it to help execute the problem
+solving process. In the case that we're talking about initially, it's, you know, we
+talked about the an example. Let's use a use case of I own a warehouse and distribution
+center and I have a bunch of forklift drivers that are buzzing around all day long and
+they're loading trucks and they're unloading trucks and there's you know in that
+scenario you've got relatively unskilled labor, large volume of uh compliance risk and
+multiple languages, multiple shifts and a workforce that's
+
+[00:09:31]
+got 300% turnover because these are not exactly careerlong jobs necessarily. And you're
+required for OSHA, as an example, to train everybody who touches a forklift on the
+machine once a year. And and that would be great if everybody stayed where they were and
+it had all the same machines and you could just do that. But now multiply that by three
+shifts and turnover. It gets very complex. So how AI in that utilization in that
+scenario um would be used is our local um professionals and we'll just use an arbitrary
+location of say Dallas in Dallas. Our platform would scrape the entire platform of
+yellowbird professionals that were background checked, insured, certified that have
+forklift training in their resumes. But then we look and this is where the AI has gotten
+so powerful. We've been very very fortunate. And look, it's a happy little accident as
+Bob Ross says, you know, it literally I fell into this. It was not because we were so
+brilliant to come up with the idea, but technology caught up to us. And the reality is
+is
+
+[00:10:35]
+that if somebody happened to in high school be one of those forklift drivers and in
+Dallas at that company, which happens by the way, and then they went away to school and
+then they became a safety uh engineer for some big company and then they retired and
+they are on my platform as a retired yellow bird, as a retired professional. that person
+and that company in that geography would be better suited to go do the training program
+for that group because of all these correlated data points that may not be obvious to
+the blind eye. And so how so how we're using it for matching simply said is we use all
+these data points and we use basically connective tissue. The second way we use it is
+based on the feedback loop. We have all this feedback loop. So when did they arrive? Did
+they arrive on time? Did everybody pass the test? Was there negative or positive
+feedback just like you do on aneuver? A lot of our stuff actually has deliverables of of
+reports. So, I'm doing an ocean inspection. I'm doing a hazardous materials assessment.
+
+[00:11:38]
+We can take the in the insights from those reports and use them as a tool, which we're
+doing right now on the platform, to help our professionals be more successful when they
+go out to do the job. So those are two very unique AI applications, but they're natural
+because you have the data available that is structured from the government. We can pull
+in the regulation. We can pull in the policy. We know that that's controlled. And then
+you have the nuance data, the professionals information, the well, I wouldn't use that
+piece of equipment here because of the moisture in the air. That kind of a comment can
+go into AI to help us when somebody's in a moist environment using that piece of
+equipment. say please validate that that piece of equipment is good for the moisture
+levels things like that. So so I absolutely love that because it is uh using AI to solve
+a problem instead of AI as a solution in search of a problem and I think in the current
+climate we see a lot of we have to do AI we have to use a solution and we just need to
+find a problem that we'll be good at. Uh
+
+[00:12:41]
+which as an entrepreneur technologist is kind of backwards uh in in my mind. So, it's
+it's brilliant that uh that you were doing that so early on that things kind of caught
+up to you, so to speak. I love that insight. Well, thank you. You know, I always we we
+started, frankly, from a world where you had individuals sitting and looking at um
+resumes and then you got to a world where you could do keyword searches on the key few
+keywords that you're looking for. Now, we'll take hundreds of thousands of data points
+to find the needle in the haystack. And now the needle within the needle of the hay
+stack because of these because of these models. And that's what makes it so exciting. I
+mean this is not just a this this age of AI is not just for your given use case today
+but the next use case that's being developed as you're using your use case today which
+is so much fun for me. I I love it. Yeah. I think that's uh and sorry to opine on this
+but uh we talked about kind of like we're running out of the
+
+[00:13:43]
+internet to scan and how much better can these LLMs get but if you think about the fact
+that all these LLMs that we're using are generating content which can be self- consumed
+by them and other LLMs it's kind of uh you know did we did we consume the data was out
+there or did we just hit the inflection point where that you know we're creating so much
+content so quickly it's kind of a open question for an AI researcher right well I love I
+love the question and I actually that's part of the reason that we you know how we raise
+money and how we are growing so quickly the niche aspects um of outlying data is what
+makes it so interesting if you are looking for LLM large language modeling it's going to
+literally take in as much human data and much data as it can multimodal so you're going
+to have video and you're going to have audio and you're going to have written word and
+you're going to have snippets you're going to have all these things that are being
+processed but it's going to essentially water it down to core themes. And what we're
+doing is we're looking for the outlying data. We're saying, "Yes, we know what the what
+the rules and regs are, but there's some
+
+[00:14:47]
+human wisdom in here that our pros are providing that are giving you the outlying data."
+Like, yes, that's true, but you're in a moist environment. Yes, it's true. And not
+philosophically is true, but if you really want to save somebody from having a slip,
+drip, and fall scenario, just making sure you block off the only door into the facility
+probably isn't a practical example. So, yes, you should block that off, but maybe you
+have a a cleanup plan so that you don't have to just shut it down for the next day
+because you have to generate revenue. So, it's things like that that are practical and
+and wisdom based that I think is just so powerful. Yeah, it's a that experiential
+learning. I mean, you're hiring professionals and and it's not just that you want the
+person that happens to match the criteria. You want the person that actually has
+industry specific knowledge that, you know, the guy that's like, you know what, if you
+turn the wheel too far to the left, what's going to actually happen is it's going to,
+you know, hang up your chassis or whatever. Who's going to know that but an operator of
+that device? And so, Exactly. Yeah, those are fantastic points. Yeah, I I love it. Thank
+you. Yeah. So you you
+
+[00:15:52]
+mentioned obviously the kind of natural progression as it relates to hiring things. You
+know we filter through resumes. Okay now cool we can feed resumes into things and and
+put some sorting and and apply some filtering to it and we get a few more and so on and
+so forth. But um obviously your application uh would have to have gone through you know
+a very similar kind of a growth path. You obviously didn't start with uh AI where we're
+going necessarily. So, I want to I want to turn the clock way back uh and get into the
+early days with with uh Yellowbird and and you know, back into like the the MVP uh you
+know, the first the first round and and kind of what went into deciding how you want to
+approach this in terms of platform, in terms of technology, in terms of code base, you
+know, you you now have the problem you want to solve. So, how did you apply which tech
+to start to handle that problem? Well, I'm going to start with a commercial for Delta
+Systems because I'll tell you, I really wish I would have hired you guys because we went
+the wrong way really early, but I really mean that because
+
+[00:16:56]
+like at the at the at the earliest stage when you are just trying to validate what
+you're doing, the biggest challenge that anybody has is how do we not put money into
+things that we don't know we need? And so MVP, minimum viable product, is truly that.
+It's like we used I'm going to give you a little under uh behind the curtain. We used
+Google uh forms that went to emails. We used um um didn't even go to Google Sheets. It
+just went to emails and then eventually it went into a free uh database that we used for
+far too long. And we clued it together. And the original the original MVP to just see if
+this was going to work was we talked to 50 professionals and they sent us their resumes.
+Uh and we talked to um we talked to five companies that said they'd be willing to try
+us. Not even willing to necessarily even hire, but just try it. And so that was our
+first iteration of okay, well we've got some pros and we have some companies and can
+
+[00:17:59]
+we match them together? And it was done not even as good as a staffing company. We we
+were we were we were worse than a staffing company at that point because at least
+they're in the business of having the systems in place to do it. We didn't even know
+what the heck we were doing. But it was never to be a staffing company. It was always to
+be a platform that could do it. And as we started getting some success, we started
+realizing that we were spreadsheets on spreadsheets on spreadsheets. And we had a bunch
+of we had like five databases. And we had a CRM over here that wasn't talking to the
+main resume database over here that was not talking to I mean we had two separate
+systems for pro our professionals and our organizations that weren't even in the same
+database or even in the same system. So it was uh um it was not going to swear an eso.
+Uh it definitely was a bit of a bit of a show. I'll just swear you can get it out if you
+want. But but you know it was a mess and and it took us we grew on that which is the
+
+[00:19:04]
+hardest part. If we weren't successful it would have been easy to switch. But now you're
+like growing in your system. That's not a good system. But you can't just can it and
+start you can't just abandon it if you don't have any customers. It's easy to replace
+except you don't have a business. But as you have all this stuff and it it literally
+took us about three and a half years into the into revenue before we today we've got I
+mean we have a beautiful platform. It is designed for this purpose but we had to go
+through three heavy iterations thinking we were fixing it and we weren't. We weren't
+actually. We were we're throwing band-aids on a on a bullet hole and it just at some
+point we literally had to rebuild ground up. Sure. Yeah. It just builds up that base. So
+I'm I'm I'm super interested in in step two. So we know where you're at right now. Like
+you said, you've gone through, you know, at some point in its
+
+[00:20:05]
+history a big rebuild. At what point or or how did you make that step and what did you
+make that step into? So the the quick answer is as quick as I can make it is I don't
+know enough to be able to make any of these decisions and so I made the wrong decisions
+multiple times. I think in today's environment that interim step, it's really difficult
+for a CEO and for a founder to be raising money with c with confidence, showing that you
+know what you're doing, showing that you found product market fit, showing all this
+stuff and you're trying to get investors and customers and employees confident that you
+know what you're doing and then you are talking to internal folks and saying we have the
+wrong system and and you know and you're supposed to be at least smart enough to be able
+to know why is it why did you choose the wrong system and the reality is is that
+everybody you ask will give you a different answer and that's the
+
+[00:21:09]
+hardest possible thing is we actually iterated twice because I hired either the right
+person at the wrong stage of our business which happens a lot they weren't the wrong
+person they were the wrong person at the stage where we were or there are situations
+where we hired the wrong person or where we didn't have the capital available to hire
+the right person. But at the end of the day, if you don't have people around you who
+truly can articulate what what the interim step and the next step look like and is this
+a is this a linear process or am I just solving for the B step and then I got I got to
+get rid of all that again and start from new to get to the C step. probably a problem
+too. Um, but the quick answer is that was not quick is there is really no secret to it.
+You just have to be humble enough to have have intellectual curiosity and use today you
+can use
+
+[00:22:14]
+really great systems like the good thing with LLMs is volume data um and processing it
+is a really good pay like you can say and do any of these Gemini or GPT or any of these
+others or you can say for a company that is this size that is doing this type of thing.
+What general technology stack should I look at? And it will give you a list. At least it
+points you in a a general direction instead of hey yeah my brother's an IT guy. It's
+like you know I'm like whoa I don't even know where to go with that. zooming in on that
+for for non-technical founders or people who find themselves in that situation like
+using an LLM a chat GPT to put you into the interview with your technologist with good
+questions and I think putting you both in helping you select the right person but also
+in helping you direct that person and helping you make that person understand I think
+that that having an LLM and having these resources available to you
+
+[00:23:16]
+now could actually make you a better person to manage a tech team or to manage a
+technology project even if you're non-technical because it can help you understand what
+the concerns are what the questions are and and run that by people. I I I wonder if that
+had been more prevalent uh back when uh how your trajectory might have looked different
+maybe you know there is no there's there is no crystal ball and there also no ability to
+go back and see how it would have played out um because because there is no undo button
+there you know um but the reality is is that I'll give you a perfect example we were
+doing all the right things in my opinion at the time I is very much my opinion on
+marketing. And we were working with some very very good marketing consultants and
+marketing agencies. And one of those particular agencies um did a great job at
+generating traffic to a platform that really wasn't um meeting the product market fit
+needs at that given point in time. And so you could say, "Oh, well,
+
+[00:24:19]
+you know, we tried that digital marketing strategy or we we you know, we the reality is
+there's so many things that are interconnected in the world that we live in." And a lot
+of it just is what needs to be right in order for this to happen successfully. And
+sometimes you can't even know that you're going to be in a good position to convert
+until you spend the money on the platform first, which is not easy because nobody wants
+to spend money on the wrong things. But all the money in the world for the wrong
+platform or the wrong solution. It's not going to it's not going to mean a darn thing
+landing a million people on a website that crashes or doesn't have the right call to
+action or is listing on uh you know a retail type of a community and you are doing a you
+know data science type of solution it's like well that's not good all the traffic
+doesn't matter right so I guess the quick answer is is that being smart enough and
+around smart enough people to ask what am I trying to accomplish
+
+[00:25:21]
+today and the answer is not I need better tech. The answer is I need a platform that
+will help me convert and solve the need of my customer efficiently. And just saying,
+well, I need a platform that does the tech. Well, that's not going to that's not going
+to do it. And that took me a long time. By the way, I'm giving you I'm giving you little
+snippets right now that that I wish somebody would have told me because that is a hard
+thing to acknowledge especially when you don't know what your goal actually is. Like at
+50 number one go number one objectives. No, you you said a lot when you said that. Uh
+yeah, someone who does technology basically exclusively uh I always come back to with my
+customers. It's like what is the problem we're trying to solve? Like if the technology
+was awesome, how would you know? And there's not an answer to that question. It's like,
+well, I don't really want to get started on building something because it's expensive
+and we don't have, you know, we don't have a goal and if you don't know where you're
+going, you might not get there. Um, is the
+
+[00:26:23]
+problem. So, no, I I I love the insight. I think you're spot on. Stack ranking. The best
+advice I can give to a young group that's trying to decide because all right, and I'll
+give you a perfect example. Early on, we had needs for um sending out invitations that
+were customized to the professional that gave all the information that they needed to
+make a decision. We also needed the ability to match that customer with the job. But to
+execute that job, we needed to be able to do scheduling and we needed to be able to do
+onplatform communication. So making sure that we're the center of the communication
+workflow rather than email direct or text direct people being able to disarm mediate
+having no value of the platform. But we also needed to be able to represent our
+professionals um for their profiles in a way that was made them proud of who they are
+and that we understood that what they could do. We didn't have any of those and then you
+say okay which one you start on.
+
+[00:27:28]
+That's the hardest thing that you can do as a startup of saying I need it all and whi
+how do you and I say the hardest thing that we all do is deciding okay stack rank these
+and don't change your mind which first thing is first and even if you think you want to
+change your mind don't solve it it was your first thing get it solved completely and go
+to the next cuz I started probably 50 projects simultaneously and none of them were
+executed well. Live and learn and with no money which doesn't help. You could 50 if you
+have enough zeros. Yeah. The no money just ratchets up the pain. So yeah, that's why
+that was 50 not done well. 50 done well over a long duration of time by money.
+Absolutely. Yeah. The ever shifting priorities too. That's that's something we talked to
+our team about and and as we're, you know, talking to clients and things like that,
+
+[00:28:30]
+it's it's it's grand if you if you have 10 priorities, but as you said, you know, they
+can't all be number one. And also, whatever order you do land on can't change week to
+week. Uh, you know, you you'll you'll never get any one of them all the way done or
+you'll get a bunch of partials like you mentioned. And so, you know, making sure that
+everybody's rowing in the same direction, I guess, is is the the moral error. Or being
+willing to have um we call them fires burn. The things that we know are important, but
+they're just not as important as the other things. You know, a good example, and we're
+we still have just solved for this, which is the accounting process. Look, when you're
+not doing massive like hundreds of thousands of transactions a week, you can run
+traditional accounting, still have it through the platform, but have in a traditional
+accounting do that final step of sending out invoices and things to that effect. You
+can't do that on a spreadsheet. There is no manual way of doing that anymore. We have to
+have a platform that does that. And so if you have to decide
+
+[00:29:33]
+can I not do I want to but can I do the invoicing? I can. Can I do the matching and
+facilitation off platform? No way. There's zero chance. There's it's just you can't do
+it. And have a good user experience. I guess the answer is yes. And your customers will
+leave you. I guess you could, but you're going to you're not going to be good at your
+job. So taking all this out of you know big umbrella we're looking at it all now you
+know MVP you go through these different processes you did ultimately arrive at hey a
+rebuild is what we got to do um how do you feel about the platform now you know in terms
+of stability you know scalability because obviously and and knowing what I know of you
+always looking ahead you know are are you do you feel like you're positioned with where
+you are right now to be able to make that next step or that next leap or is there going
+to be uh you know some other hurdle that that may necessitate big changes uh to the
+architecture that you're currently on? Well, I will tell you that a younger man
+
+[00:30:38]
+than myself would say I have it all together. There will be problems and there will be
+big architectures changes and I don't know what they are and I don't know when they're
+coming. Good answer but but for right now for where we are we are in a good position. So
+we look at it in three primary buckets. We look at it as do we have the onroads into the
+platform built so that professionals or customers or even um data sources can interact
+with the platform in an efficient way even the ones that we don't know. So APIs uh
+uploading of documentation multimodal access all that kind of stuff. So yes, we're in
+good shape there. We've designed for that. So it's a little bit of I don't know what I
+don't know, but at least it's structured that it it can handle with modest engineering.
+um that the second piece of the equation is are we building our models in an environment
+
+[00:31:42]
+that we not only control and we not only um are are limiting the IP and the value that
+we're creating and the benefit to the customers but is it on a platform that is going to
+have longevity you when you're building these things sometimes the concern is you know
+we had this early on we built a whole platform on Ruby on rails and if anybody knows
+Ruby on rails you'll know that it has its inherent challenges and it has its benefits,
+huge benefits at a size and at a in an application. I love Ruby, but it's just not
+designed to be your core. Um, and in many circumstances, I shouldn't say that in our
+circumstance wasn't built to do that, but I'll tell you there are a lot of circumstances
+that is it just wasn't right for me. So, so we have our core processing of of of
+language modeling and and all that kind of stuff and databases and infrastructure and
+you know AWS and G Suite and cloud and all these things. Yeah, we're good there. The big
+one for us is our appbased um process. We're now
+
+[00:32:48]
+processing the user app for the phone and the tablet and that we can empower people that
+are not in our core value proposition. As an example, right now we're building tools
+that will enhance the value to our professional. So when they're on site and they take a
+picture with the app, they will be able to see um in real time or relative real time the
+applicable uh regulations and insights. It's hugely valuable. But there will be the
+things that the customer, the end customer might want to be able to do that with that
+when they're not hiring Yellow Bird. And it's not to replace a Yellow Bird Pro. It's
+actually maybe to we need to do a snapshot of our um our progress once a month at every
+location. You're not going to send a Yelbert Pro out to your 600 locations once a month
+to do a snapshot of your progress. That's the kind of thing that we're developing right
+now with our app that would say
+
+[00:33:50]
+you can go to every location, walk through, it will give you a guided tour and then
+we'll set a benchmark for you. And that application of AI and that application of tech
+is the third bucket that is still a big question mark for me because I don't know what I
+don't know yet. So right now I feel I feel comfortable. I feel like we we know what we
+want to look like right now but we haven't really deployed it at a level where I say
+that I that it's actually working. I think I conceptually it will. I I just was kind of
+curious because it's it's a not a fork in the road, but it's a decision that that often
+has to get made and sometimes very early as to, you know, whether or not we we want to
+go the native route of, you know, I for whatever reason a client says it absolutely has
+to be iOS native. It's got to be in the the Apple store and, you know, Android to the
+side or do you take something that's that's, you know, like Euro is more more
+responsive. So, it hits a larger a larger percentage of technology. It's quite a bit
+more agnostic. or do you do both because you're trying to target certain features
+
+[00:34:53]
+or certain things to those platforms? We've built the platform with the intention of
+being interactive with mobile apps, but that means that the mobile app and mobile apps
+are interacting with us, not us with the mobile app. And so we will build a native iOS
+app. We will build a native Android app. But the development is a an interface back to
+our core. It's not making the app process. Um, now I will tell you we do have the app
+that processes a fair amount because one of the issues that we came across and this is
+something we're solving for and it's one of our secret sauces which I love is it's
+amazing how many locations when you're in a warehouse or on a site don't have internet.
+Yeah. And I can't tell you how many apps have to be connected to the internet in order
+to function. And so you have to have it have the ability to actually work in its own and
+
+[00:35:57]
+then sync. It still needs to think when it gets back online, but you'd be shocked. I
+mean, how far we got before we realized, no, actually there's a large number of our
+customer locations in major metropolitan markets that happen to have steel walls around
+them and they don't have good internet coverage or whatever it is. I mean, again, you're
+working warehouses or construction sites or bridge building or, you know, petroleum
+labs. It's just Yeah. They don't design for Wi-Fi. No. And technologically, that offline
+sync is a hard problem. Um, and it's one that's really, especially if you're not already
+using a mobile app and you thought you're going to get away with just having a
+responsive website the whole time, that goes out the door immediately. You have to have
+the mobile app. And then uh on top of that, you now have to bite off these really nasty
+problems like caching, especially if you have multiple people who are working in the
+same place at the same time. It's like, well, which one of these is the right Yeah. who
+wins? Yeah. So, it's that's a challenging problem to solve. So, it's
+
+[00:36:59]
+cool your your app is doing that. It's it's less challenging if you aren't already too
+deep into the the uh the other path. Like if you know this, if you start down this path,
+if we actually learn from some of our customers. So of our customers use us, they're
+software companies and they use us to do the surveys. So we'll we'll send out Yelber
+professionals all over the country using our customers or our partners' software.
+However, now and then you'll get software that isn't designed to work offline. And my
+and they're getting mad at the Pro or our Yellow Bird Pro. They're like, "Hey, the it's
+not coming up." And it's like, "Yeah, I know. I'm looking at it and it says no service."
+I'm like, "I don't know what you want our professionals to do about that, but uh you
+know, I don't know how to solve for that cuz it's actually technically the software is
+not do like she wants us to do it on paper. We can do it on paper. It's been done on
+paper for the last 50 years. That's what we're actually solving for." But it's like, and
+sometimes the answer is yes, by the
+
+[00:38:03]
+way. But techn technology is great for convenience and security and automation, but
+yeah, it's not it's not, you know, it's not creating solutions that couldn't be solved
+other ways for the most part. Nor should it scalability a little bit maybe. But yeah,
+but but nor should it. If there's no market for it to do reports on paper, why don't
+write an app for it? Like I mean, you know, you don't write Turboax out of the out of
+the gate before there is tax forms. People use them for so freaking long. And it's like,
+okay, well, I guess I should use the tech to make it more efficient. But if nobody filed
+taxes, Turboax wouldn't have a purpose, right? So, so crystal ball time. Yes. Yes. We're
+looking ahead. Yellowbird's future, businessto business, software applications future,
+two years, 5 years down the road. Give us a glimpse. What's that look like? We are
+focused as an organization on what we call human enabled wi or human hum human wait
+wisdom enabled AI and so wisdom enabled AI so it's basically
+
+[00:39:07]
+taking your the human being secret sauce all the tribal knowledge all your background
+all your experience and making it applicable to the given scenario and so rather than
+having one person with one knowledge set. You have a army of people who have given you
+things to help guide you in a direction that is not just uh EHS environmental health and
+safety thing. I'm passionate personally um about disability um um disability
+empowerment. One thing that many people will know or don't know about me is I was
+actually born with one hand. And so, um, you know, and I'm an avid golfer and I, um, an
+athlete and I've been very fortunate to have accomplished some things in my life and so
+I'm not afraid to talk about how hard things are and and how adaptation is hugely
+important. And I I I take great pride in talking about this subject. Well, one of the
+things that
+
+[00:40:09]
+I'm passionate about, you talked about yellowbird 3 years from now. Um, we're going to
+be doing things like helping caregivers find access to the right professional to help
+their child who is maybe nonverbal or somebody who has um needs somebody to help them
+with CA uh with their cancer treatments who the person coming there has an expertise to
+the nth degree with that kind of cancer and has been through that journey. It's not oh
+they're a nurse they're fine. there's still too much vague um application of, you know,
+kind of like going, "Hey, I need a programmer. Okay, we'll send you one." It's like,
+whoa, hold on. What are we building? Right? Like, you know, can we at least narrow it
+down? Do you want a front end? Do you want a back end? You want a database? Do you want
+a you know, what are we doing here? Right? And in many industries where subject matter
+experts are important, the nuance matters. And so what we're really
+
+[00:41:13]
+building is how do we help that nuance become actionable in a meaningful way and that's
+the future of yogurt and I don't know what industry it's in but I'm actually not trying
+to go large language I'm actually trying to go micro languages micro solutions and it's
+it's a very different stance not always easily explained to non-technical people but um
+people who are technical usually nod their heads cuz they get how powerful that actually
+is. More data is not always better. It's right data. Yeah, you want to have the right
+Exactly. You want to have the right data. Um yeah, my my dad was uh working in a kind of
+nursing profession, a home home health aid for a long time. And uh he worked for a
+company that was constantly uh he basically ended up as the high the highest end clients
+that this organization worked with cuz he was one of the few people like this client has
+a tra tube, this client needs Hoyer transfers or whatever that is. And it's like, well,
+yeah, you have a thousand people on staff who can't do that stuff. And it's not good or
+bad for them, but
+
+[00:42:15]
+they're they're not a good fit for that client. And so, but I think the world I mean,
+the world needs this. This is amazing. But that's a perfect example. So, take that
+example. They they have all kinds of these people. The client needs this specifically
+and they don't have the person that can do that. Now, take that into the world I'm
+living right now. Everybody goes, "Oh, I already have safety people." Great. But you
+need to do a train a crane training for an overhead crane for somebody and your people
+are not it's these outlying applications and there's millions of them and so we're not
+trying to displace anybody and I think that would be the message for when people get
+freaked out about AI. It's not I personally believe it's going to help the it's going to
+help the real value be found. And for me, that's what's important. Like, yeah, there's
+going to be some positions that are relatively low value that you're going to need to
+retrain people on, but the high value positions, it's still going to help optimize them
+better. It's going
+
+[00:43:18]
+to actually probably help drive people into more high-end roles and income. But it's my
+theory. I could be wrong. I mean, I really bet almost everything on it, so I hope I'm
+not, but you know. Well, I have conviction for you. Yeah, I I think I don't think that
+technology takes away our problems. I think technology helps us have better problems.
+Um, and yeah, I I think you're talking about example, if I let go, we're going to lose
+we're going to lose some our workforce is going to look a little bit different after
+we're finished, you know, really utilizing some of the stuff. And it's like, well, yeah,
+but hopefully those are better positions that are higher paid that can support more
+people because of all this extra productivity we're getting from the machine cycles. We
+can pay those people a little bit more or something like that. I mean, yeah. Well, it's
+it's always been the same thing. I mean, we can go down this rabbit hole, but you know,
+all the people who were building the buckets and carriages thought they were going to be
+out of, you know, out of the out of the workforce, but the reality is that the Henry
+Fords of the world needed people assembling on the assembly line. So they had to get
+reskilled, but now they went from hammering in nails to, you know, connecting bolts. You
+know, I don't want
+
+[00:44:22]
+to be dismissive, but it's not new. You know, every single technology, you either resist
+it and you just stay in it as long as you can and then you get into something new or you
+lean forward and you win into it early and maybe get ahead of the curve. Um, but that's
+also a mindset, you know. I'm not I'm not I'm not mad. I'm not upset with people who
+find it to be fearful. There are a lot of fearful things associated with it. And you can
+write you can write a really negative story if you want. Like you could anybody could
+I'm intensely fearful about technology. I'm intensely fearful about AI and monitoring.
+But that doesn't mean I pretend it's not happening or it doesn't exist. It's about how
+do we how do we look forward into solutions? How do we look forward into where the
+ball's going to be to to make the solutions for the problems that aren't happening yet.
+Great point. Great point. I look at cyber security as a perfect example. You know, cyber
+security was not a thing when I got into technology. I mean, 1991. Yeah, there were some
+people that were in medical and in banking. That was
+
+[00:45:26]
+pretty much it. They were the ones and the government, they were the ones that were
+worried. Everybody else, nobody had any cyber security concerns. And then McAfee came
+out that, oh, if you do, just put this on your local computer and you're fine. And now
+it's the biggest industry in tech by far. I mean it's I think it's going to create new
+industries out of the fear of the industry. Oh certainly. Another example of how kind of
+big advancements in technology have changed the landscape is that uh you know we used to
+be that cyber security was all about tech attacks. So now cyber security is all about
+training and helping your people not bypass systems and regulations. And I there's
+probably an analog to be drawn as we move into this new uh world where computers are
+being more helpful in more context. Michael, it has been an absolute pleasure. Uh it's
+nice to get to chat with you again. Uh and more specifically in in what it is that
+you're doing, uh how you've gotten there, what the future looks like, and I I think that
+that's a fantastic path forward, and I really applaud your mindset and desire to push
+into into these spaces that really need the help. So, thank you very much for for
+joining us today. Uh once again, Michael Zale, as founder and CEO of
+
+[00:46:31]
+Yellowbird. Uh thank you very much. And as always, Justin, thanks so much for being
+partner in crime in this and uh we'll be seeing you all next time on SAS that app.
+Thanks for cruising along with us on SAS that app. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to subscribe and leave a review. Until next time, keep building, keep
+growing, and keep those apps sassy.

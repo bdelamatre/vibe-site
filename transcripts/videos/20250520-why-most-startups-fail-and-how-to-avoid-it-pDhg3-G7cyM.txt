@@ -1,0 +1,523 @@
+Why Most Startups Fail and How to Avoid It
+==========================================
+
+Video ID:  pDhg3-G7cyM
+URL:       https://www.youtube.com/watch?v=pDhg3-G7cyM
+Published: 2025-05-20
+Duration:  00:37:40
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The best way to sell the next customer is make sure your first customer is literally
+crawling up on top of their house screaming from the rooftop how great your solution is.
+That's how you sell number two. Welcome to SAS that app building B2B web applications.
+The podcast where we share real world stories, practical advice, and tech insights for
+those building or thinking about starting a tech enabled business. I am your co-host
+Aaron Marchbanks. And I'm Justin Edwards. Each week, we bring you the stories,
+strategies, and insights you need to build your SAS or tech enabled business smarter,
+not harder. Let's dive right in. Hello and welcome back to SAS, that app. Our guest
+today helped shape the early days of Apple and PayPal and now he is betting big on
+Arizona becoming a tech hub. Don Foch is the co-founder and COO of Battery Detection
+Solutions AI where he is leading a highstakes effort
+
+[00:01:02]
+using AI and robotics to uh detect and address and remove hazardous batteries from waist
+streams. Uh he is also a founding member of the Arizona Venture Alliance and creator
+creator of the Arizona Nerd Network which sounds awesome. Uh where he is on a mission to
+make the desert the next frontier of tech innovation. So, let's dig into uh how he has
+been building these platforms that save lives, supporting startups, and helping to put
+Arizona on the tech map. Don, welcome so much to the show. Thanks. Great to be with you
+guys. Uh with me as always is my partner in crime, uh Justin across the microphone, and
+uh we're going to be diving into all fun things here with Don. So Don, just kind of
+starting back at the beginning, I guess the beginningish, uh you had kind of a a front
+row seat to some of the big tech moments and and pillars in uh in tech history with
+Apple in the 80s and um I noted AOL and US robotics in the 90s. Huge fan of US robotics,
+by the way. Loved All Motives. Uh PayPal in the early 2000s. So tell us a little bit
+what it was like watching that
+
+[00:02:05]
+technology evolve from the inside over those early decades. Sure. Sure. So you know one
+of the things uh first of all I'm a mechanical engineer by background okay which is uh
+which we'll maybe touch on in a few different points in the conversation but after
+engineering school I had in engineering school which is something I'm very passionate
+about an inter summer internship actually with John Deere is a manufacturing engineer
+programming CNC machines computer numerically control machines etc etc worked there for
+about four or five years finished up grad school and then was pretty intent on going
+back to deer and then I was this I was at Kellogg's school, the Northwestern MBA school
+finishing up full-time and uh this fruit company came to campus called Apple and uh they
+were like, "Hey, we're changing the world." And so my dad was very excited about John
+Deere like, "Oh, you're feeding the world. This will be an incredible career forever."
+And I was like, "Wow, you know, changing the world, feeding the world. I don't know.
+This changing the world thing seems pretty cool." Absolutely. No, that's that's
+fantastic. So, how would how
+
+[00:03:09]
+would you say then uh that that all those lessons that you talked about, you know,
+looking back, you connected some dots and and now you're setting up shop in Arizona. How
+how does that history kind of influence or or affect how you're going about what's
+happening in Arizona now? Well, I think that uh two things two things really jump out. I
+would say two themes. First one is the fundamental values here in Arizona. And then I
+think the other thing is what you might call largely untapped technical potential. And
+what I mean by that is if you came in from, you know, planet Mars and you're part of
+Elon's, you know, future thing and you're but but you were from Mars because maybe there
+are some folks there. uh and you came to the US, you like you heard about Arizona, you'd
+be like, "Wait, they got they got like one of the biggest uh the only three uh Mayo
+Clinic locations in the country, okay? They've got TSMC, largest semiconductor producer
+in the world. They got Intel, okay? And they've they're cranking out engineers at
+multiple schools, not the
+
+[00:04:12]
+least of which is ASU, where they crank out 7,000 engineers a year, which is more than
+any school in the country. And then if you said you'd probably imagine if you had a
+little bit of you know tech background there in Mars you'd say hey they must be like
+just birthing billiond dollar companies like crazy and the truth is we've birthed some
+uh but we should be birthing more because we have so much capacity both the values and
+the technology to build companies and the last across industries by the way which is
+very important and a huge advantage that Arizona has is we're very diverse in our
+industries particularly as we grow. We got everything from mining to health to sports
+and entertainment and gaming to you know financial services to pick your favorite you
+know construction stuff real estate stuff. So very diverse economy. But the last the
+last point I'd reinforce uh is this is that manufacturing that kind of talent at scale.
+So we graduated
+
+[00:05:18]
+ASU more engineers than any school in the country is really a blessing and something we
+can I think harvest a lot more out of coming out of all the schools in the following way
+is that we're on to the fact that what technology does regardless of industry right is
+it it's a continued uh it's like a ticket to continued productivity improvement
+fundamentally that's what technology is what it's always been I think it's what it's
+always going to be we're seeing a big burst of that with AI. And so to wrap all that up,
+the values here coupled with the technical competency across an application across
+multiple industries to me says I would say comfortably in the next few decades. If you
+say what's going on left of the Mississippi and the United States in terms of just
+rocket growth with a lot of talent, this kind of ties into the nerd network piece is
+it's that combination of values and
+
+[00:06:22]
+values first and frankly having a little bit of the wisdom even though we are state 48.
+We're kind of the youngest in the continental US, right? But knowing and kind of
+learning from our older symbols, our older siblings, you know, that value stuff is
+important. Don't lose sight of that. Keep nurturing that and couple that with the
+application of technology across industries is just an incredible like seedbed for
+growing companies and scaling companies. Yeah. So I mean it feels like you you saw
+something there or you have seen something there and that's that's kind of what brought
+you there from you know from the coast. But you mentioned the the potential. Would you
+say that it is still currently untapped potential and the mission is therefore to make
+it more known or is it to kind of keep it a hidden gem and just do the work there? I'll
+give you a quick example of that is Axon. So Axon is a company in Scottsdale that is the
+leading company in what you might call neighborhood safety technology. So body cams,
+tasers, etc.
+
+[00:07:26]
+for law enforcement. Okay, that company was started by Rick Smith. He's a native
+Arizonan. It's an amazing Arizona story. Currently public at 40 billion. But uh we want
+to be I think in success the way we get even more like Axons and even more you know like
+venture HR as I mentioned etc is two things right. So on top of the values, quality
+starts and then become known as the state where it's easiest to scale. Okay. So you guys
+may know that Axon's in the midst of uh it's actually been approved. They're working
+through a few last issues, but they have a whole new campus uh in North Scottsdale plan
+that's going to bring 5,000 new jobs, okay, to North Scottsdale area. And those jobs
+are, as you guys would know, like they're basically tech jobs. 50k and up, you know,
+5,000 new jobs, one company, right? So, you think about that. We want to be a place
+where ultimately, and this fundamentally, by
+
+[00:08:29]
+the way, is the goal of the nerd network is simply to, as I like to say, via sneakeret
+or in real life, connect every builder throughout the state of Arizona, whether it's by
+experience, degree, both, bits, atoms, bend metal, write code, etc. Because why? Because
+the only thing better when you really need to scale and hire a lot more people than
+hiring the people that are qualified to do the job is hiring the people qualified to do
+the job that you already know. So I I guess uh I like the idea of Arizona as kind of
+this emerging uh emerging hub. I think that the the values that go into that is uh super
+key. Um obviously it's done something to make itself an attractor. If you say 72% of
+people who are living in Arizona, who weren't from there, it's it's done something to
+draw in a lot of people and a lot of those people sound like they're talented and
+starting companies and doing really cool things. Do you know or do you have a
+speculation as to kind of like what the role of uh like what's causing that? Like what's
+causing it to be so attractive to to so many people that it's having such an influx of
+in such a draw? I think the core things are
+
+[00:09:33]
+uh really I would say there's a couple but one of them is many of the people will say
+things that are the first thing out of their mouth will be uh either something related
+to the sun but the point is the consistency of lived intentional values here is very
+attractive and oftentimes the people who come in addition to mentioning the sun it's an
+easy place to live a healthy life you know hiking etc by the Until I got here, I really
+was unfamiliar with like what is hiking? I know walking. And then I learned that hiking
+is just walking on a path where there's some rocks that you better pay attention to
+otherwise you're going to like, you know, you're going to end up doing a face plant,
+which isn't good. So, I guess you get a little more balance uh you get a little more
+balance work with the hyping. But, you know, all kidding aside, the I think the values
+is a piece, but they won't use that word. They'll say things like people are really
+welcoming, right? They'll say things like the first thing out of people's mouths often
+here is how can I help you knowing now what you're doing
+
+[00:10:37]
+let me connect you with these couple people right and I think that what's uh but the
+other piece that's kind of more call it the the work in the lunch bucket piece is that I
+would say there's probably 10 industries which is pretty wild including things as you
+know the loud people aren't familiar for example with mining I wasn't you know we're we
+have like very significant companies here in Arizona in that whole space let alone
+healthcare with Mayo and some other things but uh the interesting thing is when you have
+a place where okay the values are good it's an enjoyable place to live people are very
+welcoming you're seeing the sun and I'm no doctor but I think we all know there's
+something to like that vitamin D and that physiology of seeing the sun you know with
+some frequency and then the last piece is to have uh there's just a lot builders in a
+lot of different industries. So you can it it's like you can come from almost any place
+and say wow I and and by the way I think one of
+
+[00:11:40]
+the most attractive things I think you one of you guys mentioned it just a minute ago
+but the number of people who are talented young people who are already as they say found
+their person have young kids looking to have young kids and I see this a lot like
+through the nerd network which is now 445 with the number of people who will say things
+like this I'll give you one very specific instance a mom who happens to have two young
+children and she said she she's a developer for Stitch Fix okay a software developer
+living in New York and she had some uh she said I was here in Arizona Don a couple years
+ago with my husband and our first child now they have two and I saw the following
+walking down the street and it was a mom and a dad and a couple kids and the
+grandparents. And she said, which I just thought was interesting, right? She said, I
+looked at that and I said, that is something I will never see where I live in New York.
+And I'm not saying she
+
+[00:12:44]
+I'm not saying she's right. I got nothing against New York, you know, like I got friends
+who are Yankees fans, you know, it's all good. Um, but she was literally like, I'm
+moving to Arizona. you're obviously, you know, well connected and everything having
+having helped found the the AVA and and the Nerd Network and I'm sure that through these
+networks you're you're hearing of I'm assuming these emerging sectors uh robotics, clean
+tech, industrial AI, things along those lines and you obviously have a lot of a lot of
+history in industry in general and so just kind of curious because we do spend a lot of
+time on the show talking about startups and and and people trying to get whatever their
+their business or their their SAS or or whatever off the ground. What would you say, you
+know, to those those emerging companies, people who are trying to get the businesses
+started in those industries? What is like a big blind spot or or the major issue that
+you see in some of these early stage early developing uh organizations and companies?
+Yeah, I would I would say a couple, but there's one that that that kind of trumps all of
+them in terms of
+
+[00:13:46]
+like I always think about these kind of questions like okay, if we had the perfect data
+and a you know like a histogram of okay, what's the first issue? what's the second issue
+etc. And I would say that the first issue by by a pretty significant margin is if we had
+all the data on people who successfully start up companies, okay, a couple things would
+be true and it's good for people to know this. One is the mo the majority the
+overwhelming majority fail. Okay, that's number one. And then number two to me and and
+the failure kind of go back to oftentimes the values but we don't need to redo that. Um
+but they you know Elon says this often you know Steve would say it polymer lucky grace
+hopper pick your favorite one. Uh so number one is like you got to understand that the
+probability of success is not high. So then the question is well what do I what can I do
+to increase the odds that I'm successful? And I would say if I could just ch if I could
+reach into the minds of uh and hearts of the founders and potential founders in Arizona
+and just
+
+[00:14:52]
+flip one bit. The one bit I would flip is go work at a company before you start a
+company. It's kind of like you know to use the sports analogy. I know I know people joke
+we always joke he says two things you can't find in tech. This is kind of a Silicon
+Valley joke. You can't find faith and you can't find sports. So, the reason I mentioned
+that is the sports thing. It's kind of like somebody coming out of, I don't know, high
+school and saying, "I want to win a Super Bowl, you know, because like having a
+successful startup is kind of like, you know, like the odds aren't high." Okay, so it's
+like a Super Bowl. And then you're like, "Okay, so what's your NFL experience?" They're
+like, "I don't have any. I want to win a Super Bowl." You're like, "Okay, got it." you
+know, and you're like, okay, the reason I mention this is for a couple very kind of
+obvious reasons. And that's not to say every once in a while you have a Mark Zuckerberg.
+There's nothing wrong with that, right? And that that that's good. But you don't want to
+be telling everybody, hey, just uh major in entrepreneurship. Like, no offense, but
+
+[00:15:56]
+what is that, right? Like you you're going to build something that you're going to build
+something and you're going to sell something. So, I would say the first thing is like is
+like, hey, let's make sure that we're doing a good job. And by the way, this is why it's
+such a gift and so important to have your Axons get to a trillion, to have your Mayo
+clinics, to have your TSMC's. Why? Because those are our Googles and our Apples and our
+Salesforces. And that's basically our NFL, right? That's where you go. You get your
+experience. And as I like to say to summarize it, when the economy is crappy, people run
+into the big companies if they got bills to pay. And then when the economy is good, if
+they're want to scratch the itch to go start a company, you know, then they they come
+out of those companies with really good fundamental, you know, experience. So I think
+that's that's kind of I would say in my experience thus far probably the the biggest
+thing. And then the the next thing is you guys have probably heard of
+
+[00:17:00]
+this before, but the for those who who want to go like they squirreled away a little
+money. They uh there's probably two things to quickly touch on. One is the early money.
+You often get like well I have this idea and d and I need an engineer and then I need
+some money. I'm like okay well here's an idea. Why don't you become an engineer? And
+I've literally done this actually with some of our our kids and people think this is
+can't be done. And our oldest daughter did it. She graduated in American studies from
+Cal Berkeley, was on two national championship swim teams, okay? And after a few years
+not making enough money in uh sports related stuff, coaching, etc., she went and got a a
+data science certificate at ASU. And now she's like, "Dad, I'm making she's like three
+years into being a data analyst, data engineer, you know, and she's like, I'm making
+more money than I could have ever imagined making in my life." I'm like, "Yeah, you're
+only a couple years, you know, into it." So the the other So we have kind of we always
+kind of start with the values piece, then we say,
+
+[00:18:01]
+"Hey, get some experience." The bulk of the people like Steve Jobs first job was at
+Atari on the production line. Okay. Bill Gates first job was at TRW. You know, people,
+you would think that a lot of people think, oh, they just he just started Apple and then
+that guy started Microsoft. It's like it doesn't it doesn't tend to work that way. Uh
+and then I think when it comes to like some of the let's say that you have a bit of
+experience and they have a little bit of your own money but you need a little more money
+is reminding people the thing people are betting on early on in your startup is not your
+product or service. People think like oh I'm going to convince them that this product in
+mining or this product in financial services or you know whatever is like the best thing
+and and I say they will never care as much as you do and that's the way it should be.
+That's why you're the founder and they're a potential investor. So, just remember at the
+early in the early stages, they're betting and investing in you, okay? They're not
+investing in your product or your
+
+[00:19:04]
+service. So, when you understand that, you come back and you say, "Okay, make a list of
+all your relatives. Make a list of all the people you went to school with. Make a list
+of the people you worked with." Why? because these are all people who know you, you
+know, and then you can save a lot of time, frankly, talking to a bunch of people who may
+be willing to talk to you but aren't likely to invest. And then the last, so that's kind
+of the money piece early on. The last piece which is kind of the first execution piece
+is uh reminding I was just talking to um the founder here in town and he was like hey
+you know I've I've got my first uh he's doing um property management software. Okay. And
+he says, "I I got my first customer and I've got my first deployment and but I'm, you
+know, wrestling with how do I spend balance my time between getting more customers and
+building this thing out, right?" And I said, his name's Andy. I say, "Andy, really good
+news for you." He's like, "What? You don't have to
+
+[00:20:07]
+worry about selling to anybody else. You have a customer, right?" He says, "Yeah." I
+said, 'What you want to do, the best way to sell the next customer is make sure your
+first customer, they call this the rule of one, right? Get one customer and get one
+deployment and when that customer is literally crawling up on top of their house
+screaming from the rooftop how great your solution is, that's how you sell number two.
+So hopefully that kind of paints the, you know, paints the picture. No, that's absolut
+ab absolutely beautiful. We work with a lot of uh SAS founders, bootstrapped,
+bootstrapped and otherwise small tech companies, small tech founders. And uh that's uh
+super true words, man. You're speaking speaking to my soul right now. I love it. Well,
+and Justin, I'm sure I'm sure you both know the the other thing that you know because
+this is a wonderful place to live. We do get at times too many people who quote want to
+help and no offense, but they've never played the game. So, you know, and and this is we
+we love the energy. You know, we we appreciate
+
+[00:21:09]
+that's again that's kind of rooted in the values being welcoming. But one of the things
+we you know, I often find myself with some of the young founders I'm helping and have
+gotten to know is like just make sure that if somebody's helping you that you understand
+what makes them qualified to help you, right? It's great that they just want to It's
+great that they want to help. Okay? being helpful, being well, that's great. But, you
+know, if if you want to get to the Super Bowl, then you ought to be coached by somebody
+who's been there. And I think that's uh and by the way, a related piece to that that's
+just so like this is like a movie and some somebody up there's writing a heck of a
+script and we're executing it. But I'll just give you one example related to that. We
+just had a wonderful gentleman named uh Chris Co. And Chris uh did his research on where
+he wanted to live. Okay? He's like Idaho, Montana, Wyoming, you know, has one son. I
+think the one son's actually at ASU. Uh but anyway, so Chris is uh like 20 years, just
+short of 20 years at EA Sports. Like you guys
+
+[00:22:16]
+know, like games, like EA Sports, you you don't it's like Apple, you don't have to say
+that twice, right? And he comes in, he's like, he's been here seven months. He's like,
+Don, we are so happy. They're like carefree little north of North Scottsdale, right?
+Cave Creek. I think it's Cave Creek. But anyway, and he said, "Look, I love what's going
+on in Arizona. I think Arizona can be like a third hot spot for gaming in the United
+States." And he's like, "Don, there's only two. One's in Florida and I forget where the
+other one is." And then he rattles off all the things going on like in our universities
+and other things that he knows are here uh that are consistent with being an incredible
+gaming hub, right? And so here's he's a what we would call in sports he's a player
+coach. So he's coming to our Saturday he's in the nerd network. And at our Saturday
+meetup this Saturday he's going to during our huddle we do a short huddle. It's mostly
+just people connecting with other builders but during our huddle he's going to talk
+about why he thinks how he sees Arizona is a next gaming hub. And then there's a
+
+[00:23:20]
+19-year-old founder here named Sanduel who's got a set of games called Legion Games that
+he has 80 million users a month. And then Sanduel's going to talk a little bit about
+what he's doing. No, that's that's very cool. So, lots of draw obviously. I'm I'm
+interested. I want I want to dig into the the actual network a little bit too, but also
+I want what what you're doing, what your take may be too on new problems that that are
+being solved. what are what are the new you know what what what kind of solutions are
+people working on right now in Arizona? Yeah. So, I'll give you I'll give you two uh one
+one that's still a little bit uh under wraps, but I can certainly give you the core of
+what they're doing. Um but the first one I'll mention is uh Axio.ai. Have you by chance
+heard of this? I have not. They have something called Luminosity Labs. Okay. Okay. And
+what Lumin Luminosity Labs is innovation labs at the university and they'll take on
+projects from industry and then students within the the Luminosity Labs team, you know,
+can work on projects which is great. So, Axio.ai, the reason I mentioned
+
+[00:24:23]
+Luminosity Labs, there's a a guy named technically he would be Dr. uh Mark Nofl but as
+he's a very approachable codes at night founder true tech founder so he doesn't like to
+be called doctor but Mark Nofl is the founder and he ran for years and was actually an
+abore you know there's uh student representatives on abore which is the basically the
+board that oversees our public universities NASU and UFA down in in Tucson Arizona Board
+of Regents is what that stands for ABOR so he was a student regent while he was at
+school. He's a PhD in some combination of like computer science, AI, etc. And long story
+short, his company is focused on and just deployed their first university on the first
+native AI based personalized learning system. Okay. So their first deployment is using
+AI so native AI that then they're tailoring right to literally both essentially kind of
+um you know frontto
+
+[00:25:28]
+back deliver a platform for orchestrate planning and then delivering a curriculum at
+really any school but they're starting with universities. And the thing that's awesome
+about it is is we know I know this from my time in Silicon Valley right is that the from
+a economic point of view the heroes like you want to set up the system so that the tech
+founders like real tech founders and he would be an example are the heroes you know why
+because that's the hardest role but when they're successful we all really really benefit
+a lot so Mark's literally coding in the middle of the great kind of founder. Okay. And
+what his uh what axio.ai AI. You can check out the website. But in a nutshell, it p
+takes the power of AI and applies it to uh both the kind of planning of the curriculum
+as well as the delivery of the first personalized learning system which in in kind of
+
+[00:26:33]
+simple terms I'll put it this way as a parent of six you know who made it through all
+the primary school all the stuff is the thing to me that's amazing about it is it's
+personalized meaning like you can say to it as you're doing your homework or whatever,
+hey, I got to go to baseball practice now and when you come back that night, it it'll
+among the things it'll guide you to whatever tonight's assignment is. By the way, how'd
+the baseball game go? You know, like it's very tailored and personalized. But the thing
+that it achieves, which if you know, again, you don't have to be a parent, but we all
+have been through school is literally mastery learning. Okay, which to which is kind of
+like a phrase from the old days, but what that means is you can't progress with any, you
+know, course or anything until you've actually achieved a level of proficiency in the
+current like module, if you will, right? And the thing that we can all appreciate is
+that if you zoom out for a second, let's put it this way, we'll we'll be gentle. uh
+
+[00:27:36]
+the best and the brightest engineers coming out of school or coming you know self-made
+they are not uh stampeding into government well now they are because of Doge but we're
+not going to get into that but they haven't been right nobody nobody says oh I can't
+wait to go work in government at any level who's really technical okay and they don't
+and they don't tend to go into financial services or they don't go tend to go into
+education they don't tend to go into healthcare why because all of those industries ries
+are kind of notorious for being lagards in technology adoption. So, here's a guy in our
+own backyard, homegrown Mark Nofl. He's coding in the middle of the night and he's
+deployed. He went to uh his first university is deployed and you guys will totally get
+this. He says, "Don, I go to the conference. It's now coming up again. It's called like
+Global Silicon Valley or something. It's in San Diego. He got voted last year most
+fundable uh startup but he said it's a lot about education. He says everybody's
+
+[00:28:39]
+talking about the power of AI and education and we were the only ones with working code.
+And he said you know what I did? I made my developers I made my developers work the
+booth. He said Don we were the only booth where people were backed up. And you guys know
+like we say this in the nerd network a lot of nerds they say oh you know I'm an
+introvert and I say you know there's some people who say an introvert is just an
+extrovert who hasn't been asked the right question because you guys know when you ask
+people about right so that's a that's a very exciting one like you know it's as far as I
+know and I think this is pretty close pretty close to being kind of likely to be true
+but I'm pretty confident that Mark's solution and platform personalized learning system
+platform is is literally the first deployed okay platform in a real school like in a
+real university and there's a lot of talk you know in academia there's a lot of talk
+about AI's potential so
+
+[00:29:43]
+but he's actually building it out so that's one example another one uh one that uh oh by
+the way I should mention just one other quick thing so are you guys familiar by chance
+with homeschooling at Yes. Yeah. Okay. I I wasn't homeschooled, but one of the things
+that I've learned which is fascinating and very much tied to the potential of Mark's
+company. So, this solution definitely could could very comfortably and I think it will
+inside of two years become one of the leading if not the leading platforms for
+homeschooling folks. Okay. And and why is that important? Well, here's what you learn
+which I didn't know from people who are some of our founders here. There's a company
+called In Greetings. Andrew and Sammy Ecmark are the founders of that. And the reason
+they come to mind is uh Andrews uh played basketball at Stanford. When I met him, he's
+not an inch taller than me. I'm 6'1. I'm like, "You played D1 basketball? Like, how's
+that?" He's like, "Don, I was homeschooled." And I didn't know what that meant. And what
+he then went on to say is he said, "Don, when you're homeschooled, you're only doing
+school
+
+[00:30:47]
+three to four hours a day. About half of what you know if you go to school, he says,
+well, what do you think I was doing for the extra three to four hours a day, you know?"
+So, the reason I mention that is imagine that not only do we have something with Mark's
+company, Exio.AI, that's the first personalized learning system deployed initially at
+the university level. But when you think about that type of efficiency and platform
+supporting homeschooling, it becomes yet another thing to make it easier to homeschool,
+you know, kids, right? And then you're thinking, okay, well, now they've got all this
+extra time per day. And it wouldn't surprise, you know, you guys or me that then Arizona
+turns around and says, hey, uh, well, that's intellectual development. Uh well why don't
+why don't we do a since we know that extra time's coming for a lot more you know young
+people let's do a startup on you know social development let's do a startup on physical
+development like some of the basis schools you know more technical
+
+[00:31:50]
+high schools and stuff one of the challenges I hear from parents there is like oh
+there's not really much in terms of sports you know but we're we're in a great position
+with things like Axio you end up with that thing being a rocket of success and then you
+have derivative companies, you know, that are like solving the social development, etc.
+So, I'll swi I'll switch over to one other one that I think is also incredibly exciting.
+So the reason I paint that picture is there's a a gentleman named Josh Gruba who's
+starting a company called pack energy and uh Josh is essentially looking at the whole
+power generation and distribution okay systems really globally but just say focused on
+the US and saying that's not smart either. So there's there's no like underlying you
+know like just platform. So he's in the very early stages of literally building out the
+platform for the management of energy production and energy distribution. So it's much
+more scalable
+
+[00:32:57]
+you know etc. Um so those are just like two examples and Josh has been I think at least
+two to three maybe decades in the whole power and energy you know space. So there
+there's two that's fantastic. Yes, there's a lot of lot of blue water or green field as
+they say in that space. So, Don, any any last thoughts you want to share? Uh any last
+words of wisdom for for startups or or uh folks that you want to bring to Arizona or
+perhaps keep out of Arizona so that they're not muddying the water? Well, that's you
+know, it's it's funny you mentioned that because I have two two final thoughts. So, one
+is I joke with people. I say, let's see, I got to say this in a way that my mother would
+be proud of me. people that are arrogant and you don't want to work with there. Our
+density of those kind of people is really low in Arizona. And I joke with people. So
+those are the people we want to keep out. Uh and we're doing a really good job of it
+because I joke with people. We all know people that will say they have a very positive
+self-image. Um but don't always read the room very
+
+[00:33:58]
+well. And I joke about that only because it's nice to if if you we all know those kind
+of people. And like as the saying goes, God makes the sun to shine on us all. But this
+is not a place where if you're one of those kind of people, you're going to be very
+happy because we all like to be around people kind of like us at least sometimes. And so
+I think this is actually kind of a funny a funny byproduct of the good values is you get
+people some people come and they're a little too full of themselves and they end up
+leaving which is a test just like a company testimony to good culture. But I think the I
+think the thing that stands out the most is just kind of a a wrap-up point particularly
+for as you say both the the builders and the founders is one is you know be grateful. We
+have a lot we have a lot to be grateful for. Like show up grateful. And I'll just say we
+were talking about Josh Gruba. He mentions this often is that you know be the culture
+particularly in the form of not
+
+[00:35:02]
+being afraid to ask for help and when you can help being generous with your ability and
+capacity to help because in a nutshell that's Arizona and you know if you if you didn't
+have that as I joke with people you know in California there's a lot of things I love
+about California still go there often have few investments blah blah blah. But, you
+know, in California, you can't get everybody to agree literally that the sun's coming up
+tomorrow, you know, and in our case, being that younger sibling, State 48 out of, you
+know, the Continental is we're really in a good position to take that uh welcoming
+culture, you know, the kind of the high integrity welcoming culture and kind of our
+dominant nerd gene and every day. Do our best, the great days. So, as you say, never too
+high, never too low, but always grateful and always willing to help. Don, it it's been
+an absolute pleasure. Uh, lot of great advice, a lot of great insight.
+
+[00:36:06]
+Really really appreciate you bringing your knowledge, uh, and and also just helping to
+guide the next generation as it were. So, uh, big thank you to our guest, uh, Don Foch,
+among many other things, the founding member of the Arizona Venture Alliance and creator
+of the Arizona Nerd Network. Don, how can uh, how can people reach you? Uh the simplest
+way to reach me is on LinkedIn. I'm I'm there and I'm very uh uh very present. So, you
+know, people can ping me and I'll I'm quite uh I'm on there quite a lot. So, I'm happy
+to be pinged and happy to help in any way I can. Fantastic. We will send people to your
+LinkedIn then. Thank you as always also to my co-host Justin. So, Erin, I got to ask,
+did Don convince you to move to Arizona for your your move to the South? Oh my gosh,
+110%. Uh it it has been nothing but miserable weather in the state of Iowa for so long
+now. And my wife and I were just talking about it again this morning that with the kiddo
+off to college, it is it is time to find uh warmer clims. I hear Arizona is pretty nice.
+You might consider it. And you got that you got that Midwest nice thing going on as
+well, so you'll fit
+
+[00:37:07]
+right in. Well guys, thank you again and uh for the rest of you, we will see you all
+next time on SAS that app. Thanks for cruising along with us on SAS that app. We hope
+you grabbed some insights that were inspiring, actionable, or at least entertaining. If
+you enjoyed the show, don't forget to subscribe and leave a review. Until next time,
+keep building, keep growing, and keep those apps sassy.

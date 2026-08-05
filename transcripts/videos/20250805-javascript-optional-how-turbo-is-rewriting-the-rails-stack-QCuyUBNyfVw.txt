@@ -1,0 +1,716 @@
+JavaScript Optional: How Turbo is Rewriting the Rails Stack
+===========================================================
+
+Video ID:  QCuyUBNyfVw
+URL:       https://www.youtube.com/watch?v=QCuyUBNyfVw
+Published: 2025-08-05
+Duration:  00:42:08
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+If you're upgrading from Turbo Links, you know, type rails to like modern turbo, that's
+that's a pretty significant refactor. Um, the actual code changes to support that aren't
+necessarily massive, but most of the time a lot of the legacy JavaScript doesn't work
+anymore. >> Welcome to SAS that app building B2B web applications, the podcast where we
+share real world stories, practical advice, and tech insights for those building or
+thinking about starting a tech- enabled business. I am your co-host Aaron Marchbanks and
+I'm Justin Edwards. Each week we bring you the stories, strategies, and insights you
+need to build your SAS or tech enabled business smarter, not harder. Let's dive right
+in. Hello and welcome back to SAS that app. Uh, I am your host as always, Aaron
+Marchbanks. And with us today also as always, Justin Edwards, CIO, master of DevOps,
+senior dev, keeper of the zoo at Delta Systems. Good friend Justin.
+
+[00:01:04]
+Welcome back to the show. >> I got my super tall while he's on for all my zookeeping.
+Stepping around all the developer poops. >> Also, we have a returning guest, Daniel
+Cannon, chief innovation officer, senior developer among many other things at Delta
+Systems. Daniel, welcome back. Yo, it's nice to be back. >> And a first timer. Yes, from
+the dev team at Delta Systems, Nolan Alamanti, senior architect, senior dev, team lead,
+master of all development and everything that he touches and surveys. Uh Nolan, welcome
+to the show, man. >> Thanks for having me. >> Uh so today we are going to be uh
+diverging a bit from uh from interviewheavy and and lots of business stuff. We're going
+to be kind of digging more into the tech side of things and very specifically we're
+going to be talking a lot about uh turbo today. Uh so I am going to send this over to my
+resident tech expert Justin to kind of level set our playing field here. Tell us a
+little bit about why in the world we're talking about turbo, why I might care, what it
+is, and get us into some good discussion. Justin, what are we doing with turbo? >> Yeah,
+so just to do a little bit of
+
+[00:02:08]
+definition of turbo, this is going to be a Ruby on Railsheavy episode as many of our
+episodes are. Rails is a really powerful tool that is often the right call. Uh Turbo is
+a newer feature for Rails. Uh Rails has had a feature called Turbo Links for a long
+time, but this kind of latest generation of Turbo is somewhat different and somewhat
+new. The basic gist of what Turbo does is it it stops you from having to have a page
+load every time you do something on the do something on the site. But it does that using
+JavaScript to swap out page content instead of loading a whole new page in the browser.
+which means basically that we can get very good interactivity and a lot a snappier
+responsive feeling site without kind of doing page loads and without using a JavaScript
+framework. Uh so Nolan and Daniel tell me why that was a terrible definition or whatever
+I missed. >> No, I I I think you pretty much nailed it. I mean, yeah, basically uh Turbo
+was was kind of how do we do single page application stuff inside a multi-page
+application framework, you know? So to the developer, it still feels like you're writing
+a multi-page application,
+
+[00:03:10]
+to the user, it feels a little bit more single page. And so yeah, Turbo Drive, Turbo
+Links was kind of like the the the beginning of all this, which is basically you click a
+link on a page. And as opposed to having a complete page load where we go all the way to
+the server to get all of the HTML, all the styles and everything to render the new page.
+Um, instead you now make that request to the server. You say, "Hey, I want to go view
+the user profile page." and the server kind of did like a diff of like well these are
+the things that need to change on the page in order to rerender it. And so as opposed to
+being like here's the brand new page. It's well here's the HTML to to change and and
+then as the user it's it's like it feels like just parts of the page are changing as
+opposed to the entire thing getting replaced. And that has now uh evolved into this
+whole uh messy ecosystem where we have uh turbo stream and all sorts of other fun
+things. Uh but yeah, basically the idea is you're writing Vue code on the on the back
+end. It everything kind of feels like you're doing server side, you know, rendering. Um
+but to the front end, everything feels very interactive. It's like you're doing Angular
+or React or something like
+
+[00:04:13]
+that, but it's it's not. So it's pretty cool. Pretty powerful stuff. >> Would you say it
+see it seems like it feels a little Ajaxy? I mean, is that the that kind of the idea? >>
+Well, yeah. I mean, that's Ajax is sort of like what kind of powers it under the hood.
+It's really it's not obvious to you as a developer and it's not really obvious to you as
+a as a a user. Um and it's not exactly it's not what we're used to with an Ajax flow. It
+actually requests these like XML snippets and the XML comes back and says, "Hey, replace
+this part of the page with this." But but yeah, it is actually an asynchronous
+JavaScript request that's happening. So there's JavaScript code that executes in your
+browser that makes a request to the back end being like, "Hey, what do I need to change
+on this page?" And then the server tells you, "Here's what you need to change." But we
+we have to write very little JavaScript to power these interactions. >> Oh yeah,
+basically none. Yeah, basically none. I mean the the applications that you can write
+without JavaScript now are like insane. I mean there is JavaScript going on, but um if
+you wanted to you could you could avoid uh JavaScript in like 99% of cases where that
+would usually be the tool you would use. >> Is that a good thing? >> I was just about to
+say that that's a great question. Do we need to do that?
+
+[00:05:15]
+>> I I feel conflicted. I mean I have a lot of experience working you know in React and
+other uh front-end framework single page frameworks. Um I see I see oh I I understand
+the desire to move away from a really like clientrich JavaScript heavy front end. I
+think there was a lot of like fatigue in that ecosystem. I think uh it's it's kind of
+affected by like the general JavaScript like shiny object syndrome where there's kind of
+like a new you know a new kid on the block every other month that has like everybody's
+attention and everybody's jumping around and there's you know 12 frameworks to consider
+when you start building an app. I think the Rails decision to kind of move away from
+that is I think it was controversial and I understand why it was controversial but I
+think it was needed. Um, and I do think it adds a sense of clarity to the framework
+itself. Like I do think prior to that decision, it felt like JavaScript was a
+requirement for building like really polished uh kind of client-rich applications. I
+don't think that is the case anymore. JavaScript can
+
+[00:06:18]
+be optin. It's an option. Um, if you really don't want to work in JavaScript, you can
+probably figure out how to avoid it and still make something that feels really slick.
+Uh, I don't know if that was really I mean it was probably possible before, but it was
+really difficult. So I think it is a good thing. Well, and that with the so concurrent
+with these changes for for turbo and that stuff kind of dropping was um stimulus
+substantially concurrently stimulus is coming at the same time which is kind of a very
+compartmentalized way to have small amounts of JavaScript functionality and components.
+Uh but it's a you know supported Rails core way of doing that and I think that these
+things came out kind of at a similar time for for a reason which is that to Nolan's
+point we're kind of taking the stance of of this is kind of how Rails is going to
+interact with you know these these front end frameworks. One thing that I really like
+about the changes that have been made is that you can still use React if that's what you
+want to do, turn your Rails app into an API and write your React app and have, you know,
+there's all sorts of grape and all sorts of other tools to make Rails this awesome API.
+But if you don't want to have uh those kinds of front-end problems and and you know, see
+the other episode we did on single page applications and some
+
+[00:07:19]
+of the dragons there be um but uh you know there's now like a really robust nice way to
+not have to do that uh which which I think is really cool. Well, yeah, it feels like
+there's kind of like two kinds of web developers. It's like there are those who love
+JavaScript and want to do everything in JavaScript, and then there are those who are
+trying to do as little as JavaScript as is humanly possible. And I mean, there's been
+like this this quest in the web app world. I mean, I remember working with uh Lyft uh
+something like 15 years ago. I'm sure nobody's heard of Lyft because why would you? Uh
+but this was a Scola based web framework and the whole goal was like let's not write
+JavaScript. Instead, you're going to write everything in Scola and the Scola is going to
+define the JavaScript that gets compiled and gets executed on the client. And what
+really wound up happening is it was just a complete leaky abstraction. And now, as
+opposed to just writing JavaScript, you're writing JavaScript and then figuring out how
+to translate JavaScript into Scola script so that it can get translated back into
+JavaScript. I mean, it was just it was just really awful. I think it's it's weird how
+everyone wants to do zero JavaScript. There are times where JavaScript is the right tool
+for the job and you should you should do JavaScript. You should embrace that. But yeah,
+trying to do everything in
+
+[00:08:22]
+JavaScript or nothing in JavaScript both seem very extreme and weird to me. >> Nolan,
+with your your experience obviously extensively in JavaScript and certainly now with
+with Turbo coming along, I mean is there is there something about Turbo that has kind of
+changed your approach to organizing front end and back end or or you know leveraging
+JavaScript to a certain extent? >> It has definitely like reframed how I approach
+building a view or an app. I think like in the old, you know, when I kind of started
+working on Rails, there was like you had your view and then backing that view, you
+probably had a really disgusting JavaScript file that was like packed with jQuery code
+that drove all of the interactivity maybe just for that page or maybe it was just part
+of like your general application bundle. That is that that pattern is like fully that's
+that's that's gone, you know, that's gone away with with these kind of new turbo
+techniques. What I find more frequently is that we'll have really limited JavaScript
+kind of sprinkled throughout the application. uh generally through like reusable
+stimulus controllers. So just one example might be like we'll have kind of a general
+purpose form stimulus controller that has a couple of like callbacks for
+
+[00:09:25]
+submit so that you know we show a loading overlay while that submit operation is
+happening so the user can't you know click on some other element on the page or shows a
+loading message or disables a button or whatever. And the really nice thing is that if
+you build those stimulus uh kind of modules like in a general purpose way, you can
+generally just extend them as needed but reuse them throughout the entire application.
+So it's really rare to encounter kind of duplicated JavaScript at this point. If you're
+if you're using these tools in the way that I think they are intended to be used. We
+definitely still use a ton of JavaScript. It's hard to build rich user activity
+interactivity without JavaScript. But I think if you compared the amount of JS we write
+now compared to what we used to write you know five or 8 years ago like there's no
+comparison we write of very small amount compared to back then. >> I think it's it's
+less and it's also so much more reused like the average reusability of a line of
+JavaScript has just gone through the roof uh mostly thanks to to stimulus and this kind
+of encapsulated way that Rails has rolled out for uh well for encapsulating these
+JavaScript components. >> Well that's always part of the goal too. I mean the
+reusability uh you know is
+
+[00:10:27]
+going to at some point equal scalability and and you're just going to help your your
+environment your application overall I would think. >> Yeah. I mean another cool thing
+that the Rails uh introduced somewhat recently are view components. Um I don't actually
+know when these came out but relatively recent like I think within the last couple
+years. Uh first project I ever worked with that had them was like a year or two ago. So
+uh but yeah view components are like super powerful. And it's such a simple abstraction.
+It's like it's almost embarrassing how simple the abstraction is. It's basically just
+well we're going to have some view code that's for this component and we're going to
+have some Ruby code that's the things that the view code needs to render itself and then
+you can have a stylesheet that targets the component and then you create a stimulus
+controller and so you end up with this like almost like an Angular style component and
+like the actual work that makes this happen is like minor like I mean you could
+implement view components it's not that complicated I mean it's got some cool features
+like slots and stuff like that I don't have to get into but but like yeah it's basically
+just a way of kind of encapsulating it and so now you have like oh you have your form
+component anytime you need to render a form form, you just say, "All right, render a new
+form component or my action button component. Render a new action button." And it just
+leads to these really, really, really small files that
+
+[00:11:29]
+describe a little bit of functionality that you can then pepper all throughout the
+application. And and it was really missing from from Rails before, like it had partials
+and things like that, but but components are super powerful. No, I feel like that is one
+of the things that it did the Rails ecosystem did borrow from like React and other kind
+of front-end frameworks where all of that is based on kind of this component, you know,
+pattern thinking. And I think that was missing from Rails prior to tools like Turbo and
+gems like view component. And I think I do see a lot more of that now where instead of
+approaching kind of like all of the markup and code for a single view, you think about
+it more at a component level or a widget level which I think is I think it just it makes
+for a much more know maintainable codebase. >> Yeah. But could it not also get messy
+though with so many components? I mean you know if you obviously if you got a relatively
+straightforward form or an application or something like that it's not a big deal but if
+you got something with a lot of complexity aren't you going to start to run into some
+messes with so many different components? I mean, I think it depends on how you organize
+organize a codebase. I've yet to encounter a code or, you know, project where we had so
+many components that they were hard to manage. I think a
+
+[00:12:32]
+much more complicated problem is sorting through, you know, a view file that's many
+thousands of lines long or a super bloated JavaScript file that, you know, has thousands
+of like that. Those are those are the problematic files that we get paid to fix.
+Typically, if you're encapsulating logic into a couple of, you know, related files, it
+becomes a lot easier to work with. One thing I love about how Rails did components too
+is like if if you do a component in Angular, you have this like self-contained world
+where that component can't talk to anything else. It's got these really rigid rules
+about how things work, which which seems cool. It seems like it leads to greater reuse
+and all of that, but in practice, I've always found it to be really frustrating. And
+like Ruby's approaches or Rails approaches is kind of a little bit like being well, we
+have objects, but they're kind of fuzzy. It's just kind of everything Ruby. It's like,
+well, we have components, but if you want to write a stylesheet that reaches outside of
+the component, does something else, you can. If you want to, you know, have this
+controller talk to other controllers in a in a really unstructured way, like, well, you
+can do that. It's like you kind of you're kind of a little unshackled in how you want to
+go about uh doing this, which can get you in trouble, too. But I find it very useful in
+a lot of places.
+
+[00:13:35]
+>> Well, that's just in line with being a Ruby dev, right? we're we're nasty and we want
+to go around the rules and we're like, "Oh, it's really cool that these systems exist
+and are in place and that's great when we use them, but also like this time I don't want
+to use it. This time I'm going to reach into the guts of this other thing and do what I
+need to do." And yeah, that's Ruby devs tend to kind of like that stuff. It's one of the
+reasons the net kids uh have their their skin crawl when they talk to us. So So Daniel,
+you'd mentioned a couple of these like key kind of key parts of Turbo. You talked about
+drive, you talked about frames, there's streams. Um, I think those are like probably the
+only or maybe the three primary kind of key parts to to turbo. Can you break each of
+those down for our listeners? Drive, frames, and streams. >> Sure. Sure. Yeah. And I
+mean, and Nolan might actually be the better one to to talk about this, but I I can I
+can try to do my best here. Yeah. I mean, Turbo Turbo Drive is sort of what powers like
+Turbo links. So, that's when you when you click on a click on a link and have it load uh
+load a page somewhat somewhat seamlessly. A turbo frame is really just like a a tag you
+put in the HTML where you say, "Hey, this is my turbo frame." So like this is my my
+modal frame or this is my form frame. And so you give
+
+[00:14:39]
+that thing u a name and a lot of the conventions have uh come about for how to name
+those. We we kind of follow this pattern where we take like the class name underscore
+some property of it underscore the ID. So you'd be like this is contact 73 new form for
+example. So that's basically you're just giving like a little chunk of the HTML uh a
+name and then turbo stream is the thing that actually does the the update. So you call
+your controller um and you ask it you give it a request type of turbos and you say I
+want you to update the contact 72 new form and it then responds with an XML snippet
+which is just a small XML statement that says all right what you need to do in order to
+execute this request is you need to replace the new form with this and you also need to
+replace this button with this and you also need to replace the status bar with this and
+then the the browser the JavaScript bundle running inside of of the web application goes
+and makes those updates ates to the view. Is that more or less right, Nolan? What did I
+get wrong? >> No, I think I think that's all that's all right. Um, I would add about
+turbo frames in that each frame potentially has its own navigation context which
+
+[00:15:42]
+unlocks some really cool kind of patterns that we didn't have uh prior to turbo frames.
+So, you can almost if you want it to be, you can almost think about a frame kind of
+being like a mini app within the shell of your outer application. So if you nest a form
+within its within a turbo frame and click on the submit button and the server responds
+with content within a matching turbo frame, Turbo is smart enough to only update the
+content within those matching frames and will leave the outer markup alone. So you can
+update widgets on a dashboard without affecting the rest of the page, which becomes a
+really powerful unlock when you kind of start to start to figure out how to compose
+those things. >> Starting to sound like nesting. Yeah, it's I mean it is it's it's
+you're kind of nesting many apps within a greater app. >> No, that that's that's a great
+point. And like if you have like like a table for example and you want to put a search
+bar on top of it, you know, you don't really want to reload the entire page every time
+somebody passes a a keystroke. And so, you know, there's the old school JavaScript way
+where you go and fetch your JSON to update your list and you update your list. But now
+you basically like you give the table its own tag. You say this is the this is the table
+frame and this is the search
+
+[00:16:44]
+frame. And then as you type, you just automatically submit the form like as if it's a
+normal form form and you just post it back to the server and yeah, the server comes back
+and updates just the table snippet and it leaves your search bar and your filters and it
+leaves everything else alone which is which is super cool. Yeah. So in the turbo frame
+like the server is responding with just well a little bit of meta information and then
+also just the HTML needed to show that current version of the table. So it feels it's
+less data in transit and it feels much more interactive. It feels zippy like a front-end
+application, but it requires writing zero JavaScript and it does not require um you know
+biting off one of these giant frameworks which is a you know a big architectural
+decision adds members to the team that kind of thing. Nolan, you you had demoed
+something a while back or maybe we have a customer who was using something where you
+were actually using uh websockets and pushing pushing updates through a stream right can
+you do you remember what that was? >> I do. Yeah. So so a server response can include a
+turbo stream. It can tell the DOM to update, you know, replace a certain section of of
+the DOM with this new content. But you can also broadcast turbo streams outside of a
+request
+
+[00:17:48]
+response. So for instance, you can hook into a callback in your user object so that when
+you know user Joe uh updates his email, there is a websocket broadcast event uh to all
+subscribers of that stream and they see that update in their DOM in real time. So the
+server is telling the client to update outside of the request context which is you know
+you you can you can do that from a background job for instance. So let's say you have a
+really kind of heavy async report process running in the background that report can
+broadcast updates to users in the browser through that uh turbo stream mechanism which
+is really cool. I think >> practically what that looks like is you you click on a button
+to run a report. You're sitting on the same page. There's no polling happening. So
+you're just kind of hanging out on that same page. That job maybe it spins up a whole
+worker process and does a bunch of cloud stuff in the background. The job tells the
+server when it's done rendering the report. It broadcasts that it's done and then that
+automatically pushes from the server to your client to say, "Hey, this report's ready."
+And turns it green and enables a download button or something.
+
+[00:18:51]
+But without it's kind of turning the whole paradigm on its head where instead of you
+asking the server for information, the server's telling you when something's ready. Uh,
+which again just adds to that interactivity and makes things feel really smooth, really
+seamless. >> Yeah, this all sounds great, guys. I'm I'm waiting for the other shoe to
+drop. It can't be it can't it can't be all good. So, so what's the what's the bad and
+ugly? >> I'll start all that. Yeah, I mean things things are harder. Things take more
+work, you know, especially to make things feel smooth like you will have to do more work
+to get there if you're working, you know, in kind of the default standard Rails tooling
+of Turbo and Stimulus. Like if you want to make a super slick really interactive, you
+know, table for like your users index, it's probably going to take a lot more work to
+get there unless you're just using like an off-the-shelf uh, you know, package to do
+that. If you're if you're running that, if you're if you're rolling that all on your
+own, it's going to it's going to take a lot to get there. But with that added
+complexity, you're also kind of eliminating a lot of complexity in terms of a huge part
+of this is like you're you're closer to your source of truth. you are closer to your
+database and your database, you
+
+[00:19:53]
+know, you're you're using that data to render your view almost directly. So there are
+fewer layers of interpretation. Um, so even though it takes longer, I do think that the
+output is often better. >> I mean, I think that yeah, a lot of what you said is very
+true there. I think a lot of stuff is very uh confusing to step into if you're not
+familiar with it. I think that's probably one of the biggest issues with Turbo is it is
+a real mind bender when you when you first step in of like what is going on? you know, I
+click I click this new link and then where does the actual new stuff happen? Like, well,
+it's in the controller and does this weird render term like it's it's a little weird and
+unintuitive, especially stimulus. Like, if you're coming in as as an old school
+JavaScript developer and trying to use stimulus, it is so frustrating where you're just
+like, I just want to do dollar sign, give me the button, and it's like, no, you can't
+you can't do that. You got this whole this element thing and targets and values. And I
+mean, it's a very new way of writing JavaScript. So, so I think it's very confusing, you
+know, to to start with when you first get into it. Um, it's also, you know, it's a
+typical rail stuff where everything is just, you know, convention over configuration.
+And so there's not a lot that's done explicitly. It's kind of if you don't
+
+[00:20:56]
+know the patterns that are in use in the project, you will be lost. You will be
+absolutely lost. And a lot of those conventions are like emerging like you know the the
+the tooling is there but everybody's doing their own kind of thing with it. Like I have
+patterns that I follow in my projects and then I step into projects that Nolan's working
+on. It's like oh well these are different patterns. They're not necessarily wrong.
+They're just not they're not the patterns that I use. And so I'm very lost and and
+confused and and I think vice versa. So um so so that is a challenge that I don't think
+a lot of this stuff has has matured to the level of of other things where there are
+clear conventions and patterns about how to do this stuff. So yeah I think those are
+drawbacks. I know you got anything Justin? Debugging is super hard being like it has
+made the control and some of this is just it's new and it's bleeding edge but yeah just
+following the control flow through the application uh when you kind of add in stimulus
+and these turbo streams like it becomes more difficult. uh it's not as obvious to you as
+the person writing the code what's actually happening um as you're working on it. So
+working with Turbo is the first time in a long time I found myself digging into requests
+on my Chrome console to like see what the server is responding with and why. I you know
+I don't really do
+
+[00:21:59]
+that very often because I have a good sense of what's happening usually. But um yeah
+trying trying to debug things that are not going right in Turbo it's just just harder.
+It's a new it's a different skill set. It's news that people aren't great at it yet. Uh
+we're getting better I'm sure. But uh so it just kind of this is basically an analog or
+an add-on to N's point which he said it takes longer to to get to something that's great
+and I'm saying that and once you have something that's great it's harder to keep it keep
+it working well and fix issues with it. >> Yeah. No, that that's a great point. I mean
+every every kind of framework language has their own kind of like cryptic errors that
+you just get used to saying like you know when you're writing C it's segmentation fault.
+What on earth does segmentation fault like in the land of turbo is content missing?
+That's your cryptic error that you get all the time because there's like content
+missing. And what that means is it tried to request turbo and it got back HTML. And why
+did it get back HTML? Because it got back an error. But like as opposed to getting a
+nice red screen like you're used to getting in Rails that tells you what's going wrong,
+you just get content missing or nothing happens. That's that's that's might even be more
+common than content missing. It's just nothing happens and you have no idea why. So u
+yeah that's hard getting getting errors
+
+[00:23:03]
+errors to the users and it also makes it uh easy to write things like that which are
+going to be not obvious to the user you know because in the past if you clicked a button
+and you got a red screen the user at least knows something wrong. Now the user just
+doesn't get any feedback that anything's happened so they think what they tried to do
+worked and it and it didn't. Um so yeah th those are all definitely problems. definitely
+have seen issues too where there's someone books mark some bookmarks something and what
+they end up bookmarking if they just visit that URL is a turbo thing it's not a whole
+site so instead of seeing a component rendered or the site like it's supposed to work
+you just get code out and so like users will say I went to the site and it just was
+showing me the source code and it's like well that's kind of true but it's just it's a
+it's a thing that's easy to write now and it's another thing for us to keep track of as
+developers when we're working with these tools >> and that's one that's so easy to fix
+And like you just need to not be lazy and fix it. I mean that's that's a fault for me
+because yeah, I've seen this all the time too. You have that where you like you
+controlclick on a link to open in a new tab and then like oh it opens in a new tab and
+then what you see is just like XML vomit and and like the the the fix there is you
+modify your controller
+
+[00:24:06]
+to only respond to turbo stream requests and if somebody requests HTML you either give
+them proper HTML or you give them like an error or something as opposed to this XML
+snippet. It's it's super easy to fix. It's just who has time for that you know. Well, to
+to Nolan's point about, you know, that this takes quite a bit more forethought and
+certainly more work and effort to get it, you know, working the way that you want, you
+know, awesomeness aside when you're done. And and to Daniel's point about the patterns
+and getting someone new involved in a project or up to speed on something, it's it's
+feeling like something that would be more suited for like a V2 or later and not so much
+like an MVP sort of situation. Is that is that a fair statement or or am I totally off
+base in that thought? I think it depends if that you know whether or not that person is
+a Rails dev. Like if if there if you're a Rails dev and you're starting from zero on a
+new project. I think the case for deviating from like the recommended tooling and setup
+of a Rails app which now is now turbo and stimulus like you need to have a really good
+reason to to make that you know that configuration decision. In general, like even if
+it's a little bit more work to implement these kind of interactive elements, it the
+simplicity of staying within the
+
+[00:25:10]
+bounds of the framework and the tooling is worth it. It it it just it just it's easier
+to maintain. It's easier to onboard new folks. You know, web projects inevitably have
+people kind of come in and out. Sometimes they're worked on, you know, concurrently by
+multiple people. I think the more standardized things are and the more in line they are
+with the framework kind of best practices, the easier it is in the long run. >> Justin,
+did you have a counterpoint to that or were you just waiting to see if you're going to
+agree? >> Yeah. No, I I think that I think that's right. I guess I view this as like yet
+another thing like that someone has to learn before they can be considered like a
+talented Rails dev. And I just feel like the the amount of stuff that you need to know
+and like the awareness that you need to have like it's just gotten so much harder to
+start out becoming a Rails dev because it used to be a kind of a short path to get to
+like a basic level of competency for Rails. I think as we've continued to add more and
+more complexities that's it's just further and further away and I know that people talk
+about like AIS are going to be our junior level devs and all that but I I think as these
+things continue to get more and more difficult. I it's harder for me to imagine somebody
+kind of
+
+[00:26:12]
+crossing the chasm uh into just the number of things you have to know to be like base
+level competent to work on a Rails project is just huge now. Um so I guess that's kind
+of my concern with it. >> Well and does it muddy the water between what would be
+considered a front-end dev and a backend dev? that I don't think it does. Um, I think
+this is probably mostly stimulus specifically I think is a great tool for backend devs
+who begrudgingly begrudgingly write JavaScript. It's kind of a very compartmentalized
+way to write as little JavaScript as possible. Uh, that that' be my take on it anyway.
+Um, I think that someone who's like a really great JavaScript front-end dev is going to
+find this to be really restrictive and annoying. Did you have a point on that, Daniel,
+or did we cover it? >> Yeah, I mean so I mean I think the first question was uh should
+you use this for prototyping? Um, I guess my argument, my counterpoint to that would be
+prototypes don't die. Um, I I have a Java >> I have a >> What? Wait, no, no, >> you're
+you're incorrect. >> Yeah, I I have a a Java application that I wrote, I think, 15 years
+ago. The project was named Prototype. That was the name of the project. Um, I'm not
+
+[00:27:15]
+going to say who it was for, where it is, but I will say that it is still a production
+application that is still used every day, and it's called Prototype. Um, so yeah, pro
+prototypes don't die. I mean, you can make your prototype extremely extremely awful,
+like have Chad GPT generate it for you and then maybe it will die, but otherwise it's
+still going to be around. So, um, I would say if you're going down the route of building
+MVP, you should build it the right way from the get-go. Uh, I I think all this this
+Turbo stuff actually makes you much faster as a developer. Uh, to Nolan's point, uh, you
+have to know how to do it. If you don't know how to do it, it's going to slow you down,
+but but if you're familiar with it, it should go pretty quick. um you know arguably
+doing you know node or something is is maybe going to be a faster pro prototyping tool
+but personally I would I would do it in in rails and I would absolutely use turbo and
+yeah and I think that knowing turbo is now just table stakes for being a rails dev I
+mean unless you're maintaining some old application from 8 years ago uh which even then
+it's like well you're going to have to maintain and upgrade that at some point I mean I
+mean turbo is just now this is part of how rails work is is done so you it's
+
+[00:28:17]
+not excusable to not know it but you don't have to know coffecript anymore. So, you
+know, we've given up one thing and now you have to learn a different thing. >> So, I
+haven't done this side of things because most of the work that I've done that's been
+turbo since turbo has been has been Greenfield stuff. I don't know if you have any
+experience with this, Nolan or Daniel, but uh how does kind of layering and turbo stuff
+to sites that aren't using that like if we have maybe an old rail site that we're
+keeping up to date and now we're trying to write new features into like an older site.
+Do either you have experience with that? How does it go? As far as I'm concerned, like
+if you're if you're upgrading from Turbo Links, you know, type Rails to like modern
+Turbo, that's that's a pretty significant refactor. The actual code changes to support
+that aren't necessarily massive, but most of the time, a lot of the legacy JavaScript
+doesn't work anymore because it's kind of set up to work with the Turbo Link style of
+page update, which no longer really applies. Um, there Turbo introduced a bunch of new
+events that you now have to consider, and like the life cycle of the page has changed
+pretty uh significantly. So like we have done that a couple of times where we've
+migrated you know from Rails 5 to Rails 7 or 8 and done kind of a complete turbo
+
+[00:29:20]
+overhaul. It's it's a big it's a big uh it's a big endeavor but it is I mean I think all
+the projects we've done that on it has absolutely been worth it. Like the project is so
+much easier to work on now. It's much more maintainable. It generally cleans up a ton of
+crust. Yeah. I don't know. Feels really good to watch all the the jQuery JavaScript get
+blown away like never never see it again. >> Yeah. Yeah, from the DevOps side, it's
+great for me too because uh Rails core is doing most or all the heavy lifting and now I
+have a lot less work that I have to do to kind of cram JavaScript and Rails together
+which uh from DevOps and deployments is super annoying. So, it's made my life better
+from that perspective. >> On the business side of things, is this I mean I recognizing
+that this is more like like an HTML or XML, you know, over the wire. How does that how
+does that play into things like SEO? You know, is it is it still reasonable? Is it still
+pretty friendly or or does this add add layers of complexity to that? >> So when we like
+complain on other podcasts about serverside rendering and how silly it is to do that and
+like how JavaScript front end single page applications make that necessary. This is
+basically serverside rendered by
+
+[00:30:23]
+default. So you get all the SEO advantages and everything that going through the process
+of doing serverside rendering would do for you on a front-end application, but it's just
+designed to work that way. So I I would say there's there's zero or close to zero SEO
+hit. The only thing I could think of is that like if Google if Google or others can't
+figure out how to interact in a way to like initiate some of these requests, then that
+would be a problematic. So like some of your site content is invisible to Google, but
+any front-end application or any kind of JavaScript uh containing application is going
+to have that issue potentially. >> Yeah, you could definitely introduce semantic
+patterns that would make this not great for SEO, but I think they're pretty avoidable.
+And like if you know that you're building a a marketplace page and you want to have all
+the text of all the things on it, like well don't load those via turbo request. So I
+mean there are some pitfalls that that you could do that where it's like oh you're
+trying to make your initial page load really really fast. So you load this initially and
+then you do everything else via turbo. That's going to totally break with a web crawler
+because it's not going to execute the JavaScript to populate the page. But I I almost
+feel like you'd have to go pretty far out of
+
+[00:31:25]
+your way to to make things that aren't SEO friendly uh going this route. >> Yeah. what
+Daniel was just describing that would be work to write. Like if you just write it the
+way that it's intended to be used, it's not going to have that problem at all. In >> in
+general, I think working with Turbo like what you see on the page as a developer is much
+closer to what the end user is actually going to get in the browser. I think I've
+encountered many more scenarios like using Nex.js where the line between kind of the
+server side code and the client code is much more obuscated. It's hard to it's hard to
+see that line. Here it becomes really obvious like you know you pretty much know exactly
+what you're going to see on the page as a developer. And I think that I think that does
+make SEO quite a bit simpler. >> It keeps all of our view code together as well. That
+kind of ties in I mean all these features came out at a similar time but the view
+components the stimulus and turbo uh these things kind of coming out together is just
+really really cleaned up to Nolan's point a lot of croft uh the organization project
+structure organization is much simpler now. you don't have random styles living in some
+name folder named JavaScript often like some other everything feels like cuz for a while
+there with like Webpacker and stuff it got to feel like oh this is a Rails app and it
+has this weird JavaScript engine kind of bolted
+
+[00:32:27]
+onto the side of it they're kind of like cancerously intertwined whereas now this like
+everything top to bottom including where the JavaScript goes feels like a Rails project
+like it's just from like a feeling happy and clean as a developer it's been a nice
+quality of life improvement >> I do wish that the Rails folks would actually come up
+with a slightly better way to compartmentalize CSS though if I can had one complaint on
+that. You know, I I've sort of followed some patterns in my projects where it's like
+every time you create a component, you create a CSS file name for that component and
+every component you kind of give the name of like, you know, form submission component
+kind of thing so that you can target it directly with CSS, but it still feels cluji and
+like when you work in an in an Angular app, you have a CSS file inside your Angular
+component and that CSS file works just for that Angular component. So, it would be nice
+if they would add some kind of way to compartmentalize CSS that it doesn't feel quite so
+so gross. >> So, Nolan, I'm curious, have you hit any have you hit any walls using
+Turbo? I mean, is there something that you get to a particular point and it's just it
+either doesn't do it because it's just not mature enough yet or it's easier to to do to
+do it a different way? I mean, have you have you
+
+[00:33:29]
+hit some functional walls? >> Sure. Yeah. When we start a new project, the very like one
+of their earliest questions we ask is like is this it would it be appropriate to build
+this as an SPA using like a modern JavaScript framework and the conditions for answering
+that with a yes would be like it's highly interactive. There's a certain like level of
+interactivity where it probably you're just going to be beating your head against the
+wall trying to recreate that with serverside rendering and snippets of JavaScript. It's
+just going to become super unwieldy. >> Can you define that though? Like what what does
+that what does that look like? It's typically not like a business crud app, which is
+most of the apps that we wind up building. It's, you know, I'm I'm thinking of something
+much more like consumerf facing where kind of like super slick micro interactions and
+like, you know, tons of stuff sliding in and out and like that's maybe mobile first
+would be kind of a good candidate for that. But for you know a business a business
+application that just where those things are much less important than kind of the
+usability the functionality serving the business needs like that's just it's pretty rare
+where we encounter a project where we don't think we can you know do a good job with
+Rails and and these these tools. If you
+
+[00:34:32]
+think about like a calculator website, Erin, like if someone had like a like a like a
+tax calculator or something where you change one number and then 35 charts and all the
+different like that number propagates through like 25 other calculations and so like as
+you're making adjustments to that number, everything about the whole page is changing.
+Anything that looks kind of like that you just you're going to want to use a spa for. I
+wrote a uh a character sheet for a D and D hobby and it's like weights of items that are
+on the characters, but that's not important, but there's a ton of calculations that are
+based off of like the character strength and the level and what they're carrying and all
+that. And that would be miserable to write using Turbo that just a case for an SPA, but
+it's like these little there's so much inter like interactivity between all these
+numbers and you want to see 35 things update instantaneously. So that's that's the kind
+of thing that I would I would use that for. I do want to say that uh Rails 8 rolled out
+uh this idea of turbomorph or I guess this this tool turbo which is kind of an add-on to
+uh turbo streams frames and drive. Um and I believe it's using a package called idomorph
+or morphdom. I'm not sure which one under the hood which is allows you
+
+[00:35:36]
+to do kind of finer grained like DOM diffing and updates in place without swapping out
+large sections of the HTML body. What you wind up with is the ability to redirect
+redirect back to the same page that made the request and see all of the new content
+updated on the page while still maintaining the previous DOM state. So something that
+Justin described where like one value change should kind of propagate out to the entire
+page. You can very much do that with turbo morph. Um it still is happening as a single
+request but to the end user it really does feel much more kind of single page appish
+where like everything feels smooth. you know, if they had like a a details HTML element
+that was open, it would continue to be open on reload because that DOM diffing process
+didn't actually mutate that uh that element that hadn't changed in the response. >> How
+would that work with something like an interactive chart though or something like say
+it's going to add a a dot to the line chart and you've got a thousand dots in your line
+chart. >> If your line if your line chart is based on JavaScript, yeah, you would you
+would have to hook in you would either have to like do that JavaScript update manually
+
+[00:36:38]
+or you would have to rerender the chart. This is really just going to be for HTML that's
+updating on the fly, not for JavaScript enabled stuff. >> Yeah. I mean, I think if you
+have something that's like super super interactive, you know, think like Lucid Chart or,
+you know, anything where it's just No, you're going to want to do those pretty much
+JavaScript top to bottom. But yeah, I do think that the capabilities of of Ruby to do
+this stuff are are expanding. I mean, yeah, I I I agree that it's it's how much
+interactivity do you need? And if it's a lot, you might want to go a different
+direction. If it's going to be less interactive, probably probably Ruby is the right
+call. Another thing to consider on that kind of continuum of what to choose is how much
+work is the user going to do that the server never needs to be aware of if that's a hu
+if that's a huge number then you're just wasting a lot of time and energy communicating
+like I was thinking of like Canva or like a web-based photo editor like I care about
+that when I save it the server doesn't need to know what I'm doing with the image until
+I save it I don't need every step along the way you know asterisk maybe some autosaving
+or something like that so that that'd be another case where a front-end application or a
+spot makes more sense is just like oh yeah the user is going to be working on this for a
+long time and the server only needs to care about it at very specific points in
+
+[00:37:40]
+time. >> Let me add one little tag along to that though. Uh if the server doesn't know
+about it, you can't use it for analytics. So that is I think something something to
+consider is that uh when you have this world where every request is going back to the
+server, it makes it very easy to hook in and track. Oh, okay. The user searched for
+letter Q, the user searched for u the user searched for quue E. And you have maybe that
+data is not useful, but it could be useful, you know, or if you're trying to track where
+somebody's scrolling on the page or things like there. There are ways to to do this um
+using other tools obviously, but if it's all going directly to your server, it actually
+creates one centralized uh point to plug in and capture those analytics. >> Yeah. But
+you got to think the analytics are also going to mature and and develop around that as
+well. >> The point that Justin and Daniel just made, I think it's I think it's
+interesting. Yeah. Like there are there are scaling concerns with these turbo patterns
+because pretty much every kind of user click is probably going to kick off a network
+request and if you are operate operating at scale, you know, if every link click or you
+know table sort change or whatever triggers a network request and your your server can't
+
+[00:38:42]
+handle it, you now have kind of a new scaling problem to solve. So for apps at scale, I
+mean truly talking about, you know, hundreds of thousands or millions of concurrent
+users, like these patterns might not make sense for you anymore. But obviously at that
+stage of your of your product life like you have a lot of options and you can figure out
+what works needs. >> Yeah, 100%. And yeah, we talked about this a lot on the the spa
+episode, right? Where it's like if you are Facebook, do not use Rails. Like that is
+there's a reason that they created React. Um but probably if you're if you're a little
+startup and you're just kind of getting going, you're probably not Facebook. You know,
+you you do need to solve different problems. >> Well, and this came this came through by
+way of uh Hotware, right? And they they did Base Camp. >> Yeah. Yeah. So, these these
+are all I think these are all tools developed by 37 Signals who are the the core
+maintainers and contributors for Rails. Um, these are these are frameworks and and tools
+that they've built and they're now kind of just packaging as a part of Rails out of the
+box. >> Yeah, we used to use Base Camp and I mean it was great for what it did until it
+tried to be too much I think for you know like like most mature applications do. I I
+want to be everything to everyone all the time instead of just staying in the lane. But
+it was a very
+
+[00:39:45]
+cool application while while we used it. You mean you don't find Jira simple, easy to
+configure, and easy to use? >> I especially like the permissions controls. Those are
+outstandingly well done. >> I have I have a really really simple trick to make Jira
+absolutely easy, completely like user friendly, seamless to use. Anytime you have a Jira
+problem, you just go, Daniel, just don't ask me for more columns, please. I'm so tired
+of adding columns to people's workflows. Like, do you do you really need that column?
+Can't we just have the same columns? >> Yeah, guys, it's it's been great. I love getting
+to chat with you guys about this sort of stuff and and for me as as the least technical
+out of this group, it's always educational and it's it's really fun to kind of get to
+get to roll some of this new stuff around and and hear where we're going. So, uh really
+appreciate your time once again with us today. And I I'll go I'll go in reverse order of
+of experience on the pod. We'll start back with with Nolan. Uh Nolan Alamante again,
+first- timer here. uh senior dev, senior architect, team lead, as I said, master of all
+as you have as you have heard today. Uh Nolan, thanks so much for your time. Really
+appreciate
+
+[00:40:47]
+it, my friend. >> Yeah, thanks for having me. It's fun. >> And Daniel Cannon, uh chief
+innovation officer, outstanding devil's advocate, player among many other things.
+Daniel, thank you as always. >> I've never had a contrarian point of view in my life. I
+don't know what you're talking about. >> And thank you for making my point there. and
+Justin. Justin, always appreciate you being in the co-pilot seat here uh for SAS that
+app. >> Yeah, absolutely. I'm glad I was able to uh come along and take notes from these
+guys who have a lot more experience with the turbo stuff than I do. So, got Turbomorph
+added to the list of things that I should probably know about. So, thanks for that, N.
+>> But you need to say it like Turbomorph. >> Turbor thanks so much to our listeners. If
+you like what you're hearing, give us a subscribe. If you want to hear more, have some
+ideas for uh podcasts or topics going forward, please feel free to send those our way.
+Thank you so much for joining us and we will see you all next time on SAS that app.
+Thanks for cruising along with us on SAS that app. We hope you grabbed some insights
+that were inspiring, actionable, or at least entertaining. If you enjoyed the show,
+don't forget to
+
+[00:41:50]
+subscribe and leave a review. Until next time, keep building, keep growing, and keep
+those apps sassy.

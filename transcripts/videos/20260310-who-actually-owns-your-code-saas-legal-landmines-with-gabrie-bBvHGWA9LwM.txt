@@ -1,0 +1,726 @@
+Who Actually Owns Your Code? SaaS Legal Landmines with Gabriel Saade
+====================================================================
+
+Video ID:  bBvHGWA9LwM
+URL:       https://www.youtube.com/watch?v=bBvHGWA9LwM
+Published: 2026-03-10
+Duration:  00:52:08
+Source:    YouTube captions (auto-generated unless noted)
+
+------------------------------------------------------------------------
+
+[00:00:00]
+The development of technology companies, of SaaS [music] companies, of fintech
+companies, their assets, their valuable assets to the world, to an IPO, to an eventual
+sale, is going to be their intellectual property. And understanding [music] that their
+IP, their IP stack, is >> [music] >> its most valuable asset, its brand connected to
+that IP and assets are its most valuable asset, is key. >> Welcome to SaaS That App,
+building B2B web applications, the podcast where we share real-world stories, practical
+advice, and tech insights for those building or thinking about starting a tech-enabled
+business. I'm your co-host, Aaron Martzkes. >> And I'm Justin Edwards. Each week we
+bring you the stories, strategies, and insights you need to build your SaaS or tech-
+enabled business smarter, not harder. Let's dive right in. >> Hello and welcome back to
+SaaS That App.
+
+[00:01:13]
+With me as almost always, my partner in crime and good friend over here, Justin Edwards.
+How are you doing, my friend? >> Hey man, it's been a busy week today. >> [laughter] >>
+And it's only noon. >> And it's only noon, halfway through the week. I would I would say
+downhill slide, but we're not quite there yet, and it never seems to feel like a slide.
+It it it just feels like continued uphill climb to Friday. >> George Carlin fans may be
+familiar with uh S H I O W, and uh yeah, it's one of those. >> Fair enough. >> H S I O
+W. >> Oh man, you love me some Carlin. Well, joining us also today uh is Gabriel Sade, a
+partner at Darrow Everett LLP and chair of the firm's intellectual property and
+technology practice. Um Gabriel works with companies across the country, especially
+startups and growing businesses, helping them to protect their intellectual property,
+structure deals, navigate mergers and acquisitions, and avoid just all kinds of legal
+pitfalls that can derail a company as it's scaling. He also serves as uh outside general
+counsel to more than 100 businesses, advising founders and leadership teams
+
+[00:02:17]
+on uh legal strategy and and how to build durable companies, all of which we're going to
+get into today. Gabriel, welcome to the pod. >> Thank you. Good afternoon. Thank you for
+having me. >> Absolutely. So, first question, always the hardest one and and just to
+kind of set the stage and context. So, you you started your career on the litigation
+side, you're spending a lot of time now advising businesses strategically. So, what what
+drew you into law in the first place and then specifically toward technology and IP? >>
+Uh what drew me into law, I you know, I wasn't prepared for that question. I I hadn't
+any >> You've never been asked that before, I know. >> No, yeah. You know, what I I like
+to be honest about really what it was. It's not really a grand story. Um, the truth is
+and in short, I was a failed baseball player who found himself with a Duke degree, uh
+two injuries that weren't going to allow me to continue my uh to pursue my career as a
+baseball player. And um I was interested in businesses. I had already opened and sold um
+an import-export company as a senior in high school. It was a import-export
+
+[00:03:20]
+company of shoes from Plastic called Plastic Au Cho. Um and uh we bought from them. We
+had an exclusivity deal and then I I showed up at Duke University as a starting
+shortstop um and realized there is no way I am going to pass be a decent baseball player
+and run a business. So, we sold it. Um but when I ended my career after a couple of
+injuries um and realizing that that I needed to find a new path for um I I had 4 years
+of baseball baseball baseball as in college uh you know, in summer ball instead of
+working, I was in the summer leagues. I was in the Cape League uh trying Cape Cod League
+trying to you know, make it as uh again get scouted and make it as a professional
+baseball player at some point. And I every single business application or MBA program
+that was available during that time wouldn't take me cuz I had no business experience.
+
+[00:04:23]
+So, my wife was at that time a 1L. She had her first year of law school and she was
+like, "Why don't you just go to law? They can get in. You don't need any years of
+working experience. So, do it." So, I did it. I I sat for the LSAT. I got into FIU law
+school where I started uh law school career and then I graduated from the University of
+Miami. And um and the reality is I I I found law school great. I It was very
+competitive, especially the first year. Um you're really sizing up your competition.
+You're you know, it was a battle and for me being a collegiate athlete, a really good
+one and being at Duke, you know, my days were already 16-18 hour days between practice,
+workouts, post workouts and class, right? Trying to compete with one of the smartest
+people in the country. Every class I felt like I was the dumbest person in there. And
+and having that level of hard work and dedication when it came to just being a law
+school student, it was very easy. So, that's how I got into law to
+
+[00:05:26]
+be honest. It was per happenstance. It was also 3 years or a year removed from you know,
+our depression for my generation, right? So, the 08 and everything that happened there.
+So, I was it was hard to to get into into any real good job because everyone from the
+years before me were waiting for those jobs to open up again um cuz there weren't any.
+Same thing with master's programs or MBA programs. They're just they were so full. So,
+our our options were limited and I made a decision um that somewhat interested me. Both
+my parents were attorneys in Venezuela, which is where I was born and and where they
+worked as as attorneys. So, it was somewhat in the background and and after my first L
+year, really after the first semester, being in that environment competing learning a
+new language, learning how to read and write and speak differently, which is what really
+the first L year is all about is knowing the lingo, understanding the language and being
+able to articulate it well
+
+[00:06:31]
+um when someone asks you questions about it. I think that's really what it comes down
+to. Uh and I fell in love with it and I fell in love with the the interconnectivity
+between, you know, real life, businesses and the law. And and how intermingled it really
+all is and how every single day, you know, even our most basic relationships are all
+contracts. Uh whether we realize it or not, right? And so, that's that's where it
+started. Um not really a good way as to why I chose the law, but I just kind of stumbled
+into it and then fell in love with it and the rest is history, as they say. >> No, I
+like it. And and Justin, unless I'm misremembering in an alternate timeline or a
+multiverse situation, you you also were were heading the lawyerly route. >> Yeah, kind
+of like Gabriel into law school. It was like, "Oh, well, whatever. It's easy just to get
+into law school, apparently." Uh yeah, I was I I failed going to law school cuz I got a
+computer science degree. >> [snorts] >> But yeah, no. I definitely interested in the
+law. I was actually headed in a similar direction to it seems like where Gabriel went. I
+was interested in IP law and corporate law
+
+[00:07:34]
+and uh working with small companies and new companies. So, yeah. Uh definitely an area
+I'm excited for cuz it's a kind of a the path that I never got to walk, but I was on for
+a while before I found out that someone would write me a paycheck with a computer
+science degree, and that was the end of my academic interests. >> [laughter] >> So. >>
+It's amazing how that works out. So, uh so, Gabriel, back to you. You you had uh you
+found your own law firm but before you joined a a larger one, and so um as we're as
+we're kind of leading into where we're going to be taking the interview, we have
+obviously a lot of listeners that are that are very interested in uh business and
+entrepreneurship and and things along those lines. So, what what lessons did you take
+away or what did you learn from running or having your own practice that kind of taught
+you or maybe guided you into the situation you're in now where you're part of a larger
+firm? >> I mean, there were so many lessons. It's going to be hard to include them all
+in in this time. >> So, give me like a give me like a top two or something. >> Yeah,
+look, I think the most important thing I realized very early on was that my dude degree,
+whatever accolades I received during law
+
+[00:08:37]
+school, none of that really mattered when it came to opening up a law firm, getting
+clients, more importantly, keeping them happy and sustaining them throughout the growth
+of the law firm. Everything was really about relationships. It was the social capital
+that I had accumulated up to that point, both professionally as a former litigator
+working at a larger firm before I started my own law firm, um as well as personal
+relationships and, you know, different clubs I was involved in. At that point, I was
+very big into triathlons, and I was doing a lot of uh long-distance triathlons, and
+you'd be surprised, you know, a group of a bunch of skinny dudes riding in tights all
+around Miami, you build a lot of good relationships, and you have two or three hours of
+really really getting to know people and understanding their businesses and what they
+do. Um and all of those key relationships was really the foundation of Saadi law. It was
+what got us our basically all of
+
+[00:09:41]
+our clients. I I would say in the 6 years that I ran my law firm, over 95% of our
+clients came from my social capital. It came from people that I knew, people that I
+worked with, people that I was friendly with, that I trained with. You know, it's it's
+it's really I can't emphasize enough how important it is to have conversations when
+you're anywhere. You know, just meet people, be nice, be courteous. Um tell them about
+yourself, but more importantly ask them about them and what they do and what they love.
+And and provide contacts and value to their life because that's going to pay dividends
+down the road. And I'm not saying just do it for that reason. >> Oh, sure. >> But if you
+do it, it does pay dividends and it is the really the foundation of the firm. I would
+say all the marketing and Google and ads and videos, 5% or less of our clients came from
+that. And then the other second lesson and and I think the harder one to learn happened
+very early. So, I I started the
+
+[00:10:46]
+law firm April 2019. We all know what happened March 2020. So, I really needed to be
+conservative in how I grew and the pace of the capital that I was spending, the rate
+that I was spending. It's very easy once you're in it to kind of continue to grow and
+you have so much work that you feel like you're drowning and all of a sudden, you know,
+you go from a firm of two to a firm of five to a firm of 10 and it starts feeling like
+it needs to grow at that pace because the work is there. But COVID really was like,
+"Hey, buddy, everything's done for 3 months or 4 months or 6 months. How are you going
+to continue to grow? How are you going to pay your payroll now? Um clients aren't going
+to pay if you're not working. Clients aren't going to pay for litigation if there's no
+courts. And and that lesson of being conservative, being patient, taking your time,
+knowing that everything comes in in bell curves really because, you know, you're really
+really busy. You feel like
+
+[00:11:49]
+you're suffocating. I I you know, you're concerned as a lawyer that deadlines are going
+to be missed are going to be blown and you need the staff to make sure that that doesn't
+happen. But then there's a lull in the work because there's a natural flow to
+litigation. There's a natural flow to workflow. Um, and only once you reach a certain
+volume, does it stop being a bell curve and more of just like a straight line across
+where you have just steady streams of work. So when one company doesn't need you, the
+next one needs you and that one doesn't need you, the next one needs you. But it takes
+time to build. >> Right. >> And one of the one of the mistakes that I made was was
+growing too fast. We started doing very well very quickly and grew and one outside
+general counsel job turned into a hundred in less than two years. And so, you know,
+having the patience to to grow slowly, uh, methodically, uh, be ready for a COVID to hit
+even though, you know, God willing it doesn't ever happen again and we all lived
+
+[00:12:52]
+through it. I think we all learned a lot of different lessons during that period, but
+but be ready to sustain and asking yourself as the owner the hard question. If you
+didn't receive $1 for the next three months, would you be okay? Would your employees be
+okay? Would your family be okay? And if the answer is no, then you really got to take a
+hard look at what you're doing, how much you're spending, where you're spending it, why,
+how much time you're spending on on what. And um, and have those tough conversations
+with yourself very early on because those will pay dividends later on. >> Real quick,
+this episode is brought to you by Delta Systems, which is what Aaron and I do when we're
+not talking through microphones to you, the people of the internet. We've got a really,
+really great software team here, and we'd love to work with cool people on cool
+projects. So, if that sounds like you, and you've got a problem, or you're in some kind
+of a jam, go to deltasystems.com, grab a time [music] with us. We can beat up on your
+problem together, and if there's a fit there, amazing, we'll help you out. So,
+deltasystems.com, grab an appointment, and hey, maybe we can work together. >> Yeah, I
+love I love the notion of, you
+
+[00:13:57]
+know, it's who you know, even more so than what you know, and that's that's something
+that that my wife and her family talk about all the time in business as well. It's
+something that that I heard growing up. It's it's and and I consider myself kind of a
+people person, and so that that really rings true for me, um uh because I don't know
+very much, but I know a lot of people. So, it's it's always it's always been something
+that you can lean on. The those relationships. That's great. >> I can I can echo that
+enough. Uh we had the exact same experience, and still to this day sometimes my phone
+rings, and a lot of money shows up because someone knows my name, and knows who I am,
+and even even though I haven't been put myself out there in that way for a long time,
+it's it's your your network and your brand, and people you know. So, I I love that you
+highlight that. I guess, what does outside general counsel do, and then how does kind of
+more generic corporate law and IP law kind of differ, and what was your path through
+kind of those different things? >> Yeah, I and it all started with with what I alluded
+to, which is when COVID hit. And I you know, I was I was a serial litigator at that
+point. I had done some corporate contract work, um started
+
+[00:15:00]
+really as a litigating attorney for contract disputes, partnership disputes at the end
+of my career at my first firm. Um and when COVID hit, courts were closed. The only work
+that I had was coming in was this outside general concept a counsel concept, which is
+simply in that in that day day was very multi-family developer that just needed help
+with their joint venture agreements for the development of um multi-family developments
+that ultimately they hired themselves to develop to construct and then transferred it to
+their own property management um entity and that property management entity ran the
+multi-family for several years. And so when the JV needed help in terms of contracts, so
+just very basic third-party contracts, when they were doing going through vendors, um
+negotiating with AT&T to install all of the service lines and everything
+
+[00:16:03]
+within the developments so that every single unit had, you know, its Cat 5s, its Cat 6s
+and its its internet, its its uh telephone lines. Um they they they themselves grew very
+quickly as well and their in-house counsel really couldn't keep up with the volume. So
+they reached out to me say, "Hey, I know you litigated some of this stuff for us. Can
+you just negotiate the contracts for us?" And so I came in as at first just negotiating.
+Um I was very good at talking and I can talk someone until they didn't want to see me
+anymore or hear from me anymore about one single provision of a contract and they're
+like, "Whatever the guy wants, just give it to him. Get him off the phone." And uh and
+really that that led to doing more of that work. And so instead of just negotiating
+those contracts, I was also drafting them. I was redlining them. I was revising them.
+And I was the overflow for in-house counsel. So that's the way I like looking at it is
+outside general counsel is really the the overflow of everything that an
+
+[00:17:08]
+in-house attorney does, whether it's corporate structures and corporate documents for
+relationships between the partners themselves inside of a business entity to
+relationships with outside parties and third parties and their vendor contracts. Um and
+that's how it all started and and that kind of practice grew from my client three, four,
+and five to my clients five through 85. All came as outside general counsel. And it was
+a service that I realized especially during COVID was essential because there were many
+things that I had experienced in then that most in-house counsels had never you know,
+most of them had never litigated these type of provisions. No you know, a big thing that
+was happening then was business interrupted insurance. No one had business interruption
+insurance. No one really looked at their insurance policies as a business owner to
+determine this isn't a force majeure necessarily. This is this is COVID. This is not
+defined. This is something that has stopped all businesses and my insurance company
+should be prepared to
+
+[00:18:12]
+cover my losses. And that wasn't the case. And so it was about providing some of those
+litigation standpoint perspective to contracts that were existing that in-house counsels
+weren't prepared to handle. Um and and expanding from there and and allowing them to use
+me as a resource to supplement their work. Uh and that's how the practice really began
+and that's how, you know, Sarif Law grew in the first couple of years was all providing
+this very unique outside general counsel perspective and assistance to all of the in-
+house counsels that were essentially my clients. You know, they were the people that I
+was reporting to that would give me my assignments. And sometimes they took credit for
+for my work, but that was okay. So long as the business thrived and it and excelled and
+those contracts ended up being um very profitable and useful for them. >> Yeah, it
+sounds like very similar to doing tech consulting. Just obviously it's legal side, but
+So, we would fractional CTO and sometimes our work would be claimed by other folks
+
+[00:19:13]
+internally, and that's kind of fine, and we get a check at the end of the day, which is
+why we show up. So, I >> [laughter] >> I know how that goes. >> You know, I actually,
+and I don't know at what point in the conversation we talk about, but I had a very
+interesting call yesterday about something like this, right? They, you know, essentially
+hire your third party to do work that from an outsider or a consumer standpoint appears
+to be the work of the entity, but it's really this third party that's handling it. And
+the legal consequences of that, and the reality of that once litigation ensued. So, uh
+it's it's pertaining to ADA compliance. Uh I don't know where in the podcast, and I'm
+not trying to dictate where we're going, but >> [clears throat] >> I think >> part that
+I think would be very interesting and relevant to this podcast is you know, cuz that's
+something that's that's currently being litigated in New York right now, and is and you
+guys probably can speak intelligently about it. >> Yeah, tell me more about the
+scenario. What was the What was the issue? >> Oh, okay. Well, um so, I I I don't know
+
+[00:20:16]
+if I'm allowed to say names, but I won't say names. But, there is a company, um a
+software company, that you hire to review your website for ADA compliance. >> Mhm. >>
+And and they do that. And they go, and they they run audits of the websites, they make
+sure that all of the functionality of the website is working properly, that anyone,
+whether disabled or not, can fully access every aspect of that website, whether it's
+ordering, whether it's finding a location, whether it's contacting someone, they it is
+accessible. And the reality is that they make those changes to the outside world, and it
+appears like it's fully functional. But, the moment you stop paying their monthly
+services, those changes, those compliance changes that were made go with that
+subscription. They actually don't do the changes on your website. They have an overlay
+over
+
+[00:21:22]
+your website that from the outside world appears that hey, this is compliant. This is
+all working. This is fully functional. It is accessible. You stop paying your monthly
+fee, your website goes back to what it was before you ever hired these people. So, all
+the work that you've been paying for, all of the accessibility that you thought your
+website now had and that was in full compliance, is not compliant because you stopped
+paying that monthly fee. >> Well, so I can I can I can I can imagine that it's like a
+really useful thing for some business where like they have this complicated website.
+Maybe they paid someone to build it. They don't really have technical people on staff.
+They don't really know how to manage it anymore. And now I come by with a monthly
+subscription offering where I can take that thing without having to get into the guts of
+this mess. I can make it 88 compliant and get them what they need. If that's a monthly
+fee, that I mean, it's a weird business model, but I could I could understand it being a
+benefit to somebody. I guess if I'm also paying them hourly to make the changes, and
+then they take that stuff away. >> the changes to the actual website? Why are they just
+doing it on an overlay that is essentially work product that
+
+[00:22:24]
+they keep and they take with them and that you're essentially married I wouldn't even
+say married cuz that says a To me, marriage is a good thing, right? So, you are bound uh
+in handcuffs with this company essentially for the rest of your the life of your
+business. And and how is that? And and if the regulation changes, uh nothing's adaptable
+unless you pay. Um and if that company gets sued because those changes were never
+actually made and it is not accessible, um that liability falls squarely on who? The
+people that you hired and guaranteed your website was going to be accessible or is it
+the business himself who you know what didn't have the technical expertise to understand
+that the changes that were being made to your website weren't actually being
+implemented. They were just a fancy little overlay to the outside world that made it
+accessible, but only if that add-on, only if that plugin was at the bottom of your
+website
+
+[00:23:27]
+and you were paying that monthly subscription. And if they wanted to increase your
+subscription or double it or triple it, you had to do it. And if you didn't do it, guess
+what? Now you're not accessible anymore and the 10,000 plaintiff's lawyers are out
+there, you know, basically attacking all business owners, not just your law firms, so
+the small pop mom and pop shops, small landlords, they're all getting attacked for the
+same exact thing. Your website isn't isn't compliant, it's not accessible. And that that
+plugin that you're no longer paying for because you thought, you know what? You guys
+already made all the changes. Why do I have to keep doing this, which makes sense as a
+business, right? Why are you going to keep that on your balance sheet? In fact, was
+never made and they take it with them. >> I just don't understand why I would pay
+someone a subscription fee and then also pay them an hourly fee to make changes. Like if
+they're if I'm paying them to write code, I I realize it's contracts, but I should only
+work product for that. And if I'm paying them for a service and they're doing this
+overlay, return my subscription revenue, that makes sense, too.
+
+[00:24:28]
+I guess uh Well, I won't uh I'm not going to talk about liability or legal legal stuff
+with the lawyer on the phone. Uh normally I'll opine about that stuff, but not when I
+have an actual lawyer on the call, but uh >> [laughter] >> But uh I I mean, the the the
+the the business model seems morally dubious to me. Like it it seems like that's just
+kind of like designed to be an kind of an ugly entrapment style uh uh business and it
+kind of gives me the creeps a little bit. >> Yeah, and that's why they're being sued in
+in the Southern District of New York right now. Um but the problem is in the meantime
+there are hundreds of thousands of companies, all of which relied on the representations
+of this company to make their websites accessible that are now subject to lawsuits. And
+you know what the reality is? I I defend a lot of these companies. It's part of what we
+do. It's money in my pocket every time someone gets sued for a compliant, whether it's
+website related or or brick and mortar. Um and I do it to my own detriment in a way that
+I feel like it's fundamentally unfair. And if you're paying for a service, you
+
+[00:25:30]
+need to be very diligent about what it is that you're getting. Whether or not you own
+that work product and that's something that you can keep and take with you. Um and what
+are the consequences if there's a failure or if they're you know, in this case, your
+website isn't accessible, who bears the responsibility of doing it? Do you have the
+right indemnity provisions in your agreement? Do you have the the ability to be held
+harmless if in fact you get sued for this exact thing that you were paying to prevent.
+Um and and it you know, it's it's it's created a very very I I I I wrote an article
+about, you know, ADA lawsuits and how pervasive they are and and how destructive they
+really are and and it's it's really a problem for the legislator and we're not going to
+solve it on this podcast, but it is very frustrating. Um and and it becomes super super
+important and that's just another example of why sometimes your pure in-house general
+counsel, a guy that has never set foot in a courthouse, has never had to litigate the
+contracts that
+
+[00:26:33]
+they're assisting their companies in executing, do- doesn't have the necessary
+perspective to realize this isn't enforceable, this isn't fully transparent and I'm not
+really getting the coverage and the indemnifications that I need to really protect my
+client and my business from future liability. You know, it's it's a sad uh it's a sad
+reality and it's one of those things that you know, when when COVID hit, we realized
+very soon that this is something that we can really provide a different perspective in
+this outside general counsel concept really created. >> So, we also have clients who
+deal with and sorry to jump on you, Aaron. Um we also have clients who deal with these
+kind of ADA trolls, I'll call them, where uh people and they're just mass marketing
+these nasty grams to people saying that we looked at your website and it's not ADA
+compliant and for five grand we'll go away, otherwise we're going to file a lawsuit. >>
+So, those trolls had gone away, a lot of them, because people are enough people have
+called their bluff.
+
+[00:27:37]
+But now they're actually filing these suits. So, you go into the I say New York cuz I
+was just talking about New York. I'm licensed in New York as well as Florida and 10
+other states. Um but New York uh the Southern District of New York just got over 2,500
+website ADA cases filed in three months. So, there there they've turned those letters
+into actual lawsuits in federal court. Um which is very scary for a lot of business
+owners. It's a lot of you know, it's nerve-racking for general counsels and and those
+who don't do this kind of work. Um and you have to act quickly. You have 20 days. If you
+don't have an outside litigation counsel to retain counsel, hopefully find someone
+competent enough that has done this, that has an expert that can go and provide you with
+a certificate of conformity and say, "No, you're wrong. We're actually fully compliant
+and here's why." Um and it is a process and it is something that that unfortunately
+companies really need to take into consideration uh soon. >> So, where does the line
+with this crosses into like uh I forget the correct term, but like the like your your
+litigating to be a menace. Like
+
+[00:28:39]
+it's it's just like nuisance litigation. How does that get sorted out? >> It doesn't.
+And the reality is federal courts don't want these cases on their docket. They're going
+to push you to settle. I had a court in the Southern District of Florida on its own sua
+sponte, not on its own accord, submit an order saying, "You guys, I'm going to close the
+case out. You have 30 days to settle. Send me your settlement um at the end of the 30
+days. If you don't settle, I want you to tell me why." So, they themselves already
+closed the case conceptually, really prohibiting us from really providing a defense, and
+instructed us to settle the case. >> That's That's basically talk to the That's like the
+legal equivalent of talk to the hand, right? >> Talk to the hand. Or Or to your Or to
+your local congressman. And go see if they will change the law cuz the law gives
+plaintiff's counsel and these individuals the civil cause of action. You know, whether
+they get damages or not damages or you know, you end up spending more time and more
+money fighting it than you do resolving it. But it's gotten to the point where it's
+
+[00:29:44]
+it's abusive and it's really really burden, especially on small business owners, on laps
+that own one property, that are barely making ends meet, and now you throw in a five or
+$10,000 settlement, having to hire an expert, it could really disrupt and if not
+bankrupt businesses. >> So, I got I got one more legal thing, Aaron, and I'll I'll stop
+talking over you. So, do you think there will be or would you support some kind of like
+a SLAPP lawsuit equivalent for these kinds of cases as well? Um and you might be better
+to define SLAPP SLAPP than I am, but yeah. >> I 100% would support it. Not only would I
+support it, I have reached out to a lot of my colleagues and friends and lobbyists to
+say, "I need you guys to help me put together some kind of SPACK and some kind of um
+organization that I can go out and reach out to companies and get everyone together to
+make some change because this needs to change. It cannot be this. It should not be up to
+plaintiff's lawyers across the country to enforce federal statutes and state
+
+[00:30:48]
+statutes regarding ADA compliance. It shouldn't It's It's disrupting a very important
+part of our economy. It's destroying small businesses. And it is creating a an incentive
+for people not to open up and to be entrepreneurs. You know, and not even entrepreneurs.
+A lot of times, I mean, I grew up with like, "Oh, I want to make enough money so I can
+go buy a property and I can rent it out and I can have that rental income and I can
+supplement my income." You know, that was a big dream of many people. But now you open
+up a shop or you open up you get a house and you lease it out you run the risk of all of
+a sudden I get a lawsuit from a plaintiff's counsel and it's going to eradicate all my
+winnings for the entire year. You know, or you know, you bought something that was
+pre-2010. You were compliant pre-2010 when the ADA changes were made and there's been
+other updates since then. And you didn't do anything to the building other than buying
+it. But to prove that you didn't actually
+
+[00:31:51]
+have to become ADA compliant in accordance with the 2010 regulations, it's going to cost
+you more than giving plaintiff's counsel and and their their alleged handicap person
+$10,000 to resolve the case. It's very very very unfortunate. It's something that needs
+to be changed and something that we need to gather all business leaders and business
+owners and say enough's enough. Let's go to Let's go to Tallahassee in Florida. Let's go
+to, you know, your congressman. Let's go to DC and let's make changes because this is
+not the path forward. >> And so this is not about not being accessible. This is about
+people plaintiff's attorneys using legal system to extort money using bad laws and a bad
+legal system to extort money out of small business owners who where there's not an
+actual damage when there's not an actual grievance, we're not anti-accessibility. That's
+that's absurd. But this system is what's being done right now kind of in the name of the
+system is bad and there's got to be a better there's got to be a better way for us as
+small business owners to be more accessible and to do a better job but also not face
+this kind of bullying
+
+[00:32:53]
+and and extortion which is in my mind what it uh what it plays out to. Um really quickly
+cuz I want to close the loop on uh SLAPP. So there there are laws in a lot of states
+where if you file a lawsuit against somebody and it's mainly like the you basically
+assert that the basically the only reason you filed this lawsuit was to cause somebody
+problems and stop them from expressing their opinion in public, then there's like a
+mechanism that short-circuits the whole lawsuit. Um and so we're talking about
+installing something like that where it's like if we could assert that these ADA
+lawsuits are in some way like a a nuisance or like an extortion style lawsuit, then it
+puts a burden back on the plaintiff to actually say, "No, you I've got a real case." And
+then they have to come back and present more. Is that a fair treatment, Gabriel? >>
+Absolutely. And you know what? I would say and most people that I've dealt with that
+I've represented and it's thousands at this point, unfortunately, they will all say the
+same thing. That individual who's filed this lawsuit has never stepped foot in my store.
+They've never come to my building. They didn't even try and access. The kind of person
+that um is allegedly the one bringing you this lawsuit would never visit my website
+
+[00:33:57]
+because we don't sell to that demographic. In fact, you would never go there. It's just
+not something, you know, it's it's a man in a online store with women dresses only. You
+know what I mean? Like that's just an example. It's not based on any truth. But that's
+just the kind of thing that you see and and something needs to be done to stop it. I
+feel like I took I took you guys in a path that was completely different, but it just
+triggered that thought in my head about, you know, these outside parties and and and how
+important it really is as as counsel for you to be aware of the the potential
+consequences of not understanding fully how important and how these SAS companies,
+right? And these cloud-based companies that perform work that you rely on on your day-
+to-day, you don't own your data. You don't have your information. There are
+confidentiality risk in it and you need to be fully aware of how you're using them and
+and and what services are actually providing you and what protections you have to give
+if things go wrong.
+
+[00:34:59]
+>> An extra hassle for them because not only are they dealing with the litigation
+aspects and all the cost and time associated with that, but now they're also having to
+deal with us because, you know, frankly, we don't work for free. So, you know, it's it's
+trying to find a balance to help them, a long-term client, um balance against this thing
+that's just Yeah, it's it's so frustrating and and it's that is a prime example with the
+ADA, but it's been with other things as well over the over the years, you know, when you
+start talking about uh systems and and software and applications and e-commerce
+processes, you know, having the right steps, going through the right steps. Do you do it
+this way? Well, why would we? It's it's just There's just silliness. Uh I don't know how
+else to put it and I know that that's not legal terminology, but silliness, I say. I
+want to step back a little bit and and and I I like I mean, this is this is going into
+my next question pretty well, but uh taking the focus off of ADA specifically and also
+now generalizing this to technology and software companies uh in
+
+[00:36:02]
+a broader sense, what kinds of of legal mistakes or legal footings do you find that
+founders and and CEOs and entrepreneurs make really early on that become very expensive
+later? >> Yeah, I think, you know, one of the things that is essential and it depends on
+the type of business you're in. Um you know, it applies primarily to to companies whose
+assets are are not fixed, right? If if your assets are fixed, then it's it's not
+necessarily as important, but the development of technology companies, of SaaS
+companies, of you know, fintech companies, their assets, their their valuable assets to
+the world, to an IPO, to an eventual sale, is going to be their intellectual property.
+And understanding that their IP, their IP stack, is its most valuable asset, its brand
+connected to that IP
+
+[00:37:11]
+and assets are its most valuable asset is key. You know, a lot of times I have I have
+come across very, very great and I just stick with software companies. Um fintech
+companies that have great products, that have great services, but failed to at the very
+beginning dive into the market to evaluate whether or not they can brand themselves.
+Whether or not because, you know, you can always update your codes, you can update your
+software, you can you can improve it, you can change it, but what you can't always do is
+change or modify or adapt your brand. Because brand brand recognition, goodwill
+associated with your brand and that brand recognition and the quality of service that
+you're providing is key. And that's at times that goodwill is one of the more valuable
+things that you can trade. And if you
+
+[00:38:16]
+don't take care of that at the very beginning, you may find yourself with a great
+product and an opportunity to grow and all to create expand the opportunity to sell. But
+you can't because there's five other companies with your same name, same kind of
+sounding name, your same kind of mark, same kind of logo that could create extreme
+confusion that can make you lose market share and that ultimately may cost your ability
+to grow and expand and actually sell the business because you can't protect it. Um so
+going through that diligence at the very beginning is very, very important. Is my name
+out there? Is it already associated with a particular service? What is that service?
+What class are they in? And what can I do to differentiate it now when I'm still mobile,
+when I'm still agile? Not when I've invested $5 million into the business. >> Right. >>
+You've created a great reputation for yourself within your geography, but the
+
+[00:39:20]
+moment you get out of Miami-Dade County if you're in Miami-Dade or wherever you are,
+there's another competing business that offers a similar service that sounds just like
+your company. You've just you just did a disservice to yourself, to those who were
+invested in you, um and and to the growth of your business and and you know, we all live
+and have dreams to grow and and to expand, but you got to you got to step take a step
+back, make the right investments at the very beginning to explore the viability of your
+brand. >> I'll refer listeners back to a super early episode we did with Reed Lyle, uh
+who owns a print shop uh in the Midwest and uh the original name stepped on the toes of
+Yeti the cooler maker, even though it was not the same name and they were not in the
+same business and Yeti is a a national brand and he had a local brand and on and on and
+well, he doesn't have Yeti in his name anymore, even though it was these businesses had
+nothing to do with each with each and the mark was very different. Um it wasn't worth
+the fight basically. So, he
+
+[00:40:23]
+changed his name and got pushed around by them. Um I think that's exactly what Gabriel's
+talking about is do your do your research early on. >> Yeah, I mean and you know again
+and the reality is we fall in love with names. We fall in love with a logo. We fall in
+love with it as owners um and then you know, ego takes over and and you want to do
+everything you can to protect it and this is mine. But, the reality is the law the law
+doesn't say or doesn't care really what your ego says or what you love, but what's going
+to prevent market confusion. And that's really the the job of the USPTO at the federal
+level and and other trademark and patent offices is we need to protect the integrity of
+the names and brands that have worked very hard to provide a good and service and be
+associated with it. And you can't just come in because you love your name and demand a
+presence in the market. >> Absolutely. I I got several more questions along the lines of
+like licensing agreements and and you know, things that might complicate intellectual
+property in general, but I'm also kind of keeping an eye on time.
+
+[00:41:25]
+So, I I want to I want to shift just a little bit. You know, it's a little further down
+the line now in terms of business maturity. You've you've handled some you know, more
+complex business disputes, you know, partnership conflicts, shareholder disputes. Um I'm
+curious if there are patterns that you can share with our listeners that you see in how
+companies end up in those situations. You know, brand branding and brand awareness
+marketing aside, you know, what what can what can business owners and entrepreneurs and
+and founders do to avoid those types of patterns? >> Yeah, I think you touched on it and
+it's having the right licensing, the right agreement in place even intra companies. But,
+what a lot of things that that occur over time is the owner himself is the registered
+owner of a mark. The company is now you know a multi-million dollar company. It goes to
+an IPO or it goes for an asset purchase or some kind of sale or it's trying to get
+funding and it's
+
+[00:42:28]
+trying to do a big cap raise. And people are saying, "Okay, what does the company own?
+What are its assets?" And they never realized that the intellectual property, that the
+trade name, the trademark is not even owned by the company that's asking for a $10
+billion valuation. It's owned by one of the owners. He has it himself. Or there's a
+business dispute between the members or between the shareholders and one owner's like,
+"Okay, you can we can argue, we can fight. I own the mark. And the mark and the brand
+and the goodwill is going to go with me and it's not an asset of the business. So, it
+disrupts the negotiation table. It it creates havoc. Um it stops sales from occurring
+because your most valuable asset isn't owned by you and you never looked at it or
+determined the reality of it. And they just think, "Well, I'm I'm the owner.
+
+[00:43:32]
+I'm the guy." I'm like, "Yeah, but it's the business that you're trying to ask other
+investors to invest in and you don't own your own IP." Or the company that's raising the
+money doesn't own its own IP. I think that's a very common mistake and it happens. You'd
+be surprised if I gave you the names, you'd be like, "There's no way that that company
+would that." And that's the reality of it is that there's that that those corporate
+documents, those internal agreements, those internal licensing agreements, you know, a
+subsidiary has grown and it's outpacing its parent company. And the parent company has
+been the one that really pushed the sub to grow and funded it. But they never had a
+licensing agreement between them and they parent company wants to use that continue to
+use that mark and now the sub has grown big enough to say, "No, no. This is our brand.
+You don't have any rights over the brand. Thank you for your capital investments. You'll
+get your returns as a as a member or shareholder if you structured it that way.
+
+[00:44:35]
+But we're going to grow and we're going to independent and we own our own IP and you
+don't even have a license to use our IP. It happens a lot. So take care of your internal
+documents as much as you want to protect against third parties and you want to have
+those licensing agreements, you also want to make sure that those internal contracts are
+in place. >> That was actually going to be kind of my next question is how you know what
+what can people do to prevent that to to mitigate that that sort of an issue and and you
+know is it something just as simple as making sure it's under the name of the business
+and not the person? Uh you know and then how does that wrap around larger intellectual
+property like code bases like the the actual software itself outside of like the marks
+and the and the branding? >> It's all contract base and it's all got to be put into a
+structure that makes sense for those who are paying for that code for that software to
+be to be created to be developed and having those agreements in place to ensure that any
+and all work product that is created is retained by the person who is investing for it
+to create. So I Justin and Aaron to develop some really really fancy
+
+[00:45:39]
+technology and and take my business to the next level. Whenever you're done, I own what
+you did. And if and if I don't have that very clear, if my contracts aren't very
+explicit about that, you guys can take it and run and now what am I going to do to
+protect myself? >> For any current or future clients, we have a very clear assignment
+clause in our contract where you own all the IP that we write for you as soon as you pay
+us. Uh just >> Wanted to mention that. >> Yep, let's let's make sure that that is out
+there. >> [laughter] >> Yeah, I I soon as you make that last payment, it becomes an
+automatically without any need uh for anything else to trigger any other provision. It
+gets assigned to the owner, to the true owner, not the developer, right? But you'd be
+surprised how many people don't have that very clear. >> No, it's incredibly important,
+especially cuz it the default is the person did the writing owns the owns the rights
+unless it's signed, I believe. Yeah. So, we had a we actually had a customer recently
+that was uncomfortable with even the we own it until the payment. And we're like, well,
+we can solve that really easily. We just advance the payment.
+
+[00:46:41]
+So, uh and then they're like, that's great. So, we get paid before we even do the work
+just so that there's at no point ownership to us. And I was totally fine. We changed our
+contract and no big deal. So, um yeah, super important. >> The next level of what we're
+talking about is what's going on with AI, right? So, I hire you to make some type of
+software development. You use AI in in part to provide me with the work product. Uh the
+AI was the one that in part created the work product that I am now receiving. Who owns
+the work product? Um did you actually do the work? Are the contract Are is your contract
+fulfilled uh because you in part provided services through the use of some generative AI
+tool rather than your own skills, your own uh abilities. And how do we How do we
+differentiate between that? How do I, you know, negotiate a reduction in in what I'm
+paying you because ultimately half of your job was done by something else. And then in
+using that generative AI, did you supplement or teach or train
+
+[00:47:44]
+that generative AI based on confidential information that I provided you, of which we
+have a NDA or some kind of confidentiality agreement with, but that doesn't apply to
+whatever platform you used. You know, if you put that information into chat uh GPT and
+it spits something out and you use part of that, well, what a contract that I have with
+them or did you have with them? And how did you protect mine? Did you breach it by using
+this generative AI? So, some of these concepts also have to be included in licensing
+agreements. They have to be included in marketing agreements, development agreements,
+software licensing. All of those next-level of intellectual property and AI concepts
+need to be evolved, adapted, and protected in your day-to-day operations because every
+single day we'll become more and more intertwined um with generative AI and all these
+tools that we're all using on a daily basis.
+
+[00:48:45]
+>> Yeah, and I so much want to get into this with you, too. I mean, I I have a whole
+We're going to have to have you back, man. Uh cuz I I really want to get into the legal
+aspects of AI. >> And the privacy aspects. And there's got to be tons of cases of first
+impression happening on everything you just mentioned right now. We don't know what the
+landscape is. It's crazy. >> It is insane. It is insane. It is I mean, we I'm the chair
+as as you mentioned earlier of the intellectual property and technology department of
+our firm. And I would say more than 85% of our time comes in providing opinions related
+to AI and its use in the legal world. I mean, it is incredible. And for us, so we uh at
+Darrow Everet, we have very, very strict policies on what you can use. And we do you
+know, we have now started using Harvey AI. I don't know how familiar you guys are with
+with Harvey. Um and it is a generative AI tool that you train and you provide data. And
+the
+
+[00:49:48]
+confidentiality protections are extremely, extremely tight. We consistently evaluate
+them and it is the most important part of any of it, you know, cuz we could be
+committing malpractice, we could be violating attorney-client privilege every single day
+using any of the tools that are seemingly accessible by putting things to Copilot,
+asking Copilot a question that the Copilot should never hear about because it's
+attorney-client privilege. And how do you protect against that? How do you ensure that
+that's not happening? Um and yeah, I can spend another 5 hours on just this topic alone.
+Um but it is very interesting. >> We'll have you back for at least one more. I would
+love to go super deep on on AI security, privacy, disclosures, NDAs, all that stuff is
+fantastic. We're kind of running into the end of our time here. Is there anything we
+should have asked you or where can people connect with you? >> Uh yeah, you can uh you
+can reach out to our website. All our information and contact is there. Uh my email uh
+gsade@doeverett.com. Um happy to to help or provide any contacts or explanations or
+anything you
+
+[00:50:52]
+heard here today. I hope I didn't scare everyone into starting their own businesses.
+That's not my goal. Um but you do have things to consider and and we have to all realize
+the world that we're living in and how how uniquely prepared you need to be to start a
+business and to thrive. >> Yeah, it's fantastic. It really is It's been a great new
+angle of discussion for us and one we've been very anxious to dive into. So, thank you
+for sharing your time and your insights and talents with us today. Uh we've been talking
+to uh Gabriel Sade, partner at Do Everett LLP and chair of the firm's uh intellectual
+property and technology practice. Uh reach out to him if you got questions about any of
+it. Also, a special thanks as always to our listeners. If you like what you're hearing,
+have ideas for the show, or just want to tell us what's on your mind, hit that like
+button, throw a review our way, subscribe if you are so inclined, and we will see you
+all next time on SaaS That App. Thanks for cruising along with us on SaaS That App. We
+hope you grabbed some insights that were inspiring, actionable, or at least
+entertaining. If you enjoyed the show, don't forget to subscribe and leave a review.
+Until next time, keep building, keep growing, and keep those apps sassy.
