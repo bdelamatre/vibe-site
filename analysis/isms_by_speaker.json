@@ -1,0 +1,213 @@
+{
+  "blog_words": 9413,
+  "blog_posts": 4,
+  "episodes_with_turns": 47,
+  "episodes_total": 62,
+  "turns": 1483,
+  "assumed_justin_share": 0.3,
+  "justin_words": 121414,
+  "others_words": 277010,
+  "validation": {
+    "predicted_justin_turns": 578,
+    "other_turns": 905,
+    "aaron_per10k_in_justin": 4.777043833495314,
+    "aaron_per10k_in_others": 2.4547850258113426,
+    "justin_per10k_in_justin": 6.753751626665788,
+    "justin_per10k_in_others": 4.873470271831342
+  },
+  "address_cue_lift": 1.9460131063478483,
+  "rows": [
+    {
+      "label": "AI",
+      "justin": 214,
+      "others": 463,
+      "total": 677,
+      "justin_rate": 17.625644489103397,
+      "others_rate": 16.714198043391935
+    },
+    {
+      "label": "\u201cand I was like\u201d",
+      "justin": 82,
+      "others": 366,
+      "total": 448,
+      "justin_rate": 6.753751626665788,
+      "others_rate": 13.212519403631639
+    },
+    {
+      "label": "SaaS",
+      "justin": 194,
+      "others": 231,
+      "total": 425,
+      "justin_rate": 15.97838799479467,
+      "others_rate": 8.339049131800296
+    },
+    {
+      "label": "founder(s)",
+      "justin": 106,
+      "others": 200,
+      "total": 306,
+      "justin_rate": 8.730459419836263,
+      "others_rate": 7.219955958268654
+    },
+    {
+      "label": "basically",
+      "justin": 90,
+      "others": 140,
+      "total": 230,
+      "justin_rate": 7.4126542243892795,
+      "others_rate": 5.053969170788058
+    },
+    {
+      "label": "obviously",
+      "justin": 41,
+      "others": 128,
+      "total": 169,
+      "justin_rate": 3.376875813332894,
+      "others_rate": 4.620771813291939
+    },
+    {
+      "label": "absolutely",
+      "justin": 39,
+      "others": 92,
+      "total": 131,
+      "justin_rate": 3.212150163902021,
+      "others_rate": 3.321179740803581
+    },
+    {
+      "label": "things like that",
+      "justin": 13,
+      "others": 65,
+      "total": 78,
+      "justin_rate": 1.0707167213006736,
+      "others_rate": 2.3464856864373127
+    },
+    {
+      "label": "literally",
+      "justin": 30,
+      "others": 40,
+      "total": 70,
+      "justin_rate": 2.470884741463093,
+      "others_rate": 1.443991191653731
+    },
+    {
+      "label": "churn",
+      "justin": 28,
+      "others": 35,
+      "total": 63,
+      "justin_rate": 2.30615909203222,
+      "others_rate": 1.2634922926970145
+    },
+    {
+      "label": "ideal customer profile",
+      "justin": 4,
+      "others": 43,
+      "total": 47,
+      "justin_rate": 0.3294512988617458,
+      "others_rate": 1.5522905310277608
+    },
+    {
+      "label": "MVP",
+      "justin": 14,
+      "others": 29,
+      "total": 43,
+      "justin_rate": 1.15307954601611,
+      "others_rate": 1.0468936139489549
+    },
+    {
+      "label": "product-market fit",
+      "justin": 10,
+      "others": 33,
+      "total": 43,
+      "justin_rate": 0.8236282471543644,
+      "others_rate": 1.191292733114328
+    },
+    {
+      "label": "bootstrap(ped)",
+      "justin": 11,
+      "others": 25,
+      "total": 36,
+      "justin_rate": 0.9059910718698009,
+      "others_rate": 0.9024944947835818
+    },
+    {
+      "label": "technical debt",
+      "justin": 22,
+      "others": 13,
+      "total": 35,
+      "justin_rate": 1.8119821437396018,
+      "others_rate": 0.46929713728746253
+    },
+    {
+      "label": "makes sense",
+      "justin": 10,
+      "others": 18,
+      "total": 28,
+      "justin_rate": 0.8236282471543644,
+      "others_rate": 0.6497960362441789
+    },
+    {
+      "label": "at the end of the day",
+      "justin": 7,
+      "others": 15,
+      "total": 22,
+      "justin_rate": 0.576539773008055,
+      "others_rate": 0.5414966968701491
+    },
+    {
+      "label": "honestly",
+      "justin": 4,
+      "others": 17,
+      "total": 21,
+      "justin_rate": 0.3294512988617458,
+      "others_rate": 0.6136962564528357
+    },
+    {
+      "label": "go to market",
+      "justin": 1,
+      "others": 18,
+      "total": 19,
+      "justin_rate": 0.08236282471543645,
+      "others_rate": 0.6497960362441789
+    },
+    {
+      "label": "runway",
+      "justin": 5,
+      "others": 8,
+      "total": 13,
+      "justin_rate": 0.4118141235771822,
+      "others_rate": 0.2887982383307462
+    },
+    {
+      "label": "edge case(s)",
+      "justin": 3,
+      "others": 8,
+      "total": 11,
+      "justin_rate": 0.24708847414630933,
+      "others_rate": 0.2887982383307462
+    },
+    {
+      "label": "north star",
+      "justin": 2,
+      "others": 8,
+      "total": 10,
+      "justin_rate": 0.1647256494308729,
+      "others_rate": 0.2887982383307462
+    },
+    {
+      "label": "tech stack",
+      "justin": 2,
+      "others": 3,
+      "total": 5,
+      "justin_rate": 0.1647256494308729,
+      "others_rate": 0.10829933937402982
+    },
+    {
+      "label": "greenfield",
+      "justin": 4,
+      "others": 1,
+      "total": 5,
+      "justin_rate": 0.3294512988617458,
+      "others_rate": 0.036099779791343274
+    }
+  ]
+}

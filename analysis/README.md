@@ -13,7 +13,50 @@ of roughly equal size (20/21/21 episodes), so the bars compare like with like.
   [`isms_by_era.tsv`](isms_by_era.tsv) · machine-readable:
   [`isms.json`](isms.json)
 
-## Why there is no per-speaker split
+## The estimated per-speaker split
+
+![Isms by speaker, estimated](saas-that-app-isms-by-speaker.png)
+
+[`isms_by_speaker.json`](isms_by_speaker.json) · built by
+[`scripts/attribute.py`](scripts/attribute.py)
+
+**This chart is a guess, and it is labelled as one.** There is no speaker
+attribution in the captions (see below), so speech is sorted into "Justin" and
+"everyone else" by lexical similarity to the 9,413 words Justin has published on
+[justinedwards.me](https://justinedwards.me/) across 4 posts. Read the shares,
+not the segment sizes.
+
+How it works: episodes are split into `>>`-delimited turns (47 of the 62
+episodes carry markers, giving 1,483 scoreable turns), a log-odds fingerprint is
+built from Justin's blog against the podcast as background, each turn is scored,
+and the highest-scoring turns are labelled Justin.
+
+Three things limit it, and they all push the same way:
+
+1. **The 30% split is assumed, not discovered.** Justin is one of two co-hosts
+   sharing time with a guest, so the threshold is set to make him 30% of
+   attributed words. Segment *sizes* therefore encode that assumption; only each
+   bar's *share* carries information, and 30% is the parity point (marked on
+   each bar).
+2. **Blog prose and unscripted speech are different registers.** Function words
+   carry most stylometric signal, but here they mostly encode "written vs
+   spoken", so the fingerprint is restricted to content words — which makes it
+   lean on *topic* more than *style*. Its top terms are things like `caching`,
+   `elasticsearch`, `middleman`, `staging`. It finds infrastructure talk, and
+   infers Justin from it.
+3. **Validation says weak-but-real.** Hosts address each other by name, so a
+   turn saying "Aaron" is usually *not* Aaron speaking. Predicted-Justin turns
+   mention Aaron **1.95× more** than the rest — evidence of genuine signal,
+   independent of the blog. But predicted-Justin turns also mention *Justin*
+   more (6.75 vs 4.87 per 10k), which they should not if the split were clean.
+   That pattern says the classifier is substantially separating **host banter
+   from guest monologue**, with only a mild Justin-vs-Aaron tilt on top.
+
+Treat the numbers as a hypothesis to check against a real diarization run, not
+as a finding. `technical debt` at 63% Justin and `ideal customer profile` at 9%
+are the kind of claims that would be first to fall.
+
+## Why there is no *measured* per-speaker split
 
 There is no speaker attribution in the source data, and no sound way to
 reconstruct it from text:
