@@ -1,25 +1,25 @@
 phrase	regex	total_occurrences	rate_per_10k	2025-04 → 2025-08 (count/rate)	2025-08 → 2026-02 (count/rate)	2026-02 → 2026-07 (count/rate)
-you know	\byou know\b	4842	95.214	1772/119.872	1373/81.883	1697/87.910
-kind of / sort of	\b(?:kind|sort) of\b	2607	51.264	761/51.480	844/50.334	1002/51.907
-actually	\bactually\b	1036	20.372	253/17.115	422/25.167	361/18.701
-a lot of	\ba lot of\b	1015	19.959	329/22.256	306/18.249	380/19.685
-I mean	\bi mean\b	854	16.793	343/23.203	201/11.987	310/16.059
 AI	\bai\b	782	15.377	184/12.447	208/12.405	390/20.203
 “and I was like”	\b(?:i|he|she|they|we)\s*(?:'m|'s|'re|was|were|am|is|are)\s+like\b	541	10.638	102/6.900	178/10.616	261/13.521
 SaaS	\b(?:saas|sas|sass)\b	460	9.045	95/6.427	166/9.900	199/10.309
-a little bit	\ba little bit\b	438	8.613	128/8.659	162/9.661	148/7.667
 founder(s)	\bfounders?\b	406	7.984	187/12.650	117/6.978	102/5.284
 basically	\bbasically\b	294	5.781	81/5.479	106/6.322	107/5.543
-I don't know	\bi don't know\b	260	5.113	87/5.885	80/4.771	93/4.818
 obviously	\bobviously\b	214	4.208	74/5.006	81/4.831	59/3.056
+absolutely	\babsolutely\b	184	3.618	65/4.397	68/4.055	51/2.642
 things like that	\bthings like that\b	102	2.006	26/1.759	38/2.266	38/1.969
 literally	\bliterally\b	99	1.947	34/2.300	28/1.670	37/1.917
 churn	\bchurn(?:ed|ing)?\b	69	1.357	8/0.541	29/1.729	32/1.658
 MVP	\bmvps?\b	60	1.180	40/2.706	9/0.537	11/0.570
+bootstrap(ped)	\bboot ?strap(?:ped|ping)?\b	53	1.042	23/1.556	18/1.073	12/0.622
 product-market fit	\bproduct[\s-]market fit\b	48	0.944	9/0.609	25/1.491	14/0.725
+ideal customer profile	\b(?:icp|ideal customer profile)\b	47	0.924	0/0.000	7/0.417	40/2.072
+makes sense	\bmakes sense\b	42	0.826	13/0.879	14/0.835	15/0.777
+technical debt	\btech(?:nical)? debt\b	35	0.688	0/0.000	30/1.789	5/0.259
 honestly	\bhonestly\b	32	0.629	14/0.947	8/0.477	10/0.518
 at the end of the day	\bat the end of the day\b	25	0.492	6/0.406	8/0.477	11/0.570
+go to market	\bgo[- ]to[- ]market\b	20	0.393	1/0.068	2/0.119	17/0.881
 tech stack	\btech stack\b	16	0.315	11/0.744	1/0.060	4/0.207
-dev shop	\bdev shops?\b	3	0.059	2/0.135	0/0.000	1/0.052
-100%	\b100\s*(?:%|percent)\b	0	0.000	0/0.000	0/0.000	0/0.000
-build vs buy	\bbuild (?:vs\.?|versus) buy\b	0	0.000	0/0.000	0/0.000	0/0.000
+runway	\brunway\b	13	0.256	4/0.271	5/0.298	4/0.207
+edge case(s)	\bedge case[sd]?\b	11	0.216	1/0.068	5/0.298	5/0.259
+north star	\bnorth star\b	10	0.197	1/0.068	3/0.179	6/0.311
+greenfield	\bgreen ?field\b	8	0.157	4/0.271	0/0.000	4/0.207

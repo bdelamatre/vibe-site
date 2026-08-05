@@ -46,31 +46,38 @@ def strip_scripted(text, boiler, n=8, frac=0.5):
 
 
 # label -> regex. Case-insensitive, word-boundary anchored.
+#
+# Generic English scaffolding is deliberately EXCLUDED: "you know" (95.2/10k),
+# "kind of / sort of" (51.3), "actually" (20.4), "a lot of" (20.0), "I mean"
+# (16.8), "a little bit" (8.6) and "I don't know" (5.1). They are the corpus's
+# most frequent phrases by a wide margin, but they are ordinary conversational
+# filler rather than anything characteristic of this show, and on one linear
+# scale they flatten every distinctive term to invisibility.
 PATTERNS = [
-    ("you know",                r"\byou know\b"),
-    ("kind of / sort of",       r"\b(?:kind|sort) of\b"),
-    ("a lot of",                r"\ba lot of\b"),
-    ("SaaS",                    r"\b(?:saas|sas|sass)\b"),
-    ("I mean",                  r"\bi mean\b"),
-    ("a little bit",            r"\ba little bit\b"),
     ("AI",                      r"\bai\b"),
-    ("actually",                r"\bactually\b"),
-    ("I don't know",            r"\bi don't know\b"),
     ("“and I was like”", r"\b(?:i|he|she|they|we)\s*(?:'m|'s|'re|was|were|am|is|are)\s+like\b"),
+    ("SaaS",                    r"\b(?:saas|sas|sass)\b"),
     ("founder(s)",              r"\bfounders?\b"),
-    ("at the end of the day",   r"\bat the end of the day\b"),
-    ("things like that",        r"\bthings like that\b"),
-    ("100%",                    r"\b100\s*(?:%|percent)\b"),
-    ("literally",               r"\bliterally\b"),
-    ("obviously",               r"\bobviously\b"),
     ("basically",               r"\bbasically\b"),
-    ("honestly",                r"\bhonestly\b"),
-    ("product-market fit",      r"\bproduct[\s-]market fit\b"),
-    ("MVP",                     r"\bmvps?\b"),
+    ("obviously",               r"\bobviously\b"),
+    ("absolutely",              r"\babsolutely\b"),
+    ("things like that",        r"\bthings like that\b"),
+    ("literally",               r"\bliterally\b"),
     ("churn",                   r"\bchurn(?:ed|ing)?\b"),
+    ("MVP",                     r"\bmvps?\b"),
+    ("bootstrap(ped)",          r"\bboot ?strap(?:ped|ping)?\b"),
+    ("product-market fit",      r"\bproduct[\s-]market fit\b"),
+    ("ideal customer profile",  r"\b(?:icp|ideal customer profile)\b"),
+    ("makes sense",             r"\bmakes sense\b"),
+    ("technical debt",          r"\btech(?:nical)? debt\b"),
+    ("honestly",                r"\bhonestly\b"),
+    ("at the end of the day",   r"\bat the end of the day\b"),
+    ("go to market",            r"\bgo[- ]to[- ]market\b"),
     ("tech stack",              r"\btech stack\b"),
-    ("dev shop",                r"\bdev shops?\b"),
-    ("build vs buy",            r"\bbuild (?:vs\.?|versus) buy\b"),
+    ("runway",                  r"\brunway\b"),
+    ("edge case(s)",            r"\bedge case[sd]?\b"),
+    ("north star",              r"\bnorth star\b"),
+    ("greenfield",              r"\bgreen ?field\b"),
 ]
 
 
